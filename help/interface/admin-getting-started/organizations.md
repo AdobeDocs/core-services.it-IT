@@ -1,0 +1,74 @@
+---
+description: Informazioni sulle organizzazioni e sul collegamento di account delle soluzioni a Experience Cloud.
+keywords: servizi di base
+seo-description: Informazioni sulle organizzazioni e sul collegamento di account delle soluzioni a Experience Cloud.
+seo-title: Organizzazioni e collegamento di account
+solution: Marketing Cloud
+title: Organizzazioni e collegamento di account
+uuid: ae 47 ad 18-ac 33-4 efa -8 b 68-2 bfaf 77397 aa
+translation-type: tm+mt
+source-git-commit: d9618a5e5a9b2cfbd1088acc8e970c0d6b477289
+
+---
+
+
+# Organizzazioni e collegamento di account
+
+Scopri come gestire le organizzazioni e collegare account della soluzione a Experience Cloud.
+
+<!-- accounts-experience-cloud.xml -->
+
+## Identificazione della tua organizzazione {#concept_384D169B0B724B799D573B8ECB5C39BF}
+
+Un&#39;*organizzazione* è l&#39;entità che consente all&#39;amministratore di configurare gruppi e utenti e di controllare il single sign-on in Experience Cloud. L&#39;organizzazione funziona come un&#39;azienda che abbraccia tutti i prodotti e le soluzioni Experience Cloud. Nella maggior parte dei casi, un&#39;organizzazione è il nome dell&#39;azienda. Tuttavia, un&#39;azienda può avere molte organizzazioni.
+
+Inoltre, potresti dover individuare il tuo ID organizzazione a scopi di assistenza. Puoi verificare si essere nell&#39;organizzazione corretta o cambiare organizzazione utilizzando il menu **[!UICONTROL Organizzazione].**
+
+![Risultato passaggio](assets/organization-switch.png)
+
+## Ricerca dell&#39;ID organizzazione {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
+
+L&#39;ID **organizzazione** è l&#39;ID associato alla società Experience Cloud in provisioning. Questo ID è una stringa alfanumerica composta da 24 caratteri, seguita da (deve includere) @AdobeOrg.
+
+Per visualizzare l&#39;ID organizzazione, passa alla pagina di destinazione Experience Cloud oppure fai clic su ( ![](assets/menu-icon.png)), quindi su **[!UICONTROL Amministrazione]**. Puoi trovare l&#39;ID organizzazione nella parte inferiore della [!UICONTROL Guida introduttiva di Experience Cloud] o della [!UICONTROL pagina Amministrazione] .
+
+![](assets/administration-page.png)
+
+## Collegamento di un account soluzione a un Adobe ID {#task_FD389E78640848919E247AC5E95B8369}
+
+In genere, gli amministratori di Experience Cloud concedono l&#39;accesso a soluzioni e servizi. In rare circostanze, potresti aver bisogno di collegare le credenziali della soluzione a un Adobe ID.
+
+1. Segui i passaggi contenuti nell&#39;e-mail di invito a Experience Cloud.
+1. Accedi utilizzando il tuo Adobe ID o Enterprise ID.
+1. Fai clic sul selettore della soluzione. ( ![](assets/menu-icon.png)).
+
+   ![](assets/solutions-active.png)
+
+   Le soluzioni a cui hai accesso sono colorate.
+1. Fai clic sulla soluzione desiderata.
+
+   ![](assets/analytics-link-accounts.png)
+
+   Questo tipo di messaggio visualizza se fai parte del gruppo appropriato (e disponi dell&#39;autorizzazione per la soluzione) ma non hai ancora collegato le credenziali del tuo account al tuo Adobe ID.
+1. Fate clic **[!UICONTROL su Collega account]**, quindi fornite le vostre credenziali.
+
+## Specificare una organizzazione e una pagina di destinazione predefinite {#concept_6A191B42A9874A9780882903BA18F071}
+
+Puoi specificare un&#39;organizzazione predefinita e una pagina di destinazione da usare al momento dell&#39;accesso.
+
+Nel tuo profilo, fai clic su **[!UICONTROL Modifica profilo]**.
+
+![](assets/edit-profile.png)
+
+In Organizzazione e pagina di destinazione predefinite puoi personalizzare la tua esperienza di accesso.
+
+![](assets/default-organization.png)
+
+## Risoluzione dei problemi di collegamento dell&#39;account {#concept_DFCB29A3B4834FC59AA29E0BBA301584}
+
+Aiuto per problemi derivanti dal collegamento dell&#39;account.
+
+Solitamente, se un collegamento dell&#39;account non viene completato correttamente, significa che l&#39;Adobe ID è collegato a un utente precedente. Quando il collegamento dell&#39;account non dà esito positivo, puoi:
+
+* [contattare l&#39;Assistenza Adobe](https://helpx.adobe.com/marketing-cloud/contact-support.html);
+* accedere alla soluzione mediante l&#39;accesso standard durante la risoluzione del problema.
