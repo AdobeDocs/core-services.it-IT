@@ -1,0 +1,45 @@
+---
+description: Scopri come condividere o pubblicare risorse e report di Analytics da condividere con altri tramite la funzione Feed di Experience Cloud.
+keywords: servizi di base
+seo-description: Scopri come condividere o pubblicare risorse e rapporti di Adobe Analytics con altri utenti usando il feed di Experience Cloud.
+seo-title: Feed
+solution: Experience Cloud
+title: Feed
+uuid: 7 ff 327 d 1-5 a 74-49 fb -8 c 3 c -729034818 ebc
+translation-type: tm+mt
+source-git-commit: af5339fe58ce884345804574c209907d6504a483
+
+---
+
+
+# Feed
+
+Scopri come condividere o pubblicare risorse e report di Analytics da condividere con altri tramite la funzione Feed di Experience Cloud.
+
+Al primo accesso a Experience Cloud, il feed potrebbe essere vuoto. Man mano che crei post e condividi elementi e altri utenti condividono con te i loro contenuti, il feed si popolerà in maniera automatica affinché tu e il suo team possiate essere costantemente aggiornati.
+
+![](assets/posts.png)
+
+Le impostazioni in Feed includono:
+
+* **Argomenti: Tutto\ &lt; nome organizzazione\ &gt;:** Mostra tutti i post che sono stati condivisi con te e tutti i post a cui puoi accedere.
+* **Gestisci argomenti:** puoi seguire, non seguire più o suggerire argomenti. Inoltre, gli amministratori possono approvare, rifiutare, disattivare e creare argomenti.
+* **Nuovo post:** crea post che i membri dei gruppi possono vedere.
+* **Tutti i post:** visualizza tutti i post nel tuo feed.
+* **Post personali:** visualizza solamente i tuoi post.
+* **Riferimenti:** visualizza i post in cui sei citato o è citato il tuo gruppo.
+* **Preferiti:** visualizza i post contrassegnati come preferiti.
+
+## Condivisione di un progetto Analytics in Feed {#section_F2BDF9FEF4394686BAC5051CBE913EE5}
+
+Puoi condividere report da [!UICONTROL Reports &amp; Analytics] in Experience Cloud Feed.
+
+1. [Accedi](admin-getting-started/getting-started-experience-cloud.md#topic_AC564B6795334DE39359ADD87F52F2E0) a Experience Cloud con il tuo Adobe ID.
+
+1. Passa a Reports &amp; Analytics e [crea un progetto](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/freeform_overview.html).
+
+1. Click **[!UICONTROL More]** &gt; **[!UICONTROL Share]**.
+
+   ![](assets/share_report.png)
+
+1. Nella finestra Condividi, aggiungi i destinatari e fai clic su **[!UICONTROL Condividi]**.
