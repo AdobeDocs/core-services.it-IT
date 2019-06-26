@@ -5,8 +5,8 @@ seo-description: Una panoramica delle nuove funzionalità e degli aggiornamenti 
 seo-title: Novità in Experience Cloud
 solution: Experience Cloud
 title: Novità in Experience Cloud
-uuid: bc 1 b 1542-1 a 37-4 da 1-bcfd-fc 86 af 881642
-translation-type: tm+mt
+uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
+translation-type: ht
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -21,7 +21,7 @@ Una panoramica delle nuove funzionalità e degli aggiornamenti in Experience Clo
 Correzioni e miglioramenti per agosto 2018.
 
 * È stata migliorata la sincronizzazione dei commenti sulle risorse tra Creative Cloud ed Experience Cloud. (CORE-15971)
-* Aggiunto flag di funzione per controllare la sincronizzazione delle risorse di Experience Cloud-Creative Cloud. (CORE-15938)
+* È stato aggiunto un flag di funzione per controllare la sincronizzazione di risorse tra Experience Cloud e Creative Cloud. (CORE-15938)
 * È stata migliorata la creazione di segmenti di pubblico, compresa l’esperienza di ricerca e inserimento nell’elenco. (CORE-5833, CORE-14278)
 * È stato corretto un problema di priorità elevata che bloccava la condivisione di cartelle da MAC a Creative Cloud. (CORE-16677)
 
@@ -67,23 +67,22 @@ Molte delle notifiche di manutenzione su interventi pianificati di manutenzione/
 |--- |--- |
 | Notifiche - Impostazioni granulari | Puoi abilitare le notifiche per eventi e attività relative a prodotti e soluzioni, comprese le notifiche sull’attività di caricamento di [Attributi clienti](../attributes/attributes.md). |
 | Notifiche - Notifiche di manutenzione | Nelle impostazioni di notifica, puoi attivare le notifiche di manutenzione relative a prodotti e soluzioni. |
-| Admin Console per soluzioni Experience Cloud | I nuovi clienti Experience Cloud possono iniziare a utilizzare Admin Console, una posizione centrale per la gestione delle adesioni Adobe nell&#39;intera organizzazione.<br>La migrazione ad Admin Console per la gestione degli utenti procederà a ondate. Adobe ti contatterà (amministratori di sistema) quando è il momento di effettuare la migrazione.<br>Amministratori Analytics, consultare [Migrazione Analytics](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/). |
+| Admin Console per soluzioni Experience Cloud | I nuovi clienti Experience Cloud possono iniziare a utilizzare Admin Console, una posizione centrale per la gestione delle adesioni Adobe nell&#39;intera organizzazione.<br>La migrazione ad Admin Console per la gestione degli utenti procederà a ondate. Adobe ti contatterà (amministratori di sistema) quando è il momento di effettuare la migrazione.<br>Se sei amministratore di Analytics, consulta [Migrazione in Analytics](https://marketing.adobe.com/resources/help/it_IT/experience-cloud/admin-console/analytics-migration/). |
 
 ## 22 maggio 2017 {#section_242FE649FA1B4BFA88EC6E353D175ACC}
 
 | Funzione | Descrizione |
 |--- |--- |
-| Mappatura di massa suite di rapporti | In Amministrazione &gt; Mappatura suite di rapporti ora puoi selezionare più suite di rapporti, quindi mapparle su un&#39;organizzazione. (in precedenza era necessario mapparle singolarmente).  <br>[La mappatura delle suite di rapporti su un&#39;unica organizzazione consente di abilitare funzioni e servizi tra più soluzioni in Experience Cloud.](../core-services/core-services.md) |
-| Aggiornamenti relativi al pubblico di Experience Cloud | **Applicazione di Report: è ora**<br>possibile applicare una suite di rapporti a tutte le tue regole [per l&#39;audience](../audience-library/t-audience-create.md). (in precedenza era necessario indicare una suite di rapporti per ciascuna definizione di regola). <br>**Prop e variablesè**<br>ora possibile includere proprietà Analytics e variabili predefinite (oltre a evar ed eventi) in audience in tempo reale. |
+| Mappatura di massa suite di rapporti | In Amministrazione &gt; Mappatura suite di rapporti ora puoi selezionare più suite di rapporti, quindi mapparle su un&#39;organizzazione. (in precedenza era necessario mapparle singolarmente).  <br>[La mappatura delle suite di rapporti](../core-services/core-services.md) su un&#39;unica organizzazione consente di abilitare funzioni e servizi tra più soluzioni in Experience Cloud. |
+| Aggiornamenti relativi al pubblico di Experience Cloud | **Applicazione di suite di rapporti**<br>Ora puoi applicare una suite di rapporti a tutte le tue [regole per il pubblico](../audience-library/t-audience-create.md). (in precedenza era necessario indicare una suite di rapporti per ciascuna definizione di regola). <br>**Prop e variabili**<br>Ora è possibile includere le proprietà di Analytics e le variabili predefinite (oltre a eVar ed eventi) per il pubblico in tempo reale. |
 
 ## 8 novembre 2016 - 16.11.1 {#section_7065A9BCCDF544C2BB37E9A7D661EA6A}
 
 | Funzione | Descrizione |
 |--- |--- |
-| Aggiornamento del profilo e delle password | Gli utenti non possono più modificare le informazioni del profilo utente IMS in Dati personali nella sezione Modifica profilo &gt; Profilo e password, Al contrario, gli utenti vengono reindirizzati a `accounts.adobe.com`. Questo vale per tutti i tipi di identità (Adobe ID, Enterprise e Federated). |
+| Aggiornamento del profilo e delle password | Gli utenti non possono più modificare le informazioni del profilo utente IMS in Dati personali nella sezione Modifica profilo &gt; Profilo e password, bensì vengono reindirizzati a `accounts.adobe.com`. Questo vale per tutti i tipi di identità (Adobe ID, Enterprise e Federated). |
 
 **Correzioni**
 
 * Risolto un problema relativo alle password tecniche che causava un errore nella condivisione delle cartelle tra Creative Cloud e Experience Cloud. (MAC-31067, MAC-32014)
 * Risolto un problema relativo al caricamento di certi tipi di file, inclusi i PDF, che era stato riscontrato dopo il rilascio di ottobre nel servizio core Assets. (MAC-32517)
-
