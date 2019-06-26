@@ -1,12 +1,12 @@
 ---
 description: Se non effettui il caricamento trascinando la selezione, puoi caricare l'attributo del cliente in Experience Cloud tramite FTP.
-keywords: attributi del cliente; servizi di base
+keywords: attributi del cliente;servizi principali
 seo-description: Se non effettui il caricamento trascinando la selezione, puoi caricare l'attributo del cliente in Experience Cloud tramite FTP.
 seo-title: Facoltativo - Caricamento del file di dati tramite FTP
 solution: Experience Cloud
 title: Facoltativo - Caricamento del file di dati tramite FTP
-uuid: 5 df 565 dd-b 6 f 8-420 e -981 f -4 b 6 fc 6 f 7 d 0 e 4
-translation-type: tm+mt
+uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
+translation-type: ht
 source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 ---
@@ -16,17 +16,17 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 Se non effettui il caricamento trascinando la selezione, puoi caricare l&#39;attributo del cliente in Experience Cloud tramite FTP.
 
-Puoi caricare i dati dopo la creazione di un&#39;origine attributo del cliente e un account FTP in Experience Cloud. Puoi creare un account FTP per origine attributo. I file caricati vengono archiviati nella cartella principale di quell&#39;account. I dati devono essere in [!DNL .csv] formato, con un secondo [!DNL .fin] file che indica che il caricamento è completo.
+Puoi caricare i dati dopo la creazione di un&#39;origine attributo del cliente e un account FTP in Experience Cloud. Puoi creare un account FTP per origine attributo. I file caricati vengono archiviati nella cartella principale di quell&#39;account. I dati devono essere in formato [!DNL .csv] e un secondo file [!DNL .fin] deve indicare il completamento del caricamento.
 
 >[!IMPORTANT]
 >
->Requisiti [del file di dati Rivedi i requisiti del cliente per caricare gli attributi](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) del cliente prima di caricare il file.
+>Rivedi [Requisiti del file di dati per il caricamento degli attributi del cliente](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) prima di caricare il file.
 
 
 Puoi effettuare i caricamenti di file al sito FTP degli attributi del cliente tramite FTP o SFTP.
 
 * Dovere disporre di un client che supporta le connessioni SFTP.
-* Puoi effettuare la connessione con SFTP utilizzando nome utente/password oppure senza utilizzare la password, come spiegato [qui](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/?f=ftp_sftp_cert_auth).
+* Puoi connetterti a SFTP utilizzando nome utente e password oppure senza password, come descritto [qui](https://marketing.adobe.com/resources/help/it_IT/whitepapers/ftp/?f=ftp_sftp_cert_auth).
 
 
 
@@ -41,13 +41,13 @@ Puoi effettuare i caricamenti di file al sito FTP degli attributi del cliente tr
 
 1. [Crea un&#39;origine attributo del cliente e carica il file di dati...](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78).
 
-   Verifica di aver effettuato l&#39;accesso al tuo sito FTP in [!DNL ftp. adobe. com/<sftpname>].
+   Verifica di aver effettuato l’accesso al tuo sito FTP all’indirizzo [!DNL ftp.adobe.com/<sftpname>].
 
-1. Fate clic su **[!UICONTROL Azioni]** &gt; **[!UICONTROL Caricamento file]**.
+1. Fai clic su **[!UICONTROL Azioni]** &gt; **[!UICONTROL Caricamento file]**.
 
-1. Caricate un [!DNL .fin] file per recuperare il file.
+1. Carica un file [!DNL .fin] in modo che possa essere recuperato.
 
-   Il tipo [!DNL .fin] di file viene creato dall&#39;utente e segnala che il caricamento è terminato. Può essere un file del blocco note vuoto. Ad esempio, se caricate [!DNL crs123.csv], [!DNL crs123.fin]caricate anche.
+   Il tipo di file [!DNL .fin] è creato dall’utente e segnala che il caricamento è terminato. Può essere un file del blocco note vuoto. Ad esempio, se carichi [!DNL crs123.csv], carica anche [!DNL crs123.fin].
 
    Se il caricamento viene eseguito correttamente, entrambi i file vengono spostati in una cartella denominata **processed (elaborati)**.
 
