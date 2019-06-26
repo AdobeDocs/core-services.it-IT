@@ -1,12 +1,12 @@
 ---
 description: Considerazioni e pratiche ottimali sui dati personali caricati e utilizzati in Adobe Experience Cloud.
-keywords: attributi del cliente; servizi di base
+keywords: attributi del cliente;servizi principali
 seo-description: Considerazioni e pratiche ottimali sui dati personali caricati e utilizzati in Adobe Experience Cloud.
 seo-title: Considerazioni sulla privacy - Attributi del cliente
 solution: Experience Cloud
 title: Considerazioni sulla privacy - Attributi del cliente
-uuid: 5666 dc 4 e -55 fa -4196-9985-cf 530 cfb 9247
-translation-type: tm+mt
+uuid: 5666dc4e-55fa-4196-9985-cf530cfb9247
+translation-type: ht
 source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 ---
@@ -34,7 +34,7 @@ Una delle principali motivazioni per cui un inserzionista utilizza questi strume
 
 Adobe sa che questi tipi di decisioni in ambito marketing e pubblicitario possono avere delle implicazioni in merito alla privacy del consumatore, ed è il motivo per cui Adobe ha instaurato dei controlli sulla privacy per aiutare gli inserzionisti a soddisfare le aspettative dei consumatori. Adobe consiglia agli inserzionisti di considerare attentamente le informazioni da ritenersi appropriate per l&#39;utilizzo a fini di marketing e le situazioni in cui l&#39;inserzionista dispone dell&#39;autorizzazione per utilizzare tali informazioni.
 
-**Procedure ottimali**
+**Procedure consigliate**
 
 Quando carichi i dati PII in Adobe Analytics o Target, Adobe consiglia di immettere gli hash prima di effettuare il caricamento in Adobe. Le informazioni con hash possono essere utilizzate per analisi e per scopi di marketing. Adobe vieta agli inserzionisti di inviare dati personali ad Adobe Analytics e Target, come ad esempio record medici, informazioni finanziarie e sui minori.
 
