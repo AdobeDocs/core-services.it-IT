@@ -6,8 +6,8 @@ seo-title: Aggiornamento ad Analytics Premium e Experience Cloud
 solution: Experience Cloud
 title: Aggiornamento ad Analytics Premium e Experience Cloud
 topic: Premium
-uuid: 450 a 601 c-d 199-4 e 90-b 525-19 bd 9 f 9576 d 2
-translation-type: tm+mt
+uuid: 450a601c-d199-4e90-b525-19bd9f9576d2
+translation-type: ht
 source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 ---
@@ -25,7 +25,7 @@ Con l&#39;aggiornamento ad Adobe Analytics Premium hai accesso a tutte le funzio
 Analytics Premium fornisce:
 
 * Accesso a 250 variabili di conversione (eVars)
-* [Mobile App Analytics](https://marketing.adobe.com/resources/help/en_US/mobile/)
+* [Mobile App Analytics](https://marketing.adobe.com/resources/help/it_IT/mobile/)
 * Data Workbench (query di dati visivi; attribuzione sulle regole; analisi tra canali)
 
 
@@ -55,9 +55,9 @@ In Analytics Premium Complete, puoi utilizzare tutte le funzionalità di [Analyt
 
 | Prodotto | Aggiornamenti |
 |--- |--- |
-| Reports &amp; Analytics | <ul><li>[Analisi di contributo](https://marketing.adobe.com/resources/help/en_US/analytics/contribution/)</li><li>[Attributi del cliente](../attributes/attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1) (Fino a 200)</li></ul> |
+| Reports &amp; Analytics | <ul><li>[Contribution Analysis](https://marketing.adobe.com/resources/help/en_US/analytics/contribution/)</li><li>[Attributi del cliente](../attributes/attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1) (Fino a 200)</li></ul> |
 | Data Workbench | <ul><li>Attribuzione algoritmica</li><li>Aree di lavoro pre-costruite</li></ul> |
-| Piattaforma Analytics | [Flusso live](https://marketing.adobe.com/developer/documentation/analytics-live-stream/overview-1) (dati non elaborati, dashboard, attivatori) |
+| Piattaforma Analytics | [Live Stream](https://marketing.adobe.com/developer/documentation/analytics-live-stream/overview-1) (dati grezzi, dashboard, trigger) |
 
 
 ## Predictive Intelligence {#section_B407932C07A7476F83FB0275C3FB63DC}
@@ -66,7 +66,7 @@ L&#39;aggiornamento a Predictive Intelligence abilita [Analytics Premium](../adm
 
 | Prodotto | Aggiornamenti |
 |---|---|
-| Reports &amp; Analytics | [Analisi di contributo](https://marketing.adobe.com/resources/help/en_US/analytics/contribution/) |
+| Reports &amp; Analytics | [Contribution Analysis](https://marketing.adobe.com/resources/help/en_US/analytics/contribution/) |
 | Data Workbench | Aree di lavoro pre-costruite per le qualifiche dei tipi di pubblico e il marketing predittivo. |
 | Piattaforma Analytics | Flusso live (dashboard e attivatori) |
 
@@ -96,34 +96,34 @@ Qualsiasi software avviato localmente deve essere disattivato. Questo include Se
 
 **Premium Complete** e **Attribuzione avanzata**
 
-Per l&#39;attribuzione basata su regole in modelli esistenti, consulta: [Attribuzione basata su regole](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_rules_attrib).
+Per l’attribuzione basata su regole in modelli predefiniti, consulta [Attribuzione basata su regole](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_rules_attrib).
 
-Per l&#39;attribuzione algoritmica, consulta [Migliore attribuzione](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_attrib_algorithmic).
+Per l’attribuzione algoritmica, consulta [Best Fit Attribution](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_attrib_algorithmic)
 
 **Predictive Intelligence**
 
 Predictive intelligence in Data Workbench include le seguenti visualizzazioni:
 
-* [Punteggio propensione pubblico](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_visitor_propensity)
-* [Clustering visitatore](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_visitor_cluster)
-* [Analisi di correlazione](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_correlation_analysis)
+* [Audience Propensity Scoring](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_visitor_propensity)
+* [Visitor Clustering](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_visitor_cluster)
+* [Correlation Analysis](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_correlation_analysis)
 
 
 **Customer 360** e **Advanced Attribution**
 
-Consulta l&#39;attribuzione basata su regole di Analytics in modelli esistenti in [Attribuzione basata su regole](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_rules_attrib).
+Per l’attribuzione di Analytics basata su regole in modelli predefiniti, consulta [Attribuzione basata su regole](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_rules_attrib).
 
-Consulta i modelli di Attribuzione algoritmica in [Attribuzione migliore](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_attrib_algorithmic).
+Consulta modelli di attribuzione algoritmica in [Best Fit Attribution](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_attrib_algorithmic).
 
 ## Experience Cloud - Amministrazione utenti e prodotti {#section_6471C54454024301B2E0B687F79F6738}
 
-Experience Cloud e i servizi di base sono disponibili per gli utenti di Analytics Standard e Premium, purché sia stata seguita la modernizzazione dell&#39;implementazione descritta nella [Guida introduttiva - Abilita le soluzioni per i servizi di base](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C). (questa procedura consente di modernizzare la propria implementazione e di diventare amministratori in Experience Cloud).
+Experience Cloud e i servizi principali sono disponibili per gli utenti di Analytics Standard e Premium, purché sia stata eseguita la modernizzazione dell’implementazione descritta in [Guida introduttiva: Abilitare le soluzioni per i servizi di base](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C). (questa procedura consente di modernizzare la propria implementazione e di diventare amministratori in Experience Cloud).
 
 Dopo l’iscrizione a Experience Cloud, puoi accedere tramite Experience Cloud all’indirizzo [!DNL marketing.adobe.com] e iniziare a usare i servizi di base (inclusi gli attributi del cliente, pubblico e analisi app dispositivi mobili).
 
 **Amministrare utenti e gruppi**
 
-La gestione utenti viene eseguita in [Adobe Admin Console](https://helpx.adobe.com/enterprise/help/aedash.html) (collegamento prodotto).
+La gestione utente viene eseguita in [Adobe Admin Console](https://helpx.adobe.com/it/enterprise/help/aedash.html) (collegamento prodotto).
 
 Puoi impostare una mappatura 1:1 tra un gruppo creato in Adobe Admin Console e un gruppo della soluzione (come Adobe Analytics). Quindi, per un nuovo utente aggiunto al gruppo Admin Console verrà automaticamente creato un account soluzione Analytics che sarà collegato all&#39;Adobe ID dell&#39;utente (gli utenti esistenti devono collegare manualmente le credenziali dell&#39;account della soluzione per accedere alle soluzioni tramite l&#39;accesso a Experience Cloud).
 
