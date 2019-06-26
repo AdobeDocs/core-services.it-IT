@@ -5,8 +5,8 @@ seo-description: Impara a usare le regole dell’attributo per creare un pubblic
 seo-title: Creazione di un pubblico
 solution: Experience Cloud
 title: Creazione di un pubblico
-uuid: 7 e 622539-296 e -4 ff 3-93 b 0-ec 1 c 08 b 35429
-translation-type: tm+mt
+uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
+translation-type: ht
 source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 ---
@@ -31,17 +31,17 @@ Ciascun cerchio rappresenta una regola che definisce l&#39;appartenenza al pubbl
 
 >[!NOTE]
 >
->L&#39;audience è completamente definita dopo il completamento della raccolta di dati per il periodo specificato.
+>Il pubblico è completamente definito al termine della raccolta dei dati per il periodo specificato.
 L&#39;esempio seguente mostra come creare le regole per un pubblico composito. Questo pubblico si compone di:
 
 * Sezione Home &amp; Garden (casa e giardino) derivata da dati pagina o dati grezzi di Analytics
-* Utenti Chrome e Safari derivati da [!DNL Adobe Analytics] un segmento [pubblicato](../audience-library/audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A) in [!DNL Experience Cloud].
+* Utenti Chrome e Safari derivati da un segmento [!DNL Adobe Analytics] [pubblicato](../audience-library/audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A) in [!DNL Experience Cloud].
 
 
    ![](assets/audience_create.png)
 
-1. In [!DNL Experience Cloud], fai clic **[!UICONTROL su Persone]** &gt; **[!UICONTROL Libreria Pubblico]**.
-1. Nella pagina [!UICONTROL Pubblico]**fai clic su[!UICONTROL Nuovo]**. ![](assets/add_icon_small.png)
+1. In [!DNL Experience Cloud] fai clic su **[!UICONTROL Persone]** &gt; **[!UICONTROL Libreria Pubblico]**.
+1. Nella pagina [!UICONTROL Pubblico] fai clic su **[!UICONTROL Nuovo]**. ![](assets/add_icon_small.png)
 
 ![Risultato passaggio](assets/audience_create_new.png)
 
@@ -52,32 +52,32 @@ L&#39;esempio seguente mostra come creare le regole per un pubblico composito. Q
 
    >[!NOTE]
    >
-   >A causa della cache, sono necessarie 12 ore prima che l&#39;eliminazione delle suite di rapporti di Analytics possa essere visibile in Experience Cloud.
+   >A causa della memorizzazione nella cache, sono necessarie 12 ore prima che l’eliminazione delle suite di rapporti di Analytics possa essere visibile in Experience Cloud.
 
-* **[!UICONTROL Experience Cloud:]** Dati attributo derivati dalle [!DNL Experience Cloud] origini. Ad esempio, potrebbe trattarsi dei dati dei segmenti di pubblico che hai creato in [!DNL Analytics] o dei dati di [!DNL Audience Manager].
+* **[!UICONTROL Experience Cloud:]** dati attributo derivati dalle origini di [!DNL Experience Cloud]. Ad esempio, potrebbe trattarsi dei dati dei segmenti di pubblico che hai creato in [!DNL Analytics] o dei dati di [!DNL Audience Manager].
 
 1. Definisci le regole da applicare ai tipi di pubblico.
 
 >[!NOTE]
 >
->Durante la definizione delle regole per l&#39;audience, devi conoscere le variabili di implementazione.
+>Quando definisci le regole per i tipi di pubblico, devi conoscere le variabili di implementazione.
 
-In [!UICONTROL Regole], definite le *`Home & Garden`* selezioni attributo:
+In [!UICONTROL Regole], definisci le selezioni dell’attributo *`Home & Garden`*:
 
 * **[!UICONTROL Origine attributo:]** dati grezzi di Analytics
 * **[!UICONTROL Suite di rapporti:]** Suite di rapporti 31
-* Dimensione = **[!UICONTROL Store (Merch) (v 6)]** &gt; **[!UICONTROL È uguale]** a &gt; **[!UICONTROL Home &amp; Garden (casa e giardino)]**
+* Dimensione = **[!UICONTROL Store (Merch) (v6)]** &gt; **[!UICONTROL È uguale a]** &gt; **[!UICONTROL Home &amp; Garden]**
 
    ![](assets/home_garden.png)
 
-   *Chrome &amp; Safari Visitors* è un segmento di audience condiviso da Analytics:
+   *Chrome &amp; Safari Visitors* è un segmento di pubblico condiviso da Analytics:
 
 * **[!UICONTROL Origine attributo:]** Experience Cloud
 * **[!UICONTROL Dimensione:]** Chrome &amp; Safari Visitors (visitatori di Chrome e Safari)
 
    ![](assets/chrome_safari.png)
 
-   Per un confronto, potresti aggiungere una *regola OR* per visualizzare tutti i visitatori in una sezione del sito, come Patio &amp; Furniture.
+   Per un confronto, potresti aggiungere una regola *OR* per visualizzare tutti i visitatori in una sezione del sito, ad esempio Patio &amp; Furniture.
 
    ![](assets/audiences_rule_patio.png)
 
@@ -93,6 +93,6 @@ La regola risultante è un pubblico definito comprendente gli utenti di Chrome e
 
 Al completamento della raccolta dei dati per il periodo specificato, i cerchi vengono uniti per mostrare un pubblico definito.
 
-1. Dopo aver definito le regole, fate clic **[!UICONTROL su Salva]**.
+1. Dopo la definizione della regola fai clic su **[!UICONTROL Salva]**.
 
 Una volta salbvato, il pubblico diventa disponibile per altre soluzioni. Ad esempio, puoi includere un pubblico condiviso in un&#39;attività di Target.
