@@ -4,8 +4,8 @@ seo-description: Il servizio di base Experience Cloud Assets fornisce un archivi
 seo-title: Risorse
 solution: Experience Cloud
 title: Risorse
-uuid: 97 a 849 ec -1555-4630-9416-2 ab 484373 f 5 c
-translation-type: tm+mt
+uuid: 97a849ec-1555-4630-9416-2ab484373f5c
+translation-type: ht
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -25,7 +25,7 @@ L&#39;utilizzo delle risorse migliora la coerenza e la conformità al marchio, v
 
 * **[!DNL Social]**: pubblicazione su canali social, Facebook, Twitter, LinkedIn, Google+.
 * **[!DNL Target]**: creazione di esperienze per A/B e test multivariati.
-* **[!DNL Media Optimizer]**: Sviluppo di unità di annunci tra canali e campagne diversi
+* **[!DNL Media Optimizer]**: sviluppo di unità tra diversi canali e campagne.
 * **[!DNL Campaign]**: posizionamento di risorse nelle newsletter e campagne via e-mail.
 
 In [!UICONTROL Experience Cloud Assets] puoi:
@@ -69,23 +69,23 @@ Puoi cercare per parola chiave, tipo di file, dimensione, ultima modifica, stato
 
 ![](assets/asset-search.png)
 
-## Annotazione delle risorse {#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A}
+## Annotare risorse {#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A}
 
-Fai clic su **[!UICONTROL Annota]disegnando dei cerchi o delle frecce su un&#39;immagine e annota la risorsa per la revisione da parte di colleghi.**
+Fai clic su **[!UICONTROL Annota]** disegnando dei cerchi o delle frecce su un&#39;immagine e annota la risorsa per la revisione da parte di colleghi.
 
 ![](assets/assets-annotate.png)
 
-## Condivisione di una risorsa nel feed {#section_2CD53A99600D4A3D9AA82C3CDA666E6B}
+## Condividere una risorsa sul proprio feed {#section_2CD53A99600D4A3D9AA82C3CDA666E6B}
 
-Fai clic **[!UICONTROL su Condividi]** dalla barra degli strumenti per condividere la risorsa come [feed](../feed.md#concept_9256B8768A294009A777282DD8719213) per altri utenti Experience Cloud.
+Fai clic su **[!UICONTROL Condividi]** dalla barra degli strumenti per condividere la risorsa come [feed](../feed.md#concept_9256B8768A294009A777282DD8719213) per altri utenti di Experience Cloud.
 
 ![](assets/assets-share-card.png)
 
 Con la condivisione l&#39;immagine viene visualizzata sulla tua pagina Feed e su quella di tutti coloro con cui hai condiviso la scheda.
 
-## Visualizzare risorse a schermo intero e zoom {#section_A9F50D7D6BE341A2AB8244A4E42A4EF7}
+## Visualizzare risorse a tutto schermo e usare lo zoom {#section_A9F50D7D6BE341A2AB8244A4E42A4EF7}
 
-Fate clic **[!UICONTROL su Viste]** &gt; **[!UICONTROL Immagine]** per visualizzare l&#39;immagine della risorsa completa e abilitare lo zoom.
+Fai clic su **[!UICONTROL Viste]** &gt; **[!UICONTROL Immagine]** per visualizzare l’immagine della risorsa completa e abilitare lo zoom.
 
 ![](assets/asset-zoom.png)
 
@@ -93,14 +93,14 @@ Fate clic **[!UICONTROL su Viste]** &gt; **[!UICONTROL Immagine]** per visualizz
 
 Scegli tra la vista della scheda con proprietà, la vista dell&#39;elenco e la vista della colonna per trovare più facilmente le risorse.
 
-Fai clic **[!UICONTROL su Viste]** &gt; **[!UICONTROL Proprietà]** per visualizzare le proprietà di una risorsa:
+Fai clic su **[!UICONTROL Viste]** &gt; **[!UICONTROL Proprietà]** per visualizzare le proprietà di una risorsa:
 
 ![](assets/asset-properties.png)
 
-## Esecuzione di rapporti sull&#39;utilizzo {#section_15D782FFB8D74CF4A735116CC03AD902}
+## Eseguire report d’utilizzo {#section_15D782FFB8D74CF4A735116CC03AD902}
 
 Visualizza il numero di utenti, l&#39;archiviazione usata e le risorse totali.
 
-Fate clic **[!UICONTROL su Strumenti]** &gt; **[!UICONTROL Rapporti]** &gt; **[!UICONTROL Rapporto utilizzo]**
+Fai clic su **[!UICONTROL Strumenti]** &gt; **[!UICONTROL Rapporti]** &gt; **[!UICONTROL Rapporto utilizzo]**
 
 ![](assets/assets-usage-report.png)
