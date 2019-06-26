@@ -3,8 +3,8 @@ description: Scopri come mappare una o più suite di rapporti per un’organizza
 seo-description: Scopri come mappare una o più suite di rapporti per un’organizzazione.
 seo-title: Mappatura di suite di rapporti per un’organizzazione
 title: Mappatura di suite di rapporti per un’organizzazione
-uuid: b 983 d 5 a 6-b 3 d 0-4137-ac 53-bc 5681 d 3 e 58 b
-translation-type: tm+mt
+uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
+translation-type: ht
 source-git-commit: d9d6cebc0e9e14eac2471dc79b91276a154e35e0
 
 ---
@@ -26,25 +26,25 @@ Devi essere un amministrazione Analytics di una società con accesso alla suite 
 
 Le organizzazioni sono disattivate se non disponi delle autorizzazioni di amministratore Analytics per una società di accesso nell&#39;organizzazione con accesso alla suite di rapporti specificata.
 
-## Mappatura di una suite di rapporti su un&#39;organizzazione {#task_23993FE78DF6455FA8D7BE60686EA16C}
+## Mappatura di una suite di rapporti su un’organizzazione {#task_23993FE78DF6455FA8D7BE60686EA16C}
 
 1. Fai clic su **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL Amministrazione]** &gt; **[!UICONTROL Mappatura suite di rapporti]**
 
-   Puoi anche utilizzare un [URL diretto](https://audience.marketing.adobe.com/rsmapping/ui.html).
+   Puoi inoltre utilizzare un [URL diretto](https://audience.marketing.adobe.com/rsmapping/ui.html).
 
 1. Per visualizzare le società con accesso a ogni suite di rapporti, fai clic su **[!UICONTROL Visibile per le società di accesso]**.
 
    Questa visualizzazione ti aiuta a prendere una decisione informata sulla mappatura.
 
-1. Fai clic sull&#39;elenco a discesa nella colonna **[!UICONTROL Organizzazione mappata]vicino a una suite di rapporti e seleziona l&#39;organizzazione da mappare.**
+1. Fai clic sull&#39;elenco a discesa nella colonna **[!UICONTROL Organizzazione mappata]** vicino a una suite di rapporti e seleziona l&#39;organizzazione da mappare.
 
-   Consulta la sezione successiva per suggerimenti sulla selezione di un&#39;organizzazione Experience Cloud.
+   Consulta la sezione successiva per suggerimenti sulla selezione di un’organizzazione Experience Cloud.
 
-## Mappatura di più suite di rapporti su un&#39;organizzazione {#task_94955B0D8ABA4CB1A38746ECF8E32711}
+## Mappare più suite di rapporti su un’organizzazione {#task_94955B0D8ABA4CB1A38746ECF8E32711}
 
 1. Fai clic su **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL Amministrazione]** &gt; **[!UICONTROL Mappatura suite di rapporti]**.
 
-   Puoi anche utilizzare un [URL diretto](https://audience.marketing.adobe.com/rsmapping/ui.html).
+   Puoi inoltre utilizzare un [URL diretto](https://audience.marketing.adobe.com/rsmapping/ui.html).
 
 1. Seleziona le suite di rapporti da mappare.
 
@@ -62,14 +62,14 @@ Questa sezione contiene suggerimenti per aiutarti a selezionare l&#39;organizzaz
 
 **Quale organizzazione devo scegliere?**
 
-Se il servizio Experience Cloud ID è attualmente distribuito sulla suite di rapporti, verifica che l&#39;organizzazione selezionata nello strumento di mappatura suite per rapporti sia la stessa organizzazione specificata nel file [!DNL visitorAPI.js] sul sito. Puoi utilizzare le istruzioni in [Test e verifica del servizio Experience Cloud ID](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-test-verify.html) per trovare l&#39;ID organizzazione utilizzato dal servizio ID visitatore.
+Se il servizio Experience Cloud ID è attualmente distribuito sulla suite di rapporti, verifica che l&#39;organizzazione selezionata nello strumento di mappatura suite per rapporti sia la stessa organizzazione specificata nel file [!DNL visitorAPI.js] sul sito. Puoi utilizzare le istruzioni in [Test e verifica del servizio Experience Cloud ID](https://marketing.adobe.com/resources/help/it_IT/mcvid/?f=mcvid-test-verify) per trovare l’ID organizzazione utilizzato dal servizio ID visitatore.
 
 Se il servizio ID visitatore non è ancora distribuito sui siti che raccolgono i dati per la suite di rapporti, se distribuisci il servizio ID visitatore Experience Cloud in futuro, dovrai verificare che la distribuzione corrisponda all&#39;organizzazione scelta nello strumento di mappatura suite per rapporti.
 
 **Perché alcune organizzazioni sono disattivate?**
 
 Ciò indica che non disponi di privilegi sufficienti per la mappatura sulla suite di rapporti disattivata. Prendi in considerazione l&#39;esempio seguente:
-![](assets/rs-mapping.png)In questo schema, il tasto blu indica i privilegi di amministratore. Le linee grigie indicano la visibilità.
+![](assets/rs-mapping.png) In questo schema, il tasto blu indica i privilegi di amministratore. Le linee grigie indicano la visibilità.
 
 Questo utente ha accesso a due organizzazioni Experience Cloud. Ha eseguito le operazioni seguenti:
 
@@ -91,7 +91,7 @@ Alcune suite di rapporti potrebbero essere visibili in una società di accesso d
 
 **Cosa succede se non riconosco alcune delle organizzazioni elencate nel menu a discesa per una delle mie suite di rapporti?**
 
-L&#39;elenco mostra tutte le * organizzazioni * possibili a cui la tua suite di rapporti può essere mappata, anche se non hai l&#39;autorizzazione per mappare tutte le suite di rapporti. Se non sei sicuro che la suite di rapporti debba essere mappata per una delle suite di rapporti in grigio nell&#39;elenco, consulta l&#39;amministratore di Experience Cloud della tua organizzazione per determinare quale sia la scelta migliore.
+L’elenco mostra tutte le *possibili *organizzazioni su cui la tua suite di rapporti può essere mappata, anche se non hai l’autorizzazione per mappare tutte le suite di rapporti. Se non sei sicuro che la suite di rapporti debba essere mappata per una delle suite di rapporti in grigio nell&#39;elenco, consulta l&#39;amministratore di Experience Cloud della tua organizzazione per determinare quale sia la scelta migliore.
 
 **Cosa succede se non riconosco alcune delle società di accesso elencate per una suite di rapporti nella colonna “Visibile per le società di accesso”?**
 
@@ -107,7 +107,7 @@ Le suite di rapporti mappate saranno visualizzate in un formato non modificabile
 
 **Cosa succede se conosco solo l&#39;ID organizzazione per la mia organizzazione Experience Cloud? Come posso cercare il nome per il mio ID organizzazione?**
 
-Puoi trovare il nome della tua organizzazione in [Organizzazioni e impostazioni account](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=organizations).
+Puoi trovare il nome della tua organizzazione in [Impostazioni organizzazioni e account](https://marketing.adobe.com/resources/help/it_IT/mcloud/?f=organizations).
 
 **Visualizzo una data nella colonna “Data di mappatura”. Chi ha eseguito la mappatura?**
 
