@@ -1,26 +1,26 @@
 ---
 description: Tipi di file e limiti dimensione consentiti per la condivisione di risorse tra Experience Cloud e Creative Cloud.
-keywords: condivisione risorse; Creative Cloud; servizi di base
+keywords: condivisione di risorse;Creative Cloud;servizi principali
 seo-description: Tipi di file e limiti dimensione consentiti per la condivisione di risorse tra Experience Cloud e Creative Cloud.
-seo-title: Requisiti del file risorse per la condivisione
+seo-title: Requisiti del file risorsa per la condivisione
 solution: Experience Cloud
-title: Requisiti del file risorse per la condivisione
-uuid: 1621 accf-c 407-437 b-ae 12-61 f 13 cc 338 d 0
-translation-type: tm+mt
+title: Requisiti del file risorsa per la condivisione
+uuid: 1621accf-c407-437b-ae12-61f13cc338d0
+translation-type: ht
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
 
 
-# Requisiti del file risorse per la condivisione
+# Requisiti del file risorsa per la condivisione
 
 Tipi di file e limiti dimensione consentiti per la condivisione di risorse tra Experience Cloud e Creative Cloud.
 
 ## Tipi di file consentiti per il caricamento {#section_52B6A40BB00B45BC944C01C49B4BB590}
 
-I tipi di file che puoi caricare includono immagini, documenti e file multimediali. Consulta [Formati supportati](https://helpx.adobe.com/experience-manager/brand-portal/using/brand-portal-supported-formats.html) per ulteriori informazioni sui formati dei file in [!DNL Experience Cloud] risorse.
+I tipi di file che puoi caricare includono immagini, documenti e file multimediali. Consulta [Formati supportati](https://helpx.adobe.com/it/experience-manager/brand-portal/using/brand-portal-supported-formats.html) per informazioni sui formati di file in [!DNL Experience Cloud] Assets.
 
-## Limitazioni delle dimensioni dei file {#section_410ED8E24DBD4136830AE679C6B10D88}
+## Limiti per la dimensione del file {#section_410ED8E24DBD4136830AE679C6B10D88}
 
 I limiti per la dimensione del file derivano dal browser e possono quindi variare a seconda del browser utilizzato:
 
