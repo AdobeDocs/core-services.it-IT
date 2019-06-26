@@ -4,8 +4,8 @@ seo-description: Implementa il recupero preventivo del DNS per contribuire a rid
 seo-title: Utilizzo del recupero preventivo del DNS con diverse soluzioni e servizi
 solution: Experience Cloud
 title: Utilizzo del recupero preventivo del DNS con diverse soluzioni e servizi
-uuid: 4220 e 223-e 00 e -46 b 1-8 bde -52248913 bea 1
-translation-type: tm+mt
+uuid: 4220e223-e00e-46b1-8bde-52248913bea1
+translation-type: ht
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -17,7 +17,7 @@ Implementa il recupero preventivo del DNS per contribuire a ridurre i tempi di c
 
 ## Informazioni sul recupero preventivo del DNS {#section_772BF9CB7C4141DE9B0355146E2CD962}
 
-I browser utilizzano il recupero preventivo del DNS per risolvere automaticamente i nomi di dominio collegati a una pagina Web negli indirizzi IP corrispondenti. Il processo di recupero preventivo inizia quando il browser carica una pagina Web. Ad esempio, supponiamo che la tua pagina contenga un collegamento selezionabile a `www.adobe.com`. Quando un browser carica la pagina, utilizza il [sistema DNS](https://www.networksolutions.com/support/what-is-a-domain-name-server-dns-and-how-does-it-work/) per cercare il nome di dominio collegato e risolverlo nell&#39;indirizzo IP numerico corrispondente. Il recupero preventivo del DNS migliora le prestazioni delle pagine perché il nome di dominio viene risolto sempre in un indirizzo IP prima che il visitatore di un sito faccia clic sul collegamento o pulsante. Il processo di recupero preventivo del DNS è trasparente per gli altri utenti.
+I browser utilizzano il recupero preventivo del DNS per risolvere automaticamente i nomi di dominio collegati a una pagina Web negli indirizzi IP corrispondenti. Il processo di recupero preventivo inizia quando il browser carica una pagina Web. Ad esempio, supponiamo che la tua pagina contenga un collegamento selezionabile a `www.adobe.com`. Quando un browser carica la pagina, utilizza il [sistema DNS](https://www.networksolutions.com/support/what-is-a-domain-name-server-dns-and-how-does-it-work/) per cercare il nome di dominio collegato e risolverlo nell’indirizzo IP numerico corrispondente. Il recupero preventivo del DNS migliora le prestazioni delle pagine perché il nome di dominio viene risolto sempre in un indirizzo IP prima che il visitatore di un sito faccia clic sul collegamento o pulsante. Il processo di recupero preventivo del DNS è trasparente per gli altri utenti.
 
 ## Recupero preventivo del DNS e soluzioni Adobe Experience Cloud {#section_202A07F9F79F4ABDA44B98BA1DDCD516}
 
@@ -26,11 +26,11 @@ Il recupero preventivo del DNS funziona automaticamente con i collegamenti stati
 * Ogni soluzione o servizio Experience Cloud genera dinamicamente chiamate DNS durante il caricamento della pagina.
 * Il browser non può risolvere i nomi di dominio in indirizzo IP prima dell&#39;esecuzione di tali chiamate.
 
-Tuttavia, puoi implementare manualmente il recupero preventivo del DNS con le soluzioni Experience Cloud. A tal fine, aggiungete il tag HTML `<dns-prefetch>` alla `<head>` sezione del codice della pagina come mostrato di seguito. Se implementato correttamente, il recupero preventivo del DNS può contribuire a risparmiare alcuni millisecondi sul tempo di caricamento della pagina.
+Tuttavia, puoi implementare manualmente il recupero preventivo del DNS con le soluzioni Experience Cloud. Per farlo, aggiungi il tag HTML `<dns-prefetch>` alla sezione `<head>` del codice della pagina come mostrato di seguito. Se implementato correttamente, il recupero preventivo del DNS può contribuire a risparmiare alcuni millisecondi sul tempo di caricamento della pagina.
 
-## Esempi di codice prefetch DNS {#section_E886F7B2861E48BA9EF3D8B3CE32B345}
+## Esempi di codici di recupero preventivo del DNS {#section_E886F7B2861E48BA9EF3D8B3CE32B345}
 
-Gli esempi seguenti mostrano come eseguire chiamate di recupero preventivo del DNS in diverse soluzioni e servizi [!DNL Experience Cloud]. Alcune chiamate di recupero preventivo richiedono il tuo ID organizzazione [!DNL Adobe] o i dati del server di registrazione. In questi esempi, il codice in * corsivo* rappresenta un segnaposto variabile. Il codice deve essere sostituito con il tuo ID partner [!DNL Adobe], il codice cliente o le informazioni sul server di registrazione, ecc.
+Gli esempi seguenti mostrano come eseguire chiamate di recupero preventivo del DNS in diverse soluzioni e servizi [!DNL Experience Cloud]. Alcune chiamate di recupero preventivo richiedono il tuo ID organizzazione [!DNL Adobe] o i dati del server di registrazione. In questi esempi, il codice in *corsivo* rappresenta un segnaposto variabile. Il codice deve essere sostituito con il tuo ID partner [!DNL Adobe], il codice cliente o le informazioni sul server di registrazione, ecc.
 
 * **Analytics:** `<link rel="dns-prefetch" href="//insert tracking server name here">`.
 
@@ -38,9 +38,9 @@ Gli esempi seguenti mostrano come eseguire chiamate di recupero preventivo del D
 
 * **Audience Manager:** `<link rel="dns-prefetch" href="//dpm.demdex.net">`
 
-* **Servizio Experience Cloud ID:**`<link rel="dns-prefetch" href="//fast. *`inserisci ID partner qui`*.demdex.net">`
+* **Servizio Experience Cloud ID:** `<link rel="dns-prefetch" href="//fast. *`inserisci ID partner qui`*.demdex.net">`
 
-* **Dynamic Tag Manager** (DTM): Non obbligatorio. I collegamenti DTM sono disponibili non appena si carica la pagina.
+* **Dynamic Tag Manager** (DTM): non obbligatorio. I collegamenti DTM sono disponibili non appena si carica la pagina.
 
 * **Media Optimizer (Ad Cloud):**
 
@@ -50,7 +50,7 @@ Gli esempi seguenti mostrano come eseguire chiamate di recupero preventivo del D
 
 * **Target:** `<link rel="dns-prefetch" href="//insert customer code here.tt.omtrdc.net">`
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_THIS]
 >
 >* [Recupero preventivo del DNS](https://www.chromium.org/developers/design-documents/dns-prefetching)
 
