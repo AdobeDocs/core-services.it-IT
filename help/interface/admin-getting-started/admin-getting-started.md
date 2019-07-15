@@ -89,12 +89,9 @@ Dopo la migrazione, gli utenti effettueranno l’accesso con il proprio Adobe ID
 In Target, un&#39;area di lavoro è un profilo di prodotto. Consente a un&#39;organizzazione di assegnare una serie di utenti specifica a una serie di proprietà specifica. In vari modi, un&#39;area di lavoro è simile a una suite di rapporti in Adobe Analytics.
 
 Vedi:
-* [Autorizzazioni per utenti Enterprise](https://marketing.adobe.com/resources/help/it_IT/target/target/?f=property_channel)
+* [Autorizzazioni per utenti Enterprise](https://marketing.adobe.com/resources/help/it_IT/target/target/property_channel.html)
 * [Gestire prodotti e profili](https://helpx.adobe.com/it/enterprise/using/manage-products-and-profiles.html)
 * Video: [Configurare le aree di lavoro di Target in Adobe Admin Console](https://helpx.adobe.com/it/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
-
-
-
 
 ## Campaign: profili di prodotto, tenant e gruppi di sicurezza {#section_09CDF75366444CF5810CF321B7C712F3}
 
@@ -135,7 +132,7 @@ Quando inviti un utente in un’organizzazione, puoi concedergli l’accesso a p
 
 Ulteriore aiuto disponibile su:
 
-* [Gestione di prodotti e profili](.https://helpx.adobe.com/it/enterprise/using/manage-products-and-profiles.html)
+* [Gestione di prodotti e profili](https://helpx.adobe.com/it/enterprise/using/manage-products-and-profiles.html)
 * [Autorizzazioni per utenti Enterprise](https://marketing.adobe.com/resources/help/it_IT/target/target/?f=property_channel) nella guida di Target per ulteriori informazioni.
 * Video: [Configurare le aree di Target in Adobe Admin Console](https://helpx.adobe.com/it/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
