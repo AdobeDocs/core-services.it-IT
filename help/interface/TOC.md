@@ -3,8 +3,8 @@ audience: end-user
 user-guide-title: Guida utente servizi principali
 user-guide-url: https://www.adobe.com/it
 index: true
-translation-type: ht
-source-git-commit: ea102e402ee942d00f0525000f3ebd7ee19a4392
+translation-type: tm+mt
+source-git-commit: 8c3a614bbb81601d8f906f6f69256a9df8edfd56
 
 ---
 
@@ -27,8 +27,8 @@ source-git-commit: ea102e402ee942d00f0525000f3ebd7ee19a4392
    + [Incorporazione di contenuto](admin-getting-started/oembed.md)
 + Activation {#activation}
    + [Panoramica di Activation](activation/activation.md)
-   + [Guida utente di Launch](https://marketing.adobe.com/resources/help/en_US/experience-cloud/launch/)
-   + [Guida utente DTM](https://marketing.adobe.com/resources/help/en_US/dtm/)
+   + [Guida utente di avvio](https://docs.adobe.com/content/help/en/launch/using/overview.html)
+   + [Guida utente di Gestione dinamica dei tag](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
    + [Triggers](activation/triggers.md)
 + Risorse {#assets}
    + [Panoramica delle risorse](experience-cloud-assets/experience-cloud-assets.md)
@@ -48,7 +48,7 @@ source-git-commit: ea102e402ee942d00f0525000f3ebd7ee19a4392
    + [Panoramica degli attributi del cliente](attributes/attributes.md)
    + [Domande frequenti, limitazioni e pratiche consigliate](attributes/faq-crs.md)
    + [Informazioni sui file di dati e le origini dati per gli attributi del cliente](attributes/crs-data-file.md)
-   + [Crea un&#39;origine attributo del cliente e carica il file di dati](attributes/t-crs-usecase.md)
+   + [Crea un'origine attributo del cliente e carica il file di dati](attributes/t-crs-usecase.md)
    + [Facoltativo - Caricamento del file dati tramite FTP](attributes/t-upload-attributes-ftp.md)
    + [Convalida dello schema](attributes/validate-schema.md)
    + [Configurazione delle sottoscrizioni](attributes/subscription.md)
@@ -59,7 +59,7 @@ source-git-commit: ea102e402ee942d00f0525000f3ebd7ee19a4392
    + [Note sulla versione cumulativa](marketing-cloud-interface/release-notes.md)
 + [Marketplace di Exchange](exchange.md)
 + [Feed](feed.md)
-+ [Mobile Services](https://marketing.adobe.com/resources/help/it_IT/mobile/)
++ [Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
 + Altre risorse {#more-resources}
    + [Forum](https://forums.adobe.com/community/experience-cloud)
    + [Terminologia](terms.md)
