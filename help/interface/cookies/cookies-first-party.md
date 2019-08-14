@@ -8,7 +8,7 @@ title: della documentazione di prodotto
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
+source-git-commit: 7428f95c3e06e6bad1290540789e203608e113e4
 
 ---
 
@@ -23,7 +23,7 @@ Sono disponibili due opzioni per implementare i cookie di prime parti
 
 * Servizio ID della piattaforma Experience. Il servizio ID può impostare il cookie nel contesto di prime parti utilizzando javascript.
 * Voci DNS nel server DNS delle aziende.
-* Se il tuo sito contiene pagine sicure utilizzando il `https://` protocollo e non utilizzi il servizio ID piattaforma Experience Platform, puoi lavorare con Adobe per ottenere un certificato SSL per implementare i cookie di prime parti
+* Se il tuo sito contiene pagine sicure utilizzando il `https:` protocollo e non utilizzi il servizio ID piattaforma Experience Platform, puoi lavorare con Adobe per ottenere un certificato SSL per implementare i cookie di prime parti
 
 Il processo di rilascio dei certificati SSL può spesso essere confusione e dispendioso tempo. Di conseguenza, Adobe ha stabilito una partnership con digicert, un'importante autorità di certificazione (CA), e ha sviluppato un processo integrato tramite il quale l'acquisto e la gestione di tali certificati vengono automatizzati.
 
