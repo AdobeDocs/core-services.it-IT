@@ -10,12 +10,12 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
+source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
 
 ---
 
 
-# How Changes to Third Party Cookie Support Impacts Customers{#how-changes-to-third-party-cookie-support-impacts-customers}
+# Informazioni sulle modifiche al supporto dei cookie di terze parti influiscono sui clienti{#how-changes-to-third-party-cookie-support-impacts-customers}
 
 Poiché il supporto dei cookie di terze parti è diventato sempre più limitato tra i vari browser, Adobe sta lavorando su nuove soluzioni che bilanciano con attenzione i requisiti del cliente, con il diritto del consumatore alla privacy tra le soluzioni Adobe Experience Cloud.
 
@@ -23,12 +23,8 @@ L'elenco seguente illustra in che modo il supporto dei cookie di terze parti inf
 
 **Adobe Analytics e Target**
 
-<!--
-Test
--->
-
 * I clienti con implementazione di prime parti rimangono in gran parte inalterati.
-* Customers that are not using first-party implementation can implement the [Visitor ID service](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_service) to store the ID cookie as a first-party cookie without a first-party implementation.
+* I clienti che non utilizzano l'implementazione di prime parti possono implementare [il servizio Experience Platform ID](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html) per memorizzare il cookie ID come cookie di prime parti, senza implementazione di prime parti.
 
 **Adobe Experience Manager**
 
