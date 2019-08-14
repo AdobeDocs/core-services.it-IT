@@ -10,7 +10,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
+source-git-commit: c24b266eda9aae1e86a58ac473fa339f7eb26efe
 
 ---
 
@@ -19,9 +19,9 @@ source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
 
 Indagine utilizza i cookie per differenziare le richieste da vari browser e memorizzare informazioni utili da utilizzare per comprendere meglio i sentimenti dei clienti.
 
-* [Nome cookie: s_ sv_ sid](../cookies-overview/cookies-survey.md#section-03aa90aa7e36427b8cb12dc4a0f0291e)
-* [Nome cookie: s_ sv_ s 1](../cookies-overview/cookies-survey.md#section-14ad50dfcd7342f9ac80283b1f0d3400)
-* [Nome cookie: s_ sv_ p 1](../cookies-overview/cookies-survey.md#section-05d1c52c478541609f4a18a9c1eb032f)
+* [Nome cookie: s_ sv_ sid](../cookies/cookies-survey.md#section-03aa90aa7e36427b8cb12dc4a0f0291e)
+* [Nome cookie: s_ sv_ s 1](../cookies/cookies-survey.md#section-14ad50dfcd7342f9ac80283b1f0d3400)
+* [Nome cookie: s_ sv_ p 1](../cookies/cookies-survey.md#section-05d1c52c478541609f4a18a9c1eb032f)
 
 ## Nome cookie: s_ sv_ sid {#section-03aa90aa7e36427b8cb12dc4a0f0291e}
 
