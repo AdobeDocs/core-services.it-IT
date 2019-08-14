@@ -10,7 +10,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c24b266eda9aae1e86a58ac473fa339f7eb26efe
+source-git-commit: 7137e608ddece5bf2a3983b3b18909ba89d607a6
 
 ---
 
@@ -33,18 +33,14 @@ Per visualizzatore di ecatalog AS 2, cookie:
 
 I successivi visualizzatori AS 3 non implementano la persistenza della sessione.
 
-* [Nome cookie: Vatlogin. jsp](../cookies/cookies-s7.md#section-03aa90aa7e36427b8cb12dc4a0f0291e)
-* [Nome cookie: s 7 js. flyout. infomessage. displayed. state](../cookies/cookies-s7.md#section-14ad50dfcd7342f9ac80283b1f0d3400)
-* [Nome cookie: s 7 js. flyout. infomessage. displayed_ idx. ant](../cookies/cookies-s7.md#section-05d1c52c478541609f4a18a9c1eb032f)
-
-## Nome cookie: Vatlogin. jsp {#section-03aa90aa7e36427b8cb12dc4a0f0291e}
+**Nome cookie: Vatlogin. jsp**
 
 | Attributo | Descrizione |
 |---|---|
 | Informazioni memorizzate | Imposta il cookie della sessione. Il cookie authfilter incorporato in IPS imageserver (IS, IR, e anche i file SWF/skins e video) utilizza il cookie per l'autorizzazione di accesso. Se presente, consente la trasmissione delle richieste HTTP. Altrimenti restituisce non autorizzato. |
 | Scadenza | Questo cookie è un cookie di sessione. La scadenza della sessione corrente è impostata su 45 minuti in Scene 7 IPS [!DNL web.xml]. |
 
-## Nome cookie: s 7 js. flyout. infomessage. display<assetId>.state {#section-14ad50dfcd7342f9ac80283b1f0d3400}
+**Nome cookie: s 7 js. flyout. infomessage. displayed`assetId`. state**
 
 <table id="table_6835D64C5D464A049F576621F2BE3FAD"> 
  <thead> 
@@ -65,7 +61,7 @@ I successivi visualizzatori AS 3 non implementano la persistenza della sessione.
  </tbody> 
 </table>
 
-## Nome cookie: s 7 js. flyout. infomessage. display<assetId>_ idx<id>. ant {#section-05d1c52c478541609f4a18a9c1eb032f}
+**Nome cookie: s 7 js. flyout. infomessage. displayed`assetId`_ idx`id`. ant**
 
 I cookie del browser vengono utilizzati dai visualizzatori DHTML precedenti per memorizzare informazioni sullo stato e dati fissi. Vengono anche utilizzate dal menu a comparsa DHTML multischermo per rendere l'indicatore dei messaggi specifico della sessione.
 
