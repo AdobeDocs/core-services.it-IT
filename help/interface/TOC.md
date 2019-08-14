@@ -4,7 +4,7 @@ user-guide-title: Guida utente servizi principali
 user-guide-url: https://www.adobe.com/it
 index: true
 translation-type: tm+mt
-source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
+source-git-commit: b6096f49df48b6c15157237f559c324e21715dcd
 
 ---
 
@@ -29,7 +29,6 @@ source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
    + [Cookie di Advertising Cloud](cookies/cookies-advertising-cloud.md)
    + [Cookie Scene 7](cookies/cookies-s7.md)
    + [Cercare e promuovere i cookie](cookies/cookies-snp.md)
-   + [Cookie di indagine](cookies/cookies-survey.md)
    + [Cookie di Target](cookies/cookies-target.md)
    + [Abilitare le impostazioni della privacy per i cookie del browser](cookies/browser-cookie-settings.md)
    + [Informazioni sulle modifiche al supporto dei cookie di terze parti influiscono sui clienti](cookies/cookies-thirdparty.md)
