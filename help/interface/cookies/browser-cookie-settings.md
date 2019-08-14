@@ -10,20 +10,20 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
+source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
 
 ---
 
 
-# Enable privacy settings for browser cookies{#enable-privacy-settings-for-browser-cookies}
+# Abilitare le impostazioni della privacy per i cookie del browser{#enable-privacy-settings-for-browser-cookies}
 
 Rimuovi utenti che hanno bloccato tutti i cookie su browser desktop e mobili.
 
 Questa impostazione consente di rispettare l'intenzione di un utente di interrompere l'elaborazione di Analytics se blocca tutti i cookie nelle impostazioni dei cookie del browser.
 
-1. Navigate to **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL Report Suites]**.
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Privacy Settings]**.
-1. Enable **[!UICONTROL Privacy Settings]** (for desktop or mobile).
+1. Passa a Strumenti **[!UICONTROL di amministrazione]** &gt; **[!UICONTROL Suite di rapporti]**.
+1. Fate clic **[!UICONTROL su Modifica impostazioni]** &gt; **[!UICONTROL Generale]** &gt; **[!UICONTROL Impostazioni privacy]**.
+1. Abilita **[!UICONTROL impostazioni privacy]** (per desktop o dispositivi mobili).
 
    Attivando questa funzione, i dati raccolti dai browser desktop in cui l'utente ha impostato il proprio browser per bloccare tutti i cookie saranno esclusi dai report di Analytics. Se Adobe non è in grado di riconoscere il browser , i dati verranno inclusi nei report di Analytics.
 
@@ -36,10 +36,3 @@ Questa impostazione consente di rispettare l'intenzione di un utente di interrom
 Secondo quanto stabilito dalle leggi e dalle indicazioni normative, l'azione di blocco dei cookie da parte di un utente è equiparabile alla scelta dell'utente di non partecipare alle attività di profiling. Attivando questa funzione, i dati raccolti dai browser desktop in cui l'utente ha impostato il proprio browser per bloccare tutti i cookie saranno esclusi dai report di Analytics. Se Adobe non è in grado di riconoscere il browser Web, i dati verranno inclusi nei report di Analytics.
 
 I legislatori in tutto il mondo hanno dichiarato (sia in guida che negli accordi) che le impostazioni del browser dei cookie rappresentano un'indicazione della preferenza utente per rifiutare il profiling. Specificamente, questi legislatori hanno dichiarato che l'impostazione del browser per bloccare i cookie di terze parti è una richiesta di rinuncia da tracciamento di terze parti (cross-site); e bloccare tutti i cookie è una richiesta di rinuncia per tutti i tracciamenti. Mentre identificatori lato server (come indirizzo IP o agente utente) possono essere un'opzione utile che ignora le impostazioni del browser dei cookie, alcuni legislatori li visualizzano come un'elusione di scelta utente.
-
-<!--
-<p>Awaiting content from Vinay May 20 2015 </p>
-<p>https://wiki.corp.adobe.com/display/omtrcache/Inferred+Opt+Out </p>
-<p>https://wiki.corp.adobe.com/display/omtrplatform/Auto-opt-out+For+Users+Who+Block+Cookies </p>
--->
-
