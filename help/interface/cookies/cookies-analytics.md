@@ -10,7 +10,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
+source-git-commit: f59badcd3423ada51a3fe0c605158a009d5b1d64
 
 ---
 
@@ -30,139 +30,47 @@ In particolare, Analytics utilizza i cookie per definire in modo anonimo nuovi v
 * [Nome cookie: s_ fid](../cookies/cookies-analytics.md#section-65e33f9bfc264959ac1513e2f4b10ac7)
 * [Cookie impostati per plug-in](../cookies/cookies-analytics.md#section-a6b1cae8454945fab9eea5c7884c40fc)
 
-Ulteriori informazioni sono disponibili in Analytics sui cookie [di prime parti](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_overview.html).
+Ulteriori informazioni sono disponibili in Analytics sui cookie [di prime parti](/help/interface/cookies/cookies-first-party.md).
 
 ## Nome cookie: s_ ecid {#section-32fd753c3fa54452acd62b021434919a}
 
-<table id="table_FF4C70D3D4CC425BA65162D5A9504F7D"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Attributo </p> </th> 
-   <th colname="col2" class="entry"> <p>Descrizione </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Informazioni memorizzate </p> </td> 
-   <td colname="col2"> <p> Contiene una copia dell'Experience Cloud ID (ECID) o MID. Il MID viene memorizzato in una coppia chiave-valore che segue questa sintassi, s_ ecid = MCMID|&lt; ECID &gt; </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Scadenza </p> </td> 
-   <td colname="col2"> <p>2 anni </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Utilizzo </p> </td> 
-   <td colname="col2"> <p>Questo cookie viene impostato dal dominio del cliente dopo che il cookie AMCV è stato impostato dal client. Lo scopo di questo cookie è quello di consentire il tracciamento ID permanente nello stato 1 ^ st ^ party e viene utilizzato come ID di riferimento se il cookie AMCV è scaduto. Controlla il cookie AMCV qui per ulteriori dettagli. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Posizione </p> </td> 
-   <td colname="col2"> <p>Solo clienti CNAME. Non applicabile per scenari 3 ^ rd ^ party. Cookie è memorizzato nel dominio, lo stesso dominio utilizzato dal CNAME e dalla richiesta di immagine Analytics. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Dimensioni </p> </td> 
-   <td colname="col2"> <p>45 byte </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Attributo | Descrizione |
+|--- |--- |
+| Informazioni memorizzate | Contiene una copia dell'Experience Cloud ID (ECID) o MID. Il MID viene memorizzato in una coppia chiave-valore che segue questa sintassi, s_ ecid = MCMID | <ECID> |
+| Scadenza | 2 anni |
+| Utilizzo | Questo cookie viene impostato dal dominio del cliente dopo che il cookie AMCV è stato impostato dal client. Lo scopo di questo cookie è quello di consentire il tracciamento ID permanente nello stato 1 ^ st ^ party e viene utilizzato come ID di riferimento se il cookie AMCV è scaduto. Controlla il cookie AMCV qui per ulteriori dettagli. |
+| Posizione | Solo clienti CNAME. Non applicabile per scenari 3 rd-party. Cookie è memorizzato nel dominio, lo stesso dominio utilizzato dal CNAME e dalla richiesta di immagine Analytics. |
+| Dimensioni | 45 byte |
 
 ## Nome cookie: s_ cc {#section-03aa90aa7e36427b8cb12dc4a0f0291e}
 
-<table id="table_34AA90F2FFB84500A77D8F4C5008D453"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Attributo </p> </th> 
-   <th colname="col2" class="entry"> <p>Descrizione </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Informazioni memorizzate </p> </td> 
-   <td colname="col2"> <p> Questo cookie viene impostato e letto dal codice javascript per determinare se i cookie sono abilitati (impostati semplicemente su "True") </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Scadenza </p> </td> 
-   <td colname="col2"> <p> Questo cookie è un cookie di sessione e scade quando il browser viene chiuso </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Utilizzo </p> </td> 
-   <td colname="col2"> <p> Un solo cookie per tutti gli account </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Posizione </p> </td> 
-   <td colname="col2"> <p> Il cookie viene memorizzato nel dominio della pagina </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Dimensioni </p> </td> 
-   <td colname="col2"> <p> 4 byte </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Attributo | Descrizione |
+|--- |--- |
+| Informazioni memorizzate | Questo cookie viene impostato e letto dal codice javascript per determinare se i cookie sono abilitati (impostati semplicemente su "True") |
+| Scadenza | Questo cookie è un cookie di sessione e scade quando il browser viene chiuso |
+| Utilizzo | Un solo cookie per tutti gli account |
+| Posizione | Il cookie viene memorizzato nel dominio della pagina |
+| Dimensioni | 4 byte |
 
 ## Nome cookie: s_ sq {#section-8abfff3a302d494f81a3cfb91e3b09ff}
 
-<table id="table_05EEB54B5EA2409DB1D071FD1484E8F9"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Attributo </p> </th> 
-   <th colname="col2" class="entry"> <p>Descrizione </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Informazioni memorizzate </p> </td> 
-   <td colname="col2"> <p> Questo cookie viene impostato e letto dal codice javascript quando sono abilitate le funzionalità clickmap e la funzionalità Activity Map; contiene informazioni sul collegamento precedente su cui è stato fatto clic dall'utente </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Scadenza </p> </td> 
-   <td colname="col2"> <p> Questo cookie è un cookie di sessione e scade quando il browser viene chiuso </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Utilizzo </p> </td> 
-   <td colname="col2"> <p> Un solo cookie per tutti gli account </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Posizione </p> </td> 
-   <td colname="col2"> <p> Il cookie viene memorizzato nel dominio della pagina </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Dimensioni </p> </td> 
-   <td colname="col2"> <p> A seconda della dimensione dell'URL della pagina, in genere è di 100-200 byte. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Attributo | Descrizione |
+|--- |--- |
+| Informazioni memorizzate | Questo cookie viene impostato e letto dal codice javascript quando sono abilitate le funzionalità clickmap e la funzionalità Activity Map; contiene informazioni sul collegamento precedente su cui è stato fatto clic dall'utente |
+| Scadenza | Questo cookie è un cookie di sessione e scade quando il browser viene chiuso |
+| Utilizzo | Un solo cookie per tutti gli account |
+| Posizione | Il cookie viene memorizzato nel dominio della pagina |
+| Dimensioni | Varia a seconda della dimensione dell'URL della pagina, ma in genere di 100-200 byte |
 
 ## Nome cookie: s_ vi {#section-5d50a078de444d12b7d927d68ff3b679}
 
-<table id="table_774F04AA9E3847D9AE7803520B5AAAE3"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Attributo </p> </th> 
-   <th colname="col2" class="entry"> <p>Descrizione </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Informazioni memorizzate </p> </td> 
-   <td colname="col2"> <p> Marca temporale/timbro data ID univoco </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Scadenza </p> </td> 
-   <td colname="col2"> <p> 2 anni </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Utilizzo </p> </td> 
-   <td colname="col2"> <p> Questo cookie viene usato per identificare un visitatore univoco </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Posizione </p> </td> 
-   <td colname="col2"> <p> Questo cookie viene memorizzato nel dominio della richiesta di immagine, in genere 2 O 7. net se utilizzi cookie di terze parti o il tuo dominio se utilizzi cookie di prime parti. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Dimensioni </p> </td> 
-   <td colname="col2"> <p> 44 byte </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Attributo | Descrizione |
+|--- |--- |
+| Informazioni memorizzate | Marca temporale/timbro data ID univoco |
+| Scadenza | 2 anni |
+| Utilizzo | Questo cookie viene usato per identificare un visitatore univoco |
+| Posizione | Questo cookie viene memorizzato nel dominio della richiesta di immagine, in genere 2 O 7. net se utilizzi cookie di terze parti o il tuo dominio se utilizzi cookie di prime parti. |
+| Dimensioni | 44 byte |
 
 >[!NOTE]
 >
@@ -170,36 +78,13 @@ Ulteriori informazioni sono disponibili in Analytics sui cookie [di prime parti]
 
 ## Nome cookie: s_ fid {#section-65e33f9bfc264959ac1513e2f4b10ac7}
 
-<table id="table_B0EDB50677D14A86A1BFB7CCAAE95C88"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Attributo </p> </th> 
-   <th colname="col2" class="entry"> <p>Descrizione </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Informazioni memorizzate </p> </td> 
-   <td colname="col2"> <p> Indicatore del tempo/data ID visitatore univoco </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Scadenza </p> </td> 
-   <td colname="col2"> <p>5 anni </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Utilizzo </p> </td> 
-   <td colname="col2"> <p> Questo cookie viene utilizzato per identificare un visitatore univoco se il cookie <span class="codeph"> s_ vi </span> standard non è disponibile a causa di limitazioni dei cookie di terze parti. Non utilizzata per le implementazioni che utilizzano cookie di prime parti. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Posizione </p> </td> 
-   <td colname="col2"> <p> Questo cookie viene memorizzato nel dominio come cookie di prime parti. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Dimensioni </p> </td> 
-   <td colname="col2"> <p> 33 byte </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Attributo | Descrizione |
+|--- |--- |
+| Informazioni memorizzate | Indicatore del tempo/data ID visitatore univoco |
+| Scadenza | 5 anni |
+| Utilizzo | Questo cookie viene utilizzato per identificare un visitatore univoco se il cookie s_ vi standard non è disponibile a causa di limitazioni dei cookie di terze parti. Non utilizzata per le implementazioni che utilizzano cookie di prime parti. |
+| Posizione | Questo cookie viene memorizzato nel dominio come cookie di prime parti. |
+| Dimensioni | 33 byte |
 
 ## Cookie impostati per plug-in {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
