@@ -8,7 +8,7 @@ title: della documentazione di prodotto
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 345b1fda364d9f7e884e94f32807bb99cc0c3476
+source-git-commit: 2bdc4b7287ccacfc4d968278b2c3ffdaeddfc105
 
 ---
 
@@ -39,12 +39,9 @@ Il programma di certificazione gestito di Adobe consente di implementare un nuov
 
 Ecco come implementare un nuovo certificato SSL di prime parti per i cookie di prime parti:
 
-1. Compila il modulo di richiesta e apri un ticket con l'Assistenza clienti richiesta di configurare cookie di prime parti nel programma gestito da Adobe. Ogni campo è descritto all'interno del documento con esempi.
+1. Compila il [modulo di richiesta dei cookie di prime parti](/help/interface/cookies/assets/FPC_Request_Form.xlsx) e apri un ticket con l'Assistenza clienti richiesta di configurare cookie di prime parti nel programma gestito da Adobe. Ogni campo è descritto all'interno del documento con esempi.
 
-1. Creare record CNAME (consultate le istruzioni di seguito). Quando ricevi il ticket, uno specialista FPSSL deve fornire una coppia di record CNAME. Questi record devono essere configurati sul server DNS della tua azienda prima che Adobe possa acquistare il certificato per conto tuo. I CNAME saranno simili a quelli seguenti.
-
-* **Protetto** : ad esempio, il nome host `smetrics.example.com` punta a: `example.com.ssl.d1.omtrdc.net`.
-* **Non protetto** : ad esempio, il nome host `metrics.example.com` punta a: `example.com.d1.omtrdc.net`.
+1. Creare record CNAME (consultate le istruzioni di seguito). Quando ricevi il ticket, uno specialista FPSSL deve fornire una coppia di record CNAME. Questi record devono essere configurati sul server DNS della tua azienda prima che Adobe possa acquistare il certificato per conto tuo. I CNAME saranno simili ai seguenti: **Protetto** : ad esempio, il nome host `smetrics.example.com` punta a: `example.com.ssl.d1.omtrdc.net`. **Non protetto** : ad esempio, il nome host `metrics.example.com` punta a: `example.com.d1.omtrdc.net`.
 
 1. Quando questi CNAME saranno attivi, Adobe collaborerà con digicert per acquistare e installare un certificato sui server di produzione di Adobe. Se hai un'implementazione esistente, prendi in considerazione la migrazione dei visitatori per mantenere i visitatori esistenti. Dopo che il certificato è stato inviato in diretta nell'ambiente di produzione di Adobe, potrai aggiornare le variabili del server di tracciamento ai nuovi nomi host. Ciò significa che se il sito non è sicuro (https), aggiorna l ' `s.trackingServer`. Se il sito è protetto (https), aggiornate entrambe `s.trackingServer` le `s.trackingServerSecure` variabili.
 
@@ -109,9 +106,9 @@ Se i record CNAME non sono impostati correttamente o non sono attivi, restituira
 
 Prima di modificare il codice sul sito per utilizzare cookie di prime parti, completate i seguenti prerequisiti:
 
-* Richiedete un certificato SSL, come descritto in Passaggi di implementazione per il programma di certificazione gestito di Adobe.
-* Creare record CNAME.
-* Ping del nome host.
+* Richiedete un certificato SSL, come descritto in precedenza nei passaggi di implementazione per il programma di certificazione gestito di Adobe.
+* Creare record CNAME (vedi sopra).
+* Ping del nome host (vedi sopra).
 
 Dopo aver verificato i nomi host, è possibile rispondere e inoltrare i server di raccolta dati Adobe, modificando l'implementazione in modo che punti ai nomi host della raccolta dati.
 
@@ -119,6 +116,7 @@ Dopo aver verificato i nomi host, è possibile rispondere e inoltrare i server d
 1. Se desiderate aggiornare la versione del codice, sostituite l'intero `s_code.js/AppMeasurement.js` file con la versione più recente e sostituite eventuali plug-in o personalizzazioni (se presenti). **Oppure**, se desideri aggiornare il codice solo con i cookie di prime parti, individua le variabili s. trackingserver e s. trackingserversecure (se utilizzate SSL) e indicali ai nuovi nomi host della raccolta dati. Come esempio: mysite.com:`s.trackingServer = "metrics.mysite.com"``s.trackingServerSecure = "smetrics.mysite.com"`
 
 1. Caricate il file javascript di base aggiornato sul sito.
+
 1. Se state spostando i cookie di prime parti da un'implementazione di lunga data o che si modificano con un nome host di raccolta diverso, si consiglia di migrare i visitatori dal dominio precedente al nuovo dominio.
 
 Consulta [Migrazione dei visitatori](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/visitor-migration.html) nella Guida all'implementazione di Analytics.
