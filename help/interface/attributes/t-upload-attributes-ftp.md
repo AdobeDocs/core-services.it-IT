@@ -6,17 +6,17 @@ seo-title: Facoltativo - Caricamento del file di dati tramite FTP
 solution: Experience Cloud
 title: Facoltativo - Caricamento del file di dati tramite FTP
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
-translation-type: ht
-source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
+translation-type: tm+mt
+source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
 
 
 # Facoltativo - Caricamento del file di dati tramite FTP
 
-Se non effettui il caricamento trascinando la selezione, puoi caricare l&#39;attributo del cliente in Experience Cloud tramite FTP.
+Se non effettui il caricamento trascinando la selezione, puoi caricare l'attributo del cliente in Experience Cloud tramite FTP.
 
-Puoi caricare i dati dopo la creazione di un&#39;origine attributo del cliente e un account FTP in Experience Cloud. Puoi creare un account FTP per origine attributo. I file caricati vengono archiviati nella cartella principale di quell&#39;account. I dati devono essere in formato [!DNL .csv] e un secondo file [!DNL .fin] deve indicare il completamento del caricamento.
+Puoi caricare i dati dopo la creazione di un'origine attributo del cliente e un account FTP in Experience Cloud. Puoi creare un account FTP per origine attributo. I file caricati vengono archiviati nella cartella principale di quell'account. I dati devono essere in formato `.csv` e un secondo file `.fin` deve indicare il completamento del caricamento.
 
 >[!IMPORTANT]
 >
@@ -26,7 +26,7 @@ Puoi caricare i dati dopo la creazione di un&#39;origine attributo del cliente e
 Puoi effettuare i caricamenti di file al sito FTP degli attributi del cliente tramite FTP o SFTP.
 
 * Dovere disporre di un client che supporta le connessioni SFTP.
-* Puoi connetterti a SFTP utilizzando nome utente e password oppure senza password, come descritto [qui](https://marketing.adobe.com/resources/help/it_IT/whitepapers/ftp/?f=ftp_sftp_cert_auth).
+* Puoi effettuare la connessione con SFTP utilizzando nome utente/password oppure senza utilizzare la password, come spiegato [qui](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/?f=ftp_sftp_cert_auth).
 
 
 
@@ -39,15 +39,15 @@ Puoi effettuare i caricamenti di file al sito FTP degli attributi del cliente tr
 <p>Workflow: Drag and drop, validate schema, configure subscription, save/activate. </p> -->
 **Per caricare il file di dati tramite FTP**
 
-1. [Crea un&#39;origine attributo del cliente e carica il file di dati...](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78).
+1. [Crea un'origine attributo del cliente e carica il file di dati...](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78).
 
    Verifica di aver effettuato l’accesso al tuo sito FTP all’indirizzo [!DNL ftp.adobe.com/<sftpname>].
 
 1. Fai clic su **[!UICONTROL Azioni]** &gt; **[!UICONTROL Caricamento file]**.
 
-1. Carica un file [!DNL .fin] in modo che possa essere recuperato.
+1. Carica un file `.fin` in modo che possa essere recuperato.
 
-   Il tipo di file [!DNL .fin] è creato dall’utente e segnala che il caricamento è terminato. Può essere un file del blocco note vuoto. Ad esempio, se carichi [!DNL crs123.csv], carica anche [!DNL crs123.fin].
+   Il tipo di file `.fin` è creato dall’utente e segnala che il caricamento è terminato. Può essere un file del blocco note vuoto. Ad esempio, se carichi [!DNL crs123.csv], carica anche [!DNL crs123.fin].
 
    Se il caricamento viene eseguito correttamente, entrambi i file vengono spostati in una cartella denominata **processed (elaborati)**.
 
