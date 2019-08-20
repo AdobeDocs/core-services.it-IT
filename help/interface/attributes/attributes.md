@@ -6,8 +6,8 @@ seo-title: Attributi cliente
 solution: Experience Cloud
 title: Attributi cliente
 uuid: 1621402d-990f-46f9-981a-473280559069
-translation-type: ht
-source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
+translation-type: tm+mt
+source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
 
@@ -16,11 +16,9 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 ## Panoramica
 
-La funzionalità [!UICONTROL Attributi del cliente] in Experience Cloud si trova qui.
+Per individuare [!UICONTROL gli attributi] del cliente su **[!DNL Experience Platform]****[!UICONTROL &gt; Persone]** &gt; **[!UICONTROL Attributi cliente]**
 
-**[!UICONTROL Persone]** &gt; **[!UICONTROL Attributi del cliente]**
-
-Se acquisisci dati del cliente di livello Enterprise in un database CRM (Customer Relationship Management), puoi caricare tali dati in una sorgente dati di attributi cliente in Experience Cloud. Una volta effettuato l&#39;aggiornamento, sfrutta i dati in [!DNL Adobe Analytics] e [!DNL Adobe Target].
+Se acquisisci dati del cliente di livello Enterprise in un database CRM (Customer Relationship Management), puoi caricare tali dati in una sorgente dati di attributi cliente in Experience Cloud. Una volta effettuato l'aggiornamento, sfrutta i dati in [!DNL Adobe Analytics] e [!DNL Adobe Target].
 
 ![](assets/custom_reports.png)
 
@@ -33,12 +31,12 @@ Se acquisisci dati del cliente di livello Enterprise in un database CRM (Custome
 
    Per verificare se la società dispone dell’accesso agli attributi del cliente, l’amministratore di [!DNL Experience Cloud] deve effettuare l’accesso a [!DNL Experience Cloud]. Passa a **[!UICONTROL Amministrazione]** &gt; **[!UICONTROL Avvia Admin Console]** &gt; **[!UICONTROL Gruppi]**. Se *Attributi cliente* è visualizzato come uno dei gruppi, è pronto per iniziare.
 
-   Gli utenti che vengono aggiunti al gruppo Attributi del cliente visualizzeranno la voce di menu [!UICONTROL Attributi cliente] presente sul lato sinistro dell&#39;interfaccia Experience Cloud.
+   Gli utenti che vengono aggiunti al gruppo Attributi del cliente visualizzeranno la voce di menu [!UICONTROL Attributi cliente] presente sul lato sinistro dell'interfaccia Experience Cloud.
 
 * **Mbox target:** per gli attributi cliente è richiesto mbox.js versione 58 o superiore.
 
 
-   Consulta [Implementazione di Mbox.js](https://marketing.adobe.com/resources/help/it_IT/target/ov/?f=t_mbox_download).
+   Consulta [Implementazione di mbox.js](https://marketing.adobe.com/resources/help/en_US/target/ov/t_mbox_download.html).
 
 * **at.js:** qualsiasi versione.
 
@@ -49,7 +47,7 @@ Se acquisisci dati del cliente di livello Enterprise in un database CRM (Custome
 
 I dati Enterprise risiedono in altri sistemi. Può essere una cosa complessa e diversa a seconda delle persone. Questi dati includono informazioni come appartenenze, livello di fedeltà, età, genere, prodotti posseduti, interessi e lifetime value.
 
-L&#39;immagine seguente è un esempio di un file di dati che mostra i dati dell&#39;utente con sottoscrizione per prodotti, inclusi ID membro, prodotti autorizzati, prodotti avviati più spesso e così via.
+L'immagine seguente è un esempio di un file di dati che mostra i dati dell'utente con sottoscrizione per prodotti, inclusi ID membro, prodotti autorizzati, prodotti avviati più spesso e così via.
 
 ![](assets/01_crs_usecase.png)
 
