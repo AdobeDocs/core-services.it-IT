@@ -4,14 +4,14 @@ user-guide-title: Guida utente servizi principali
 user-guide-url: https://www.adobe.com/it
 index: true
 translation-type: tm+mt
-source-git-commit: b6096f49df48b6c15157237f559c324e21715dcd
+source-git-commit: 75831abe44d04902691325add2338381754f98ec
 
 ---
 
 
 # Guida utente servizi principali {#interface}
 
-+ [Aiuto per Experience Cloud e servizi di base](experience-cloud.md)
++ [Aiuto di Experience Cloud e servizi core](experience-cloud.md)
 + Informazioni sui servizi di base {#about-core-services}
    + [Panoramica sui servizi principali](core-services-landing.md)
    + [Abilita le soluzioni per i servizi di base](core-services/core-services.md)
@@ -69,7 +69,7 @@ source-git-commit: b6096f49df48b6c15157237f559c324e21715dcd
    + [Aggiornamento dello schema](attributes/t-update-schema.md)
    + [Considerazioni sulla privacy - Attributi del cliente](attributes/privacy-mac.md)
 + Note sulla versione {#release-notes}
-   + [Novità in Experience Cloud](marketing-cloud-interface/marketing-cloud-interface.md)
+   + [Novità in Experience Cloud](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)
    + [Note sulla versione cumulativa](marketing-cloud-interface/release-notes.md)
 + [Marketplace di Exchange](exchange.md)
 + [Feed](feed.md)
