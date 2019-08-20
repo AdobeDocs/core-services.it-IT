@@ -6,8 +6,8 @@ seo-title: Creazione di un pubblico
 solution: Experience Cloud
 title: Creazione di un pubblico
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
-translation-type: ht
-source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
+translation-type: tm+mt
+source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
 
@@ -27,12 +27,12 @@ Il grafico seguente rappresenta due regole in un pubblico composito.
 
 ![](assets/audience_sharing.png)
 
-Ciascun cerchio rappresenta una regola che definisce l&#39;appartenenza al pubblico. I visitatori che si qualificano come membri in entrambe le regole del pubblico diventano il pubblico composito definito.
+Ciascun cerchio rappresenta una regola che definisce l'appartenenza al pubblico. I visitatori che si qualificano come membri in entrambe le regole del pubblico diventano il pubblico composito definito.
 
 >[!NOTE]
 >
 >Il pubblico è completamente definito al termine della raccolta dei dati per il periodo specificato.
-L&#39;esempio seguente mostra come creare le regole per un pubblico composito. Questo pubblico si compone di:
+L'esempio seguente mostra come creare le regole per un pubblico composito. Questo pubblico si compone di:
 
 * Sezione Home &amp; Garden (casa e giardino) derivata da dati pagina o dati grezzi di Analytics
 * Utenti Chrome e Safari derivati da un segmento [!DNL Adobe Analytics] [pubblicato](../audience-library/audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A) in [!DNL Experience Cloud].
@@ -40,15 +40,15 @@ L&#39;esempio seguente mostra come creare le regole per un pubblico composito. Q
 
    ![](assets/audience_create.png)
 
-1. In [!DNL Experience Cloud] fai clic su **[!UICONTROL Persone]** &gt; **[!UICONTROL Libreria Pubblico]**.
+1. In the [!DNL Experience Cloud], under [!DNL Experience Platform], click **[!UICONTROL People]** &gt; **[!UICONTROL Audience Library]**.
 1. Nella pagina [!UICONTROL Pubblico] fai clic su **[!UICONTROL Nuovo]**. ![](assets/add_icon_small.png)
 
 ![Risultato passaggio](assets/audience_create_new.png)
 
 1. Nella pagina [!UICONTROL Crea nuovo pubblico] specifica un titolo e una descrizione.
-1. In [!UICONTROL Regole], seleziona un&#39;origine attributo:
+1. In [!UICONTROL Regole], seleziona un'origine attributo:
 
-* **[!UICONTROL Dati Analytics in tempo reale:]** (o dati non elaborati) si tratta di dati attributo derivati da richieste di immagini Analytics in tempo reale e includono dati come eVar ed eventi. Quando usi questa origine attributo devi selezionare una suite di rapporti e definire la dimensione o l&#39;evento da includere. Questa selezione di suite di rapporti fornisce la struttura della variabile usata dalla suite di rapporti.
+* **[!UICONTROL Dati Analytics in tempo reale:]** (o dati non elaborati) si tratta di dati attributo derivati da richieste di immagini Analytics in tempo reale e includono dati come eVar ed eventi. Quando usi questa origine attributo devi selezionare una suite di rapporti e definire la dimensione o l'evento da includere. Questa selezione di suite di rapporti fornisce la struttura della variabile usata dalla suite di rapporti.
 
    >[!NOTE]
    >
@@ -95,4 +95,4 @@ Al completamento della raccolta dei dati per il periodo specificato, i cerchi ve
 
 1. Dopo la definizione della regola fai clic su **[!UICONTROL Salva]**.
 
-Una volta salbvato, il pubblico diventa disponibile per altre soluzioni. Ad esempio, puoi includere un pubblico condiviso in un&#39;attività di Target.
+Una volta salbvato, il pubblico diventa disponibile per altre soluzioni. Ad esempio, puoi includere un pubblico condiviso in un'attività di Target.
