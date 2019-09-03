@@ -4,7 +4,7 @@ seo-title: Documentazione della Guida e del prodotto per le soluzioni Adobe Expe
 description: Documentazione della Guida e del prodotto per le soluzioni Adobe Experience Cloud.
 seo-description: Aiuto di Experience Cloud
 translation-type: tm+mt
-source-git-commit: 5f30d2584cec9cae16066b6ed2a750a48aaf2920
+source-git-commit: 247c11a53752c953ef70f51b2888c548a1ff471b
 
 ---
 
@@ -12,6 +12,8 @@ source-git-commit: 5f30d2584cec9cae16066b6ed2a750a48aaf2920
 # Documentazione del prodotto Adobe Experience Cloud
 
 Documentazione e documentazione di prodotto per Adobe Experience Cloud.
+
+![](assets/experience_cloud_appicon_32.png)
 
 ## Aiuto di Experience Cloud
 
