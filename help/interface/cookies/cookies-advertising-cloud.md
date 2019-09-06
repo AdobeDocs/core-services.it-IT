@@ -8,7 +8,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0172e141dfad5ec323e1b6c330a02f3cc723a2db
+source-git-commit: 4273ac4e98516e496a26dd83fe72c5197e876896
 
 ---
 
@@ -29,11 +29,11 @@ Advertising Cloud utilizza i cookie per mappare eventi di coinvolgimento agli ev
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Informazioni memorizzate </p> </td> 
-   <td colname="col2"> <p>ID e marche temporali (nel formato aaaymmdd) dei clic visualizzati </p> </td> 
+   <td colname="col2"> <p>ID e marche temporali (nel formato aaaymmdd) dei clic visualizzati</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Scadenza </p> </td> 
-   <td colname="col2"> <p>15 minuti/p &gt; </p> </td> 
+   <td colname="col2"> <p>15 minuti</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Utilizzo </p> </td> 
@@ -50,6 +50,39 @@ Advertising Cloud utilizza i cookie per mappare eventi di coinvolgimento agli ev
  </tbody> 
 </table>
 
+## Nome cookie: _ tmae
+
+<table id="table_28C2B62595E240D5A3C3E0BE147748C1"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> Attributo </th> 
+   <th colname="col2" class="entry"> Descrizione </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p>Informazioni memorizzate </p> </td> 
+   <td colname="col2"> <p>ID codificati e marche temporali per l'engagement degli annunci utilizzando il tracciamento DSP di Advertising Cloud </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Scadenza </p> </td> 
+   <td colname="col2"> <p>1 anno </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Utilizzo </p> </td> 
+   <td colname="col2"> <p>Cookie di terze parti che memorizza gli utenti con annunci pubblicitari, ad esempio «last viewed ad xyz 123 il 30 giugno 2016» </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Posizione </p> </td> 
+   <td colname="col2"> <p>everesttech.net </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Dimensioni </p> </td> 
+   <td colname="col2"> <p>Variabile; i dati vengono codificati e generalmente meno di 1 KB </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 ## Nome cookie: adcloud
 
 <table id="table_D7CD238736BC4571883F92F47673F57C"> 
@@ -62,7 +95,7 @@ Advertising Cloud utilizza i cookie per mappare eventi di coinvolgimento agli ev
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Informazioni memorizzate </p> </td> 
-   <td colname="col2"> <p>L'ID del surfer, le marche temporali dell'ultima visita al sito Web dell'inserzionista e l'ultimo clic di ricerca del surfer, e l'ef_ id creato quando l'utente ha fatto clic su un annuncio/p &gt; </p> </td> 
+   <td colname="col2"> <p>L'ID del surfer, le marche temporali dell'ultima visita al sito Web dell'inserzionista e l'ultimo clic di ricerca del surfer, e l'ID ef_ id creato quando l'utente ha fatto clic su un annuncio.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Scadenza </p> </td> 
@@ -216,37 +249,3 @@ Advertising Cloud utilizza i cookie per mappare eventi di coinvolgimento agli ev
   </tr> 
  </tbody> 
 </table>
-
-## Nome cookie: _ tmae
-
-<table id="table_28C2B62595E240D5A3C3E0BE147748C1"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Attributo </th> 
-   <th colname="col2" class="entry"> Descrizione </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Informazioni memorizzate </p> </td> 
-   <td colname="col2"> <p>ID codificati e marche temporali per l'engagement degli annunci utilizzando il tracciamento DSP di Advertising Cloud </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Scadenza </p> </td> 
-   <td colname="col2"> <p>1 anno </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Utilizzo </p> </td> 
-   <td colname="col2"> <p>Cookie di terze parti che memorizza gli utenti con annunci pubblicitari, ad esempio «last viewed ad xyz 123 il 30 giugno 2016» </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Posizione </p> </td> 
-   <td colname="col2"> <p>everesttech.net </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Dimensioni </p> </td> 
-   <td colname="col2"> <p>Variabile; i dati vengono codificati e generalmente meno di 1 KB </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
