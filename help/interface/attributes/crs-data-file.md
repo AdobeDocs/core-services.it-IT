@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Informazioni sui file di dati e le origini dati per gli attributi del cliente
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 translation-type: tm+mt
-source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
+source-git-commit: a231e39dd97eb441d67fdf35bd7e5328bcfe0359
 
 ---
 
@@ -35,7 +35,7 @@ La funzione Attributi del cliente è progettata per gestire alcuni file al giorn
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .csv </span> </p> </td> 
-   <td colname="col2"> <p>Un file con valori separati da file (come quello creato in Excel). Questo è il file che contiene i dati attributo cliente. </p> <p> <b>Requisiti per la denominazione:</b> verifica che le estensioni del nome del file non contengano spazi. </p> </td> 
+   <td colname="col2"> <p>Un file con valori separati da file (come quello creato in Excel). Questo è il file che contiene i dati attributo cliente. </p> <p> <b></b> Requisiti per la denominazione: Verificate che le estensioni dei nomi file non contengano spazi vuoti o caratteri ".", "..", "/", ":" </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .fin </span> </p> </td> 
