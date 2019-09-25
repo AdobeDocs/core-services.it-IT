@@ -1,15 +1,15 @@
 ---
-description: In Target sono utilizzati i cookie per consentire agli operatori del sito Web di verificare quali contenuti e offerte online sono più rilevanti per i visitatori.
-keywords: cookie; privacy
-seo-description: In Target sono utilizzati i cookie per consentire agli operatori del sito Web di verificare quali contenuti e offerte online sono più rilevanti per i visitatori.
+description: Target utilizza i cookie per consentire agli operatori dei siti Web di verificare quali contenuti e offerte online sono più rilevanti per i visitatori.
+keywords: cookie;privacy
+seo-description: Target utilizza i cookie per consentire agli operatori dei siti Web di verificare quali contenuti e offerte online sono più rilevanti per i visitatori.
 seo-title: Cookie di Target
-solution: Marketing Cloud, Analytics, Target, Social
+solution: Experience Cloud,Analytics,Target,Social
 title: Cookie di Target
-uuid: 44 f 7 e 32 e -8 d 99-4682-8 b 54-8364 d 001 b 403
+uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
 
 # Cookie di Target{#target-cookies}
 
-In Target sono utilizzati i cookie per consentire agli operatori del sito Web di verificare quali contenuti e offerte online sono più rilevanti per i visitatori.
+Target utilizza i cookie per consentire agli operatori dei siti Web di verificare quali contenuti e offerte online sono più rilevanti per i visitatori.
 
 Puoi modificare queste impostazioni, se necessario, fatta eccezione per la durata dei cookie. In caso di modifica delle impostazioni dei cookie, rivolgiti al rappresentante di riferimento per il tuo account.
 
@@ -39,11 +39,11 @@ Puoi modificare queste impostazioni, se necessario, fatta eccezione per la durat
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dominio cookie </p> </td> 
-   <td colname="col2"> <p>Il secondo e il primo livello dei domini da cui viene distribuito la mbox. Dato che viene distribuito dal dominio della società, il cookie è un cookie dei siti Web visualizzati. Esempio: <span class="filepath">miasocietà.it</span>. </p> </td> 
+   <td colname="col2"> <p>Il primo e il secondo livello dei domini da cui distribuisci il mbox. Dato che viene distribuito dal dominio della società, il cookie è un cookie dei siti Web visualizzati. Esempio: <span class="filepath">miasocietà.it</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dominio server </p> </td> 
-   <td colname="col2"> <p> <span class="filepath"> clientcode.tt.om trdc. net</span>, utilizzando il codice client per il vostro account Target. </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> clientcode.tt.omtrdc.net</span>, utilizzando il codice client del tuo account Target. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Durata cookie </p> </td> 
@@ -54,9 +54,9 @@ Puoi modificare queste impostazioni, se necessario, fatta eccezione per la durat
 
 >[!NOTE]
 >
->Se uno dei nomi di dominio include un codice del paese, ad esempio [!DNL mycompany.co.uk], collabora con Client Services per configurare il [!DNL mbox.js] supporto.
+>Se uno dei tuoi nomi di dominio include un codice del paese, ad esempio [!DNL mycompany.co.uk], rivolgiti al team dei servizi client per configurare il [!DNL mbox.js] da supportare.
 
-Il cookie conserva una serie di valori per gestire in che modo i visitatori possono provare le campagne di Target:
+Nel cookie è conservata una serie di valori per la gestione dell’esperienza dei visitatori in relazione alle campagne di Target:
 
 <table id="table_5245F72A2D5A4322B40ABB10B7DFB338"> 
  <thead> 
@@ -72,7 +72,7 @@ Il cookie conserva una serie di valori per gestire in che modo i visitatori poss
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> pc ID</span> </p> </td> 
-   <td colname="col2"> <p>Un ID semi-permanente per il browser di un visitatore. Viene eseguito l'eliminazione dei cookie fino alla cancellazione manuale dei cookie. </p> </td> 
+   <td colname="col2"> <p>Un ID semi-permanente per il browser di un visitatore. Rimane attivo finché i cookie non vengono eliminati manualmente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> check</span> </p> </td> 
