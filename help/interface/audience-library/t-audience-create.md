@@ -6,7 +6,7 @@ seo-title: Creazione di un pubblico
 solution: Experience Cloud
 title: Creazione di un pubblico
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
@@ -40,7 +40,7 @@ L'esempio seguente mostra come creare le regole per un pubblico composito. Quest
 
    ![](assets/audience_create.png)
 
-1. In the [!DNL Experience Cloud], under [!DNL Experience Platform], click **[!UICONTROL People]** &gt; **[!UICONTROL Audience Library]**.
+1. In [!DNL Experience Cloud], sotto [!DNL Experience Platform], fai clic su **[!UICONTROL Persone]** &gt; **[!UICONTROL Libreria Pubblico]**.
 1. Nella pagina [!UICONTROL Pubblico] fai clic su **[!UICONTROL Nuovo]**. ![](assets/add_icon_small.png)
 
 ![Risultato passaggio](assets/audience_create_new.png)
