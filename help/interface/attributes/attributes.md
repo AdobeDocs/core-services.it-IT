@@ -6,7 +6,7 @@ seo-title: Attributi cliente
 solution: Experience Cloud
 title: Attributi cliente
 uuid: 1621402d-990f-46f9-981a-473280559069
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
@@ -16,7 +16,7 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ## Panoramica
 
-Per individuare [!UICONTROL gli attributi] del cliente su **[!DNL Experience Platform]****[!UICONTROL &gt; Persone]** &gt; **[!UICONTROL Attributi cliente]**
+Per individuare gli [!UICONTROL attributi del cliente], apri **[!DNL Experience Platform]** &gt; **[!UICONTROL Persone]** &gt; **[!UICONTROL Attributi del cliente]**
 
 Se acquisisci dati del cliente di livello Enterprise in un database CRM (Customer Relationship Management), puoi caricare tali dati in una sorgente dati di attributi cliente in Experience Cloud. Una volta effettuato l'aggiornamento, sfrutta i dati in [!DNL Adobe Analytics] e [!DNL Adobe Target].
 
@@ -27,7 +27,7 @@ Se acquisisci dati del cliente di livello Enterprise in un database CRM (Custome
 
 * **Abilitazione della soluzione:** [Abilitare le soluzioni per i servizi principali](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C).
 
-* **Iscrizione al gruppo:** per caricare i dati degli attributi cliente, gli utenti devono essere membri del gruppo [Attributi del cliente](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9). Devi far parte di un gruppo Adobe Analytics o Adobe Target.
+* **Iscrizione al gruppo:** per caricare i dati degli attributi cliente, gli utenti devono essere membri del gruppo  [Attributi del cliente](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9). Devi far parte di un gruppo Adobe Analytics o Adobe Target.
 
    Per verificare se la società dispone dell’accesso agli attributi del cliente, l’amministratore di [!DNL Experience Cloud] deve effettuare l’accesso a [!DNL Experience Cloud]. Passa a **[!UICONTROL Amministrazione]** &gt; **[!UICONTROL Avvia Admin Console]** &gt; **[!UICONTROL Gruppi]**. Se *Attributi cliente* è visualizzato come uno dei gruppi, è pronto per iniziare.
 
@@ -36,7 +36,7 @@ Se acquisisci dati del cliente di livello Enterprise in un database CRM (Custome
 * **Mbox target:** per gli attributi cliente è richiesto mbox.js versione 58 o superiore.
 
 
-   Consulta [Implementazione di mbox.js](https://marketing.adobe.com/resources/help/en_US/target/ov/t_mbox_download.html).
+   Consulta [Implementazione di Mbox.js](https://marketing.adobe.com/resources/help/it_IT/target/ov/?f=t_mbox_download).
 
 * **at.js:** qualsiasi versione.
 
