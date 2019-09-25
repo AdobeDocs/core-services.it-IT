@@ -1,12 +1,12 @@
 ---
-description: Se non effettui il caricamento trascinando la selezione, puoi caricare l'attributo del cliente in Experience Cloud tramite FTP.
+description: Se non effettui il caricamento trascinando la selezione, puoi caricare l’attributo del cliente in Experience Cloud tramite FTP.
 keywords: attributi del cliente;servizi principali
-seo-description: Se non effettui il caricamento trascinando la selezione, puoi caricare l'attributo del cliente in Experience Cloud tramite FTP.
+seo-description: Se non effettui il caricamento trascinando la selezione, puoi caricare l’attributo del cliente in Experience Cloud tramite FTP.
 seo-title: Facoltativo - Caricamento del file di dati tramite FTP
 solution: Experience Cloud
 title: Facoltativo - Caricamento del file di dati tramite FTP
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 # Facoltativo - Caricamento del file di dati tramite FTP
 
-Se non effettui il caricamento trascinando la selezione, puoi caricare l'attributo del cliente in Experience Cloud tramite FTP.
+Se non effettui il caricamento trascinando la selezione, puoi caricare l’attributo del cliente in Experience Cloud tramite FTP.
 
 Puoi caricare i dati dopo la creazione di un'origine attributo del cliente e un account FTP in Experience Cloud. Puoi creare un account FTP per origine attributo. I file caricati vengono archiviati nella cartella principale di quell'account. I dati devono essere in formato `.csv` e un secondo file `.fin` deve indicare il completamento del caricamento.
 
@@ -26,7 +26,7 @@ Puoi caricare i dati dopo la creazione di un'origine attributo del cliente e un 
 Puoi effettuare i caricamenti di file al sito FTP degli attributi del cliente tramite FTP o SFTP.
 
 * Dovere disporre di un client che supporta le connessioni SFTP.
-* Puoi effettuare la connessione con SFTP utilizzando nome utente/password oppure senza utilizzare la password, come spiegato [qui](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/?f=ftp_sftp_cert_auth).
+* Puoi connetterti a SFTP utilizzando nome utente e password oppure senza password, come descritto [qui](https://marketing.adobe.com/resources/help/it_IT/whitepapers/ftp/?f=ftp_sftp_cert_auth).
 
 
 
@@ -52,4 +52,4 @@ Puoi effettuare i caricamenti di file al sito FTP degli attributi del cliente tr
    Se il caricamento viene eseguito correttamente, entrambi i file vengono spostati in una cartella denominata **processed (elaborati)**.
 
 
-   Consulta [Requisiti del file dati per il caricamento degli attributi cliente](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) per informazioni importanti sulla denominazione e sulla struttura del file.
+   Consulta  [Requisiti del file dati per il caricamento degli attributi cliente](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) per informazioni importanti sulla denominazione e sulla struttura del file.
