@@ -1,12 +1,12 @@
 ---
-description: Funzionalità, note sulla versione e problemi noti per l'interfaccia Experience Cloud.
+description: Funzionalità, note sulla versione e problemi noti per l’interfaccia Experience Cloud.
 keywords: servizi di base
-seo-description: Funzionalità, note sulla versione e problemi noti per l'interfaccia Experience Cloud.
+seo-description: Funzionalità, note sulla versione e problemi noti per l’interfaccia Experience Cloud.
 seo-title: Note sulla versione cumulative
 solution: Experience Cloud
 title: Note sulla versione cumulative
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 75831abe44d04902691325add2338381754f98ec
 
 ---
@@ -14,13 +14,13 @@ source-git-commit: 75831abe44d04902691325add2338381754f98ec
 
 # Note sulla versione cumulative
 
-Funzionalità, note sulla versione e problemi noti per l'interfaccia Experience Cloud.
+Funzionalità, note sulla versione e problemi noti per l’interfaccia Experience Cloud.
 
 Per un elenco degli aggiornamenti della documentazione, consulta [Experience Cloud](../doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
-Per le note sulla versione comprensive di tutte le soluzioni vedi [Note sulla versione di Experience Cloud](https://marketing.adobe.com/resources/help/en_US/whatsnew/).
+Per le note sulla versione comprensive di tutte le soluzioni, consulta [Note sulla versione di Adobe Experience Cloud](https://marketing.adobe.com/resources/help/it_IT/whatsnew/).
 
-## Agosto 2019
+## Agosto - 2019
 
 * È stato risolto un problema critico nell’accesso a Experience Cloud che per alcuni utenti causava l’uscita dalla sessione. (MCUI-6908)
 * È stato aggiornato l’accesso a Experience Cloud per migliorarne le prestazioni e ridurne la latenza. (MCUI-6854, MCUI-6869, MCUI-6883)
@@ -29,7 +29,7 @@ Per le note sulla versione comprensive di tutte le soluzioni vedi [Note sulla ve
 
 ## Aprile - 2019
 
-* Lo switcher dell’app è stato aggiornato per includere la suite di soluzioni Marketo in Experience Cloud e gli aggiornamenti di branding nella piattaforma Experience. (MCUI-6529)
+* Lo switcher dell’app è stato aggiornato per includere la suite di soluzioni Marketo in Experience Cloud e gli aggiornamenti di branding in Experience Platform. (MCUI-6529)
 * La pagina Home di Experience Cloud è stata aggiornata per includere i link di navigazione per le pagine Feed e Amministrazione. (MCUI-6682)
 * È stato risolto un problema nella definizione [!UICONTROL Trigger] per l’uso corretto della clausola “like”. (MCUI-6611)
 * Sono stati introdotti miglioramenti relativi agli attributi del cliente per migliorare la registrazione nel servizio di abbonamento. (MCUI-6519)
@@ -116,9 +116,9 @@ Se accedi a Dynamic Tag Management tramite l’interfaccia **[!UICONTROL Experie
 
 >[!NOTE]
 >
->Microsoft cesserà [il supporto](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) per Internet Explorer 8, 9 e 10. In quanto tale, i problemi segnalati a fronte di tali versioni specifiche di Internet Explorer non verranno corretti.
+>Microsoft [termina il supporto](https://www.microsoft.com/it-it/WindowsForBusiness/End-of-IE-support) di Internet Explorer 8, 9 e 10. In quanto tale, i problemi segnalati a fronte di tali versioni specifiche di Internet Explorer non verranno corretti.
 
-## Rilascio 15.10 - 14 ottobre 2015 {#section_68123833D3634BD3A473C12862BF9606}
+## Rilascio 15.10 - 14 ottobre 2015  {#section_68123833D3634BD3A473C12862BF9606}
 
 **Problemi noti**
 
@@ -132,7 +132,7 @@ Se accedi a Dynamic Tag Management tramite l’interfaccia **[!UICONTROL Experie
 * È stato corretto un problema relativo alla Libreria Pubblico che impediva la condivisione del pubblico nella segmentazione di Analytics. Questo problema causava la visualizzazione di "Raccolta di dati" (0 tipi di pubblico). Per impedire questo problema, Adobe consiglia di mantenere la dimensione del segmento al di sotto di 50 mila membri per segmento. (MAC-25788)
 * È stato risolto un problema precedentemente noto sulla pagina Attributi del cliente - Modifica schema che causava un errore in base al contenuto, che si verificava durante la modifica di un nome visualizzato. (MAC-25589, AN-103834)
 
-## Rilascio 15.7 - 22 luglio 2015 {#section_2683A152176944E48EF6C943892975B7}
+## Rilascio 15.7 - 22 luglio 2015  {#section_2683A152176944E48EF6C943892975B7}
 
 * È stato risolto un problema che impediva l’aggiornamento nei report di Analytics delle descrizioni dell’attributo specificato nella pagina Visualizza/Modifica schema (negli attributi del cliente). (MAC-25985)
 * È stato risolto un problema che impediva il rendering delle miniature per le risorse caricate. (MAC-25863)
@@ -144,7 +144,7 @@ Se accedi a Dynamic Tag Management tramite l’interfaccia **[!UICONTROL Experie
 
 Un problema noto crea la duplicazione di account automaticamente generati in Audience Manager e li collega automaticamente a un'identità Experience Cloud del cliente. Il problema si verifica quando si tenta di passare ad Audience Manager prima di collegare i propri account. Adobe consiglia di collegare gli account Audience Manager a Experience Cloud prima di spostarsi ad Audience Manager. (MAC-25640)
 
-## Rilascio 15.6.1 - 11 giugno 2015 {#section_AD2019F8D2F84C9EB2B0533FAACF7043}
+## Rilascio 15.6.1 - 11 giugno 2015  {#section_AD2019F8D2F84C9EB2B0533FAACF7043}
 
 Nessuna informazione disponibile
 
@@ -162,16 +162,16 @@ Nessuna informazione disponibile
    <td colname="col1"> <p> </p> </td> 
    <td colname="col2"> <p>I menu di navigazione a sinistra sono stati aggiornati e disposti per fornire accesso a tutti i servizi e le soluzioni di base. Le modifiche principali includono: </p> 
     <ul id="ul_5BEBAB86B9234A239C4E2DAF8826D8E3"> 
-     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1">Le selezioni del menu selezioni del menu <span class="term">Libreria audience</span> e <span class="term">Attributi del cliente</span> ora sono posizionate in <span class="term">Audience</span>. </li> 
+     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1">Le selezioni del menu  selezioni del menu <span class="term">Libreria audience</span> e <span class="term">Attributi del cliente</span> ora sono posizionate in <span class="term">Audience</span>. </li> 
      <li id="li_95D62A43AE6243DBB2A65EDB830D05C4">La selezione del menu <span class="term"> Exchange </span> è stata spostata dal menu a discesa Aiuto nel riquadro di navigazione a sinistra. </li> 
-     <li id="li_0443FD50C78446CD8AA27A4F272CAD31"> <span class="term"> Soluzioni</span> è stato rimosso. Ora puoi avviare tutte le soluzioni dalla parte inferiore del riquadro di navigazione. </li> 
+     <li id="li_0443FD50C78446CD8AA27A4F272CAD31"> <span class="term">Soluzioni</span> è stato rimosso. Ora puoi avviare tutte le soluzioni dalla parte inferiore del riquadro di navigazione. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
 * È stato risolto un problema che impediva agli attributi del cliente di sincronizzarsi per alcuni clienti.
-* È stato risolto un problema che impediva alla pagina [Documentazione sul prodotto Adobe Target](https://marketing.adobe.com/resources/help/ja_JP/target/a4t/) di essere visualizzata in giapponese.
+* È stato risolto un problema che impediva la visualizzazione della pagina di [documentazione di Adobe Target](https://marketing.adobe.com/resources/help/it_IT/target/a4t/) in giapponese.
 * È stato risolto un problema che impediva l’utilizzo di testo in giapponese nei commenti tra [!DNL Creative Cloud] e [!DNL Experience Cloud].
 
 ## Rilascio 15.4.1 - 8 aprile 2015 {#section_75634120CC934B3381EDEA7F6F976F0A}
@@ -215,7 +215,7 @@ Nessuna informazione disponibile
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Attributi del cliente </p> </td> 
+   <td colname="col1"> <p>Attributi cliente </p> </td> 
    <td colname="col2"> <p>Se acquisisci dati del cliente di livello Enterprise in un database CRM (Customer Relationship Management), puoi caricare tali dati in una sorgente dati di attributi cliente in Experience Cloud. Dopo il caricamento dei dati, puoi effettuare i rapporti <span class="uicontrol">Visitor Profile (Profilo visitatore)</span> &gt; <span class="uicontrol">Attributi del cliente</span> in Analytics. </p> <p>Inoltre, puoi utilizzare i dati caricati come segmento del pubblico in <span class="keyword">Adobe Target</span>. </p> <p>Consulta la documentazione del prodotto relativa agli <a href="../attributes/attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local"> Attributi del cliente</a>. </p> <p> Per informazioni sulla modernizzazione delle soluzioni per i servizi principali, consulta <a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> Abilitare le soluzioni per i servizi principali</a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -245,7 +245,7 @@ Nessuna informazione disponibile
   </tr> 
   <tr> 
    <td colname="col1"> <p>Aggiornamenti documentazione - Servizi di base </p> </td> 
-   <td colname="col2"> <p>È stato aggiunto l'argomento <a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> Abilita le soluzioni per i servizi di base</a> per assistenza sull'implementazione dei servizi di base. </p> </td> 
+   <td colname="col2"> <p>È stato aggiunto l'argomento  <a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> Abilita le soluzioni per i servizi di base</a> per assistenza sull'implementazione dei servizi di base. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -260,7 +260,7 @@ Correzioni:
 * È stato risolto un problema che impediva la visualizzazione dell'icona Aggiungi (simbolo più) in [!UICONTROL Regole] della pagina [!UICONTROL Crea nuovo pubblico].
 * È stato migliorato il supporto all'interfaccia di Experience Cloud per Internet Explorer 9.
 
-## Rilascio 15.1.1 - 15 gennaio 2015 {#section_F1A352E928AF432E94CC0A289C345184}
+## Rilascio 15.1.1 - 15 gennaio 2015  {#section_F1A352E928AF432E94CC0A289C345184}
 
 Nuove funzioni, problemi noti e correzioni nella [!DNL Adobe Experience Cloud] collaborazione e nell'interfaccia di condivisione.
 
@@ -300,20 +300,20 @@ Nuove funzioni, problemi noti e correzioni nella [!DNL Adobe Experience Cloud] c
 * Alcuni utenti potrebbero rilevare dei problemi durante la creazione di un pubblico in una suite di report di Analytics dopo l'abilitazione di tipi di pubblico condivisi.
 * Alcuni utenti potrebbero avere dei problemi durante il caricamento di risorse su una bacheca.
 
-## Rilascio 14.11.1 - 13 novembre 2014 {#section_A6CF1D4F27B9496892A89C983EB39102}
+## Rilascio 14.11.1 - 13 novembre 2014  {#section_A6CF1D4F27B9496892A89C983EB39102}
 
 Problemi noti:
 
 * Alcuni utenti possono eliminare una vecchia risorsa invece di ricevere una notifica di errore.
 * Non è possibile eseguire il rendering di alcuni file [!DNL .png] su una scheda.
 * Alcuni utenti potrebbero avere dei problemi durante il caricamento di risorse su una bacheca.
-* Le modifiche apportate al gruppo e all'adesione nella gestione utente hanno effetto solamente all'accesso successivo.
+* Le modifiche apportate al gruppo e all’adesione nella gestione utente hanno effetto solamente all’accesso successivo.
 * Per visualizzare le modifiche apportate alle Impostazioni account, gli amministratori devono disconnettersi e accedere di nuovo.
 * Gli utenti non riescono a condividere file di PowerPoint sulle bacheche.
 * L'interfaccia di [!DNL Experience Cloud] può diminuire le prestazioni se usata in parallelo da molti utenti.
 * La sincronizzazione di Adobe Experience Manager con Creative Cloud non funziona correttamente.
 
-## Rilascio 14.10.1 - 16 ottobre 2014 {#section_E3A0F4423B814707AA3745E083500835}
+## Rilascio 14.10.1 - 16 ottobre 2014  {#section_E3A0F4423B814707AA3745E083500835}
 
 Nuove funzioni, problemi noti e correzioni nella [!DNL Adobe Experience Cloud] collaborazione e nell'interfaccia di condivisione.
 
@@ -344,7 +344,7 @@ Nuove funzioni, problemi noti e correzioni nella [!DNL Adobe Experience Cloud] c
 
 * Alcuni utenti potrebbero avere dei problemi durante il caricamento di risorse su una bacheca.
 * Non è possibile eseguire il rendering di alcuni file [!DNL .png] su una scheda.
-* Le modifiche apportate al gruppo e all'adesione nella gestione utente hanno effetto solamente all'accesso successivo.
+* Le modifiche apportate al gruppo e all’adesione nella gestione utente hanno effetto solamente all’accesso successivo.
 * Alcuni utenti potrebbero non riuscire a creare una scheda da un PDF e a condividerla su una bacheca.
 * Alcuni utenti possono eliminare una vecchia risorsa invece di ricevere una notifica di errore.
 * Gli utenti non riescono a condividere file di PowerPoint sulle bacheche.
@@ -360,7 +360,7 @@ Nuove funzioni, problemi noti e correzioni nella [!DNL Adobe Experience Cloud] c
 
 **Problemi noti**
 
-* Le modifiche apportate al gruppo e all'adesione nella gestione utente hanno effetto solamente all'accesso successivo.
+* Le modifiche apportate al gruppo e all’adesione nella gestione utente hanno effetto solamente all’accesso successivo.
 * Alcuni utenti potrebbero non riuscire a creare una scheda da un PDF e a condividerla su una bacheca.
 * Alcuni utenti potrebbero avere dei problemi durante il caricamento di risorse su una bacheca.
 * Alcuni utenti possono eliminare una vecchia risorsa invece di ricevere una notifica di errore.
@@ -391,7 +391,7 @@ Nuove funzioni, problemi noti e correzioni nella collaborazione [!DNL Adobe Expe
 
 **Problemi noti**
 
-* Le modifiche apportate al gruppo e all'adesione nella gestione utente hanno effetto solamente all'accesso successivo.
+* Le modifiche apportate al gruppo e all’adesione nella gestione utente hanno effetto solamente all’accesso successivo.
 * Alcuni utenti potrebbero non riuscire a creare una scheda da un PDF e a condividerla su una bacheca.
 * Alcuni utenti potrebbero avere dei problemi durante il caricamento di risorse su una bacheca.
 * Alcuni utenti potrebbero non riuscire a effettuare l'accesso da [!DNL Target] a [!DNL Experience Cloud].
@@ -426,7 +426,7 @@ Nuove funzioni, problemi noti e correzioni nella [!DNL Adobe Experience Cloud] c
 
 Nessuno.
 
-## Rilascio 14.6.1 - 19 giugno 2014 {#marketing_cloud_interface}
+## Rilascio 14.6.1 - 19 giugno 2014  {#marketing_cloud_interface}
 
 Nuove funzioni, problemi noti e correzioni nella [!DNL Adobe Experience Cloud] collaborazione e nell'interfaccia di condivisione.
 
@@ -462,7 +462,7 @@ Nuove funzioni, problemi noti e correzioni nella [!DNL Adobe Experience Cloud] c
 
 * È stato risolto un problema che impediva il caricamento di video in applicazioni.
 
-## Rilascio 14.5.1 - 22 maggio 2014 {#section_7E22B2CB3ABA4D6EAED8CA8EFDE5433E}
+## Rilascio 14.5.1 - 22 maggio 2014  {#section_7E22B2CB3ABA4D6EAED8CA8EFDE5433E}
 
 <table id="table_4E4B34EEE3D94D78BA1A1FBC62950559"> 
  <thead> 
@@ -513,7 +513,7 @@ Nuove funzioni, problemi noti e correzioni nella [!DNL Adobe Experience Cloud] c
 * Gli utenti non riuscivano a condividere file di PowerPoint sulle bacheche.
 * Alcuni utenti rimarcavano un layout visivo scadente in Internet Explorer 10 rispetto ad altri browser.
 
-## Rilascio 14.4.1 - 22 aprile 2014 {#section_E2A699764E744D2E8D418E9A3D40AF6B}
+## Rilascio 14.4.1 - 22 aprile 2014  {#section_E2A699764E744D2E8D418E9A3D40AF6B}
 
 <table id="table_D95C0DC64F2A4B47BAC83E504CFD6825"> 
  <thead> 
@@ -586,7 +586,7 @@ La versione 14.3.1 è una release di manutenzione che si concentra sulla velocit
 * I dati condivisi da [!DNL Media Optimizer] non sono correttamente rappresentati in Experience Cloud.
 * La condivisione di immagini di Flickr non viene eseguita correttamente.
 * I filtri applicati ai report con tendenze [!DNL Analytics] sono applicati alle schede in Experience Cloud.
-* Le modifiche apportate al gruppo e all'adesione nella gestione utente hanno effetto solamente all'accesso successivo.
+* Le modifiche apportate al gruppo e all’adesione nella gestione utente hanno effetto solamente all'accesso successivo.
 * Il collegamento [!DNL Search&Promote] non è disponibile da [!UICONTROL Organizations &amp; Product Access (Organizzazione e accesso ai prodotti)].
 * L'utente deve aggiornare la bacheca per far scomparire dalla vista le schede eliminate.
 * Non è possibile caricare su una bacheca alcun file Excel o CSV.
@@ -594,7 +594,7 @@ La versione 14.3.1 è una release di manutenzione che si concentra sulla velocit
 * Non è possibile effettuare il rendering su una scheda di alcuni file PNG.
 * Non è possibile inviare feedback beta.
 
-## Rilascio 14.2.1 - 24 febbraio 2014 {#section_5AD81B0737C843AFB4BE9C4420D70EB3}
+## Rilascio 14.2.1 - 24 febbraio 2014  {#section_5AD81B0737C843AFB4BE9C4420D70EB3}
 
 <table id="table_DFAB002358C94A17A7F91DAB323A488F"> 
  <thead> 
