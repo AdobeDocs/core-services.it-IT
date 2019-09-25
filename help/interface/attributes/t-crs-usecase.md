@@ -6,7 +6,7 @@ seo-title: Creazione di una sorgente attributo cliente e caricamento del file di
 solution: Experience Cloud
 title: Creazione di una sorgente attributo cliente e caricamento del file di dati
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 # Creazione di una sorgente attributo cliente e caricamento del file di dati
 
-Crea l'origine attributo del cliente (file CSV e FIN) e carica i dati. Puoi attivare l’origine dati quando lo desideri. Quando la sorgente dati è attiva, condividi i dati attributo in Analytics e Target.
+Creazione della sorgente attributo cliente (file CSV e FIN) e caricamento dei dati. Puoi attivare l’origine dati quando lo desideri. Quando la sorgente dati è attiva, condividi i dati attributo in Analytics e Target.
 
 ## Flusso di lavoro attributi cliente {#concept_BF0AF88E9EF841219ED4D10754CD7154}
 
@@ -75,7 +75,7 @@ Segui questi passaggi nella pagina Crea nuova origine attributo del cliente in E
 
 
 1. In [!DNL Experience Cloud], fate clic sull’icona Menu ![](assets/menu-icon.png).
-1. In **[!DNL Experience Platform]**, fai clic **[!UICONTROL su Persone]** &gt; **[!UICONTROL Attributi del cliente]**.
+1. In **[!DNL Experience Platform]**, fai clic su **[!UICONTROL Persone]** &gt; **[!UICONTROL Attributi del cliente]**.
 
    La pagina [!UICONTROL Attributi del cliente] è il luogo in cui puoi gestire e modificare l'origine dati degli attributi esistenti.
 
@@ -94,9 +94,9 @@ Segui questi passaggi nella pagina Crea nuova origine attributo del cliente in E
 
       L'ID alias corrisponde ad alcune aree in cui imposti valori ID cliente aggiuntivi. Ad esempio:
 
-      * **Gestione tag dinamica:** L'ID alias corrisponde al *valore Codice* integrazione in [!UICONTROL Impostazioni cliente], nello [strumento Experience](https://marketing.adobe.com/resources/help/en_US/dtm/?f=macid) Cloud ID Service.
+      * **Dynamic Tag Management:** l’ID alias corrisponde al valore del *Codice di integrazione* in [!UICONTROL Impostazioni cliente], nello strumento del [servizio Experience Cloud ID](https://marketing.adobe.com/resources/help/en_US/dtm/?f=macid).
 
-      * **API visitatore:** l'ID alias corrisponde agli [ID cliente](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_customer_ids) aggiuntivi che puoi associare a ciascun visitatore.
+      * **API visitatore:** l’ID alias corrisponde agli [ID cliente](https://marketing.adobe.com/resources/help/it_IT/mcvid/?f=mcvid_customer_ids) aggiuntivi che puoi associare a ogni visitatore.
 
          Ad esempio, *“crm_ id”* in:
 
@@ -106,14 +106,14 @@ Segui questi passaggi nella pagina Crea nuova origine attributo del cliente in E
          ```
 
 
-      * **iOS:** L'ID alias corrisponde a *"idtype"* in [visitorsyncidentifiers: identificatori](https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=methods).
+      * **iOS:** l’ID alias corrisponde a *“idType”* in [visitorSyncIdentifiers:identifiers](https://marketing.adobe.com/resources/help/it_IT/mobile/ios/?f=methods).
 
          Ad esempio:
 
          `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
 
-      * **Android:** l'ID alias corrisponde a *" Idtype "* in [syncidentifiers](https://marketing.adobe.com/resources/help/en_US/mobile/android/?f=methods).
+      * **Android:** l’ID alias corrisponde a *“idtype”* in [syncIdentifiers](https://marketing.adobe.com/resources/help/it_IT/mobile/android/?f=methods).
 
          Ad esempio:
 
@@ -192,7 +192,7 @@ L'esempio seguente mostra un segmento di [!DNL Analytics] basato su attributi mu
 
 Quando pubblichi un segmento in Experience Cloud, diventa disponibile in Experience Cloud Audiences e Audience Manager.
 
-Consulta [Rapporto attributi cliente](https://marketing.adobe.com/resources/help/en_US/reference/?f=reports_customer_attributes) nell'Aiuto di Analytics per ulteriori informazioni.
+Consulta [Rapporti sugli attributi del cliente](https://marketing.adobe.com/resources/help/en_US/reference/?f=reports_customer_attributes) nella guida di Analytics per ulteriori informazioni.
 
 ## Usare gli attributi del cliente in Adobe Target {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
@@ -200,4 +200,4 @@ In Target puoi selezionare un attributo del cliente dalla sezione Profilo visita
 
 ![](assets/crs-add-attribute-target.png)
 
-Consulta [Creazione di un nuovo pubblico](https://marketing.adobe.com/resources/help/en_US/target/target/?f=t_creating_a_new_audience) nell'Aiuto di Target.
+Consulta [Creazione di un nuovo tipo di pubblico](https://marketing.adobe.com/resources/help/it_IT/target/target/?f=t_creating_a_new_audience) nella guida di Target.
