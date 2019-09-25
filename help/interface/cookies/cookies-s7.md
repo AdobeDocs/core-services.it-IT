@@ -1,46 +1,46 @@
 ---
-description: Scene 7 utilizza i cookie per memorizzare le informazioni utili che possono essere utilizzate per consegnare gli elementi multimediali dinamici al browser.
-keywords: cookie; privacy
-seo-description: Scene 7 utilizza i cookie per memorizzare le informazioni utili che possono essere utilizzate per consegnare gli elementi multimediali dinamici al browser.
-seo-title: Cookie Scene 7
-solution: Marketing Cloud, Analytics, Target, Social
-title: Cookie Scene 7
-uuid: f 9 b 9 d 13 a -17 e 5-4139-8 c 84-6 fe 5 d 22 c 4196
+description: Scene7 utilizza i cookie per memorizzare informazioni utili che possono essere utilizzate per inviare contenuti multimediali dinamici al browser.
+keywords: cookie;privacy
+seo-description: Scene7 utilizza i cookie per memorizzare informazioni utili che possono essere utilizzate per inviare contenuti multimediali dinamici al browser.
+seo-title: Cookie di Scene7
+solution: Experience Cloud,Analytics,Target,Social
+title: Cookie di Scene7
+uuid: f9b9d13a-17e5-4139-8c84-6fe5d22c4196
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7137e608ddece5bf2a3983b3b18909ba89d607a6
 
 ---
 
 
-# Cookie Scene 7{#scene-cookies}
+# Cookie di Scene7{#scene-cookies}
 
-Scene 7 utilizza i cookie per memorizzare le informazioni utili che possono essere utilizzate per consegnare gli elementi multimediali dinamici al browser.
+Scene7 utilizza i cookie per memorizzare informazioni utili che possono essere utilizzate per inviare contenuti multimediali dinamici al browser.
 
-Scene 7 memorizza localmente le informazioni per alcuni visualizzatori basati su Flash precedenti a 2.
+Scene7 memorizza le informazioni in locale per alcuni visualizzatori AS2 basati su Flash precedenti.
 
-Per visualizzatori AS 2, cookie:
+Per i visualizzatori AS2, i cookie:
 
-* Monitora lo stato della sessione di un utente, ad esempio pagina corrente e immagine visualizzata, livello di zoom corrente ecc.
-* Determina quanto tempo è trascorso dalla sessione precedente dell'utente. Il visualizzatore utilizza queste informazioni per decidere se continuare una sessione precedente o avviarne una nuova. Queste informazioni vengono inviate anche ai server Scene 7, che tuttavia non vengono utilizzati.
+* Monitorano lo stato della sessione di un utente, ad esempio la pagina corrente e l’immagine visualizzata, il livello di zoom corrente ecc.
+* Determinano quanto tempo è trascorso dalla sessione precedente dell’utente. Il visualizzatore utilizza queste informazioni per decidere se continuare una sessione precedente o avviarne una nuova. Queste informazioni vengono inviate anche ai server di Scene7, che tuttavia non vengono utilizzati.
 
-Per visualizzatore di ecatalog AS 2, cookie:
+Per i visualizzatori AS2 Flash eCatalog, i cookie:
 
-* Archiviate il contenuto generato dall'utente (in particolare il contenuto immesso dall'utente nella funzione "note" del visualizzatore ecatalog). Questo contenuto viene ripristinato quando l'utente riprende una sessione.
-* Quando l'utente avvia un messaggio e-mail per condividere l'ecatalog con un altro utente, il contenuto delle note del secondo elenco visualizzatori AS 2 viene copiato sui nostri server per fornire al destinatario. Quando il destinatario avvia la sessione del visualizzatore, viene recuperato dal server il contenuto delle note fisso e copiato in un cookie. Questa funzione è ridotta e non scade e il contenuto non viene rimosso. Al momento, persiste sui server a tempo indeterminato.
+* Archiviano il contenuto generato dall’utente (in particolare il contenuto immesso dall’utente nella funzione “note” del visualizzatore ecatalog). Questo contenuto viene ripristinato quando l’utente riprende una sessione.
+* Quando l’utente avvia un messaggio e-mail per condividere l’ecatalog con un altro utente, il contenuto delle note del secondo elenco dei visualizzatori di AS2 viene copiato sui nostri server e fornito al destinatario. Quando il destinatario avvia la sessione come visualizzatore, il contenuto delle note viene recuperato dal server e copiato in un cookie. Questa funzione è poco usata, pertanto non scade e il contenuto non aggiornato non viene rimosso. Al momento, persiste sui server a tempo indeterminato.
 
-I successivi visualizzatori AS 3 non implementano la persistenza della sessione.
+I visualizzatori AS3 successivi non implementano la persistenza della sessione.
 
-**Nome cookie: Vatlogin. jsp**
+**Nome cookie: VatLogin.jsp**
 
 | Attributo | Descrizione |
 |---|---|
-| Informazioni memorizzate | Imposta il cookie della sessione. Il cookie authfilter incorporato in IPS imageserver (IS, IR, e anche i file SWF/skins e video) utilizza il cookie per l'autorizzazione di accesso. Se presente, consente la trasmissione delle richieste HTTP. Altrimenti restituisce non autorizzato. |
-| Scadenza | Questo cookie è un cookie di sessione. La scadenza della sessione corrente è impostata su 45 minuti in Scene 7 IPS [!DNL web.xml]. |
+| Informazioni memorizzate | Imposta il cookie della sessione. AuthFilter, incorporato in IPS ImageServer (IS, IR, e anche i contesti SWF/interfacce e video) utilizza il cookie per l’autorizzazione degli accessi. Se presente, consente la trasmissione delle richieste HTTP. Altrimenti restituisce non autorizzato. |
+| Scadenza | Questo cookie è un cookie di sessione. La scadenza della sessione corrente è impostata su 45 minuti nell’IPS di Scene7 [!DNL web.xml]. |
 
-**Nome cookie: s 7 js. flyout. infomessage. displayed`assetId`. state**
+**Nome cookie: s7js.flyout.InfoMessage.displayed`assetId`.state**
 
 <table id="table_6835D64C5D464A049F576621F2BE3FAD"> 
  <thead> 
@@ -52,7 +52,7 @@ I successivi visualizzatori AS 3 non implementano la persistenza della sessione.
  <tbody> 
   <tr> 
    <td colname="col1"> Informazioni memorizzate </td> 
-   <td colname="col2"> <p>&lt; ID risorsa &gt; è il nome della risorsa con cui il visualizzatore sta lavorando. </p> </td> 
+   <td colname="col2"> <p>&lt;assetId&gt; è il nome della risorsa che il visualizzatore sta utilizzando. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Scadenza </td> 
@@ -61,9 +61,9 @@ I successivi visualizzatori AS 3 non implementano la persistenza della sessione.
  </tbody> 
 </table>
 
-**Nome cookie: s 7 js. flyout. infomessage. displayed`assetId`_ idx`id`. ant**
+**Nome cookie: s7js.flyout.InfoMessage.displayed`assetId`_idx`id`.ant**
 
-I cookie del browser vengono utilizzati dai visualizzatori DHTML precedenti per memorizzare informazioni sullo stato e dati fissi. Vengono anche utilizzate dal menu a comparsa DHTML multischermo per rendere l'indicatore dei messaggi specifico della sessione.
+I cookie del browser vengono utilizzati dai visualizzatori DHTML precedenti per memorizzare informazioni sullo stato e dati sulle note. Vengono anche utilizzati dal riquadro a comparsa DHTML multischermo per rendere l’indicatore dei messaggi specifico per la sessione.
 
 <table id="table_8F6CC83D32D54BEE99884318AD126C98"> 
  <thead> 
@@ -75,7 +75,7 @@ I cookie del browser vengono utilizzati dai visualizzatori DHTML precedenti per 
  <tbody> 
   <tr> 
    <td colname="col1"> Informazioni memorizzate </td> 
-   <td colname="col2"> <p> </p> <p> &lt; ID risorsa &gt; è il nome della risorsa con cui il visualizzatore sta lavorando e &lt; id &gt; è l'indice della nota basato su 0. </p> </td> 
+   <td colname="col2"> <p> </p> <p> &lt;assetId&gt; è il nome della risorsa che il visualizzatore sta utilizzando &lt;id&gt; è l’indice della nota basato su 0. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Scadenza </td> 
