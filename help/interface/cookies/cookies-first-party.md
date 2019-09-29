@@ -7,7 +7,7 @@ solution: Experience Cloud, Analytics
 title: Cookie di prime parti
 index: y
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2bdc4b7287ccacfc4d968278b2c3ffdaeddfc105
 
 ---
@@ -119,6 +119,6 @@ Dopo aver verificato che i nomi host rispondano e trasmettano ai server di racco
 
 1. Se stai passando ai cookie di prime parti da un’implementazione di lunga data o a un nome host di raccolta di prima parte diverso, ti consigliamo di migrare i visitatori dal dominio precedente al nuovo.
 
-Consulta [Migrazione visitatori](https://docs.adobe.com/help/it-IT/analytics/implementation/javascript-implementation/visitor-migration.html) nella guida all’implementazione di Analytics.
+Consulta Migrazione [dei](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/visitor-migration.html) visitatori nella Guida all'implementazione di Analytics.
 
 Dopo che hai caricato il file JavaScript, tutto è configurato per la raccolta dati di cookie di prime parti. Per le prime ore, ti consigliamo di monitorare i report di Analytics per verificare che la raccolta dei dati continui come previsto. In caso contrario, verifica che tutti i passaggi precedenti siano stati completati e fai contattare l’Assistenza clienti da uno degli utenti supportati dalla tua organizzazione.
