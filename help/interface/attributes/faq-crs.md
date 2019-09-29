@@ -6,7 +6,7 @@ seo-title: Domande frequenti, limitazioni e best practice
 solution: Experience Cloud
 title: Domande frequenti, limitazioni e best practice
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 08c2caa1e0e5ca5c487294e9ce33600dde9c9a1e
 
 ---
@@ -19,12 +19,12 @@ Domande frequenti e best practice per attributi cliente in Analytics e Target.
 
 ## Best practice e limitazioni {#section_7F5189B3DAA84EE6865B91D2026EE05A}
 
-Guida e limitazioni per l&#39;uso degli attributi cliente
+Guida e limitazioni per l'uso degli attributi cliente
 
 | Problema | Descrizione |
 |--- |--- |
-| Limitazioni della sottoscrizione attributi cliente | Quando si esegue l&#39;aggiornamento ad Analytics Premium, si verifica un ritardo di 24 ore prima che gli attributi aggiuntivi siano disponibili. Potresti visualizzare un errore Sottoscrizione attributi max durante questo ritardo. |
-| ID Analytics personalizzato (s.visitorID) | L&#39;impostazione di un ID cliente tramite  s.visitorID è un metodo di identificazione degli utenti in Analytics. Tuttavia, le integrazioni in cui vengono esportati o importati i dati di Analytics tramite il servizio ID non funzioneranno quando un visitatore viene identificato tramite s.visitorID.<br>Sono inclusi, ma senza limitazioni, tipi di pubblico condivisi, Analytics for Target (A4T) e attributi cliente.<br>Per queste integrazioni, l&#39;impostazione di un ID Analytics personalizzato non è supportata. |
+| Limitazioni della sottoscrizione attributi cliente | Quando si esegue l'aggiornamento ad Analytics Premium, si verifica un ritardo di 24 ore prima che gli attributi aggiuntivi siano disponibili. Potresti visualizzare un errore Sottoscrizione attributi max durante questo ritardo. |
+| ID Analytics personalizzato (s.visitorID) | L'impostazione di un ID cliente tramite  s.visitorID è un metodo di identificazione degli utenti in Analytics. Tuttavia, le integrazioni in cui vengono esportati o importati i dati di Analytics tramite il servizio ID non funzioneranno quando un visitatore viene identificato tramite s.visitorID.<br>Sono inclusi, ma senza limitazioni, tipi di pubblico condivisi, Analytics for Target (A4T) e attributi cliente.<br>Per queste integrazioni, l'impostazione di un ID Analytics personalizzato non è supportata. |
 | Limitazioni della lunghezza di caratteri in Analytics | Quando si crea una sottoscrizione Analytics, le lunghezze dei campi per i file caricati vengono troncate a 255. |
 
 ## Domande frequenti sugli attributi cliente {#section_E47866EEA83348E09FE43CEC5E44C461}
@@ -95,7 +95,7 @@ Guida e limitazioni per l&#39;uso degli attributi cliente
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>(Solo Target)</b> Il caricamento di dati dagli attributi del cliente su Adobe Target, estende la durata del profilo del visitatore di Target? </p> </td> 
-   <td colname="col2"> <p>Sì. Consulta <a href="https://marketing.adobe.com/resources/help/it_IT/target/ov/?f=c_visitor_profile_lifetime" format="https" scope="external">Durata del profilo del visitatore</a> nell'Aiuto di Adobe Target. </p> </td> 
+   <td colname="col2"> <p>Sì. Consulta <a href="https://marketing.adobe.com/resources/help/en_US/target/ov/?f=c_visitor_profile_lifetime" format="https" scope="external">Durata del profilo del visitatore</a> nell'Aiuto di Adobe Target. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b> (Solo Target)</b> Posso utilizzare i dati caricati negli attributi del cliente, subito dopo l'identificazione del visitatore da parte dell'ID cliente? </p> </td> 
