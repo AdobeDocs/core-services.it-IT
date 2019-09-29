@@ -4,7 +4,7 @@ seo-description: Informazioni su come eliminare e sostituire gli attributi nello
 seo-title: Aggiornare lo schema (eliminare un attributo)
 title: Aggiornare lo schema (eliminare un attributo)
 uuid: a465fa89-6c7f-4c07-aa59-84c968a82917
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 ---
