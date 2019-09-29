@@ -6,7 +6,7 @@ seo-title: Note sulla versione cumulative
 solution: Experience Cloud
 title: Note sulla versione cumulative
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 75831abe44d04902691325add2338381754f98ec
 
 ---
@@ -18,7 +18,7 @@ Funzionalità, note sulla versione e problemi noti per l’interfaccia Experienc
 
 Per un elenco degli aggiornamenti della documentazione, consulta [Experience Cloud](../doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
-Per le note sulla versione comprensive di tutte le soluzioni, consulta [Note sulla versione di Adobe Experience Cloud](https://marketing.adobe.com/resources/help/it_IT/whatsnew/).
+Per le note sulla versione comprensive di tutte le soluzioni vedi [Note sulla versione di Experience Cloud](https://marketing.adobe.com/resources/help/en_US/whatsnew/).
 
 ## Agosto - 2019
 
@@ -116,7 +116,7 @@ Se accedi a Dynamic Tag Management tramite l’interfaccia **[!UICONTROL Experie
 
 >[!NOTE]
 >
->Microsoft [termina il supporto](https://www.microsoft.com/it-it/WindowsForBusiness/End-of-IE-support) di Internet Explorer 8, 9 e 10. In quanto tale, i problemi segnalati a fronte di tali versioni specifiche di Internet Explorer non verranno corretti.
+>Microsoft cesserà [il supporto](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) per Internet Explorer 8, 9 e 10. In quanto tale, i problemi segnalati a fronte di tali versioni specifiche di Internet Explorer non verranno corretti.
 
 ## Rilascio 15.10 - 14 ottobre 2015  {#section_68123833D3634BD3A473C12862BF9606}
 
@@ -162,7 +162,7 @@ Nessuna informazione disponibile
    <td colname="col1"> <p> </p> </td> 
    <td colname="col2"> <p>I menu di navigazione a sinistra sono stati aggiornati e disposti per fornire accesso a tutti i servizi e le soluzioni di base. Le modifiche principali includono: </p> 
     <ul id="ul_5BEBAB86B9234A239C4E2DAF8826D8E3"> 
-     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1">Le selezioni del menu  selezioni del menu <span class="term">Libreria audience</span> e <span class="term">Attributi del cliente</span> ora sono posizionate in <span class="term">Audience</span>. </li> 
+     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1">Le selezioni del menu selezioni del menu <span class="term">Libreria audience</span> e <span class="term">Attributi del cliente</span> ora sono posizionate in <span class="term">Audience</span>. </li> 
      <li id="li_95D62A43AE6243DBB2A65EDB830D05C4">La selezione del menu <span class="term"> Exchange </span> è stata spostata dal menu a discesa Aiuto nel riquadro di navigazione a sinistra. </li> 
      <li id="li_0443FD50C78446CD8AA27A4F272CAD31"> <span class="term">Soluzioni</span> è stato rimosso. Ora puoi avviare tutte le soluzioni dalla parte inferiore del riquadro di navigazione. </li> 
     </ul> </td> 
@@ -171,7 +171,7 @@ Nessuna informazione disponibile
 </table>
 
 * È stato risolto un problema che impediva agli attributi del cliente di sincronizzarsi per alcuni clienti.
-* È stato risolto un problema che impediva la visualizzazione della pagina di [documentazione di Adobe Target](https://marketing.adobe.com/resources/help/it_IT/target/a4t/) in giapponese.
+* È stato risolto un problema che impediva alla pagina [Documentazione sul prodotto Adobe Target](https://marketing.adobe.com/resources/help/ja_JP/target/a4t/) di essere visualizzata in giapponese.
 * È stato risolto un problema che impediva l’utilizzo di testo in giapponese nei commenti tra [!DNL Creative Cloud] e [!DNL Experience Cloud].
 
 ## Rilascio 15.4.1 - 8 aprile 2015 {#section_75634120CC934B3381EDEA7F6F976F0A}
@@ -245,7 +245,7 @@ Nessuna informazione disponibile
   </tr> 
   <tr> 
    <td colname="col1"> <p>Aggiornamenti documentazione - Servizi di base </p> </td> 
-   <td colname="col2"> <p>È stato aggiunto l'argomento  <a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> Abilita le soluzioni per i servizi di base</a> per assistenza sull'implementazione dei servizi di base. </p> </td> 
+   <td colname="col2"> <p>È stato aggiunto l'argomento <a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> Abilita le soluzioni per i servizi di base</a> per assistenza sull'implementazione dei servizi di base. </p> </td> 
   </tr> 
  </tbody> 
 </table>
