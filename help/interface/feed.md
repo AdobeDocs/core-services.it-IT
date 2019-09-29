@@ -6,7 +6,7 @@ seo-title: Feed
 solution: Experience Cloud
 title: Feed
 uuid: 7ff327d1-5a74-49fb-8c3c-729034818ebc
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -36,7 +36,7 @@ Puoi condividere report da [!UICONTROL Reports &amp; Analytics] in Experience Cl
 
 1. [Accedi](admin-getting-started/getting-started-experience-cloud.md#topic_AC564B6795334DE39359ADD87F52F2E0) a Experience Cloud con il tuo Adobe ID.
 
-1. Passa a Reports &amp; Analytics, quindi [crea un progetto](https://marketing.adobe.com/resources/help/it_IT/analytics/analysis-workspace/?f=freeform_overview).
+1. Passa a Reports &amp; Analytics e [crea un progetto](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/freeform_overview.html).
 
 1. Fai clic su **[!UICONTROL Altro]** &gt; **[!UICONTROL Condividi]**.
 
