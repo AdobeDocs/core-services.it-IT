@@ -6,7 +6,7 @@ seo-title: Considerazioni sulla privacy - Attributi del cliente
 solution: Experience Cloud
 title: Considerazioni sulla privacy - Attributi del cliente
 uuid: 5666dc4e-55fa-4196-9985-cf530cfb9247
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 ---
@@ -28,25 +28,25 @@ Considerazioni e pratiche ottimali sui dati personali caricati e utilizzati in A
 * Altri dati identificativi che consentono di contattare fisicamente oppure online un individuo (varia a seconda del luogo. Verifica e rispetta le leggi e i regolamenti locali relativi alla privacy e i dati PII per tutti i luoghi in cui si svolge la propria attività).
 
 
-Adobe fornisce degli strumenti che consentono agli inserzionisti di ottenere informazioni comportamentali sui consumatori che visitano i loro siti o utilizzano le loro applicazioni. Adobe fornisce inoltre degli strumenti che consentono agli inserzionisti di migliorare tali informazioni con record offline o di clienti esterni di cui gli inserzionisti possono disporre all&#39;interno dei sistemi di gestione di altre informazioni.
+Adobe fornisce degli strumenti che consentono agli inserzionisti di ottenere informazioni comportamentali sui consumatori che visitano i loro siti o utilizzano le loro applicazioni. Adobe fornisce inoltre degli strumenti che consentono agli inserzionisti di migliorare tali informazioni con record offline o di clienti esterni di cui gli inserzionisti possono disporre all'interno dei sistemi di gestione di altre informazioni.
 
-Una delle principali motivazioni per cui un inserzionista utilizza questi strumenti è il miglioramento delle informazioni disponibili quando deve fare delle scelte appropriate per il cliente in ambito pubblicitario e marketing. Adobe Analytics e Target consentono agli inserzionisti di caricare personalmente dati personali (personally identifiable information, PII) come indirizzi e-mail solo dopo aver aggiunto l&#39;hash per non renderne più possibile l&#39;utilizzo per contattare la persona. Le informazioni con hash possono essere utilizzate per analisi e per scopi di marketing. Adobe vieta agli inserzionisti di inviare dati personali ad Adobe, come ad esempio record medici, informazioni finanziarie e sui minori.
+Una delle principali motivazioni per cui un inserzionista utilizza questi strumenti è il miglioramento delle informazioni disponibili quando deve fare delle scelte appropriate per il cliente in ambito pubblicitario e marketing. Adobe Analytics e Target consentono agli inserzionisti di caricare personalmente dati personali (personally identifiable information, PII) come indirizzi e-mail solo dopo aver aggiunto l'hash per non renderne più possibile l'utilizzo per contattare la persona. Le informazioni con hash possono essere utilizzate per analisi e per scopi di marketing. Adobe vieta agli inserzionisti di inviare dati personali ad Adobe, come ad esempio record medici, informazioni finanziarie e sui minori.
 
-Adobe sa che questi tipi di decisioni in ambito marketing e pubblicitario possono avere delle implicazioni in merito alla privacy del consumatore, ed è il motivo per cui Adobe ha instaurato dei controlli sulla privacy per aiutare gli inserzionisti a soddisfare le aspettative dei consumatori. Adobe consiglia agli inserzionisti di considerare attentamente le informazioni da ritenersi appropriate per l&#39;utilizzo a fini di marketing e le situazioni in cui l&#39;inserzionista dispone dell&#39;autorizzazione per utilizzare tali informazioni.
+Adobe sa che questi tipi di decisioni in ambito marketing e pubblicitario possono avere delle implicazioni in merito alla privacy del consumatore, ed è il motivo per cui Adobe ha instaurato dei controlli sulla privacy per aiutare gli inserzionisti a soddisfare le aspettative dei consumatori. Adobe consiglia agli inserzionisti di considerare attentamente le informazioni da ritenersi appropriate per l'utilizzo a fini di marketing e le situazioni in cui l'inserzionista dispone dell'autorizzazione per utilizzare tali informazioni.
 
 **Procedure consigliate**
 
 Quando carichi i dati PII in Adobe Analytics o Target, Adobe consiglia di immettere gli hash prima di effettuare il caricamento in Adobe. Le informazioni con hash possono essere utilizzate per analisi e per scopi di marketing. Adobe vieta agli inserzionisti di inviare dati personali ad Adobe Analytics e Target, come ad esempio record medici, informazioni finanziarie e sui minori.
 
-Adobe consiglia agli inserzionisti di considerare attentamente le informazioni da ritenersi appropriate per l&#39;utilizzo a fini di marketing e le situazioni in cui l&#39;inserzionista dispone dell&#39;autorizzazione per utilizzare tali informazioni.
+Adobe consiglia agli inserzionisti di considerare attentamente le informazioni da ritenersi appropriate per l'utilizzo a fini di marketing e le situazioni in cui l'inserzionista dispone dell'autorizzazione per utilizzare tali informazioni.
 
 Poiché la legge sulla privacy del consumatore è in continuo mutamento, Adobe consiglia agli inserzionisti di rispettare tre principi comuni:
 
-1. Metti in pratica ciò che affermi (in relazione all&#39;Informativa sulla privacy).
-1. Spiega chiaramente ciò che fai (in relazione all&#39;Informativa sulla privacy).
+1. Metti in pratica ciò che affermi (in relazione all'Informativa sulla privacy).
+1. Spiega chiaramente ciò che fai (in relazione all'Informativa sulla privacy).
 1. Non cogliere di sorpresa i consumatori.
 
-Tenendo questi principi a mente, Adobe consiglia agli inserzionisti, al momento dell&#39;associazione delle attività di esplorazione ai dati PII, di fornire avvisi o personalizzazioni indicando che il consumatore è autenticato. Un esempio può essere includere un saluto nell&#39;intestazione del sito Web. Adobe consiglia inoltre agli inserzionisti di descrivere nell&#39;informativa sulla privacy il tipo di informazioni di esplorazione associate ai dati PII e in quali circostanze le informazioni di esplorazioni vengono associate ai PII. Infine, Adobe consiglia vivamente agli inserzionisti di rivedere le scelte delle rinunce che forniscono ai consumatori per capire se e come possono rinunciare a utilizzare informazioni del Attributi del cliente non autenticate.
+Tenendo questi principi a mente, Adobe consiglia agli inserzionisti, al momento dell'associazione delle attività di esplorazione ai dati PII, di fornire avvisi o personalizzazioni indicando che il consumatore è autenticato. Un esempio può essere includere un saluto nell'intestazione del sito Web. Adobe consiglia inoltre agli inserzionisti di descrivere nell'informativa sulla privacy il tipo di informazioni di esplorazione associate ai dati PII e in quali circostanze le informazioni di esplorazioni vengono associate ai PII. Infine, Adobe consiglia vivamente agli inserzionisti di rivedere le scelte delle rinunce che forniscono ai consumatori per capire se e come possono rinunciare a utilizzare informazioni del Attributi del cliente non autenticate.
 
 <!-- <p> <b>Vinay Geol</b> should help craft privacy regarding how all MAC uses privacy/cookies. Privacy implications around each part of the workflow. Moving from CRM to MAC. Can it include PII? What is PII? What isn't PII? </p> 
 <p>CRM data is Known Data or Info. Going to combine with activity that occurs when visitor was not authenticated. PII wiki: </p> 
