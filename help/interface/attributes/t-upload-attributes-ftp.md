@@ -6,7 +6,7 @@ seo-title: Facoltativo - Caricamento del file di dati tramite FTP
 solution: Experience Cloud
 title: Facoltativo - Caricamento del file di dati tramite FTP
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
@@ -26,7 +26,7 @@ Puoi caricare i dati dopo la creazione di un'origine attributo del cliente e un 
 Puoi effettuare i caricamenti di file al sito FTP degli attributi del cliente tramite FTP o SFTP.
 
 * Dovere disporre di un client che supporta le connessioni SFTP.
-* Puoi connetterti a SFTP utilizzando nome utente e password oppure senza password, come descritto [qui](https://marketing.adobe.com/resources/help/it_IT/whitepapers/ftp/?f=ftp_sftp_cert_auth).
+* Puoi effettuare la connessione con SFTP utilizzando nome utente/password oppure senza utilizzare la password, come spiegato [qui](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/?f=ftp_sftp_cert_auth).
 
 
 
@@ -52,4 +52,4 @@ Puoi effettuare i caricamenti di file al sito FTP degli attributi del cliente tr
    Se il caricamento viene eseguito correttamente, entrambi i file vengono spostati in una cartella denominata **processed (elaborati)**.
 
 
-   Consulta  [Requisiti del file dati per il caricamento degli attributi cliente](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) per informazioni importanti sulla denominazione e sulla struttura del file.
+   Consulta [Requisiti del file dati per il caricamento degli attributi cliente](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) per informazioni importanti sulla denominazione e sulla struttura del file.
