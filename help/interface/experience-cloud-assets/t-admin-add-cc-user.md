@@ -6,7 +6,7 @@ seo-title: Gestione degli utenti di Creative Cloud
 solution: Experience Cloud
 title: Gestione degli utenti di Creative Cloud
 uuid: 11c4de67-40c5-4438-92fc-e23761be3f18
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 # Gestione degli utenti di Creative Cloud
 
-Experience Cloud fornisce strumenti amministrativi per la gestione degli utenti di Creative Cloud approvati. Tali utenti possono essere invitati su base specifica a una cartella di una campagna. Solo gli utenti aggiunti alla white list da un amministratore possono essere invitati a una campagna. Gli utenti aggiunti saranno visualizzati nell&#39;elenco utenti completo di Experience Cloud.
+Experience Cloud fornisce strumenti amministrativi per la gestione degli utenti di Creative Cloud approvati. Tali utenti possono essere invitati su base specifica a una cartella di una campagna. Solo gli utenti aggiunti alla white list da un amministratore possono essere invitati a una campagna. Gli utenti aggiunti saranno visualizzati nell'elenco utenti completo di Experience Cloud.
 
 >[!NOTE]
 >
