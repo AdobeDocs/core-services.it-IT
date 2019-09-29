@@ -6,7 +6,7 @@ seo-title: Convalida dello schema
 solution: Experience Cloud
 title: Convalida dello schema
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
@@ -51,7 +51,7 @@ Nella pagina [!UICONTROL Convalida schema] ciascuna riga dello schema rappresent
 
 Puoi caricare i dati tramite FTP anche dopo la creazione di un'origine attributo del cliente e un account FTP in Experience Cloud. Puoi creare un account FTP per origine attributo. I file caricati vengono archiviati nella cartella principale di quell'account. I dati devono essere in formato .csv e un secondo file .fin deve indicare il completamento del caricamento.
 
-I nomi applicati a stringhe, interi e numeri vengono utilizzati per creare metriche di [!DNL Analytics]. Consulta [Rapporti sugli attributi del cliente](https://marketing.adobe.com/resources/help/en_US/reference/?f=reports_customer_attributes) nella guida di [!DNL Analytics] per ulteriori informazioni.
+I nomi applicati a stringhe, interi e numeri vengono utilizzati per creare metriche di [!DNL Analytics]. Consulta [Rapporto attributi cliente](https://marketing.adobe.com/resources/help/en_US/reference/?f=reports_customer_attributes) nell'Aiuto di per ulteriori informazioni.[!DNL Analytics]
 
 * **[!UICONTROL Attributo:]** dati degli attributi letti dal file `.csv` caricato.
 
