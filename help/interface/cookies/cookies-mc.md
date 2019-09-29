@@ -9,7 +9,7 @@ uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
 index: y
 internal: n
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 7137e608ddece5bf2a3983b3b18909ba89d607a6
 
 ---
@@ -54,7 +54,7 @@ Adobe Experience Cloud utilizza i cookie per memorizzare un ID visitatore utiliz
 
 **Nome cookie: AMCV_###@AdobeOrg**
 
-Il [servizio ID di Experience Platform](https://docs.adobe.com/content/help/it-IT/id-service/using/home.html) utilizza JavaScript per memorizzare un ID visitatore univoco in un cookie `AMCV_###@AdobeOrg` sul dominio del sito Web corrente, dove `###` rappresenta una stringa casuale di caratteri. Ad esempio, `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg`. Vedi anche [Cookie e servizio ID](https://docs.adobe.com/content/help/it-IT/id-service/using/intro/cookies.html).
+The [Experience Platform ID Service](https://docs.adobe.com/content/help/en/id-service/using/home.html) uses JavaScript to store a unique visitor ID in an `AMCV_###@AdobeOrg` cookie on the domain of the current website, where `###` represents a random string of characters. Ad esempio, `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg`. See also, [Cookies and the ID Service](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html).
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 
