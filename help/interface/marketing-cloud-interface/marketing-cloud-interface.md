@@ -6,7 +6,7 @@ seo-title: Novità in Experience Cloud
 solution: Experience Cloud
 title: Novità in Experience Cloud
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -40,8 +40,8 @@ Correzioni e miglioramenti per giugno 2018.
 
 * È stato abilitato un collegamento per consentire agli amministratori di accedere alle funzioni RGPD. (CORE-11731)
 * Funzione Feedback beta aggiornata per limitare i tipi di file che possono essere allegati ai commenti. (CORE-10474)
-* Risolto un problema con l&#39;eliminazione del pubblico da Audience Library. (CORE-12792)
-* Risolto un problema che creava una schermata vuota durante l&#39;accesso ai collegamenti di Workspace utilizzando Federated ID. (CORE-11620)
+* Risolto un problema con l'eliminazione del pubblico da Audience Library. (CORE-12792)
+* Risolto un problema che creava una schermata vuota durante l'accesso ai collegamenti di Workspace utilizzando Federated ID. (CORE-11620)
 
 ## 10 maggio 2018 {#section_498AF78DA17C4720AA0F32B51493E550}
 
@@ -52,14 +52,14 @@ Nuove funzioni e correzioni nell’interfaccia di [!DNL Adobe Experience Cloud].
 | Nuova pagina di destinazione di amministrazione | Quando accedi in Experience Cloud ed esplori la pagina di amministrazione, è disponibile una nuova interfaccia intuitiva per consentirti di accedere rapidamente alle soluzioni Experience Cloud e ai servizi di base. |
 **Correzioni**
 
-* Corretto un errore di caricamento dell&#39;immagine dovuto un aggiornamento di Scene7. (CORE-12746)
+* Corretto un errore di caricamento dell'immagine dovuto un aggiornamento di Scene7. (CORE-12746)
 * Aggiornamenti effettuati per ridurre il supporto per il protocollo TLS 1.0, come indicato dal PCI al fine eliminare le vulnerabilità relative alla sicurezza. (CORE-7695)
 
 ## 26 ottobre 2017 {#section_11195859B4094177A939C0561428B525}
 
 **Problema noto**
 
-Molte delle notifiche di manutenzione su interventi pianificati di manutenzione/aggiornamento di prodotti sono assenti nel riepilogo e-mail delle notifiche. Stiamo lavorando per l&#39;inclusione di tutte le notifiche di manutenzione nel riepilogo e-mail.
+Molte delle notifiche di manutenzione su interventi pianificati di manutenzione/aggiornamento di prodotti sono assenti nel riepilogo e-mail delle notifiche. Stiamo lavorando per l'inclusione di tutte le notifiche di manutenzione nel riepilogo e-mail.
 
 ## 8 agosto 2017 {#section_2313A875454044F490B418506DD24593}
 
@@ -67,13 +67,13 @@ Molte delle notifiche di manutenzione su interventi pianificati di manutenzione/
 |--- |--- |
 | Notifiche - Impostazioni granulari | Puoi abilitare le notifiche per eventi e attività relative a prodotti e soluzioni, comprese le notifiche sull’attività di caricamento di [Attributi clienti](../attributes/attributes.md). |
 | Notifiche - Notifiche di manutenzione | Nelle impostazioni di notifica, puoi attivare le notifiche di manutenzione relative a prodotti e soluzioni. |
-| Admin Console per soluzioni Experience Cloud | I nuovi clienti Experience Cloud possono iniziare a utilizzare Admin Console, una posizione centrale per la gestione delle adesioni Adobe nell&#39;intera organizzazione.<br>La migrazione ad Admin Console per la gestione degli utenti procederà a ondate. Adobe ti contatterà (amministratori di sistema) quando è il momento di effettuare la migrazione.<br>Se sei amministratore di Analytics, consulta [Migrazione in Analytics](https://marketing.adobe.com/resources/help/it_IT/experience-cloud/admin-console/analytics-migration/). |
+| Admin Console per soluzioni Experience Cloud | I nuovi clienti Experience Cloud possono iniziare a utilizzare Admin Console, una posizione centrale per la gestione delle adesioni Adobe nell'intera organizzazione.<br>La migrazione ad Admin Console per la gestione degli utenti procederà a ondate. Adobe ti contatterà (amministratori di sistema) quando è il momento di effettuare la migrazione.<br>Amministratori Analytics, consultare [Migrazione Analytics](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/). |
 
 ## 22 maggio 2017 {#section_242FE649FA1B4BFA88EC6E353D175ACC}
 
 | Funzione | Descrizione |
 |--- |--- |
-| Mappatura di massa suite di rapporti | In Amministrazione &gt; Mappatura suite di rapporti ora puoi selezionare più suite di rapporti, quindi mapparle su un&#39;organizzazione. (in precedenza era necessario mapparle singolarmente).  <br>[La mappatura delle suite di rapporti](../core-services/core-services.md) su un&#39;unica organizzazione consente di abilitare funzioni e servizi tra più soluzioni in Experience Cloud. |
+| Mappatura di massa suite di rapporti | In Amministrazione &gt; Mappatura suite di rapporti ora puoi selezionare più suite di rapporti, quindi mapparle su un'organizzazione. (in precedenza era necessario mapparle singolarmente).  <br>[La mappatura delle suite di rapporti](../core-services/core-services.md) su un'unica organizzazione consente di abilitare funzioni e servizi tra più soluzioni in Experience Cloud. |
 | Aggiornamenti relativi al pubblico di Experience Cloud | **Applicazione di suite di rapporti**<br>Ora puoi applicare una suite di rapporti a tutte le tue [regole per il pubblico](../audience-library/t-audience-create.md). (in precedenza era necessario indicare una suite di rapporti per ciascuna definizione di regola). <br>**Prop e variabili**<br>Ora è possibile includere le proprietà di Analytics e le variabili predefinite (oltre a eVar ed eventi) per il pubblico in tempo reale. |
 
 ## 8 novembre 2016 - 16.11.1 {#section_7065A9BCCDF544C2BB37E9A7D661EA6A}
