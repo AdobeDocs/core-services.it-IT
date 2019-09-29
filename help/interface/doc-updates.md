@@ -6,7 +6,7 @@ seo-title: Aggiornamenti documentazione - Experience Cloud
 solution: Experience Cloud
 title: Aggiornamenti documentazione - Experience Cloud
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 # Aggiornamenti documentazione - Experience Cloud
 
-Informazioni sugli aggiornamenti dell&#39;Aiuto di Experience Cloud.
+Informazioni sugli aggiornamenti dell'Aiuto di Experience Cloud.
 
 **Aggiornato: 05/09/2018**
 
