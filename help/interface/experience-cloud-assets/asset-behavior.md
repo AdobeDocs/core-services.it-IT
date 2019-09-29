@@ -6,7 +6,7 @@ seo-title: Comportamento delle cartelle condivise
 solution: Experience Cloud
 title: Comportamento delle cartelle condivise
 uuid: 86348401-f4b1-4efe-acd1-7e73a7030edf
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -18,7 +18,7 @@ Regole per il comportamento delle cartelle condivise in caso di spostamento, eli
 
 >[!NOTE]
 >
->Le cartelle e le risorse condivise di Experience Cloud si riflettono sul desktop di Creative Cloud in una relazione 1:1. Se un utente di Experience Cloud modifica una cartella (elimina, aggiunge o rimuove condivisioni) l&#39;azione si riflette sul desktop e sul Web di Creative Cloud. Nello stesso modo, se rimuovi una cartella dalla condivisione, la cartella e le risorse vengono eliminate dal computer locale. Dopo che la risorsa è stata rimossa, la cartella e il relativo contenuto vengono spostati nel cestino del computer locale, da dove puoi ripristinarli manualmente sul computer in uso.
+>Le cartelle e le risorse condivise di Experience Cloud si riflettono sul desktop di Creative Cloud in una relazione 1:1. Se un utente di Experience Cloud modifica una cartella (elimina, aggiunge o rimuove condivisioni) l'azione si riflette sul desktop e sul Web di Creative Cloud. Nello stesso modo, se rimuovi una cartella dalla condivisione, la cartella e le risorse vengono eliminate dal computer locale. Dopo che la risorsa è stata rimossa, la cartella e il relativo contenuto vengono spostati nel cestino del computer locale, da dove puoi ripristinarli manualmente sul computer in uso.
 
 ## Cartella non condivisa in una cartella condivisa {#section_A9BAC1A244A246A984AC62660E61E0C0}
 
@@ -62,7 +62,7 @@ Sposta il contenuto da una cartella condivisa di proprietà in una cartella non 
 
 ## Contenuto non di proprietà in una cartella non condivisa {#section_310766EBF0DC4C0BB4AB3E8A4DAEBE07}
 
-Sposta il contenuto da una cartella condivisa di proprietà di qualcun&#39;altro in una cartella non condivisa.
+Sposta il contenuto da una cartella condivisa di proprietà di qualcun'altro in una cartella non condivisa.
 
 ![](assets/06_assets_move.png)
 
@@ -80,7 +80,7 @@ Archivia (via Web) o elimina (via desktop) una cartella condivisa di proprietà.
 
 ## Cartella condivisa in un’altra cartella condivisa {#section_0A3F203D048D4D1586E9850DC92C51E9}
 
-Sposta una cartella condivisa di proprietà in un&#39;altra cartella condivisa di proprietà o non di proprietà.
+Sposta una cartella condivisa di proprietà in un'altra cartella condivisa di proprietà o non di proprietà.
 
 ![](assets/09_assets_move.png)
 
@@ -88,7 +88,7 @@ Sposta una cartella condivisa di proprietà in un&#39;altra cartella condivisa d
 
 ## Contenuto condiviso in un’altra cartella condivisa {#section_69F6C312792A4CD2831BD14A340F850E}
 
-Sposta il contenuto di una cartella condivisa in un&#39;altra cartella condivisa.
+Sposta il contenuto di una cartella condivisa in un'altra cartella condivisa.
 
 ![](assets/11_assets_move.png)
 
