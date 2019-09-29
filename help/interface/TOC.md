@@ -12,7 +12,7 @@ source-git-commit: 4bc85987882f7def7555351aad2bc344de8c2130
 
 # Guida utente servizi principali {#interface}
 
-+ [Documentazione del prodotto Experience Cloud](landing/experience-cloud-home.md)
++ [Documentazione di Experience Cloud](landing/experience-cloud-home.md)
 + [Aiuto per Experience Cloud e servizi di base](experience-cloud.md)
 + Informazioni sui servizi di base {#about-core-services}
    + [Panoramica sui servizi principali](core-services-landing.md)
@@ -20,20 +20,20 @@ source-git-commit: 4bc85987882f7def7555351aad2bc344de8c2130
    + [Mappatura di suite di rapporti per un’organizzazione](core-services/report-suite-mapping.md)
    + [Informazioni sui nuovi nomi cloud in Experience Cloud](solutions-core-services.md)
 + [Integrazioni di Experience Cloud](marketing-cloud-integrations.md)
-+ Cookie Experience Cloud {#ec-cookies}
-   + [Panoramica sui cookie](cookies/cookies-privacy.md)
++ Cookie di Experience Cloud {#ec-cookies}
+   + [Panoramica dei cookie](cookies/cookies-privacy.md)
    + [Cookie di prime parti](cookies/cookies-first-party.md)
    + [Cookie di Analytics](cookies/cookies-analytics.md)
    + [Cookie di Audience Manager](cookies/cookies-am.md)
-   + [Cookie di Connettori dati](cookies/cookies-dc.md)
-   + [Cookie Workbench dati](cookies/cookies-insight.md)
-   + [Cookie Experience Cloud](cookies/cookies-mc.md)
-   + [Cookie Advertising Cloud](cookies/cookies-advertising-cloud.md)
-   + [Cookie Scene7](cookies/cookies-s7.md)
-   + [Cookie Search e Promote](cookies/cookies-snp.md)
-   + [Cookie di destinazione](cookies/cookies-target.md)
-   + [Abilita le impostazioni di privacy per i cookie del browser](cookies/browser-cookie-settings.md)
-   + [Come le modifiche al supporto dei cookie di terze parti influiscono sui clienti](cookies/cookies-thirdparty.md)
+   + [Cookie dei Data Connectors](cookies/cookies-dc.md)
+   + [Cookie di Data Workbench](cookies/cookies-insight.md)
+   + [Cookie di Experience Cloud](cookies/cookies-mc.md)
+   + [Cookie di Advertising Cloud](cookies/cookies-advertising-cloud.md)
+   + [Cookie di Scene7](cookies/cookies-s7.md)
+   + [Cookie di Search&amp;Promote](cookies/cookies-snp.md)
+   + [Cookie di Target](cookies/cookies-target.md)
+   + [Abilitazione delle impostazioni della privacy per i cookie del browser](cookies/browser-cookie-settings.md)
+   + [Effetti delle modifiche al supporto dei cookie di terze parti sui clienti](cookies/cookies-thirdparty.md)
 + Gestione di utenti e prodotti {#manage-users-and-products}
    + [Gestione di utenti e prodotti Experience Cloud](admin-getting-started/admin-getting-started.md)
    + [Domande frequenti](admin-getting-started/faq.md)
@@ -43,7 +43,7 @@ source-git-commit: 4bc85987882f7def7555351aad2bc344de8c2130
    + [Incorporazione di contenuto](admin-getting-started/oembed.md)
 + Activation {#activation}
    + [Panoramica di Activation](activation/activation.md)
-   + [Avvia guida utente](https://docs.adobe.com/content/help/en/launch/using/overview.html)
+   + [Launch user guide](https://docs.adobe.com/content/help/en/launch/using/overview.html)
    + [Guida utente di Gestione dinamica dei tag](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
    + [Triggers](activation/triggers.md)
 + Risorse {#assets}
