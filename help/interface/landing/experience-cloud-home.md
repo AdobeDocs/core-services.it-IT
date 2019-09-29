@@ -1,28 +1,28 @@
 ---
-title: Documentazione del prodotto Experience Cloud
-seo-title: Documentazione della Guida e del prodotto per le soluzioni Adobe Experience Cloud.
-description: Documentazione della Guida e del prodotto per le soluzioni Adobe Experience Cloud.
-seo-description: Aiuto di Experience Cloud
+title: Documentazione di Experience Cloud
+seo-title: Guida e documentazione delle soluzioni incluse in Adobe Experience Cloud.
+description: Guida e documentazione delle soluzioni incluse in Adobe Experience Cloud.
+seo-description: Guida di Experience Cloud
 translation-type: tm+mt
 source-git-commit: 7e09e666cf9102ab02bab85b5546f9dc6f2ca635
 
 ---
 
 
-# Documentazione del prodotto Adobe Experience Cloud
+# Documentazione di Adobe Experience Cloud
 
-Documentazione e documentazione di prodotto per Adobe Experience Cloud.
+Guida e documentazione di Adobe Experience Cloud.
 
 ## Note sulla versione, video e forum della community
 
-* Iscrivetevi al [Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html) per ricevere le note sulla versione ogni mese.
+* Subscribe to the [Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html) to receive release notes each month.
 * Video sui prodotti: i video sui prodotti sono disponibili su [Adobe Video Learning](https://helpx.adobe.com/experience-cloud/tutorials.html).
-* Experience Ltd: Visita [Adobe Experience League](https://landing.adobe.com/experience-league/) per la formazione guidata.
+* Experience League: Visit the [Adobe Experience League](https://landing.adobe.com/experience-league/) for guided learning.
 
-## ![Aiuto di Experience](assets/experience_cloud_appicon_32.png) Cloud Help Experience Cloud
+## ![Guida di Experience Cloud](assets/experience_cloud_appicon_32.png) Guida di Experience Cloud
 
-* [Note sulla versione di Experience Cloud](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) (tutti i prodotti)
-* [Aiuto di Experience Cloud e servizi di base](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html)
+* [Experience Cloud Release Notes (all products)](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)
+* [Aiuto per l'interfaccia e i servizi di base di Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html)
 * [Gestione di utenti e prodotti](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html)
 * [Servizio Experience Cloud ID](https://docs.adobe.com/content/help/en/id-service/using/home.html)
 * [Attributi cliente](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html)
@@ -31,7 +31,7 @@ Documentazione e documentazione di prodotto per Adobe Experience Cloud.
 * [Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html)
 * [API del regolamento generale sulla protezione dei dati (RGPD)](https://www.adobe.io/apis/experiencecloud/gdpr.html)
 
-## ![Aiuto Aiuto di](assets/mc_analytics_32.png) Analytics
+## ![Guida di Analytics](assets/mc_analytics_32.png) Guida di Analytics
 
 * [Home page aiuto di Analytics](https://docs.adobe.com/content/help/en/analytics/landing/home.html)
 * [Strumenti](https://docs.adobe.com/content/help/en/analytics/analyze/home.html)
@@ -44,34 +44,34 @@ Documentazione e documentazione di prodotto per Adobe Experience Cloud.
 * [Media Analytics](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)
 * [Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/)
 
-## ![Aiuto di Audience Manager Help](assets/mc_audiencemanager_32.png) Manager Manager
+## ![Guida di Audience Manager](assets/mc_audiencemanager_32.png) Guida di Audience Manager
 
 * [Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/aam-home.html)
 
-## ![Aiuto di Target](assets/mc_target_32.png) Help Target
+## ![Guida di Target](assets/mc_target_32.png) Guida di Target
 
 * [Note sulla versione di Target](https://docs.adobe.com/content/help/en/target/using/release-notes/release-notes.html)
 * [Target](https://docs.adobe.com/content/help/en/target/using/target-home.html)
 
-## ![Aiuto di Experience](assets/mc_experiencemanager_32.png) Manager Help Manager
+## ![Guida di Experience Manager](assets/mc_experiencemanager_32.png) Guida di Experience Manager
 
 * [Informazioni e supporto per Experience Manager](https://helpx.adobe.com/support/experience-manager.html)
 
-## ![Aiuto](assets/mc_campaign_32.png) Campaign Campaign Campaign
+## ![Guida di Campaign](assets/mc_campaign_32.png) Guida di Campaign
 
 * Campaign Standard: [Documentation](https://helpx.adobe.com/support/campaign/standard.html) - [Release Notes](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
 * Campaign Classic: [Documentation](https://helpx.adobe.com/support/campaign/classic.html) - [Release Notes](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
 
-## ![Aiuto di Primetime Help](assets/primetime_app_32.png) Primetime
+## ![Guida di Primetime](assets/primetime_app_32.png) Guida di Primetime
 
-* [Aiuto di Primetime](http://help.adobe.com/en_US/primetime/)
+* [Primetime Help](http://help.adobe.com/en_US/primetime/)
 
-## ![Aiuto Help Cloud Help](assets/advertisingcloud_appicon_32.png) Cloud Help
+## ![Guida di Advertising Cloud](assets/advertisingcloud_appicon_32.png) Guida di Advertising Cloud
 
-Help for the Advertising Cloud is available in the product by clicking the **Help** icon (?) nella parte superiore di qualsiasi pagina.
+Per consultare la guida di Advertising Cloud dal prodotto, fai clic sull’icona **Guida** (?) nella parte superiore di qualsiasi pagina.
 
 ## Risorse aggiuntive di Experience Cloud
 
 * [Contattare l'Assistenza clienti](https://helpx.adobe.com/contact/enterprise-support.ec.html)
-* [Forum della community](https://forums.adobe.com/community/experience-cloud)
+* [Community forum](https://forums.adobe.com/community/experience-cloud)
 * [Experience League](https://landing.adobe.com/experience-league/)
