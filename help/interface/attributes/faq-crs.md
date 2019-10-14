@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Domande frequenti, limitazioni e best practice
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: 08c2caa1e0e5ca5c487294e9ce33600dde9c9a1e
+source-git-commit: c0ba39895218769e27ab99568387eb91310a574c
 
 ---
 
@@ -86,7 +86,7 @@ Guida e limitazioni per l'uso degli attributi cliente
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>(Solo Target) </b>In che modo la funzionalità degli attributi del cliente può essere confrontata all'API per profilo in massa di Target? </p> </td> 
-   <td colname="col2"> <p> L'<a href="https://marketing.adobe.com/developer/documentation/test-target/r-profile-update" format="https" scope="external">API per profilo in massa</a> consente ai profili Target di essere aggiornati direttamente tramite l'API, sia singolarmente che in modalità collettiva. La funzionalità è simile agli attributi del cliente, con le seguenti differenze chiave: </p> 
+   <td colname="col2"> <p> L'<a href="https://www.adobe.io/apis/experiencecloud/target.html" format="https" scope="external">API per profilo in massa</a> consente ai profili Target di essere aggiornati direttamente tramite l'API, sia singolarmente che in modalità collettiva. La funzionalità è simile agli attributi del cliente, con le seguenti differenze chiave: </p> 
     <ul id="ul_5AAA4A8497C04F50A8AAA9F776BB868E"> 
      <li id="li_B20AEA397F3B4C86A1140CDA61ABD575">L'API di profilo è una chiamata REST API e gli attributi del cliente usano l'FTP. </li> 
      <li id="li_7FBE428EF5D34B6AA09B6368E8210344">L'API del profilo di Target invia solamente dati a Target e non all'intero Experience Cloud. </li> 
@@ -95,7 +95,7 @@ Guida e limitazioni per l'uso degli attributi cliente
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>(Solo Target)</b> Il caricamento di dati dagli attributi del cliente su Adobe Target, estende la durata del profilo del visitatore di Target? </p> </td> 
-   <td colname="col2"> <p>Sì. Consulta <a href="https://marketing.adobe.com/resources/help/en_US/target/ov/?f=c_visitor_profile_lifetime" format="https" scope="external">Durata del profilo del visitatore</a> nell'Aiuto di Adobe Target. </p> </td> 
+   <td colname="col2"> <p>Sì. Consulta <a href="https://docs.adobe.com/content/help/en/target/using/audiences/visitor-profiles/visitor-profile.html" format="https" scope="external">Durata del profilo del visitatore</a> nell'Aiuto di Adobe Target. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b> (Solo Target)</b> Posso utilizzare i dati caricati negli attributi del cliente, subito dopo l'identificazione del visitatore da parte dell'ID cliente? </p> </td> 
