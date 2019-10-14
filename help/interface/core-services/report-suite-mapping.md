@@ -5,7 +5,7 @@ seo-title: Mappatura di suite di rapporti per un’organizzazione
 title: Mappatura di suite di rapporti per un’organizzazione
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: d9d6cebc0e9e14eac2471dc79b91276a154e35e0
+source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 ---
 
@@ -107,7 +107,7 @@ Le suite di rapporti mappate saranno visualizzate in un formato non modificabile
 
 **Cosa succede se conosco solo l'ID organizzazione per la mia organizzazione Experience Cloud? Come posso cercare il nome per il mio ID organizzazione?**
 
-Puoi trovare il nome della tua organizzazione in [Organizzazioni e impostazioni account](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=organizations).
+Puoi trovare il nome della tua organizzazione in [Organizzazioni e impostazioni account](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html).
 
 **Visualizzo una data nella colonna “Data di mappatura”. Chi ha eseguito la mappatura?**
 
