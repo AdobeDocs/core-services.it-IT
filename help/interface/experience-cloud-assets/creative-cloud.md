@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Condivisione di cartelle e risorse Experience Cloud con Creative Cloud
 uuid: 2bb002a6-e08e-402b-8df0-ecb21ab74490
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 ---
 
@@ -28,14 +28,6 @@ Per accedere alle risorse, gli utenti di Creative Cloud devono essere inseriti n
 
 ## Informazioni sulla condivisione di risorse con Adobe Target {#section_B7CD64CAB35D43A4B12957B304072DC9}
 
-Quando crei attività in [!DNL Adobe Target], puoi utilizzare un'immagine condivisa quando scambi le immagini nella Libreria contenuto.
+When creating activities in [!DNL Adobe Target], you can use a shared image asset when swapping images in the [!UICONTROL Offers Library].
 
-Consulta [Libreria contenuto](https://marketing.adobe.com/resources/help/en_US/target/target/?f=c_manage_content) nell'Aiuto di [!DNL Target].
-
-## Informazioni sulla condivisione di risorse con Adobe Social {#section_96BFBB9FF3074B2AB49A9B7932DB25EF}
-
-In [!DNL Adobe Social] puoi inserire un'immagine condivisa mediante il [!UICONTROL Selettore risorsa] in [!UICONTROL Editore]. Puoi ricercare una cartella, individuarla e allegare la risorsa a un post di Facebook o Twitter.
-
-Consulta [Pagina Editore](https://marketing.adobe.com/resources/help/en_US/social/?f=c_pub_publisher) nell'Aiuto di [!DNL Social].
-
-Le cartelle e le risorse condivise vengono automaticamente sincronizzate tra i cloud.
+Consultate Libreria [](https://docs.adobe.com/help/en/target/using/experiences/offers/manage-content.html) offerte nell' [!DNL Target] Aiuto.
