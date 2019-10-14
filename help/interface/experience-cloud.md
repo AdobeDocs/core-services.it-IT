@@ -1,61 +1,114 @@
 ---
-description: Experience Cloud è un insieme integrato di soluzioni e servizi di marketing digitali realizzati da Adobe. È anche un'interfaccia intuitiva che ti consente di accedere rapidamente a soluzioni e servizi di base cloud.
+description: Guida in linea, documentazione del prodotto e documentazione tecnica per Adobe Experience Cloud. Experience Cloud è un insieme integrato di soluzioni e servizi di marketing digitali realizzati da Adobe.
 keywords: servizi di base
-seo-description: Experience Cloud è un insieme integrato di soluzioni e servizi di marketing digitali realizzati da Adobe. È anche un'interfaccia intuitiva che ti consente di accedere rapidamente a soluzioni e servizi di base cloud.
-seo-title: Aiuto per Experience Cloud e servizi di base
-solution: Experience Cloud
+seo-description: Questa pagina fornisce supporto autonomo, documentazione del prodotto e documentazione tecnica per Experience Cloud.
+seo-title: Aiuto e documentazione del prodotto per Adobe Experience Cloud e i servizi di base.
+solution: Adobe Experience Cloud
 title: Aiuto per Experience Cloud e servizi di base
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: fa601ff80430f38fc0d8303f9c833778ad1f8cd5
+source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 ---
 
 
-# Aiuto per Experience Cloud e servizi di base
+# Documentazione sul prodotto Experience Cloud e servizi di base
 
-Experience Cloud è un insieme integrato di soluzioni e servizi di marketing digitali realizzati da Adobe. È anche un'interfaccia intuitiva che ti consente di accedere rapidamente a soluzioni e servizi di base cloud.
+Questa pagina fornisce supporto autonomo, documentazione tecnica e di prodotto per le soluzioni e i servizi Adobe Experience Cloud. Experience Cloud è un insieme integrato di soluzioni e servizi di marketing digitali realizzati da Adobe. È anche un'interfaccia intuitiva che ti consente di accedere rapidamente a soluzioni e servizi di base cloud.
 
-Consulta la [documentazione di Experience Cloud](landing/experience-cloud-home.md) per accedere alla guida di tutte le soluzioni.
+## Note sulla versione e risorse della community
 
-![](assets/experience-cloud-core-services.png)
+Note sulla versione, video, forum della community e supporto:
 
-## Documentazione sui servizi di base
+* [Note](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) sulla versione di Experience Cloud - tutti i prodotti
+* [Aggiornamento](https://www.adobe.com/subscription/priority-product-update.html) prioritario del prodotto - iscrivetevi per ricevere le note sulla versione ogni mese)
+* [Adobe Video Learning](https://helpx.adobe.com/experience-cloud/tutorials.html)
+* [Adobe Experience League](https://landing.adobe.com/experience-league/) - Formazione guidata
+* [Contattare l'Assistenza clienti](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Forum comunitario](https://forums.adobe.com/community/experience-cloud)
+* [Formazione e supporto Experience Cloud](https://helpx.adobe.com/support/experience-cloud.html)
+* [Formazione e tutorial di Adobe](https://helpx.adobe.com/learning.html?promoid=KAUDK)
+* [Blog](https://theblog.adobe.com/customer-experience/) sull'esperienza cliente Adobe (blog)
+* [Panoramica sui servizi di base](https://theblog.adobe.com/part-2-capturing-leveraging-consumer-behavior-adobe-marketing-cloud/) (blog)
 
-| Servizio | Descrizione |
-|--- |--- |
-| [Activation](activation/activation.md) | Activation è il servizio di base che ti consente di implementare e distribuire le soluzioni Experience Cloud. Include:<ul><li>[Launch, di Adobe](https://docs.adobelaunch.com/) (la soluzione di gestione tag più recente)</li><li>[Dynamic Tag Manager](https://marketing.adobe.com/resources/help/en_US/dtm/)</li><li>[Triggers](activation/triggers.md)</li><li>[Auditor](https://marketing.adobe.com/resources/help/en_US/auditor/)</li><li>[Experience Cloud Debugger](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/)</li></ul> |
-| [Amministrazione](admin-getting-started/admin-getting-started.md) | Gestisci le adesioni degli utenti e i profili di prodotti di Experience Cloud. |
-| [Risorse](experience-cloud-assets/experience-cloud-assets.md) | Il servizio di base Experience Cloud Assets fornisce un archivio unico e centralizzato di risorse pronte per le attività di marketing da condividere tra le diverse soluzioni. |
-| [Exchange](https://experiencecloud.adobeexchange.com/) | Espandi le funzionalità di Adobe Experience Cloud con le migliori estensioni, script e molto altro. Esplora con la barra di ricerca oppure ordina per tipo di prodotto o app. |
-| [Feed](feed.md) | Condividi o pubblica risorse e report di Analytics direttamente con altri tramite la funzione Feed di Experience Cloud. |
-| [Mobile Services](https://marketing.adobe.com/resources/help/en_US/mobile/) | Mobile Services riunisce le funzionalità di marketing mobile di applicazioni per dispositivi mobili da Adobe Experience Cloud, consentendoti di comprendere e migliorare il coinvolgimento degli utenti con le applicazioni mobili. |
-| [Persone](audience-library/audience-library.md) | Nella Libreria Pubblico puoi creare tipi di pubblico, combinare tipi di pubblico esistenti per creare un pubblico composito e visualizzare tutti i tipi di pubblico condivisi.<br>In [Attributi cliente](attributes/attributes.md) puoi anche caricare i dati dei clienti aziendali su Experience Cloud. |
+## ![Aiuto](assets/experience_cloud_appicon_32.png) di Experience Cloud e aiuto dei servizi di base
 
-## Amministrazione e abilitazione
+Aiuto su profili, audience, attributi del cliente, servizio Experience Cloud ID, Adobe Mobile e così via:
+
+* [Adobe Mobile](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
+* [Tipi di pubblico](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)
+* [Risorse](experience-cloud-assets/experience-cloud-assets.md)
+* [Attributi cliente](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html)
+* [Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html)
+* [Dynamic Tag Management](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
+* [Exchange](https://experiencecloud.adobeexchange.com/)
+* [Servizio Experience Cloud ID](https://docs.adobe.com/content/help/en/id-service/using/home.html)
+* [Experience Platform Launch](https://docs.adobelaunch.com/)
+* [Experience Cloud Debugger](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/)
+* [Feed](feed.md)
+* [API del regolamento generale sulla protezione dei dati (RGPD)](https://www.adobe.io/apis/experiencecloud/gdpr.html)
+
+### Amministrazione e abilitazione
+
+Gestione di utenti e prodotti:
 
 * [Gestione di utenti e prodotti](admin-getting-started/admin-getting-started.md) (Admin Console)
 * [Abilita le soluzioni per i servizi di base](core-services/core-services.md)
 * [Domande frequenti](admin-getting-started/admin-getting-started.md)
 * [Organizzazioni e collegamento di account](admin-getting-started/organizations.md)
-* [Servizio Experience Cloud ID](https://marketing.adobe.com/resources/help/en_US/mcvid/)
 * [Integrazioni](marketing-cloud-integrations.md)
-* [Integrazione di Adobe Target con Experience Cloud](https://marketing.adobe.com/resources/help/en_US/target/a4t/c_integrating_target_with_mac.html)
+* [Integrazione di Adobe Target con Experience Cloud](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html)
 * [Panoramica sulla privacy e sulla sicurezza di Experience Cloud](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
-* [Profile Management in Adobe Experience Cloud (blog)](https://theblog.adobe.com/profile-management-adobe-marketing-cloud-comes-together/)
+* [Gestione dei profili in Adobe Experience Cloud](https://theblog.adobe.com/profile-management-adobe-marketing-cloud-comes-together/) (blog)
 * [Recupero preventivo del DNS](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
 
-## Note sulla versione
+## ![Aiuto](assets/mc_analytics_32.png) di Analytics
 
-* [Novità in Experience Cloud](marketing-cloud-interface/marketing-cloud-interface.md#concept_9A4370BD59744928BDC9F87E978798B3)
-* [Note sulla versione - Correzioni cumulative](marketing-cloud-interface/release-notes.md#concept_F5C9FF69A5B44395BB5FA0552F4E9175)
+Analisi Web, analisi di marketing e analisi tra canali, attribuzione e analisi predittiva:
 
-## Risorse della community e blog
+* [Home page aiuto di Analytics](https://docs.adobe.com/content/help/en/analytics/landing/home.html)
+* [Strumenti](https://docs.adobe.com/content/help/en/analytics/analyze/home.html)
+* [Amministrazione](https://docs.adobe.com/content/help/en/analytics/admin/home.html)
+* [Implementazione](https://docs.adobe.com/content/help/en/analytics/implementation/home.html)
+* [Componenti](https://docs.adobe.com/content/help/en/analytics/components/home.html)
+* [Esporta](https://docs.adobe.com/content/help/en/analytics/export/home.html)
+* [Importa](https://docs.adobe.com/content/help/en/analytics/import/home.html)
+* [Integrazione](https://docs.adobe.com/content/help/en/analytics/integration/home.html)
+* [Media Analytics](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)
+* [Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/)
 
-* [Formazione e supporto Experience Cloud](https://helpx.adobe.com/support/experience-cloud.html)
-* [Experience League](https://landing.adobe.com/experience-league/)
-* [Contattare l'Assistenza](https://helpx.adobe.com/contact/enterprise-support.ec.html)
-* [Community Experience Cloud](https://forums.adobe.com/community/experience-cloud)
-* [Formazione e tutorial di Adobe](https://helpx.adobe.com/learning.html?promoid=KAUDK)
-* [Blog](https://theblog.adobe.com/customer-experience/) sull'esperienza cliente Adobe (blog)
-* [Panoramica sui servizi di base](https://theblog.adobe.com/part-2-capturing-leveraging-consumer-behavior-adobe-marketing-cloud/) (blog)
+## ![Guida](assets/mc_audiencemanager_32.png) di Audience Manager
+
+Piattaforma di gestione dati, segmentazione dell'audience, approfondimenti dell'audience, azioni in tempo reale:
+
+* [Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/aam-home.html)
+
+## ![Aiuto](assets/mc_target_32.png) di Target
+
+Test A/B e multivariati, personalizzazione omnicanale, automazione e scalabilità basata su AI:
+
+* [Note sulla versione di Target](https://docs.adobe.com/content/help/en/target/using/release-notes/release-notes.html)
+* [Target](https://docs.adobe.com/content/help/en/target/using/target-home.html)
+
+## ![Aiuto](assets/mc_experiencemanager_32.png) di Experience Manager
+
+Sistema di gestione dei contenuti, gestione delle risorse digitali, registrazione e moduli digitali, servizi gestiti:
+
+* [Informazioni e supporto per Experience Manager](https://helpx.adobe.com/support/experience-manager.html)
+
+## ![Guida](assets/mc_campaign_32.png) alla campagna
+
+Marketing e-mail, viaggi dei clienti, marketing omnicanale:
+
+* Campaign Standard: [Documentazione](https://helpx.adobe.com/support/campaign/standard.html) - [Note sulla versione](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [Video tutorial](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
+* Campaign Classic: [Documentazione](https://helpx.adobe.com/support/campaign/classic.html) - [Note sulla versione](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [Video tutorial](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
+
+## ![Aiuto](assets/advertisingcloud_appicon_32.png) di Advertising Cloud Aiuto di Advertising Cloud
+
+Piattaforma lato domanda, gestione del marketing di ricerca, pubblicità TV, gestione creativa.
+
+Per consultare la guida di Advertising Cloud dal prodotto, fai clic sull’icona **Guida** (?) nella parte superiore di qualsiasi pagina.
+
+## ![Guida](assets/primetime_app_32.png) di Primetime
+
+* [Guida di Primetime](http://help.adobe.com/en_US/primetime/)
