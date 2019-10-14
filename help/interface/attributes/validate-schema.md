@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Convalida dello schema
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
 translation-type: tm+mt
-source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
+source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 ---
 
@@ -16,11 +16,9 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 Il procedimento di convalida consente di mappare i nomi e le descrizioni visualizzati agli attributi caricati (stringhe, interi, numeri e così via). Sulla base delle impostazioni viene creato uno schema. Puoi usare lo schema per convalidare tutti i dati futuri caricati in questa origine dati. Questa procedura di mappatura non altera i dati originali.
 
-
 >[!NOTE]
 >
 >L’aggiornamento dello schema dopo la convalida elimina gli attributi del cliente. Consulta [Aggiornare lo schema (elimina anche gli attributi)](../attributes/t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C).
-
 
 **[!UICONTROL Origine attributo del cliente]** &gt; **[!UICONTROL Crea nuova origine attributo del cliente]** &gt; **[!UICONTROL Visualizza/Modifica schema]**
 
@@ -44,14 +42,9 @@ Nella pagina [!UICONTROL Convalida schema] ciascuna riga dello schema rappresent
 
    * **[!UICONTROL AVID (ID visitatore di Analytics):]** mostra se utilizzi una prop o eVar per caricare CID. Se questi ID sono trasmessi a Experience Cloud, qualsiasi ID visitatore associato al CID immesso viene visualizzato qui.
 
-
-
-
-
-
 Puoi caricare i dati tramite FTP anche dopo la creazione di un'origine attributo del cliente e un account FTP in Experience Cloud. Puoi creare un account FTP per origine attributo. I file caricati vengono archiviati nella cartella principale di quell'account. I dati devono essere in formato .csv e un secondo file .fin deve indicare il completamento del caricamento.
 
-I nomi applicati a stringhe, interi e numeri vengono utilizzati per creare metriche di [!DNL Analytics]. Consulta [Rapporto attributi cliente](https://marketing.adobe.com/resources/help/en_US/reference/?f=reports_customer_attributes) nell'Aiuto di per ulteriori informazioni.[!DNL Analytics]
+I nomi applicati a stringhe, interi e numeri vengono utilizzati per creare metriche di [!DNL Analytics]. Consulta [Rapporto attributi cliente](https://docs.adobe.com/help/en/analytics/components/variables/dimensions-reports/reports-customer-attributes.html) nell'Aiuto di per ulteriori informazioni.[!DNL Analytics]
 
 * **[!UICONTROL Attributo:]** dati degli attributi letti dal file `.csv` caricato.
 
@@ -63,12 +56,6 @@ I nomi applicati a stringhe, interi e numeri vengono utilizzati per creare metri
 
    * **Numeri:** fino a due numeri decimali.
 
-
-
-
 * **[!UICONTROL Nome visualizzato:]** un nome descrittivo per l’attributo. Ad esempio, puoi rinominare l’attributo *customer age* in *Cliente dal*.
 
 * **[!UICONTROL Descrizione:]** una descrizione dell’attributo.
-
-
-
