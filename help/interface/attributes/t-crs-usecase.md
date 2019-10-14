@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Creazione di una sorgente attributo cliente e caricamento del file di dati
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 translation-type: tm+mt
-source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
+source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 ---
 
@@ -94,9 +94,9 @@ Segui questi passaggi nella pagina Crea nuova origine attributo del cliente in E
 
       L'ID alias corrisponde ad alcune aree in cui imposti valori ID cliente aggiuntivi. Ad esempio:
 
-      * **** Gestione tag dinamica: L’ID alias corrisponde al valore del codice *di* integrazione in Impostazioni cliente, nello strumento [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/dtm/?f=macid) .
+      * **** Gestione tag dinamica: L’ID alias corrisponde al valore del codice *di* integrazione in Impostazioni cliente, nello strumento [Experience Cloud ID Service](https://docs.adobe.com/content/help/en/dtm/using/tools/macid.html) .
 
-      * **API visitatore:** l'ID alias corrisponde agli [ID cliente](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_customer_ids) aggiuntivi che puoi associare a ciascun visitatore.
+      * **API visitatore:** l'ID alias corrisponde agli [ID cliente](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) aggiuntivi che puoi associare a ciascun visitatore.
 
          Ad esempio, *“crm_ id”* in:
 
@@ -106,14 +106,14 @@ Segui questi passaggi nella pagina Crea nuova origine attributo del cliente in E
          ```
 
 
-      * **** iOS: L’ID alias corrisponde a *"idType"* in [visitorSyncIdentifiers:identifiers](https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=methods).
+      * **** iOS: L’ID alias corrisponde a *"idType"* in [visitorSyncIdentifiers:identifiers](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html).
 
          Ad esempio:
 
          `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
 
-      * **Android:** l'ID alias corrisponde a *"idType"* in [syncIdentifiers](https://marketing.adobe.com/resources/help/en_US/mobile/android/?f=methods).
+      * **Android:** l'ID alias corrisponde a *"idType"* in [syncIdentifiers](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html).
 
          Ad esempio:
 
@@ -192,7 +192,7 @@ L'esempio seguente mostra un segmento di [!DNL Analytics] basato su attributi mu
 
 Quando pubblichi un segmento in Experience Cloud, diventa disponibile in Experience Cloud Audiences e Audience Manager.
 
-Consulta [Rapporto attributi cliente](https://marketing.adobe.com/resources/help/en_US/reference/?f=reports_customer_attributes) nell'Aiuto di Analytics per ulteriori informazioni.
+Consulta [Rapporto attributi cliente](https://docs.adobe.com/help/en/analytics/components/variables/dimensions-reports/reports-customer-attributes.html) nell'Aiuto di Analytics per ulteriori informazioni.
 
 ## Usare gli attributi del cliente in Adobe Target {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
@@ -200,4 +200,4 @@ In Target puoi selezionare un attributo del cliente dalla sezione Profilo visita
 
 ![](assets/crs-add-attribute-target.png)
 
-Consulta [Creazione di un nuovo pubblico](https://marketing.adobe.com/resources/help/en_US/target/target/?f=t_creating_a_new_audience) nell'Aiuto di Target.
+Consulta [Creazione di un nuovo pubblico](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/audiences.html) nell'Aiuto di Target.
