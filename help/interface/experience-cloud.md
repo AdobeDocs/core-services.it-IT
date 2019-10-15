@@ -7,7 +7,7 @@ solution: Adobe Experience Cloud
 title: Aiuto per Experience Cloud e servizi di base
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: d304e625bd2125854d9ed932674522284995e030
+source-git-commit: bc0c6b6b4a4f3ed5ddc3d6020ac1afb6828a73d5
 
 ---
 
@@ -17,8 +17,6 @@ source-git-commit: d304e625bd2125854d9ed932674522284995e030
 Questa pagina fornisce supporto autonomo, documentazione tecnica e di prodotto per le soluzioni e i servizi Adobe Experience Cloud. Experience Cloud è un insieme integrato di soluzioni e servizi di marketing digitali realizzati da Adobe. È anche un'interfaccia intuitiva che ti consente di accedere rapidamente a soluzioni e servizi di base cloud.
 
 ## Note sulla versione e risorse della community
-
-Note sulla versione, video, forum della community e supporto:
 
 * [Note](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) sulla versione di Experience Cloud - tutti i prodotti
 * [Aggiornamento](https://www.adobe.com/subscription/priority-product-update.html) prioritario del prodotto - iscrivetevi per ricevere le note sulla versione ogni mese)
@@ -32,8 +30,6 @@ Note sulla versione, video, forum della community e supporto:
 * [Panoramica sui servizi di base](https://theblog.adobe.com/part-2-capturing-leveraging-consumer-behavior-adobe-marketing-cloud/) (blog)
 
 ## ![Aiuto](assets/experience_cloud_appicon_32.png) di Experience Cloud e aiuto dei servizi di base
-
-Aiuto su profili, audience, attributi del cliente, servizio Experience Cloud ID, Adobe Mobile e così via:
 
 * [Adobe Mobile](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
 * [Tipi di pubblico](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)
@@ -50,8 +46,6 @@ Aiuto su profili, audience, attributi del cliente, servizio Experience Cloud ID,
 
 ### Amministrazione e abilitazione
 
-Gestione di utenti e prodotti:
-
 * [Gestione di utenti e prodotti](admin-getting-started/admin-getting-started.md) (Admin Console)
 * [Abilita le soluzioni per i servizi di base](core-services/core-services.md)
 * [Domande frequenti](admin-getting-started/admin-getting-started.md)
@@ -63,8 +57,6 @@ Gestione di utenti e prodotti:
 * [Recupero preventivo del DNS](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
 
 ## ![Aiuto](assets/mc_analytics_32.png) di Analytics
-
-Analisi Web, analisi di marketing e analisi tra canali, attribuzione e analisi predittiva:
 
 * [Home page aiuto di Analytics](https://docs.adobe.com/content/help/en/analytics/landing/home.html)
 * [Strumenti](https://docs.adobe.com/content/help/en/analytics/analyze/home.html)
@@ -79,33 +71,23 @@ Analisi Web, analisi di marketing e analisi tra canali, attribuzione e analisi p
 
 ## ![Guida](assets/mc_audiencemanager_32.png) di Audience Manager
 
-Piattaforma di gestione dati, segmentazione dell'audience, approfondimenti dell'audience, azioni in tempo reale:
-
 * [Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/aam-home.html)
 
 ## ![Aiuto](assets/mc_target_32.png) di Target
-
-Test A/B e multivariati, personalizzazione omnicanale, automazione e scalabilità basata su AI:
 
 * [Note sulla versione di Target](https://docs.adobe.com/content/help/en/target/using/release-notes/release-notes.html)
 * [Target](https://docs.adobe.com/content/help/en/target/using/target-home.html)
 
 ## ![Aiuto](assets/mc_experiencemanager_32.png) di Experience Manager
 
-Sistema di gestione dei contenuti, gestione delle risorse digitali, registrazione e moduli digitali, servizi gestiti:
-
 * [Informazioni e supporto per Experience Manager](https://helpx.adobe.com/support/experience-manager.html)
 
 ## ![Guida](assets/mc_campaign_32.png) alla campagna
-
-Marketing e-mail, viaggi dei clienti, marketing omnicanale:
 
 * Campaign Standard: [Documentazione](https://helpx.adobe.com/support/campaign/standard.html) - [Note sulla versione](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [Video tutorial](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
 * Campaign Classic: [Documentazione](https://helpx.adobe.com/support/campaign/classic.html) - [Note sulla versione](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [Video tutorial](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
 
 ## ![Aiuto](assets/advertisingcloud_appicon_32.png) di Advertising Cloud Aiuto di Advertising Cloud
-
-Piattaforma lato domanda, gestione del marketing di ricerca, pubblicità TV, gestione creativa.
 
 Per consultare la guida di Advertising Cloud dal prodotto, fai clic sull’icona **Guida** (?) nella parte superiore di qualsiasi pagina.
 
