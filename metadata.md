@@ -9,7 +9,7 @@ getting-started-url: https://helpx.adobe.com/it/experience-cloud-core-services/g
 tutorials-title: Esercitazioni
 tutorials-url: https://helpx.adobe.com/it/experience-cloud/tutorials.html
 git-repo: https://github.com/AdobeDocs/core-services.en
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6711229e3423de0040fa89c49d481ffa1e2f0a08
 
 ---
