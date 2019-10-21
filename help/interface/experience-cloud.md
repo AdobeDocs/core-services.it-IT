@@ -7,7 +7,7 @@ solution: Adobe Experience Cloud
 title: Aiuto per Experience Cloud e servizi di base
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: bc0c6b6b4a4f3ed5ddc3d6020ac1afb6828a73d5
+source-git-commit: 5acb6229c1263b81bdfd95c03df2179a5cd8a890
 
 ---
 
@@ -20,10 +20,10 @@ Questa pagina fornisce supporto autonomo, documentazione tecnica e di prodotto p
 
 * [Note](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) sulla versione di Experience Cloud - tutti i prodotti
 * [Aggiornamento](https://www.adobe.com/subscription/priority-product-update.html) prioritario del prodotto - iscrivetevi per ricevere le note sulla versione ogni mese)
-* [Adobe Video Learning](https://helpx.adobe.com/experience-cloud/tutorials.html)
+* [Adobe Video Learning](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html)
 * [Adobe Experience League](https://landing.adobe.com/experience-league/) - Formazione guidata
-* [Contattare l'Assistenza clienti](https://helpx.adobe.com/contact/enterprise-support.ec.html)
-* [Forum comunitario](https://forums.adobe.com/community/experience-cloud)
+* [Contatta l’Assistenza clienti](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Forum della community](https://forums.adobe.com/community/experience-cloud)
 * [Formazione e supporto Experience Cloud](https://helpx.adobe.com/support/experience-cloud.html)
 * [Formazione e tutorial di Adobe](https://helpx.adobe.com/learning.html?promoid=KAUDK)
 * [Blog](https://theblog.adobe.com/customer-experience/) sull'esperienza cliente Adobe (blog)
@@ -80,7 +80,7 @@ Questa pagina fornisce supporto autonomo, documentazione tecnica e di prodotto p
 
 ## ![Aiuto](assets/mc_experiencemanager_32.png) di Experience Manager
 
-* [Informazioni e supporto per Experience Manager](https://helpx.adobe.com/support/experience-manager.html)
+* [Informazioni e supporto di Experience Manager](https://helpx.adobe.com/support/experience-manager.html)
 
 ## ![Guida](assets/mc_campaign_32.png) alla campagna
 
