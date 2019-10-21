@@ -10,7 +10,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f59badcd3423ada51a3fe0c605158a009d5b1d64
+source-git-commit: 3cc39f5c19c444f23564ff7549d801e958995271
 
 ---
 
@@ -85,6 +85,20 @@ Ulteriori informazioni sui [cookie di prime parti](/help/interface/cookies/cooki
 | Utilizzo | Questo cookie viene usato per identificare un visitatore univoco se il cookie s_vi standard non è disponibile a causa di limitazioni dei cookie di terze parti. Non viene utilizzato per le implementazioni che utilizzano cookie di prime parti. |
 | Posizione | Questo cookie viene memorizzato nel dominio come cookie di prime parti. |
 | Dimensione | 33 byte |
+
+## Contrassegni cookie
+
+La tabella seguente descrive i flag per i cookie di Analytics:
+
+| Cookie (impostato da) | httpOnly | Proteggere | SameSite |
+|--- |--- |--- |--- |
+| s_vi (risposta http) | No | Sì quando SameSite è "None" e la connessione utilizza HTTPS | "Lax" per impostazione predefinita quando si utilizza CNAME. "None" quando si utilizza 2o7.net o omtrdc.net. |
+| s_ecid (http Response) | No | No | "Lax" |
+| s_fid (Javascript) | No | No | Non impostato |
+| s_cc (Javascript) | No | No | Non impostato |
+| s_sq (Javascript) | No | No | Non impostato |
+
+*Nota: Se si utilizza un singolo CNAME per il monitoraggio tra più domini o proprietà, SameSite deve essere impostato su "None". Per assistenza sulla modifica delle impostazioni dei cookie di Analytics, contatta l’Assistenza clienti.*
 
 ## Cookie impostati da plug-in {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
