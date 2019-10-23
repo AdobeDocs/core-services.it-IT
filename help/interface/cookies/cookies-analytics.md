@@ -6,11 +6,8 @@ seo-title: Cookie di Analytics
 solution: Experience Cloud,Analytics,Target,Social
 title: Cookie di Analytics
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 3cc39f5c19c444f23564ff7549d801e958995271
+source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
 
 ---
 
@@ -36,7 +33,7 @@ Ulteriori informazioni sui [cookie di prime parti](/help/interface/cookies/cooki
 
 | Attributo | Descrizione |
 |--- |--- |
-| Informazioni memorizzate | Contiene una copia dell’Experience Cloud ID (ECID) o del MID. Il MID viene memorizzato in una coppia chiave/valore con sintassi s_ecid=MCMID | <ECID> |
+| Informazioni memorizzate | Contiene una copia dell’Experience Cloud ID (ECID) o del MID. Il MID viene memorizzato in una coppia chiave/valore con sintassi s_ecid=MCMID | `<ECID>` |
 | Scadenza | 2 anni |
 | Utilizzo | Questo cookie viene impostato dal dominio del cliente dopo che il cookie AMCV è stato impostato dal client. Questo cookie ha lo scopo di consentire il tracciamento degli ID permanenti nello stato Prima parte e viene utilizzato come ID di riferimento se il cookie AMCV è scaduto. Vedi Cookie AMCV qui per ulteriori dettagli. |
 | Posizione | Solo clienti CNAME. Non applicabile in caso di terze parti. Il cookie è memorizzato nel tuo dominio, lo stesso utilizzato dal CNAME e dalla richiesta di immagine Analytics. |
@@ -56,7 +53,7 @@ Ulteriori informazioni sui [cookie di prime parti](/help/interface/cookies/cooki
 
 | Attributo | Descrizione |
 |--- |--- |
-| Informazioni memorizzate | Questo cookie viene impostato e letto dal codice JavaScript quando sono abilitate le funzionalità ClickMap e Activity Map; contiene informazioni sul collegamento precedente su cui l’utente ha fatto clic |
+| Informazioni memorizzate | Questo cookie viene impostato e letto dal codice JavaScript quando la funzionalità ClickMap o Activity Map sono abilitate; contiene informazioni sul collegamento precedente su cui l’utente ha fatto clic |
 | Scadenza | Questo è un cookie di sessione e scade quando il browser viene chiuso |
 | Utilizzo | Un solo cookie per tutti gli account |
 | Posizione | Il cookie viene memorizzato nel dominio della pagina |
@@ -69,7 +66,7 @@ Ulteriori informazioni sui [cookie di prime parti](/help/interface/cookies/cooki
 | Informazioni memorizzate | ID visitatore univoco/timestamp |
 | Scadenza | 2 anni |
 | Utilizzo | Questo cookie viene usato per identificare un visitatore univoco |
-| Posizione | Questo cookie viene memorizzato nel dominio della richiesta di immagine, in genere 2O7.net se utilizzi cookie di terze parti o il tuo dominio se utilizzi cookie di prime parti. |
+| Posizione | Questo cookie viene memorizzato nel dominio della richiesta di immagini - in genere un sottodominio specifico per il cliente in 2o7.net o omtrdc.net se si utilizzano cookie di terze parti, o se il dominio utilizza cookie di prime parti. |
 | Dimensione | 44 byte |
 
 >[!NOTE]
@@ -81,8 +78,8 @@ Ulteriori informazioni sui [cookie di prime parti](/help/interface/cookies/cooki
 | Attributo | Descrizione |
 |--- |--- |
 | Informazioni memorizzate | ID visitatore univoco/timestamp di fallback |
-| Scadenza | 5 anni |
-| Utilizzo | Questo cookie viene usato per identificare un visitatore univoco se il cookie s_vi standard non è disponibile a causa di limitazioni dei cookie di terze parti. Non viene utilizzato per le implementazioni che utilizzano cookie di prime parti. |
+| Scadenza | 2 anni |
+| Utilizzo | Questo cookie viene usato per identificare un visitatore univoco se il `s_vi` cookie standard non è disponibile a causa di restrizioni relative ai cookie di terze parti. Non viene utilizzato per le implementazioni che utilizzano cookie di prime parti. |
 | Posizione | Questo cookie viene memorizzato nel dominio come cookie di prime parti. |
 | Dimensione | 33 byte |
 
@@ -98,7 +95,7 @@ La tabella seguente descrive i flag per i cookie di Analytics:
 | s_cc (Javascript) | No | No | Non impostato |
 | s_sq (Javascript) | No | No | Non impostato |
 
-*Nota: Se si utilizza un singolo CNAME per il monitoraggio tra più domini o proprietà, SameSite deve essere impostato su "None". Per assistenza sulla modifica delle impostazioni dei cookie di Analytics, contatta l’Assistenza clienti.*
+>[!NOTE] Se si utilizza un singolo CNAME per il monitoraggio tra più domini o proprietà, SameSite deve essere impostato su "None" per `s_vi`. Per assistenza sulla modifica delle impostazioni dei cookie di Analytics, contatta l’Assistenza clienti.
 
 ## Cookie impostati da plug-in {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
