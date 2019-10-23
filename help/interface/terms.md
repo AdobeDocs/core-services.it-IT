@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Terminologia
 uuid: 30253c0d-944b-4e15-b9af-093afa3ddc17
 translation-type: tm+mt
-source-git-commit: d304e625bd2125854d9ed932674522284995e030
+source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
 
 ---
 
@@ -35,4 +35,4 @@ Un riferimento terminologico per gli utenti di Experience Cloud per comprenderne
 | Profilo di prodotto | Consulta [Gestione di prodotti e profili](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html). | Affinché un utente sia autorizzato a utilizzare un prodotto o un servizio, deve far parte di un profilo di prodotto. L'amministratore del prodotto assegna licenze a un profilo di prodotto associandolo a un piano acquistato.<br>Un utente può appartenere a più profili di prodotto, ciascuno dei quali conferisce diverse licenze all'utente. L'idoneità finale dell'utente è l'unione di tutte le licenze conferite da ogni profilo di prodotto a tale utente. |
 | Pianificazione | Può essere riferita a una sequenza di scene in Adobe Story o ad attività pianificate in ColdFusion. | In Experience Cloud, una pianificazione è la data di inizio (anno, mese, giorno) e una data di fine per l’attivazione di campagne, canali e attività. Le pianificazioni delle attività hanno una granularità al minuto. Modificando una pianificazione si crea una scheda.<br>Gli esempi includono:<ul><li>Pianificazioni campagna</li><li>Pianificazioni canale</li><li>Pianificazioni attività</li></ul> |
 | Condivisione | In Creative Cloud puoi condividere file esternamente tra piattaforme (social, community, e-mail e così via). | In Experience Cloud puoi condividere una risorsa solamente come una scheda, all'interno di bacheche nell'interfaccia. La condivisione è disponibile a coloro che hanno effettuato l'accesso al sito. |
-| Soluzione | Nessun uso speciale. | In Experience Cloud, le soluzioni sono prodotti come Analytics, Social, Target e così via.<br>Consulta Informazioni sui nuovi nomi cloud in Experience Cloud (solutions-core-services.md). |
+| Soluzione | Nessun uso speciale. | In Experience Cloud, le soluzioni sono prodotti come Analytics, Social, Target e così via.<br>Consulta [I nuovi nomi cloud in Experience Cloud](solutions-core-services.md). |
