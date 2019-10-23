@@ -8,7 +8,7 @@ title: Cookie di prime parti
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2bdc4b7287ccacfc4d968278b2c3ffdaeddfc105
+source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
 
 ---
 
@@ -41,7 +41,7 @@ Per implementare un nuovo certificato SSL di prima parte per i cookie di prime p
 
 1. Compila il [modulo di richiesta dei cookie di prime parti](/help/interface/cookies/assets/FPC_Request_Form.xlsx) e apri un ticket con l’Assistenza clienti per richiedere la configurazione dei cookie di prime parti nel programma gestito da Adobe. Ogni campo è descritto all’interno del documento con esempi.
 
-1. Crea record CNAME (consulta le istruzioni di seguito). Quando ricevi il ticket, uno specialista FPSSL ti fornirà una coppia di record CNAME. Questi record devono essere configurati sul server DNS della tua azienda per consentire ad Adobe di acquistare il certificato per conto tuo. I CNAME saranno simili ai seguenti: **Protetto**: ad esempio, il nome host `smetrics.example.com` punta a: `example.com.ssl.d1.omtrdc.net`. **Non protetto**: ad esempio, il nome host `metrics.example.com` punta a: `example.com.d1.omtrdc.net`.
+1. Crea record CNAME (consulta le istruzioni di seguito). Dopo aver ricevuto il biglietto, un rappresentante dell'assistenza clienti dovrebbe fornirvi un paio di record CNAME. Questi record devono essere configurati sul server DNS della tua azienda per consentire ad Adobe di acquistare il certificato per conto tuo. I CNAME saranno simili ai seguenti: **Protetto**: ad esempio, il nome host `smetrics.example.com` punta a: `example.com.ssl.d1.omtrdc.net`. **Non protetto**: ad esempio, il nome host `metrics.example.com` punta a: `example.com.d1.omtrdc.net`.
 
 1. Quando questi CNAME diventano attivi, Adobe collabora con DigiCert per acquistare e installare un certificato sui server di produzione di Adobe. Se hai già un’implementazione, prendi in considerazione Migrazione visitatori per mantenere i visitatori esistenti. Dopo il push live del certificato all’ambiente di produzione di Adobe, potrai aggiornare le variabili del server di tracciamento con i nuovi nomi host. Ciò significa che, se il sito non è protetto (http), devi aggiornare `s.trackingServer`. Se il sito è protetto (https), aggiorna sia la variabile `s.trackingServer` che la variabile `s.trackingServerSecure`.
 
