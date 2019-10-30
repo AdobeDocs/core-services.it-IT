@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Risorse
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: 4eb9f90cf44eb5cc9c6d3898a32c5415f82b8030
 
 ---
 
@@ -76,6 +76,8 @@ Fai clic su **[!UICONTROL Annota]** disegnando dei cerchi o delle frecce su un'i
 ![](assets/assets-annotate.png)
 
 ## Condividere una risorsa sul proprio feed {#section_2CD53A99600D4A3D9AA82C3CDA666E6B}
+
+**Il feed di Experience Cloud non sarà più supportato a partire dal 10 novembre 2019 e diventerà obsoleto entro dicembre 2019.**
 
 Fai clic su **[!UICONTROL Condividi]** dalla barra degli strumenti per condividere la risorsa come [feed](../feed.md#concept_9256B8768A294009A777282DD8719213) per altri utenti di Experience Cloud.
 
