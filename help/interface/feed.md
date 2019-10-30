@@ -7,12 +7,14 @@ solution: Experience Cloud
 title: Feed
 uuid: 7ff327d1-5a74-49fb-8c3c-729034818ebc
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: d39758702a37d16d6c4aeeb4f21863dcbc175523
 
 ---
 
 
 # Feed
+
+**Il feed di Experience Cloud non sarà più supportato a partire dal 10 novembre 2019 e diventerà obsoleto entro dicembre 2019.**
 
 Scopri come condividere o pubblicare risorse e report di Analytics da condividere con altri tramite la funzione Feed di Experience Cloud.
 
@@ -31,6 +33,8 @@ Le impostazioni in Feed includono:
 * **Preferiti:** visualizza i post contrassegnati come preferiti.
 
 ## Condivisione di un progetto Analytics in Feed {#section_F2BDF9FEF4394686BAC5051CBE913EE5}
+
+**Il feed di Experience Cloud non sarà più supportato a partire dal 10 novembre 2019 e diventerà obsoleto entro dicembre 2019.**
 
 Puoi condividere report da [!UICONTROL Reports &amp; Analytics] in Experience Cloud Feed.
 
