@@ -7,7 +7,7 @@ solution: Adobe Experience Cloud
 title: Aiuto per Experience Cloud e servizi di base
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 9916e005e391e516bad282615a3e9be58f725909
+source-git-commit: 61261e280f08fafcaae2b14a2ab210c3786cb370
 
 ---
 
@@ -21,12 +21,12 @@ Questa pagina fornisce supporto autonomo, documentazione tecnica e di prodotto p
 ## Note sulla versione e risorse della community
 
 * [Note](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) sulla versione di Experience Cloud - tutti i prodotti
+* [Home dell'Aiuto - Informazioni e supporto per Experience Cloud](https://helpx.adobe.com/support/experience-cloud.html)
 * [Aggiornamento](https://www.adobe.com/subscription/priority-product-update.html) prioritario del prodotto - iscrivetevi per ricevere le note sulla versione ogni mese)
 * [Adobe Video Learning](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html)
 * [Adobe Experience League](https://landing.adobe.com/experience-league/) - Formazione guidata
 * [Contatta l’Assistenza clienti](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Forum della community](https://forums.adobe.com/community/experience-cloud)
-* [Formazione e supporto Experience Cloud](https://helpx.adobe.com/support/experience-cloud.html)
 * [Formazione e tutorial di Adobe](https://helpx.adobe.com/learning.html?promoid=KAUDK)
 * [Blog](https://theblog.adobe.com/customer-experience/) sull'esperienza cliente Adobe (blog)
 * [Panoramica sui servizi di base](https://theblog.adobe.com/part-2-capturing-leveraging-consumer-behavior-adobe-marketing-cloud/) (blog)
