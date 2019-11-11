@@ -8,7 +8,7 @@ title: Cookie di prime parti
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: 90123ac9194d180a6a8ae59a273a6a6154ea8d96
 
 ---
 
@@ -70,9 +70,9 @@ Il team che gestisce la rete della tua organizzazione deve configurare i server 
 Lo specialista FPC fornisce i nomi host configurati e i CNAME a cui devono essere puntati. Ad esempio:
 
 * **Nome host SSL**:`smetrics.mysite.com`
-* **CNAME SSL**:`mysite.com.ssl.d1.sc.omtrdc.net`
+* **CNAME SSL**:`mysite.com.ssl.sc.omtrdc.net`
 * **Nome host non SSL**:`metrics.mysite.com`
-* **CNAME non SSL**:`mysite.com.d1.sc.omtrdc.net`
+* **CNAME non SSL**:`mysite.com.sc.omtrdc.net`
 
 Fintanto che il codice di implementazione non viene modificato, questo passaggio non influisce sulla raccolta dei dati e può essere eseguito in qualsiasi momento dopo l’aggiornamento del codice di implementazione.
 
