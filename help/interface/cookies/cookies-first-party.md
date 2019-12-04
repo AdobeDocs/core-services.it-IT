@@ -1,33 +1,36 @@
 ---
 description: Analytics utilizza i cookie per fornire informazioni su variabili e componenti che non permangono tra richieste di immagini e sessioni del browser.
-keywords: cookie;privacy
+keywords: cookies;privacy
 seo-description: Analytics utilizza i cookie per fornire informazioni su variabili e componenti che non permangono tra richieste di immagini e sessioni del browser.
 seo-title: Cookie di prime parti
-solution: Experience Cloud, Analytics
+solution: Experience Cloud,Analytics
 title: Cookie di prime parti
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 90123ac9194d180a6a8ae59a273a6a6154ea8d96
+source-git-commit: 0b8723359c1222be09aff347eef0fb8135705c88
 
 ---
 
 
 # Informazioni sui cookie di prime parti
 
-Analytics utilizza i cookie per fornire informazioni su variabili e componenti che non permangono tra richieste di immagini e sessioni del browser. Questi cookie inoffensivi provengono da un dominio ospitato da Adobe e sono chiamati cookie di terze parti.
+Analytics utilizza i cookie per fornire informazioni su variabili e componenti che non permangono tra richieste di immagini e sessioni del browser. Questi cookie innocui che provengono da un dominio ospitato da Adobe, sono noti come cookie di terze parti.
 
-Molti browser e applicazioni antispyware sono progettati per rifiutare ed eliminare i cookie di terze parti, inclusi quelli utilizzati nella raccolta dati di Analytics. Per aggirare i limiti di tracciamento imposti dai browser e dai programmi, puoi implementare cookie di primr parti.
+Molti browser e applicazioni antispyware sono progettati per rifiutare ed eliminare i cookie di terze parti, inclusi quelli utilizzati nella raccolta dati di Analytics. Per supportare il tracciamento di come i visitatori interagiscono con il tuo sito Web, puoi implementare i cookie di prime parti.
 
 Per implementare i cookie di prime parti sono disponibili due opzioni
 
 * Servizio ID di Experience Platform. Il servizio ID può impostare il cookie nella prima parte utilizzando JavaScript.
-* Voci DNS nel server DNS delle aziende.
-* Se il tuo sito contiene pagine sicure che utilizzano il protocollo `https:` e non utilizzi il servizio ID di Experience Platform, puoi lavorare con Adobe in modo da ottenere un certificato SSL per implementare i cookie di prime parti
+* Voci DNS nel server DNS della società per configurare un alias CNAME in un dominio ospitato da Adobe. Sebbene diversi prodotti Adobe supportino l’uso di un CNAME, in tutti i casi il CNAME viene utilizzato per creare un endpoint di prime parti affidabile per un cliente specifico ed è di proprietà di tale cliente. Se il cliente controlla più domini, può usare un singolo endpoint CNAME per monitorare gli utenti nei loro domini, ma poiché questo richiede cookie di terze parti per tutti i domini al di fuori del dominio del CNAME, non funziona se i cookie di terze parti sono bloccati e non è consigliato. I CNAME Adobe non vengono mai utilizzati per monitorare un singolo o un dispositivo tra domini diversi di proprietà di clienti diversi.
+
+Anche quando si utilizza la prima opzione con il servizio Experience Cloud ID, l'ITP di Apple renderà i cookie di prime parti di breve durata, in modo che sia meglio utilizzato insieme alla seconda opzione.
+
+Per la seconda opzione che utilizza un CNAME, se il tuo sito dispone di pagine sicure utilizzando il `https:` protocollo, puoi lavorare con Adobe per ottenere un certificato SSL al fine di implementare i cookie di prime parti. Adobe consiglia vivamente di utilizzare esclusivamente HTTPS per la raccolta dei dati, in quanto il supporto per la raccolta HTTP verrà eliminato nella seconda metà del 2020.
 
 Spesso il processo di rilascio del certificato SSL crea confusione e richiede tempo. Di conseguenza, Adobe ha stabilito una partnership con DigiCert, un’autorità di certificazione (CA) leader del settore, e ha sviluppato un processo integrato per automatizzare l’acquisto e la gestione di tali certificati.
 
-Con la tua autorizzazione, collaboreremo con la nostra CA per rilasciare, distribuire e gestire un nuovo certificato SSL SHA-2 per tuo conto. Adobe continuerà a gestire questo certificato e farà in modo che, in caso di scadenza, revoca o problemi di sicurezza imprevisti, la raccolta sicura delle organizzazioni non venga compromessa.
+Con la tua autorizzazione, collaboreremo con la nostra CA per rilasciare, distribuire e gestire un nuovo certificato SSL SHA-2 per tuo conto. Adobe continuerà a gestire questo certificato e a garantire che una scadenza, una revoca o un problema di sicurezza imprevisti non minaccino la disponibilità della raccolta protetta della tua organizzazione.
 
 ## Programma di certificazione gestito di Adobe
 
@@ -51,7 +54,7 @@ Per implementare un nuovo certificato SSL di prima parte per i cookie di prime p
 
 ### Manutenzione e rinnovi
 
-I certificati SSL scadono ogni anno, il che significa che Adobe deve acquistare un nuovo certificato per ogni implementazione su base annua. Tutti gli utenti supportati all’interno dell’organizzazione riceveranno una notifica e-mail ogni volta che un’implementazione è vicina alla scadenza. Affinché Adobe possa rinnovare il tuo nome host, un utente supportato dovrà rispondere all’e-mail inviata da Adobe e indicare che intendi continuare a utilizzare il nome host in scadenza per la raccolta dei dati. A questo punto, Adobe acquisterà e installerà automaticamente un nuovo certificato.
+I certificati SSL scadono ogni anno, il che significa che Adobe deve acquistare un nuovo certificato per ogni implementazione su base annua. Tutti gli utenti supportati all’interno dell’organizzazione riceveranno una notifica e-mail ogni volta che un’implementazione è vicina alla scadenza. Affinché Adobe possa rinnovare il nome host, un utente supportato deve rispondere all'e-mail inviata da Adobe e indicare che si intende continuare a utilizzare il nome host in scadenza per la raccolta dei dati. A questo punto, Adobe acquisterà e installerà automaticamente un nuovo certificato.
 
 ### Domande frequenti
 
@@ -106,7 +109,7 @@ Se i record CNAME non sono impostati correttamente o non sono attivi, restituir�
 
 Prima di modificare il codice sul sito per utilizzare i cookie di prime parti, completa i seguenti prerequisiti:
 
-* Richiedi un certificato SSL come descritto in precedenza nei passaggi di implementazione per il programma di certificazione gestito di Adobe.
+* Richiedete un certificato SSL, seguendo i passaggi descritti in precedenza nella sezione *Implementazione* del programma di certificazione gestito di *Adobe.*
 * Crea record CNAME (vedi sopra).
 * Effettua il ping del nome host (vedi sopra).
 
