@@ -7,7 +7,7 @@ solution: Adobe Experience Cloud
 title: Aiuto per Experience Cloud e servizi di base
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 57709e5ab93c55dd62b568d77ce2be31f35b920d
+source-git-commit: 23a181998da438d775233235300845febf9c22c6
 
 ---
 
@@ -25,7 +25,7 @@ Questa pagina fornisce supporto autonomo, documentazione tecnica e di prodotto p
 * [Assistenza di esperti in Experience League](https://landing.adobe.com/experience-league/) - Ottieni informazioni guidate da esperti e dalla community
 * [Istruzione e formazione](https://helpx.adobe.com/learning.html?promoid=KAUDK) - Coinvolgi Adobe per ottenere il massimo dai nostri prodotti
 * [Blog](https://theblog.adobe.com/customer-experience/) sull'esperienza dei clienti - Leggi il blog Experience Cloud
-* [Aiuto per tutti i prodotti](https://helpx.adobe.com/support/experience-cloud.html) - Cerca aiuto in Experience Cloud Learn &amp; Support
+* [Documentazione del prodotto per tutte le soluzioni](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html) Experience Cloud - Cerca aiuto in Experience Cloud Learn &amp; Support
 * [Assistenza](https://helpx.adobe.com/contact/enterprise-support.ec.html) clienti - Contatta l'Assistenza clienti Adobe
 
 ## Documentazione prodotto servizi di base
