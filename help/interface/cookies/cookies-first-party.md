@@ -8,7 +8,7 @@ title: Cookie di prime parti
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9dcf5f0e5aad3e18448b72f39fb0c0af0c84d733
+source-git-commit: 3cb4d346d07e1625e95e3737230f03a02b45afb2
 
 ---
 
@@ -109,7 +109,7 @@ Se i record CNAME non sono impostati correttamente o non sono attivi, restituir√
 
 Prima di modificare il codice sul sito per utilizzare i cookie di prime parti, completa i seguenti prerequisiti:
 
-* Richiedete un certificato SSL, seguendo i passaggi descritti in precedenza nella sezione *Implementazione* del programma di certificazione gestito di *Adobe.*
+* Richiedete un certificato SSL seguendo i passaggi descritti in precedenza nella sezione *Implementa* del programma [di certificazione gestito di](#adobe-managed-certificate-program)Adobe.
 * Crea record CNAME (vedi sopra).
 * Inserire i nomi host (vedere sopra).
 
