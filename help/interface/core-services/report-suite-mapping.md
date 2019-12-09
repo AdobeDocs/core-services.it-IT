@@ -5,7 +5,7 @@ seo-title: Mappatura di suite di rapporti per un’organizzazione
 title: Mappatura di suite di rapporti per un’organizzazione
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: d304e625bd2125854d9ed932674522284995e030
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -19,7 +19,6 @@ I servizi Experience Cloud (come Experience Cloud ID e il servizio core persone)
 * Imposta un’organizzazione di Experience Cloud come un’organizzazione primaria per la suite di rapporti.
 * non modifica chi può accedere a una suite di rapporti (l'accesso è ancora determinato dall'account di accesso ad Adobe Analytics per ogni utente).
 
-
 **Requisiti**
 
 Devi essere un amministrazione Analytics di una società con accesso alla suite di rapporti da mappare. Inoltre, questo account deve essere [collegato a un’organizzazione Experience Cloud](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) per poter mappare le suite di rapporti per le organizzazioni.
@@ -29,8 +28,6 @@ Le organizzazioni sono disattivate se non disponi delle autorizzazioni di ammini
 ## Mappatura di una suite di rapporti su un’organizzazione {#task_23993FE78DF6455FA8D7BE60686EA16C}
 
 1. Fai clic su **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL Amministrazione]** &gt; **[!UICONTROL Mappatura suite di rapporti]**
-
-   Puoi anche utilizzare un [URL diretto](https://audience.marketing.adobe.com/rsmapping/ui.html).
 
 1. Per visualizzare le società con accesso a ogni suite di rapporti, fai clic su **[!UICONTROL Visibile per le società di accesso]**.
 
@@ -43,8 +40,6 @@ Le organizzazioni sono disattivate se non disponi delle autorizzazioni di ammini
 ## Mappare più suite di rapporti su un’organizzazione {#task_94955B0D8ABA4CB1A38746ECF8E32711}
 
 1. Fai clic su **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL Amministrazione]** &gt; **[!UICONTROL Mappatura suite di rapporti]**.
-
-   Puoi anche utilizzare un [URL diretto](https://audience.marketing.adobe.com/rsmapping/ui.html).
 
 1. Seleziona le suite di rapporti da mappare.
 
@@ -62,7 +57,7 @@ Questa sezione contiene suggerimenti per aiutarti a selezionare l'organizzazione
 
 **Quale organizzazione devo scegliere?**
 
-Se il servizio Experience Cloud ID è attualmente distribuito sulla suite di rapporti, verifica che l'organizzazione selezionata nello strumento di mappatura suite per rapporti sia la stessa organizzazione specificata nel file [!DNL visitorAPI.js] sul sito. Puoi utilizzare le istruzioni in [Test e verifica del servizio Experience Cloud ID](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-test-verify.html) per trovare l'ID organizzazione utilizzato dal servizio ID visitatore.
+Se il servizio Experience Cloud ID è attualmente distribuito sulla suite di rapporti, verifica che l'organizzazione selezionata nello strumento di mappatura suite per rapporti sia la stessa organizzazione specificata nel file [!DNL visitorAPI.js] sul sito. Puoi utilizzare le istruzioni in [Test e verifica del servizio Experience Cloud ID](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/test-verify.html) per trovare l'ID organizzazione utilizzato dal servizio ID visitatore.
 
 Se il servizio ID visitatore non è ancora distribuito sui siti che raccolgono i dati per la suite di rapporti, se distribuisci il servizio ID visitatore Experience Cloud in futuro, dovrai verificare che la distribuzione corrisponda all'organizzazione scelta nello strumento di mappatura suite per rapporti.
 
