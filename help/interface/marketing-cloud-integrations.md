@@ -1,13 +1,13 @@
 ---
 description: Scopri le integrazioni di servizi di base e soluzioni disponibili in Adobe Experience Cloud.
-keywords: integrazioni
+keywords: integrations
 seo-description: Scopri le integrazioni di servizi di base e soluzioni disponibili in Adobe Experience Cloud.
 seo-title: Integrazioni di Experience Cloud
 solution: Experience Cloud
-title: Integrazioni di Experience Cloud
+title: Experience Cloud Integrazioni
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -24,7 +24,7 @@ Descrive come:
 
 * Effettuare il provisioning della tua società in Experience Cloud.
 * Diventare un amministratore.
-* [Implementare il servizio ID di Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcvid/).
+* [Implementare il servizio ID di Experience Cloud](https://docs.adobe.com/content/help/en/id-service/using/home.html).
 * Aggiornare le tue implementazioni Analytics e Target tramite DTM.
 * Utilizzare i servizi di base.
 
@@ -33,19 +33,19 @@ Soluzioni o servizi:
 * Activation - Dynamic Tag Management o Experience Platform Launch
 * Analytics
 * Target
-* [Servizio Experience Cloud ID](https://marketing.adobe.com/resources/help/en_US/mcvid/)
+* [Servizio Experience Cloud ID](https://docs.adobe.com/content/help/en/id-service/using/home.html)
 
 ## Servizio Experience Cloud ID {#section_6ECCCFA2D84D4D4F88C879C799CA9D78}
 
-Help: [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/)
+Help: [Experience Cloud ID Service](https://docs.adobe.com/content/help/en/id-service/using/home.html)
 
 Il servizio ID fornisce un ID universale e costante che identifica i visitatori in tutte le soluzioni Experience Cloud. Può sostituire il codice di generazione ID di servizi come Analytics, Audience Manager, Target, Video Heartbeat e altre soluzioni o funzionalità Experience Cloud.
 
 **Soluzioni o servizi applicabili**
 
-* [Analytics](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-analytics.html)
-* [Target](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-target.html)
-* [Data Workbench](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-dwb.html)
+* [Analytics](https://docs.adobe.com/content/help/en/id-service/using/home.htmlmcvid-setup-analytics.html)
+* [Target](https://docs.adobe.com/content/help/en/id-service/using/home.htmlmcvid-setup-target.html)
+* [Data Workbench](https://docs.adobe.com/content/help/en/id-service/using/home.htmlmcvid-dwb.html)
 
 ## Tipi di pubblico {#section_5F60D7B0833348B9A1D74663AADCB42C}
 
@@ -59,8 +59,8 @@ Crea e gestisci i tipi di pubblico nella Libreria Pubblico di Experience Cloud. 
 
 **Soluzioni o servizi applicabili**
 
-* [Attività](https://marketing.adobe.com/resources/help/en_US/target/target/c_activities.html) in Adobe Target
-* [Segmentazione](https://marketing.adobe.com/resources/help/en_US/analytics/audiences/aam-analytics-segments.html) in Audience Manager
+* [Attività](https://docs.adobe.com/content/help/en/target/using/activities/activities.html) in Adobe Target
+* [Segmentazione](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) in Audience Manager
 * [Media Optimizer](https://enterprise.efrontier.com/CMDashboard/help/internal/concepts_and_features/media_optimizer_integration_with_adobe_marketing_cloud.htm) (login richiesto)
 
 ## Attributi del cliente {#section_6A9EA6847F654F129381869E5016626C}
@@ -71,12 +71,12 @@ Se acquisisci dati del cliente di livello Enterprise in un database CRM (Custome
 
 **Soluzioni o servizi applicabili**
 
-* Analytics: [Report degli attributi del cliente](https://marketing.adobe.com/resources/help/en_US/reference/reports_customer_attributes.html)
-* Target: Configura la [sottoscrizione](https://marketing.adobe.com/resources/help/en_US/mcloud/subscription.html) di Target per gli attributi cliente
+* Analytics: [Report degli attributi del cliente](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-customer-attributes.html)
+* Target: Configura la [sottoscrizione](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html) di Target per gli attributi cliente
 
 ## Experience Cloud Assets {#section_92BC5DFDB0E0499CB0DD34B85E06F79A}
 
-Help: [Share Experience Cloud Folders with Creative Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/creative_cloud.html)
+Help: [Share Experience Cloud Folders with Creative Cloud](https://docs.adobe.com/content/help/en/core-services/interface/assets/creative-cloud.html)
 
 Condividi cartelle e risorse tra Experience Cloud e Creative Cloud. Collabora, annota risorse condivise e utilizzale nelle soluzioni Experience Cloud, come Social e Target.
 
@@ -89,7 +89,7 @@ Condividi cartelle e risorse tra Experience Cloud e Creative Cloud. Collabora, a
 
 ## Analytics: Report delle AEM Assets in Analytics {#section_0A16AE14F128470AA02EFC6457BDCE75}
 
-Help: [AEM Assets reporting in Analytics](https://marketing.adobe.com/resources/help/en_US/reference/aem-assets-reporting.html)
+Help: [AEM Assets reporting in Analytics](https://docs.adobe.com/content/help/en/analytics/integration/aem-assets-reporting.html)
 
 Consente ad Analytics di raccogliere impression e clic sugli asset forniti dalla funzione Approfondimenti di AEM Assets.
 
@@ -100,7 +100,7 @@ Consente ad Analytics di raccogliere impression e clic sugli asset forniti dalla
 
 ## Integrazioni di Audience Manager {#section_8FEFE1746E26416EB7E73095BBAD5345}
 
-[Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/c_integration.html) (home integrazione)
+[Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/implementation-and-integration.html)
 
 Lavora con i dati delle soluzioni Experience Cloud o altri sistemi esterni in Audience Manager.
 
@@ -112,12 +112,12 @@ Lavora con i dati delle soluzioni Experience Cloud o altri sistemi esterni in Au
 
 ## Activation {#section_A23510A2D57842F6BAD043650C06DE42}
 
-Help: [Getting Started](https://docs.adobelaunch.com/getting-started)
+Aiuto: [Guida introduttiva](https://docs.adobelaunch.com/getting-started)
 
 Utilizza le soluzioni di Experience Cloud Activation per configurare ed eseguire il debug delle soluzioni di Experience Cloud.
 
 1. Use [Launch](https://docs.adobelaunch.com) or [Dynamic Tag Management](https://marketing.adobe.com/resources/help/en_US/dtm/) to insert code that activates [Adobe Experience Cloud solutions](solutions-core-services.md#topic_BD726D3A649E4FC49063029E86B70C62) on your pages.
-1. Use [Adobe Cloud Platform Auditor](https://marketing.adobe.com/resources/help/en_US/auditor/) to test your implementations.
+1. Utilizza [Adobe Cloud Platform Auditor](https://marketing.adobe.com/resources/help/en_US/auditor/) per testare le tue implementazioni.
 
 Utilizza l’estensione Adobe Experience Cloud Debugger per eseguire il debug dei problemi rilevati da Auditor o per esaminare altre informazioni sulle implementazioni.
 
@@ -147,7 +147,7 @@ Integra Adobe Target con Adobe Analytics e altre soluzioni Experience Cloud per 
 
 ## Integrazioni di Experience Manager {#section_32FB010EF8B4429FBC63C8DC2A9BE98F}
 
-Help: [Solutions Integration](https://docs.adobe.com/docs/en/aem/6-2/administer/integration.html)
+Aiuto: Integrazione [delle soluzioni](https://docs.adobe.com/docs/en/aem/6-2/administer/integration.html)
 
 Integra AEM con altre soluzioni e servizi di terze parti.
 
