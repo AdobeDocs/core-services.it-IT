@@ -1,13 +1,13 @@
 ---
 description: Requisiti del file di dati e origini dati multiple per il caricamento degli attributi del cliente in Experience Cloud.
-keywords: attributi del cliente;servizi principali
+keywords: customer attributes;core services
 seo-description: Requisiti del file di dati e origini dati multiple per il caricamento degli attributi del cliente in Experience Cloud.
 seo-title: Informazioni sui file di dati e le origini dati per gli attributi del cliente
 solution: Experience Cloud
 title: Informazioni sui file di dati e le origini dati per gli attributi del cliente
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 translation-type: tm+mt
-source-git-commit: d304e625bd2125854d9ed932674522284995e030
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -81,7 +81,7 @@ Lo stesso file visualizzato in un editor di testo:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Colonna ID cliente </p> </td> 
-   <td colname="col2"> <p> La prima colonna deve essere un ID cliente univoco. L'ID usato deve corrispondere all'ID passato al servizio Experience Cloud ID. </p> <p>Per Analytics, l'ID archiviato in una prop o eVar. </p> <p>Per Target, il valore setCustomerID. (Consulta <a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local">Analytics e Target - Sincronizzazione dell'ID cliente</a>) </p> <p> Questo ID cliente è l'unico identificatore che CRM usa per ciascuna persona nel database. Le colonne rimanenti sono attributi derivanti da CRM. Dovrai scegliere quanti attributi caricare. </p> <p>Si consiglia l'utilizzo di nomi semplici e facili da leggere per l'intestazione della colonna, ma ciò non è obbligatorio. Quando si convalida lo schema per il caricamento, puoi mappare i nomi alle righe e alle colonne caricate. </p> <p> <b>Gli ID cliente</b> </p> <p>Solitamente, un'azienda usa un ID cliente da un sistema CRM. Tale ID viene impostato usando la chiamata <span class="codeph">setCustomerIDs</span> quando una persona effettua l'accesso. Questo ID viene anche usato come chiave nel file CRM che viene caricato in Experience Cloud. Un <a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local"> ID alias</a> è un nome semplificato per i dati archiviati in Audience Manager, dove vengono archiviati i dati alias. Il sistema invia alias a tale archivio dati (tramite setCustomerIDs). Il file CRM viene applicato ai dati presenti nell'archivio dati. </p> <p>Per informazioni su <span class="codeph">setCustomerIDs</span> consulta <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html" format="https" scope="external">ID cliente e stati di autenticazione</a>. </p> </td> 
+   <td colname="col2"> <p> La prima colonna deve essere un ID cliente univoco. L'ID usato deve corrispondere all'ID passato al servizio Experience Cloud ID. </p> <p>Per Analytics, l'ID archiviato in una prop o eVar. </p> <p>Per Target, il valore setCustomerID. (Consulta <a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local">Analytics e Target - Sincronizzazione dell'ID cliente</a>) </p> <p> Questo ID cliente è l'unico identificatore che CRM usa per ciascuna persona nel database. Le colonne rimanenti sono attributi derivanti da CRM. Dovrai scegliere quanti attributi caricare. </p> <p>Si consiglia l'utilizzo di nomi semplici e facili da leggere per l'intestazione della colonna, ma ciò non è obbligatorio. Quando si convalida lo schema per il caricamento, puoi mappare i nomi alle righe e alle colonne caricate. </p> <p> <b>Gli ID cliente</b> </p> <p>Solitamente, un'azienda usa un ID cliente da un sistema CRM. Tale ID viene impostato usando la chiamata <span class="codeph">setCustomerIDs</span> quando una persona effettua l'accesso. Questo ID viene anche usato come chiave nel file CRM che viene caricato in Experience Cloud. Un <a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local"> ID alias</a> è un nome semplificato per i dati archiviati in Audience Manager, dove vengono archiviati i dati alias. Il sistema invia alias a tale archivio dati (tramite setCustomerIDs). Il file CRM viene applicato ai dati presenti nell'archivio dati. </p> <p>Per informazioni su <span class="codeph">setCustomerIDs</span> consulta <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html" format="https" scope="external">ID cliente e stati di autenticazione</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Intestazioni e colonne successive </p> </td> 
