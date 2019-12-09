@@ -1,13 +1,13 @@
 ---
 description: Funzionalità, note sulla versione e problemi noti per l’interfaccia Experience Cloud.
-keywords: servizi di base
+keywords: core services
 seo-description: Funzionalità, note sulla versione e problemi noti per l’interfaccia Experience Cloud.
 seo-title: Note sulla versione cumulative
 solution: Experience Cloud
 title: Note sulla versione cumulative
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 translation-type: tm+mt
-source-git-commit: 75831abe44d04902691325add2338381754f98ec
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -18,7 +18,7 @@ Funzionalità, note sulla versione e problemi noti per l’interfaccia Experienc
 
 Per un elenco degli aggiornamenti della documentazione, consulta [Experience Cloud](../doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
-Per le note sulla versione comprensive di tutte le soluzioni vedi [Note sulla versione di Experience Cloud](https://marketing.adobe.com/resources/help/en_US/whatsnew/).
+Per le note sulla versione comprensive di tutte le soluzioni vedi [Note sulla versione di Experience Cloud](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html).
 
 ## Agosto - 2019
 
@@ -171,7 +171,7 @@ Nessuna informazione disponibile
 </table>
 
 * È stato risolto un problema che impediva agli attributi del cliente di sincronizzarsi per alcuni clienti.
-* È stato risolto un problema che impediva alla pagina [Documentazione sul prodotto Adobe Target](https://marketing.adobe.com/resources/help/ja_JP/target/a4t/) di essere visualizzata in giapponese.
+* È stato risolto un problema che impediva alla pagina [Documentazione sul prodotto Adobe Target](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html) di essere visualizzata in giapponese.
 * È stato risolto un problema che impediva l’utilizzo di testo in giapponese nei commenti tra [!DNL Creative Cloud] e [!DNL Experience Cloud].
 
 ## Rilascio 15.4.1 - 8 aprile 2015 {#section_75634120CC934B3381EDEA7F6F976F0A}
@@ -355,7 +355,7 @@ Nuove funzioni, problemi noti e correzioni nella [!DNL Adobe Experience Cloud] c
 
 **Correzioni e miglioramenti**
 
-* Quando visiti il sito [!DNL marketing.adobe.com], l'esperienza di accesso ora è coerente con l'accesso di Adobe Creative Cloud.
+* Quando visiti il sito [!DNL experiencecloud.adobe.com], l'esperienza di accesso ora è coerente con l'accesso di Adobe Creative Cloud.
 * Nella pagina Gestisci organizzazioni, l'esperienza di collegamento (dopo aver ricevuto un invito) ora è uguale per ciascuna soluzione.
 
 **Problemi noti**
