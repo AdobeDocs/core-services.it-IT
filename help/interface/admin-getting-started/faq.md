@@ -1,13 +1,13 @@
 ---
 description: Domande frequenti e relative risposte per gli amministratori in Experience Cloud.
-keywords: servizi di base
+keywords: core services
 seo-description: Domande frequenti e relative risposte per gli amministratori in Experience Cloud.
 seo-title: Domande frequenti
 solution: Experience Cloud
 title: Domande frequenti
 uuid: 3ed0b4eb-690f-4c14-a31c-0cc1118fb3b4
 translation-type: tm+mt
-source-git-commit: 9c9b5250ec4143b396623341ecfeb61244469754
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -22,7 +22,7 @@ Se non è stato effettuato il provisioning della tua implementazione per i servi
 
 
 1. [Partecipazione a Experience Cloud per diventare un amministratore](../core-services/core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
-1. [Implementazione del servizio Experience Cloud ID tramite Dynamic Tag Manager](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354) (o il nuovo [Launch, di Adobe](https://marketing.adobe.com/resources/help/en_US/experience-cloud/launch/))
+1. [Implementazione del servizio Experience Cloud ID tramite Dynamic Tag Manager](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354) (o il nuovo [Launch, di Adobe](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html))
 1. [Mappatura di suite di rapporti per un’organizzazione Experience Cloud](../core-services/core-services.md#concept_apg_zq2_rw)
 1. [(Solo Analytics) Modernizzazione del codice AppMeasurement di Analytics](../core-services/core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [(Solo Target) Modernizzazione dell'implementazione di Adobe Target](../core-services/core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)
@@ -62,7 +62,7 @@ Provisioning in Experience Cloud significa:
 
 * La gestione di prodotti e adesioni utente viene eseguita in [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (collegamento prodotto).
 
-* **Importante:** amministratori di Analytics, consulta [Gestione di utenti Analytics in Admin Console](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/) per informazioni sulla migrazione di ID utente da Analytics Admin Tools ad Admin Console.
+* **Importante:** amministratori di Analytics, consulta [Gestione di utenti Analytics in Admin Console](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html) per informazioni sulla migrazione di ID utente da Analytics Admin Tools ad Admin Console.
 
 **Cosa posso fare se qualcuno non riesce ad accedere a Experience Cloud?**
 
