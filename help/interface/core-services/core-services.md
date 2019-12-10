@@ -1,13 +1,13 @@
 ---
 description: Implementa Experience Cloud e diventa amministratore. Questa procedura consente di modernizzare le soluzioni per funzionalità di servizi di base come gli attributi dei clienti e i tipi di pubblico.
-keywords: servizi principali;attributi del cliente
+keywords: core services;customer attributes
 seo-description: Implementa Experience Cloud e diventa amministratore. Questa procedura consente di modernizzare le soluzioni per funzionalità di servizi di base come gli attributi dei clienti e i tipi di pubblico.
 seo-title: Abilitare le soluzioni Experience Cloud per i servizi di base
 solution: Experience Cloud
 title: Abilita le tue soluzioni per i servizi di base
 uuid: 5820060f-9b18-4339-81e0-401d964f7a03
 translation-type: tm+mt
-source-git-commit: c0ba39895218769e27ab99568387eb91310a574c
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -32,7 +32,7 @@ Cosa devi fare per partecipare a Experience Cloud:
 
 >[!NOTE]
 >
->For Target, [migrate to at.js from mbox.js](https://marketing.adobe.com/resources/help/en_US/target/ov2/t_target-migrate-atjs.html).
+>For Target, [migrate to at.js from mbox.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/upgrading-from-atjs-1x-to-atjs-20.html).
 
 ![](assets/step2_icon.png) Modernizza la tua implementazione ed effettua il provisioning di un amministratore.
 
@@ -116,11 +116,11 @@ Ad esempio, si supponga che Bob sia associato all'ID cliente `52mc210tr42` nel s
 
 L'ID cliente deve essere impostato su ciascuna chiamata al server di [!DNL Analytics] in cui è noto l'ID cliente.
 
-**SDK per dispositivi mobili**
+### SDK per dispositivi mobili
 
 Consulta la sezione del servizio *Experience Cloud ID per esempi di sintassi per l’impostazione di ID cliente aggiuntivi nelle applicazioni mobili* Android [e](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html) iOS [](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html) .
 
-**Abilitazione degli attributi per i dati presenti nella cronologia**
+### Abilitazione degli attributi per i dati presenti nella cronologia
 
 I dati dell'attributo cliente sono disponibili dopo l'accesso dei visitatori. Se non hai ancora implementato l'ultimo servizio Experience Cloud ID e se stai tenendo traccia degli ID cliente in una prop o eVar, puoi richiedere un procedimento che invia gli accessi cronologici a Experience Cloud. Tale procedimento consente di iniziare a usare gli attributi del cliente immediatamente.
 
