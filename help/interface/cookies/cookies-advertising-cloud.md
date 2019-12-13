@@ -5,7 +5,7 @@ seo-title: Cookie di Advertising Cloud
 title: Cookie di Advertising Cloud
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: d7d1a659bbdbc7a4221243d88410492351ab9055
 
 ---
 
@@ -13,39 +13,6 @@ source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
 # Cookie di Advertising Cloud {#advertising-cloud-cookies}
 
 Advertising Cloud utilizza i cookie per mappare gli eventi di coinvolgimento pubblicitario e, potenzialmente, per ottimizzare le offerte pubblicitarie.
-
-## Nome cookie: id_adcloud
-
-<table id="id_adcloud"> 
-<thead> 
-<tr> 
-<th colname="col1" class="entry"> Attributo </th> 
-<th colname="col2" class="entry"> Descrizione </th> 
-</tr> 
-</thead>
-<tbody> 
-<tr> 
-<td colname="col1"> <p>Informazioni memorizzate </p> </td> 
-<td colname="col2"> <p>ID surfista </p> </td> 
-</tr> 
-<tr> 
-<td colname="col1"> <p>Scadenza </p> </td> 
-<td colname="col2"> <p>91 giorni </p> </td> 
-</tr> 
-<tr> 
-<td colname="col1"> <p>Utilizzo </p> </td> 
-<td colname="col2"> <p>Il cookie è impostato nel dominio di prime parti ma non è ancora utilizzato </p> </td> 
-</tr> 
-<tr> 
-<td colname="col1"> <p>Posizione </p> </td> 
-<td colname="col2"> <p>Dominio di livello principale dell’inserzionista (come esempio.com) </p> </td> 
-</tr> 
-<tr> 
-<td colname="col1"> <p>Dimensione </p> </td> 
-<td colname="col2"> <p>16 byte </p> </td> 
-</tr> 
-</tbody> 
-</table>
 
 ## Nome cookie: _lcc
 
@@ -125,7 +92,7 @@ Advertising Cloud utilizza i cookie per mappare gli eventi di coinvolgimento pub
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Informazioni memorizzate </p> </td> 
-   <td colname="col2"> <p>ID surfista, timestamp dell’ultima visita al sito Web dell’inserzionista, l’ultimo clic di ricerca del surfer e l’ef_id creato quando l’utente ha fatto clic su un annuncio.</p> </td> 
+   <td colname="col2"> <p>Marca temporale dell’ultima visita del surfer al sito Web dell’inserzionista e dell’ultimo clic di ricerca del surfer, e il ef_id creato quando l’utente ha fatto clic su un annuncio</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Scadenza </p> </td> 
