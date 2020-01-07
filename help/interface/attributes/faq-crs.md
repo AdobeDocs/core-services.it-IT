@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Domande frequenti, limitazioni e best practice
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: d978c3bdd5a2632787f58339a9554cd8ffa2ec11
+source-git-commit: 12c3ac8bfa64b7c8708312576ac6dc4036c1b7d8
 
 ---
 
@@ -18,13 +18,14 @@ Domande frequenti e best practice per attributi cliente in Analytics e Target.
 
 ## Best practice e limitazioni {#section_7F5189B3DAA84EE6865B91D2026EE05A}
 
-Guida e limitazioni per l'uso degli attributi cliente
+Guida e limitazioni per l&#39;uso degli attributi cliente
 
 | Problema | Descrizione |
 |--- |--- |
-| Limitazioni della sottoscrizione attributi cliente | Quando si esegue l'aggiornamento ad Analytics Premium, si verifica un ritardo di 24 ore prima che gli attributi aggiuntivi siano disponibili. Potresti visualizzare un errore Sottoscrizione attributi max durante questo ritardo. |
+| Limitazioni della sottoscrizione attributi cliente | Quando si esegue l&#39;aggiornamento ad Analytics Premium, si verifica un ritardo di 24 ore prima che gli attributi aggiuntivi siano disponibili. Potresti visualizzare un errore Sottoscrizione attributi max durante questo ritardo. |
+| Più accessi sullo stesso dispositivo | Quando si utilizzano gli attributi del cliente per caricare i profili del cliente in un&#39;origine dati, Adobe consiglia agli utenti che condividono lo stesso dispositivo (ossia lo stesso Experience Cloud ID). In questo modo il servizio ECID, che persiste sul dispositivo, potrebbe collegare più utenti con lo stesso Experience Cloud ID, dando origine a risultati imprevisti [!DNL Target]. **** Nota: Per Mobile, l&#39;ECID è permanente dopo l&#39;installazione dell&#39;app Mobile e devi reinstallare l&#39;app per generare un nuovo ECID. Per Web, viene generato un nuovo ECID dopo che il cookie del browser viene cancellato. |
 | Limitazione del caricamento giornaliero delle frequenze | Adobe consiglia di aggiornare gli attributi del cliente una sola volta al giorno. Devi aspettare almeno 24 ore per caricare un altro file di dati del profilo cliente per lo stesso set di profili. |
-| ID Analytics personalizzato (s.visitorID) | L'impostazione di un ID cliente tramite  s.visitorID è un metodo di identificazione degli utenti in Analytics. Tuttavia, le integrazioni in cui vengono esportati o importati i dati di Analytics tramite il servizio ID non funzioneranno quando un visitatore viene identificato tramite s.visitorID.<br>Sono inclusi, ma senza limitazioni, tipi di pubblico condivisi, Analytics for Target (A4T) e attributi cliente.<br>Per queste integrazioni, l'impostazione di un ID Analytics personalizzato non è supportata. |
+| Custom Analytics ID (`s.visitorID`) | L&#39;impostazione di un ID cliente usando `s.visitorID` è un metodo di identificazione degli utenti in Analytics. Tuttavia, le integrazioni in cui i dati di Analytics vengono esportati o importati tramite il servizio ID non funzioneranno quando un visitatore viene identificato utilizzando `s.visitorID.`<br>Questo include, ma non è limitato, audience condivise, Analytics for Target (A4T) e Attributi del cliente.<br>Per queste integrazioni, l&#39;impostazione di un ID Analytics personalizzato non è supportata. |
 | Limitazioni della lunghezza di caratteri in Analytics | Quando si crea una sottoscrizione Analytics, le lunghezze dei campi per i file caricati vengono troncate a 255. |
 
 ## Domande frequenti sugli attributi cliente {#section_E47866EEA83348E09FE43CEC5E44C461}
