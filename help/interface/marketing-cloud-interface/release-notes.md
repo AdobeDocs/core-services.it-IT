@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Note sulla versione cumulative
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: 12c3ac8bfa64b7c8708312576ac6dc4036c1b7d8
 
 ---
 
@@ -19,6 +19,10 @@ Funzionalità, note sulla versione e problemi noti per l’interfaccia Experienc
 Per un elenco degli aggiornamenti della documentazione, consulta [Experience Cloud](../doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
 Per le note sulla versione comprensive di tutte le soluzioni vedi [Note sulla versione di Experience Cloud](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html).
+
+## Gennaio - 2020
+
+* La pagina Feed è stata rimossa a dicembre 2019. Nel prodotto verrà visualizzato un avviso di funzione rimossa. (MCUI-10039)
 
 ## Agosto - 2019
 
@@ -91,11 +95,11 @@ Per le note sulla versione comprensive di tutte le soluzioni vedi [Note sulla ve
 
 **Correzioni**
 
-* È stato risolto un problema che impediva il collegamento e SSO per Analytics. A causa di questo problema veniva visualizzato "Avviso: Messaggio di errore: ERROR IMS SSO Operazione non riuscita: impossibile trovare impostazioni account collegata."
+* È stato risolto un problema che impediva il collegamento e SSO per Analytics. A causa di questo problema veniva visualizzato &quot;Avviso: Messaggio di errore: ERROR IMS SSO Operazione non riuscita: impossibile trovare impostazioni account collegata.&quot;
 
 **Problema noto**
 
-Se accedi a Dynamic Tag Management tramite l’interfaccia **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL Activation]**, ma l’account di Dynamic Tag Management non è collegato a Experience Cloud (Adobe ID), non potrai accedere al servizio. Per evitare questo problema, accedi direttamente a [!DNL dtm.adobe.com] aprendo una nuova scheda del browser.
+Se accedi a Dynamic Tag Management tramite l’interfaccia **[!UICONTROL Experience Cloud]**>**[!UICONTROL  Activation]**, ma l’account di Dynamic Tag Management non è collegato a Experience Cloud (Adobe ID), non potrai accedere al servizio. Per evitare questo problema, accedi direttamente a [!DNL dtm.adobe.com] aprendo una nuova scheda del browser.
 
 ## Rilascio 16.1 - 21 gennaio 2016 {#section_33B3F7DF6CA347E3AA93801BAC6232CE}
 
@@ -122,14 +126,14 @@ Se accedi a Dynamic Tag Management tramite l’interfaccia **[!UICONTROL Experie
 
 **Problemi noti**
 
-* Gli utenti non sono in grado di accedere a Report Builder se effettuano un'autenticazione unica (SSO) in Analytics tramite Experience Cloud. Il problema non interessa gli utenti che utilizzano credenziali per Analytics già esistenti.
-* Errore noto con la funzione "Link to Report" (Collega a report) in Analytics. Gli utenti che accedono ad Analytics tramite Experience Cloud vengono indirizzati a una pagina non SSO per Analytics quando cercano di condividere un report.
+* Gli utenti non sono in grado di accedere a Report Builder se effettuano un&#39;autenticazione unica (SSO) in Analytics tramite Experience Cloud. Il problema non interessa gli utenti che utilizzano credenziali per Analytics già esistenti.
+* Errore noto con la funzione &quot;Link to Report&quot; (Collega a report) in Analytics. Gli utenti che accedono ad Analytics tramite Experience Cloud vengono indirizzati a una pagina non SSO per Analytics quando cercano di condividere un report.
 
 ## Rilascio 15.9 - 10 settembre 2015 {#section_BCCE3E7DF62A4FF5A57B9C8FE2A5F37B}
 
 * È stato risolto un problema nelle prestazioni delle API di Audience Manager che causava timeout intermittenti durante il caricamento dei dati degli attributi cliente. (MAC-26305)
 * È stato risolto un problema che impediva agli utenti di aggiungere fino a 200 attributi clienti a una sottoscrizione. (MAC-26188)
-* È stato corretto un problema relativo alla Libreria Pubblico che impediva la condivisione del pubblico nella segmentazione di Analytics. Questo problema causava la visualizzazione di "Raccolta di dati" (0 tipi di pubblico). Per impedire questo problema, Adobe consiglia di mantenere la dimensione del segmento al di sotto di 50 mila membri per segmento. (MAC-25788)
+* È stato corretto un problema relativo alla Libreria Pubblico che impediva la condivisione del pubblico nella segmentazione di Analytics. Questo problema causava la visualizzazione di &quot;Raccolta di dati&quot; (0 tipi di pubblico). Per impedire questo problema, Adobe consiglia di mantenere la dimensione del segmento al di sotto di 50 mila membri per segmento. (MAC-25788)
 * È stato risolto un problema precedentemente noto sulla pagina Attributi del cliente - Modifica schema che causava un errore in base al contenuto, che si verificava durante la modifica di un nome visualizzato. (MAC-25589, AN-103834)
 
 ## Rilascio 15.7 - 22 luglio 2015  {#section_2683A152176944E48EF6C943892975B7}
@@ -142,7 +146,7 @@ Se accedi a Dynamic Tag Management tramite l’interfaccia **[!UICONTROL Experie
 
 **Problema noto**
 
-Un problema noto crea la duplicazione di account automaticamente generati in Audience Manager e li collega automaticamente a un'identità Experience Cloud del cliente. Il problema si verifica quando si tenta di passare ad Audience Manager prima di collegare i propri account. Adobe consiglia di collegare gli account Audience Manager a Experience Cloud prima di spostarsi ad Audience Manager. (MAC-25640)
+Un problema noto crea la duplicazione di account automaticamente generati in Audience Manager e li collega automaticamente a un&#39;identità Experience Cloud del cliente. Il problema si verifica quando si tenta di passare ad Audience Manager prima di collegare i propri account. Adobe consiglia di collegare gli account Audience Manager a Experience Cloud prima di spostarsi ad Audience Manager. (MAC-25640)
 
 ## Rilascio 15.6.1 - 11 giugno 2015  {#section_AD2019F8D2F84C9EB2B0533FAACF7043}
 
@@ -201,8 +205,8 @@ Nessuna informazione disponibile
 
 **Problemi noti**
 
-* Il collegamento e lo scollegamento dell’organizzazione Dynamic Tag Management con Experience Cloud non funziona per le nuove organizzazioni Experience Cloud create dall'utente. Stiamo cercando di risolvere questo problema e ripristinare la funzionalità con il rilascio di maggio. Se rilevi dei problemi durante l’accesso single sign-on in Dynamic Tag Management tramite Experience Cloud, utilizza l’accesso precedente all’indirizzo [!DNL dtm.adobe.com].
-* Un problema noto impedisce la condivisione di tipi di pubblico da suite di rapporti che non sono di proprietà dall'account Analytics collegato. Stiamo cercando di risolvere il problema
+* Il collegamento e lo scollegamento dell’organizzazione Dynamic Tag Management con Experience Cloud non funziona per le nuove organizzazioni Experience Cloud create dall&#39;utente. Stiamo cercando di risolvere questo problema e ripristinare la funzionalità con il rilascio di maggio. Se rilevi dei problemi durante l’accesso single sign-on in Dynamic Tag Management tramite Experience Cloud, utilizza l’accesso precedente all’indirizzo [!DNL dtm.adobe.com].
+* Un problema noto impedisce la condivisione di tipi di pubblico da suite di rapporti che non sono di proprietà dall&#39;account Analytics collegato. Stiamo cercando di risolvere il problema
 
 ## Rilascio 15.3.2 - 19 marzo 2015 {#section_07760FD9CA43497FA8BDCCA990A24BFD}
 
@@ -254,15 +258,15 @@ Nessuna informazione disponibile
 
 Correzioni:
 
-* È stato migliorato il flusso di lavoro dell'invito tramite e-mail per il provisioning dell'account.
+* È stato migliorato il flusso di lavoro dell&#39;invito tramite e-mail per il provisioning dell&#39;account.
 * È stato risolto un problema relativo alla cartella di risorse che impediva alle risorse [!DNL Experience Cloud] e [!DNL Adobe Campaign] di visualizzare gerarchie di cartelle identiche.
 * È stato risolto un problema che impediva di eliminare i gruppi di destinazione che facevano parte delle attività di [!DNL Target] disattivate.
-* È stato risolto un problema che impediva la visualizzazione dell'icona Aggiungi (simbolo più) in [!UICONTROL Regole] della pagina [!UICONTROL Crea nuovo pubblico].
-* È stato migliorato il supporto all'interfaccia di Experience Cloud per Internet Explorer 9.
+* È stato risolto un problema che impediva la visualizzazione dell&#39;icona Aggiungi (simbolo più) in [!UICONTROL Regole] della pagina [!UICONTROL Crea nuovo pubblico].
+* È stato migliorato il supporto all&#39;interfaccia di Experience Cloud per Internet Explorer 9.
 
 ## Rilascio 15.1.1 - 15 gennaio 2015  {#section_F1A352E928AF432E94CC0A289C345184}
 
-Nuove funzioni, problemi noti e correzioni nella [!DNL Adobe Experience Cloud] collaborazione e nell'interfaccia di condivisione.
+Nuove funzioni, problemi noti e correzioni nella [!DNL Adobe Experience Cloud] collaborazione e nell&#39;interfaccia di condivisione.
 
 <table id="table_AD0A8CA760E64227BB04BA6B0E425E80"> 
  <thead> 
@@ -281,23 +285,23 @@ Nuove funzioni, problemi noti e correzioni nella [!DNL Adobe Experience Cloud] c
 
 **Correzioni**
 
-* Risoluzione del problema che impediva l'esecuzione del rendering dei file PNG su una scheda.
+* Risoluzione del problema che impediva l&#39;esecuzione del rendering dei file PNG su una scheda.
 * Risoluzione di un problema relativo al caricamento di file in Experience Cloud Assets mediante trascinamento.
 
 **Problemi noti**
 
 * Gli utenti non riescono a condividere file di PowerPoint sulle bacheche.
-* Le modifiche effettuate al gruppo e all'adesione in Gestione utente hanno effetto solamente all'accesso successivo.
+* Le modifiche effettuate al gruppo e all&#39;adesione in Gestione utente hanno effetto solamente all&#39;accesso successivo.
 * Alcuni utenti potrebbero rilevare dei problemi durante il caricamento di file di grosse dimensioni sulle risorse di Experience Cloud.
 * Gli utenti potrebbero perdere collegamenti sulle schede Experience Cloud da Media Optimizer.
-* Alcuni utenti amministratori potrebbero rilevare dei problemi durante il collegamento degli account dopo l'accettazione di un invito a iscriversi a Experience Cloud.
-* L'interfaccia di Experience Cloud può diminuire le prestazioni se usata in parallelo da più utenti.
+* Alcuni utenti amministratori potrebbero rilevare dei problemi durante il collegamento degli account dopo l&#39;accettazione di un invito a iscriversi a Experience Cloud.
+* L&#39;interfaccia di Experience Cloud può diminuire le prestazioni se usata in parallelo da più utenti.
 * Alcuni utenti possono eliminare una vecchia risorsa invece di ricevere una notifica di errore.
-* Alcuni utenti potrebbero rilevare dei problemi durante l'accesso in due browser contemporaneamente con lo stesso Adobe ID.
-* Alcuni utenti potrebbero non riuscire ad aggiungere nuovamente un utente di Creative Cloud a una cartella condivisa dopo che l'utente di Creative Cloud è stato eliminato.
+* Alcuni utenti potrebbero rilevare dei problemi durante l&#39;accesso in due browser contemporaneamente con lo stesso Adobe ID.
+* Alcuni utenti potrebbero non riuscire ad aggiungere nuovamente un utente di Creative Cloud a una cartella condivisa dopo che l&#39;utente di Creative Cloud è stato eliminato.
 * Alcuni utenti potrebbero rilevare un ritardo nella notifica che si verifica quando una cartella viene condivisa da Experience Cloud a Creative Cloud.
 * Alcuni utenti potrebbero rilevare un problema durante la condivisione di una cartella tra Experience Cloud e Creative Cloud.
-* Alcuni utenti potrebbero rilevare dei problemi durante la creazione di un pubblico in una suite di report di Analytics dopo l'abilitazione di tipi di pubblico condivisi.
+* Alcuni utenti potrebbero rilevare dei problemi durante la creazione di un pubblico in una suite di report di Analytics dopo l&#39;abilitazione di tipi di pubblico condivisi.
 * Alcuni utenti potrebbero avere dei problemi durante il caricamento di risorse su una bacheca.
 
 ## Rilascio 14.11.1 - 13 novembre 2014  {#section_A6CF1D4F27B9496892A89C983EB39102}
@@ -310,12 +314,12 @@ Problemi noti:
 * Le modifiche apportate al gruppo e all’adesione nella gestione utente hanno effetto solamente all’accesso successivo.
 * Per visualizzare le modifiche apportate alle Impostazioni account, gli amministratori devono disconnettersi e accedere di nuovo.
 * Gli utenti non riescono a condividere file di PowerPoint sulle bacheche.
-* L'interfaccia di [!DNL Experience Cloud] può diminuire le prestazioni se usata in parallelo da molti utenti.
+* L&#39;interfaccia di [!DNL Experience Cloud] può diminuire le prestazioni se usata in parallelo da molti utenti.
 * La sincronizzazione di Adobe Experience Manager con Creative Cloud non funziona correttamente.
 
 ## Rilascio 14.10.1 - 16 ottobre 2014  {#section_E3A0F4423B814707AA3745E083500835}
 
-Nuove funzioni, problemi noti e correzioni nella [!DNL Adobe Experience Cloud] collaborazione e nell'interfaccia di condivisione.
+Nuove funzioni, problemi noti e correzioni nella [!DNL Adobe Experience Cloud] collaborazione e nell&#39;interfaccia di condivisione.
 
 <table id="table_7C1ACE8108D54782AE128ACD35069DF5"> 
  <thead> 
@@ -348,15 +352,15 @@ Nuove funzioni, problemi noti e correzioni nella [!DNL Adobe Experience Cloud] c
 * Alcuni utenti potrebbero non riuscire a creare una scheda da un PDF e a condividerla su una bacheca.
 * Alcuni utenti possono eliminare una vecchia risorsa invece di ricevere una notifica di errore.
 * Gli utenti non riescono a condividere file di PowerPoint sulle bacheche.
-* L'interfaccia di [!DNL Experience Cloud] può diminuire le prestazioni se usata in parallelo da molti utenti.
+* L&#39;interfaccia di [!DNL Experience Cloud] può diminuire le prestazioni se usata in parallelo da molti utenti.
 * Il collegamento [!DNL Search&Promote] non è disponibile dalla pagina [!UICONTROL Organizations &amp; Product Access (Organizzazione e accesso ai prodotti)].
 
 ## Rilascio 14.9.1 - 18 settembre 2014 {#section_20F156A9CC2F4FC59C4970075C181D3A}
 
 **Correzioni e miglioramenti**
 
-* Quando visiti il sito [!DNL experiencecloud.adobe.com], l'esperienza di accesso ora è coerente con l'accesso di Adobe Creative Cloud.
-* Nella pagina Gestisci organizzazioni, l'esperienza di collegamento (dopo aver ricevuto un invito) ora è uguale per ciascuna soluzione.
+* Quando visiti il sito [!DNL experiencecloud.adobe.com], l&#39;esperienza di accesso ora è coerente con l&#39;accesso di Adobe Creative Cloud.
+* Nella pagina Gestisci organizzazioni, l&#39;esperienza di collegamento (dopo aver ricevuto un invito) ora è uguale per ciascuna soluzione.
 
 **Problemi noti**
 
@@ -366,13 +370,13 @@ Nuove funzioni, problemi noti e correzioni nella [!DNL Adobe Experience Cloud] c
 * Alcuni utenti possono eliminare una vecchia risorsa invece di ricevere una notifica di errore.
 * Gli utenti non riescono a condividere file di PowerPoint sulle bacheche.
 * Non è possibile eseguire il rendering di alcuni file [!DNL .png] su una scheda.
-* L'interfaccia di [!DNL Experience Cloud] può diminuire le prestazioni se usata in parallelo da molti utenti.
+* L&#39;interfaccia di [!DNL Experience Cloud] può diminuire le prestazioni se usata in parallelo da molti utenti.
 * Il collegamento [!DNL Search&Promote] non è disponibile dalla pagina [!UICONTROL Organizations &amp; Product Access (Organizzazione e accesso ai prodotti)].
 * Alcuni utenti potrebbero vedere i propri contenuti di [!DNL Creative Cloud] rimossi dalla propria cartella se il contenuto in questione non è condiviso in [!DNL Experience Cloud].
 
 ## Rilascio 14.8.1 - 21 agosto 2014 {#section_03BF00F6A95A490C91BCC0A1988FA7AA}
 
-Nuove funzioni, problemi noti e correzioni nella collaborazione [!DNL Adobe Experience Cloud] e nell'interfaccia di condivisione.
+Nuove funzioni, problemi noti e correzioni nella collaborazione [!DNL Adobe Experience Cloud] e nell&#39;interfaccia di condivisione.
 
 <table id="table_1E7DBEB5E83B4E4285B6FD1D718CD16D"> 
  <thead> 
@@ -394,19 +398,19 @@ Nuove funzioni, problemi noti e correzioni nella collaborazione [!DNL Adobe Expe
 * Le modifiche apportate al gruppo e all’adesione nella gestione utente hanno effetto solamente all’accesso successivo.
 * Alcuni utenti potrebbero non riuscire a creare una scheda da un PDF e a condividerla su una bacheca.
 * Alcuni utenti potrebbero avere dei problemi durante il caricamento di risorse su una bacheca.
-* Alcuni utenti potrebbero non riuscire a effettuare l'accesso da [!DNL Target] a [!DNL Experience Cloud].
-* Alcuni utenti di Audience Manager non possono effettuare l'accesso a [!DNL Experience Cloud].
+* Alcuni utenti potrebbero non riuscire a effettuare l&#39;accesso da [!DNL Target] a [!DNL Experience Cloud].
+* Alcuni utenti di Audience Manager non possono effettuare l&#39;accesso a [!DNL Experience Cloud].
 * Alcuni utenti possono eliminare una vecchia risorsa invece di ricevere una notifica di errore.
 * I file eliminati da [!DNL Experience Cloud] non vengono eliminati da [!DNL Digital Asset Management].
 * Gli utenti non riescono a condividere file di PowerPoint sulle bacheche.
 * Non è possibile eseguire il rendering di alcuni file [!DNL .png] su una scheda.
-* L'interfaccia di [!DNL Experience Cloud] può diminuire le prestazioni se usata in parallelo da molti utenti.
+* L&#39;interfaccia di [!DNL Experience Cloud] può diminuire le prestazioni se usata in parallelo da molti utenti.
 * Il collegamento [!DNL Search&Promote] non è disponibile dalla pagina [!UICONTROL Organizations &amp; Product Access (Organizzazione e accesso ai prodotti)].
 * Alcuni utenti potrebbero vedere i propri contenuti di [!DNL Creative Cloud] rimossi dalla propria cartella se il contenuto in questione non è condiviso in [!DNL Experience Cloud].
 
 ## Rilascio 14.7.1 - 24 luglio 2014 {#section_B22D4F830756463DB27BB4D508D9ADD5}
 
-Nuove funzioni, problemi noti e correzioni nella [!DNL Adobe Experience Cloud] collaborazione e nell'interfaccia di condivisione.
+Nuove funzioni, problemi noti e correzioni nella [!DNL Adobe Experience Cloud] collaborazione e nell&#39;interfaccia di condivisione.
 
 **Problemi noti**
 
@@ -416,7 +420,7 @@ Nuove funzioni, problemi noti e correzioni nella [!DNL Adobe Experience Cloud] c
 * Puoi caricare più file mediante il metodo di caricamento rispetto al trascinamento della selezione. Per risultati migliori effettuare il caricamento dei file tramite [!UICONTROL Risorse].
 * Il collegamento [!DNL Search&Promote] non è disponibile dalla pagina [!UICONTROL Organizations &amp; Product Access (Organizzazione e accesso ai prodotti)].
 * Gli utenti di [!DNL Exchange] per migliorare la propria esperienza devono cancellare i loro cookie.
-* [!DNL Experience Cloud]L'interfaccia di può subire rallentamenti se usata in parallelo da più utenti.
+* [!DNL Experience Cloud]L&#39;interfaccia di può subire rallentamenti se usata in parallelo da più utenti.
 * Alcuni utenti potrebbero vedere i propri contenuti di [!DNL Creative Cloud] rimossi dalla propria cartella se il contenuto in questione non è condiviso in [!DNL Experience Cloud].
 * Dopo 15 minuti di inattività verrai disconnesso. La disconnessione in una località comporta anche la disconnessione da [!DNL Experience Cloud].
 * Alcuni utenti potrebbero avere dei problemi a collegare i loro account di Audience Manager e a [!DNL Experience Cloud].
@@ -428,7 +432,7 @@ Nessuno.
 
 ## Rilascio 14.6.1 - 19 giugno 2014  {#marketing_cloud_interface}
 
-Nuove funzioni, problemi noti e correzioni nella [!DNL Adobe Experience Cloud] collaborazione e nell'interfaccia di condivisione.
+Nuove funzioni, problemi noti e correzioni nella [!DNL Adobe Experience Cloud] collaborazione e nell&#39;interfaccia di condivisione.
 
 **Miglioramenti**
 
@@ -454,7 +458,7 @@ Nuove funzioni, problemi noti e correzioni nella [!DNL Adobe Experience Cloud] c
 * Puoi caricare più file mediante il metodo di caricamento rispetto al trascinamento della selezione. Per risultati migliori effettua il caricamento dei file tramite Risorse.
 * Il collegamento [!DNL Search&Promote] non è disponibile dalla pagina [!UICONTROL Organizations &amp; Product Access (Organizzazione e accesso ai prodotti)].
 * I filtri applicati ai report con tendenze [!DNL Analytics] sono applicati alle schede in [!DNL Experience Cloud].
-* Alcuni utenti non possono collegare il loro account di Gestione dell'audience all'account di [!DNL Experience Cloud].
+* Alcuni utenti non possono collegare il loro account di Gestione dell&#39;audience all&#39;account di [!DNL Experience Cloud].
 * Dopo 15 minuti di inattività verrai disconnesso. La disconnessione in una località comporta anche la disconnessione da Experience Cloud.
 * Alcuni utenti di Exchange potrebbero trovare nei commenti i propri nomi come una lunga stringa ID invece dei loro nomi.
 
@@ -497,17 +501,17 @@ Nuove funzioni, problemi noti e correzioni nella [!DNL Adobe Experience Cloud] c
 
 **Correzioni**
 
-* [!DNL Experience Cloud] non si collegava ad [!DNL Adobe Target]. Questo problema si verificava se l'accesso ad [!DNL Adobe Target] poteva essere usato su più server di [!DNL Target].
-* [!DNL Adobe Media Optimizer] non creava gli utenti in maniera automatica quando l'utente veniva creato in [!DNL Experience Cloud].
+* [!DNL Experience Cloud] non si collegava ad [!DNL Adobe Target]. Questo problema si verificava se l&#39;accesso ad [!DNL Adobe Target] poteva essere usato su più server di [!DNL Target].
+* [!DNL Adobe Media Optimizer] non creava gli utenti in maniera automatica quando l&#39;utente veniva creato in [!DNL Experience Cloud].
 * Le opzioni in caselle combinate utilizzate per aggiungere nuovi utenti scomparivano temporaneamente durante la digitazione.
 * Non era possibile fare clic sul collegamento Commenti sulla vista delle schede delle risorse.
-* Dopo l'aggiunta di un tag personalizzato a una risorsa, nessun'altra modifica ai metadati era persistente.
-* Durante l'eliminazione di un'immagine, il servizio di base delle risorse non avvisa se l'immagine è utilizzata nelle funzioni di base di Adobe Target.
-* Prestazione lenta dell'interfaccia [!UICONTROL Experience Cloud] se usata in parallelo da più utenti.
+* Dopo l&#39;aggiunta di un tag personalizzato a una risorsa, nessun&#39;altra modifica ai metadati era persistente.
+* Durante l&#39;eliminazione di un&#39;immagine, il servizio di base delle risorse non avvisa se l&#39;immagine è utilizzata nelle funzioni di base di Adobe Target.
+* Prestazione lenta dell&#39;interfaccia [!UICONTROL Experience Cloud] se usata in parallelo da più utenti.
 * In caso di eliminazione di un’immagine nelle [!UICONTROL Experience Cloud Assets] non compariva un’avvertenza se l’immagine era utilizzata in [!DNL Adobe Target Essentials].
-* Quando **[!UICONTROL Ricorda utente]** non era selezionato durante l'accesso, l'utente veniva scollegato dopo 15 minuti.
-* Gli utenti dovevano disconnettersi ed effettuare nuovamente l'accesso per far diventare effettive tutte le modifiche ad autorizzazioni e iscrizioni.
-* L'accesso a [!DNL Experience Cloud] durava più di un secondo.
+* Quando **[!UICONTROL Ricorda utente]**non era selezionato durante l&#39;accesso, l&#39;utente veniva scollegato dopo 15 minuti.
+* Gli utenti dovevano disconnettersi ed effettuare nuovamente l&#39;accesso per far diventare effettive tutte le modifiche ad autorizzazioni e iscrizioni.
+* L&#39;accesso a [!DNL Experience Cloud] durava più di un secondo.
 * Per alcuni utenti, l’eliminazione dei file da [!DNL Experience Cloud] non si sincronizzava con [!DNL Digital Asset Management].
 * Gli utenti venivano disconnessi dopo 15 minuti di inattività del browser.
 * Gli utenti non riuscivano a condividere file di PowerPoint sulle bacheche.
@@ -537,25 +541,25 @@ Nuove funzioni, problemi noti e correzioni nella [!DNL Adobe Experience Cloud] c
 
 **Correzioni**
 
-* Dopo l'aggiunta di un tag personalizzato a una risorsa, nessun'altra modifica ai metadati è persistente.
+* Dopo l&#39;aggiunta di un tag personalizzato a una risorsa, nessun&#39;altra modifica ai metadati è persistente.
 * Gli utenti devono aggiornare la bacheca per far scomparire dalla vista le schede eliminate.
-* Quando **[!UICONTROL Ricorda utente]** non era selezionato durante l'accesso, l'utente veniva scollegato dopo 15 minuti.
+* Quando **[!UICONTROL Ricorda utente]**non era selezionato durante l&#39;accesso, l&#39;utente veniva scollegato dopo 15 minuti.
 * La pagina di destinazione della soluzione [!DNL Analytics] ha degli errori di formattazione.
-* Gli utenti devono disconnettersi ed effettuare nuovamente l'accesso per far diventare effettive tutte le modifiche ad autorizzazioni e iscrizioni.
+* Gli utenti devono disconnettersi ed effettuare nuovamente l&#39;accesso per far diventare effettive tutte le modifiche ad autorizzazioni e iscrizioni.
 * Durante l’eliminazione di un’immagine, il servizio di base delle [!UICONTROL risorse] non avvisa se l’immagine è utilizzata in [!DNL Adobe Target Essentials].
 * Non è possibile fare clic sul collegamento Commenti sulla vista delle schede delle risorse.
 * Le opzioni in caselle combinate utilizzate per aggiungere nuovi utenti scompaiono temporaneamente durante la digitazione.
-* L'accesso a [!DNL Experience Cloud] dura più di un secondo.
+* L&#39;accesso a [!DNL Experience Cloud] dura più di un secondo.
 * I dati condivisi da [!DNL Media Optimizer] non sono correttamente rappresentati in [!DNL Experience Cloud].
-* Adobe [!DNL Media Optimizer] non crea gli utenti in maniera automatica quando l'utente viene creato in [!DNL Experience Cloud].
-* Non è possibile collegare [!DNL Experience Cloud] ad [!DNL Adobe Target] se l'accesso ad [!DNL Adobe Target] può essere utilizzato su più server di [!DNL Target].
-* [!DNL Experience Cloud]L'interfaccia di può subire rallentamenti se usata in parallelo da più utenti.
+* Adobe [!DNL Media Optimizer] non crea gli utenti in maniera automatica quando l&#39;utente viene creato in [!DNL Experience Cloud].
+* Non è possibile collegare [!DNL Experience Cloud] ad [!DNL Adobe Target] se l&#39;accesso ad [!DNL Adobe Target] può essere utilizzato su più server di [!DNL Target].
+* [!DNL Experience Cloud]L&#39;interfaccia di può subire rallentamenti se usata in parallelo da più utenti.
 * Il collegamento [!DNL Search&Promote] non è disponibile dalla pagina [!UICONTROL Organizations &amp; Product Access (Organizzazione e accesso ai prodotti)].
 * Sulle schede di simulazione di [!DNL Adobe Media Optimizer] non viene eseguito il rendering in maniera corretta.
 * I filtri applicati ai report con tendenze [!DNL Analytics] sono applicati alle schede in [!DNL Experience Cloud].
 * I filtri applicati ai report con tendenze Analytics sono applicati alle schede in Experience Cloud.
 * Non è possibile caricare su una bacheca alcun file Excel o CSV.
-* Alcuni utenti non possono collegare il loro account di Gestione dell'audience a [!DNL Experience Cloud].
+* Alcuni utenti non possono collegare il loro account di Gestione dell&#39;audience a [!DNL Experience Cloud].
 * Alcuni utenti rilevano degli errori durante la condivisione dei segmenti di [!DNL Analytics] in [!DNL Experience Cloud].
 * Alcuni utenti non possono eseguire il drill-down alle sottocartelle in [!UICONTROL Asset Selector (Selettore risorse)].
 * Alcuni utenti non possono condividere gadget AdLens in [!DNL Experience Cloud].
@@ -566,29 +570,29 @@ La versione 14.3.1 è una release di manutenzione che si concentra sulla velocit
 
 **Correzioni**
 
-* È stata aggiunta la possibilità di rimuovere l'immagine avatar.
+* È stata aggiunta la possibilità di rimuovere l&#39;immagine avatar.
 * È stato risolto un problema che impediva lo scollegamento dagli account di [!DNL Adobe Media Optimizer].
 
 **Problemi noti**
 
-* Durante l'eliminazione di un'immagine in Experience Cloud Assets non compare alcun avviso se l'immagine è utilizzata nelle funzioni di base di Adobe Target.
-* Durante l'aggiornamento di una scheda da [!DNL Analytics] è possibile visualizzare, a volte, un grafico vuoto nella scheda espansa.
-* Gli utenti devono disconnettersi ed effettuare nuovamente l'accesso per far diventare effettive tutte le modifiche ad autorizzazioni e iscrizioni.
-* Se *`Remember me`* non è selezionato durante l’accesso, l’utente verrà disconnesso dopo 15 minuti.
+* Durante l&#39;eliminazione di un&#39;immagine in Experience Cloud Assets non compare alcun avviso se l&#39;immagine è utilizzata nelle funzioni di base di Adobe Target.
+* Durante l&#39;aggiornamento di una scheda da [!DNL Analytics] è possibile visualizzare, a volte, un grafico vuoto nella scheda espansa.
+* Gli utenti devono disconnettersi ed effettuare nuovamente l&#39;accesso per far diventare effettive tutte le modifiche ad autorizzazioni e iscrizioni.
+* Se *`Remember me`*non è selezionato durante l’accesso, l’utente verrà disconnesso dopo 15 minuti.
 * La pagina di destinazione della soluzione [!DNL Analytics] ha degli errori di formattazione.
 * Non è possibile fare clic sul collegamento Commenti sulla vista della scheda della risorsa.
-* L'interfaccia di Experience Cloud può subire rallentamenti se usata in parallelo da più utenti.
-* Non è possibile collegare [!DNL Adobe Target]Experience Cloud ad [!DNL Adobe Target] se l'accesso ad può essere utilizzato su più server di Target.
-* L'accesso a Experience Cloud dura più di un secondo.
-* Dopo l'aggiunta di un tag personalizzato a una risorsa, nessun'altra modifica ai metadati è persistente.
-* [!DNL Adobe Media Optimizer] non crea gli utenti in maniera automatica quando l'utente viene creato in Experience Cloud.
+* L&#39;interfaccia di Experience Cloud può subire rallentamenti se usata in parallelo da più utenti.
+* Non è possibile collegare [!DNL Adobe Target]Experience Cloud ad [!DNL Adobe Target] se l&#39;accesso ad può essere utilizzato su più server di Target.
+* L&#39;accesso a Experience Cloud dura più di un secondo.
+* Dopo l&#39;aggiunta di un tag personalizzato a una risorsa, nessun&#39;altra modifica ai metadati è persistente.
+* [!DNL Adobe Media Optimizer] non crea gli utenti in maniera automatica quando l&#39;utente viene creato in Experience Cloud.
 * Le opzioni in caselle combinate utilizzate per aggiungere nuovi utenti scompaiono temporaneamente durante la digitazione.
 * I dati condivisi da [!DNL Media Optimizer] non sono correttamente rappresentati in Experience Cloud.
 * La condivisione di immagini di Flickr non viene eseguita correttamente.
 * I filtri applicati ai report con tendenze [!DNL Analytics] sono applicati alle schede in Experience Cloud.
-* Le modifiche apportate al gruppo e all’adesione nella gestione utente hanno effetto solamente all'accesso successivo.
+* Le modifiche apportate al gruppo e all’adesione nella gestione utente hanno effetto solamente all&#39;accesso successivo.
 * Il collegamento [!DNL Search&Promote] non è disponibile da [!UICONTROL Organizations &amp; Product Access (Organizzazione e accesso ai prodotti)].
-* L'utente deve aggiornare la bacheca per far scomparire dalla vista le schede eliminate.
+* L&#39;utente deve aggiornare la bacheca per far scomparire dalla vista le schede eliminate.
 * Non è possibile caricare su una bacheca alcun file Excel o CSV.
 * Sulle schede di simulazione di [!DNL Adobe Media Optimizer] non viene eseguito il rendering in maniera corretta.
 * Non è possibile effettuare il rendering su una scheda di alcuni file PNG.
@@ -618,7 +622,7 @@ La versione 14.3.1 è una release di manutenzione che si concentra sulla velocit
 
 **Correzioni**
 
-* È stato risolto un problema che impediva l'applicazione di filtri si segmenti di rapporti condivisi di [!DNL Analytics].
+* È stato risolto un problema che impediva l&#39;applicazione di filtri si segmenti di rapporti condivisi di [!DNL Analytics].
 * È stato risolto un problema che causava la visualizzazione della pagina [!UICONTROL Soluzioni Experience Cloud] come collegata, anche se gli account delle soluzioni non erano collegati.
-* È stato risolto un problema che impediva ai clienti di [!DNL Adobe Target] in Asia di fare clic sul pulsante **[!UICONTROL Continua su Experience Cloud]** presente nella pagina di collegamento.
+* È stato risolto un problema che impediva ai clienti di [!DNL Adobe Target] in Asia di fare clic sul pulsante **[!UICONTROL Continua su Experience Cloud]**presente nella pagina di collegamento.
 * È stato risolto un problema che impediva la condivisione di video di YouTube.
