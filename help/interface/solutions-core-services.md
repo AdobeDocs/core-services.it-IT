@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Informazioni sui nuovi nomi cloud in Experience Cloud
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
 translation-type: tm+mt
-source-git-commit: aea2e2b787f4d50b5f3666fd42a4c2b3f8fdeaa0
+source-git-commit: 85bda02326437776baa9503bcc1100c26d48bce4
 
 ---
 
@@ -114,6 +114,10 @@ Adobe Primetime è la piattaforma TV multischermo che aiuta le emittenti a crear
 | [Activation](activation/activation.md) | Sistemi per la gestione tag (Experience Platform Launch e Dynamic Tag Management).<br>Triggers consente di intervenire in tempo reale in Adobe Campaign sulla base delle informazioni provenienti da Adobe Analytics. |
 | [Amministrazione](admin-getting-started/admin-getting-started.md) | Gestisci adesioni di utenti e prodotti in tutti i cloud e le soluzioni Adobe. |
 | [Risorse](experience-cloud-assets/experience-cloud-assets.md) | Archivia, sincronizza e condividi semplicemente tutte le risorse digitali in una postazione centralizzata, per risparmiare tempo e fornire un&#39;esperienza cliente più coerente. |
+| [Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) | Launch è la soluzione Adobe di nuova generazione per la gestione dei tag. Launch offre ai clienti un modo semplice di implementare e gestire tutti i tag di analisi, marketing e annunci pubblicitari necessari per fornire ai clienti esperienze personalizzate. |
+| [Orchestrazione viaggio](https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html) | Creare casi di utilizzo di orchestrazione in tempo reale utilizzando i dati contestuali memorizzati in eventi o origini dati. [!UICONTROL Journey Orchestration] è un servizio di applicazione integrato con Experience Platform. |
+| [Servizio posizione](https://docs.adobe.com/content/help/en/places/using/home.html) | Adobe Experience Platform Location Service (Location Service) è un servizio di geolocalizzazione che consente alle app mobili con consapevolezza della posizione di comprendere il contesto della posizione mediante l’uso di interfacce SDK ricche e facili da usare, accompagnate da un database flessibile di punti di interesse (POI). |
+| Offerte | La gestione delle offerte fornisce le funzionalità di creazione offerte, gestione e supporto decisionale su tutti i canali di Experience Cloud. |
 | [Exchange](exchange.md) | Cerca, sfoglia, seleziona, paga e scarica estensioni Digital Marketing tramite app. |
 | [Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) | Adobe Mobile Services riunisce le funzionalità di marketing mobile di applicazioni per dispositivi mobili da Experience Cloud, consentendoti di comprendere e migliorare il coinvolgimento degli utenti con le applicazioni mobili. |
 | Persone | Crea una visualizzazione completa dei singoli clienti, connettendo dati Adobe e non-Adobe nelle tue soluzioni Experience Cloud. Scopri quali sono i loro interessi mentre interagiscono con i vari punti di contatto. Riconosci i consumatori più fedeli quando accedono da dispositivi sconosciuti. Puoi persino raggruppare gli utenti in tipi di pubblico per iniziative di marketing mirate.<br>[Audiences](audience-library/audience-library.md) - Dividi in categorie o tipi di pubblico diversi tipi di clienti, quindi condividili tra le soluzioni Marketing Cloud.<br>[Attributi del cliente](attributes/attributes.md) - Arricchimento del pubblico che consente di collegare le informazioni del consumatore raccolte al di fuori di Marketing Cloud.<br>[Grafico dispositivo](https://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html) - Collabora con i marchi più popolari al mondo per riconoscere un consumatore noto dietro a un dispositivo non noto (in versione beta, solo per i membri di Marketing Cloud Device Co-op). |
