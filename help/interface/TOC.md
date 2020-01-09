@@ -4,7 +4,7 @@ user-guide-title: Core Services User Guide
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: f9839c39c52bc10ab641df094dc444b642986974
+source-git-commit: aea2e2b787f4d50b5f3666fd42a4c2b3f8fdeaa0
 
 ---
 
@@ -62,7 +62,7 @@ source-git-commit: f9839c39c52bc10ab641df094dc444b642986974
    + [Panoramica degli attributi del cliente](attributes/attributes.md)
    + [Domande frequenti, limitazioni e pratiche consigliate](attributes/faq-crs.md)
    + [Informazioni sui file di dati e le origini dati per gli attributi del cliente](attributes/crs-data-file.md)
-   + [Crea un'origine attributo del cliente e carica il file di dati](attributes/t-crs-usecase.md)
+   + [Crea un&#39;origine attributo del cliente e carica il file di dati](attributes/t-crs-usecase.md)
    + [Facoltativo - Caricamento del file dati tramite FTP](attributes/t-upload-attributes-ftp.md)
    + [Convalida dello schema](attributes/validate-schema.md)
    + [Configurazione delle sottoscrizioni](attributes/subscription.md)
@@ -72,7 +72,6 @@ source-git-commit: f9839c39c52bc10ab641df094dc444b642986974
    + [Novità in Experience Cloud](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)
    + [Note sulla versione cumulativa](marketing-cloud-interface/release-notes.md)
 + [Marketplace di Exchange](exchange.md)
-+ [Feed Experience Cloud](feed.md)
 + [Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
 + Altre risorse {#more-resources}
    + [Forum](https://forums.adobe.com/community/experience-cloud)
