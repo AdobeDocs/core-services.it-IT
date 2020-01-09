@@ -7,7 +7,7 @@ solution: Adobe Experience Cloud
 title: Aiuto per Experience Cloud e servizi di base
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: aea2e2b787f4d50b5f3666fd42a4c2b3f8fdeaa0
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ![Experience Cloud](assets/banner.png)
 
-Questa pagina fornisce supporto autonomo, documentazione tecnica e di prodotto per le soluzioni e i servizi Adobe Experience Cloud. Experience Cloud è un insieme integrato di soluzioni e servizi di marketing digitali realizzati da Adobe. È anche un'interfaccia intuitiva che ti consente di accedere rapidamente a soluzioni e servizi di base cloud.
+Questa pagina fornisce supporto autonomo, documentazione tecnica e di prodotto per le soluzioni e i servizi Adobe Experience Cloud. Experience Cloud è un insieme integrato di soluzioni e servizi di marketing digitali realizzati da Adobe. È anche un&#39;interfaccia intuitiva che ti consente di accedere rapidamente a soluzioni e servizi di base cloud.
 
 ## Cosa vuoi imparare?
 
@@ -24,9 +24,9 @@ Questa pagina fornisce supporto autonomo, documentazione tecnica e di prodotto p
 * [Esercitazioni per l’implementazione dei servizi](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html) di base - Video ed esercitazioni sui servizi di base
 * [Assistenza di esperti in Experience League](https://landing.adobe.com/experience-league/) - Ottieni informazioni guidate da esperti e dalla community
 * [Istruzione e formazione](https://helpx.adobe.com/learning.html?promoid=KAUDK) - Coinvolgi Adobe per ottenere il massimo dai nostri prodotti
-* [Blog](https://theblog.adobe.com/customer-experience/) sull'esperienza dei clienti - Leggi il blog Experience Cloud
+* [Blog](https://theblog.adobe.com/customer-experience/) sull&#39;esperienza dei clienti - Leggi il blog Experience Cloud
 * [Documentazione del prodotto per tutte le soluzioni](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html) Experience Cloud - Cerca aiuto in Experience Cloud Learn &amp; Support
-* [Assistenza](https://helpx.adobe.com/contact/enterprise-support.ec.html) clienti - Contatta l'Assistenza clienti Adobe
+* [Assistenza](https://helpx.adobe.com/contact/enterprise-support.ec.html) clienti - Contatta l&#39;Assistenza clienti Adobe
 
 ## Documentazione prodotto servizi di base
 
@@ -41,7 +41,6 @@ Questa pagina fornisce supporto autonomo, documentazione tecnica e di prodotto p
 * [Servizio Experience Cloud ID](https://docs.adobe.com/content/help/en/id-service/using/home.html)
 * [Experience Platform Launch](https://docs.adobelaunch.com/)
 * [Experience Cloud Debugger](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html)
-* [Feed](feed.md)
 * [API del regolamento generale sulla protezione dei dati (RGPD)](https://www.adobe.io/apis/experiencecloud/gdpr.html)
 
 ## Amministrazione e abilitazione
