@@ -6,7 +6,7 @@ title: Gestione offerte
 uuid: 83e1d4cd-c5fa-4df0-9603-2914eb4648f8
 index: y
 translation-type: tm+mt
-source-git-commit: 55ac24fe0fb177a5a81765af1f7d602acc0f5d0f
+source-git-commit: a0e0b51d731343d5cd4226ab29d917aca63317c2
 
 ---
 
@@ -26,7 +26,7 @@ In Gestione [!UICONTROL offerta]sono disponibili due tipi di offerte:
 >
 >In un&#39;attività di offerta, vi verrà sempre chiesto di selezionare un&#39;offerta di fallback. Pertanto, prima di poter creare un&#39;attività di offerta è necessario disporre di almeno un&#39;offerta di fallback nell&#39;inventario delle offerte.
 
-## Creare un&#39;offerta {#task_6C4AE487377D424FA133ACCA6AF741D4}
+## Creare un&#39;offerta
 
 Create un&#39;offerta da aggiungere all&#39;inventario delle offerte.
 
@@ -36,49 +36,15 @@ Create un&#39;offerta da aggiungere all&#39;inventario delle offerte.
 
 1. Compila i campi seguenti:
 
-   <table id="table_60A4001CE9F34422ACB59FB62C9CBDCD">
-<thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Campo </th> 
-   <th colname="col2" class="entry"> Descrizione </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Nome offerta </p> </td> 
-   <td colname="col2"> <p>Nome associato all’offerta. Non è possibile avere due offerte nell'inventario con nomi duplicati. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Data di inizio </p> </td> 
-   <td colname="col2"> <p>Data in cui può essere visualizzata l’offerta. Se è selezionata una data di inizio di 1/15/17, l'offerta può essere visualizzata a partire dalle 12:00 del 1/15/17. </p> <p>La gestione dell'offerta funziona secondo lo standard di ora UTC. Ciò significa che: </p> <p> 
-     <ul id="ul_A9D49B4405F34E6DA8FB52A13437F799"> 
-      <li id="li_9490D092B235479A981FC2D5DD0B17B4">Le offerte diventano valide alle 00:00 UTC del giorno in cui l'offerta è impostata per iniziare. </li> 
-      <li id="li_C28BB1FEB9E1495593826403CF5F67A9">Le offerte scadono alle 00:00 UTC del giorno successivo alla data di fine. Ad esempio, se un'offerta è impostata su una data di fine di 5/14, l'offerta scade alle 00:00 UTC delle 5/15. L'offerta viene quindi archiviata. </li> 
-      <li id="li_D3F7DCD1BF75410A8F4F5BC468B667AB">Quando i messaggi e-mail vengono preparati in Adobe Campaign, verranno visualizzate solo le offerte valide in quel momento. </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Data di fine </p> </td> 
-   <td colname="col2"> <p>Data in cui termina l'offerta. Se è selezionata una data di fine di 1/20/17, l'offerta non viene più visualizzata dopo le 11:59 del 20/17. Quando un'offerta supera la data di fine, viene automaticamente archiviata. </p><p>La gestione dell'offerta funziona secondo lo standard di ora UTC. Per ulteriori informazioni, vedi la riga precedente. </p></td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Regole di ammissibilità </p> </td> 
-   <td colname="col2"> <p>Potete creare le regole di idoneità per le offerte in base ai dati disponibili nel database <span class="keyword"> Campaign</span> . Le regole di idoneità determinano a chi e quando visualizzare un'offerta. </p> <p>Ad esempio, potete specificare che desiderate che venga visualizzata solo l'offerta di abbigliamento invernale per le donne quando (Genere = 'Femmina') e (Regione = 'Northeast'). Gli attributi utilizzati per creare queste regole provengono dal profilo Campaign Standard. </p> <p>Nota:  Quando accedete per la prima volta a Gestione offerte, non sono disponibili attributi nel generatore di regole. Devi condividere gli attributi dall'interfaccia utente di Campaign. Una volta condivisi, questi attributi sono disponibili. </p></td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Max cap </p> </td> 
-   <td colname="col2"> <p>I tempi massimi per la proposta di un'offerta. </p> <p>Nota:  Il numero di volte in cui viene proposta un'offerta viene calcolato al momento della preparazione dell'e-mail. Ad esempio, se preparate un'e-mail con una serie di offerte, questi numeri vengono conteggiati per il limite massimo, indipendentemente dal fatto che l'e-mail venga inviata o meno. </p></td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Limite massimo per utente </p> </td> 
-   <td colname="col2"> <p>Il numero massimo di volte per cui un'offerta può essere proposta a un determinato utente. </p> <p>Nota:  Il numero di volte in cui un'offerta viene proposta a un determinato utente viene calcolata al momento della preparazione dell'e-mail. Ad esempio, se preparate un'e-mail con una serie di offerte, questi numeri vengono conteggiati per il limite massimo per utente, indipendentemente dal fatto che l'e-mail venga inviata o meno.</p> </td>
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Etichette </p> </td> 
-   <td colname="col2"> <p>Aggiungete etichette a un'offerta per raggrupparle. Potete digitare e premere Invio per creare una nuova etichetta o iniziare a digitare e selezionare un'offerta esistente dall'elenco a discesa. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+   | Campo | Descrizione |
+   |--- |--- |
+   | Nome offerta | Nome associato all’offerta. Non è possibile avere due offerte nell&#39;inventario con nomi duplicati. |
+   | Data di inizio | Data in cui può essere visualizzata l’offerta. Se è selezionata una data di inizio di 1/15/17, l&#39;offerta può essere visualizzata a partire dalle 12:00 del 1/15/17.  La gestione dell&#39;offerta funziona secondo lo standard di ora UTC. Ciò significa che: <ul><li> Le offerte diventano valide alle 00:00 UTC del giorno in cui l&#39;offerta è impostata per iniziare.</li><li> Le offerte scadono alle 00:00 UTC del giorno successivo alla data di fine. Ad esempio, se un&#39;offerta è impostata su una data di fine di 5/14, l&#39;offerta scade alle 00:00 UTC delle 5/15. L&#39;offerta viene quindi archiviata.</li><li>Quando i messaggi e-mail vengono preparati in Adobe Campaign, verranno visualizzate solo le offerte valide in quel momento.</li></ul> |
+   | Data di fine | Data in cui termina l&#39;offerta. Se è selezionata una data di fine di 1/20/17, l&#39;offerta non viene più visualizzata dopo le 11:59 del 20/17. Quando un&#39;offerta supera la data di fine, viene automaticamente archiviata. La gestione dell&#39;offerta funziona secondo lo standard di ora UTC. Per ulteriori informazioni, vedi la riga precedente. |
+   | Regole di ammissibilità | Potete creare le regole di idoneità per le offerte in base ai dati disponibili nel database Campaign. Le regole di idoneità determinano a chi e quando visualizzare un&#39;offerta.  Ad esempio, potete specificare che desiderate che venga visualizzata solo l&#39;offerta di abbigliamento invernale per le donne quando (Genere = &#39;Femmina&#39;) e (Regione = &#39;Northeast&#39;). Gli attributi utilizzati per creare queste regole provengono dal profilo Campaign Standard.  Nota:  Quando accedete per la prima volta a Gestione offerte, non sono disponibili attributi nel generatore di regole. Devi condividere gli attributi dall&#39;interfaccia utente di Campaign. Una volta condivisi, questi attributi sono disponibili. |
+   | Max cap | I tempi massimi per la proposta di un&#39;offerta.  Nota:  Il numero di volte in cui viene proposta un&#39;offerta viene calcolato al momento della preparazione dell&#39;e-mail. Ad esempio, se preparate un&#39;e-mail con una serie di offerte, questi numeri vengono conteggiati per il limite massimo, indipendentemente dal fatto che l&#39;e-mail venga inviata o meno. |
+   | Limite massimo per utente | Il numero massimo di volte per cui un&#39;offerta può essere proposta a un determinato utente.  Nota:  Il numero di volte in cui un&#39;offerta viene proposta a un determinato utente viene calcolata al momento della preparazione dell&#39;e-mail. Ad esempio, se preparate un&#39;e-mail con una serie di offerte, questi numeri vengono conteggiati per il limite massimo per utente, indipendentemente dal fatto che l&#39;e-mail venga inviata o meno. |
+   | Etichette | Aggiungete etichette a un&#39;offerta per raggrupparle. Potete digitare e premere Invio per creare una nuova etichetta o iniziare a digitare e selezionare un&#39;offerta esistente dall&#39;elenco a discesa. |
 
 1. Compila i dettagli delle rappresentazioni.
 
