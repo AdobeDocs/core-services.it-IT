@@ -8,7 +8,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2f0c2eb70313c42da9e7ac1d75429ec768dea10d
+source-git-commit: a0e0b51d731343d5cd4226ab29d917aca63317c2
 
 ---
 
@@ -109,7 +109,7 @@ Inserite un&#39;attività di offerta in qualsiasi immagine o blocco di testo all
 * **** Controllo posizionamento: Tutte le offerte devono avere una rappresentazione del contenuto che corrisponda alla posizione selezionata come parte dell&#39;attività dell&#39;offerta. Se una posizione per un&#39;offerta viene eliminata tra il tempo di creazione dell&#39;attività e il tempo di preparazione (se il tempo è superiore a tre minuti), tale offerta non viene considerata.
 * **** Controllo data: Tutte le offerte devono essere valide per la data corrente ( _non_ è la data di invio dell&#39;offerta). La data in cui preparate la campagna e-mail è la data in cui viene determinata l’offerta da distribuire. Ad esempio, se preparate una campagna e-mail il 15/15/17 e una delle offerte selezionate non è valida fino al 16/17, l&#39;offerta non viene servita.
 
-* **** Controllo regola di idoneità: Tutte le offerte devono soddisfare le regole di [ammissibilità](offers.md#task_6C4AE487377D424FA133ACCA6AF741D4).
+* **** Controllo regola di idoneità: Tutte le offerte devono soddisfare le regole di [ammissibilità](offers.md).
 
 * **** Controllo prioritario: Se un utente è idoneo per più offerte, [!UICONTROL Gestione] offerte utilizza la priorità impostata dall&#39;utente per determinare quale offerta mostrare a ciascun utente.
 
