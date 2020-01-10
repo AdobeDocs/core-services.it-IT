@@ -71,7 +71,7 @@ Create un&#39;offerta da aggiungere all&#39;inventario delle offerte.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Limite massimo per utente </p> </td> 
-   <td colname="col2"> <p>Il numero massimo di volte per cui un'offerta può essere proposta a un determinato utente. </p> <p>Nota:  Il numero di volte in cui un'offerta viene proposta a un determinato utente viene calcolata al momento della preparazione dell'e-mail. Ad esempio, se preparate un'e-mail con una serie di offerte, questi numeri vengono conteggiati per il limite massimo per utente, indipendentemente dal fatto che l'e-mail venga inviata o meno.</p> </td> 
+   <td colname="col2"> <p>Il numero massimo di volte per cui un'offerta può essere proposta a un determinato utente. </p> <p>Nota:  Il numero di volte in cui un'offerta viene proposta a un determinato utente viene calcolata al momento della preparazione dell'e-mail. Ad esempio, se preparate un'e-mail con una serie di offerte, questi numeri vengono conteggiati per il limite massimo per utente, indipendentemente dal fatto che l'e-mail venga inviata o meno.</p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p>Etichette </p> </td> 
