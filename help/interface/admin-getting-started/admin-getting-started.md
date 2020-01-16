@@ -1,9 +1,9 @@
 ---
-description: Scopri come accedere ad Admin Console, gestire le autorizzazioni utente e i profili di prodotto di Experience Cloud e il supporto del browser.
+description: Scopri come accedere ad Admin Console e gestire le autorizzazioni utente e i profili prodotto di Experience Cloud.
 keywords: core services
-seo-description: Scopri come accedere ad Admin Console, gestire le autorizzazioni utente e i profili di prodotto di Experience Cloud e il supporto del browser.
+seo-description: Scopri come accedere ad Admin Console e gestire le autorizzazioni utente e i profili prodotto di Experience Cloud.
 seo-title: Gestione di utenti e prodotti Experience Cloud
-solution: Experience Cloud
+solution: Marketing Cloud
 title: Gestione di utenti e prodotti Experience Cloud
 uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
 translation-type: tm+mt
@@ -14,7 +14,7 @@ source-git-commit: 6040c4d2f052c561958624296c8e62c8230ae820
 
 # Gestione di utenti e prodotti Experience Cloud {#topic_3FCB4099640647E3B2411ADBFCE81909}
 
-Scopri come accedere ad Admin Console, gestire le autorizzazioni utente e i profili di prodotto di Experience Cloud e il supporto del browser.
+Scopri come accedere ad Admin Console e gestire le autorizzazioni utente e i profili prodotto di Experience Cloud.
 
 >[!IMPORTANT]
 >
