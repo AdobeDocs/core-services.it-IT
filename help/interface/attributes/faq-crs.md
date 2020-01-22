@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Domande frequenti, limitazioni e best practice
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: 12c3ac8bfa64b7c8708312576ac6dc4036c1b7d8
+source-git-commit: f89a6c6704c9f499e6aa2ab38b2f5f9496ccdda5
 
 ---
 
@@ -105,6 +105,11 @@ Guida e limitazioni per l&#39;uso degli attributi cliente
   <tr> 
    <td colname="col1"> <p> <b> (Solo Target)</b> Posso utilizzare i dati caricati negli attributi del cliente, subito dopo l'identificazione del visitatore da parte dell'ID cliente? </p> </td> 
    <td colname="col2"> <p>Sì. </p> <p>Nella chiamata del server a Target, che include l'ID terza parte mbox, tutti i dati dell'attributo del cliente saranno disponibili. </p> </td> 
+  </tr> 
+    <tr> 
+   <td colname="col1"> <p> <b> (Solo Target)</b> Cosa rappresenta la colonna "Stato sincronizzazione" per i file caricati in Origine attributo del cliente? </p> </td> 
+   <td colname="col2"> <p> Il numero di record pubblicati e sincronizzati da Target può essere visualizzato facendo clic sull'icona Stato sincronizzazione rispetto a un file attributo specifico. "Sync %" è una metrica in tempo reale che specifica la percentuale di profili sincronizzati in Target. </p> <p> <b></b> Nota: La sincronizzazione degli attributi con Target potrebbe richiedere fino a 24 ore. </p>
+ </td> 
   </tr> 
  </tbody> 
 </table>
