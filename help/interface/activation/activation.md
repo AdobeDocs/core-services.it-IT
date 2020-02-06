@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Activation
 uuid: 54ada638-3592-49ee-930a-9f44bcc5e5d3
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: 02b0163b95c24eb58bf2379c3e0d9f5f31c40925
 
 ---
 
@@ -40,7 +40,7 @@ Per avviare Dynamic Tag Management fai clic su **[!UICONTROL Activation]** e inv
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html" format="html" scope="external"> Guide all’implementazione per il servizio Experience Cloud ID </a> </p> </td> 
-   <td colname="col2"> <p>Il servizio Experience Cloud ID abilita funzionalità di base nelle soluzioni Experience Cloud (inclusi attributi cliente, condivisione di pubblico e attivatori). Adobe consiglia vivamente di implementare il servizio ID e usufruire di queste funzioni. </p> </td> 
+   <td colname="col2"> <p>Il servizio Experience Cloud ID abilita funzionalità di base nelle soluzioni Experience Cloud (inclusi attributi del cliente, condivisione di pubblico e attivatori). Adobe consiglia vivamente di implementare il servizio ID e usufruire di queste funzioni. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html" format="https" scope="external"> Documentazione del prodotto Dynamic Tag Management </a> </p> </td> 
@@ -49,7 +49,7 @@ Per avviare Dynamic Tag Management fai clic su **[!UICONTROL Activation]** e inv
  </tbody> 
 </table>
 
-Se desideri ricevere assistenza per l’implementazione di Dynamic Tag Management, ti consigliamo di contattare l’Account Manager per informazioni sulle offerte di Adobe Global Services, oppure sulle offerte di implementazione dei partner. Puoi contattarci anche su [@AdobeExpCare](https://twitter.com/AdobeExpCare) con l'hashtag #DTM.
+Se desideri ricevere assistenza per l’implementazione di Dynamic Tag Management, ti consigliamo di contattare l’Account Manager per informazioni sulle offerte di Adobe Global Services, oppure sulle offerte di implementazione dei partner. Puoi contattarci anche su [@AdobeExpCare](https://twitter.com/AdobeExpCare) con l&#39;hashtag #DTM.
 
 ## Experience Cloud Triggers {#section_EEA3A8B5EFCB4F8BABC4ADAF3DD41831}
 
