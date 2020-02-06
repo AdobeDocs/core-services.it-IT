@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Domande frequenti, limitazioni e best practice
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: f89a6c6704c9f499e6aa2ab38b2f5f9496ccdda5
+source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
 
 ---
 
@@ -71,7 +71,7 @@ Guida e limitazioni per l&#39;uso degli attributi cliente
      <ul id="ul_9C473434B5DA4C6299AAB209DEDFCDE7"> 
       <li id="li_8BC10EB2825F4ADF8CA61F71D4994A28"> <b>Adobe Analytics</b>: fortemente consigliato </li> 
       <li id="li_56F518E3F3DF4C93B6F7EF3B40ACC52F"> <b>Adobe Target:</b> Richiesto. </li> 
-     </ul> </p> <p>Il servizio ID ottimizza le funzionalità e permette di utilizzare le funzionalità Experience Cloud più recenti, tra cui dati sui tipi di pubblico in tempo reale, modernizzazione di Target, integrazione di Analytics e un nuovo modello di misurazioni per i video. </p> <p>Per ulteriori dettagli vedi <a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">Servizi di base - Come abilitare le soluzioni</a> </p> <p> <b>Nota</b>: il servizio <span class="term">Experience Cloud ID</span> è l’implementazione moderna del servizio precedentemente noto come <span class="term">ID visitatore di Analytics</span>. </p> </td> 
+     </ul> </p> <p>Il servizio ID ottimizza le funzionalità e permette di utilizzare le funzionalità Experience Cloud più recenti, tra cui dati sui tipi di pubblico in tempo reale, modernizzazione di Target, integrazione di Analytics e un nuovo modello di misurazioni per i video. </p> <p>Per ulteriori dettagli vedi <a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">Servizi di base - Come abilitare le soluzioni</a> </p> <p> <b>Nota</b>: Il servizio <span class="term"> Experience Cloud ID è l’implementazione aggiornata di quello che in precedenza era noto come servizio</span> ID visitatore di <span class="term"></span>Analytics. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Che rapporto c'è tra la funzionalità degli attributi del cliente e Adobe Audience Manager? </p> </td> 
