@@ -7,14 +7,14 @@ solution: Marketing Cloud
 title: Accesso e gestione delle impostazioni del profilo
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: 02b0163b95c24eb58bf2379c3e0d9f5f31c40925
 
 ---
 
 
 # Accesso e gestione delle impostazioni del profilo
 
-L’accesso a Experience Cloud (anziché a una singola soluzione) consente di accedere in modalità single sign-on a tutte le soluzioni e i servizi di base che hai acquistato. Scopri come accedere a Experience Cloud, gestire le password e le notifiche e specificare una pagina di destinazione predefinita.
+L&#39;accesso a Experience Cloud (anziché a una singola soluzione) consente il single sign-on a tutte le soluzioni e i servizi che possedete. Scopri come accedere a Experience Cloud, gestire le password e le notifiche e specificare una pagina di destinazione predefinita.
 
 <!-- t_sign_in.xml -->
 
@@ -34,7 +34,7 @@ Accedi e verifica di essere nell’[organizzazione](../admin-getting-started/org
 
    ![](assets/admin-link.png)
 
-   Se non viene visualizzato il collegamento **[!UICONTROL Amministrazione]**, non sei un amministratore di Experience Cloud per l'[organizzazione](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) visualizzata (Adobe Corp, in questo esempio). Per assistenza su come diventare amministratore, contatta l’Assistenza clienti o un amministratore Experience Cloud esistente nella tua azienda.
+   Se non viene visualizzato il collegamento **[!UICONTROL Amministrazione]**, non sei un amministratore di Experience Cloud per l&#39;[organizzazione](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) visualizzata (Adobe Corp, in questo esempio). Per assistenza su come diventare amministratore, contatta l’Assistenza clienti o un amministratore Experience Cloud esistente nella tua azienda.
 1. Fai clic su **[!UICONTROL Amministrazione]**.
 
    ![](assets/admin-landing.png)
@@ -43,19 +43,19 @@ Accedi e verifica di essere nell’[organizzazione](../admin-getting-started/org
 | Elemento | Descrizione |
 |--- |--- |
 | [Admin Console Basics (Informazioni di base su Admin Console)](https://helpx.adobe.com/marketing-cloud/how-to/first-time-setup.html) | Informazioni sui passaggi iniziali necessari per iniziare a usare le soluzioni Experience Cloud. |
-| [Set up Identity (Configurazione dell’identità)](https://helpx.adobe.com/enterprise/using/set-up-identity.html) | Definisci e configura un sistema di identità nel quale gli utenti finali effettueranno l'autenticazione. |
+| [Set up Identity (Configurazione dell’identità)](https://helpx.adobe.com/enterprise/using/set-up-identity.html) | Definisci e configura un sistema di identità nel quale gli utenti finali effettueranno l&#39;autenticazione. |
 | [Gestione utenti](https://helpx.adobe.com/enterprise/using/users.html) | Scopri come accedere ad Admin Console e gestire le autorizzazioni utente e i profili prodotto di Experience Cloud. |
 | [Avvia Admin Console](../admin-getting-started/admin-getting-started.md) | Admin Console è la posizione centrale per la gestione di utenti Adobe e adesioni di prodotti in tutta l’organizzazione.<br>Puoi accedere ad Admin Console anche mediante un [collegamento diretto](https://adminconsole.adobe.com). |
 | [Gestione degli utenti di Creative Cloud](../experience-cloud-assets/t-admin-add-cc-user.md) | Experience Cloud Assets consente di collaborare, sincronizzare e condividere cartelle con designer e altri team creativi tramite Creative Cloud. Puoi gestire gli utenti Creative Cloud approvati e collaborare con la tua organizzazione in questa stessa soluzione. |
-| [Mappa le suite di rapporti](../core-services/core-services.md) | (Solo Analytics): i servizi di base di Experience Cloud sono associati a un'organizzazione invece che a una singola suite di rapporti. Per garantire il funzionamento corretto di questi servizi, ogni suite di rapporti di Analytics deve essere mappata su un'organizzazione. (questa attività fa parte di un flusso di lavoro più ampio correlato alla sezione [abilitare Analytics per i servizi di base](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)). |
-| [ID organizzazione](../admin-getting-started/organizations.md) | L'*ID organizzazione* si trova al fondo della pagina Amministrazione. Questo ID è l'ID associato all'azienda Experience Cloud in provisioning. Questo ID è una stringa alfanumerica composta da 24 caratteri, seguita da (deve includere) @AdobeOrg. |
+| [Mappa le suite di rapporti](../core-services/core-services.md) | (Solo Analytics): i servizi di base di Experience Cloud sono associati a un&#39;organizzazione invece che a una singola suite di rapporti. Per garantire il funzionamento corretto di questi servizi, ogni suite di rapporti di Analytics deve essere mappata su un&#39;organizzazione. (questa attività fa parte di un flusso di lavoro più ampio correlato alla sezione [abilitare Analytics per i servizi di base](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)). |
+| [ID organizzazione](../admin-getting-started/organizations.md) | L&#39;*ID organizzazione* si trova al fondo della pagina Amministrazione. Questo ID è l&#39;ID associato all&#39;azienda Experience Cloud in provisioning. Questo ID è una stringa alfanumerica composta da 24 caratteri, seguita da (deve includere) @AdobeOrg. |
 
 ## Accesso a Experience Cloud (utenti) {#task_1BFE87E20DCB44078CAC82F3CD44B985}
 
 Aiuto per utenti non amministrativi che accedono a Experience Cloud.
 
 
-1. Verifica con il tuo amministratore che l'[organizzazione](../admin-getting-started/getting-started-experience-cloud.md#concept_384D169B0B724B799D573B8ECB5C39BF) disponga del provisioning in Experience Cloud.
+1. Verifica con il tuo amministratore che l&#39;[organizzazione](../admin-getting-started/getting-started-experience-cloud.md#concept_384D169B0B724B799D573B8ECB5C39BF) disponga del provisioning in Experience Cloud.
 
 
 1. Passa a [Adobe Experience Cloud](https://experiencecloud.adobe.com) ([!DNL experiencecloud.adobe.com]).
@@ -73,7 +73,7 @@ Aiuto per utenti non amministrativi che accedono a Experience Cloud.
 
 Puoi modificare i dati personali e specificare un’[organizzazione](../admin-getting-started/admin-getting-started.md#concept_705C626560A54CA2A4215F1C870C42B2) e una pagina di destinazione predefinite dopo l’accesso a Experience Cloud.
 
-1. Accedi a Experience Cloud e fai clic sull'icona del profilo.
+1. Accedi a Experience Cloud e fai clic sull&#39;icona del profilo.
 
    ![](assets/edit-profile.png)
 1. Fai clic su **[!UICONTROL Modifica profilo]**.
@@ -155,6 +155,6 @@ URL di esempio:
 
 | Parametro | Descrizione | Esempio | Obbligatorio / Facoltativo |
 |--- |--- |--- |--- |
-| tenantId | Nome del tenant a cui deve accedere l'utente. | aem62tenant | Facoltativo |
-| destURL | URL completo alla posizione di destinazione dell'utente. | https://sc.omniture.com/x/1_7xxzf | Facoltativo |
-| solutionname | Nome della soluzione MAC proprietaria del parametro destURL. Viene utilizzato per verificare che l'utente abbia accesso alla soluzione proprietaria dell'URL.  È responsabilità delle soluzioni verificare che solutionname sia sincronizzato con il parametro destURL.  Ad esempio: se l'URL contiene solutionname come social e il destURL fornito è un URL di Analytics, l'utente deve essere reindirizzato all'URL anche se non ha accesso ad Analytics. MAC NON verifica se il proprietario di destURL è sincronizzato con il nome della soluzione. | analytics | Obbligatorio se si utilizza il parametro destURL. |
+| tenantId | Nome del tenant a cui deve accedere l&#39;utente. | aem62tenant | Facoltativo |
+| destURL | URL completo alla posizione di destinazione dell&#39;utente. | https://sc.omniture.com/x/1_7xxzf | Facoltativo |
+| solutionname | Nome della soluzione MAC proprietaria del parametro destURL. Viene utilizzato per verificare che l&#39;utente abbia accesso alla soluzione proprietaria dell&#39;URL.  È responsabilità delle soluzioni verificare che solutionname sia sincronizzato con il parametro destURL.  Ad esempio: se l&#39;URL contiene solutionname come social e il destURL fornito è un URL di Analytics, l&#39;utente deve essere reindirizzato all&#39;URL anche se non ha accesso ad Analytics. MAC NON verifica se il proprietario di destURL è sincronizzato con il nome della soluzione. | analytics | Obbligatorio se si utilizza il parametro destURL. |
