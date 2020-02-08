@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Gestione di utenti e prodotti Experience Cloud
 uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
 translation-type: tm+mt
-source-git-commit: 6040c4d2f052c561958624296c8e62c8230ae820
+source-git-commit: 02b0163b95c24eb58bf2379c3e0d9f5f31c40925
 
 ---
 
@@ -33,7 +33,7 @@ Gli amministratori non gestiscono più gli utenti nelle singole soluzioni. Ora l
 1. Navigate to [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/#).
 1. Digita il tuo [Adobe ID o Enterprise ID](https://helpx.adobe.com/enterprise/help/identity.html) e la relativa password.
 
-In alternativa, dal menu di Experience Cloud (![](assets/menu-icon.png)), fai clic su **[!UICONTROL Amministrazione]**>**[!UICONTROL  Avvia Admin Console]**.
+In alternativa, dal menu di Experience Cloud (![](assets/menu-icon.png)), fai clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Avvia Admin Console]**.
 
 **Argomenti correlati**
 
@@ -61,7 +61,7 @@ Le autorizzazioni relative a utenti e prodotti Analytics vengono gestite in Admi
 
 È disponibile uno strumento di migrazione degli ID utente di Analytics che permette agli amministratori di trasferire gli account utente da Gestione utenti di Analytics ad [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/).
 
-La migrazione diventerà disponibile per i clienti in più fasi. Adobe ti invierà una notifica e ti fornirà assistenza quando arriverà il tuo momento di trasferire gli account utente esistenti da **[!UICONTROL Strumenti di amministrazione]**>**[!UICONTROL  Gestione utente]** ad Admin Console.
+La migrazione diventerà disponibile per i clienti in più fasi. Adobe ti invierà una notifica e ti fornirà assistenza quando arriverà il tuo momento di trasferire gli account utente esistenti da **[!UICONTROL Strumenti di amministrazione]** > **[!UICONTROL Gestione utente]** ad Admin Console.
 
 After the migration, users sign in using their Adobe ID (or Enterprise ID) and authenticate to their Experience Cloud solutions and services at [experiencecloud.adobe.com](https://experiencecloud.adobe.com). Gli utenti che tenteranno di accedere con i metodi precedenti ([!DNL my.omniture.com] e [!DNL sc.omniture.com]) verranno reindirizzati a [!DNL experiencecloud.adobe.com].
 
@@ -88,7 +88,7 @@ Consultate [Gestione di gruppi e utenti](https://helpx.adobe.com/campaign/standa
 
 ## Experience Platform Launch {#section_F2DA6778DD2D48AA8F794041971EE6B1}
 
-Experience Platform Launch è riportato nella pagina Prodotti di Admin Console. Puoi includere altre soluzioni e altri servizi di base in un profilo di prodotto Launch.
+Experience Platform Launch è riportato nella pagina Prodotti di Admin Console. Puoi includere altre soluzioni e altri servizi in un profilo di prodotto Launch.
 
 See [User Management](https://docs.adobelaunch.com/launch-reference/administration/user-permissions) for information about user permissions in the Admin Console and set up Launch-specific options, including assigning rights to profiles.
 
@@ -127,8 +127,8 @@ Assegna le autorizzazioni di accesso ai rapporti di Analytics (suite di rapporti
 
 Ad esempio, puoi creare un profilo di prodotto che contiene più strumenti di Analytics ([!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics] e [!UICONTROL Report Builder]) e autorizzarlo ad accedere a determinate metriche e dimensioni (comprese le eVar) e a creare segmenti o metriche calcolate.
 
-1. Accedi ad [Admin Console](https://adminconsole.adobe.com/enterprise), quindi fai clic su **[!UICONTROL Prodotti]**(o sul nome del tuo prodotto).
-1. Nel profilo del prodotto, fai clic su **[!UICONTROL Autorizzazioni]**(opzione disponibile solo per gli amministratori).
+1. Accedi ad [Admin Console](https://adminconsole.adobe.com/enterprise), quindi fai clic su **[!UICONTROL Prodotti]** (o sul nome del tuo prodotto).
+1. Nel profilo del prodotto, fai clic su **[!UICONTROL Autorizzazioni]** (opzione disponibile solo per gli amministratori).
 1. Configura le autorizzazioni del profilo:
 
 | Elemento | Descrizione |
@@ -154,7 +154,7 @@ Mediante questi ruoli, puoi delegare simultaneamente la gestione ad altri senza 
 1. In Admin Console, fai clic su **[!UICONTROL Utenti]**, quindi fai clic sul nome dell’utente.
 1. Fai clic su **[!UICONTROL Modifica diritti di amministratore]**.
 1. Configura i diritti di amministrazione dell&#39;utente.
-1. Fai clic su **[!UICONTROL Avanti]**per controllare le impostazioni, quindi fai clic su**[!UICONTROL  Salva]**.
+1. Fai clic su **[!UICONTROL Avanti]** per controllare le impostazioni, quindi fai clic su **[!UICONTROL Salva]**.
 
 ## Browser supportati e requisiti di sistema {#concept_CDC4371EB9BF433E9534F8716DC8A088}
 
@@ -168,7 +168,7 @@ I browser supportati da Experience Cloud includono:
 * [!DNL Safari]
 * [!DNL Opera]
 
-**** Nota: Sebbene l&#39;interfaccia Experience Cloud supporti questi browser, le singole soluzioni potrebbero non supportare tutti i browser. Ad esempio, [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) non supporta [!DNL Opera]e [Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html) non supporta [!DNL Safari].
+**Nota:** sebbene l’interfaccia di Experience Cloud supporti questi browser, le singole soluzioni potrebbero non supportare tutti i browser. Ad esempio, [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) non supporta [!DNL Opera] e [Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html) non supporta [!DNL Safari].
 
 **Requisiti di soluzione e di prodotto**
 
