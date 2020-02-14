@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Domande frequenti, limitazioni e best practice
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: e5bc3afea458d85421ab86ae87a65ebe4e88bb75
+source-git-commit: 5028e1c4a2b5d9d0c225e2bbb36ef2c5a91c5ad9
 
 ---
 
@@ -30,98 +30,18 @@ Guida e limitazioni per l&#39;uso degli attributi cliente
 
 ## Domande frequenti sugli attributi cliente {#section_E47866EEA83348E09FE43CEC5E44C461}
 
-<table id="table_88631069013B408EBB0A810657662B36"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Domanda </th> 
-   <th colname="col2" class="entry"> Risposta </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Posso ricevere notifiche sullo stato di caricamento per gli attributi cliente? </p> </td> 
-   <td colname="col2"> <p>Sì. Vedi <a href="../admin-getting-started/organizations.md#concept_0105453AD71847B8BFCAF4A40915F157" format="dita" scope="local">Gestione delle notifiche</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Cosa devo fare per iniziare a usare gli attributi del cliente? </p> </td> 
-   <td colname="col2"> 
-    <ol id="ol_1FACEF0990B6486B8DE86245D17695A8"> 
-     <li id="li_F0C1542853684F8591FDC1B441D31A56"> <p>Effettua il provisioning. </p> <p>Se sei cliente di <b>Analytics</b>, il provisioning degli attributi dei clienti è effettuato da Adobe. Se usi solo <b>Target</b> e non hai Analytics, devi contattare l'Assistenza clienti per richiedere il provisioning per i servizi di base. </p> </li> 
-     <li id="li_444FEDEE4B7244F79BA847662F5B17CB"> <p>Parla con il nostro team CRM. Scopri i tipi di dati cliente disponibili e quali potrebbero essere interessanti per l'utilizzo in Analytics e in Experience Cloud. </p> </li> 
-     <li id="li_32D4AAF8C29748A78801A0E1BFB37AF5"> <p>Implementa i servizi di base. </p> <p>Consulta <a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">Guida introduttiva: Abilitare le soluzioni per i servizi principali</a> per i passaggi su come modernizzare la tua implementazione per i servizi principali. (Consulta la sezione sulla sincronizzazione di ID cliente per informazioni importanti.) </p> </li> 
-    </ol> <p> <b>Nota:</b> sono disponibili le domande frequenti di amministratori sull'implementazione dei servizi di base di <a href="../admin-getting-started/faq.md#concept_13219B4E51784577B6FF78AAA203DE91" format="dita" scope="local">qui</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Quanti attributi del cliente posso usare? </p> </td> 
-   <td colname="col2"> <p>Nel servizio attributo cliente puoi caricare centinaia di colonne <span class="filepath">.csv</span>. Tuttavia, durante la configurazione delle sottoscrizioni e la selezione degli attributi, si applicano i seguenti limiti (per suite di rapporti), a seconda delle soluzioni che possedete:</p> <p> 
-     <ul>
-     <li>Foundation: 0</li>
-     <li>Select: 3</li>
-     <li>Prime: 15</li>
-     <li>Ultimate: 200</li>
-     <li>Standard: 3 totali</li>
-     <li>Premium: 200</li>
-     <li>Target Standard: 5</li>
-     <li>Target Premium: 200</li></ul>
-     </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>È necessario effettuare la migrazioni al servizio Experience Cloud ID? </p> </td> 
-   <td colname="col2"> <p>Dipende dalla soluzione in uso. </p> <p> 
-     <ul id="ul_9C473434B5DA4C6299AAB209DEDFCDE7"> 
-      <li id="li_8BC10EB2825F4ADF8CA61F71D4994A28"> <b>Adobe Analytics</b>: fortemente consigliato </li> 
-      <li id="li_56F518E3F3DF4C93B6F7EF3B40ACC52F"> <b>Adobe Target:</b> Richiesto. </li> 
-     </ul> </p> <p>Il servizio ID ottimizza le funzionalità e permette di utilizzare le funzionalità Experience Cloud più recenti, tra cui dati sui tipi di pubblico in tempo reale, modernizzazione di Target, integrazione di Analytics e un nuovo modello di misurazioni per i video. </p> <p>Per ulteriori dettagli vedi <a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">Servizi di base - Come abilitare le soluzioni</a> </p> <p> <b>Nota</b>: Il servizio <span class="term"> Experience Cloud ID è l’implementazione aggiornata di quello che in precedenza era noto come servizio</span> ID visitatore di <span class="term"></span>Analytics. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Che rapporto c'è tra la funzionalità degli attributi del cliente e Adobe Audience Manager? </p> </td> 
-   <td colname="col2"> <p>Audience Manager può ricevere dati per effettuare un'identificazione degli utenti, ma non può effettuare funzionalità di analisi che lega attributi a dati comportamentali storici o fornire report, analisi e funzionalità di segmentazione che sono invece disponibili in Adobe Analytics. Il servizio core persone consente di collegare e associare i dati avanzati delle soluzioni con un unico ID da usare in Experience Cloud. </p> <p> In Adobe Target, gli attributi del cliente compaiono come attributi individuali che possono essere combinati con altre regole per creare un pubblico. Il pubblico condiviso nel servizio core persone è un pubblico completo che non può essere modificato. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>(Solo Analytics) </b>Cosa cambia in questa funzionalità rispetto a quella fornita in Analytics Premium? </p> </td> 
-   <td colname="col2"> <p>Nel passato, i clienti interessati a combinare i dati degli attributi del cliente con i dati di Analytics avevano trovato molto utile lo strumento Data Workbench. La funzione Attributi del cliente rende questa funzionalità disponibile a un pubblico più vasto fornendo gli attributi del cliente come dimensioni e metriche in Reports &amp; Analytics, Ad Hoc Analysis e Report Builder. I clienti di Analytics Standard potranno accedere agli attributi del cliente, ma con funzionalità limitate. La funzionalità completa sarà disponibile per i clienti Analytics Premium. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>(Solo Target)</b> posso precaricare o caricare dati per clienti che Target non ha mai visto? </p> </td> 
-   <td colname="col2"> <p> Sì. Quando i visitatori effettuano la loro prima richiesta a Target, il sistema raccoglierà le informazioni di cui disponiamo su di loro grazie agli Attributi del cliente, e le utilizzerà per effettuare il targeting. </p> <p> <p>Nota: il recupero di questi dati può richiedere fino a 20 minuti dalla prima interazione del visitatore con Target. </p> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>(Solo Target)</b> Posso creare un super pubblico combinando i dati attributi del cliente con i dati di tipi di pubblico condivisi? </p> </td> 
-   <td colname="col2"> <p>No. I dati di tipi di pubblico condivisi rappresentano un pubblico completato. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>(Solo Target) </b>In che modo la funzionalità degli attributi del cliente può essere confrontata all'API per profilo in massa di Target? </p> </td> 
-   <td colname="col2"> <p> L'<a href="https://www.adobe.io/apis/experiencecloud/target.html" format="https" scope="external">API per profilo in massa</a> consente ai profili Target di essere aggiornati direttamente tramite l'API, sia singolarmente che in modalità collettiva. La funzionalità è simile agli attributi del cliente, con le seguenti differenze chiave: </p> 
-    <ul id="ul_5AAA4A8497C04F50A8AAA9F776BB868E"> 
-     <li id="li_B20AEA397F3B4C86A1140CDA61ABD575">L'API di profilo è una chiamata REST API e gli attributi del cliente usano l'FTP. </li> 
-     <li id="li_7FBE428EF5D34B6AA09B6368E8210344">L'API del profilo di Target invia solamente dati a Target e non all'intero Experience Cloud. </li> 
-     <li id="li_CBB4D3FAF53944E0A066A4AD9F9C8760">Gli attributi del cliente forniscono una semplice interfaccia per creare e gestire questi dati esterni. </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>(Solo Target)</b> Il caricamento di dati dagli attributi del cliente su Adobe Target, estende la durata del profilo del visitatore di Target? </p> </td> 
-   <td colname="col2"> <p>Sì. Consulta <a href="https://docs.adobe.com/content/help/en/target/using/audiences/visitor-profiles/visitor-profile.html" format="https" scope="external">Durata del profilo del visitatore</a> nell'Aiuto di Adobe Target. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b> (Solo Target)</b> Posso utilizzare i dati caricati negli attributi del cliente, subito dopo l'identificazione del visitatore da parte dell'ID cliente? </p> </td> 
-   <td colname="col2"> <p>Sì. </p> <p>Nella chiamata del server a Target, che include l'ID terza parte mbox, tutti i dati dell'attributo del cliente saranno disponibili. </p> </td> 
-  </tr> 
-    <tr> 
-   <td colname="col1"> <p> <b> (Solo Target)</b> Cosa rappresenta la colonna "Stato sincronizzazione" per i file caricati in Origine attributo del cliente? </p> </td> 
-   <td colname="col2"> <p> Il numero di record pubblicati e sincronizzati da Target può essere visualizzato facendo clic sull'icona Stato sincronizzazione rispetto a un file attributo specifico. "Sync %" è una metrica in tempo reale che specifica la percentuale di profili sincronizzati in Target. </p> <p> <b></b> Nota: La sincronizzazione degli attributi con Target potrebbe richiedere fino a 24 ore. </p>
- </td> 
-  </tr> 
-<tr>
-	<td colname="col1"> <p> Cosa rappresentano le metriche di caricamento dei file nell'origine degli attributi del cliente? </p> </td>
-	<td colname="col2"> <p> Puoi controllare lo stato degli attributi caricati in Attributi del cliente con l'aiuto delle metriche seguenti: </p>
-		<ul>
-			<li> <b> Record: Numero </b> di record nel file degli attributi. </li>
-			<li> <b> Nuovi record: Numero </b> di nuovi record presenti nel file degli attributi. </li>
-			<li> <b> Record aggiornati: Numero </b> di record già presenti in Attributi cliente con valori aggiornati nel file. </li>
-			<li> <b> Tutti i dati (record): Numero </b> totale di record caricati correttamente in Attributi del cliente. </li>
-		</ul>
-	</td>
-</tr>
-
-</tbody> 
-</table>
+| Domanda | Risposta |
+|--- |--- |
+| Posso ricevere notifiche sullo stato di caricamento per gli attributi cliente? | Sì. Vedi [Gestione delle notifiche](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html#concept_0105453AD71847B8BFCAF4A40915F157). |
+| Cosa devo fare per iniziare a usare gli attributi del cliente? | <ol><li>Effettua il provisioning. Se sei cliente di Analytics, il provisioning degli attributi dei clienti è effettuato da Adobe. Se usi solo Target e non hai Analytics, devi contattare l&#39;Assistenza clienti per richiedere il provisioning per i servizi di base.</li> <li>Parla con il nostro team CRM. Scopri i tipi di dati cliente disponibili e quali potrebbero essere interessanti per l&#39;utilizzo in Analytics e in Experience Cloud.</li><li>Implementa i servizi di base. Consultate [Abilitazione delle soluzioni per i servizi](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services.html) di base per i passaggi per modernizzare l’implementazione. (Consulta la sezione sulla sincronizzazione di ID cliente per informazioni importanti.)</li></ol> **Nota:** sono disponibili le domande frequenti di amministratori sull&#39;implementazione dei servizi di base di [qui](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/faq.html#concept_13219B4E51784577B6FF78AAA203DE91). |
+| Quanti attributi del cliente posso usare? | You can upload hundreds of `.csv` columns to the customer attribute service. Tuttavia, durante la configurazione delle sottoscrizioni e la selezione degli attributi, si applicano i seguenti limiti (per suite di rapporti), a seconda delle soluzioni che possedete:  <ul><li>Foundation: 0</li><li>Select: 3</li><li>Prime: 15</li><li>Ultimate: 200</li><li>Standard: 3 totali</li><li>Premium: 200</li><li>Target Standard: 5</li><li>Target Premium: 200</li></ul> |
+| È necessario effettuare la migrazioni al servizio Experience Cloud ID? | Dipende dalla soluzione in uso. <ul><li>Adobe Analytics: fortemente consigliato </li><li>Adobe Target: Richiesto. </li></ul><br> Il servizio ID ottimizza le funzionalità e permette di utilizzare le funzionalità Experience Cloud più recenti, tra cui dati sui tipi di pubblico in tempo reale, modernizzazione di Target, integrazione di Analytics e un nuovo modello di misurazioni per i video. <br> Per ulteriori dettagli, consultate [Abilitare le soluzioni per i servizi](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services.html)di base. <br>** Nota:** Il servizio [](https://docs.adobe.com/content/help/en/id-service/using/intro/overview.html) Experience Cloud ID è l’implementazione aggiornata di quello che in precedenza era noto come servizio ID visitatore di _Analytics._ |
+| Che rapporto c&#39;è tra la funzionalità degli attributi del cliente e Adobe Audience Manager? | Audience Manager può ricevere dati per effettuare un&#39;identificazione degli utenti, ma non può effettuare funzionalità di analisi che lega attributi a dati comportamentali storici o fornire report, analisi e funzionalità di segmentazione che sono invece disponibili in Adobe Analytics. Il servizio core persone consente di collegare e associare i dati avanzati delle soluzioni con un unico ID da usare in Experience Cloud. <br>In Adobe Target, gli attributi del cliente compaiono come attributi individuali che possono essere combinati con altre regole per creare un pubblico. Il pubblico condiviso nel servizio core persone è un pubblico completo che non può essere modificato. |
+| **(Solo Analytics)** Cosa cambia in questa funzionalità rispetto a quella fornita in Analytics Premium? | Nel passato, i clienti interessati a combinare i dati degli attributi del cliente con i dati di Analytics avevano trovato molto utile lo strumento Data Workbench. La funzione Attributi del cliente rende questa funzionalità disponibile a un pubblico più vasto fornendo gli attributi del cliente come dimensioni e metriche in Reports &amp; Analytics, Ad Hoc Analysis e Report Builder. I clienti di Analytics Standard potranno accedere agli attributi del cliente, ma con funzionalità limitate. La funzionalità completa sarà disponibile per i clienti Analytics Premium. |
+| **(Solo Target)** posso precaricare o caricare dati per clienti che Target non ha mai visto? | Sì. Quando i visitatori effettuano la loro prima richiesta a Target, il sistema raccoglierà le informazioni di cui disponiamo su di loro grazie agli Attributi del cliente, e le utilizzerà per effettuare il targeting. **Nota:** il recupero di questi dati può richiedere fino a 20 minuti dalla prima interazione del visitatore con Target. |
+| **(Solo Target)** Posso creare un super pubblico combinando i dati attributi del cliente con i dati di tipi di pubblico condivisi? | No. I dati di tipi di pubblico condivisi rappresentano un pubblico completato. |
+| **(Solo Target)** In che modo la funzionalità degli attributi del cliente può essere confrontata all&#39;API per profilo in massa di Target? | L&#39;API per profilo in massa consente ai profili Target di essere aggiornati direttamente tramite l&#39;API, sia singolarmente che in modalità collettiva. La funzionalità è simile agli attributi del cliente, con le seguenti differenze chiave: <ul><li>L&#39;API di profilo è una chiamata REST API e gli attributi del cliente usano l&#39;FTP. </li><li>L&#39;API del profilo di Target invia solamente dati a Target e non all&#39;intero Experience Cloud. </li><li>Gli attributi del cliente forniscono una semplice interfaccia per creare e gestire questi dati esterni. </li></ul> |
+| **(Solo Target)** Il caricamento di dati dagli attributi del cliente su Adobe Target, estende la durata del profilo del visitatore di Target? | Sì. Consulta [Durata del profilo del visitatore](https://docs.adobe.com/content/help/en/target/using/audiences/visitor-profiles/visitor-profile.html) nell&#39;Aiuto di Adobe Target. |
+| **(Solo Target)** Posso utilizzare i dati caricati negli attributi del cliente, subito dopo l&#39;identificazione del visitatore da parte dell&#39;ID cliente? | Sì. Nella chiamata del server a Target, che include l&#39;ID terza parte mbox, tutti i dati dell&#39;attributo del cliente saranno disponibili. |
+| **(Solo Target)** Cosa rappresenta la colonna Stato **[!UICONTROL di]** sincronizzazione per i file caricati in Origine attributo cliente? | Il numero di record pubblicati e sincronizzati da Target può essere visualizzato facendo clic sull&#39;icona Stato sincronizzazione rispetto a un file attributo specifico. `Sync %` è una metrica in tempo reale che specifica la percentuale di profili sincronizzati in Target.<br> **** Nota: La sincronizzazione degli attributi con Target potrebbe richiedere fino a 24 ore. |
+| Cosa rappresentano le metriche di caricamento dei file nell&#39;origine degli attributi del cliente? | Puoi controllare lo stato degli attributi caricati in Attributi del cliente con l&#39;aiuto delle metriche seguenti: <ul><li> Record:  Numero di record nel file degli attributi.</li><li>**** Nuovi record: Numero di nuovi record presenti nel file degli attributi.</li> <li>**** Record aggiornati: Numero di record già presenti in Attributi cliente con valori aggiornati nel file.</li><li>**** Tutti i dati (record): Numero totale di record caricati correttamente in Attributi cliente.</li></ul> |
