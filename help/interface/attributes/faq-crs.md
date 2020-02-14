@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Domande frequenti, limitazioni e best practice
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
+source-git-commit: e5bc3afea458d85421ab86ae87a65ebe4e88bb75
 
 ---
 
@@ -111,5 +111,17 @@ Guida e limitazioni per l&#39;uso degli attributi cliente
    <td colname="col2"> <p> Il numero di record pubblicati e sincronizzati da Target può essere visualizzato facendo clic sull'icona Stato sincronizzazione rispetto a un file attributo specifico. "Sync %" è una metrica in tempo reale che specifica la percentuale di profili sincronizzati in Target. </p> <p> <b></b> Nota: La sincronizzazione degli attributi con Target potrebbe richiedere fino a 24 ore. </p>
  </td> 
   </tr> 
- </tbody> 
+<tr>
+	<td colname="col1"> <p> Cosa rappresentano le metriche di caricamento dei file nell'origine degli attributi del cliente? </p> </td>
+	<td colname="col2"> <p> Puoi controllare lo stato degli attributi caricati in Attributi del cliente con l'aiuto delle metriche seguenti: </p>
+		<ul>
+			<li> <b> Record: Numero </b> di record nel file degli attributi. </li>
+			<li> <b> Nuovi record: Numero </b> di nuovi record presenti nel file degli attributi. </li>
+			<li> <b> Record aggiornati: Numero </b> di record già presenti in Attributi cliente con valori aggiornati nel file. </li>
+			<li> <b> Tutti i dati (record): Numero </b> totale di record caricati correttamente in Attributi del cliente. </li>
+		</ul>
+	</td>
+</tr>
+
+</tbody> 
 </table>
