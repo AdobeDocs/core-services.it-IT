@@ -6,7 +6,7 @@ seo-title: Visualizza utenti e dettagli utente di Experience Cloud
 solution: Experience Cloud
 title: 'Visualizza utenti e dettagli utente di Experience Cloud '
 translation-type: tm+mt
-source-git-commit: deb341153e980a003a818f51e417275974ea49e8
+source-git-commit: b2a3ead0bb616d87340aabca4113a4e3f9ed34bc
 
 ---
 
@@ -35,7 +35,7 @@ In questa pagina viene visualizzato l’elenco completo degli utenti con accesso
 | [!UICONTROL E-mail] | L’indirizzo e-mail associato all’utente. La colonna può essere ordinata A->Z, Z->A. |
 | [!UICONTROL Tipo di ID] | Il tipo di identità per l&#39;account dell&#39;utente. È possibile applicare un filtro per visualizzare tipi di ID specifici. Per ulteriori informazioni, consulta [Gestione dei tipi](https://helpx.adobe.com/enterprise/using/identity.html) di identità. |
 | [!UICONTROL Soluzioni] | Riepilogo delle soluzioni Experience Cloud a cui l&#39;utente può accedere. Potete applicare i filtri per limitare l&#39;elenco di utenti con accesso specifico alla soluzione. |
-| [!UICONTROL Ultimo login] | Ora e data dell’accesso utente più recente a Experience Cloud. Questa colonna può essere ordinata in base a date ascendenti o discendenti. <br> **** Importante: Gli ultimi dati di accesso non vengono conservati per più di 30 giorni prima del valore data, pertanto gli utenti potrebbero non avere informazioni relative all&#39;ultimo login. [!UICONTROL A partire da (DATA)] - gli ultimi dati di accesso dell’utente vengono conservati per 365 giorni. Puoi utilizzare queste informazioni per visualizzare l&#39;attività di accesso corrente in Experience Cloud, ma non per intervenire sugli account inattivi. Inoltre, gli utenti creati di recente potrebbero non avere l’ultimo stato di accesso. |
+| [!UICONTROL Ultimo login] | Ora e data dell’accesso utente più recente a Experience Cloud. Questa colonna può essere ordinata in base a date ascendenti o discendenti. <br> **** Importante: A partire dal 13 gennaio 2020, gli ultimi dati di accesso di un utente saranno conservati per 365 giorni. Queste informazioni sono volte a mostrare l’attività di accesso corrente in Experience Cloud e non a consigliare di intervenire sugli account inattivi prima del 13 gennaio 2020. |
 
 ## Personalizzare la visualizzazione elenco utenti
 
