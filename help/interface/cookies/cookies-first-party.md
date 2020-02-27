@@ -8,7 +8,7 @@ title: Cookie di prime parti
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3cb4d346d07e1625e95e3737230f03a02b45afb2
+source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
 
 ---
 
@@ -24,7 +24,7 @@ Sono disponibili due opzioni per implementare i cookie di prime parti:
 * Servizio ID di Experience Platform. Il servizio ID può impostare il cookie nella prima parte utilizzando JavaScript.
 * Voci DNS nel server DNS della società per configurare un alias CNAME in un dominio ospitato da Adobe. Sebbene diversi prodotti Adobe supportino l’uso di un CNAME, in tutti i casi il CNAME viene utilizzato per creare un endpoint di prime parti affidabile per un cliente specifico ed è di proprietà di tale cliente. Se il cliente controlla più domini, può usare un singolo endpoint CNAME per monitorare gli utenti nei loro domini, ma poiché questo richiede cookie di terze parti per tutti i domini al di fuori del dominio del CNAME, non funziona se i cookie di terze parti sono bloccati e non è consigliato. I CNAME Adobe non vengono mai utilizzati per monitorare un singolo o un dispositivo tra domini diversi di proprietà di clienti diversi.
 
-Anche quando si utilizza la prima opzione con il servizio Experience Cloud ID, l'ITP di Apple renderà i cookie di prime parti di breve durata, in modo che sia meglio utilizzato insieme alla seconda opzione.
+Anche quando si utilizza la prima opzione con il servizio Experience Cloud ID, l&#39;ITP di Apple renderà i cookie di prime parti di breve durata, in modo che sia meglio utilizzato insieme alla seconda opzione.
 
 Per la seconda opzione che utilizza un CNAME, se il tuo sito dispone di pagine sicure utilizzando il `https:` protocollo, puoi lavorare con Adobe per ottenere un certificato SSL al fine di implementare i cookie di prime parti. Adobe consiglia vivamente di utilizzare esclusivamente HTTPS per la raccolta dei dati, in quanto il supporto per la raccolta HTTP verrà eliminato nella seconda metà del 2020.
 
@@ -44,7 +44,7 @@ Per implementare un nuovo certificato SSL di prima parte per i cookie di prime p
 
 1. Compila il [modulo di richiesta dei cookie di prime parti](/help/interface/cookies/assets/FPC_Request_Form.xlsx) e apri un ticket con l’Assistenza clienti per richiedere la configurazione dei cookie di prime parti nel programma gestito da Adobe. Ogni campo è descritto all’interno del documento con esempi.
 
-1. Crea record CNAME (consulta le istruzioni di seguito). Dopo aver ricevuto il biglietto, un rappresentante dell'assistenza clienti dovrebbe fornirvi un paio di record CNAME. Questi record devono essere configurati sul server DNS della tua azienda per consentire ad Adobe di acquistare il certificato per conto tuo. I CNAME saranno simili ai seguenti: **Protetto**: ad esempio, il nome host `smetrics.example.com` punta a: `example.com.ssl.d1.omtrdc.net`. **Non protetto**: ad esempio, il nome host `metrics.example.com` punta a: `example.com.d1.omtrdc.net`.
+1. Crea record CNAME (consulta le istruzioni di seguito). Dopo aver ricevuto il biglietto, un rappresentante dell&#39;assistenza clienti dovrebbe fornirvi un paio di record CNAME. Questi record devono essere configurati sul server DNS della tua azienda per consentire ad Adobe di acquistare il certificato per conto tuo. I CNAME saranno simili ai seguenti: **Protetto**: ad esempio, il nome host `smetrics.example.com` punta a: `example.com.ssl.d1.omtrdc.net`. **Non protetto**: ad esempio, il nome host `metrics.example.com` punta a: `example.com.d1.omtrdc.net`.
 
 1. Quando questi CNAME diventano attivi, Adobe collabora con DigiCert per acquistare e installare un certificato sui server di produzione di Adobe. Se hai già un’implementazione, prendi in considerazione Migrazione visitatori per mantenere i visitatori esistenti. Dopo il push live del certificato all’ambiente di produzione di Adobe, potrai aggiornare le variabili del server di tracciamento con i nuovi nomi host. Ciò significa che, se il sito non è protetto (http), devi aggiornare `s.trackingServer`. Se il sito è protetto (https), aggiorna sia la variabile `s.trackingServer` che la variabile `s.trackingServerSecure`.
 
@@ -54,7 +54,7 @@ Per implementare un nuovo certificato SSL di prima parte per i cookie di prime p
 
 ### Manutenzione e rinnovi
 
-I certificati SSL scadono ogni anno, il che significa che Adobe deve acquistare un nuovo certificato per ogni implementazione su base annua. Tutti gli utenti supportati all’interno dell’organizzazione riceveranno una notifica e-mail ogni volta che un’implementazione è vicina alla scadenza. Affinché Adobe possa rinnovare il nome host, un utente supportato deve rispondere all'e-mail inviata da Adobe e indicare che si intende continuare a utilizzare il nome host in scadenza per la raccolta dei dati. A questo punto, Adobe acquisterà e installerà automaticamente un nuovo certificato.
+I certificati SSL scadono ogni anno, il che significa che Adobe deve acquistare un nuovo certificato per ogni implementazione su base annua. Tutti gli utenti supportati all’interno dell’organizzazione riceveranno una notifica e-mail ogni volta che un’implementazione è vicina alla scadenza. Affinché Adobe possa rinnovare il nome host, un utente supportato deve rispondere all&#39;e-mail inviata da Adobe e indicare che si intende continuare a utilizzare il nome host in scadenza per la raccolta dei dati. A questo punto, Adobe acquisterà e installerà automaticamente un nuovo certificato.
 
 ### Domande frequenti
 
@@ -103,7 +103,7 @@ Se i record CNAME non sono impostati correttamente o non sono attivi, restituir�
 
 `Ping request could not find the host. Please check the name and try again.`
 
->[!Nota:] se utilizzi `https:// protocol`, il ping risponderà solo dopo la data di caricamento specificata dallo specialista FPC. Inoltre, assicuratevi di eseguire il ping del nome host sicuro e del nome host non sicuro per verificare che entrambi funzionino correttamente prima di aggiornare l'implementazione.
+>[!Nota:] se utilizzi `https:// protocol`, il ping risponderà solo dopo la data di caricamento specificata dallo specialista FPC. Inoltre, assicuratevi di eseguire il ping del nome host sicuro e del nome host non sicuro per verificare che entrambi funzionino correttamente prima di aggiornare l&#39;implementazione.
 
 ## Aggiorna il codice di implementazione
 
@@ -122,6 +122,6 @@ Dopo aver verificato che i nomi host rispondano e trasmettano ai server di racco
 
 1. Se stai passando ai cookie di prime parti da un’implementazione di lunga data o a un nome host di raccolta di prima parte diverso, ti consigliamo di migrare i visitatori dal dominio precedente al nuovo.
 
-Consulta Migrazione [dei](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/visitor-migration.html) visitatori nella Guida all'implementazione di Analytics.
+Consulta Migrazione [dei](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/visitor-migration.html) visitatori nella Guida all&#39;implementazione di Analytics.
 
 Dopo che hai caricato il file JavaScript, tutto è configurato per la raccolta dati di cookie di prime parti. Per le prime ore, ti consigliamo di monitorare i report di Analytics per verificare che la raccolta dei dati continui come previsto. In caso contrario, verifica che tutti i passaggi precedenti siano stati completati e fai contattare l’Assistenza clienti da uno degli utenti supportati dalla tua organizzazione.
