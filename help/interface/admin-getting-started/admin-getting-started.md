@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Gestione di utenti e prodotti Experience Cloud
 uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
 translation-type: tm+mt
-source-git-commit: 02b0163b95c24eb58bf2379c3e0d9f5f31c40925
+source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 
 ---
 
@@ -88,7 +88,7 @@ Consultate [Gestione di gruppi e utenti](https://helpx.adobe.com/campaign/standa
 
 ## Experience Platform Launch {#section_F2DA6778DD2D48AA8F794041971EE6B1}
 
-Experience Platform Launch è riportato nella pagina Prodotti di Admin Console. Puoi includere altre soluzioni e altri servizi in un profilo di prodotto Launch.
+Experience Platform Launch viene visualizzato nella pagina Prodotti di Admin Console. Puoi includere altre soluzioni e altri servizi in un profilo di prodotto Launch.
 
 See [User Management](https://docs.adobelaunch.com/launch-reference/administration/user-permissions) for information about user permissions in the Admin Console and set up Launch-specific options, including assigning rights to profiles.
 
