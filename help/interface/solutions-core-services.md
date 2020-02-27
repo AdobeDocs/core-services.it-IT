@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Informazioni sui nuovi nomi cloud in Experience Cloud
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
 translation-type: tm+mt
-source-git-commit: 85bda02326437776baa9503bcc1100c26d48bce4
+source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 
 ---
 
@@ -54,14 +54,14 @@ Include Media Optimizer e TubeMogul.
 
 Le informazioni seguenti illustrano brevemente le soluzioni e includono collegamenti di aiuto. Sono anche disponibili [casi di utilizzo](https://helpx.adobe.com/marketing-cloud/how-to/use-cases.html) per aiutarti con i flussi di lavoro di marketing digitali.
 
-![](assets/mc_analytics_32.png)[Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/landing/home.html) 
+![](assets/mc_analytics_32.png) [Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/landing/home.html)
 
 Per iniziare a usare Analytics:
 
 1. Crea la tua prima suite di rapporti Analytics (archivio di dati) seguendo i passaggi descritti in [Guida introduttiva ad Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html).
-1. Quindi, distribuisci il codice Analytics utilizzando [Launch, di Adobe](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html).
+1. Quindi, distribuisci il codice Analytics utilizzando [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html).
 
-Experience Platform Launch è la nuova generazione di gestione dei tag e ti consente di distribuire e gestire con facilità tutti i tag di analisi, marketing e pubblicità.
+Experience Platform Launch è la nuova generazione di gestione tag e ti offre un modo semplice per implementare e gestire tutti i tag di analisi, marketing e pubblicità.
 
 Vedi anche:
 
@@ -111,7 +111,7 @@ Adobe Primetime è la piattaforma TV multischermo che aiuta le emittenti a crear
 
 | Servizio di base | Descrizione |
 |--- |--- |
-| [Activation](activation/activation.md) | Sistemi per la gestione tag (Experience Platform Launch e Dynamic Tag Management).<br>Triggers consente di intervenire in tempo reale in Adobe Campaign sulla base delle informazioni provenienti da Adobe Analytics. |
+| [Activation](activation/activation.md) | Sistemi di gestione dei tag (Experience Platform Launch e Gestione tag dinamica).<br>Triggers consente di intervenire in tempo reale in Adobe Campaign sulla base delle informazioni provenienti da Adobe Analytics. |
 | [Amministrazione](admin-getting-started/admin-getting-started.md) | Gestisci adesioni di utenti e prodotti in tutti i cloud e le soluzioni Adobe. |
 | [Risorse](experience-cloud-assets/experience-cloud-assets.md) | Archivia, sincronizza e condividi semplicemente tutte le risorse digitali in una postazione centralizzata, per risparmiare tempo e fornire un&#39;esperienza cliente più coerente. |
 | [Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) | Launch è la soluzione Adobe di nuova generazione per la gestione dei tag. Launch offre ai clienti un modo semplice di implementare e gestire tutti i tag di analisi, marketing e annunci pubblicitari necessari per fornire ai clienti esperienze personalizzate. |
