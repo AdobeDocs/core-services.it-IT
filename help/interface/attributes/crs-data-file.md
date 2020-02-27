@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Informazioni sui file di dati e le origini dati per gli attributi del cliente
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 Requisiti del file di dati e origini dati multiple per il caricamento degli attributi del cliente in Experience Cloud.
 
-Dovrai disporre dell'accesso a CRM o a dati simili dal proprio enterprise. I dati da caricare in Experience Cloud devono essere un file `.csv`. Se effettui il caricamento mediante FTP o sFTP, puoi caricare anche un file `.fin`.
+Dovrai disporre dell&#39;accesso a CRM o a dati simili dal proprio enterprise. I dati da caricare in Experience Cloud devono essere un file `.csv`. Se effettui il caricamento mediante FTP o sFTP, puoi caricare anche un file `.fin`.
 
 La funzione Attributi del cliente è progettata per gestire alcuni file al giorno. Per limitare il problema di avere numero elevato di file di piccole dimensioni a ritardare l’elaborazione, i file inviati nei 30 minuti di una batch precedente della stessa organizzazione vengono indirizzati a una coda di priorità inferiore.
 
@@ -133,7 +133,7 @@ Lo stesso file visualizzato in un editor di testo:
   </tr> 
    <tr> 
    <td colname="col1"> <p>Dati presenti nella cronologia </p> </td> 
-   <td colname="col2"> <p> In Analytics, gli attributi del cliente sono legati al profilo del visitatore sottostante. Pertanto, in Analytics, gli attributi del cliente sono associati al visitatore per l'intero ciclo di vita di tale profilo del visitatore. Ciò include i comportamenti che si sono verificati prima del primo accesso del cliente. </p> <p> Se usi il metodo di recupero di informazioni del data warehouse, i dati vengono legati a post_visid_high/low che si basa sull'Analytics ID (AID). Se utilizzi un servizio Experience Cloud ID, i dati vengono collegati a post_visid_high/low che si basa sul Experience Cloud ID (MID). </p> </td> 
+   <td colname="col2"> <p> In Analytics, gli attributi del cliente sono legati al profilo del visitatore sottostante. Pertanto, in Analytics, gli attributi del cliente sono associati al visitatore per l'intero ciclo di vita di tale profilo del visitatore. Ciò include i comportamenti che si sono verificati prima del primo accesso del cliente. </p> <p> Se usi il metodo di recupero di informazioni del data warehouse, i dati vengono legati a post_visid_high/low che si basa sull'Analytics ID (AID). Se utilizzi il servizio Experience Cloud ID, i dati sono legati a post_visid_high/low che si basa sul Experience Cloud ID (MID). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Feed dati </p> </td> 
@@ -145,9 +145,9 @@ Lo stesso file visualizzato in un editor di testo:
 
 ## Utilizzo di più origini dati {#section_76DEB6001C614F4DB8BCC3E5D05088CB}
 
-Quando crei, modifichi o elimini le origini attributo del cliente, si verifica un ritardo di circa un'ora prima della effettiva sincronizzazione degli ID con la nuova origine dati.
+Quando crei, modifichi o elimini le origini attributo del cliente, si verifica un ritardo di circa un&#39;ora prima della effettiva sincronizzazione degli ID con la nuova origine dati.
 
-L'ID alias per ciascuna origine attributo cliente deve essere univoco. Se hai più origini dati che corrispondono allo stesso ID, devi impostarle come indicato di seguito:
+L&#39;ID alias per ciascuna origine attributo cliente deve essere univoco. Se hai più origini dati che corrispondono allo stesso ID, devi impostarle come indicato di seguito:
 
 **In VisitorAPI.js o nello strumento Experience Cloud ID in Dynamic Tag Management:**
 
@@ -162,6 +162,6 @@ Visitor.setCustomerIDs({
 
 (Consulta [ID cliente e stati di autenticazione](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) per ulteriori informazioni.)
 
-In **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL Persone]** &gt; **[!UICONTROL Attributi del cliente]**:
+In the **[!UICONTROL Experience Cloud]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**:
 
 Crea due origini attributo del cliente con ID alias univoci corrispondenti agli ID cliente sopra. Questo metodo consente di inviare lo stesso ID riferimento a più origini attributo del cliente.
