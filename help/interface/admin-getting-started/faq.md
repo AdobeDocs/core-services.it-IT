@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Domande frequenti
 uuid: 3ed0b4eb-690f-4c14-a31c-0cc1118fb3b4
 translation-type: tm+mt
-source-git-commit: aea2e2b787f4d50b5f3666fd42a4c2b3f8fdeaa0
+source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 
 ---
 
@@ -22,7 +22,7 @@ Se non è stato effettuato il provisioning della tua implementazione per i servi
 
 
 1. [Partecipazione a Experience Cloud per diventare un amministratore](../core-services/core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
-1. [Implementazione del servizio Experience Cloud ID tramite Dynamic Tag Manager](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354) (o il nuovo [Launch, di Adobe](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html))
+1. [Implement the Experience Cloud ID Service using Dynamic Tag Manager](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354) (or the new [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html))
 1. [Mappatura di suite di rapporti per un’organizzazione Experience Cloud](../core-services/core-services.md#concept_apg_zq2_rw)
 1. [(Solo Analytics) Modernizzazione del codice AppMeasurement di Analytics](../core-services/core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [(Solo Target) Modernizzazione dell&#39;implementazione di Adobe Target](../core-services/core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)
