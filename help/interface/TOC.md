@@ -71,7 +71,7 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
    + [Considerazioni sulla privacy - Attributi del cliente](attributes/privacy-mac.md)
 + Gestione offerte {#offer-management}
    + [Guida introduttiva alla gestione delle offerte](offer-management/getting-started.md)
-   + [Flusso di lavoro Gestione offerte](offer-management/offer-management-workflow.md)
+   + [Flusso di lavoro di gestione delle offerte](offer-management/offer-management-workflow.md)
    + [Offerte](offer-management/offers.md)
    + [Etichette](offer-management/labels.md)
    + [Inserimenti](offer-management/placements.md)
