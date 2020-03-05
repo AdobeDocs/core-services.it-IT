@@ -12,9 +12,9 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 ---
 
 
-# Strumento Amministrazione Experience Cloud
+# Visualizzare gli utenti Experience Cloud in Admin Tool
 
-Experience Cloud Admin Tool consente agli amministratori di visualizzare un elenco ordinabile e filtrabile di tutti gli utenti Experience Cloud. Ogni pagina con i dettagli utente contiene informazioni importanti sull’accesso al prodotto, sui ruoli e sulle ultime informazioni a cui l’utente ha accesso.  
+Gli amministratori possono visualizzare un elenco ordinabile e filtrabile di tutti gli utenti Experience Cloud e dei loro dettagli in Admin Tool. I dettagli utente includono l’accesso ai prodotti, i ruoli e le informazioni sull’ultimo accesso. (**Nota:** La gestione di utenti e prodotti è configurata in [Admin Console](admin-getting-started.md).
 
 1. Log in to `https://experience.adobe.com/.`
 
@@ -22,7 +22,7 @@ Experience Cloud Admin Tool consente agli amministratori di visualizzare un elen
 
 1. Dalla home page di Experience Cloud, fai clic su **[!UICONTROL Admin Tool.]**
 
-    (In alternativa, nell’URL della pagina principale potete sostituire la _home_ con _admin._)
+   (In alternativa, nell’URL della pagina principale potete sostituire la _home_ con _admin._)
 
    Viene visualizzata la pagina [!UICONTROL Utenti] .
 
@@ -38,7 +38,7 @@ In questa pagina viene visualizzato l’elenco completo degli utenti con accesso
 | [!UICONTROL E-mail] | L’indirizzo e-mail associato all’utente. La colonna può essere ordinata A->Z, Z->A. |
 | [!UICONTROL Tipo di ID] | Il tipo di identità per l&#39;account dell&#39;utente. È possibile applicare un filtro per visualizzare tipi di ID specifici. Per ulteriori informazioni, consulta [Gestione dei tipi](https://helpx.adobe.com/enterprise/using/identity.html) di identità. |
 | [!UICONTROL Soluzioni] | Riepilogo delle soluzioni Experience Cloud a cui l&#39;utente può accedere. Potete applicare i filtri per limitare l&#39;elenco di utenti con accesso specifico alla soluzione. |
-| [!UICONTROL Ultimo login] | Ora e data dell’accesso utente più recente a Experience Cloud. Questa colonna può essere ordinata in base a date ascendenti o discendenti. <br> **** Importante: A partire dal 13 gennaio 2020, gli ultimi dati di accesso di un utente saranno conservati per 365 giorni. Queste informazioni sono volte a mostrare l’attività di accesso corrente in Experience Cloud e non a consigliare di intervenire sugli account inattivi prima del 13 gennaio 2020. |
+| [!UICONTROL Ultimo login] | Ora e data dell’accesso utente più recente a Experience Cloud. Questa colonna può essere ordinata in base a date ascendenti o discendenti. <br> **Importante:** A partire dal 13 gennaio 2020, gli ultimi dati di accesso di un utente saranno conservati per 365 giorni. Queste informazioni sono volte a mostrare l’attività di accesso corrente in Experience Cloud e non a consigliare di intervenire sugli account inattivi prima del 13 gennaio 2020. |
 
 ## Personalizzare la visualizzazione elenco utenti
 
@@ -50,7 +50,7 @@ Potete cercare, ordinare o filtrare le colonne per personalizzare l’elenco deg
 
 | Elemento | Descrizione |
 |---------|----------|
-| [!UICONTROL Filtro Dominio] e-mail | Cerca le stringhe di caratteri nella colonna E-mail per limitare i risultati a uno o più domini. Aggiungere più filtri premendo Invio dopo ogni termine di ricerca |
+| [!UICONTROL Filtro Dominio] e-mail | Cercare le stringhe di caratteri nella colonna E-mail per limitare i risultati a uno o più domini. Aggiunta di più filtri premendo Invio dopo ogni termine di ricerca |
 | [!UICONTROL Tipo] ID, filtro | Scegli tra i tipi di ID disponibili. Più tipi di ID possono essere utilizzati come filtro. |
 | [!UICONTROL Filtro soluzione] | Scegliete tra le soluzioni disponibili. Filtri per più soluzioni cercano risultati contenenti la soluzione 1 `OR` Soluzione 2. |
 
@@ -88,4 +88,4 @@ In questa sezione viene visualizzato un elenco completo di tutti i profili di pr
 | [!UICONTROL Instance] | Nome dell&#39;istanza (ad esempio società di accesso o tenant) associata al prodotto e al profilo di prodotto. |
 | [!UICONTROL Profilo prodotto] | Nome univoco del profilo di prodotto. |
 | [!UICONTROL Assegnato dal gruppo] | Nome del gruppo di utenti che associa l’utente a un profilo di prodotto. I risultati vuoti indicano che l&#39;utente è stato assegnato direttamente al profilo di prodotto, non tramite un gruppo. |
-| [!UICONTROL Ruoli prodotto] | Assegnazione del ruolo dell&#39;utente nel profilo di prodotto. Attualmente, queste informazioni sono valide solo per i profili di prodotto Target. |
+| [!UICONTROL Ruoli prodotto] | Assegnazione del ruolo dell&#39;utente all&#39;interno del profilo di prodotto. Attualmente, queste informazioni sono valide solo per i profili di prodotto Target. |
