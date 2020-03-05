@@ -1,13 +1,8 @@
 ---
-description: Pubblica un segmento di pubblico, o audience, di Analytics in Experience Cloud e Adobe Target, per attività di marketing relative all’audience.
-keywords: core services
-seo-description: Pubblica un segmento di pubblico, o audience, di Analytics in Experience Cloud e Adobe Target, per attività di marketing relative all’audience.
-seo-title: Pubblicazione di un segmento di pubblico di Analytics
-solution: Experience Cloud
 title: Pubblicazione di un segmento di pubblico di Analytics
-uuid: 4201dc22-4b79-457c-a614-949bba087617
+description: Pubblica un segmento di pubblico, o audience, di Analytics in Experience Cloud e Adobe Target, per attività di marketing relative all’audience.
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: 83e70059c9b7c0ef606b14d145b450481ba5c38c
 
 ---
 
@@ -16,18 +11,20 @@ source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 Pubblica un segmento di pubblico, o audience, di Analytics in Experience Cloud e Adobe Target, per attività di marketing relative all’audience.
 
-1. In Analytics, [genera un segmento](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html).
+Per istruzioni, consulta la documentazione [di](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html) Adobe Analytics.
+
+<!-->1.  In Analytics, [build a segment](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html).
 1. In Segment Builder (Generazione segmenti), abilita l’opzione **[!UICONTROL Publish this segment to the Experience Cloud]** (Pubblica questo segmento in Experience Cloud).
 
    ![](assets/ec_audience_example.png)
 
    | Elemento | Descrizione |
    |--- |---|
-   | Pubblica questo segmento in Experience Cloud (per &lt;nome suite di rapporti&gt;) | Pubblica questo segmento in Experience Cloud. Puoi utilizzare il pubblico per attività di marketing e segmentazione in Adobe Target, Audience Manager, Advertising Cloud, Campaign e Audience Analytics.<br>I campi Titolo e Descrizione sono obbligatori per pubblicare il segmento.<br>Quando questa opzione viene attivata, vengono condivisi il titolo e la definizione del segmento di pubblico, ma non i dati effettivi. Quando quel pubblico viene associato a un'attività in Target, Analytics inizia a inviare ID per i visitatori idonei per quel pubblico Experience Cloud e Target. A questo punto, il nome del pubblico e i dati corrispondenti iniziano a essere visualizzati sulla pagina di Experience Cloud Audiences.<br>Il pubblico condiviso con Experience Cloud da Analytics non può superare i 20 milioni di membri.<br>A causa della memorizzazione nella cache, sono necessarie 12 ore prima che l’eliminazione delle suite di rapporti di Analytics possa essere visibile in Experience Cloud.<br>Per eliminare un segmento pubblicato in Experience Cloud, devi prima annullarne la pubblicazione. Per annullare la pubblicazione di un segmento, **deseleziona** la casella di controllo utilizzata per pubblicarlo. **Non** puoi annullare la pubblicazione di un segmento attualmente in uso da una delle seguenti soluzioni Adobe: [!DNL Analytics] (in [!DNL Audience Analytics]), [!DNL Campaign], [!DNL Advertising Cloud] (per clienti [!DNL Core Service] e [!DNL Audience Manager]) e tutti gli altri partner esterni (per i clienti [!DNL Audience Manager]). **Puoi** annullare la pubblicazione di un segmento utilizzato da [!DNL Target].<br>Quando un visitatore diventa idoneo per la condivisione del pubblico da Analytics, trascorrono 24-48 ore prima che tale informazione sia fruibile in Target, Advertising Cloud e Campaign.<br>**Privacy dei dati**<br>I tipi di pubblico non vengono filtrati sulla base dello stato di autenticazione di un visitatore. Se un visitatore può navigare nel sito come utente autenticato o non autenticato, le azioni che si verificano per un visitatore non autenticato possono comunque determinare l'inclusione del visitatore nel pubblico. Consulta [Panoramica sulla privacy di Analytics](https://docs.adobe.com/help/en/analytics/technotes/privacy-overview.html) per comprendere le tutte le implicazioni per la privacy relative alla condivisione del pubblico. |
+   | Pubblica questo segmento in Experience Cloud (per &lt;nome suite di rapporti>) | Pubblica questo segmento in Experience Cloud. Puoi utilizzare il pubblico per attività di marketing e segmentazione in Adobe Target, Audience Manager, Advertising Cloud, Campaign e Audience Analytics.<br>I campi Titolo e Descrizione sono obbligatori per pubblicare il segmento.<br>Quando questa opzione viene attivata, vengono condivisi il titolo e la definizione del segmento di pubblico, ma non i dati effettivi. Quando quel pubblico viene associato a un&#39;attività in Target, Analytics inizia a inviare ID per i visitatori idonei per quel pubblico Experience Cloud e Target. A questo punto, il nome del pubblico e i dati corrispondenti iniziano a essere visualizzati sulla pagina di Experience Cloud Audiences.<br>Il pubblico condiviso con Experience Cloud da Analytics non può superare i 20 milioni di membri.<br>A causa della memorizzazione nella cache, sono necessarie 12 ore prima che l’eliminazione delle suite di rapporti di Analytics possa essere visibile in Experience Cloud.<br>Per eliminare un segmento pubblicato in Experience Cloud, devi prima annullarne la pubblicazione. Per annullare la pubblicazione di un segmento, **deseleziona** la casella di controllo utilizzata per pubblicarlo. **Non** puoi annullare la pubblicazione di un segmento attualmente in uso da una delle seguenti soluzioni Adobe: [!DNL Analytics] (in [!DNL Audience Analytics]), [!DNL Campaign], [!DNL Advertising Cloud] (per clienti [!DNL Core Service] e [!DNL Audience Manager]) e tutti gli altri partner esterni (per i clienti [!DNL Audience Manager]). **Puoi** annullare la pubblicazione di un segmento utilizzato da [!DNL Target].<br>Quando un visitatore diventa idoneo per la condivisione del pubblico da Analytics, trascorrono 24-48 ore prima che tale informazione sia fruibile in Target, Advertising Cloud e Campaign.<br>**Privacy dei dati **<br>I tipi di pubblico non vengono filtrati sulla base dello stato di autenticazione di un visitatore. Se un visitatore può navigare nel sito come utente autenticato o non autenticato, le azioni che si verificano per un visitatore non autenticato possono comunque determinare l&#39;inclusione del visitatore nel pubblico. Consulta[Panoramica sulla privacy di Analytics](https://docs.adobe.com/help/en/analytics/technotes/privacy-overview.html)per comprendere le tutte le implicazioni per la privacy relative alla condivisione del pubblico. |
    | Select the window for audience creation (Seleziona la finestra per la creazione del pubblico) | Nota che si tratta di una finestra temporale **mobile**, non fissa. |
 
 1. Fai clic su **[!UICONTROL Salva]**.
 1. Accedi a [!DNL Adobe Target], quindi fai clic su [!UICONTROL Audiences].
 1. Nella pagina [!UICONTROL Audiences], individua il pubblico ottenuto da Experience Cloud.
 
-   Questi tipi di pubblico sono disponibili per l’utilizzo nelle attività.
+   Questi tipi di pubblico sono disponibili per l’utilizzo nelle attività. &lt;-->
