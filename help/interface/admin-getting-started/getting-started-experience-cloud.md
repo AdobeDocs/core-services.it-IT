@@ -7,7 +7,7 @@ solution: Marketing Cloud
 title: Accesso e gestione delle impostazioni del profilo
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 translation-type: tm+mt
-source-git-commit: 02b0163b95c24eb58bf2379c3e0d9f5f31c40925
+source-git-commit: a260a0e607b72ace6f89928d51cbfb35bb40b56b
 
 ---
 
@@ -63,7 +63,7 @@ Aiuto per utenti non amministrativi che accedono a Experience Cloud.
 
    Il tuo amministratore Experience Cloud può aiutarti a determinare il tipo di account (Adobe ID o Enterprise ID).
 
-1. Nella pagina Feed (o nella pagina di destinazione predefinita) fai clic sull’icona del selettore ![](assets/menu-icon.png) per accedere al menu a discesa.
+1. Nella pagina di destinazione, fai clic sull’icona del selettore ![](assets/menu-icon.png) per accedere al menu a discesa.
 
    ![](assets/experience-cloud-core-services.png)
 
