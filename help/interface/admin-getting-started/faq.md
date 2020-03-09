@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Domande frequenti
 uuid: 3ed0b4eb-690f-4c14-a31c-0cc1118fb3b4
 translation-type: tm+mt
-source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
+source-git-commit: d225ef8800228d35c1920904f6fe7590bd751de3
 
 ---
 
@@ -20,7 +20,6 @@ Domande frequenti e relative risposte per gli amministratori in Experience Cloud
 
 Se non è stato effettuato il provisioning della tua implementazione per i servizi principali, consulta [Abilitare le soluzioni per i servizi principali](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C), in cui si descrivono i seguenti temi:
 
-
 1. [Partecipazione a Experience Cloud per diventare un amministratore](../core-services/core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
 1. [Implementazione del servizio Experience Cloud ID tramite Dynamic Tag Manager](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354) (o il nuovo lancio [della piattaforma](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html)Experience)
 1. [Mappatura di suite di rapporti per un’organizzazione Experience Cloud](../core-services/core-services.md#concept_apg_zq2_rw)
@@ -29,9 +28,6 @@ Se non è stato effettuato il provisioning della tua implementazione per i servi
 1. [Verifica dell&#39;implementazione dei servizi di base](../core-services/core-services.md#section_E641782A0F4F44AF8C9C91216BE330D5)
 1. [Gestione di utenti e prodotti](../core-services/core-services.md#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF)
 1. [Utilizzare i servizi di base](../core-services/core-services.md#section_960C06093623462E8EA247B3E97274A1)
-
-
-
 
 Per ulteriore assistenza, [Contatta l&#39;assistenza Adobe](https://helpx.adobe.com/marketing-cloud/contact-support.html).
 
@@ -47,7 +43,7 @@ La funzionalità fornita dall&#39;interfaccia Experience Cloud aggiunge più val
 
 [contattare l&#39;Assistenza Adobe](https://helpx.adobe.com/marketing-cloud/contact-support.html);
 
-**Che cosa è&#x200B;*`provisioning`*?**
+**Che cos&#39;è il _provisioning?_**
 
 Provisioning in Experience Cloud significa:
 
