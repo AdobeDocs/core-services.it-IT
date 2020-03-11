@@ -8,7 +8,7 @@ title: Cookie di prime parti
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: edbe58ffbaeadd2e223ef1567ec9060ab4073f1e
+source-git-commit: 2b44385e32752c7d80322de092d1ac230edfcd01
 
 ---
 
@@ -92,32 +92,43 @@ Fintanto che il codice di implementazione non viene modificato, questo passaggio
 
 ## Convalida inoltro nome host {#validate}
 
-Potete convalidare il nome host utilizzando <https://sstats.adobe.com/_check>. Se è installato un CNAME e il certificato, è possibile utilizzare il browser per la convalida. Tuttavia, se non è installato un certificato, viene visualizzato un avviso di protezione.
+Per la convalida sono disponibili i metodi seguenti:
 
-**Convalida tramite curl**
+**Convalida del browser**
 
-Adobe consiglia di utilizzare [!DNL curl] dalla riga di comando. (Se siete in Windows, dovrete installare [!DNL curl] da: <https://curl.haxx.se/windows/>)
+Se avete configurato un CNAME e il certificato installato, potete utilizzare il browser per la convalida:
+
+<https://sstats.adobe.com/_check>.
+
+Nota: Se non è installato un certificato, verrà visualizzato un avviso di protezione.
+
+**Convalida tramite[!DNL curl]**
+
+Adobe consiglia di utilizzare [!DNL [curl](https://curl.haxx.se/)] dalla riga di comando. ([!DNL Windows] gli utenti possono eseguire l&#39;installazione [!DNL curl] da: <https://curl.haxx.se/windows/>)
 
 Se disponete di un CNAME ma non è installato alcun certificato, eseguite:
 `curl -k https://sstats.adobe.com/_check`Risposta: `SUCCESS`
 
-(**Nota:** Il `-k` valore disattiva l&#39;avviso di protezione.
+(Il `-k` valore disattiva l&#39;avviso di protezione.)
 
 Se avete configurato un CNAME e il certificato è installato, eseguite:
-`curl https://sstats.adobe.com/_check`Risposta: SUCCESSO
+`curl https://sstats.adobe.com/_check`Risposta: `SUCCESS`
 
-**Convalida tramite nssearch**
+**Convalida tramite[!DNL nslookup]**
 
-È possibile utilizzare nssearch per la convalida. Usando `mysite.com` come esempio:
-
-Aprire un prompt dei comandi e digitare `nslookup metrics.mysite.com`
+È possibile utilizzare `nslookup` per la convalida. Utilizzando `mysite.com`come esempio, aprire un prompt dei comandi e digitare `nslookup metrics.mysite.com`
 
 Se tutto è configurato correttamente, verrà visualizzato un ritorno simile a:
 
-nssearch metriche.mysite.comServer:  hiodsibxvip01.corp.adobe.comIndirizzo:  10.50.112.247
+```
+nslookup metrics.mysite.com
+Server:  hiodsibxvip01.corp.adobe.com
+Address:  10.50.112.247
 
-Risposta non autorevole:
-Nome:    metriche.miosito.comAddress:  64,136,20,37
+Non-authoritative answer:
+Name:    metrics.mysite.com
+Address:  64.136.20.37
+```
 
 ## Aggiorna il codice di implementazione {#update}
 
