@@ -8,7 +8,7 @@ title: Cookie di prime parti
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2b44385e32752c7d80322de092d1ac230edfcd01
+source-git-commit: d4ebe537c4a0da1f24c5cd48e73ec9567d13fb30
 
 ---
 
@@ -94,15 +94,15 @@ Fintanto che il codice di implementazione non viene modificato, questo passaggio
 
 Per la convalida sono disponibili i metodi seguenti:
 
-**Convalida del browser**
+### Convalida tramite browser
 
 Se avete configurato un CNAME e il certificato installato, potete utilizzare il browser per la convalida:
 
-<https://sstats.adobe.com/_check>.
+`https://sstats.adobe.com/_check`
 
-Nota: Se non è installato un certificato, verrà visualizzato un avviso di protezione.
+**Nota:** Se non è installato un certificato, verrà visualizzato un avviso di protezione.
 
-**Convalida tramite[!DNL curl]**
+### Convalida tramite [!DNL curl]
 
 Adobe consiglia di utilizzare [!DNL [curl](https://curl.haxx.se/)] dalla riga di comando. ([!DNL Windows] gli utenti possono eseguire l&#39;installazione [!DNL curl] da: <https://curl.haxx.se/windows/>)
 
@@ -114,7 +114,7 @@ Se disponete di un CNAME ma non è installato alcun certificato, eseguite:
 Se avete configurato un CNAME e il certificato è installato, eseguite:
 `curl https://sstats.adobe.com/_check`Risposta: `SUCCESS`
 
-**Convalida tramite[!DNL nslookup]**
+### Convalida tramite [!DNL nslookup]
 
 È possibile utilizzare `nslookup` per la convalida. Utilizzando `mysite.com`come esempio, aprire un prompt dei comandi e digitare `nslookup metrics.mysite.com`
 
