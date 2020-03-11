@@ -8,7 +8,7 @@ title: Cookie di prime parti
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: d4ebe537c4a0da1f24c5cd48e73ec9567d13fb30
+source-git-commit: 64d35205275317e46072e7239b52863bf3b34e12
 
 ---
 
@@ -116,18 +116,22 @@ Se avete configurato un CNAME e il certificato è installato, eseguite:
 
 ### Convalida tramite [!DNL nslookup]
 
-È possibile utilizzare `nslookup` per la convalida. Utilizzando `mysite.com`come esempio, aprire un prompt dei comandi e digitare `nslookup metrics.mysite.com`
+È possibile utilizzare `nslookup` per la convalida. Utilizzando `sstats.adobe.com`come esempio, aprire un prompt dei comandi e digitare `nslookup sstats.adobe.com`
 
 Se tutto è configurato correttamente, verrà visualizzato un ritorno simile a:
 
 ```
-nslookup metrics.mysite.com
-Server:  hiodsibxvip01.corp.adobe.com
-Address:  10.50.112.247
+nslookup sstats.adobe.com
+Server:             10.30.7.247
+Address:     10.30.7.247#53
 
-Non-authoritative answer:
-Name:    metrics.mysite.com
-Address:  64.136.20.37
+sstats.adobe.com    canonical name = adobe.com.ssl.d1.sc.omtrdc.net.
+Name:  adobe.com.ssl.d1.sc.omtrdc.net
+Address: 54.218.180.161
+Name:  adobe.com.ssl.d1.sc.omtrdc.net
+Address: 52.39.8.230
+Name:  adobe.com.ssl.d1.sc.omtrdc.net
+Address: 54.187.216.46
 ```
 
 ## Aggiorna il codice di implementazione {#update}
