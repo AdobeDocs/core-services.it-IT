@@ -1,13 +1,13 @@
 ---
 description: Target utilizza i cookie per consentire agli operatori dei siti Web di verificare quali contenuti e offerte online sono più rilevanti per i visitatori.
-keywords: cookie;privacy
+keywords: cookies;privacy
 seo-description: Target utilizza i cookie per consentire agli operatori dei siti Web di verificare quali contenuti e offerte online sono più rilevanti per i visitatori.
 seo-title: Cookie di Target
-solution: Experience Cloud,Analytics,Target,Social
+solution: Marketing Cloud,Analytics,Target,Social
 title: Cookie di Target
 uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: 29d8f983cf6961b3e567e672ee803e12b330fee7
 
 ---
 
@@ -44,7 +44,7 @@ Puoi modificare queste impostazioni, se necessario, fatta eccezione per la durat
   </tr> 
   <tr> 
    <td colname="col1"> <p>Durata cookie </p> </td> 
-   <td colname="col2"> <p>Il cookie rimane sul browser del visitatore per due settimane dal suo ultimo accesso. Non puoi modificare la durata del cookie. </p> </td> 
+   <td colname="col2"> <p>Il cookie rimane sul browser del visitatore due anni dopo il suo ultimo accesso. Non puoi modificare la durata del cookie. </p> </td> 
   </tr> 
  </tbody> 
 </table>
