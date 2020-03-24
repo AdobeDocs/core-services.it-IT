@@ -5,7 +5,7 @@ seo-title: Mappatura di suite di rapporti per un’organizzazione
 title: Mappatura di suite di rapporti per un’organizzazione
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
+source-git-commit: b6ef7f0b7ef3b43b437524b20cee940889c26ba8
 
 ---
 
@@ -64,19 +64,22 @@ Se il servizio ID visitatore non è ancora distribuito sui siti che raccolgono i
 **Perché alcune organizzazioni sono disattivate?**
 
 Ciò indica che non disponi di privilegi sufficienti per la mappatura sulla suite di rapporti disattivata. Prendi in considerazione l&#39;esempio seguente:
-![](assets/rs-mapping.png) In questo schema, il tasto blu indica i privilegi di amministratore. Le linee grigie indicano la visibilità.
+
+![](assets/rs-mapping.png)
+
+In questo schema, il tasto blu indica i privilegi di amministratore. Le linee grigie indicano la visibilità.
 
 Questo utente ha accesso a due organizzazioni Experience Cloud. Ha eseguito le operazioni seguenti:
 
-* Ha collegato il suo account amministratore nella società di accesso chapek Analytics al suo account organizzazione Experience Cloud di Chapek Corp.
-* Ha collegato il suo account non amministratore nella società di accesso doohan Analytics al suo account organizzazione Experience Cloud di Chapek Corp.
+* Linked his admin account in the [!UICONTROL chapek] Analytics login company to his [!UICONTROL Chapek] Corp Experience Cloud organization account.
+* Linked his non-admin account in the [!UICONTROL doohan] Analytics login company to his [!UICONTROL Chapek] Corp Experience Cloud organization account.
 * Ha collegato il suo account non amministratore nella società di accesso nigel Analytics al suo account organizzazione Experience Cloud di Nigel Inc.
 
 I punti seguenti elencano le azioni di mappatura che questo utente può e non può eseguire relativamente a queste suite di rapporti:
 
-* La suite di rapporti Chapek-prod può essere mappata sull&#39;organizzazione Chapek Corp perché questo utente è un amministratore di una società di accesso Analytics collegata (chapek) e il suo account è collegato a questa organizzazione.
-* La suite di rapporti Nigel-prod non può essere collegata da questo utente perché non è un amministratore in alcuna società di accesso in cui è visibile questa suite di rapporti.
-* La suite di rapporti Doohan-prod può essere mappata su Chapek Corp perché questo utente è un amministratore di una società di accesso (chapek) collegata all&#39;organizzazione Experience Cloud (notare che non è un amministratore della società di accesso doohan Analytics). È importante tenere presente che la suite di rapporti doohan-prod è anche idonea alla mappatura sull&#39;organizzazione Experience Cloud Nigel Inc, anche se questo utente non può eseguire la mappatura. In questo caso, entrambe le organizzazioni Experience Cloud sono visualizzate nell&#39;elenco, ma Nigel Inc è disattivata. Prima della mappatura, questo utente deve consultare un amministratore della società di accesso Nigel per determinare quale organizzazione è la migliore per la mappatura. L&#39;UI visualizza un avviso di possibile conflitto se selezioni un&#39;organizzazione diversa da quella in cui è stata originariamente creata la suite di rapporti.
+* [!UICONTROL La suite di rapporti Chapek-prod] può essere mappata sull&#39;organizzazione [!UICONTROL Chapek] Corp perché questo utente è un amministratore di una società di accesso Analytics collegata ([!UICONTROL chapek]) e il suo account è collegato a questa organizzazione.
+* [!UICONTROL La suite di rapporti Nigel-prod non può essere collegata da questo utente perché non è un amministratore in alcuna società di accesso in cui è visibile questa suite di rapporti.]
+* [!UICONTROL La suite di rapporti Doohan-prod] può essere mappata su [!UICONTROL Chapek Corp] perché questo utente è un amministratore di una società di accesso ([!UICONTROL chapek]) collegata all’organizzazione Experience Cloud (notare che non è un amministratore della società di accesso doohan Analytics). It is important to be aware that the [!UICONTROL doohan-prod] report suite is also eligible to be mapped to the Nigel Inc Experience Cloud org, even though this user cannot perform that mapping. In this case, both Experience Cloud organizations are displayed in the list, but [!UICONTROL Nigel Inc] is grayed out. Prima della mappatura, questo utente deve consultare un amministratore della società di accesso Nigel per determinare quale organizzazione è la migliore per la mappatura. L&#39;UI visualizza un avviso di possibile conflitto se selezioni un&#39;organizzazione diversa da quella in cui è stata originariamente creata la suite di rapporti.
 
 ## Domande frequenti {#section_099E485805994C929FF9C9F75219BEE1}
 
