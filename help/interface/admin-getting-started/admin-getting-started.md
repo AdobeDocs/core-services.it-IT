@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Gestione di utenti e prodotti Experience Cloud
 uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
 translation-type: tm+mt
-source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
+source-git-commit: 14d6e0ae15b023ad4dd3f8aca0606f26b39a21e9
 
 ---
 
@@ -16,9 +16,11 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 
 Scopri come accedere ad Admin Console, gestire le autorizzazioni utente e i profili di prodotto di Experience Cloud e il supporto del browser.
 
+<!-- Beginning April 16, 2020, new organizations created in the Admin Console will block Adobe ID (type 1) identity types. Starting 16 Apr 2020 , newly created orgs will block the addition of Adobe ID/Type1 accounts.Migration for Orgs that have CCE/DX overlapping contracts will happen starting on  26 Apr 2020 (Gov't & Commercial Orgs) (~600 Orgs) Majority of EC customers will be migrated after July 2020. (~15k Orgs)https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=engage&title=Type2e+DX+GTM-->
+
 >[!IMPORTANT]
 >
->La gestione degli utenti in Admin Console prevede l’utilizzo di nuovi termini, interfacce e modalità di navigazione. Le informazioni riportate di seguito descrivono questi nuovi aspetti e contengono collegamenti a ulteriori risorse di aiuto. Questi argomenti di aiuto integrano le informazioni contenute nella [Guida utente per l’amministrazione](https://helpx.adobe.com/enterprise/managing/user-guide.html) per tutti i prodotti cloud Adobe.
+>La gestione degli utenti in Admin Console prevede l’utilizzo di nuovi termini, interfacce e modalità di navigazione. Le informazioni riportate di seguito descrivono questi nuovi aspetti e contengono collegamenti a ulteriori risorse di aiuto. This help supplements the information in the [Enterprise Administration User Guide](https://helpx.adobe.com/enterprise/managing/user-guide.html) for all Adobe cloud products.
 
 ## Novità nella gestione degli utenti in Experience Cloud {#concept_06A0A13362F644FB90F947238407637A}
 
@@ -26,26 +28,26 @@ Scopri le nuove funzioni nella gestione degli utenti di Experience Cloud.
 
 ## Accesso ad Admin Console {#section_705072FD4EBE4B70BC69EC81F2BB8669}
 
-Gli amministratori non gestiscono più gli utenti nelle singole soluzioni. Ora la gestione di utenti e prodotti Experience Cloud viene effettuata in Admin Console.
+Gli amministratori non gestiscono più gli utenti nelle soluzioni. La gestione di utenti e prodotti per Experience Cloud ora si verifica nell&#39;Admin Console.
 
 **Per accedere ad Admin Console**
 
 1. Navigate to [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/#).
 1. Digita il tuo [Adobe ID o Enterprise ID](https://helpx.adobe.com/enterprise/help/identity.html) e la relativa password.
 
-In alternativa, dal menu di Experience Cloud (![](assets/menu-icon.png)), fai clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Avvia Admin Console]**.
+Alternatively, from the Experience Cloud menu ( ![](assets/menu-icon.png)), click **[!UICONTROL Administration]** > **[!UICONTROL Launch Admin Console]**.
 
 **Argomenti correlati**
 
-[Guida utente per l’amministrazione](https://helpx.adobe.com/enterprise/using/users.html) per Creative Cloud e Document Cloud. Alcune informazioni sono correlate alla gestione degli utenti in Experience Cloud, ad esempio [Gestire i tipi di identità](https://helpx.adobe.com/enterprise/help/identity.html).
+[Guida](https://helpx.adobe.com/enterprise/using/users.html) utente di amministrazione per Creative Cloud e Document Cloud. Alcune informazioni sono relative alla gestione degli utenti di Experience Cloud, ad esempio la [gestione dei tipi](https://helpx.adobe.com/enterprise/help/identity.html)di identità.
 
-[Effettua l’accesso e gestisci le impostazioni del tuo profilo](../admin-getting-started/getting-started-experience-cloud.md#topic_AC564B6795334DE39359ADD87F52F2E0) per definire password, organizzazioni e notifiche.
+[Accedi e gestisci le impostazioni](../admin-getting-started/getting-started-experience-cloud.md#topic_AC564B6795334DE39359ADD87F52F2E0) del tuo profilo per gestire password, organizzazioni e notifiche.
 
 ## Profili di prodotto e gruppi {#section_AB50558124D541CF80A0D3D76D35A4BF}
 
-L’aggiunta dei profili di prodotto segna un cambiamento nel modo in cui vengono gestiti i prodotti e servizi delle singole soluzioni, precedentemente basato sull’uso dei gruppi. In Admin Console, le autorizzazioni sono ora basate sui profili di prodotto, ovvero gruppi di prodotti e servizi che puoi assegnare agli utenti.
+L&#39;aggiunta dei profili di prodotto rappresenta un cambiamento rispetto al modo in cui i prodotti e i servizi delle soluzioni sono stati gestiti in precedenza (utilizzando i gruppi). In Admin Console, le autorizzazioni si basano sui profili di prodotto, ovvero gruppi di prodotti e servizi che puoi assegnare agli utenti.
 
-In Analytics, ad esempio, puoi configurare una serie di strumenti di reporting, quali Analysis Workspace e Report Builder, insieme a suite di rapporti, metriche, dimensioni e così via. Per autorizzare gli utenti all’uso di un profilo di prodotto, non devi fare altro che aggiungerli al profilo in questione. Consulta  [Assegnare le autorizzazioni di accesso Analytics a un profilo di prodotto](../admin-getting-started/admin-getting-started.md#task_040673FE3E3E429B9531FBCB8B6A4391).
+In Analytics, ad esempio, puoi configurare una serie di strumenti di reporting, quali Analysis Workspace e Report Builder, insieme a suite di rapporti, metriche, dimensioni e così via. Puoi autorizzare gli utenti a un profilo di prodotto aggiungendoli al profilo. See [Assign Analytics access permissions to a product profile](../admin-getting-started/admin-getting-started.md#task_040673FE3E3E429B9531FBCB8B6A4391).
 
 **Argomenti correlati**
 
@@ -61,7 +63,7 @@ Le autorizzazioni relative a utenti e prodotti Analytics vengono gestite in Admi
 
 È disponibile uno strumento di migrazione degli ID utente di Analytics che permette agli amministratori di trasferire gli account utente da Gestione utenti di Analytics ad [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/).
 
-La migrazione diventerà disponibile per i clienti in più fasi. Adobe ti invierà una notifica e ti fornirà assistenza quando arriverà il tuo momento di trasferire gli account utente esistenti da **[!UICONTROL Strumenti di amministrazione]** > **[!UICONTROL Gestione utente]** ad Admin Console.
+La migrazione diventerà disponibile per i clienti in più fasi. Adobe will notify and assist you when it is your time to migrate existing user accounts from **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** to the Admin Console.
 
 After the migration, users sign in using their Adobe ID (or Enterprise ID) and authenticate to their Experience Cloud solutions and services at [experiencecloud.adobe.com](https://experiencecloud.adobe.com). Gli utenti che tenteranno di accedere con i metodi precedenti ([!DNL my.omniture.com] e [!DNL sc.omniture.com]) verranno reindirizzati a [!DNL experiencecloud.adobe.com].
 
@@ -74,15 +76,15 @@ After the migration, users sign in using their Adobe ID (or Enterprise ID) and a
 In Target, un&#39;area di lavoro è un profilo di prodotto. Consente a un&#39;organizzazione di assegnare una serie di utenti specifica a una serie di proprietà specifica. In vari modi, un&#39;area di lavoro è simile a una suite di rapporti in Adobe Analytics.
 
 Vedi:
-* [Autorizzazioni utente Enterprise](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html)
-* [Gestione dei prodotti e dei profili](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html).
-* Video: [Come configurare aree di lavoro Target in Adobe Admin Console](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html).
+* [Autorizzazioni per gli utenti Enterprise](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html)
+* [Gestione di prodotti e profili](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
+* Video: [Come configurare aree di lavoro Target in Adobe Admin Console](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## Campaign: profili di prodotto, tenant e gruppi di sicurezza {#section_09CDF75366444CF5810CF321B7C712F3}
 
-Un *tenant* di Campaign viene visualizzato come *prodotto* nella pagina Prodotti di Admin Console.
+Un *tenant* in Campaign viene visualizzato come *prodotto* nella pagina Prodotti di Admin Console.
 
-Un *gruppo di sicurezza* viene mostrato come profilo di prodotto.
+*Il gruppo* di sicurezza viene visualizzato come profilo di prodotto.
 
 Consultate [Gestione di gruppi e utenti](https://helpx.adobe.com/campaign/standard/administration/using/managing-groups-and-users.html) per informazioni sui gruppi di sicurezza e assegnazione di utenti ai gruppi di sicurezza.
 
@@ -90,7 +92,7 @@ Consultate [Gestione di gruppi e utenti](https://helpx.adobe.com/campaign/standa
 
 Experience Platform Launch viene visualizzato nella pagina Prodotti di Admin Console. Puoi includere altre soluzioni e altri servizi in un profilo di prodotto Launch.
 
-See [User Management](https://docs.adobelaunch.com/launch-reference/administration/user-permissions) for information about user permissions in the Admin Console and set up Launch-specific options, including assigning rights to profiles.
+Consulta Gestione [](https://docs.adobelaunch.com/launch-reference/administration/user-permissions) utente per informazioni sulle autorizzazioni degli utenti in Admin Console e configura opzioni specifiche per Launch, tra cui l’assegnazione di diritti ai profili.
 
 ## Dynamic Tag Manager {#section_3A41CF2BD5994B9891537D063571D4ED}
 
@@ -100,7 +102,7 @@ See [Users and Permissions](https://docs.adobe.com/content/help/en/dtm/using/adm
 
 ## Audience Manager {#section_C31E3FA8A1E14463B1B3E07235F1983C}
 
-Crea utenti di Audience Manager e assegnali ai gruppi. Puoi anche visualizzare i limiti (caratteristiche, segmenti, destinazioni e modelli algoritmici).
+Creazione di utenti Audience Manager e loro assegnazione a gruppi. Puoi anche visualizzare i limiti (caratteristiche, segmenti, destinazioni e modelli algoritmici).
 
 Consulta [Amministrazione](https://docs.adobe.com/content/help/en/dtm/using/admin/users.html) nell&#39;aiuto di Audience Manager.
 
@@ -108,18 +110,18 @@ Consulta [Amministrazione](https://docs.adobe.com/content/help/en/dtm/using/admi
 
 Crea un profilo di prodotto e assegnalo a un gruppo di autorizzazioni.
 
-Quando inviti un utente in un’organizzazione, puoi concedergli l’accesso a prodotti e profili di prodotto, o anche delegare all’utente autorizzazioni amministrative limitate. Analogamente, puoi creare un gruppo di utenti e aggiungerlo a un profilo di prodotto per abilitare il gruppo all’accesso.
+Quando inviti un utente in un’organizzazione, puoi concedergli l’accesso a prodotti e profili di prodotto, Potete anche delegare autorizzazioni amministrative limitate a un utente. Allo stesso modo, potete creare gruppi di utenti, quindi aggiungere il gruppo a un profilo di prodotto per abilitare l&#39;accesso.
 
-1. In [Admin Console](https://adminconsole.adobe.com/enterprise/), fai clic su **[!UICONTROL Prodotti]**.
+1. In the [Admin Console](https://adminconsole.adobe.com/enterprise/), click **[!UICONTROL Products]**.
 1. Fai clic su **[!UICONTROL Nuovo profilo]**.
 1. Configura i dettagli del profilo, quindi fai clic su **[!UICONTROL Avanti]**.
 1. Fai clic su **[!UICONTROL Fine]**.
 
-Ulteriore aiuto disponibile su:
+Ulteriore assistenza è disponibile all&#39;indirizzo:
 
-* [Gestione di prodotti e profili](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html).
-* [Autorizzazioni utenti Enterprise](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html) nell&#39;Aiuto di Target per ulteriori informazioni.
-* Video: [Come configurare aree di lavoro Target in Adobe Admin Console](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html).
+* [Gestione di prodotti e profili](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
+* [Autorizzazioni](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html) utente Enterprise nell&#39;Aiuto di Target per ulteriori informazioni.
+* Video: [Come configurare aree di lavoro Target in Adobe Admin Console](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## Assegnare le autorizzazioni di accesso Analytics a un profilo di prodotto {#task_040673FE3E3E429B9531FBCB8B6A4391}
 
@@ -127,29 +129,29 @@ Assegna le autorizzazioni di accesso ai rapporti di Analytics (suite di rapporti
 
 Ad esempio, puoi creare un profilo di prodotto che contiene più strumenti di Analytics ([!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics] e [!UICONTROL Report Builder]) e autorizzarlo ad accedere a determinate metriche e dimensioni (comprese le eVar) e a creare segmenti o metriche calcolate.
 
-1. Accedi ad [Admin Console](https://adminconsole.adobe.com/enterprise), quindi fai clic su **[!UICONTROL Prodotti]** (o sul nome del tuo prodotto).
+1. Sign in to the [Admin Console](https://adminconsole.adobe.com/enterprise), then click **[!UICONTROL Products]** (or click your product name).
 1. Nel profilo del prodotto, fai clic su **[!UICONTROL Autorizzazioni]** (opzione disponibile solo per gli amministratori).
 1. Configura le autorizzazioni del profilo:
 
 | Elemento | Descrizione |
 |--- |--- |
-| Suite di rapporti | Attiva le autorizzazioni per suite di rapporti specifiche. |
-| Metrics (Metriche) | Attiva le autorizzazioni relative a traffico, conversioni, eventi personalizzati, eventi delle soluzioni, basate su contenuti e così via. |
-| Dimensioni | Personalizza nel dettaglio le opzioni di accesso degli utenti, ad esempio per eVar, rapporti sul traffico, rapporti sulle soluzioni e rapporti di percorsi. |
-| Strumenti delle suite di rapporti | Attiva le autorizzazioni degli utenti per servizi Web, gestione delle suite di rapporti, strumenti e rapporti ed elementi dei dashboard. |
-| Strumenti Analytics | Attiva le autorizzazioni degli utenti per gli elementi generali (fatturazione, registri ecc.), gestione società, strumenti, accesso ai servizi Web, Report Builder e integrazione dei Data Connectors. Le impostazioni aziendali della categoria Personalizza di Admin Console sono state trasferite negli strumenti di Analytics. |
+| Suite di rapporti | Abilita le autorizzazioni per suite di rapporti specifiche. |
+| Metrics (Metriche) | Attiva le autorizzazioni per il traffico, la conversione, gli eventi personalizzati, gli eventi delle soluzioni, in base al contenuto e così via. |
+| Dimensioni | Personalizza l&#39;accesso degli utenti a un livello granulare, comprese eVar, rapporti sul traffico, rapporti sulle soluzioni e rapporti sui percorsi. |
+| Strumenti delle suite di rapporti | Attiva le autorizzazioni utente per i servizi Web, la gestione delle suite di rapporti, gli strumenti e i rapporti e gli elementi del dashboard. |
+| Strumenti di analisi | Attiva le autorizzazioni degli utenti per gli elementi generali (fatturazione, registri ecc.), gestione società, strumenti, accesso ai servizi Web, Report Builder e integrazione dei Data Connectors. Le impostazioni aziendali della categoria Personalizza di Admin Console sono state trasferite negli strumenti di Analytics. |
 
 ## Delega di ruoli amministrativi a utenti {#task_3A072C4AA9734BC59FFA7E015271BC7E}
 
-In Admin Console, puoi delegare diritti amministrativi limitati ad altre persone nell&#39;organizzazione. I ruoli delegati consentono agli utenti di amministrare l&#39;accesso ai software di utenti finali, fornire le funzionalità di distribuzione e agire da delegati di supporto.
+In Admin Console, puoi delegare diritti amministrativi limitati ad altre persone nell&#39;organizzazione. I ruoli delegati consentono agli utenti di amministrare l&#39;accesso software agli utenti finali, fornire le funzionalità di distribuzione dell&#39;accesso e fungere da delegati di supporto.
 
 Sarà possibile, ad esempio:
 
-* consentire al direttore creativo di concedere l&#39;accesso a Creative Cloud;
-* consentire al direttore marketing di concedere l&#39;accesso a Experience Cloud;
-* mantenere questi due ruoli separati affinché non possano sovrapporsi ad altri ruoli.
+* Consentite al vostro direttore creativo di concedere l&#39;accesso a Creative Cloud.
+* Consenti al direttore marketing di concedere l&#39;accesso a Experience Cloud.
+* Mantenete questi due ruoli separati in modo che non possano sovrapporsi ai rispettivi ruoli.
 
-Mediante questi ruoli, puoi delegare simultaneamente la gestione ad altri senza fornire più funzionalità di quelle di cui hanno bisogno.
+Utilizzando questi ruoli, potete delegare simultaneamente la gestione ad altri senza fornire più funzionalità di quelle necessarie.
 
 1. In Admin Console, fai clic su **[!UICONTROL Utenti]**, quindi fai clic sul nome dell’utente.
 1. Fai clic su **[!UICONTROL Modifica diritti di amministratore]**.
@@ -158,11 +160,11 @@ Mediante questi ruoli, puoi delegare simultaneamente la gestione ad altri senza 
 
 ## Browser supportati e requisiti di sistema {#concept_CDC4371EB9BF433E9534F8716DC8A088}
 
-I browser supportati in Experience Cloud.
+Browser supportati in Experience Cloud.
 
 I browser supportati da Experience Cloud includono:
 
-* [!DNL Microsoft Edge] Microsoft ha [cessato il supporto](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) per Internet Explorer 8, 9 e 10. Di conseguenza, i problemi segnalati a fronte di tali versioni specifiche di Internet Explorer non verranno corretti da Adobe).
+* [!DNL Microsoft Edge] Microsoft ha [cessato il supporto](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) per Internet Explorer 8, 9 e 10. Di conseguenza, Adobe non risolverà i problemi segnalati a fronte di tali versioni specifiche di Internet Explorer.)
 * [!DNL Google Chrome]
 * [!DNL Firefox]
 * [!DNL Safari]
