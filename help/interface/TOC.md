@@ -4,7 +4,7 @@ user-guide-title: Core Services User Guide
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: d225ef8800228d35c1920904f6fe7590bd751de3
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -27,11 +27,11 @@ source-git-commit: d225ef8800228d35c1920904f6fe7590bd751de3
    + [Cookie di Data Workbench](cookies/cookies-insight.md)
    + [Cookie di Experience Cloud](cookies/cookies-mc.md)
    + [Cookie di Advertising Cloud](cookies/cookies-advertising-cloud.md)
-   + [Cookie di Scene7](cookies/cookies-s7.md)
-   + [Cookie di Search&amp;Promote](cookies/cookies-snp.md)
-   + [Cookie di Target](cookies/cookies-target.md)
+   + [[!DNL Scene7] cookies](cookies/cookies-s7.md)
+   + [[!DNL Search and Promote] cookies](cookies/cookies-snp.md)
+   + [[!DNL Target] cookies](cookies/cookies-target.md)
    + [Abilitazione delle impostazioni della privacy per i cookie del browser](cookies/browser-cookie-settings.md)
-   + [Effetti delle modifiche al supporto dei cookie di terze parti sui clienti](cookies/cookies-thirdparty.md)
+   + [Le modifiche al supporto dei cookie di terze parti influiscono sui clienti](cookies/cookies-thirdparty.md)
 + Gestione di utenti e prodotti {#manage-users-and-products}
    + [Gestione di utenti e prodotti Experience Cloud (Admin Console)](admin-getting-started/admin-getting-started.md)
    + [Visualizza i dettagli utente di Experience Cloud (Strumenti di amministrazione)](admin-getting-started/admin-tool-experience-cloud.md)
@@ -39,7 +39,7 @@ source-git-commit: d225ef8800228d35c1920904f6fe7590bd751de3
    + [Accesso e gestione delle impostazioni del profilo](admin-getting-started/getting-started-experience-cloud.md)
    + [Organizzazioni e collegamento di account](admin-getting-started/organizations.md)
    + [Aggiornamento ad Analytics Premium e Experience Cloud](admin-getting-started/upgrade-to-analytics-premium.md)
-+ Experience Cloud Activation {#activation}
++ Attivazione di Experience Cloud {#activation}
    + [Panoramica di Activation](activation/activation.md)
    + [Guida utente di Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html)
    + [Guida utente di Gestione tag dinamica](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
@@ -73,7 +73,7 @@ source-git-commit: d225ef8800228d35c1920904f6fe7590bd751de3
    + [Flusso di lavoro di gestione delle offerte](offer-management/offer-management-workflow.md)
    + [Offerte](offer-management/offers.md)
    + [Etichette](offer-management/labels.md)
-   + [Inserimenti](offer-management/placements.md)
+   + [Posizionamenti](offer-management/placements.md)
    + [Campaign](offer-management/campaign.md)
 + Note sulla versione di Experience Cloud {#release-notes}
    + [Novità in Experience Cloud](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)
