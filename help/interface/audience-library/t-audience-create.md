@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Creazione di un pubblico
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
 translation-type: tm+mt
-source-git-commit: 11f2f0bd16665a6e8def3a34d8f3d284497fa1b8
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -16,24 +16,24 @@ source-git-commit: 11f2f0bd16665a6e8def3a34d8f3d284497fa1b8
 
 Impara a usare le regole dell’attributo per creare un pubblico e definire un pubblico composito in Experience Cloud.
 
-Questo articolo è utile per comprendere come:
+Questo articolo spiega come:
 
 * Creazione di un pubblico
 * Creare una regola
-* Usare le regole per definire un pubblico composito
+* Utilizzare le regole per definire un&#39;audience composita
 
-Il grafico seguente rappresenta due regole in un pubblico composito.
+L&#39;immagine seguente rappresenta due regole in un&#39;audience composita.
 
 ![](assets/audience_sharing.png)
 
-Ciascun cerchio rappresenta una regola che definisce l&#39;appartenenza al pubblico. I visitatori che si qualificano come membri in entrambe le regole del pubblico diventano il pubblico composito definito.
+Ogni cerchio rappresenta una regola che definisce l&#39;appartenenza all&#39;audience. I visitatori che si qualificano come membri in entrambe le regole del pubblico si sovrappongono per diventare il pubblico composito e definito.
 
 >[!NOTE]
 >
 >Il pubblico è completamente definito al termine della raccolta dei dati per il periodo specificato.
-L&#39;esempio seguente mostra come creare le regole per un pubblico composito. Questo pubblico si compone di:
+L&#39;esempio seguente mostra come creare le regole per un&#39;audience composita. Questo pubblico è composto da:
 
-* Sezione Home &amp; Garden (casa e giardino) derivata da dati pagina o dati grezzi di Analytics
+* Sezione Home &amp; Garden (casa e giardino) derivata dai dati della pagina o dai dati di analisi non elaborati.
 * Utenti Chrome e Safari derivati da un segmento [!DNL Adobe Analytics] [pubblicato](../audience-library/audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A) in [!DNL Experience Cloud].
 
    ![](assets/audience_create.png)
@@ -46,7 +46,7 @@ L&#39;esempio seguente mostra come creare le regole per un pubblico composito. Q
 1. Nella pagina [!UICONTROL Crea nuovo pubblico] specifica un titolo e una descrizione.
 1. In [!UICONTROL Regole], seleziona un&#39;origine attributo:
 
-   * **[!UICONTROL Dati Analytics in tempo reale:]** (o dati non elaborati) si tratta di dati attributo derivati da richieste di immagini Analytics in tempo reale e includono dati come eVar ed eventi. Quando usi questa origine attributo devi selezionare una suite di rapporti e definire la dimensione o l&#39;evento da includere. Questa selezione di suite di rapporti fornisce la struttura della variabile usata dalla suite di rapporti.
+   * **[!UICONTROL Dati Analytics in tempo reale:]** (o dati non elaborati) si tratta di dati attributo derivati da richieste di immagini Analytics in tempo reale e includono dati come eVar ed eventi. Quando usi questa origine attributo devi selezionare una suite di rapporti e definire la dimensione o l&#39;evento da includere. Questa selezione di suite di rapporti fornisce la struttura delle variabili utilizzata dalla suite di rapporti.
    >[!NOTE]
    >
    >A causa della memorizzazione nella cache, sono necessarie 12 ore prima che l’eliminazione delle suite di rapporti di Analytics possa essere visibile in Experience Cloud.
@@ -63,7 +63,7 @@ In [!UICONTROL Regole], definisci le selezioni dell’attributo *`Home & Garden`
 
 * **[!UICONTROL Origine attributo:]** dati grezzi di Analytics
 * **[!UICONTROL Suite di rapporti:]** Suite di rapporti 31
-* Dimensione = **[!UICONTROL Store (Merch) (v6)]** > **[!UICONTROL È uguale a]** > **[!UICONTROL Home &amp; Garden (casa e giardino)]**
+* Dimension = **[!UICONTROL Store (Merch) (v6)]** > **[!UICONTROL Equals]** > **[!UICONTROL Home &amp; Garden]**
 
 ![](assets/home_garden.png)
 
@@ -78,13 +78,13 @@ Per un confronto, potresti aggiungere una regola *OR* per visualizzare tutti i v
 
 ![](assets/audiences_rule_patio.png)
 
-La regola risultante è un pubblico definito comprendente gli utenti di Chrome e Safari che hanno visitato la pagina Home &amp; Garden (casa e giardino). Il segmento Patio &amp; Furniture (cortile e mobili) fornisce un approfondimento aggiuntivo su tutti i visitatori di quella sezione del sito.
+La regola risultante è un pubblico definito composto dagli utenti di Chrome e Safari che hanno visitato Home &amp; Garden (casa e giardino). Il segmento Patio &amp; Furniture (Patio &amp; Furniture) fornisce informazioni aggiuntive su tutti i visitatori che visitano la sezione del sito.
 
 ![](assets/defined_audience.png)
 
 * **Stima storica:** (cerchio punteggiato) rappresenta le regole create basandosi sui dati di [!DNL Analytics].
-* **Destinatario effettivo:** (cerchio con linea continua) tutte le regole create contenenti 30 giorni di dati da Audience Manager. Quando i dati di Audience Manager raggiungono i 30 giorni, la linea punteggiata diventa continua e rappresenta i numeri effettivi.
+* **Pubblico effettivo:** (Cerchio pieno) Qualsiasi regola creata con 30 giorni di dati da Audience Manager. Quando i dati di Audience Manager raggiungono i 30 giorni, la linea diventa continua e rappresenta i numeri effettivi.
 
-Al completamento della raccolta dei dati per il periodo specificato, i cerchi vengono uniti per mostrare un pubblico definito.
+Al termine della raccolta dei dati per il periodo specificato, i cerchi si combinano per mostrare un&#39;audience definita.
 
-Una volta salbvato, il pubblico diventa disponibile per altre soluzioni. Ad esempio, puoi includere un pubblico condiviso in un&#39;attività di Target.
+Dopo il salvataggio, l&#39;audience è disponibile per altre soluzioni. Ad esempio, puoi includere un&#39;audience condivisa in un&#39;attività di Adobe Target.
