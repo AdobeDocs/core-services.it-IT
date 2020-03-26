@@ -7,20 +7,20 @@ solution: Marketing Cloud,Analytics,Target,Social
 title: Cookie di Target
 uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
 translation-type: tm+mt
-source-git-commit: 29d8f983cf6961b3e567e672ee803e12b330fee7
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
 
-# Cookie di Target{#target-cookies}
+# Adobe Target Cookies{#target-cookies}
 
-Target utilizza i cookie per consentire agli operatori dei siti Web di verificare quali contenuti e offerte online sono più rilevanti per i visitatori.
+Adobe Target utilizza i cookie per consentire agli operatori del sito Web di verificare quali contenuti e offerte online sono più rilevanti per i visitatori.
 
-Puoi modificare queste impostazioni, se necessario, fatta eccezione per la durata dei cookie. In caso di modifica delle impostazioni dei cookie, rivolgiti al rappresentante di riferimento per il tuo account.
+Puoi modificare queste impostazioni, se necessario, fatta eccezione per la durata dei cookie. Consultate il rappresentante commerciale di riferimento quando modificate le impostazioni dei cookie.
 
 >[!NOTE]
 >
->Gli utenti di Target possono inoltre creare cookie di terze parti personalizzati.
+>Gli utenti di Adobe Target possono anche creare cookie personalizzati di terze parti.
 
 <table id="table_54B402C6E19C4A70B1E27BC9DFF776EB"> 
  <thead> 
@@ -40,11 +40,11 @@ Puoi modificare queste impostazioni, se necessario, fatta eccezione per la durat
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dominio server </p> </td> 
-   <td colname="col2"> <p> <span class="filepath"> clientcode.tt.omtrdc.net</span>, utilizzando il codice client del tuo account Target. </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> clientcode.tt.omtrdc.net</span>, utilizzo del codice client per l'account Adobe Target. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Durata cookie </p> </td> 
-   <td colname="col2"> <p>Il cookie rimane sul browser del visitatore due anni dopo il suo ultimo accesso. Non puoi modificare la durata del cookie. </p> </td> 
+   <td colname="col2"> <p>Il cookie rimane sul browser del visitatore due anni dopo il suo ultimo accesso. Non potete modificare la durata del cookie. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,7 +53,7 @@ Puoi modificare queste impostazioni, se necessario, fatta eccezione per la durat
 >
 >Se uno dei tuoi nomi di dominio include un codice del paese, ad esempio [!DNL mycompany.co.uk], rivolgiti al team dei servizi client per configurare il [!DNL mbox.js] da supportare.
 
-Nel cookie è conservata una serie di valori per la gestione dell’esperienza dei visitatori in relazione alle campagne di Target:
+Il cookie mantiene una serie di valori per gestire il modo in cui i visitatori sperimentano le campagne Adobe Target:
 
 <table id="table_5245F72A2D5A4322B40ABB10B7DFB338"> 
  <thead> 
@@ -65,7 +65,7 @@ Nel cookie è conservata una serie di valori per la gestione dell’esperienza d
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> session ID</span> </p> </td> 
-   <td colname="col2"> <p>Un ID univoco per una sessione utente. Per impostazione predefinita, la sua durata è di 30 minuti. </p> </td> 
+   <td colname="col2"> <p>Un ID univoco per una sessione utente. Per impostazione predefinita, questa durata è di 30 minuti. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> pc ID</span> </p> </td> 
