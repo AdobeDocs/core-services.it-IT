@@ -1,13 +1,13 @@
 ---
 description: Data Workbench utilizza i cookie per analizzare in tempo reale grandi quantità di dati in rapida evoluzione.
-keywords: cookie;privacy
+keywords: cookies;privacy
 seo-description: Data Workbench utilizza i cookie per analizzare in tempo reale grandi quantità di dati in rapida evoluzione.
 seo-title: Cookie di Data Workbench
-solution: Experience Cloud,Analytics,Target,Social
+solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: Cookie di Data Workbench
 uuid: c15013f4-c47d-4950-aa19-be9afd25cd5f
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
