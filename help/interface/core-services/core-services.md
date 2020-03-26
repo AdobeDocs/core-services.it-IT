@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Abilita le tue soluzioni per i servizi di base
 uuid: 5820060f-9b18-4339-81e0-401d964f7a03
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 979520e2f0e015180a3b51d4b0b88b96b72301a3
 
 ---
 
@@ -199,7 +199,7 @@ Utilizza le seguenti funzionalità del servizio di base.
 
 ![](assets/menu-audiences-shell.png)
 
-### [!UICONTROL Persone] > [!UICONTROl Attributi del cliente]
+### [!UICONTROL Persone] > Attributi [!UICONTROL cliente]
 
 Se acquisisci dati del cliente di livello Enterprise in un database CRM (Customer Relationship Management), puoi caricare tali dati in una sorgente dati di attributi cliente in Experience Cloud. Una volta effettuato l&#39;aggiornamento, sfrutta i dati in [!DNL Adobe Analytics] e [!DNL Adobe Target].
 
