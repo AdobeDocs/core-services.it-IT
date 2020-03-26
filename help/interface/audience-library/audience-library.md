@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Audiences
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
 translation-type: tm+mt
-source-git-commit: 14d6e0ae15b023ad4dd3f8aca0606f26b39a21e9
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -39,14 +39,14 @@ La tabella seguente descrive come i tipi di pubblico vengono utilizzati nelle so
 | Experience Cloud Audiences | Crea, gestisci e condividi tipi di pubblico in modo nativo mediante l’interfaccia della [Libreria Pubblico](../audience-library/audience-library.md). È possibile:<ul><li>Utilizzo di audience in tempo reale tramite gli attributi di analisi non elaborati</li><li>Combinazione di tipi di pubblico per creare un pubblico composito, unire dati storici e in tempo reale</li><li>Vedere visualizzazioni grafiche delle dimensioni stimate dell&#39;audience</li></ul><br>Per suggerimenti sul tipo di pubblico da creare, consulta: Audience [Experience Cloud](https://helpx.adobe.com/marketing-cloud-core/kb/People/Audience-Creation-Options.html). |
 | Analytics | Durante l&#39;attività di segmentazione, puoi costruire un segmento, combinarlo con una suite di rapporti e quindi  [ pubblicarlo in Experience Cloud](../audience-library/audience-library.md). Il segmento pubblicato viene visualizzato nella pagina [Audiences](../audience-library/audience-library.md). Il tipo di pubblico è inoltre disponibile come pubblico di destinazione per un&#39;esperienza di campagna in Adobe Target e in Audience Manager. Once an audience is shared from Analytics, and selected for use in an active campaign, all the visitor profiles who met the segment definition criteria for the past 90 days are sent to the Experience Cloud [!UICONTROL Audience Services] platform. Il limite per i tipi di pubblico condivisi è stato aumentato a 75. Il pubblico condiviso con Experience Cloud da Analytics non può superare i 20 milioni di membri unici. Inoltre, a causa della cache, sono necessarie 12 ore prima che l&#39;eliminazione delle suite di rapporti in Analytics possa essere visibile in Experience Cloud. |
 | Mobile Services | Analizzare il traffico mobile utilizzando la visualizzazione sunburst nel rapporto Tipi [!UICONTROL di] dispositivi. |
-| Target | The [ID service](https://docs.adobe.com/content/help/en/id-service/using/home.html) unifies visitor IDs and data into a single, actionable profile for use across solutions. La casella di controllo [Pubblica in Experience Cloud](../audience-library/audience-library.md), selezionabile in fase di creazione del segmento in Adobe Analytics, permette di rendere disponibile il segmento nella libreria di tipi di pubblico personalizzata di Adobe Target. Puoi utilizzare un segmento creato in Analytics o Audience Manager per attività in Target.  Ad esempio, puoi creare campagne sulla base delle metriche di conversione di Analytics e sui segmenti di pubblico creati in Analytics. |
+| [!DNL Target] | The [ID service](https://docs.adobe.com/content/help/en/id-service/using/home.html) unifies visitor IDs and data into a single, actionable profile for use across solutions. La casella di controllo [Pubblica in Experience Cloud](../audience-library/audience-library.md), selezionabile in fase di creazione del segmento in Adobe Analytics, permette di rendere disponibile il segmento nella libreria di tipi di pubblico personalizzata di Adobe Target. A segment created in Analytics or Audience Manager can be used for activities in  [!DNL Target].  Ad esempio, puoi creare campagne sulla base delle metriche di conversione di Analytics e sui segmenti di pubblico creati in Analytics. |
 | Audience Manager | Le audience condivise sono disponibili nella segmentazione di Audience Manager. Tutti i tipi di pubblico di Experience Cloud sono disponibili in formato nativo in Audience Manager, che fornisce:<ul><li>Automazione incorporata per quanto riguarda il modo in cui vengono condivisi e utilizzati nei flussi di lavoro delle soluzioni</li><li>Destinazioni fuori sede</li><li>Modellazione simile</li></ul> |
 | Campaign | <ul><li>importare i tipi di pubblico condivisi da diverse soluzioni Adobe Experience Cloud in Adobe Campaign;</li><li>Esportare gli elenchi dei destinatari sotto forma di audience condivise. Questi tipi di pubblico condivisi possono essere utilizzati nelle diverse soluzioni Adobe Experience Cloud che utilizzi.</li></ul> |
 | Media Optimizer | Utilizzate l&#39;audience come target. |
 
 >[!IMPORTANT]
 >
->Quando un visitatore si qualifica per l&#39;audience condivisa da Analytics, si verifica un ritardo di 4-8 ore prima che tali informazioni siano fruibili in Target, Ad Cloud e Campaign Standard.
+>Once a visitor qualifies for the audience shared from Analytics, there is a 4-8 hour delay before that information is actionable in [!DNL Target], Ad Cloud, and Campaign Standard.
 
 ## Ulteriore aiuto: domande, guida e casi di utilizzo {#section_C7F151644D8A45F7B6FC54F58845635D}
 
