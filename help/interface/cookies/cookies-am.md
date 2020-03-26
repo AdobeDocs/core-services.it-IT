@@ -7,7 +7,7 @@ solution: Marketing Cloud,Audience Manager
 title: Cookie di Audience Manager
 uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -39,7 +39,7 @@ Audience Manager si avvale di alcuni cookie semplici per eseguire funzioni diver
    <td colname="col2"> <p> 
      <ul id="ul_11291DA87C5045E880034E06C863BCDA"> 
       <li id="li_40C30A06A12449A4A8748621223CA71B">Durata: il cookie <span class="wintitle"> demdex </span> ha un intervallo time-to-live (TTL) di 180 giorni. Il TTL viene reimpostato su 180 giorni a ogni interazione dell’utente con un sito Web partner. Il cookie scade se un utente non torna al sito entro l’intervallo TTL. </li> 
-      <li id="li_A589EDA2198249829207A183872EF1FF">Rinuncia: <span class="keyword"> Audience Manager </span> ripristina il cookie con una stringa <span class="codeph"> Do Not Target </span> se un utente rinuncia alla raccolta di dati. In questo caso, il TTL del cookie è impostato su 10 anni. </li> 
+      <li id="li_A589EDA2198249829207A183872EF1FF">Opt-out: <span class="keyword"> Audience Manager </span> resets the cookie with a <span class="codeph"> Do Not Adobe Target </span> string if a user opts-out of data collection. In questo caso, il TTL del cookie è impostato su 10 anni. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -72,7 +72,7 @@ Audience Manager si avvale di alcuni cookie semplici per eseguire funzioni diver
    <td colname="col2"> <p> 
      <ul id="ul_4922AC2CD55D4C888A6FBEB22F8B889B"> 
       <li id="li_91A68C44E53840379C2ACDED25468735">Durata: il cookie <span class="wintitle"> dextp </span> ha un intervallo time-to-live (TTL) di 180 giorni. </li> 
-      <li id="li_6B8C674EFAAC4DABA0A640CF29247F99">Rinuncia: <span class="keyword"> Audience Manager </span> ripristina il cookie con una stringa <span class="codeph"> Do Not Target </span> se un utente rinuncia alla raccolta di dati. In questo caso, il TTL del cookie è impostato su 10 anni. </li> 
+      <li id="li_6B8C674EFAAC4DABA0A640CF29247F99">Opt-out: <span class="keyword"> Audience Manager </span> resets the cookie with a <span class="codeph"> Do Not Adobe Target </span> string if a user opts-out of data collection. In questo caso, il TTL del cookie è impostato su 10 anni. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -140,7 +140,7 @@ La tabella seguente elenca e definisce gli elementi di un cookie [!DNL dextp] in
    <td colname="col2"> <p> 
      <ul id="ul_5D13DD701B484B51BF2808A69A919106"> 
       <li id="li_4E665114C63246FBA32A4E19984D2693">Durata: il cookie <span class="wintitle"> dst </span> ha un intervallo time-to-live (TTL) di 180 giorni. </li> 
-      <li id="li_A682B566704F43D2AB72487EFF212474">Rinuncia: <span class="keyword"> Audience Manager </span> ripristina il cookie con una stringa <span class="codeph"> Do Not Target </span> se un utente rinuncia alla raccolta di dati. </li> 
+      <li id="li_A682B566704F43D2AB72487EFF212474">Opt-out: <span class="keyword"> Audience Manager </span> resets the cookie with a <span class="codeph"> Do Not Adobe Target </span> string if a user opts-out of data collection. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
