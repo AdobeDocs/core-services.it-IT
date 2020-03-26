@@ -1,13 +1,13 @@
 ---
 description: Adobe Analytics utilizza i cookie per differenziare le richieste di browser diversi e memorizzare informazioni utili che un’applicazione può utilizzare in un secondo momento. Possono inoltre essere utilizzati per associare le informazioni di navigazione ai record dei clienti.
-keywords: cookie;privacy
+keywords: cookies;privacy
 seo-description: Adobe Analytics utilizza i cookie per differenziare le richieste di browser diversi e memorizzare informazioni utili che un’applicazione può utilizzare in un secondo momento. Possono inoltre essere utilizzati per associare le informazioni di navigazione ai record dei clienti.
 seo-title: Cookie di Analytics
-solution: Experience Cloud,Analytics,Target,Social
+solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: Cookie di Analytics
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -85,17 +85,17 @@ Ulteriori informazioni sui [cookie di prime parti](/help/interface/cookies/cooki
 
 ## Contrassegni cookie
 
-La tabella seguente descrive i flag per i cookie di Analytics:
+Nella tabella seguente sono descritti i flag per i cookie di Analytics:
 
-| Cookie (impostato da) | httpOnly | Proteggere | SameSite |
+| Cookie (impostato da) | httpOnly | Secure | SameSite |
 |--- |--- |--- |--- |
-| s_vi (risposta http) | No | Sì quando SameSite è "None" e la connessione utilizza HTTPS | "Lax" per impostazione predefinita quando si utilizza CNAME. "None" quando si utilizza 2o7.net o omtrdc.net. |
-| s_ecid (http Response) | No | No | "Lax" |
+| s_vi (risposta http) | No | Sì quando SameSite è &quot;None&quot; e la connessione utilizza HTTPS | &quot;Lax&quot; per impostazione predefinita quando si utilizza CNAME. &quot;None&quot; quando si utilizza 2o7.net o omtrdc.net. |
+| s_ecid (http Response) | No | No | &quot;Lax&quot; |
 | s_fid (Javascript) | No | No | Non impostato |
 | s_cc (Javascript) | No | No | Non impostato |
 | s_sq (Javascript) | No | No | Non impostato |
 
->[!NOTE] Se si utilizza un singolo CNAME per il monitoraggio tra più domini o proprietà, SameSite deve essere impostato su "None" per `s_vi`. Per assistenza sulla modifica delle impostazioni dei cookie di Analytics, contatta l’Assistenza clienti.
+>[!NOTE] Se si utilizza un singolo CNAME per il monitoraggio tra più domini o proprietà, SameSite deve essere impostato su &quot;None&quot; per `s_vi`. Per assistenza sulla modifica delle impostazioni dei cookie di Analytics, contatta l’Assistenza clienti.
 
 ## Cookie impostati da plug-in {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
