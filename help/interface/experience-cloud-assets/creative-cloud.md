@@ -1,28 +1,28 @@
 ---
 description: Condividi cartelle e risorse tra Experience Cloud e Creative Cloud. Collabora, annota risorse condivise e utilizzale nelle soluzioni Experience Cloud, come Social e Target. La cartella condivisa deve provenire da Experience Cloud.
-keywords: condivisione di risorse;Creative Cloud;servizi principali
+keywords: asset sharing;Creative Cloud;core services
 seo-description: Condividi cartelle e risorse tra Experience Cloud e Creative Cloud. Collabora, annota risorse condivise e utilizzale nelle soluzioni Experience Cloud, come Social e Target. La cartella condivisa deve provenire da Experience Cloud.
 seo-title: Condivisione di cartelle e risorse Experience Cloud con Creative Cloud
 solution: Experience Cloud
 title: Condivisione di cartelle e risorse Experience Cloud con Creative Cloud
 uuid: 2bb002a6-e08e-402b-8df0-ecb21ab74490
 translation-type: tm+mt
-source-git-commit: d304e625bd2125854d9ed932674522284995e030
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
 
 # Condivisione di cartelle e risorse Experience Cloud con Creative Cloud
 
-Condividi cartelle e risorse tra Experience Cloud e Creative Cloud. Collabora, annota risorse condivise e utilizzale nelle soluzioni Experience Cloud, come Social e Target. La cartella condivisa deve provenire da Experience Cloud.
+Condividi cartelle e risorse tra Experience Cloud e Creative Cloud. Collabora, annota risorse condivise e utilizzale nelle soluzioni Experience Cloud come Adobe Social e Adobe Target. La cartella condivisa deve provenire da Experience Cloud.
 
 ## Benefici della condivisione {#section_4AA9939F38064280BB181D5F9E1FDEEE}
 
-* Semplificazione dei flussi di lavoro della produzione creativa nella fase di revisione, approvazione e pubblicazione
-* Risparmio di tempo nella gestione di file all'interno del processo e di versioni in più posizioni
-* Tracciamento e gestione più efficiente delle risorse creative
-* Miglioramento della sicurezza aziendale
-* Semplificazione di condivisione, salvataggio e invio di file tra personale creativo e marketing
+* Semplificazione dei flussi di lavoro di produzione creativa nella fase di revisione, approvazione e pubblicazione
+* Risparmio di tempo nella gestione di file e versioni in-process in più posizioni
+* Tracciare e gestire le risorse creative in modo più efficace
+* Maggiore sicurezza aziendale
+* Condivisione, salvataggio e invio semplificati di file tra creativi e professionisti del marketing
 
 Per accedere alle risorse, gli utenti di Creative Cloud devono essere inseriti nella white list di Experience Cloud. Consulta [Gestione degli utenti di Creative Cloud](../experience-cloud-assets/t-admin-add-cc-user.md#task_F36D4F1D49B44F09A54F7371810D2752).
 
@@ -30,4 +30,4 @@ Per accedere alle risorse, gli utenti di Creative Cloud devono essere inseriti n
 
 When creating activities in [!DNL Adobe Target], you can use a shared image asset when swapping images in the [!UICONTROL Offers Library].
 
-Consultate Libreria [](https://docs.adobe.com/help/en/target/using/experiences/offers/manage-content.html) offerte nell' [!DNL Target] Aiuto.
+Consultate Libreria [](https://docs.adobe.com/help/en/target/using/experiences/offers/manage-content.html) offerte nell&#39; [!DNL Target] Aiuto.
