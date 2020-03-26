@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Informazioni sui nuovi nomi cloud in Experience Cloud
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
 translation-type: tm+mt
-source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -52,13 +52,13 @@ Include Media Optimizer e TubeMogul.
 
 ## Quali sono le soluzioni? {#concept_4F52341A45DC49B2B216824B14D54FDA}
 
-Le informazioni seguenti illustrano brevemente le soluzioni e includono collegamenti di aiuto. Sono anche disponibili [casi di utilizzo](https://helpx.adobe.com/marketing-cloud/how-to/use-cases.html) per aiutarti con i flussi di lavoro di marketing digitali.
+Le informazioni seguenti illustrano brevemente le soluzioni e includono collegamenti di aiuto. [Sono inoltre disponibili esempi](https://helpx.adobe.com/marketing-cloud/how-to/use-cases.html) di utilizzo per aiutarti con i flussi di lavoro di marketing digitali.
 
 ![](assets/mc_analytics_32.png) [Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/landing/home.html)
 
 Per iniziare a usare Analytics:
 
-1. Crea la tua prima suite di rapporti Analytics (archivio di dati) seguendo i passaggi descritti in [Guida introduttiva ad Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html).
+1. Crea la tua prima suite di rapporti Analytics (archivio dati) utilizzando i passaggi descritti in [Guida introduttiva ad Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html).
 1. Quindi, distribuisci il codice Analytics utilizzando [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html).
 
 Experience Platform Launch è la nuova generazione di gestione tag e ti offre un modo semplice per implementare e gestire tutti i tag di analisi, marketing e pubblicità.
@@ -72,10 +72,10 @@ Vedi anche:
 
 Adobe Target si integra con Analytics e altri servizi di base Experience Cloud. Argomenti introduttivi utili:
 
-* [Configurazione di Target](https://docs.adobe.com/content/help/en/target/using/administer/administrating-target.html)
-* [Come funziona Target](https://docs.adobe.com/content/help/en/target/using/introduction/how-target-works.html)
-* [Primi passaggi per l&#39;amministratore](https://docs.adobe.com/content/help/en/target/using/administer/start-target.html)
-* [Uso di Analytics come origine di reporting per Target](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html)
+* [Impostazione di Target](https://docs.adobe.com/content/help/en/target/using/administer/administrating-target.html)
+* [Come funziona Adobe Target](https://docs.adobe.com/content/help/en/target/using/introduction/how-target-works.html)
+* [Primi passaggi per l’amministratore](https://docs.adobe.com/content/help/en/target/using/administer/start-target.html)
+* [Utilizzo di Analytics come origine di reporting per Adobe Target](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html)
 
 ![](assets/mc_social_32.png) [Adobe Social](https://docs.adobe.com/content/help/en/social/using/home.html)
 
@@ -101,7 +101,7 @@ Con Adobe Campaign puoi progettare, distribuire e misurare le campagne su tutti 
 
 ![](assets/primetime_app_32.png) [Adobe Primetime](https://help.adobe.com/en_US/primetime/)
 
-Adobe Primetime è la piattaforma TV multischermo che aiuta le emittenti a creare esperienze legate alla TV e ai film coinvolgenti e personalizzabili per qualsiasi tipo di pubblico.
+Adobe Primetime è una piattaforma TV multischermo che aiuta le emittenti a creare esperienze TV e cinematografiche coinvolgenti e personalizzabili per qualsiasi tipo di pubblico.
 
 ## Cosa sono i servizi di base? {#concept_38AC4888C3F84694AE4F60311C21B9C2}
 
@@ -113,11 +113,11 @@ Adobe Primetime è la piattaforma TV multischermo che aiuta le emittenti a crear
 |--- |--- |
 | [Activation](activation/activation.md) | Sistemi di gestione dei tag (Experience Platform Launch e Gestione tag dinamica).<br>Triggers consente di intervenire in tempo reale in Adobe Campaign sulla base delle informazioni provenienti da Adobe Analytics. |
 | [Amministrazione](admin-getting-started/admin-getting-started.md) | Gestisci adesioni di utenti e prodotti in tutti i cloud e le soluzioni Adobe. |
-| [Risorse](experience-cloud-assets/experience-cloud-assets.md) | Archivia, sincronizza e condividi semplicemente tutte le risorse digitali in una postazione centralizzata, per risparmiare tempo e fornire un&#39;esperienza cliente più coerente. |
-| [Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) | Launch è la soluzione Adobe di nuova generazione per la gestione dei tag. Launch offre ai clienti un modo semplice di implementare e gestire tutti i tag di analisi, marketing e annunci pubblicitari necessari per fornire ai clienti esperienze personalizzate. |
-| [Orchestrazione viaggio](https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html) | Creare casi di utilizzo di orchestrazione in tempo reale utilizzando i dati contestuali memorizzati in eventi o origini dati. [!UICONTROL Journey Orchestration] è un servizio di applicazione integrato con Experience Platform. |
-| [Servizio posizione](https://docs.adobe.com/content/help/en/places/using/home.html) | Adobe Experience Platform Location Service (Location Service) è un servizio di geolocalizzazione che consente alle app mobili con consapevolezza della posizione di comprendere il contesto della posizione mediante l’uso di interfacce SDK ricche e facili da usare, accompagnate da un database flessibile di punti di interesse (POI). |
-| Offerte | La gestione delle offerte fornisce le funzionalità di creazione offerte, gestione e supporto decisionale su tutti i canali di Experience Cloud. |
+| [Risorse](experience-cloud-assets/experience-cloud-assets.md) | Archivia, sincronizza e condividi facilmente tutte le tue risorse digitali in una posizione centrale, per risparmiare tempo e offrire ai clienti un&#39;esperienza più coerente. |
+| [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) | [!UICONTROL Experience Platform Launch è la soluzione Adobe di nuova generazione per la gestione dei tag. ] [!UICONTROL Experience Platform Launch] offre ai clienti un modo semplice per implementare e gestire tutti i tag di analisi, marketing e pubblicità necessari per sviluppare esperienze cliente rilevanti. |
+| [Journey Orchestration](https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html) | Creare casi di utilizzo di orchestrazione in tempo reale utilizzando i dati contestuali memorizzati in eventi o origini dati. [!UICONTROL Journey Orchestration] è un servizio di applicazione integrato con Experience Platform. |
+| [Servizio di localizzazione](https://docs.adobe.com/content/help/en/places/using/home.html) | Adobe [!UICONTROL Experience Platform Location Service] (Location Service) è un servizio di geolocalizzazione che consente alle app mobili con consapevolezza della posizione di comprendere il contesto della posizione mediante l’uso di interfacce SDK ricche e facili da usare, accompagnate da un database flessibile di punti di interesse (POI). |
+| Offerte | Gestione delle offerte offre la creazione, la gestione e la decisione delle offerte su tutti i canali in Experience Cloud. |
 | [Exchange](exchange.md) | Cerca, sfoglia, seleziona, paga e scarica estensioni Digital Marketing tramite app. |
 | [Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) | Adobe Mobile Services riunisce le funzionalità di marketing mobile di applicazioni per dispositivi mobili da Experience Cloud, consentendoti di comprendere e migliorare il coinvolgimento degli utenti con le applicazioni mobili. |
-| Persone | Crea una visualizzazione completa dei singoli clienti, connettendo dati Adobe e non-Adobe nelle tue soluzioni Experience Cloud. Scopri quali sono i loro interessi mentre interagiscono con i vari punti di contatto. Riconosci i consumatori più fedeli quando accedono da dispositivi sconosciuti. Puoi persino raggruppare gli utenti in tipi di pubblico per iniziative di marketing mirate.<br>[Audiences](audience-library/audience-library.md) - Dividi in categorie o tipi di pubblico diversi tipi di clienti, quindi condividili tra le soluzioni Marketing Cloud.<br>[Attributi del cliente](attributes/attributes.md) - Arricchimento del pubblico che consente di collegare le informazioni del consumatore raccolte al di fuori di Marketing Cloud.<br>[Grafico dispositivo](https://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html) - Collabora con i marchi più popolari al mondo per riconoscere un consumatore noto dietro a un dispositivo non noto (in versione beta, solo per i membri di Marketing Cloud Device Co-op). |
+| Persone | Crea una visualizzazione completa dei singoli clienti, connettendo dati Adobe e non-Adobe nelle tue soluzioni Experience Cloud. Scopri quali sono i loro interessi mentre interagiscono con i vari punti di contatto. Riconosci i consumatori più fedeli quando accedono da dispositivi sconosciuti. Potete anche raggruppare gli utenti in audience per attività di marketing mirate.<br>[Audiences](audience-library/audience-library.md) - Dividi in categorie o tipi di pubblico diversi tipi di clienti, quindi condividili tra le soluzioni Marketing Cloud.<br>[Attributi del cliente](attributes/attributes.md) - Arricchimento del pubblico che consente di collegare le informazioni del consumatore raccolte al di fuori di Marketing Cloud.<br>[Grafico](https://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html) dispositivo - Collabora con i marchi più popolari al mondo per riconoscere un consumatore familiare dietro un dispositivo sconosciuto. (in versione beta, solo per i membri di Marketing Cloud Device Co-op). |
