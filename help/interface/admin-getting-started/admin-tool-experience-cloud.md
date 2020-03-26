@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 'Visualizza utenti e dettagli utente di Experience Cloud '
 index: true
 translation-type: tm+mt
-source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 
 Gli amministratori possono visualizzare un elenco ordinabile e filtrabile di tutti gli utenti Experience Cloud e dei loro dettagli in Admin Tool. I dettagli utente includono l’accesso ai prodotti, i ruoli e le informazioni sull’ultimo accesso. (**Nota:** La gestione di utenti e prodotti è configurata in [Admin Console](admin-getting-started.md).
 
-1. Log in to `https://experience.adobe.com/.`
+1. Accedi a `https://experience.adobe.com/.`
 
    ![](assets/admin-tool.png)
 
@@ -36,7 +36,7 @@ In questa pagina viene visualizzato l’elenco completo degli utenti con accesso
 |---|---|
 | [!UICONTROL Nome] | Nome e cognome dell’utente. Puoi ordinare questa colonna da A a Z e da Z a A.  Fate clic sul nome di un utente per visualizzare ulteriori dettagli sull’utente. |
 | [!UICONTROL E-mail] | L’indirizzo e-mail associato all’utente. La colonna può essere ordinata A->Z, Z->A. |
-| [!UICONTROL Tipo di ID] | Il tipo di identità per l&#39;account dell&#39;utente. È possibile applicare un filtro per visualizzare tipi di ID specifici. Per ulteriori informazioni, consulta [Gestione dei tipi](https://helpx.adobe.com/enterprise/using/identity.html) di identità. |
+| [!UICONTROL Tipo ID] | Il tipo di identità per l&#39;account dell&#39;utente. È possibile applicare un filtro per visualizzare tipi di ID specifici. Per ulteriori informazioni, consulta [Gestione dei tipi](https://helpx.adobe.com/enterprise/using/identity.html) di identità. |
 | [!UICONTROL Soluzioni] | Riepilogo delle soluzioni Experience Cloud a cui l&#39;utente può accedere. Potete applicare i filtri per limitare l&#39;elenco di utenti con accesso specifico alla soluzione. |
 | [!UICONTROL Ultimo login] | Ora e data dell’accesso utente più recente a Experience Cloud. Questa colonna può essere ordinata in base a date ascendenti o discendenti. <br> **Importante:** A partire dal 13 gennaio 2020, gli ultimi dati di accesso di un utente saranno conservati per 365 giorni. Queste informazioni sono volte a mostrare l’attività di accesso corrente in Experience Cloud e non a consigliare di intervenire sugli account inattivi prima del 13 gennaio 2020. |
 
@@ -70,7 +70,7 @@ In questa sezione viene visualizzato un riepilogo dell’account utente che incl
 * Nome
 * E-mail
 * Nome utente (gli account ID federati possono avere nomi utente diversi dall’indirizzo e-mail)
-* [Tipo di ID](https://helpx.adobe.com/enterprise/using/identity.html)
+* [Tipo ID](https://helpx.adobe.com/enterprise/using/identity.html)
 * Paese
 * Ultimo login
 
@@ -85,7 +85,7 @@ In questa sezione viene visualizzato un elenco completo di tutti i profili di pr
 | Elemento | Descrizione |
 |---------|----------|
 | [!UICONTROL Prodotto] | Nome del prodotto associato al profilo di prodotto. |
-| [!UICONTROL Instance] | Nome dell&#39;istanza (ad esempio società di accesso o tenant) associata al prodotto e al profilo di prodotto. |
-| [!UICONTROL Profilo prodotto] | Nome univoco del profilo di prodotto. |
+| [!UICONTROL Istanza] | Nome dell&#39;istanza (ad esempio società di accesso o tenant) associata al prodotto e al profilo di prodotto. |
+| [!UICONTROL Profilo di prodotto] | Nome univoco del profilo di prodotto. |
 | [!UICONTROL Assegnato dal gruppo] | Nome del gruppo di utenti che associa l’utente a un profilo di prodotto. I risultati vuoti indicano che l&#39;utente è stato assegnato direttamente al profilo di prodotto, non tramite un gruppo. |
-| [!UICONTROL Ruoli prodotto] | Assegnazione del ruolo dell&#39;utente all&#39;interno del profilo di prodotto. Attualmente, queste informazioni sono valide solo per i profili di prodotto Target. |
+| [!UICONTROL Ruoli prodotto] | Assegnazione del ruolo dell&#39;utente all&#39;interno del profilo di prodotto. Attualmente, queste informazioni sono valide solo per i profili di prodotto Adobe Target. |
