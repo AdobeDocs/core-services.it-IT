@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Creazione di una sorgente attributo cliente e caricamento del file di dati
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -82,7 +82,6 @@ Segui questi passaggi nella pagina Crea nuova origine attributo del cliente in E
    ![Risultato passaggio](assets/04_crs_usecase.png)
 1. Nella pagina [!UICONTROL Modifica origine attributo del cliente] configura i campi seguenti:
 
-
    * **[!UICONTROL Nome:]** un nome descrittivo per l’origine dell’attributo dei dati. In [!DNL Adobe Target], i nomi degli attributi non possono includere spazi. Se viene passato un attributo con uno spazio, [!DNL Target] lo ignora. Altri caratteri non supportati sono: `< , >, ', "`.
 
    * **[!UICONTROL Descrizione:]** (facoltativo) una descrizione per l’origine dell’attributo dei dati.
@@ -97,18 +96,15 @@ Segui questi passaggi nella pagina Crea nuova origine attributo del cliente in E
 
          Ad esempio, *“crm_ id”* in:
 
-
          ```
          "crm_id":"67312378756723456"
          ```
-
 
       * **iOS:** L’ID alias corrisponde a *&quot;idType&quot;* in [visitorSyncIdentifiers:identifiers](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html).
 
          Ad esempio:
 
          `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
-
 
       * **Android:** L&#39;ID alias corrisponde a *&quot;idType&quot;* in [syncIdentifiers](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html).
 
@@ -119,15 +115,12 @@ Segui questi passaggi nella pagina Crea nuova origine attributo del cliente in E
          Consulta [Utilizzo di più origini dati](../attributes/crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB) per ulteriori informazioni sull’elaborazione dei dati in merito al campo ID alias e agli ID cliente.
    * **[!UICONTROL Caricamento file:]** puoi trascinare il file di dati `.csv` o caricare i dati tramite FTP. (Con un FTP serve anche un file `.fin`.) Consulta [Caricamento dei dati tramite FTP](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B).
 
-
       >[!IMPORTANT]
       >
       >Esistono dei requisiti del file di dati specifici. Consulta [Requisiti dei file di dati](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) per ulteriori informazioni.
 
 
       Dopo aver caricato il file, i dati della tabella vengono visualizzati nell’intestazione Caricamento  file di questa pagina. È possibile convalidare lo schema, configurare sottoscrizioni o impostare l&#39;FTP.
-
-
 
       **Grafico caricamento del file**
 
@@ -138,13 +131,6 @@ Segui questi passaggi nella pagina Crea nuova origine attributo del cliente in E
    * **[!UICONTROL ID forniti dal cliente come alias degli ID visitatore di Experience Cloud:]** mostra quanti ID sono impostati come alias degli ID visitatore di Experience Cloud.
 
    * **[!UICONTROL ID forniti dal cliente con soglia degli alias elevata:]** visualizza il numero di ID forniti dal cliente con 500 o più ID visitatore di Experience Cloud con alias. Questi ID forniti dal cliente non rappresentano individui ma accessi condivisi. Il sistema distribuisce gli attributi associati a questi ID ai 500 ID visitatore di Experience Cloud con alias più recenti, fino a raggiungere la soglia di 10.000. Una volta raggiunto tale numero, il sistema invalida l&#39;ID fornito dal cliente e non distribuisce più attributi associati.
-
-
-
-
-
-
-
 
 
 
@@ -159,7 +145,6 @@ Per eliminare gli attributi, consulta [(Facoltativo) Aggiornare lo schema (elimi
 ## (Facoltativo) Aggiornare lo schema (eliminare gli attributi) {#task_6568898BB7C44A42ABFB86532B89063C}
 
 Informazioni su come eliminare e sostituire gli attributi nello schema.
-
 
 1. Nella pagina [!UICONTROL Modifica origine attributo del cliente], rimuovi la sottoscrizione a **[!UICONTROL Target]** o **[!UICONTROL Analytics]** (in [!UICONTROL Configura sottoscrizioni]).
 1. [Carica un nuovo file di dati con campi aggiornati](../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8).
@@ -183,7 +168,7 @@ Con i dati ora disponibili in soluzioni come
 Adobe Analytics
 </keyword>, puoi generare rapporti sui dati, analizzarli e intraprendere le azioni necessarie nelle campagne di marketing.
 
-L&#39;esempio seguente mostra un segmento di [!DNL Analytics] basato su attributi multipli. Questo segmento mostra utenti con sottoscrizione di Photoshop Lightroom il cui prodotto maggiormente lanciato è Photoshop.
+L&#39;esempio seguente mostra un segmento di [!DNL Analytics] basato su attributi multipli. This segment shows [!DNL Photoshop Lightroom] subscribers whose most-launched product is Photoshop.
 
 ![](assets/08_crs_usecase.png)
 
@@ -193,7 +178,7 @@ Consulta Report [attributi](https://docs.adobe.com/help/en/analytics/components/
 
 ## Usare gli attributi del cliente in Adobe Target {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
-In Target puoi selezionare un attributo del cliente dalla sezione Profilo visitatore al momento della creazione di un tipo di pubblico. Tutti gli attributi del cliente avranno il prefisso [!DNL crs.] nell’elenco. Per creare di tipi di pubblico combina questi attributi con altri attributi di dati.
+In [!DNL Target] puoi selezionare un attributo del cliente dalla sezione Profilo visitatore al momento della creazione di un tipo di pubblico.  Tutti gli attributi del cliente avranno il prefisso [!DNL crs.] nell’elenco. Per creare di tipi di pubblico combina questi attributi con altri attributi di dati.
 
 ![](assets/crs-add-attribute-target.png)
 
