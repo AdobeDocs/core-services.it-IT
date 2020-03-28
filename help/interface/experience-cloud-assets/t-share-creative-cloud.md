@@ -1,13 +1,13 @@
 ---
 description: Condividi una cartella di risorse Experience Cloud con utenti Creative Cloud.
-keywords: condivisione di risorse;Creative Cloud;servizi principali
+keywords: asset sharing;Creative Cloud;core services
 seo-description: Condividi una cartella di risorse Experience Cloud con utenti Creative Cloud.
 seo-title: Condivisione di una cartella di risorse Experience Cloud
 solution: Experience Cloud
 title: Condivisione di una cartella di risorse Experience Cloud
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
 translation-type: tm+mt
-source-git-commit: d304e625bd2125854d9ed932674522284995e030
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -24,7 +24,7 @@ Condividi una cartella di risorse Experience Cloud con utenti Creative Cloud.
    ![](assets/asset-share-cc-page.png)
 
 1. Fai clic su **[!UICONTROL Condividi]**.
-1. Avvia l'applicazione desktop [!DNL Creative Cloud] (oppure passa alla pagina [!UICONTROL Creative Cloud Files (File di Creative Cloud)] in un browser) e cerca la richiesta.
+1. Avvia l&#39;applicazione desktop [!DNL Creative Cloud] (oppure passa alla pagina [!UICONTROL Creative Cloud Files (File di Creative Cloud)] in un browser) e cerca la richiesta.
 
    ![](assets/cc_share_request.png)
 1. Apri la richiesta, quindi fai clic su **[!UICONTROL Accetta]**.
@@ -33,13 +33,13 @@ Condividi una cartella di risorse Experience Cloud con utenti Creative Cloud.
 1. Per accedere ai contenuti della cartella fai clic su **[!UICONTROL Apri cartella]** (oppure su **[!UICONTROL Vedi sul Web]**).
 
    ![Risultato passaggio](assets/creative_cloud_open_folder.png)
-1. Continua con l'aggiunta di commenti sulla risorsa condivisa:
+1. Continua con l&#39;aggiunta di commenti sulla risorsa condivisa:
 
-   In Creative Cloud, per aggiungere un commento all'immagine puoi fare clic su un'immagine, quindi fare clic su **[!UICONTROL Attività]**. I commenti vengono sincronizzati sulle risorse in [!DNL Creative Cloud] e [!DNL Experience Cloud].
+   In Creative Cloud, per aggiungere un commento all&#39;immagine puoi fare clic su un&#39;immagine, quindi fare clic su **[!UICONTROL Attività]**. I commenti vengono sincronizzati sulle risorse in [!DNL Creative Cloud] e [!DNL Experience Cloud].
 
    ![](assets/asset_comment_cc.png)
 
-   In Experience Cloud, per aggiungere un commento a un'immagine fai clic su un'immagine, quindi fai clic sull'icona della cronologia. I commenti vengono sincronizzati sulle risorse in Creative Cloud e Experience Cloud.
+   In Experience Cloud, per aggiungere un commento a un&#39;immagine fai clic su un&#39;immagine, quindi fai clic sull&#39;icona della cronologia. I commenti vengono sincronizzati sulle risorse in Creative Cloud e Experience Cloud.
 
    ![](assets/asset_comment_mac.png)
 
@@ -48,10 +48,11 @@ Condividi una cartella di risorse Experience Cloud con utenti Creative Cloud.
 ![](assets/asset_remove_user.png)
 
 Quando hai rimosso tutti gli utenti di Creative Cloud, la cartella non è più condivisa e gli utenti di Creative Cloud non possono più accedervi.
+
 Altri metodi per utilizzare una risorsa condivisa:
 
 * Utilizzare il [!UICONTROL selettore delle risorse] in [!DNL Adobe Social] per i post social.
-* Load or swap assets in the [Offers Library](https://docs.adobe.com/help/en/target/using/experiences/offers/manage-content.html) in [!DNL Adobe Target] for images in activities.
+* Caricate o scambiate le risorse nella libreria [Offerte](https://docs.adobe.com/help/en/target/using/experiences/offers/manage-content.html) in [!DNL Adobe Target] per le immagini delle attività.
 
 Dopo aver condiviso una cartella su Creative Cloud, visualizzerai il logo Creative Cloud sulla cartella.
 
