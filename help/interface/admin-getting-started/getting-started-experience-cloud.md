@@ -1,26 +1,20 @@
 ---
 description: Scopri come accedere a Experience Cloud, gestire le password e le notifiche e specificare una pagina di destinazione predefinita.
-keywords: core services
+keywords: core services, sign in to Experience Cloud
 seo-description: Scopri come accedere a Experience Cloud, gestire le password e le notifiche e specificare una pagina di destinazione predefinita.
 seo-title: Accesso e gestione delle impostazioni del profilo
-solution: Marketing Cloud
-title: Accesso e gestione delle impostazioni del profilo
+solution: Experience Cloud
+title: Accedi e gestisci le impostazioni del tuo profilo Experience Cloud
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
 
-# Accesso e gestione delle impostazioni del profilo
+# Accedi e gestisci le impostazioni del tuo profilo Experience Cloud
 
-L&#39;accesso a Experience Cloud (anziché a una singola soluzione) consente il single sign-on a tutte le soluzioni e i servizi che possedete. Scopri come accedere a Experience Cloud, gestire le password e le notifiche e specificare una pagina di destinazione predefinita.
-
-<!-- t_sign_in.xml -->
-
-<!-- notifications.xml -->
-
-<!-- t_get_access.xml -->
+L&#39;accesso a Experience Cloud (anziché a una singola soluzione) consente il single sign-on a tutte le soluzioni e i servizi che possedete. Questa guida descrive come accedere a Experience Cloud, gestire password e notifiche e specificare una pagina di destinazione predefinita.
 
 >[!IMPORTANT]
 >
