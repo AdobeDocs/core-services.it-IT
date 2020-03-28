@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Informazioni sui nuovi nomi cloud in Experience Cloud
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -105,19 +105,6 @@ Adobe Primetime è una piattaforma TV multischermo che aiuta le emittenti a crea
 
 ## Cosa sono i servizi di base? {#concept_38AC4888C3F84694AE4F60311C21B9C2}
 
-[I servizi di base](core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C) includono funzionalità che semplificano l’implementazione dei prodotti e abilitano flussi di lavoro tra soluzioni, ad esempio la segmentazione del pubblico, il caricamento di attributi cliente e strumenti di collaborazione.
+[I servizi di base](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services-landing.html) includono funzionalità che semplificano l’implementazione dei prodotti e abilitano flussi di lavoro tra soluzioni, ad esempio la segmentazione del pubblico, il caricamento di attributi cliente e strumenti di collaborazione.
 
 ![](assets/core-services.png)
-
-| Servizio di base | Descrizione |
-|--- |--- |
-| [Activation](activation/activation.md) | Sistemi di gestione dei tag (Experience Platform Launch e Gestione tag dinamica).<br>Triggers consente di intervenire in tempo reale in Adobe Campaign sulla base delle informazioni provenienti da Adobe Analytics. |
-| [Amministrazione](admin-getting-started/admin-getting-started.md) | Gestisci adesioni di utenti e prodotti in tutti i cloud e le soluzioni Adobe. |
-| [Risorse](experience-cloud-assets/experience-cloud-assets.md) | Archivia, sincronizza e condividi facilmente tutte le tue risorse digitali in una posizione centrale, per risparmiare tempo e offrire ai clienti un&#39;esperienza più coerente. |
-| [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) | [!UICONTROL Experience Platform Launch è la soluzione Adobe di nuova generazione per la gestione dei tag. ] [!UICONTROL Experience Platform Launch] offre ai clienti un modo semplice per implementare e gestire tutti i tag di analisi, marketing e pubblicità necessari per sviluppare esperienze cliente rilevanti. |
-| [Journey Orchestration](https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html) | Creare casi di utilizzo di orchestrazione in tempo reale utilizzando i dati contestuali memorizzati in eventi o origini dati. [!UICONTROL Journey Orchestration] è un servizio di applicazione integrato con Experience Platform. |
-| [Servizio di localizzazione](https://docs.adobe.com/content/help/en/places/using/home.html) | Adobe [!UICONTROL Experience Platform Location Service] (Location Service) è un servizio di geolocalizzazione che consente alle app mobili con consapevolezza della posizione di comprendere il contesto della posizione mediante l’uso di interfacce SDK ricche e facili da usare, accompagnate da un database flessibile di punti di interesse (POI). |
-| Offerte | Gestione delle offerte offre la creazione, la gestione e la decisione delle offerte su tutti i canali in Experience Cloud. |
-| [Exchange](exchange.md) | Cerca, sfoglia, seleziona, paga e scarica estensioni Digital Marketing tramite app. |
-| [Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) | Adobe Mobile Services riunisce le funzionalità di marketing mobile di applicazioni per dispositivi mobili da Experience Cloud, consentendoti di comprendere e migliorare il coinvolgimento degli utenti con le applicazioni mobili. |
-| Persone | Crea una visualizzazione completa dei singoli clienti, connettendo dati Adobe e non-Adobe nelle tue soluzioni Experience Cloud. Scopri quali sono i loro interessi mentre interagiscono con i vari punti di contatto. Riconosci i consumatori più fedeli quando accedono da dispositivi sconosciuti. Potete anche raggruppare gli utenti in audience per attività di marketing mirate.<br>[Audiences](audience-library/audience-library.md) - Dividi in categorie o tipi di pubblico diversi tipi di clienti, quindi condividili tra le soluzioni Marketing Cloud.<br>[Attributi del cliente](attributes/attributes.md) - Arricchimento del pubblico che consente di collegare le informazioni del consumatore raccolte al di fuori di Marketing Cloud.<br>[Grafico](https://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html) dispositivo - Collabora con i marchi più popolari al mondo per riconoscere un consumatore familiare dietro un dispositivo sconosciuto. (in versione beta, solo per i membri di Marketing Cloud Device Co-op). |
