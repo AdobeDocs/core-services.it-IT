@@ -4,7 +4,7 @@ user-guide-title: Core Services User Guide
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 # Guida utente servizi principali {#interface}
 
 + [Documentazione sul prodotto Experience Cloud e servizi di base](experience-cloud.md)
-+ Informazioni sui servizi di base {#about-core-services}
++ Servizi di base in Experience Cloud {#about-core-services}
    + [Panoramica sui servizi principali](core-services-landing.md)
    + [Abilita le soluzioni per i servizi di base](core-services/core-services.md)
    + [Mappatura di suite di rapporti per un’organizzazione](core-services/report-suite-mapping.md)
@@ -33,7 +33,7 @@ source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
    + [Abilitazione delle impostazioni della privacy per i cookie del browser](cookies/browser-cookie-settings.md)
    + [Le modifiche al supporto dei cookie di terze parti influiscono sui clienti](cookies/cookies-thirdparty.md)
 + Gestione di utenti e prodotti {#manage-users-and-products}
-   + [Gestione di utenti e prodotti Experience Cloud (Admin Console)](admin-getting-started/admin-getting-started.md)
+   + [Gestione dell&#39;identità utente e dei prodotti Experience Cloud (Admin Console)](admin-getting-started/admin-getting-started.md)
    + [Visualizza i dettagli utente di Experience Cloud (Strumenti di amministrazione)](admin-getting-started/admin-tool-experience-cloud.md)
    + [Domande frequenti](admin-getting-started/faq.md)
    + [Accesso e gestione delle impostazioni del profilo](admin-getting-started/getting-started-experience-cloud.md)
