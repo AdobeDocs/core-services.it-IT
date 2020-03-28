@@ -7,14 +7,12 @@ solution: Experience Cloud
 title: Attributi cliente
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
 
 # Attributi cliente
-
-## Panoramica
 
 To locate [!UICONTROL customer attributes] navigate to **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**
 
@@ -23,7 +21,6 @@ Se acquisisci dati del cliente di livello Enterprise in un database CRM (Custome
 ![](assets/custom_reports.png)
 
 ## Prerequisiti per il caricamento di attributi del cliente {#section_BD38693AFBF34926BA28E964963B4EA0}
-
 
 * **Abilitazione della soluzione:** [Abilitare le soluzioni per i servizi principali](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C).
 
@@ -34,7 +31,6 @@ Se acquisisci dati del cliente di livello Enterprise in un database CRM (Custome
    Gli utenti che vengono aggiunti al gruppo Attributi del cliente visualizzeranno la voce di menu [!UICONTROL Attributi cliente] presente sul lato sinistro dell&#39;interfaccia Experience Cloud.
 
 * **Per gli attributi del cliente è necessario Adobe Target** (qualsiasi versione) o [!DNL at.js] [!DNL mbox.js] versione 58 o successiva.
-
 
    Consultate [Come distribuire l&#39;implementazione at.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html) o [Mbox.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-download.html).
 
@@ -59,4 +55,4 @@ Ad esempio:
 | Soluzione | Vantaggi e casi di utilizzo |
 |--- |--- |
 | Adobe Analytics | Gli esperti di marketing e gli analisti possono comprendere:<ul><li>Campagne online più efficaci con i clienti di livello gold.</li><li>I prodotti cercati dai clienti di livello gold rispetto ai prodotti cercati dai clienti di livello platinum.</li><li>Se la riprogettazione del sito ha un impatto positivo sui tassi di conversione per i clienti meno recenti.</li><li>Quali sono i prodotti che i clienti con un lifetime value basso tendono a cercare sul sito.</li></ul> |
-| Adobe Target | I dati attributo consentono agli utenti di Adobe Target di:<ul><li>Mostra sconti e offerte speciali ai membri del club fedeltà.</li><li>Consiglia prodotti più costosi ai clienti di lusso.</li><li>Per i clienti che già ricevono le e-mail, visualizzate un&#39;offerta di upselling nello spazio normalmente riservato alle registrazioni delle e-mail</li></ul> |
+| Adobe Target | I dati attributo consentono agli utenti di Adobe Target di:<ul><li>Mostra sconti e offerte speciali ai membri del club fedeltà.</li><li>Consiglia prodotti più costosi ai clienti di lusso.</li><li>Per i clienti che già ricevono le e-mail, visualizzate un&#39;offerta up-sell nello spazio normalmente riservato alle registrazioni e-mail</li></ul> |
