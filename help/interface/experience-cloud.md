@@ -7,7 +7,7 @@ solution: Adobe Experience Cloud
 title: Aiuto per Experience Cloud e servizi di base
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: e2cfce353d4b1f21c08b7ddf76e491c6aeba03ba
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: e2cfce353d4b1f21c08b7ddf76e491c6aeba03ba
 
 ![Experience Cloud](assets/banner.png)
 
-Questa pagina fornisce supporto autonomo, documentazione tecnica e di prodotto per le soluzioni e i servizi Adobe Experience Cloud. Experience Cloud è un insieme integrato di soluzioni e servizi di marketing digitali realizzati da Adobe. È anche un&#39;interfaccia intuitiva che ti consente di accedere rapidamente a soluzioni e servizi di base cloud.
+Questa pagina fornisce supporto autonomo, supporto e documentazione tecnica e di prodotto per le soluzioni e i servizi Adobe Experience Cloud. Experience Cloud è un insieme integrato di soluzioni e servizi di marketing digitali realizzati da Adobe. È anche un&#39;interfaccia intuitiva che consente di accedere rapidamente alle soluzioni cloud e ai servizi di base.
 
 ## Cosa vuoi imparare?
 
@@ -28,9 +28,9 @@ Questa pagina fornisce supporto autonomo, documentazione tecnica e di prodotto p
 * [Blog](https://theblog.adobe.com/customer-experience/) sull&#39;esperienza dei clienti - Leggi il blog Experience Cloud
 * [Assistenza](https://helpx.adobe.com/contact/enterprise-support.ec.html) clienti - Contatta l&#39;Assistenza clienti Adobe
 
-## Documentazione prodotto servizi di base
+## Documentazione sui servizi di base
 
-* [Panoramica sui servizi di base](https://theblog.adobe.com/part-2-capturing-leveraging-consumer-behavior-adobe-marketing-cloud/) (blog)
+* [Panoramica](https://theblog.adobe.com/part-2-capturing-leveraging-consumer-behavior-adobe-marketing-cloud/) sui servizi di base (blog)
 * [Adobe Mobile](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
 * [Tipi di pubblico](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)
 * [Risorse](experience-cloud-assets/experience-cloud-assets.md)
