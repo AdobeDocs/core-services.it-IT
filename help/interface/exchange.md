@@ -1,38 +1,35 @@
 ---
-description: Exchange Marketplace è un'unica destinazione in cui è possibile eseguire ricerche, sfogliare, selezionare, pagare e scaricare estensioni Digital Marketing tramite app. Le app includono Data Connectors, configurazioni personalizzate per il prodotto di base di Adobe, applicazioni di terze parti e rapporti.
+description: Exchange Marketplace è un'unica destinazione in cui è possibile eseguire ricerche, sfogliare, selezionare, pagare e scaricare estensioni Digital Marketing tramite app. Le app includono connettori dati, configurazioni personalizzate per il prodotto di base di Adobe, applicazioni di terze parti e rapporti.
 keywords: core services
-seo-description: Exchange Marketplace è un'unica destinazione in cui è possibile eseguire ricerche, sfogliare, selezionare, pagare e scaricare estensioni Digital Marketing tramite app. Le app includono Data Connectors, configurazioni personalizzate per il prodotto di base di Adobe, applicazioni di terze parti e rapporti.
+seo-description: Exchange Marketplace è un'unica destinazione in cui è possibile eseguire ricerche, sfogliare, selezionare, pagare e scaricare estensioni Digital Marketing tramite app. Le app includono connettori dati, configurazioni personalizzate per il prodotto di base di Adobe, applicazioni di terze parti e rapporti.
 seo-title: Marketplace di Exchange
 solution: Experience Cloud
 title: Marketplace di Exchange
 uuid: 73db5cc5-5fb2-43a2-a164-5cbca9e9a206
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
 
 # Marketplace di Exchange
 
-Exchange Marketplace è un'unica destinazione in cui è possibile eseguire ricerche, sfogliare, selezionare, pagare e scaricare estensioni Digital Marketing tramite app. Le app includono Data Connectors, configurazioni personalizzate per il prodotto di base di Adobe, applicazioni di terze parti e rapporti.
+Exchange Marketplace è un&#39;unica destinazione in cui è possibile eseguire ricerche, sfogliare, selezionare, pagare e scaricare estensioni Digital Marketing tramite app. Le app includono connettori dati, configurazioni personalizzate per il prodotto di base di Adobe, applicazioni di terze parti e rapporti.
 
-**[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL Aiuto]** &gt; **[!UICONTROL Exchange]**
+**[!UICONTROL Experience Cloud]** > **[!UICONTROL Aiuto]** > **[!UICONTROL Exchange]**
 
-<!-- <p>https://wiki.corp.adobe.com/display/marketingcloud/Marketing+Cloud+Exchange </p> 
-<p>https://wiki.corp.adobe.com/display/marketingcloud/Marketplace+Implementation#MarketplaceImplementation-Anonymousvsauthenticatedexperience </p> -->
+* Scaricate SDK, leggete documentazione e inviate applicazioni a Digital Marketing per una recensione.
 
-* Scarica gli SDK, leggi la documentazione e invia applicazioni a Digital Marketing per una recensione.
-
-* I clienti possono cercare, selezionare, e installare le estensioni Digital Marketing.
+* I clienti possono cercare, selezionare e installare estensioni Digital Marketing.
 
 * Gli amministratori possono configurare le applicazioni scaricate.
 
-* Recensisci i prodotti inviati dagli sviluppatori, sfoglia le applicazioni e commenta o dai un voto a ciascuna applicazione.
+* Esaminate gli invii degli sviluppatori, sfogliate l&#39;applicazione e commentate o date un voto a ciascuna applicazione.
 
-* Boccia o approva le applicazioni.
+* Rifiuta o approva le applicazioni.
 
 * Pubblica in Experience Cloud.
 
-* Effettua ricerche e filtra per categoria, azienda, tipo, utente e altro.
+* Consente di cercare e filtrare per categoria, società, tipo, utente e altro.
 
-Per ulteriori informazioni vedi [Experience Cloud Exchange](https://exchange.adobe.com/experiencecloud.html).
+See [Experience Cloud Exchange](https://exchange.adobe.com/experiencecloud.html) for more information.
