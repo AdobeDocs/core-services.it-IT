@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Domande frequenti, limitazioni e best practice
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -18,11 +18,11 @@ Domande frequenti e best practice per attributi cliente in Analytics e Target.
 
 ## Best practice e limitazioni {#section_7F5189B3DAA84EE6865B91D2026EE05A}
 
-Guida e limitazioni per l&#39;utilizzo degli attributi cliente.
+Linee guida e limitazioni per l&#39;utilizzo degli attributi cliente.
 
 | Problema | Descrizione |
 |--- |--- |
-| Limitazioni di iscrizione attributi cliente | Quando si esegue l&#39;aggiornamento ad Analytics Premium, si verifica un ritardo di 24 ore prima che gli attributi aggiuntivi siano disponibili. Potresti visualizzare un errore Sottoscrizione attributi max durante questo ritardo. |
+| [!UICONTROL Limiti di sottoscrizione attributi] cliente | Quando si esegue l&#39;aggiornamento ad Analytics Premium, si verifica un ritardo di 24 ore prima che gli attributi aggiuntivi siano disponibili. Potresti visualizzare un errore Sottoscrizione attributi max durante questo ritardo. |
 | Più accessi sullo stesso dispositivo | Quando si utilizzano gli attributi del cliente per caricare i profili del cliente in un&#39;origine dati, Adobe consiglia agli utenti che condividono lo stesso dispositivo (ossia lo stesso Experience Cloud ID). In questo modo il servizio ECID, che persiste sul dispositivo, potrebbe collegare più utenti con lo stesso Experience Cloud ID, dando origine a risultati imprevisti [!DNL Target]. **Nota:** Per Mobile, l&#39;ECID è permanente dopo l&#39;installazione dell&#39;app Mobile e devi reinstallare l&#39;app per generare un nuovo ECID. Per Web, viene generato un nuovo ECID dopo che il cookie del browser viene cancellato. |
 | Limitazione del caricamento giornaliero delle frequenze | Adobe consiglia di aggiornare gli attributi del cliente una sola volta al giorno. Devi aspettare almeno 24 ore per caricare un altro file di dati del profilo cliente per lo stesso set di profili. |
 | ID Analytics personalizzato (`s.visitorID`) | L&#39;impostazione di un ID cliente usando `s.visitorID` è un metodo di identificazione degli utenti in Analytics. Tuttavia, le integrazioni in cui i dati di Analytics vengono esportati o importati tramite il servizio ID non funzioneranno quando un visitatore viene identificato utilizzando `s.visitorID.`<br>Questo include, ma non è limitato, audience condivise, Analytics for Adobe Target (A4T) e Attributi del cliente.<br>Per queste integrazioni, l&#39;impostazione di un ID Analytics personalizzato non è supportata. |
@@ -43,5 +43,5 @@ Guida e limitazioni per l&#39;utilizzo degli attributi cliente.
 | **(Solo Adobe Target)** In che modo la funzionalità degli attributi del cliente viene confrontata con l&#39;API del profilo di massa di Adobe Target? | L&#39;API del profilo in massa consente ai profili di Adobe Target di essere aggiornati direttamente tramite l&#39;API, sia per un profilo singolo che in massa. La funzionalità è simile agli attributi del cliente, con le seguenti differenze chiave:<ul><li>L&#39;API profilo è una chiamata REST API e gli attributi del cliente utilizzano l&#39;FTP.</li><li>L&#39;API del profilo di Adobe Target invia solo dati ad Adobe Target invece che all&#39;intero Experience Cloud.</li><li>Gli attributi del cliente forniscono una semplice interfaccia per creare e gestire questi dati esterni.</li></ul> |
 | **(Solo Adobe Target)** Il caricamento di dati dagli attributi del cliente in Adobe Target estende la durata del profilo del visitatore di Adobe Target? | Sì. Consulta [Durata del profilo del visitatore](https://docs.adobe.com/content/help/en/target/using/audiences/visitor-profiles/visitor-profile.html) nell&#39;Aiuto di Adobe Target. |
 | **(Solo Adobe Target)** Posso eseguire il targeting dei dati caricati negli attributi del cliente subito dopo che il visitatore è identificato dall&#39;ID cliente? | Sì. Nella chiamata del server ad Adobe Target, che include l&#39;ID di terze parti mbox, tutti i dati dell&#39;attributo del cliente saranno disponibili. |
-| **(Solo Adobe Target)** Cosa rappresenta la colonna Stato **[!UICONTROL di]** sincronizzazione per i file caricati in Origine attributo del cliente? | Per visualizzare il numero di record pubblicati e sincronizzati da Adobe Target, fai clic sull&#39;icona Sinc. stato in corrispondenza di un file attributo specifico. `Sync %` è una metrica in tempo reale che specifica la percentuale di profili sincronizzati in Adobe Target.<br> **Nota:** La sincronizzazione degli attributi con Adobe Target potrebbe richiedere fino a 24 ore. |
+| **(Solo Adobe Target)** Cosa rappresenta la colonna Stato **[!UICONTROL di]** sincronizzazione per i file caricati nell&#39;origine attributo del cliente? | Per visualizzare il numero di record pubblicati e sincronizzati da Adobe Target, fai clic sull&#39;icona Sinc. stato in corrispondenza di un file attributo specifico. `Sync %` è una metrica in tempo reale che specifica la percentuale di profili sincronizzati in Adobe Target.<br> **Nota:** La sincronizzazione degli attributi con Adobe Target potrebbe richiedere fino a 24 ore. |
 | Cosa rappresentano le metriche di caricamento dei file nell&#39;origine degli attributi del cliente? | Puoi controllare lo stato degli attributi caricati in Attributi del cliente con l&#39;aiuto delle metriche seguenti: <ul><li>Record:  Numero di record nel file degli attributi.</li><li>**Nuovi record:** Numero di nuovi record presenti nel file degli attributi.</li> <li>**Record aggiornati:** Numero di record già presenti in Attributi cliente con valori aggiornati nel file.</li><li>**Tutti i dati (record):** Numero totale di record caricati correttamente in Attributi cliente.</li></ul> |
