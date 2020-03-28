@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 'Visualizza utenti e dettagli utente di Experience Cloud '
 index: true
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -76,7 +76,7 @@ In questa sezione viene visualizzato un riepilogo dell’account utente che incl
 
 ## Riepilogo delle soluzioni
 
-In questa sezione viene visualizzato un riepilogo delle soluzioni Experience Cloud a cui l&#39;utente può accedere. Include, se applicabile, il ruolo di amministrazione del prodotto
+In questa sezione viene visualizzato un riepilogo delle soluzioni Experience Cloud a cui l&#39;utente può accedere. Include il ruolo amministrativo del prodotto, se applicabile.
 
 ## Elenco dettagliato di accesso al prodotto
 
