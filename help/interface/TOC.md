@@ -1,17 +1,17 @@
 ---
 audience: end-user
-user-guide-title: Core Services User Guide
+user-guide-title: Guida utente servizi principali
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 1c1562f7977f4ca6f175416e4d9fa9632f6141d4
 
 ---
 
 
 # Guida utente servizi principali {#interface}
 
-+ [Documentazione sul prodotto Experience Cloud e servizi di base](experience-cloud.md)
++ [Documentazione di prodotto di Experience Cloud e dei servizi di base](experience-cloud.md)
 + Servizi di base in Experience Cloud {#about-core-services}
    + [Panoramica sui servizi principali](core-services-landing.md)
    + [Abilita le soluzioni per i servizi di base](core-services/core-services.md)
@@ -41,8 +41,8 @@ source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
    + [Aggiornamento ad Analytics Premium e Experience Cloud](admin-getting-started/upgrade-to-analytics-premium.md)
 + Attivazione di Experience Cloud {#activation}
    + [Panoramica di Activation](activation/activation.md)
-   + [Guida utente di Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html)
-   + [Guida utente di Gestione tag dinamica](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
+   + [Guida utente di Launch](https://docs.adobe.com/content/help/it-IT/launch/using/overview.html)
+   + [Guida utente di Gestione tag dinamica](https://docs.adobe.com/content/help/it-IT/dtm/using/dtm-home.html)
    + [Triggers](activation/triggers.md)
 + Experience Cloud assets {#assets}
    + [Panoramica delle risorse Experience Cloud](experience-cloud-assets/experience-cloud-assets.md)
@@ -76,10 +76,10 @@ source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
    + [Posizionamenti](offer-management/placements.md)
    + [Campaign](offer-management/campaign.md)
 + Note sulla versione di Experience Cloud {#release-notes}
-   + [Novità in Experience Cloud](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)
+   + [Novità in Experience Cloud](https://docs.adobe.com/content/help/it-IT/release-notes/experience-cloud/current.html)
    + [Note sulla versione cumulativa](marketing-cloud-interface/release-notes.md)
 + [Marketplace di Exchange](exchange.md)
-+ [Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
++ [Mobile Services](https://docs.adobe.com/content/help/it-IT/mobile-services/using/home.html)
 + Altre risorse {#more-resources}
    + [Forum](https://forums.adobe.com/community/experience-cloud)
    + [Terminologia](terms.md)
