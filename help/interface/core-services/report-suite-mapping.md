@@ -5,7 +5,7 @@ seo-title: Mappatura di suite di rapporti per un’organizzazione
 title: Mappatura di suite di rapporti per un’organizzazione
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 Scopri come mappare una o più suite di rapporti per un’organizzazione.
 
-I servizi Experience Cloud (come il servizio Experience Cloud ID e il servizio di base Persone) sono associati a un&#39;organizzazione invece che a una suite di rapporti singola. Per garantire il corretto funzionamento di questi servizi, ogni suite di rapporti di Analytics deve essere mappata su un&#39;organizzazione. Processo di mappatura:
+Experience Cloud services (such as Experience Cloud ID Service and [!UICONTROL People]) are associated with an organization instead of an individual report suite. Per garantire il corretto funzionamento di questi servizi, ogni suite di rapporti di Analytics deve essere mappata su un&#39;organizzazione. Processo di mappatura:
 
 * Imposta un&#39;organizzazione Experience Cloud come organizzazione principale per la suite di rapporti.
 * Non modifica chi può accedere a una suite di rapporti (l&#39;accesso è ancora determinato dall&#39;account di accesso di Adobe Analytics per ogni utente)
@@ -105,7 +105,7 @@ Le suite di rapporti mappate saranno visualizzate in un formato non modificabile
 
 ### Cosa succede se conosco solo l&#39;ID organizzazione per la mia organizzazione Experience Cloud? Come posso cercare il nome per il mio ID organizzazione?
 
-Potete trovare il nome della vostra organizzazione in [Organizzazioni e Impostazioni](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html)account.
+Potete trovare il nome della vostra organizzazione in [Organizzazioni e Impostazioni](https://docs.adobe.com/content/help/it-IT/core-services/interface/manage-users-and-products/organizations.html)account.
 
 ### Visualizzo una data nella colonna “Data di mappatura”. Chi ha eseguito la mappatura?
 
