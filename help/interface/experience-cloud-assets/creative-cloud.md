@@ -6,7 +6,7 @@ seo-title: Condivisione di cartelle e risorse Experience Cloud con Creative Clou
 solution: Experience Cloud
 title: Condivisione di cartelle e risorse Experience Cloud con Creative Cloud
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
 
 ---
 
@@ -29,4 +29,4 @@ Per accedere alle risorse, gli utenti di Creative Cloud devono essere inseriti n
 
 When creating activities in [!DNL Adobe Target], you can use a shared image asset when swapping images in the [!UICONTROL Offers Library].
 
-Consultate Libreria [](https://docs.adobe.com/help/en/target/using/experiences/offers/manage-content.html) offerte nell&#39; [!DNL Target] Aiuto.
+Consultate Libreria [](https://docs.adobe.com/help/it-IT/target/using/experiences/offers/manage-content.html) offerte nell&#39; [!DNL Target] Aiuto.
