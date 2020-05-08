@@ -7,12 +7,15 @@ solution: Adobe Experience Cloud
 title: Aiuto per Experience Cloud e servizi di base
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
+source-git-commit: f3d200aede4ca1739c727d799cfdece40bd24a87
+workflow-type: tm+mt
+source-wordcount: '400'
+ht-degree: 52%
 
 ---
 
 
-# Experience Cloud e la documentazione del prodotto dei servizi di base
+# Experience Cloud documentazione del prodotto di interfaccia
 
 ![Experience Cloud](assets/cloud-pulldown.png)
 
