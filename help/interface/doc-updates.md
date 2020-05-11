@@ -7,7 +7,10 @@ solution: Experience Cloud
 title: Aggiornamenti documentazione - Experience Cloud
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
 translation-type: tm+mt
-source-git-commit: d5f608401b7496fe044826d13e014c8b3bd9fcba
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '229'
+ht-degree: 80%
 
 ---
 
@@ -30,7 +33,7 @@ Sono state aggiunte informazioni su come eliminare un attributo cliente. Consult
 
 **Aggiornato: 08/06/2018**
 
-[Informazioni sui file di dati e le origini dati per gli attributi del cliente](attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) è stato aggiornato con informazioni sul caricamento di più file.
+Updated [About data file and data sources for Customer Attributes](attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) with information about uploading multiple files.
 
 **Aggiornato: 06/06/2018**
 
