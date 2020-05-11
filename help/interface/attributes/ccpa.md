@@ -2,7 +2,7 @@
 title: Supporto degli attributi del cliente per il California Consumer Privacy Act
 description: Supporto degli attributi del cliente per il California Consumer Privacy Act
 translation-type: tm+mt
-source-git-commit: 8709449909ce4fbd441d77fb4bbfb0b7758e805d
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 4%
@@ -12,7 +12,7 @@ ht-degree: 4%
 
 # Supporto degli attributi del cliente per il California Consumer Privacy Act
 
-Questa pagina descrive il supporto degli attributi del [!UICONTROL cliente per il California Consumer Privacy Act (CCPA)] .
+Questa pagina descrive il supporto [!UICONTROL Customer Attributes] per l&#39;accordo sulla privacy dei consumatori (CCPA, California Consumer Privacy Act).
 
 >[!IMPORTANT]
 >
@@ -24,13 +24,13 @@ In qualità di azienda, determinerai i dati personali che Adobe Experience Cloud
 
 In qualità di fornitore di servizi, Adobe Experience Cloud fornisce supporto alla tua azienda per adempiere ai suoi obblighi in virtù dell&#39;accordo di associazione per i servizi e i prodotti Experience Cloud applicabili all&#39;uso di prodotti e servizi Experience Cloud, compresa la gestione delle richieste di accesso ed eliminazione di informazioni personali.
 
-Questo documento descrive come gli attributi [!UICONTROL del] cliente supportano l&#39;accesso e i diritti di eliminazione dei dati CCPA degli interessati tramite l&#39;API Adobe Experience Platform Privacy Service e l&#39;interfaccia utente del servizio per la privacy.
+In questo documento viene descritto come gli attributi [!UICONTROL del] cliente supportano l&#39;accesso e i diritti di eliminazione dei dati CCPA degli interessati tramite l&#39;API Adobe Experience Platform Privacy Service e l&#39;interfaccia utente del servizio Privacy.
 
 Per ulteriori informazioni sui servizi Adobe Privacy per CCPA, visitare il Centro [per la privacy di](https://www.adobe.com/privacy/ccpa.html)Adobe.
 
 ## Configurazione necessaria per inviare richieste per gli attributi [!UICONTROL cliente]
 
-Per richiedere l&#39;accesso e l&#39;eliminazione di dati per gli attributi cliente, dovrete:
+Per richiedere l&#39;accesso e l&#39;eliminazione dei dati per gli attributi cliente, è necessario:
 
 1. Identificate quanto segue:
 
@@ -41,7 +41,7 @@ Per richiedere l&#39;accesso e l&#39;eliminazione di dati per gli attributi clie
 
 1. In [!UICONTROL Privacy Service], puoi inviare le richieste di accesso ed eliminazione agli attributi del cliente e controllare lo stato delle richieste esistenti.
 
-## Valori campo obbligatori nelle richieste JSON degli attributi  cliente
+## Valori campo obbligatori nelle richieste JSON di attributi  cliente
 
 &quot;contesto aziendale&quot;:
 
