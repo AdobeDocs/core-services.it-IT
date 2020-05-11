@@ -7,7 +7,10 @@ solution: Experience Cloud
 title: Activation
 uuid: 54ada638-3592-49ee-930a-9f44bcc5e5d3
 translation-type: tm+mt
-source-git-commit: 29899fcb712847609e1fb17425a85f999e00fe82
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '434'
+ht-degree: 49%
 
 ---
 
@@ -20,7 +23,7 @@ Activation include il più recente prodotto di gestione tag denominato Experienc
 
 Distribuisci e gestisci i tag di analisi, marketing e pubblicità necessari per sviluppare esperienze cliente rilevanti.
 
-See [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html).
+See [Experience Platform Launch](https://docs.adobe.com/content/help/it-IT/launch/using/intro/get-started/quick-start.html).
 
 ## Dynamic Tag Management {#section_C7E000EEF3E6459FB4B6D4A8960DD8F0}
 
@@ -40,10 +43,10 @@ Per avviare Dynamic Tag Management fai clic su **[!UICONTROL Activation]** e inv
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html" format="html" scope="external"> Guide all’implementazione per il servizio Experience Cloud ID </a> </p> </td> 
-   <td colname="col2"> <p>Il servizio Experience Cloud ID abilita funzionalità di base nelle soluzioni Experience Cloud (inclusi attributi del cliente, condivisione di pubblico e attivatori). Adobe consiglia vivamente di implementare il servizio ID e usufruire di queste funzioni. </p> </td> 
+   <td colname="col2"> <p>Il servizio Experience Cloud ID abilita funzionalità di base nelle soluzioni Experience Cloud (inclusi attributi cliente, condivisione di pubblico e attivatori). Adobe consiglia vivamente di implementare il servizio ID e usufruire di queste funzioni. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html" format="https" scope="external"> Documentazione del prodotto Dynamic Tag Management </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/it-IT/dtm/using/dtm-home.html" format="https" scope="external"> Documentazione del prodotto Dynamic Tag Management </a> </p> </td> 
    <td colname="col2"> <p>Scopri di più sulla distribuzione delle soluzioni Experience Cloud con Gestione tag dinamica. </p> </td>
   </tr> 
  </tbody> 
@@ -79,4 +82,4 @@ Per assistenza nell’implementazione della gestione tag dinamica, contatta l’
 
 L’estensione Adobe Experience Cloud Debugger per Chrome esamina le pagine Web e aiuta a individuare problemi nell’implementazione delle soluzioni Experience Cloud.
 
-Consulta [Experience Cloud Debugger](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html) per assistenza.
+Consulta [Experience Cloud Debugger](https://docs.adobe.com/content/help/it-IT/debugger/using/experience-cloud-debugger.html) per assistenza.
