@@ -2,7 +2,7 @@
 title: Supporto degli attributi del cliente per il regolamento generale sulla protezione dei dati
 description: Supporto degli attributi del cliente per il regolamento generale sulla protezione dei dati
 translation-type: tm+mt
-source-git-commit: 8709449909ce4fbd441d77fb4bbfb0b7758e805d
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Supporto degli attributi del cliente per il Regolamento generale sulla protezione dei dati
 
-Questa pagina descrive come gli attributi del cliente supportano il Regolamento generale sulla protezione dei dati (GDPR).
+Questa pagina descrive come Attributi del cliente supporta il Regolamento generale sulla protezione dei dati (General Data Protection Regulation, GDPR).
 
 >[!IMPORTANT]
 >
@@ -22,13 +22,13 @@ Il Regolamento [](https://www.adobe.com/privacy/general-data-protection-regulati
 
 Adobe Experience Cloud agisce come un processore di dati per tutti i dati personali che riceve e archivia per conto dei propri clienti. In qualità di titolare del trattamento, puoi determinare i dati personali che Adobe Experience Cloud elabora e archivia per tuo conto.
 
-In questo documento viene descritto in che modo gli attributi [!UICONTROL del] cliente supportano i diritti di accesso e di eliminazione dei dati GDPR degli interessati tramite l’API Adobe Experience Platform Privacy Service e l’interfaccia utente del servizio per la privacy.
+In questo documento viene descritto come gli attributi [!UICONTROL del] cliente supportano i diritti di accesso e di eliminazione dei dati GDPR degli interessati tramite l&#39;API Adobe Experience Platform Privacy Service e l&#39;interfaccia utente del servizio per la privacy.
 
 Per maggiori informazioni sul significato del GDPR per la tua attività, consulta [GDPR e la sezione dedicata alle tue attività](https://www.adobe.com/it/privacy/general-data-protection-regulation.html).
 
 ## Configurazione necessaria per inviare richieste per gli attributi [!UICONTROL cliente]
 
-Per richiedere l&#39;accesso e l&#39;eliminazione di dati per gli attributi cliente, dovrete:
+Per richiedere l&#39;accesso e l&#39;eliminazione dei dati per gli attributi cliente, è necessario:
 
 1. Identificate quanto segue:
 
@@ -39,7 +39,7 @@ Per richiedere l&#39;accesso e l&#39;eliminazione di dati per gli attributi clie
 
 1. In [!UICONTROL Privacy Service], puoi inviare le richieste di accesso ed eliminazione agli attributi del cliente e controllare lo stato delle richieste esistenti.
 
-## Valori campo obbligatori nelle richieste JSON degli attributi  cliente
+## Valori campo obbligatori nelle richieste JSON di attributi  cliente
 
 &quot;contesto aziendale&quot;:
 
