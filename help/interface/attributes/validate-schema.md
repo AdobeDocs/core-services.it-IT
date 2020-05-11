@@ -1,13 +1,16 @@
 ---
 description: Il procedimento di convalida consente di mappare i nomi e le descrizioni visualizzati agli attributi caricati (stringhe, interi, numeri e così via). Uno schema viene creato in base a queste impostazioni. Lo schema viene utilizzato per convalidare tutti i dati futuri caricati in questa origine dati. Questo processo di mappatura non altera i dati originali.
-keywords: customer attributes;core services
+keywords: Customer Attributes;core services
 seo-description: Il procedimento di convalida consente di mappare i nomi e le descrizioni visualizzati agli attributi caricati (stringhe, interi, numeri e così via). Uno schema viene creato in base a queste impostazioni. Lo schema viene utilizzato per convalidare tutti i dati futuri caricati in questa origine dati. Questo processo di mappatura non altera i dati originali.
 seo-title: Convalida dello schema
 solution: Experience Cloud
 title: Convalida dello schema
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '551'
+ht-degree: 59%
 
 ---
 
@@ -18,7 +21,7 @@ Il procedimento di convalida consente di mappare i nomi e le descrizioni visuali
 
 >[!NOTE]
 >
->L’aggiornamento dello schema dopo la convalida elimina gli attributi del cliente. Consulta [Aggiornare lo schema (elimina anche gli attributi)](../attributes/t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C).
+>Quando si aggiorna lo schema dopo la convalida, vengono eliminati gli attributi cliente. Consulta [Aggiornare lo schema (elimina anche gli attributi)](../attributes/t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C).
 
 **[!UICONTROL Origine]** attributo del cliente > **[!UICONTROL Crea nuova origine]** attributo del cliente > **[!UICONTROL Visualizza/modifica schema]**
 
