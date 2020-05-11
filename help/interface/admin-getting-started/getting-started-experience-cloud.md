@@ -7,7 +7,10 @@ solution: Experience Cloud
 title: Accedi e gestisci le impostazioni del tuo profilo Experience Cloud
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '968'
+ht-degree: 64%
 
 ---
 
@@ -36,9 +39,9 @@ Accedi e verifica di essere nell’[organizzazione](../admin-getting-started/org
 
 | Elemento | Descrizione |
 |--- |--- |
-| [Nozioni di base sulla console di amministrazione](https://helpx.adobe.com/marketing-cloud/how-to/first-time-setup.html) | Scopri i passaggi iniziali da intraprendere per iniziare a utilizzare le soluzioni Experience Cloud. |
-| [Imposta identità](https://helpx.adobe.com/enterprise/using/set-up-identity.html) | Definire e impostare un sistema di identità in base al quale gli utenti finali verranno autenticati. |
-| [Gestione utenti](https://helpx.adobe.com/enterprise/using/users.html) | Scopri come accedere ad Admin Console e gestire le autorizzazioni utente e i profili prodotto di Experience Cloud. |
+| [Nozioni di base sulla console di amministrazione](https://helpx.adobe.com/it/marketing-cloud/how-to/first-time-setup.html) | Scopri i passaggi iniziali da intraprendere per iniziare a utilizzare le soluzioni Experience Cloud. |
+| [Imposta identità](https://helpx.adobe.com/it/enterprise/using/set-up-identity.html) | Definire e impostare un sistema di identità in base al quale gli utenti finali verranno autenticati. |
+| [Gestione utenti](https://helpx.adobe.com/it/enterprise/using/users.html) | Scopri come accedere ad Admin Console e gestire le autorizzazioni utente e i profili prodotto di Experience Cloud. |
 | [Avvia Admin Console](../admin-getting-started/admin-getting-started.md) | Admin Console è la posizione centrale per la gestione degli utenti Adobe e delle adesioni ai prodotti in tutta l&#39;organizzazione.<br>Puoi accedere ad Admin Console anche mediante un [collegamento diretto](https://adminconsole.adobe.com). |
 | [Gestione degli utenti di Creative Cloud](../experience-cloud-assets/t-admin-add-cc-user.md) | Experience Cloud Assets consente di collaborare, sincronizzare e condividere cartelle con designer e altri team creativi tramite Creative Cloud. Puoi gestire gli utenti di Creative Cloud approvati per collaborare con la tua organizzazione qui. |
 | [Mappa le suite di rapporti](../core-services/core-services.md) | (Solo Analytics): i servizi di base di Experience Cloud sono associati a un&#39;organizzazione invece che a una singola suite di rapporti. Per garantire il corretto funzionamento di questi servizi, ogni suite di rapporti di Analytics deve essere mappata su un&#39;organizzazione. (questa attività fa parte di un flusso di lavoro più ampio correlato alla sezione [abilitare Analytics per i servizi di base](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)). |
@@ -77,7 +80,7 @@ Puoi modificare i dati personali e specificare un’[organizzazione](../admin-ge
 
 ## Abilitare notifiche {#concept_0105453AD71847B8BFCAF4A40915F157}
 
-Ricevi notifiche (tramite e-mail o nel prodotto) su aggiornamenti di sistema, avvisi di manutenzione, post, menzioni e risorse condivise. Potete anche specificare i prodotti e le soluzioni per i quali desiderate ricevere le notifiche, incluso lo stato di caricamento per gli attributi del cliente.
+Ricevi notifiche (tramite e-mail o nel prodotto) su aggiornamenti di sistema, avvisi di manutenzione, post, menzioni e risorse condivise. Potete anche specificare i prodotti e le soluzioni per i quali desiderate ricevere le notifiche, incluso lo stato di caricamento per gli attributi cliente.
 
 Per passare a Notifiche, fai clic sull’icona **[!UICONTROL Notifiche]** ![](assets/notifications-icon.png), quindi sull’icona **[!UICONTROL Impostazioni]** ![](assets/icon_edit_board.png).
 
