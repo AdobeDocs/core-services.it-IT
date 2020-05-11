@@ -1,20 +1,23 @@
 ---
-description: Implementa Experience Cloud e diventa amministratore. Questa procedura consente di modernizzare le soluzioni per funzionalità quali attributi del cliente e audience.
-keywords: core services;customer attributes
-seo-description: Implementa Experience Cloud e diventa amministratore. Questa procedura consente di modernizzare le soluzioni per funzionalità quali attributi del cliente e audience.
+description: Implementa Experience Cloud e diventa amministratore. Questa procedura consente di modernizzare le soluzioni per funzioni quali Attributi del cliente e audience.
+keywords: core services;Customer Attributes
+seo-description: Implementa Experience Cloud e diventa amministratore. Questa procedura consente di modernizzare le soluzioni per funzioni quali Attributi del cliente e audience.
 seo-title: Abilitare le soluzioni Experience Cloud per i servizi di base
 solution: Experience Cloud
 title: Abilita le tue soluzioni per i servizi di base
 index: true
 translation-type: tm+mt
-source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '2358'
+ht-degree: 31%
 
 ---
 
 
 # Abilita le tue soluzioni per i servizi di base
 
-Per i clienti esistenti, scopri come modernizzare le implementazioni della soluzione e implementare Experience Cloud in modo da poter utilizzare funzionalità come gli attributi del cliente e i tipi di pubblico. A tal fine, effettuerete le seguenti operazioni:
+Per i clienti esistenti, scopri come modernizzare le implementazioni della soluzione e implementare Experience Cloud in modo da poter utilizzare funzionalità come Attributi del cliente e audience. A tal fine, effettuerete le seguenti operazioni:
 
 1. [Partecipazione a Experience Cloud per diventare un amministratore](#section_2423F0BD3DF642658103310EE5EA6154)
 1. [Implementazione del servizio Experience Cloud ID](#section_3C9F6DF37C654D939625BB4D485E4354)
@@ -117,7 +120,7 @@ Consulta la sezione Servizio *Experience Cloud ID per esempi di sintassi per l�
 
 ### Abilitazione degli attributi per i dati presenti nella cronologia
 
-I dati dell&#39;attributo del cliente vengono resi disponibili dopo l&#39;accesso dei visitatori. Se non hai ancora implementato l’ultimo servizio Experience Cloud ID e se hai tracciato storicamente gli ID cliente in una prop o eVar, puoi richiedere un processo che invia gli accessi cronologici a Experience Cloud. Questo processo consente di iniziare a utilizzare gli attributi del cliente immediatamente.
+I dati dell&#39;attributo del cliente vengono resi disponibili dopo l&#39;accesso dei visitatori. Se non hai ancora implementato l’ultimo servizio Experience Cloud ID e se hai tracciato storicamente gli ID cliente in una prop o eVar, puoi richiedere un processo che invia gli accessi cronologici a Experience Cloud. Questo processo consente di iniziare a utilizzare gli attributi cliente immediatamente.
 
 Contatta l’Assistenza clienti per abilitare i dati della cronologia.
 
@@ -143,7 +146,7 @@ In [!UICONTROL Dynamic Tag Management], click **[!UICONTROL <Web Property Name>]
 
    >[!IMPORTANT]
    >
-   >Tutti i clienti Analytics dispongono già del provisioning per i servizi di base come gli attributi del cliente. Se non sei cliente Analytics, contatta l&#39;Assistenza clienti per richiedere il provisioning.
+   >Tutti i clienti Analytics dispongono già del provisioning per i servizi di base come Attributi del cliente. Se non sei cliente Analytics, contatta l&#39;Assistenza clienti per richiedere il provisioning.
 
 ## Passaggio 6: Verifica dell&#39;implementazione dei servizi di base {#section_E641782A0F4F44AF8C9C91216BE330D5}
 
