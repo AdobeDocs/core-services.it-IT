@@ -7,7 +7,10 @@ solution: Experience Cloud
 title: Note sulla versione cumulative
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 translation-type: tm+mt
-source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '3809'
+ht-degree: 66%
 
 ---
 
@@ -131,18 +134,18 @@ If you access Dynamic Tag Management via the **[!UICONTROL Experience Cloud]** >
 
 ## Rilascio 15.9 - 10 settembre 2015 {#section_BCCE3E7DF62A4FF5A57B9C8FE2A5F37B}
 
-* È stato risolto un problema nelle prestazioni delle API di Audience Manager che causava timeout intermittenti durante il caricamento dei dati degli attributi cliente. (MAC-26305)
-* È stato risolto un problema che impediva agli utenti di aggiungere fino a 200 attributi clienti a una sottoscrizione. (MAC-26188)
+* È stato risolto un problema di prestazioni dell&#39;API Audience Manager che causava timeout intermittenti durante il caricamento dei dati degli attributi cliente. (MAC-26305)
+* È stato risolto un problema che impediva agli utenti di aggiungere fino a 200 attributi cliente a una sottoscrizione. (MAC-26188)
 * È stato risolto un problema relativo alla libreria Audience che impediva la condivisione dell&#39;audience dalla segmentazione di Analytics. Questo problema causava la visualizzazione di &quot;Raccolta di dati&quot; (0 audience). Per evitare questo problema, Adobe consiglia di mantenere le dimensioni del segmento al di sotto dei 50 k membri del pubblico per segmento. (MAC-25788)
 * È stato risolto un problema precedentemente noto sulla pagina Attributi del cliente - Modifica schema che causava un errore in base al contenuto, che si verificava durante la modifica di un nome visualizzato. (MAC-25589, AN-103834)
 
 ## Rilascio 15.7 - 22 luglio 2015  {#section_2683A152176944E48EF6C943892975B7}
 
-* È stato risolto un problema che impediva l’aggiornamento nei report di Analytics delle descrizioni dell’attributo specificato nella pagina Visualizza/Modifica schema (negli attributi del cliente). (MAC-25985)
+* È stato risolto un problema che impediva l&#39;aggiornamento nei report di Analytics delle descrizioni degli attributi specificate nella pagina Visualizza/Modifica schema (in Attributi cliente). (MAC-25985)
 * È stato risolto un problema che impediva il rendering delle miniature per le risorse caricate. (MAC-25863)
 * È stato risolto un problema che impediva ai nuovi segmenti creati in Reports &amp; Analytics di essere disponibili in Experience Cloud Audiences. (MAC-25817)
 * È stato risolto un problema che impediva al pubblico di eseguire condivisioni da Analytics se si utilizzava il servizio ID visitatore. (MAC-25788, MAC-25747)
-* È stato aggiunto il supporto per caratteri multibyte negli attributi del cliente. (MAC-25552)
+* È stato aggiunto il supporto per i caratteri multibyte negli attributi del cliente. (MAC-25552)
 
 **Problema noto**
 
@@ -174,7 +177,7 @@ Nessuna informazione disponibile
  </tbody> 
 </table>
 
-* È stato risolto un problema che impediva agli attributi del cliente di sincronizzarsi per alcuni clienti.
+* È stato risolto un problema che impediva la sincronizzazione degli attributi cliente per alcuni clienti.
 * Fixed an issue preventing [Adobe Target Product Documentation](https://docs.adobe.com/content/help/it-IT/target/using/integrate/a4t/a4t.translate.html) page from displaying in Japanese.
 * È stato risolto un problema che impediva l’utilizzo di testo in giapponese nei commenti tra [!DNL Creative Cloud] e [!DNL Experience Cloud].
 
