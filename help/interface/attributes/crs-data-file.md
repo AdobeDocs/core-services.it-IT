@@ -1,18 +1,21 @@
 ---
 description: Requisiti del file di dati e origini dati multiple per il caricamento degli attributi del cliente in Experience Cloud.
-keywords: customer attributes;core services
+keywords: Customer Attributes;core services
 seo-description: Requisiti del file di dati e origini dati multiple per il caricamento degli attributi del cliente in Experience Cloud.
-seo-title: Informazioni sui file di dati e le origini dati per gli attributi del cliente
+seo-title: Informazioni su file di dati e origini dati per gli attributi del cliente
 solution: Experience Cloud
-title: Informazioni sui file di dati e le origini dati per gli attributi del cliente
+title: Informazioni su file di dati e origini dati per gli attributi del cliente
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '1218'
+ht-degree: 42%
 
 ---
 
 
-# Informazioni sui file di dati e le origini dati per gli attributi del cliente
+# Informazioni su file di dati e origini dati per gli attributi del cliente
 
 Requisiti del file di dati e origini dati multiple per il caricamento degli attributi del cliente in Experience Cloud.
 
@@ -36,7 +39,7 @@ La funzione Attributi del cliente è progettata per gestire alcuni file al giorn
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .fin </span> </p> </td> 
-   <td colname="col2"> <p>(Necessario) Il file <span class="filepath">.fin</span> informa il sistema che il caricamento dei dati è terminato. Il nome del file <span class="filepath">.fin</span> deve corrispondere al nome del file <span class="filepath">.csv</span>. </p> <p>Adobe consiglia di creare un file di testo vuoto con estensione <span class="filepath">.fin</span>. Un file vuoto consente di risparmiare spazio e tempi per il caricamento. </p> <p> <p>Nota: non puoi rinominare un file <span class="filepath">.fin</span> dopo averlo caricato. Devi caricare il file <span class="filepath">.fin</span> separatamente e non può essere un file caricato precedentemente e rinominato. </p> </p> <p>Dopo aver caricato il file <span class="filepath">.fin</span> nell'FTP degli attributi del cliente, il sistema recupera i dati velocemente (in un minuto). In questo si distingue da altri sistemi Adobe basati su FTP, che raccolgono i dati meno frequentemente (una volta all'ora circa). </p> <p>Il file <span class="filepath">.fin</span> non è necessario quando si utilizza il metodo di caricamento di trascinamento della selezione. </p> </td> 
+   <td colname="col2"> <p>(Necessario) Il file <span class="filepath">.fin</span> informa il sistema che il caricamento dei dati è terminato. Il nome del file <span class="filepath">.fin</span> deve corrispondere al nome del file <span class="filepath">.csv</span>. </p> <p>Adobe consiglia di creare un file di testo vuoto con estensione <span class="filepath">.fin</span>. Un file vuoto consente di risparmiare spazio e tempi per il caricamento. </p> <p> <p>Nota: non puoi rinominare un file <span class="filepath">.fin</span> dopo averlo caricato. Devi caricare il file <span class="filepath">.fin</span> separatamente e non può essere un file caricato precedentemente e rinominato. </p> </p> <p>After you upload the <span class="filepath"> .fin </span> file in the Customer Attributes FTP, the system retrieves data quickly (within one minute). In questo si distingue da altri sistemi Adobe basati su FTP, che raccolgono i dati meno frequentemente (una volta all'ora circa). </p> <p>Il file <span class="filepath">.fin</span> non è necessario quando si utilizza il metodo di caricamento di trascinamento della selezione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .gz</span> o <span class="filepath">.zip </span> </p> </td> 
@@ -73,11 +76,11 @@ Lo stesso file visualizzato in un editor di testo:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Colonna ID cliente </p> </td> 
-   <td colname="col2"> <p> La prima colonna deve essere un ID cliente univoco. L’ID utilizzato deve corrispondere all’ID passato al servizio Experience Cloud ID. </p> <p>Per Analytics, l'ID archiviato in una prop o eVar. </p> <p>Per Target, il valore setCustomerID. (See <a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local"> Analytics &amp; Adobe Target - synching the customer ID </a>) </p> <p> Questo ID cliente è l'unico identificatore che CRM usa per ogni persona nel database. Le colonne rimanenti sono attributi provenienti da CRM. Potete scegliere quanti attributi caricare. </p> <p>Per le intestazioni delle colonne sono consigliati nomi semplici e leggibili, ma non obbligatori. Quando convalidate lo schema dopo il caricamento, potete mappare i nomi alle righe e alle colonne caricate. </p> <p> <b>Informazioni sugli ID cliente</b> </p> <p>In genere, un'azienda utilizza un ID cliente da un sistema CRM. Tale ID viene impostato usando la chiamata <span class="codeph">setCustomerIDs</span> quando una persona effettua l'accesso. Questo ID viene anche usato come chiave nel file CRM che viene caricato in Experience Cloud. Un <a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local"> ID alias</a> è un nome semplificato per i dati archiviati in Audience Manager, dove vengono archiviati i dati alias. Il sistema invia alias a questo archivio dati (tramite setCustomerIDs). Il file CRM viene applicato ai dati in tale archivio dati. </p> <p>Per informazioni su <span class="codeph">setCustomerIDs</span> consulta <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html" format="https" scope="external">ID cliente e stati di autenticazione</a>. </p> </td> 
+   <td colname="col2"> <p> La prima colonna deve essere un ID cliente univoco. L’ID utilizzato deve corrispondere all’ID passato al servizio Experience Cloud ID. </p> <p>Per Analytics, l'ID archiviato in una prop o eVar. </p> <p>Per Target, il valore setCustomerID. (See <a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local"> Analytics &amp; Adobe Target - synching the customer ID </a>) </p> <p> Questo ID cliente è l'unico identificatore che CRM usa per ogni persona nel database. Le colonne rimanenti sono attributi provenienti da CRM. Potete scegliere quanti attributi caricare. </p> <p>Per le intestazioni delle colonne sono consigliati nomi semplici e leggibili, ma non obbligatori. Quando convalidate lo schema dopo il caricamento, potete mappare i nomi alle righe e alle colonne caricate. </p> <p> <b>Informazioni sugli ID cliente</b> </p> <p>In genere, un'azienda utilizza un ID cliente da un sistema CRM. Tale ID viene impostato usando la chiamata <span class="codeph">setCustomerIDs</span> quando una persona effettua l'accesso. Questo ID viene anche usato come chiave nel file CRM che viene caricato in Experience Cloud. Un <a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local"> ID alias</a> è un nome semplificato per i dati archiviati in Audience Manager, dove vengono archiviati i dati alias. Il sistema invia alias a questo archivio dati (tramite setCustomerIDs). Il file CRM viene applicato ai dati in tale archivio dati. </p> <p>Per informazioni su <span class="codeph">setCustomerIDs</span> consulta <a href="https://docs.adobe.com/content/help/it-IT/id-service/using/reference/authenticated-state.html" format="https" scope="external">ID cliente e stati di autenticazione</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Intestazioni e colonne successive </p> </td> 
-   <td colname="col2"> <p>Le intestazioni successive devono rappresentare il nome di ciascun attributo. </p> <p> Queste colonne devono contenere gli attributi del cliente derivanti dal CRM. </p> </td> 
+   <td colname="col2"> <p>Le intestazioni successive devono rappresentare il nome di ciascun attributo. </p> <p> Queste colonne devono contenere gli attributi del cliente derivanti da CRM. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Limiti attributi </p> </td> 
@@ -117,7 +120,7 @@ Lo stesso file visualizzato in un editor di testo:
   </tr> 
   <tr> 
    <td colname="col1"> <p>File multipli </p> </td> 
-   <td colname="col2"> <p>Durante il caricamento dei dati dell’attributo del cliente, se devi caricare diversi file in rapida successione, in particolare se sono di grandi dimensioni, accertati che il file precedente sia stato elaborato prima di caricare il file successivo. Puoi monitorare questa situazione verificando se il file precedente è stato spostato nella cartella dei file elaborati o in quella dei non elaborati all’interno dell’account FTP degli attributi del cliente. </p> <p> La suddivisione di un file di grandi dimensioni in file più piccoli inviandoli in rapida successione potrebbe rallentare l’elaborazione, se non ti assicuri che ogni file sia elaborato completamente prima di inviare quello successivo. </p> </td> 
+   <td colname="col2"> <p>Durante il caricamento dei dati dell’attributo del cliente, se devi caricare diversi file in rapida successione, in particolare se sono di grandi dimensioni, accertati che il file precedente sia stato elaborato prima di caricare il file successivo. Puoi controllare se il file precedente è stato spostato nella cartella elaborata o non riuscita all'interno dell'account FTP Attributi del cliente. </p> <p> La suddivisione di un file di grandi dimensioni in file più piccoli inviandoli in rapida successione potrebbe rallentare l’elaborazione, se non ti assicuri che ogni file sia elaborato completamente prima di inviare quello successivo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Codifica caratteri </p> </td> 
@@ -151,8 +154,8 @@ Visitor.setCustomerIDs({
 });
 ```
 
-(Consulta [ID cliente e stati di autenticazione](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) per ulteriori informazioni.)
+(Consulta [ID cliente e stati di autenticazione](https://docs.adobe.com/content/help/it-IT/id-service/using/reference/authenticated-state.html) per ulteriori informazioni.)
 
 In the **[!UICONTROL Experience Cloud]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**:
 
-Crea due origini attributo del cliente con ID alias univoci corrispondenti agli ID cliente sopra. Questo metodo consente di inviare lo stesso ID riferimento a più origini attributo del cliente..
+Crea due origini di attributi cliente utilizzando ID alias univoci corrispondenti agli ID cliente sopra. Questo metodo consente di inviare lo stesso ID riferimento a più origini attributo del cliente.
