@@ -7,10 +7,10 @@ solution: Experience Cloud
 title: Creazione di una sorgente attributo cliente e caricamento del file di dati
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: af5201da6eac644e150783195bdbc8f93760c3f1
 workflow-type: tm+mt
-source-wordcount: '1175'
-ht-degree: 70%
+source-wordcount: '1177'
+ht-degree: 68%
 
 ---
 
@@ -28,23 +28,18 @@ Creazione della sorgente attributo cliente (file CSV e FIN) e caricamento dei da
 1. [Convalida dello schema](../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8)
 1. [Configurazione delle sottoscrizioni e attivazione dell&#39;origine attributo](../attributes/t-crs-usecase.md#task_1ACA21198F0E46A897A320C244DFF6EA)
 
-
 Dopo l&#39;attivazione dell&#39;origine dati puoi:
 
 * [Utilizzare gli attributi del cliente in Adobe Analytics](../attributes/t-crs-usecase.md#task_7EB0680540CE4B65911B2C779210915D)
 * [Utilizzo degli attributi cliente in Adobe Target](../attributes/t-crs-usecase.md#task_FC5F9D9059114027B62DB9B1C7D9E257)
 
-
-
 >[!IMPORTANT]
 >
->Per accedere a questa funzione, gli utenti devono essere assegnati al profilo di prodotto Attributi cliente (Attributi cliente - Accesso standard). ( **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Users]** > ). Users that are added to the Customer Attributes group will see the [!UICONTROL Customer Attributes] menu item in [!UICONTROL Audiences], on the left side of the Experience Cloud interface.
+>Per accedere a questa funzione, gli utenti devono essere assegnati al profilo di prodotto Attributi cliente (Attributi cliente - Accesso standard). Passa a **[!UICONTROL Amministrazione]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Prodotti]**. If *Customer Attributes* displays as one of the [!UICONTROL Product Profiles], you are ready to begin. Users that are added to the Customer Attributes group will see the [!UICONTROL Customer Attributes] menu on the left side of the Experience Cloud interface.
 >
->È inoltre necessaria l&#39;iscrizione al gruppo della soluzione.
+>Per utilizzare la funzione Attributi del cliente, gli utenti devono appartenere anche a gruppi a livello di soluzione (Analytics o [!DNL Target]).
 
-Per utilizzare la funzione Attributi cliente, gli utenti devono appartenere al gruppo Attributi cliente Adobe nella gestione utenti e ai gruppi a livello di soluzione (Analytics o [!DNL Target]).
-
-Consulta [Utenti e gruppi](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9).
+See [Manage Experience Cloud users and products](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9).
 
 ## Creazione di un file di dati {#task_B5FB8C0649374C7A94C45DCF2878EA1A}
 
@@ -52,12 +47,9 @@ Questi dati sono dati aziendali del cliente dal CRM. I dati possono includere i 
 
 1. Crea un `.csv`.
 
-
    >[!NOTE]
    >
    >Successivamente in questa procedura, trascinerai il `.csv` per caricare il file. Tuttavia, se [effettui il caricamento tramite FTP](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B), serve anche un file `.fin` con la stessa denominazione del file `.csv`.
-
-
 
    Esempio di un file di dati di un cliente aziendale:
 
