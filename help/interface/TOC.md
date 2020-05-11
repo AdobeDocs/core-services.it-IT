@@ -4,7 +4,10 @@ user-guide-title: Guida utente all’interfaccia di Experience Cloud
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '363'
+ht-degree: 71%
 
 ---
 
@@ -27,9 +30,9 @@ source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
    + [Cookie di Data Workbench](cookies/cookies-insight.md)
    + [Cookie di Experience Cloud](cookies/cookies-mc.md)
    + [Cookie di Advertising Cloud](cookies/cookies-advertising-cloud.md)
-   + [[!DNL Scene7] cookies](cookies/cookies-s7.md)
-   + [[!DNL Search and Promote] cookies](cookies/cookies-snp.md)
-   + [[!DNL Target] cookies](cookies/cookies-target.md)
+   + [[!DNL Scene7] cookie](cookies/cookies-s7.md)
+   + [[!DNL Search and Promote] cookie](cookies/cookies-snp.md)
+   + [[!DNL Target] cookie](cookies/cookies-target.md)
    + [Abilitazione delle impostazioni della privacy per i cookie del browser](cookies/browser-cookie-settings.md)
    + [Le modifiche al supporto dei cookie di terze parti influiscono sui clienti](cookies/cookies-thirdparty.md)
 + Gestione di utenti e prodotti {#manage-users-and-products}
@@ -61,7 +64,7 @@ source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
 + Attributi del cliente in Experience Cloud {#customer-attributes}
    + [Panoramica degli attributi del cliente](attributes/attributes.md)
    + [Domande frequenti, limitazioni e pratiche consigliate](attributes/faq-crs.md)
-   + [Informazioni sui file di dati e le origini dati per gli attributi del cliente](attributes/crs-data-file.md)
+   + [Informazioni su file di dati e origini dati per gli attributi del cliente](attributes/crs-data-file.md)
    + [Crea un&#39;origine attributo del cliente e carica il file di dati](attributes/t-crs-usecase.md)
    + [Facoltativo - Caricamento del file dati tramite FTP](attributes/t-upload-attributes-ftp.md)
    + [Convalida dello schema](attributes/validate-schema.md)
