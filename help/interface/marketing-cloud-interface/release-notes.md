@@ -7,10 +7,10 @@ solution: Experience Cloud
 title: Note sulla versione cumulative
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 1f7672f43e870c7ab66d68f451c031ea2c5af15b
 workflow-type: tm+mt
-source-wordcount: '3809'
-ht-degree: 66%
+source-wordcount: '3929'
+ht-degree: 67%
 
 ---
 
@@ -22,6 +22,22 @@ Funzionalità, note sulla versione e problemi noti per l’interfaccia Experienc
 Per un elenco degli aggiornamenti della documentazione, consulta [Experience Cloud](../doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
 Per le note sulla versione comprensive di tutte le soluzioni, consulta Note [sulla versione di](https://docs.adobe.com/content/help/it-IT/release-notes/experience-cloud/current.html)Experience Cloud.
+
+## Aprile - 2020
+
+* La pagina [!UICONTROL Feed] di Experience Cloud è stata dichiarata obsoleta. (EXC-8505)
+* La pagina di accesso di Experience Cloud è stata aggiornata con nuovi elementi di branding. (EXC-10747)
+
+## Febbraio - 2020
+
+| Funzione | Descrizione |
+| -----------| ---------- |
+| Admin Tool - visualizza dettagli utente | Gli amministratori possono visualizzare un elenco ordinabile e filtrabile di tutti gli utenti Experience Cloud e dei relativi dettagli nel nuovo Admin Tool. I dettagli utente includono l’accesso ai prodotti, i ruoli e le informazioni sull’ultimo accesso. Consulta la guida [Admin Tool di Experience Cloud](https://docs.adobe.com/content/help/it-IT/core-services/interface/manage-users-and-products/admin-tool-experience-cloud.html) per ulteriori dettagli. |
+
+**Correzioni**
+
+* **Customer Attributes (Attributi del cliente)**: l&#39;interfaccia utente Customer Attributes (Attributi del cliente) adesso mostra nel target gli stati aggiuntivi di profili sincronizzati. (MCUI-10231)
+* **Triggers servizio core:** per mancanza di utilizzo, è stato rimosso il punteggio di propensione &quot;Probabilità di tornare tra 30 giorni&quot; durante la creazione di un trigger di tipo Abandonment (Abbandono). (MCUI-10056)
 
 ## Gennaio - 2020
 
