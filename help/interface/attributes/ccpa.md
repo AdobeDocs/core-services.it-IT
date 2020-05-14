@@ -2,7 +2,7 @@
 title: Supporto degli attributi del cliente per il California Consumer Privacy Act
 description: Supporto degli attributi del cliente per il California Consumer Privacy Act
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 4223f9260865756842ad43b99d2509908f4d6572
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 4%
@@ -10,7 +10,7 @@ ht-degree: 4%
 ---
 
 
-# Supporto degli attributi del cliente per il California Consumer Privacy Act
+# Supporto per gli attributi del cliente in California Consumer Privacy Act
 
 Questa pagina descrive il supporto [!UICONTROL Customer Attributes] per l&#39;accordo sulla privacy dei consumatori (CCPA, California Consumer Privacy Act).
 
