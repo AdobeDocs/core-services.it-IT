@@ -4,10 +4,10 @@ user-guide-title: Guida utente all’interfaccia di Experience Cloud
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 4223f9260865756842ad43b99d2509908f4d6572
+source-git-commit: 1f7672f43e870c7ab66d68f451c031ea2c5af15b
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 69%
+ht-degree: 66%
 
 ---
 
@@ -62,10 +62,10 @@ ht-degree: 69%
    + [Creazione di un pubblico](audience-library/t-audience-create.md)
    + [Pubblicazione di un segmento di pubblico di Analytics](audience-library/t-publish-audience-segment.md)
 + Attributi del cliente in Experience Cloud {#customer-attributes}
-   + [Panoramica degli attributi del cliente](attributes/attributes.md)
+   + [Panoramica sugli attributi del cliente](attributes/attributes.md)
    + [Domande frequenti, limitazioni e pratiche consigliate](attributes/faq-crs.md)
    + [Informazioni su file di dati e origini dati per gli attributi del cliente](attributes/crs-data-file.md)
-   + [Crea un&#39;origine attributo del cliente e carica il file di dati](attributes/t-crs-usecase.md)
+   + [Creare un&#39;origine attributo del cliente e caricare il file di dati](attributes/t-crs-usecase.md)
    + [Facoltativo - Caricamento del file dati tramite FTP](attributes/t-upload-attributes-ftp.md)
    + [Convalida dello schema](attributes/validate-schema.md)
    + [Configurazione delle sottoscrizioni](attributes/subscription.md)
