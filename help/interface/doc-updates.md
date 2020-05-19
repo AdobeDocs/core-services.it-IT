@@ -7,10 +7,10 @@ solution: Experience Cloud
 title: Aggiornamenti documentazione - Experience Cloud
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 39e3b77f19020cffd1bc0218f120f306d676380b
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 80%
+source-wordcount: '251'
+ht-degree: 73%
 
 ---
 
@@ -18,6 +18,17 @@ ht-degree: 80%
 # Aggiornamenti documentazione - Experience Cloud
 
 Informazioni sugli aggiornamenti alla documentazione di prodotto Experience Cloud.
+
+**Aggiornato: 19/05/2020**
+
+Documentazione dettagliata sulla gestione delle offerte.
+
+**Aggiornato: 15/05/2020**
+
+Sono state aggiunte le seguenti pagine:
+
+* [Supporto per il regolamento generale sulla protezione dei dati](attributes/gdpr.md)
+* [Supporto per California Consumer Privacy Act](attributes/ccpa.md)
 
 **Aggiornato: 10/03/2020**
 
