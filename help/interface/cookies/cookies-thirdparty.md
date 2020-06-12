@@ -6,13 +6,16 @@ seo-title: Effetti delle modifiche al supporto dei cookie di terze parti sui cli
 solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: Effetti delle modifiche al supporto dei cookie di terze parti sui clienti
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+workflow-type: ht
+source-wordcount: '368'
+ht-degree: 100%
 
 ---
 
 
-# How changes to third-party cookie support impact customers{#how-changes-to-third-party-cookie-support-impacts-customers}
+# Effetti delle modifiche al supporto dei cookie di terze parti sui clienti {#how-changes-to-third-party-cookie-support-impacts-customers}
 
 Poiché il supporto dei cookie di terze parti è diventato sempre più limitato nei vari browser, Adobe ha lavorato a nuove soluzioni che bilanciano con attenzione i requisiti dei clienti con il diritto alla privacy del consumatore nelle soluzioni Adobe Experience Cloud.
 
@@ -21,7 +24,7 @@ L’elenco seguente illustra l’effetto dei cookie di terze parti sulle impleme
 ## Adobe Analytics e Adobe Target
 
 * Per i clienti con un’[implementazione di prima parte](/help/interface/cookies/cookies-first-party.md), l’effetto è quasi nullo.
-* Customers that are not using first-party implementation can implement the [Experience Platform ID Service](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html) to store the ID cookie as a first-party cookie without a first-party implementation.
+* I clienti che non utilizzano l’implementazione di prime parti possono implementare il [servizio Experience Platform ID](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html) per memorizzare i cookie ID come cookie di prime parti senza un’implementazione di prime parti.
 
 ## Adobe Experience Manager
 
