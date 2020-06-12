@@ -1,6 +1,9 @@
 ---
 source-git-commit: 277e8b855210e1658b7c74f14d2c5f1036ef80a6
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
+source-wordcount: '427'
+ht-degree: 100%
 
 ---
 # Contribuire agli articoli
