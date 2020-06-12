@@ -6,13 +6,16 @@ seo-title: Cookie di Analytics
 solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: Cookie di Analytics
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+workflow-type: ht
+source-wordcount: '812'
+ht-degree: 100%
 
 ---
 
 
-# Cookie di Analytics{#analytics-cookies}
+# Cookie di Analytics {#analytics-cookies}
 
 Adobe Analytics utilizza i cookie per differenziare le richieste di browser diversi e memorizzare informazioni utili che un’applicazione può utilizzare in un secondo momento. Possono inoltre essere utilizzati per associare le informazioni di navigazione ai record dei clienti.
 
@@ -53,7 +56,7 @@ Ulteriori informazioni sui [cookie di prime parti](/help/interface/cookies/cooki
 
 | Attributo | Descrizione |
 |--- |--- |
-| Informazioni memorizzate | Questo cookie viene impostato e letto dal codice JavaScript quando la funzionalità ClickMap o Activity Map sono abilitate; contiene informazioni sul collegamento precedente su cui l’utente ha fatto clic |
+| Informazioni memorizzate | Questo cookie viene impostato e letto dal codice JavaScript quando sono abilitate le funzionalità ClickMap e Activity Map; contiene informazioni sul collegamento precedente su cui l’utente ha fatto clic |
 | Scadenza | Questo è un cookie di sessione e scade quando il browser viene chiuso |
 | Utilizzo | Un solo cookie per tutti gli account |
 | Posizione | Il cookie viene memorizzato nel dominio della pagina |
@@ -66,7 +69,7 @@ Ulteriori informazioni sui [cookie di prime parti](/help/interface/cookies/cooki
 | Informazioni memorizzate | ID visitatore univoco/timestamp |
 | Scadenza | 2 anni |
 | Utilizzo | Questo cookie viene usato per identificare un visitatore univoco |
-| Posizione | Questo cookie viene memorizzato nel dominio della richiesta di immagini - in genere un sottodominio specifico per il cliente in 2o7.net o omtrdc.net se si utilizzano cookie di terze parti, o se il dominio utilizza cookie di prime parti. |
+| Posizione | Questo cookie viene memorizzato nel dominio della richiesta di immagine, in genere 2o7.net o omtrdc.net se utilizzi cookie di terze parti o il tuo dominio se utilizzi cookie di prime parti. |
 | Dimensione | 44 byte |
 
 >[!NOTE]
@@ -79,23 +82,23 @@ Ulteriori informazioni sui [cookie di prime parti](/help/interface/cookies/cooki
 |--- |--- |
 | Informazioni memorizzate | ID visitatore univoco/timestamp di fallback |
 | Scadenza | 2 anni |
-| Utilizzo | Questo cookie viene usato per identificare un visitatore univoco se il `s_vi` cookie standard non è disponibile a causa di restrizioni relative ai cookie di terze parti. Non viene utilizzato per le implementazioni che utilizzano cookie di prime parti. |
+| Utilizzo | Questo cookie viene usato per identificare un visitatore univoco  Se il cookie standard `s_vi` non è disponibile a causa di restrizioni relative ai cookie di terze parti. Non viene utilizzato per le implementazioni che utilizzano cookie di prime parti. |
 | Posizione | Questo cookie viene memorizzato nel dominio come cookie di prime parti. |
 | Dimensione | 33 byte |
 
-## Contrassegni cookie
+## Flag dei cookie
 
 Nella tabella seguente sono descritti i flag per i cookie di Analytics:
 
 | Cookie (impostato da) | httpOnly | Secure | SameSite |
 |--- |--- |--- |--- |
 | s_vi (risposta http) | No | Sì quando SameSite è &quot;None&quot; e la connessione utilizza HTTPS | &quot;Lax&quot; per impostazione predefinita quando si utilizza CNAME. &quot;None&quot; quando si utilizza 2o7.net o omtrdc.net. |
-| s_ecid (http Response) | No | No | &quot;Lax&quot; |
+| s_ecid (risposta http) | No | No | &quot;Lax&quot; |
 | s_fid (Javascript) | No | No | Non impostato |
 | s_cc (Javascript) | No | No | Non impostato |
 | s_sq (Javascript) | No | No | Non impostato |
 
->[!NOTE] Se si utilizza un singolo CNAME per il monitoraggio tra più domini o proprietà, SameSite deve essere impostato su &quot;None&quot; per `s_vi`. Per assistenza sulla modifica delle impostazioni dei cookie di Analytics, contatta l’Assistenza clienti.
+>[!NOTE] Se si utilizza un singolo CNAME per il monitoraggio tra più domini o proprietà, SameSite deve essere impostato su &quot;None&quot; per `s_vi`. Per ricevere assistenza nella modifica delle impostazioni dei cookie di Analytics, contatta l’Assistenza clienti.
 
 ## Cookie impostati da plug-in {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
