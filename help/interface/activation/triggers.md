@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: fb03bf89bcc6ed4438daf18c8415de3052ba8fa4
 workflow-type: tm+mt
 source-wordcount: '669'
-ht-degree: 64%
+ht-degree: 96%
 
 ---
 
@@ -19,10 +19,10 @@ ht-degree: 64%
 
 ## Panoramica di Triggers {#topic_4F21FCE9A64E46E8B6D51F494FA652A7}
 
-Triggers consente di identificare, definire e monitorare i comportamenti chiave dei consumatori, e quindi di generare comunicazioni tra più soluzioni per coinvolgere nuovamente i visitatori. Puoi utilizzare i trigger nelle decisioni in tempo reale e nella personalizzazione.
+Triggers consente di identificare, definire e monitorare i comportamenti chiave dei consumatori, per poi generare comunicazioni tra le diverse soluzioni in modo da coinvolgere nuovamente i visitatori. Puoi utilizzare i trigger nelle decisioni in tempo reale e nella personalizzazione.
 
-* Configurare la ricommercializzazione rapida per carrelli abbandonati o carrelli abbandonati con la rimozione dei prodotti
-* Moduli e applicazioni incompleti
+* Configura il remarketing rapido di carrelli abbandonati o di carrelli abbandonati con i prodotti rimossi
+* Applicazioni e moduli incompleti
 * Qualsiasi azione o sequenza di azioni sul sito
 
 ![](assets/trigger-abandonment-2.png)
@@ -32,12 +32,12 @@ Triggers consente di identificare, definire e monitorare i comportamenti chiave 
 In genere, un trigger può richiedere dai 15 ai 90 minuti per avviare una campagna di marketing. Questo varia a seconda dell’implementazione della raccolta di dati, del caricamento sulla pipeline, della configurazione personalizzata del trigger definito e del flusso di lavoro in Adobe Campaign.
 
 * **Abbandono:** puoi creare un trigger che si attiva quando un visitatore visualizza un prodotto ma non aggiunge nulla al carrello.
-* **Azione:** puoi creare trigger, ad esempio, che si attivano dopo che un utente ha effettuato un’iscrizione a una newsletter, un’iscrizione e-mail o ha usato applicazioni per le carte di credito (conferme). Se sei un rivenditore, puoi creare un trigger per un visitatore che si iscrive a un programma fedeltà. Nei contenuti multimediali e di intrattenimento, crea trigger per i visitatori che guardano un determinato show e che desideri rispondere con un sondaggio.
-* **Avvio e fine sessione:** Creare un trigger per gli eventi di inizio e fine sessione.
+* **Azione:** puoi creare trigger, ad esempio, che si attivano dopo che un utente ha effettuato un’iscrizione a una newsletter, un’iscrizione e-mail o ha usato applicazioni per le carte di credito (conferme). Se sei un rivenditore, puoi creare un trigger per un visitatore che si iscrive a un programma fedeltà. Nei contenuti multimediali e di intrattenimento, crea trigger per i visitatori che guardano un determinato show e che vorresti rispondessero a un sondaggio.
+* **Avvio e fine sessione:** crea un trigger per gli eventi di inizio e fine sessione.
 
 ## Creare un trigger di Experience Cloud {#task_821F37183AC045E5AC8EED20317598FE}
 
-Creare un trigger e configurare le condizioni per l&#39;attivatore. Ad esempio, puoi specificare i criteri per le regole di un attivatore durante una visita, come metriche quali abbandono del carrello o dimensioni quali il nome del prodotto. Quando le regole sono soddisfatte, l&#39;attivatore viene eseguito.
+Creare un trigger e configurare le condizioni per l&#39;attivatore. Ad esempio, puoi specificare i criteri per le regole di un attivatore durante una visita, come metriche quali abbandono del carrello o dimensioni quali il nome del prodotto. Quando le regole sono soddisfatte, il trigger viene eseguito.
 
 >[!NOTE]
 >
@@ -54,26 +54,26 @@ Creare un trigger e configurare le condizioni per l&#39;attivatore. Ad esempio, 
    | Elemento | Descrizione |
    |--- |--- |
    | Nome | Nome intuitivo per il trigger. |
-   | Descrizione | Descrizione di questo attivatore, modalità di utilizzo e così via. |
-   | Suite di rapporti | La suite [di](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-reports-report-suites.html) rapporti di Analytics utilizzata per questo trigger. Questa impostazione identifica i dati di reporting da utilizzare. |
-   | Visit must include<br>Visit must not include<br>Trigger after no action<br>Include meta data | Puoi definire i criteri o i comportamenti del visitatore desiderati e i comportamenti indesiderati.  Ad esempio, regole per un semplice trigger di abbandono carrello potrebbero essere:<ul><li>La visita deve includere: Aggiunta carrello (metrica) ed Esiste. (puoi definire ulteriormente la regola con una visualizzazione di prodotto specifica o con dimensioni come Tipi di browser).</li><li>La visita non deve includere: Pagamento.</li><li>Trigger dopo nessuna azione per: 10 minuti.</li><li>Includi metadati: ti consente di aggiungere una dimensione Campaign particolare o variabili rilevanti per il comportamento di un visitatore. Questo campo può essere utile per Adobe Campaign per creare l&#39;e-mail di ricommercializzazione corretta.</li></ul><br>Puoi specificare un operatore logico ANY, AND oppure OR all’interno o tra contenitori, a seconda dei criteri che ritieni importanti per la regola. |
+   | Descrizione | La descrizione di questo trigger, le modalità di utilizzo e così via. |
+   | Suite di rapporti | La suite di rapporti di [Analytics](https://docs.adobe.com/content/help/it-IT/analytics/implementation/analytics-basics/ref-reports-report-suites.html) utilizzata per questo trigger. Questa impostazione identifica i dati di reporting da utilizzare. |
+   | La visita deve includere<br>La visita non deve includere<br>Trigger dopo nessuna azione<br>Includi metadati | Puoi definire i criteri o i comportamenti del visitatore desiderati e i comportamenti indesiderati.  Ad esempio, regole per un semplice trigger di abbandono carrello potrebbero essere:<ul><li>La visita deve includere: Aggiunta carrello (metrica) ed Esiste. (puoi definire ulteriormente la regola con una visualizzazione di prodotto specifica o con dimensioni come Tipi di browser).</li><li>La visita non deve includere: Pagamento.</li><li>Trigger dopo nessuna azione per: 10 minuti.</li><li>Includi metadati: ti consente di aggiungere una dimensione Campaign particolare o variabili rilevanti per il comportamento di un visitatore. Questo campo può essere utile per Adobe Campaign per creare l&#39;e-mail di ricommercializzazione corretta.</li></ul><br>Puoi specificare un operatore logico ANY, AND oppure OR all’interno o tra contenitori, a seconda dei criteri che ritieni importanti per la regola. |
    | Contenitore | Nei contenitori vengono impostati e archiviati regole, condizioni o filtri che definiscono un trigger. Se vuoi far verificare gli eventi contemporaneamente, inseriscili nello stesso contenitore. Ciò significa che ogni contenitore elabora indipendentemente a livello di risultato.  Ad esempio, in caso di due contenitori uniti dall’operatore AND, le regole saranno idonee quando due risultati soddisfano i requisiti. |
-   | Avvia nuova sessione dopo | Creare un trigger per gli eventi di inizio e fine sessione. |
+   | Start new session after (Avvia nuova sessione dopo) | Crea un trigger per gli eventi di inizio e fine sessione. |
 
 5. Fai clic su **[!UICONTROL Salva]**.
-6. Use triggers for [real-time remarketing](https://docs.campaign.adobe.com/doc/standard/en/EMA_Transactional_messaging_Marketing_Cloud_Triggers.html) in [!DNL Adobe Campaign].
+6. Usa i trigger per la [commercializzazione in tempo reale](https://helpx.adobe.com/it/support/campaign/standard.html) in [!DNL Adobe Campaign].
 
 ### Esempio di trigger
 
 Esempi di Experience Cloud Triggers:
 
-#### Trigger abbandono carrello
+#### Trigger di abbandono del carrello
 
-Ad esempio, nella pagina seguente sono illustrate le regole che è possibile utilizzare per un trigger di abbandono carrello, in base ai prodotti visualizzati durante una visita.
+Ad esempio, nella pagina seguente sono illustrate le regole che è possibile utilizzare per un trigger di abbandono del carrello, in base ai prodotti visualizzati durante una visita.
 
 ![](assets/abandonment-trigger.png)
 
-#### Trigger referente
+#### Trigger referrer
 
 Il trigger seguente si attiva quando viene visualizzato un risultato con il prodotto Stivali da uomo e il referrer Facebook. Per valutare i due criteri (*products* e *referrer*) nello stesso risultato, devono essere aggiunti allo stesso contenitore.
 
