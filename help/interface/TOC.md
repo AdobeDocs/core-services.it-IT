@@ -8,15 +8,15 @@ translation-type: tm+mt
 source-git-commit: 7a3a14fa8572444513dd0ac4753431f3c33245f0
 workflow-type: tm+mt
 source-wordcount: '361'
-ht-degree: 67%
+ht-degree: 88%
 
 ---
 
 
-# Guida utente servizi principali {#interface}
+# Guida utente servizi core {#interface}
 
-+ [Experience Cloud e documentazione di prodotto](experience-cloud.md)
-+ Servizi di base in Experience Cloud {#about-core-services}
++ [Experience Cloud e documentazione del prodotto](experience-cloud.md)
++ Servizi core in Experience Cloud {#about-core-services}
    + [Panoramica sui servizi principali](core-services-landing.md)
    + [Abilita le soluzioni per i servizi di base](core-services/core-services.md)
    + [Mappatura di suite di rapporti per un’organizzazione](core-services/report-suite-mapping.md)
@@ -35,10 +35,10 @@ ht-degree: 67%
    + [[!DNL Search and Promote] cookie](cookies/cookies-snp.md)
    + [[!DNL Target] cookie](cookies/cookies-target.md)
    + [Abilitazione delle impostazioni della privacy per i cookie del browser](cookies/browser-cookie-settings.md)
-   + [Le modifiche al supporto dei cookie di terze parti influiscono sui clienti](cookies/cookies-thirdparty.md)
+   + [Effetti delle modifiche al supporto dei cookie di terze parti sui clienti](cookies/cookies-thirdparty.md)
 + Gestione di utenti e prodotti {#manage-users-and-products}
-   + [Gestione dell&#39;identità utente e dei prodotti Experience Cloud (Admin Console)](admin-getting-started/admin-getting-started.md)
-   + [Visualizza i dettagli utente di Experience Cloud (Strumenti di amministrazione)](admin-getting-started/admin-tool-experience-cloud.md)
+   + [Gestione dell’identità utente e dei prodotti Experience Cloud (Admin Console)](admin-getting-started/admin-getting-started.md)
+   + [Visualizza i dettagli utente di Experience Cloud (Admin Tool)](admin-getting-started/admin-tool-experience-cloud.md)
    + [Domande frequenti](admin-getting-started/faq.md)
    + [Accesso e gestione delle impostazioni del profilo](admin-getting-started/getting-started-experience-cloud.md)
    + [Organizzazioni e collegamento di account](admin-getting-started/organizations.md)
@@ -46,10 +46,10 @@ ht-degree: 67%
 + Attivazione di Experience Cloud {#activation}
    + [Panoramica di Activation](activation/activation.md)
    + [Guida utente di Launch](https://docs.adobe.com/content/help/it-IT/launch/using/overview.html)
-   + [Guida utente di Gestione tag dinamica](https://docs.adobe.com/content/help/it-IT/dtm/using/dtm-home.html)
+   + [Guida utente di Dynamic Tag Manager](https://docs.adobe.com/content/help/it-IT/dtm/using/dtm-home.html)
    + [Triggers](activation/triggers.md)
-+ Experience Cloud assets {#assets}
-   + [Panoramica delle risorse Experience Cloud](experience-cloud-assets/experience-cloud-assets.md)
++ Assets di Experience Cloud {#assets}
+   + [Panoramica sugli assets di Experience Cloud](experience-cloud-assets/experience-cloud-assets.md)
    + [Condivisione di cartelle e risorse Experience Cloud con Creative Cloud](experience-cloud-assets/creative-cloud.md)
    + [Gestione degli utenti di Creative Cloud](experience-cloud-assets/t-admin-add-cc-user.md)
    + [Condivisione di una cartella di risorse Experience Cloud](experience-cloud-assets/t-share-creative-cloud.md)
@@ -58,11 +58,11 @@ ht-degree: 67%
    + [Disattivazione della sincronizzazione di cartelle condivise](experience-cloud-assets/t-disable-asset-sync.md)
    + [Requisiti del file risorsa per la condivisione](experience-cloud-assets/assets-file-reqs.md)
    + [Comportamento delle cartelle condivise](experience-cloud-assets/asset-behavior.md)
-+ Tipi di pubblico in Experience Cloud {#audiences}
++ Audiences in Experience Cloud {#audiences}
    + [Panoramica dei tipi di pubblico](audience-library/audience-library.md)
    + [Creazione di un pubblico](audience-library/t-audience-create.md)
    + [Pubblicazione di un segmento di pubblico di Analytics](audience-library/t-publish-audience-segment.md)
-+ Attributi del cliente in Experience Cloud {#customer-attributes}
++ Customer Attributes in Experience Cloud {#customer-attributes}
    + [Panoramica sugli attributi del cliente](attributes/attributes.md)
    + [Domande frequenti, limitazioni e pratiche consigliate](attributes/faq-crs.md)
    + [Informazioni su file di dati e origini dati per gli attributi del cliente](attributes/crs-data-file.md)
