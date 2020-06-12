@@ -6,13 +6,16 @@ seo-title: Informazioni su cookie e privacy
 solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: Informazioni su cookie e privacy
 uuid: 7fb36845-6282-438a-bbc6-0c3cf95de1c9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+workflow-type: ht
+source-wordcount: '421'
+ht-degree: 100%
 
 ---
 
 
-# Informazioni su cookie e privacy{#about-cookies-and-privacy}
+# Informazioni su cookie e privacy {#about-cookies-and-privacy}
 
 Garantire la privacy dei clienti e la sicurezza dei dati sono le principali priorità di Adobe. Adobe partecipa a più organizzazioni che si interessano della privacy e collabora con gli enti di controllo e ai principi di autoregolamentazione (ad esempio il programma Digital Advertising Alliance AdChoices) per fornire ai clienti informazioni su come vengono utilizzate le loro informazioni e su quali opzioni utilizzare.
 
