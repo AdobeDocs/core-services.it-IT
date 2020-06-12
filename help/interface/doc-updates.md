@@ -1,5 +1,5 @@
 ---
-description: Informazioni sugli aggiornamenti dell'Aiuto di Experience Cloud.
+description: Informazioni sugli aggiornamenti dell’Aiuto di Experience Cloud.
 keywords: core services
 seo-description: Informazioni sugli aggiornamenti dell'Aiuto di Experience Cloud.
 seo-title: Aggiornamenti documentazione - Experience Cloud
@@ -10,14 +10,14 @@ translation-type: tm+mt
 source-git-commit: 39e3b77f19020cffd1bc0218f120f306d676380b
 workflow-type: tm+mt
 source-wordcount: '251'
-ht-degree: 73%
+ht-degree: 84%
 
 ---
 
 
 # Aggiornamenti documentazione - Experience Cloud
 
-Informazioni sugli aggiornamenti alla documentazione di prodotto Experience Cloud.
+Informazioni sugli aggiornamenti della documentazione prodotto di Experience Cloud.
 
 **Aggiornato: 19/05/2020**
 
@@ -32,11 +32,11 @@ Sono state aggiunte le seguenti pagine:
 
 **Aggiornato: 10/03/2020**
 
-Aggiornamento [Convalida dell&#39;inoltro](cookies/cookies-first-party.md#validate) del nome host nella sezione dei cookie di prime parti.
+Aggiornamento di [Convalida dell’inoltro nome host](cookies/cookies-first-party.md#validate) nella sezione dei cookie di prime parti.
 
 **Aggiornato: 20/02/2020**
 
-Aggiunti [Visualizza dettagli utente Experience Cloud (Admin Tool)](admin-getting-started/admin-tool-experience-cloud.md).
+Aggiunta la sezione [Visualizza i dettagli utente di Experience Cloud (Admin Tool)](admin-getting-started/admin-tool-experience-cloud.md).
 
 **Aggiornato: 05/09/2018**
 
@@ -88,7 +88,7 @@ Aggiunto [Abilitare le soluzioni per i servizi principali](core-services/core-se
 
 **Aggiornato: 15/01/2015**
 
-È stata aggiunta la possibilità per gli utenti di Experience Cloud di condividere cartelle su Creative Cloud e sincronizzare risorse e commenti fra i due servizi. Consulta [Condivisione di risorse](experience-cloud-assets/creative-cloud.md#concept_3E5A34C3459047D5965F900788A9BA68).
+È stata aggiunta la possibilità per gli utenti di Experience Cloud di condividere cartelle su Creative Cloud e sincronizzare risorse e commenti fra i due servizi. Consulta  [Condivisione di risorse](experience-cloud-assets/creative-cloud.md#concept_3E5A34C3459047D5965F900788A9BA68).
 
 **Aggiornato: 17/07/2014**
 
