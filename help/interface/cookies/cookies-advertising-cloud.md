@@ -4,8 +4,11 @@ seo-description: Advertising Cloud utilizza i cookie per mappare gli eventi di c
 seo-title: Cookie di Advertising Cloud
 title: Cookie di Advertising Cloud
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d7d1a659bbdbc7a4221243d88410492351ab9055
+workflow-type: ht
+source-wordcount: '544'
+ht-degree: 100%
 
 ---
 
@@ -92,7 +95,7 @@ Advertising Cloud utilizza i cookie per mappare gli eventi di coinvolgimento pub
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Informazioni memorizzate </p> </td> 
-   <td colname="col2"> <p>Marca temporale dell’ultima visita del surfer al sito Web dell’inserzionista e dell’ultimo clic di ricerca del surfer, e il ef_id creato quando l’utente ha fatto clic su un annuncio</p> </td> 
+   <td colname="col2"> <p>Le marche temporali dell’ultima visita del surfista al sito web dell’inserzionista, l’ultimo clic di ricerca del surfista e l’ef_id creato quando il surfista ha fatto clic su un annuncio</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Scadenza </p> </td> 
