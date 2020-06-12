@@ -5,8 +5,11 @@ seo-title: Utilizzo del recupero preventivo del DNS con diverse soluzioni e serv
 solution: Experience Cloud
 title: Utilizzo del recupero preventivo del DNS con diverse soluzioni e servizi
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+workflow-type: ht
+source-wordcount: '398'
+ht-degree: 100%
 
 ---
 
@@ -17,14 +20,14 @@ Implementa il recupero preventivo del DNS per contribuire a ridurre i tempi di c
 
 ## Informazioni sul recupero preventivo del DNS {#section_772BF9CB7C4141DE9B0355146E2CD962}
 
-I browser utilizzano il recupero preventivo del DNS per risolvere automaticamente i nomi di dominio collegati in una pagina Web ai relativi indirizzi IP. Il processo di recupero preventivo inizia quando il browser carica una pagina Web. Ad esempio, supponiamo che la tua pagina contenga un collegamento selezionabile a `www.adobe.com`. When a browser loads this page, it uses the [DNS system](https://www.networksolutions.com/support/what-is-a-domain-name-server-dns-and-how-does-it-work/) to look up the linked domain name and resolve it to a corresponding numeric IP address. Il recupero preventivo del DNS migliora le prestazioni delle pagine perché il nome di dominio viene risolto sempre in un indirizzo IP prima che il visitatore di un sito faccia clic sul collegamento o pulsante. Il processo di recupero preventivo del DNS è trasparente per gli utenti.
+I browser utilizzano il recupero preventivo del DNS per risolvere automaticamente i nomi di dominio collegati in una pagina web ai relativi indirizzi IP. Il processo di recupero preventivo inizia quando il browser carica una pagina Web. Ad esempio, supponiamo che la tua pagina contenga un collegamento selezionabile a `www.adobe.com`. Quando un browser carica la pagina, utilizza il [sistema DNS](https://www.networksolutions.com/support/what-is-a-domain-name-server-dns-and-how-does-it-work/) per cercare il nome di dominio collegato e risolverlo nell’indirizzo IP numerico corrispondente. Il recupero preventivo del DNS migliora le prestazioni delle pagine perché il nome di dominio viene risolto sempre in un indirizzo IP prima che il visitatore di un sito faccia clic sul collegamento o pulsante. Il processo di recupero preventivo del DNS è trasparente per gli utenti.
 
 ## Recupero preventivo del DNS e soluzioni Adobe Experience Cloud {#section_202A07F9F79F4ABDA44B98BA1DDCD516}
 
-Il recupero preventivo del DNS funziona automaticamente con i collegamenti statici integrati in una pagina. Ciò significa anche che il recupero preventivo del DNS non funziona con diverse soluzioni e servizi [!UICONTROL Experience Cloud] perché:
+Il recupero preventivo del DNS funziona automaticamente con i collegamenti statici integrati in una pagina. Ciò significa anche che il recupero preventivo del DNS non funziona con soluzioni e servizi diversi da [!UICONTROL Experience Cloud] per i seguenti motivi:
 
-* Ogni soluzione o servizio Experience Cloud genera dinamicamente chiamate DNS durante il caricamento della pagina.
-* Il browser non può risolvere i nomi di dominio in indirizzo IP prima che vengano effettuate queste chiamate.
+* Ogni soluzione o servizio Experience Cloud genera le chiamate DNS in modo dinamico durante il caricamento della pagina.
+* Il browser non può risolvere i nomi di dominio con indirizzi IP prima che vengano effettuate tali chiamate.
 
 Tuttavia, puoi implementare manualmente il recupero preventivo del DNS con le soluzioni Experience Cloud. Per farlo, aggiungi il tag HTML `<dns-prefetch>` alla sezione `<head>` del codice della pagina come mostrato di seguito. Se implementato correttamente, il recupero preventivo del DNS può contribuire a risparmiare alcuni millisecondi sul tempo di caricamento della pagina.
 
@@ -38,7 +41,7 @@ Gli esempi seguenti mostrano come eseguire chiamate di recupero preventivo del D
 
 * **Audience Manager:** `<link rel="dns-prefetch" href="//dpm.demdex.net">`
 
-* **Servizio Experience Cloud ID:** `<link rel="dns-prefetch" href="//fast. *`inserisci qui l&#39;ID del partner`*.demdex.net">`
+* **Servizio Experience Cloud ID:** `<link rel="dns-prefetch" href="//fast. *`inserisci l’ID partner qui`*.demdex.net">`
 
 * **Dynamic Tag Manager** (DTM): non obbligatorio. I collegamenti DTM sono disponibili non appena si carica la pagina.
 
