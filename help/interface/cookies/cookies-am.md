@@ -6,13 +6,16 @@ seo-title: Cookie di Audience Manager
 solution: Marketing Cloud,Audience Manager
 title: Cookie di Audience Manager
 uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+workflow-type: ht
+source-wordcount: '690'
+ht-degree: 100%
 
 ---
 
 
-# Cookie di Audience Manager{#audience-manager-cookies}
+# Cookie di Audience Manager {#audience-manager-cookies}
 
 Audience Manager si avvale di alcuni cookie semplici per eseguire funzioni diverse, come l’assegnazione di ID, la registrazione delle chiamate dati, il tracciamento degli errori e test per verificare se è possibile impostare i cookie. Questa sezione elenca e descrive i vari cookie impostati da Audience Manager.
 
@@ -32,14 +35,14 @@ Audience Manager si avvale di alcuni cookie semplici per eseguire funzioni diver
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Contenuto</b> </p> </td> 
-   <td colname="col2"> <p>Il cookie <span class="wintitle"> demdex </span> contiene un ID utente univoco (UUID) come mostrato nell’esempio di seguito: </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p>Vedi anche <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/ids-in-aam.html" format="https" scope="external"> Indice degli ID in Audience Manager </a>. </p> </td> 
+   <td colname="col2"> <p>Il cookie <span class="wintitle"> demdex </span> contiene un ID utente univoco (UUID) come mostrato nell’esempio di seguito: </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p>Vedi anche <a href="https://docs.adobe.com/content/help/it-IT/audience-manager/user-guide/reference/ids-in-aam.html" format="https" scope="external"> Indice degli ID in Audience Manager </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Altri Attributi</b> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_11291DA87C5045E880034E06C863BCDA"> 
       <li id="li_40C30A06A12449A4A8748621223CA71B">Durata: il cookie <span class="wintitle"> demdex </span> ha un intervallo time-to-live (TTL) di 180 giorni. Il TTL viene reimpostato su 180 giorni a ogni interazione dell’utente con un sito Web partner. Il cookie scade se un utente non torna al sito entro l’intervallo TTL. </li> 
-      <li id="li_A589EDA2198249829207A183872EF1FF">Opt-out: <span class="keyword"> Audience Manager </span> resets the cookie with a <span class="codeph"> Do Not Adobe Target </span> string if a user opts-out of data collection. In questo caso, il TTL del cookie è impostato su 10 anni. </li> 
+      <li id="li_A589EDA2198249829207A183872EF1FF">Rinuncia: <span class="keyword"> Audience Manager </span> ripristina il cookie con una stringa <span class="codeph"> Do Not Target </span> se un utente rinuncia alla raccolta di dati. In questo caso, il TTL del cookie è impostato su 10 anni. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -72,7 +75,7 @@ Audience Manager si avvale di alcuni cookie semplici per eseguire funzioni diver
    <td colname="col2"> <p> 
      <ul id="ul_4922AC2CD55D4C888A6FBEB22F8B889B"> 
       <li id="li_91A68C44E53840379C2ACDED25468735">Durata: il cookie <span class="wintitle"> dextp </span> ha un intervallo time-to-live (TTL) di 180 giorni. </li> 
-      <li id="li_6B8C674EFAAC4DABA0A640CF29247F99">Opt-out: <span class="keyword"> Audience Manager </span> resets the cookie with a <span class="codeph"> Do Not Adobe Target </span> string if a user opts-out of data collection. In questo caso, il TTL del cookie è impostato su 10 anni. </li> 
+      <li id="li_6B8C674EFAAC4DABA0A640CF29247F99">Rinuncia: <span class="keyword"> Audience Manager </span> ripristina il cookie con una stringa <span class="codeph"> Do Not Target </span> se un utente rinuncia alla raccolta di dati. In questo caso, il TTL del cookie è impostato su 10 anni. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -125,7 +128,7 @@ La tabella seguente elenca e definisce gli elementi di un cookie [!DNL dextp] in
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Finalità</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager </span> imposta questo cookie in caso di errore durante l’invio di dati a una <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/destinations.html#purposes" format="https" scope="external"> destinazione </a>. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager </span> imposta questo cookie in caso di errore durante l’invio di dati a una <a href="https://docs.adobe.com/content/help/it-IT/audience-manager/user-guide/features/destinations/destinations.html#purposes" format="https" scope="external"> destinazione </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Contenuto</b> </p> </td> 
@@ -140,7 +143,7 @@ La tabella seguente elenca e definisce gli elementi di un cookie [!DNL dextp] in
    <td colname="col2"> <p> 
      <ul id="ul_5D13DD701B484B51BF2808A69A919106"> 
       <li id="li_4E665114C63246FBA32A4E19984D2693">Durata: il cookie <span class="wintitle"> dst </span> ha un intervallo time-to-live (TTL) di 180 giorni. </li> 
-      <li id="li_A682B566704F43D2AB72487EFF212474">Opt-out: <span class="keyword"> Audience Manager </span> resets the cookie with a <span class="codeph"> Do Not Adobe Target </span> string if a user opts-out of data collection. </li> 
+      <li id="li_A682B566704F43D2AB72487EFF212474">Rinuncia: <span class="keyword"> Audience Manager </span> ripristina il cookie con una stringa <span class="codeph"> Do Not Target </span> se un utente rinuncia alla raccolta di dati. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
