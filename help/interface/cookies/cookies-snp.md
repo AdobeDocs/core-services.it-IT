@@ -6,13 +6,16 @@ seo-title: Cookie di Search&Promote
 solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: Cookie di Search&Promote
 uuid: 65bf24e0-0564-4dc2-b652-9fd9db57d23f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+workflow-type: ht
+source-wordcount: '132'
+ht-degree: 100%
 
 ---
 
 
-# Cookie di Search&amp;Promote{#search-and-promote-cookies}
+# Cookie di Search&amp;Promote {#search-and-promote-cookies}
 
 Search&amp;Promote utilizza i cookie per comprendere e anticipare le intenzioni di ricerca dei visitatori.
 
