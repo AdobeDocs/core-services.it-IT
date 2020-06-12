@@ -6,8 +6,11 @@ seo-title: Organizzazioni e collegamento di account
 solution: Marketing Cloud
 title: Organizzazioni e collegamento di account
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+workflow-type: ht
+source-wordcount: '399'
+ht-degree: 100%
 
 ---
 
@@ -18,9 +21,9 @@ Informazioni sulla gestione delle organizzazioni e sul collegamento di account d
 
 ## Identificazione della tua organizzazione {#concept_384D169B0B724B799D573B8ECB5C39BF}
 
-Un&#39;*organizzazione* è l&#39;entità che consente all&#39;amministratore di configurare gruppi e utenti e di controllare il single sign-on in Experience Cloud. L&#39;organizzazione funziona come un&#39;azienda che abbraccia tutti i prodotti e le soluzioni Experience Cloud. Nella maggior parte dei casi, un&#39;organizzazione è il vostro nome aziendale. Tuttavia, un&#39;azienda può avere molte organizzazioni.
+Un&#39;*organizzazione* è l&#39;entità che consente all&#39;amministratore di configurare gruppi e utenti e di controllare il single sign-on in Experience Cloud. L&#39;organizzazione funziona come un&#39;azienda che abbraccia tutti i prodotti e le soluzioni Experience Cloud. Nella maggior parte dei casi, un’organizzazione è il nome dell’azienda. Tuttavia, un’azienda può avere molte organizzazioni.
 
-Inoltre, potrebbe essere necessario individuare l&#39;ID organizzazione a scopo di assistenza. Puoi verificare si essere nell&#39;organizzazione corretta o cambiare organizzazione utilizzando il menu **[!UICONTROL Organizzazione]**.
+Inoltre, potrebbe essere necessario individuare l’ID organizzazione a scopo di assistenza. Puoi verificare di essere nell’organizzazione corretta o cambiare organizzazione utilizzando il menu **[!UICONTROL Organizzazione]**.
 
 ![Risultato passaggio](assets/organization-switch.png)
 
@@ -38,7 +41,7 @@ In genere, gli amministratori di Experience Cloud concedono l&#39;accesso a solu
 
 1. Segui i passaggi contenuti nell&#39;e-mail di invito a Experience Cloud.
 1. Accedi utilizzando il tuo Adobe ID o Enterprise ID.
-1. Fai clic sul selettore della soluzione. ( ![](assets/menu-icon.png)).
+1. Fai clic sul selettore della soluzione ( ![](assets/menu-icon.png)).
 
    ![](assets/solutions-active.png)
 
@@ -66,7 +69,7 @@ In Organizzazione e pagina di destinazione predefinite puoi personalizzare la tu
 
 Assistenza per problemi derivanti dal collegamento dell’account.
 
-In genere, il collegamento dell&#39;account non riesce perché l&#39;Adobe ID è collegato a un utente precedente. Quando il collegamento dell&#39;account non riesce, potete:
+In genere, il collegamento dell’account ha esito negativo perché l’Adobe ID è collegato a un utente precedente. Quando non è possibile eseguire il collegamento, prova le seguenti operazioni:
 
-* [Contattate il supporto](https://helpx.adobe.com/marketing-cloud/contact-support.html)Adobe.
-* accedere alla soluzione mediante l&#39;accesso standard durante la risoluzione del problema.
+* [Contatta l’Assistenza Adobe](https://helpx.adobe.com/it/marketing-cloud/contact-support.html).
+* Durante la risoluzione del problema, Accedi alla soluzione con la procedura standard.
