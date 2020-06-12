@@ -6,8 +6,11 @@ seo-title: Condivisione di una cartella di risorse Experience Cloud
 solution: Experience Cloud
 title: Condivisione di una cartella di risorse Experience Cloud
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+workflow-type: ht
+source-wordcount: '321'
+ht-degree: 100%
 
 ---
 
@@ -24,22 +27,22 @@ Condividi una cartella di risorse Experience Cloud con utenti Creative Cloud.
    ![](assets/asset-share-cc-page.png)
 
 1. Fai clic su **[!UICONTROL Condividi]**.
-1. Avvia l&#39;applicazione desktop [!DNL Creative Cloud] (oppure passa alla pagina [!UICONTROL Creative Cloud Files (File di Creative Cloud)] in un browser) e cerca la richiesta.
+1. Avvia l’applicazione desktop [!DNL Creative Cloud] (oppure passa alla pagina [!UICONTROL Creative Cloud Files (File di Creative Cloud)] in un browser) e cerca la richiesta.
 
    ![](assets/cc_share_request.png)
 1. Apri la richiesta, quindi fai clic su **[!UICONTROL Accetta]**.
 
    ![Risultato passaggio](assets/cc_share_accept.png)
-1. Per accedere ai contenuti della cartella fai clic su **[!UICONTROL Apri cartella]** (oppure su **[!UICONTROL Vedi sul Web]**).
+1. Per accedere ai contenuti della cartella fai clic su **[!UICONTROL Apri cartella]** (oppure su **[!UICONTROL Vedi sul web]**).
 
    ![Risultato passaggio](assets/creative_cloud_open_folder.png)
 1. Continua con l&#39;aggiunta di commenti sulla risorsa condivisa:
 
-   In Creative Cloud, per aggiungere un commento all&#39;immagine puoi fare clic su un&#39;immagine, quindi fare clic su **[!UICONTROL Attività]**. I commenti vengono sincronizzati sulle risorse in [!DNL Creative Cloud] e [!DNL Experience Cloud].
+   In Creative Cloud, per aggiungere un commento all’immagine puoi fare clic su un’immagine, quindi fare clic su **[!UICONTROL Attività]**. I commenti vengono sincronizzati sulle risorse in [!DNL Creative Cloud] e [!DNL Experience Cloud].
 
    ![](assets/asset_comment_cc.png)
 
-   In Experience Cloud, per aggiungere un commento a un&#39;immagine fai clic su un&#39;immagine, quindi fai clic sull&#39;icona della cronologia. I commenti vengono sincronizzati sulle risorse in Creative Cloud e Experience Cloud.
+   In Experience Cloud, per aggiungere un commento a un&#39;immagine fai clic su un&#39;immagine, quindi fai clic sull&#39;icona della cronologia. I commenti vengono sincronizzati sulle risorse in Creative Cloud ed Experience Cloud.
 
    ![](assets/asset_comment_mac.png)
 
@@ -52,7 +55,7 @@ Quando hai rimosso tutti gli utenti di Creative Cloud, la cartella non è più c
 Altri metodi per utilizzare una risorsa condivisa:
 
 * Utilizzare il [!UICONTROL selettore delle risorse] in [!DNL Adobe Social] per i post social.
-* Caricate o scambiate le risorse nella libreria [Offerte](https://docs.adobe.com/help/en/target/using/experiences/offers/manage-content.html) in [!DNL Adobe Target] per le immagini delle attività.
+* Carica o inverti le risorse in [Offers Library (Libreria offerte)](https://docs.adobe.com/help/it-IT/target/using/experiences/offers/manage-content.html) in [!DNL Adobe Target] per le immagini nelle attività.
 
 Dopo aver condiviso una cartella su Creative Cloud, visualizzerai il logo Creative Cloud sulla cartella.
 
@@ -60,6 +63,6 @@ Dopo aver condiviso una cartella su Creative Cloud, visualizzerai il logo Creati
 
 Argomenti correlati:
 
-* [Aiuto di Creative Cloud - Gestione e sincronizzazione dei file](https://helpx.adobe.com/creative-cloud/help/sync-files.html)
-* [Aiuto di Creative Cloud - Collaborazione con altri](https://helpx.adobe.com/creative-cloud/help/collaboration.html)
-* [Aiuto di Creative Cloud - Domande frequenti sulla collaborazione](https://helpx.adobe.com/creative-cloud/help/collaboration-faq.html)
+* [Aiuto di Creative Cloud - Gestione e sincronizzazione dei file](https://helpx.adobe.com/it/creative-cloud/help/sync-files.html)
+* [Aiuto di Creative Cloud - Collaborazione con altri](https://helpx.adobe.com/it/creative-cloud/help/collaboration.html)
+* [Aiuto di Creative Cloud - Domande frequenti sulla collaborazione](https://helpx.adobe.com/it/creative-cloud/help/collaboration-faq.html)
