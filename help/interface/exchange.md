@@ -6,8 +6,11 @@ seo-title: Marketplace di Exchange
 solution: Experience Cloud
 title: Marketplace di Exchange
 uuid: 73db5cc5-5fb2-43a2-a164-5cbca9e9a206
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+workflow-type: ht
+source-wordcount: '184'
+ht-degree: 100%
 
 ---
 
@@ -18,18 +21,18 @@ Exchange Marketplace è un&#39;unica destinazione in cui è possibile eseguire r
 
 **[!UICONTROL Experience Cloud]** > **[!UICONTROL Aiuto]** > **[!UICONTROL Exchange]**
 
-* Scaricate SDK, leggete documentazione e inviate applicazioni a Digital Marketing per una recensione.
+* Scarica gli SDK, leggi la documentazione e invia le applicazioni a Digital Marketing per una recensione.
 
-* I clienti possono cercare, selezionare e installare estensioni Digital Marketing.
+* I clienti possono cercare, selezionare e installare le estensioni Digital Marketing.
 
 * Gli amministratori possono configurare le applicazioni scaricate.
 
-* Esaminate gli invii degli sviluppatori, sfogliate l&#39;applicazione e commentate o date un voto a ciascuna applicazione.
+* Recensisci i prodotti inviati dagli sviluppatori, sfoglia le applicazioni e commenta o dai un voto a ciascuna applicazione.
 
-* Rifiuta o approva le applicazioni.
+* Boccia o approva le applicazioni.
 
 * Pubblica in Experience Cloud.
 
-* Consente di cercare e filtrare per categoria, società, tipo, utente e altro.
+* Effettua ricerche e filtra per categoria, azienda, tipo, utente e altro.
 
-See [Experience Cloud Exchange](https://exchange.adobe.com/experiencecloud.html) for more information.
+Per ulteriori informazioni, consulta [Experience Cloud Exchange](https://exchange.adobe.com/experiencecloud.html).
