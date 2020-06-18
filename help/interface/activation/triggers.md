@@ -7,10 +7,10 @@ solution: Marketing Cloud
 title: Triggers
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
 translation-type: tm+mt
-source-git-commit: fb03bf89bcc6ed4438daf18c8415de3052ba8fa4
+source-git-commit: af0bb1497252afa9bca2d6c7bacb11749cfe654c
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 96%
+source-wordcount: '668'
+ht-degree: 94%
 
 ---
 
@@ -61,7 +61,7 @@ Creare un trigger e configurare le condizioni per l&#39;attivatore. Ad esempio, 
    | Start new session after (Avvia nuova sessione dopo) | Crea un trigger per gli eventi di inizio e fine sessione. |
 
 5. Fai clic su **[!UICONTROL Salva]**.
-6. Usa i trigger per la [commercializzazione in tempo reale](https://helpx.adobe.com/it/support/campaign/standard.html) in [!DNL Adobe Campaign].
+6. Usa i trigger per la [commercializzazione in tempo reale](https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html) in [!DNL Adobe Campaign].
 
 ### Esempio di trigger
 
