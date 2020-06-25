@@ -5,15 +5,19 @@ seo-title: Mappatura di suite di rapporti per un’organizzazione
 title: Mappatura di suite di rapporti per un’organizzazione
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: af0bb1497252afa9bca2d6c7bacb11749cfe654c
+source-git-commit: 5d987d60a462457afab6c1935095c7ea948b4d65
 workflow-type: tm+mt
-source-wordcount: '1174'
-ht-degree: 97%
+source-wordcount: '1201'
+ht-degree: 95%
 
 ---
 
 
 # Mappatura di suite di rapporti per un’organizzazione {#topic_7C4740559EAC4E0FA5F8DEF886B580DA}
+
+>[!NOTE]
+>
+>La funzionalità di mappatura delle suite di rapporti diventerà obsoleta a novembre 2020. Mappa tutte le suite di rapporti in evidenza in >preparazione per questo. Rivolgiti al cliente per qualsiasi domanda.
 
 Scopri come mappare una o più suite di rapporti per un’organizzazione.
 
