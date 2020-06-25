@@ -1,6 +1,6 @@
 ---
 audience: end-user
-user-guide-title: Guida utente all’interfaccia di Experience Cloud
+user-guide-title: Guida utente all'interfaccia di Experience Cloud
 user-guide-description: Adobe Experience Cloud services include the People (Audiences and Customer Attributes), Offers, Experience Platform Launch, and Mobile Services.
 user-guide-url: https://www.adobe.com
 index: true
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 323e562d41daa547d488497116cd5ffa783f6426
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 87%
 + Servizi core in Experience Cloud {#about-core-services}
    + [Panoramica sui servizi principali](core-services-landing.md)
    + [Abilita le soluzioni per i servizi di base](core-services/core-services.md)
-   + [Mappatura di suite di rapporti per un’organizzazione](core-services/report-suite-mapping.md)
+   + [Mappatura di suite di rapporti per un&#39;organizzazione](core-services/report-suite-mapping.md)
    + [Informazioni sui nuovi nomi cloud in Experience Cloud](solutions-core-services.md)
 + [Integrazioni di Experience Cloud](marketing-cloud-integrations.md)
 + Cookie di Experience Cloud {#ec-cookies}
@@ -37,13 +37,13 @@ ht-degree: 87%
    + [Abilitazione delle impostazioni della privacy per i cookie del browser](cookies/browser-cookie-settings.md)
    + [Effetti delle modifiche al supporto dei cookie di terze parti sui clienti](cookies/cookies-thirdparty.md)
 + Gestione di utenti e prodotti {#manage-users-and-products}
-   + [Gestione dell’identità utente e dei prodotti Experience Cloud (Admin Console)](admin-getting-started/admin-getting-started.md)
+   + [Gestione dell&#39;identità utente e dei prodotti Experience Cloud (Admin Console)](admin-getting-started/admin-getting-started.md)
    + [Visualizza i dettagli utente di Experience Cloud (Admin Tool)](admin-getting-started/admin-tool-experience-cloud.md)
    + [Domande frequenti](admin-getting-started/faq.md)
    + [Accesso e gestione delle impostazioni del profilo](admin-getting-started/getting-started-experience-cloud.md)
    + [Organizzazioni e collegamento di account](admin-getting-started/organizations.md)
    + [Aggiornamento ad Analytics Premium e Experience Cloud](admin-getting-started/upgrade-to-analytics-premium.md)
-+ Attivazione di Experience Cloud {#activation}
++ Activation di Experience Cloud {#activation}
    + [Panoramica di Activation](activation/activation.md)
    + [Guida utente di Launch](https://docs.adobe.com/content/help/it-IT/launch/using/overview.html)
    + [Guida utente di Dynamic Tag Manager](https://docs.adobe.com/content/help/it-IT/dtm/using/dtm-home.html)
@@ -61,17 +61,17 @@ ht-degree: 87%
    + [Panoramica dei tipi di pubblico](audience-library/audience-library.md)
    + [Creazione di un pubblico](audience-library/t-audience-create.md)
    + [Pubblicazione di un segmento di pubblico di Analytics](audience-library/t-publish-audience-segment.md)
-+ Customer Attributes in Experience Cloud {#customer-attributes}
-   + [Panoramica sugli attributi del cliente](attributes/attributes.md)
-   + [Domande frequenti, limitazioni e pratiche consigliate](attributes/faq-crs.md)
-   + [Informazioni su file di dati e origini dati per gli attributi del cliente](attributes/crs-data-file.md)
-   + [Creare un&#39;origine attributo del cliente e caricare il file di dati](attributes/t-crs-usecase.md)
++ Attributi del cliente in Experience Cloud {#customer-attributes}
+   + [Panoramica degli attributi del cliente](attributes/attributes.md)
+   + [Domande frequenti, limitazioni e best practice](attributes/faq-crs.md)
+   + [Informazioni su file di dati e origini dati per Attributi del cliente](attributes/crs-data-file.md)
+   + [Creazione di una sorgente attributo cliente e caricamento del file di dati](attributes/t-crs-usecase.md)
    + [Facoltativo - Caricamento del file dati tramite FTP](attributes/t-upload-attributes-ftp.md)
    + [Convalida dello schema](attributes/validate-schema.md)
    + [Configurazione delle sottoscrizioni](attributes/subscription.md)
    + [Aggiornamento dello schema](attributes/t-update-schema.md)
    + [Supporto per il regolamento generale sulla protezione dei dati](attributes/gdpr.md)
-   + [Supporto per California Consumer Privacy Act](attributes/ccpa.md)
+   + [Supporto per il California Consumer Privacy Act](attributes/ccpa.md)
    + [Considerazioni sulla privacy - Attributi del cliente](attributes/privacy-mac.md)
 + Note sulla versione di Experience Cloud {#release-notes}
    + [Novità in Experience Cloud](https://docs.adobe.com/content/help/it-IT/release-notes/experience-cloud/current.html)
