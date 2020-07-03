@@ -4,11 +4,11 @@ seo-description: Scopri come mappare una o più suite di rapporti per un’organ
 seo-title: Mappatura di suite di rapporti per un’organizzazione
 title: Mappatura di suite di rapporti per un’organizzazione
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d987d60a462457afab6c1935095c7ea948b4d65
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1201'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->La funzionalità di mappatura delle suite di rapporti diventerà obsoleta a novembre 2020. Mappa tutte le suite di rapporti in evidenza in >preparazione per questo. Rivolgiti al cliente per qualsiasi domanda.
+>La funzionalità di mappatura di suite di rapporti diventerà obsoleta a novembre 2020. Mappa eventuali suite di rapporti arretrate in preparazione a questo evento. Rivolgiti al servizio clienti per qualsiasi domanda.
 
 Scopri come mappare una o più suite di rapporti per un’organizzazione.
 
@@ -36,7 +36,7 @@ Le organizzazioni sono disattivate se non disponi delle autorizzazioni di ammini
 
 ## Mappatura di una suite di rapporti su un’organizzazione {#task_23993FE78DF6455FA8D7BE60686EA16C}
 
-1. Passa a Suite di rapporti per la governance dei dati da [!DNL Analytics] > **[!UICONTROL Amministratore]** > Governance **[!UICONTROL dei]** dati (consulta [Visualizza/gestisci impostazioni di governance dei dati della suite di rapporti)](https://docs.adobe.com/help/en/analytics/admin/data-governance/gdpr-view-settings.html)
+1. Passa a Suite di rapporti per la governance dei dati da [!DNL Analytics] > **[!UICONTROL Amministratore]** > **[!UICONTROL Governance dei dati]** (consulta [Visualizzare/gestire le impostazioni di governance dei dati della suite di rapporti](https://docs.adobe.com/help/it-IT/analytics/admin/data-governance/gdpr-view-settings.html))
 
 1. Per visualizzare le società con accesso a ogni suite di rapporti, fai clic su **[!UICONTROL Visibile per le società di accesso]**.
 
