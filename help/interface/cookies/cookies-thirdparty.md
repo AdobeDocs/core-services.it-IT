@@ -6,11 +6,11 @@ seo-title: Effetti delle modifiche al supporto dei cookie di terze parti sui cli
 solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: Effetti delle modifiche al supporto dei cookie di terze parti sui clienti
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f65132e291ba925ded39d75e92b24cf707d520b5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '368'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ L’elenco seguente illustra l’effetto dei cookie di terze parti sulle impleme
 ## Adobe Analytics e Adobe Target
 
 * Per i clienti con un’[implementazione di prima parte](/help/interface/cookies/cookies-first-party.md), l’effetto è quasi nullo.
-* I clienti che non utilizzano l’implementazione di prime parti possono implementare il [servizio Experience Platform ID](https://docs.adobe.com/content/help/en/id-service/using/implementation/implementation-guides.html) per memorizzare i cookie ID come cookie di prime parti senza un’implementazione di prime parti.
+* I clienti che non utilizzano l’implementazione di prime parti possono implementare il [servizio Experience Platform ID](https://docs.adobe.com/content/help/it-IT/id-service/using/implementation/implementation-guides.html) per memorizzare i cookie ID come cookie di prime parti senza un’implementazione di prime parti.
 
 ## Adobe Experience Manager
 
@@ -32,7 +32,7 @@ L’elenco seguente illustra l’effetto dei cookie di terze parti sulle impleme
 
 ## Adobe Social
 
-* Social non verrà influenzato finché il cliente avrà la versione più recente del codice.
+* Social non dovrebbe subire modifiche se il cliente dispone della versione più recente del codice.
 
 ## Adobe Advertising Cloud
 
@@ -44,7 +44,7 @@ L’elenco seguente illustra l’effetto dei cookie di terze parti sulle impleme
 * Visualizzazione:
 
    * La visualizzazione quotidiana del remarketing dipende completamente dall’utilizzo dei cookie di terze parti.
-   * La visualizzazione dipende anche dalla disponibilità di vari cookie di rete pubblicitaria per la sincronizzazione.
+   * La visualizzazione dipende inoltre fortemente dalla disponibilità di vari cookie della rete pubblicitaria per la sincronizzazione.
    * L’impatto generale è sconosciuto. Tuttavia, per quanto riguarda il primo punto, la visualizzazione è interessata più di altri servizi.
    * Stiamo lavorando internamente e con i nostri partner pubblicitari per valutare appieno l’impatto sulla distribuzione degli annunci.
 
