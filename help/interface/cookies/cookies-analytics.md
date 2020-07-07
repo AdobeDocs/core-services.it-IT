@@ -6,9 +6,9 @@ seo-title: Cookie di Analytics
 solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: Cookie di Analytics
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
-translation-type: ht
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: bd118685e1dd65b51a171abdfa4e034dd5b9e181
+workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 100%
 
@@ -66,7 +66,7 @@ Ulteriori informazioni sui [cookie di prime parti](/help/interface/cookies/cooki
 
 | Attributo | Descrizione |
 |--- |--- |
-| Informazioni memorizzate | ID visitatore univoco/timestamp |
+| Informazioni memorizzate | ID visitatore univoco/timestamp. |
 | Scadenza | 2 anni |
 | Utilizzo | Questo cookie viene usato per identificare un visitatore univoco |
 | Posizione | Questo cookie viene memorizzato nel dominio della richiesta di immagine, in genere 2o7.net o omtrdc.net se utilizzi cookie di terze parti o il tuo dominio se utilizzi cookie di prime parti. |
@@ -98,7 +98,9 @@ Nella tabella seguente sono descritti i flag per i cookie di Analytics:
 | s_cc (Javascript) | No | No | Non impostato |
 | s_sq (Javascript) | No | No | Non impostato |
 
->[!NOTE] Se si utilizza un singolo CNAME per il monitoraggio tra più domini o proprietà, SameSite deve essere impostato su &quot;None&quot; per `s_vi`. Per ricevere assistenza nella modifica delle impostazioni dei cookie di Analytics, contatta l’Assistenza clienti.
+>[!NOTE]
+>
+>Se si utilizza un singolo CNAME per il monitoraggio tra più domini o proprietà, SameSite deve essere impostato su &quot;None&quot; per `s_vi`. Per ricevere assistenza nella modifica delle impostazioni dei cookie di Analytics, contatta l’Assistenza clienti.
 
 ## Cookie impostati da plug-in {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
