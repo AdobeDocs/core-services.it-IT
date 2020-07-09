@@ -6,9 +6,9 @@ seo-title: Abilitare le soluzioni Experience Cloud per i servizi core
 solution: Experience Cloud
 title: Abilita le tue soluzioni per i servizi core
 index: true
-translation-type: ht
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: c8d38647750747212c2b825feff600419c1f3352
+workflow-type: tm+mt
 source-wordcount: '2358'
 ht-degree: 100%
 
@@ -84,8 +84,6 @@ Le sezioni seguenti descrivono come poter modernizzare l&#39;implementazione. La
 Il [!UICONTROL Servizio Experience Cloud ID] fornisce un ID comune per l&#39;integrazione tra diverse soluzioni. Fornisce l&#39;identificazione dei visitatori tra domini, oltre a un percorso per il targeting e la personalizzazione tra dispositivi e browser basati sui dati CRM che sono stati caricati tramite gli [!UICONTROL Attributi del cliente].
 
 Il metodo più semplice per abilitare i servizi core di Experience Cloud è quello di attivarli automaticamente per Analytics e Adobe Target tramite l&#39;[estensione del servizio Experience Cloud ID](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html) all&#39;interno di [!UICONTROL Experience Platform Launch] oppure mediante lo strumento ECID in [!UICONTROL Dynamic Tag Management]. Adobe consiglia vivamente Experience Platform Launch.
-
-![](assets/menu-activation-shell.png)
 
 Per ricevere un aiuto completo sul Servizio Experience Cloud ID (già ID visitatore), visita [qui](https://docs.adobe.com/content/help/it-IT/id-service/using/home.html).
 
@@ -187,20 +185,11 @@ Consulta [Gestione di utenti e prodotti Experience Cloud](../admin-getting-start
 
 ### Attributi del cliente
 
-<!-- <p> 
- <note type="important">
-  To use the Customer Attributes feature, users must belong to the 
-  <span class="term"> Adobe Customer Attributes</span> group, and to solution-level groups (Analytics or Adobe Target). 
- </note> </p> 
- -->
-
 Gli utenti che vengono aggiunti al gruppo [!UICONTROL Attributi del cliente] visualizzeranno la voce di menu [!UICONTROL Attributi del cliente] presente sul lato sinistro dell&#39;interfaccia Experience Cloud.
 
 ## Passaggio 8: Inizia a usare i servizi core {#section_960C06093623462E8EA247B3E97274A1}
 
 Utilizza le seguenti funzionalità.
-
-![](assets/menu-audiences-shell.png)
 
 ### [!UICONTROL Persone] > [!UICONTROL Attributi del cliente]
 
