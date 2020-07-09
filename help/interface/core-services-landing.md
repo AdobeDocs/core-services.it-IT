@@ -5,11 +5,11 @@ seo-title: Servizi core di Experience Cloud e gestione degli utenti
 solution: Experience Cloud
 title: Informazioni sui servizi core di Experience Cloud
 index: true
-translation-type: ht
-source-git-commit: a8dff138652b34c9532b87a4aae74f9d9f614580
-workflow-type: ht
-source-wordcount: '511'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: c8d38647750747212c2b825feff600419c1f3352
+workflow-type: tm+mt
+source-wordcount: '510'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 I servizi Adobe Experience Cloud includono [!UICONTROL Persone] (tipi di pubblico e attributi del cliente), Offerte, Experience Platform Launch e Mobile Services. Puoi anche accedere all&#39;Aiuto sulla gestione di utenti e prodotti all&#39;interno di Experience Cloud.
 
-Per accedere a questi servizi direttamente da Experience Cloud, fai clic sul menu **[!UICONTROL Experience Platform]** ![](assets/menu-icon.png).
+To access these services in the Experience Cloud, click the **[!UICONTROL Application Selector]** ![](assets/menu-icon.png).
 
 ![](assets/platform-core-services.png)
 
