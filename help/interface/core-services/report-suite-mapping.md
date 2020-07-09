@@ -4,11 +4,11 @@ seo-description: Scopri come mappare una o più suite di rapporti per un’organ
 seo-title: Mappatura di suite di rapporti per un’organizzazione
 title: Mappatura di suite di rapporti per un’organizzazione
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
-translation-type: ht
-source-git-commit: 5d987d60a462457afab6c1935095c7ea948b4d65
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: c8d38647750747212c2b825feff600419c1f3352
+workflow-type: tm+mt
 source-wordcount: '1201'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -17,11 +17,9 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->La funzionalità di mappatura di suite di rapporti diventerà obsoleta a novembre 2020. Mappa eventuali suite di rapporti arretrate in preparazione a questo evento. Rivolgiti al servizio clienti per qualsiasi domanda.
+>La funzionalità di mappatura di suite di rapporti diventerà obsoleta a novembre 2020. Vi preghiamo di mappare tutte le suite di rapporti in sospeso per prepararvi a questo. Rivolgiti al servizio clienti per qualsiasi domanda.
 
 Scopri come mappare una o più suite di rapporti per un’organizzazione.
-
-<!-- May 5 2020: This feature will likely be deprecated in Nov 2020. Any users with outstanding report suites that are not mapped will have 6 months to map their RS. -->
 
 I servizi di Experience Cloud (come il servizio Experience Cloud ID e [!UICONTROL Persone]) sono associati a un’organizzazione invece che a suite di rapporti individuale. Per garantire il corretto funzionamento di questi servizi, ogni suite di rapporti di Analytics deve essere mappata su un’organizzazione. Il processo di mappatura:
 
