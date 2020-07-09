@@ -6,11 +6,11 @@ seo-title: Accesso e gestione delle impostazioni del profilo
 solution: Experience Cloud
 title: Accesso e gestione delle impostazioni del profilo Experience Cloud
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
-translation-type: ht
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
-workflow-type: ht
-source-wordcount: '968'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: c8d38647750747212c2b825feff600419c1f3352
+workflow-type: tm+mt
+source-wordcount: '962'
+ht-degree: 97%
 
 ---
 
@@ -27,14 +27,11 @@ L&#39;accesso a Experience Cloud (anziché a una singola soluzione) consente di 
 
 Accedi e verifica di essere nell&#39;[organizzazione](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) corretta.
 
-1. Fai clic sul menu a discesa Experience Cloud (![](assets/menu-icon.png)), quindi seleziona **[!UICONTROL Amministrazione]**.
+1. Click the Experience Cloud menu ( ![](assets/menu-icon.png)), then click **[!UICONTROL Administration]**.
 
-   ![](assets/admin-link.png)
-
-   Se non viene visualizzato il collegamento **[!UICONTROL Amministrazione]**, non sei un amministratore di Experience Cloud per l&#39;[organizzazione](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) visualizzata (Adobe Corp, in questo esempio). Per assistenza su come diventare amministratore, contatta l&#39;Assistenza clienti o un amministratore Experience Cloud della tua azienda.
+   If the **[!UICONTROL Administration]** link is not shown, you are not an Experience Cloud administrator for the displayed [organization](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1). Per assistenza su come diventare amministratore, contatta l&#39;Assistenza clienti o un amministratore Experience Cloud della tua azienda.
 1. Fai clic su **[!UICONTROL Amministrazione]**.
 
-   ![](assets/admin-landing.png)
 1. Procedi facendo clic su uno dei collegamenti seguenti:
 
 | Elemento | Descrizione |
