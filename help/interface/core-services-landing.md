@@ -5,20 +5,20 @@ seo-title: Servizi core di Experience Cloud e gestione degli utenti
 solution: Experience Cloud
 title: Informazioni sui servizi core di Experience Cloud
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c8d38647750747212c2b825feff600419c1f3352
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '510'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
 # Informazioni su Experience Cloud {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
 
-I servizi Adobe Experience Cloud includono [!UICONTROL Persone] (tipi di pubblico e attributi del cliente), Offerte, Experience Platform Launch e Mobile Services. Puoi anche accedere all&#39;Aiuto sulla gestione di utenti e prodotti all&#39;interno di Experience Cloud.
+I servizi Adobe Experience Cloud includono [!UICONTROL People] (tipi di pubblico e attributi del cliente), Offerte, Experience Platform Launch e Mobile Services. Puoi anche accedere all&#39;Aiuto sulla gestione di utenti e prodotti all&#39;interno di Experience Cloud.
 
-To access these services in the Experience Cloud, click the **[!UICONTROL Application Selector]** ![](assets/menu-icon.png).
+Per accedere a questi servizi in Experience Cloud, fai clic sul **[!UICONTROL selettore dell’applicazione]** ![](assets/menu-icon.png).
 
 ![](assets/platform-core-services.png)
 
@@ -36,4 +36,4 @@ Il presente Aiuto descrive i seguenti prodotti e servizi:
 | [Location Service](https://docs.adobe.com/content/help/it-IT/places/using/home.html) | Adobe [!UICONTROL Experience Platform Location Service] è un servizio di geolocalizzazione che consente alle app mobili dotate di awareness della posizione di contestualizzare quest&#39;ultima mediante l&#39;uso di interfacce SDK avanzate e facili da usare, associate a un database flessibile di punti di interesse (POI). |
 | [Exchange](exchange.md) | Cerca, sfoglia, seleziona, paga e scarica estensioni Digital Marketing tramite app. |
 | [Mobile Services](https://docs.adobe.com/content/help/it-IT/mobile-services/using/home.html) | Adobe Mobile Services riunisce le funzionalità di marketing mobile di applicazioni per dispositivi mobili da Experience Cloud, consentendoti di comprendere e migliorare il coinvolgimento degli utenti con le applicazioni mobili. |
-| Persone | Crea una visualizzazione completa dei singoli clienti, connettendo dati Adobe e non-Adobe nelle tue soluzioni Experience Cloud. Scopri quali sono i loro interessi mentre interagiscono con i vari punti di contatto. Riconosci i consumatori più fedeli quando accedono da dispositivi sconosciuti. Dividi i gruppi di utenti in tipi di pubblico per attività di marketing mirate.<br>[Tipi di pubblico](audience-library/audience-library.md): categorizza diversi tipi di clienti in tipi di pubblico e condividi questi ultimi tra le soluzioni Experience Cloud.<br>[Attributi del cliente](attributes/attributes.md): un arricchimento ai tipi di pubblico che consente di connettere le informazioni sui clienti raccolte al di fuori di Experience Cloud.<br>[Device Graph (Grafico dispositivo)](https://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html): collabora con i marchi più popolari al mondo per riconoscere un consumatore familiare che accede da un dispositivo sconosciuto. In versione beta, solo per i membri di Experience Cloud Device Co-op. |
+| People | Crea una visualizzazione completa dei singoli clienti, connettendo dati Adobe e non-Adobe nelle tue soluzioni Experience Cloud. Scopri quali sono i loro interessi mentre interagiscono con i vari punti di contatto. Riconosci i consumatori più fedeli quando accedono da dispositivi sconosciuti. Dividi i gruppi di utenti in tipi di pubblico per attività di marketing mirate.<br>[Tipi di pubblico](audience-library/audience-library.md): categorizza diversi tipi di clienti in tipi di pubblico e condividi questi ultimi tra le soluzioni Experience Cloud.<br>[Attributi del cliente](attributes/attributes.md): un arricchimento ai tipi di pubblico che consente di connettere le informazioni sui clienti raccolte al di fuori di Experience Cloud.<br>[Device Graph (Grafico dispositivo)](https://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html): collabora con i marchi più popolari al mondo per riconoscere un consumatore familiare che accede da un dispositivo sconosciuto. In versione beta, solo per i membri di Experience Cloud Device Co-op. |
