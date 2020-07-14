@@ -6,9 +6,9 @@ seo-title: Abilitare le soluzioni Experience Cloud per i servizi core
 solution: Experience Cloud
 title: Abilita le tue soluzioni per i servizi core
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c8d38647750747212c2b825feff600419c1f3352
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2358'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ Cosa devi fare per partecipare a Experience Cloud:
 
 >[!NOTE]
 >
->Ad [!DNL Target]esempio, effettua la migrazione a at.js da [!DNL mbox.js]. Consulta [Aggiornamento da at.js 1. x a at.js 2. x](https://docs.adobe.com/content/help/it-IT/target/using/implement-target/client-side/upgrading-from-atjs-1x-to-atjs-20.html).
+>Ad [!DNL Target] esempio, effettua la migrazione a at.js da [!DNL mbox.js]. Consulta [Aggiornamento da at.js 1. x a at.js 2. x](https://docs.adobe.com/content/help/it-IT/target/using/implement-target/client-side/upgrading-from-atjs-1x-to-atjs-20.html).
 
 ![](assets/step2_icon.png) Modernizza la tua implementazione ed effettua il provisioning di un amministratore.
 
@@ -124,7 +124,7 @@ Contatta l&#39;Assistenza clienti per abilitare i dati presenti nella cronologia
 
 ## Passaggio 3: Mappatura di suite di rapporti per un&#39;organizzazione Experience Cloud {#section_7B08516B01BA421681DF03D0E86CE3BA}
 
-I servizi Experience Cloud (come Experience Cloud ID e il servizio [!UICONTROL persone]) sono associati a una suite di rapporti di un&#39;organizzazione Experience Cloud, anziché a una sola suite di rapporti di Analytics. Per garantire il corretto funzionamento di questi servizi, ogni suite di rapporti di Analytics deve essere mappata a un&#39;organizzazione Experience Cloud.
+I servizi Experience Cloud (come Experience Cloud ID e il servizio [!UICONTROL People]) sono associati a una suite di rapporti di un&#39;organizzazione Experience Cloud, anziché a una sola suite di rapporti di Analytics. Per garantire il corretto funzionamento di questi servizi, ogni suite di rapporti di Analytics deve essere mappata a un&#39;organizzazione Experience Cloud.
 
 Consulta [Mappatura di suite di rapporti per un&#39;organizzazione](report-suite-mapping.md).
 
@@ -138,7 +138,7 @@ In [!UICONTROL Dynamic Tag Management], fai clic su **[!UICONTROL <Web Property 
 
 ## Passaggio 5: (Adobe Target) Aggiorna la tua implementazione Adobe Target {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
-* È consigliabile aggiungere un&#39;[estensione Adobe Target](https://docs.adobe.com/content/help/it-IT/launch/using/extensions-ref/adobe-extension/targetv2-extension/adobe-target-extension-v2.html) in [!UICONTROL Experience Platform Launch] per rendere automatico il recupero della libreria. Puoi anche impostare l&#39;[estensione del servizio Experience Cloud ID](https://docs.adobe.com/content/help/it-IT/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html) per Adobe Target (e altre soluzioni) tramite [!UICONTROL Experience Platform Launch]. **È necessario** l&#39;aggiornamento del [!UICONTROL Servizio Experience Cloud ID] per consentire ad Adobe Target di utilizzare i servizi core Se utilizzi [!UICONTROL Dynamic Tag Management], aggiungi uno [strumento Adobe Target](https://docs.adobe.com/content/help/it-IT/dtm/using/tools/target.html). Puoi anche utilizzare [!UICONTROL Dynamic Tag Management] per distribuire il servizio Experience Cloud ID per Adobe Target.
+* È consigliabile aggiungere un&#39;[estensione Adobe Target](https://docs.adobe.com/content/help/it-IT/launch/using/extensions-ref/adobe-extension/targetv2-extension/adobe-target-extension-v2.html) in [!UICONTROL Experience Platform Launch] per rendere automatico il recupero della libreria. Puoi anche impostare l&#39;[estensione del servizio Experience Cloud ID](https://docs.adobe.com/content/help/it-IT/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html) per Adobe Target (e altre soluzioni) tramite [!UICONTROL Experience Platform Launch]. **È necessario** l&#39;aggiornamento del [!UICONTROL Servizio Experience Cloud ID] per consentire ad Adobe Target di utilizzare i servizi core. Se utilizzi [!UICONTROL Dynamic Tag Management], aggiungi uno [strumento Adobe Target](https://docs.adobe.com/content/help/it-IT/dtm/using/tools/target.html). Puoi anche utilizzare [!UICONTROL Dynamic Tag Management] per distribuire il servizio Experience Cloud ID per Adobe Target.
 * Se non utilizzi [!UICONTROL Experience Platform Launch] o [!UICONTROL Dynamic Tag Management], [aggiorna manualmente la libreria mbox](https://docs.adobe.com/content/help/it-IT/target/using/implement-target/client-side/mbox-implement/target-download-config-mbox.html).
 * Richiedi l&#39;accesso per utilizzare Adobe Analytics come fonte di reporting per [!DNL Adobe Target]. I dati di [!DNL Target] e [!DNL Analytics] sono combinati nella stessa chiamata al server durante l&#39;elaborazione affinché i visitatori siano collegati tra le due soluzioni. Consulta [Analytics per implementazione di Target](https://docs.adobe.com/content/help/it-IT/target/using/integrate/a4t/a4t.html).
 
@@ -205,9 +205,9 @@ Consulta [Audiences](../audience-library/audience-library.md#topic_679810123CAA4
 
 ## Archivio dei dati e informativa sulla privacy
 
-Se usi la profilazione del pubblico in tempo reale e altri servizi core in Adobe [!DNL Experience Cloud], l&#39;utilizzo di questi servizi potrebbe influire sul datacenter (e sul paese) in cui si trovano i dati. In particolare, poiché i servizi di Adobe [!DNL Experience Cloud] si basano su Adobe Audience Manager, i dati utilizzati nel servizio core [!UICONTROL persone] devono trovarsi nei server di Audience Manager negli Stati Uniti.
+Se usi la profilazione del pubblico in tempo reale e altri servizi core in Adobe [!DNL Experience Cloud], l&#39;utilizzo di questi servizi potrebbe influire sul datacenter (e sul paese) in cui si trovano i dati. In particolare, poiché i servizi di Adobe [!DNL Experience Cloud] si basano su Adobe Audience Manager, i dati utilizzati nel servizio core [!UICONTROL People] devono trovarsi nei server di Audience Manager negli Stati Uniti.
 
-Quando si usano i servizi resi disponibili tramite il servizio core [!UICONTROL persone], i tipi di dati inviati da altri prodotti Adobe alla gestione dell&#39;audience sono:
+Quando si usano i servizi resi disponibili tramite il servizio core [!UICONTROL People], i tipi di dati inviati da altri prodotti Adobe alla gestione dell&#39;audience sono:
 
 * Coppie chiave/valore di [!DNL Analytics] (proprietà, eVars, variabili elenco e così via). Per impostazione predefinita, le righe del registro contengono l&#39;indirizzo IP, incluso l&#39;ultimo ottetto dell&#39;IP (partendo dal presupposto che l&#39;indirizzo IP non sia stato modificato dalle impostazioni di offuscamento dell&#39;IP di Adobe [!DNL Analytics]).
 * Caratteristiche e segmenti per i quali i visitatori si qualificano in base a regole impostate in Audience Manager.
