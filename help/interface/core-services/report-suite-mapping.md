@@ -4,11 +4,11 @@ seo-description: Scopri come mappare una o più suite di rapporti per un’organ
 seo-title: Mappatura di suite di rapporti per un’organizzazione
 title: Mappatura di suite di rapporti per un’organizzazione
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c8d38647750747212c2b825feff600419c1f3352
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1201'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->La funzionalità di mappatura di suite di rapporti diventerà obsoleta a novembre 2020. Vi preghiamo di mappare tutte le suite di rapporti in sospeso per prepararvi a questo. Rivolgiti al servizio clienti per qualsiasi domanda.
+>La funzionalità di mappatura di suite di rapporti diventerà obsoleta a novembre 2020. Esegui la mappatura di eventuali suite di rapporti arretrate in preparazione a questo evento. Rivolgiti al servizio clienti per qualsiasi domanda.
 
 Scopri come mappare una o più suite di rapporti per un’organizzazione.
 
-I servizi di Experience Cloud (come il servizio Experience Cloud ID e [!UICONTROL Persone]) sono associati a un’organizzazione invece che a suite di rapporti individuale. Per garantire il corretto funzionamento di questi servizi, ogni suite di rapporti di Analytics deve essere mappata su un’organizzazione. Il processo di mappatura:
+I servizi di Experience Cloud (come il servizio Experience Cloud ID e [!UICONTROL People]) sono associati a un’organizzazione invece che a suite di rapporti individuale. Per garantire il corretto funzionamento di questi servizi, ogni suite di rapporti di Analytics deve essere mappata su un’organizzazione. Il processo di mappatura:
 
 * Imposta un’organizzazione Experience Cloud come organizzazione principale per la suite di rapporti.
 * Non modifica chi può accedere a una suite di rapporti (l’accesso è ancora determinato dall’account di accesso di Adobe Analytics per ogni utente)
@@ -85,7 +85,7 @@ Questo utente ha accesso a due organizzazioni Experience Cloud. Ha eseguito le s
 I punti seguenti elencano le azioni di mappatura che questo utente può e non può eseguire relativamente a queste suite di rapporti:
 
 * La suite di rapporti [!UICONTROL Chapek-prod] può essere mappata sull’organizzazione [!UICONTROL Chapek Corp] poiché questo utente è un amministratore di una società di accesso di Analytics collegata ([!UICONTROL chapek]) e il suo account è collegato a questa organizzazione.
-* [!UICONTROL La suite di rapporti Nigel-prod] non può essere collegata da questo utente poiché non è un amministratore in alcuna società di accesso alla quale è visibile questa suite di rapporti.
+* La suite di rapporti [!UICONTROL Nigel-prod] non può essere collegata da questo utente poiché non è un amministratore in alcuna società di accesso alla quale è visibile questa suite di rapporti.
 * La suite di rapporti [!UICONTROL Doohan-prod] può essere mappata su [!UICONTROL Chapek Corp] poiché questo utente è un amministratore di una società di accesso ([!UICONTROL chapek]) collegata all’organizzazione di Experience Cloud (nota che non è un amministratore della società di accesso di Analytics doohan). È importante comprendere che la suite di rapporti [!UICONTROL doohan-prod] è anche idonea a essere mappata sull’organizzazione di Experience Cloud Nigel Inc, anche se questo utente non può farlo. In questo caso, entrambe le organizzazioni di Experience Cloud sono visualizzate nell’elenco, ma [!UICONTROL Nigel Inc] è disattivata. Prima della mappatura, questo utente deve consultare un amministratore della società di accesso Nigel per determinare quale organizzazione è la migliore per la mappatura. L’interfaccia utente visualizza un avviso di possibile conflitto se selezioni un’organizzazione diversa dall’organizzazione in cui è stata originariamente creata la suite di rapporti.
 
 ## Domande frequenti {#section_099E485805994C929FF9C9F75219BEE1}
