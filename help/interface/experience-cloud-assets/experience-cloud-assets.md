@@ -5,9 +5,9 @@ seo-title: Risorse
 solution: Experience Cloud
 title: Risorse
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c8d38647750747212c2b825feff600419c1f3352
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '434'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ L’utilizzo delle risorse migliora la coerenza e la conformità al marchio, vel
 * **[!DNL Media Optimizer]**: sviluppo di unità tra diversi canali e campagne.
 * **[!DNL Campaign]**: posizionamento di risorse nelle newsletter e campagne via e-mail.
 
-In [!UICONTROL Assets di Experience Cloud] puoi eseguire le seguenti operazioni:
+In [!UICONTROL Experience Cloud Assets] puoi eseguire le seguenti operazioni:
 
 * [Passare a Experience Cloud Assets](../experience-cloud-assets/experience-cloud-assets.md#section_3657039DD3524F2AA88753BFF4781125)
 * [Accedere alla barra degli strumenti](../experience-cloud-assets/experience-cloud-assets.md#section_EC2E401D225148818F3753248556BE6B)
@@ -54,7 +54,7 @@ La barra degli strumenti fornisce un accesso rapido a funzioni quali: Search, Ti
 
 ![](assets/asset-tools.png)
 
-## Modifica delle risorse  {#section_CD3C55A9D4574455B94D0955391C8FEC}
+## Modifica delle risorse {#section_CD3C55A9D4574455B94D0955391C8FEC}
 
 La modifica di una risorsa abilita funzionalità quali:
 
