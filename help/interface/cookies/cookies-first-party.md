@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: Cookie di prime parti
 index: y
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c8d38647750747212c2b825feff600419c1f3352
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1464'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Con la tua autorizzazione, collaboreremo con la nostra CA per rilasciare, distri
 
 Il programma di certificazione gestito di Adobe è il processo consigliato per l’implementazione di un nuovo certificato SSL di prima parte per i cookie di prime parti.
 
-Il programma Adobe Managed Certificate consente di implementare un nuovo certificato SSL di prima parte per i cookie di prime parti senza costi aggiuntivi (per i primi 100 CNAME). Se al momento disponi di un tuo certificato SSL gestito dal cliente, chiama l’Assistenza clienti Adobe per informazioni su come effettuare la migrazione al programma di certificazione gestito di Adobe.
+Il programma di certificazione gestito di Adobe consente di implementare un nuovo certificato SSL di prima parte per i cookie di prime parti senza costi aggiuntivi (per i primi 100 CNAME). Se al momento disponi di un tuo certificato SSL gestito dal cliente, chiama l’Assistenza clienti Adobe per informazioni su come effettuare la migrazione al programma di certificazione gestito di Adobe.
 
 ### Implementazione
 
@@ -72,7 +72,7 @@ I certificati SSL scadono ogni anno, il che significa che Adobe deve acquistare 
 | Domanda | Risposta |
 |---|---|
 | **Il processo è sicuro?** | Sì, il programma gestito da Adobe è più sicuro del metodo legacy, in quanto nessun certificato o chiave privata vengono trasmessi al di fuori di Adobe e dell’autorità di certificazione emittente. |
-| **In che modo Adobe può acquistare un certificato per il mio dominio?** | The certificate can only be purchased when you have pointed the specified hostname (for example, `smetrics.example.com`) to an Adobe owned hostname. In pratica questo nome host viene delegato ad Adobe e consente ad Adobe di acquistare il certificato a tuo nome. |
+| **In che modo Adobe può acquistare un certificato per il mio dominio?** | Il certificato può essere acquistato solo dopo aver puntato il nome host specificato (ad esempio `smetrics.example.com`) a un nome host di proprietà di Adobe. In pratica questo nome host viene delegato ad Adobe e consente ad Adobe di acquistare il certificato a tuo nome. |
 | **Posso richiedere la revoca del certificato?** | Sì, come proprietario del dominio, hai diritto di richiedere la revoca del certificato. Per completare il processo, dovrai solo aprire un ticket con l’Assistenza clienti. |
 | **Il certificato utilizzerà la cifratura SHA-2?** | Sì, Adobe collaborerà con DigiCert per emettere un certificato SHA-2. |
 | **Sono previsti costi aggiuntivi?** | No, Adobe offre questo servizio a tutti i clienti attuali di Analytics senza costi aggiuntivi. |
@@ -83,10 +83,10 @@ Il team che gestisce la rete della tua organizzazione deve configurare i server 
 
 Lo specialista FPC fornisce i nomi host configurati e i CNAME a cui devono essere puntati. Ad esempio:
 
-* **Nome host SSL**:`smetrics.mysite.com`
-* **CNAME SSL**:`mysite.com.ssl.sc.omtrdc.net`
-* **Nome host non SSL**:`metrics.mysite.com`
-* **CNAME non SSL**:`mysite.com.sc.omtrdc.net`
+* **Nome host SSL**: `smetrics.mysite.com`
+* **CNAME SSL**: `mysite.com.ssl.sc.omtrdc.net`
+* **Nome host non SSL**: `metrics.mysite.com`
+* **CNAME non SSL**: `mysite.com.sc.omtrdc.net`
 
 Fintanto che il codice di implementazione non viene modificato, questo passaggio non influisce sulla raccolta dei dati e può essere eseguito in qualsiasi momento dopo l’aggiornamento del codice di implementazione.
 
@@ -153,12 +153,12 @@ Prima di modificare il codice sul sito per utilizzare i cookie di prime parti, c
 Dopo aver verificato che i nomi host rispondano e trasmettano ai server di raccolta dati di Adobe, puoi modificare l’implementazione in modo che punti ai nomi host della tua raccolta dati.
 
 1. Apri il tuo file JavaScript di base (`s_code.js/AppMeasurement.js`).
-1. Se vuoi aggiornare la versione del codice, sostituisci l’intero file `s_code.js/AppMeasurement.js` con la versione più recente e sostituisci eventuali plug-in o personalizzazioni (se presenti). **Oppure**, se desideri aggiornare il codice solo per i cookie di prime parti, individua le variabili s.trackingServer e s.trackingServerSecure (se utilizzi SSL) e puntale ai nuovi nomi host della tua raccolta dati. Usiamo ilmiosito.com come esempio:`s.trackingServer = "metrics.mysite.com"` `s.trackingServerSecure = "smetrics.mysite.com"`
+1. Se vuoi aggiornare la versione del codice, sostituisci l’intero file `s_code.js/AppMeasurement.js` con la versione più recente e sostituisci eventuali plug-in o personalizzazioni (se presenti). **Oppure**, se desideri aggiornare il codice solo per i cookie di prime parti, individua le variabili s.trackingServer e s.trackingServerSecure (se utilizzi SSL) e puntale ai nuovi nomi host della tua raccolta dati. Usiamo ilmiosito.com come esempio: `s.trackingServer = "metrics.mysite.com"` `s.trackingServerSecure = "smetrics.mysite.com"`
 
 1. Carica il file JavaScript di base aggiornato sul sito.
 
 1. Se stai passando ai cookie di prime parti da un’implementazione di lunga data o a un nome host di raccolta di prima parte diverso, ti consigliamo di migrare i visitatori dal dominio precedente al nuovo.
 
-Consulta la sezione [Migrazione dei visitatori](https://docs.adobe.com/content/help/it-IT/analytics/technotes/visitor-identification.html) nella Guida all’implementazione di Analytics.
+Consulta la sezione [Migrazione dei visitatori](https://docs.adobe.com/content/help/it-IT/analytics/components/metrics/unique-visitors.html) nella Guida all’implementazione di Analytics.
 
 Dopo che hai caricato il file JavaScript, tutto è configurato per la raccolta dati di cookie di prime parti. Per le prime ore, ti consigliamo di monitorare i report di Analytics per verificare che la raccolta dei dati continui come previsto. In caso contrario, verifica che tutti i passaggi precedenti siano stati completati e fai contattare l’Assistenza clienti da uno degli utenti supportati dalla tua organizzazione.
