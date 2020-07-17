@@ -5,15 +5,15 @@ user-guide-description: Adobe Experience Cloud services include the People (Audi
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 323e562d41daa547d488497116cd5ffa783f6426
+source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 
-# Guida utente servizi core {#interface}
+# Experience Cloud interface help {#interface}
 
 + [Experience Cloud e documentazione del prodotto](experience-cloud.md)
 + Servizi core in Experience Cloud {#about-core-services}
@@ -48,8 +48,8 @@ ht-degree: 100%
    + [Guida utente di Launch](https://docs.adobe.com/content/help/it-IT/launch/using/overview.html)
    + [Guida utente di Dynamic Tag Manager](https://docs.adobe.com/content/help/it-IT/dtm/using/dtm-home.html)
    + [Triggers](activation/triggers.md)
-+ Assets di Experience Cloud {#assets}
-   + [Panoramica sugli assets di Experience Cloud](experience-cloud-assets/experience-cloud-assets.md)
++ Asset di Experience Cloud {#assets}
+   + [Panoramica sugli asset di Experience Cloud](experience-cloud-assets/experience-cloud-assets.md)
    + [Condivisione di cartelle e risorse Experience Cloud con Creative Cloud](experience-cloud-assets/creative-cloud.md)
    + [Gestione degli utenti di Creative Cloud](experience-cloud-assets/t-admin-add-cc-user.md)
    + [Condivisione di una cartella di risorse Experience Cloud](experience-cloud-assets/t-share-creative-cloud.md)
