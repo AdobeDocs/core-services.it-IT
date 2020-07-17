@@ -2,15 +2,15 @@
 description: Domande frequenti e relative risposte per gli amministratori in Experience Cloud.
 keywords: core services, Experience Cloud, Experience Platform, Analytics, Target, user management.
 seo-description: Domande frequenti e relative risposte per gli amministratori in Experience Cloud.
-seo-title: Domande frequenti  sui servizi principali di Experience Cloud.
+seo-title: Domande frequenti sui servizi di base  Experience Cloud.
 solution: Adobe Experience Cloud
 title: Domande frequenti
 index: true
-translation-type: ht
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
-workflow-type: ht
-source-wordcount: '733'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
+workflow-type: tm+mt
+source-wordcount: '731'
+ht-degree: 98%
 
 ---
 
@@ -28,7 +28,7 @@ Se non è stato effettuato il provisioning della tua implementazione per i servi
 1. [Mappare suite di rapporti per un’organizzazione Experience Cloud](../core-services/core-services.md#concept_apg_zq2_rw)
 1. [Modernizzare il codice AppMeasurement di Analytics (solo per Analytics)](../core-services/core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [Modernizzare l’implementazione di Adobe Target (solo per Adobe Target)](../core-services/core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)
-1. [Verificare l’implementazione dei servizi principali](../core-services/core-services.md#section_E641782A0F4F44AF8C9C91216BE330D5)
+1. [Verificare l’implementazione](../core-services/core-services.md#section_E641782A0F4F44AF8C9C91216BE330D5)
 1. [Gestione di utenti e prodotti](../core-services/core-services.md#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF)
 1. [Iniziare a utilizzare i servizi principali](../core-services/core-services.md#section_960C06093623462E8EA247B3E97274A1)
 
@@ -81,7 +81,7 @@ Consulta [Gestire gli account utente](../admin-getting-started/organizations.md#
 
 ## Che cos’è un’organizzazione?
 
-Un&#39;*organizzazione* è l&#39;entità che consente all&#39;amministratore di configurare gruppi e utenti e di controllare il single sign-on in Experience Cloud. L&#39;organizzazione funziona come un&#39;azienda che abbraccia tutti i prodotti e le soluzioni Experience Cloud. Nella maggior parte dei casi, un’organizzazione è il nome della tua azienda. Tuttavia, un’azienda può avere più organizzazioni.
+Un&#39;*organizzazione* è l&#39;entità che consente all&#39;amministratore di configurare gruppi e utenti e di controllare il single sign-on in Experience Cloud. L&#39;organizzazione funziona come un&#39;azienda che abbraccia tutti i prodotti e le soluzioni Experience Cloud. Nella maggior parte dei casi, un’organizzazione è il nome dell’azienda. Tuttavia, un’azienda può avere più organizzazioni.
 
 ## Dove posso trovare l’ID organizzazione IMS?
 
