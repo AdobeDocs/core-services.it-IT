@@ -6,22 +6,42 @@ seo-title: Aiuto e documentazione del prodotto per Adobe Experience Cloud e serv
 solution: Adobe Experience Cloud
 title: Aiuto per Experience Cloud e servizi di base
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-translation-type: ht
-source-git-commit: f3d200aede4ca1739c727d799cfdece40bd24a87
-workflow-type: ht
-source-wordcount: '400'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
+workflow-type: tm+mt
+source-wordcount: '405'
+ht-degree: 94%
 
 ---
 
 
 # Experience Cloud documentazione del prodotto di interfaccia
 
+Experience Cloud è un insieme integrato di soluzioni e servizi di marketing digitali realizzati da Adobe. Offre altresì un&#39;interfaccia intuitiva che consente di accedere rapidamente alle soluzioni cloud e ai servizi core.
+
 ![Experience Cloud](assets/cloud-pulldown.png)
 
-Questa pagina fornisce self-help, supporto e documentazione tecnica e di prodotto per le soluzioni e i servizi di Adobe Experience Cloud. Experience Cloud è un insieme integrato di soluzioni e servizi di marketing digitali realizzati da Adobe. Offre altresì un&#39;interfaccia intuitiva che consente di accedere rapidamente alle soluzioni cloud e ai servizi core.
+Questa pagina consente di accedere alla documentazione di prodotto per le seguenti funzioni e servizi:
 
-## Cosa vuoi imparare?
+* [Libreria Audience](audience-library/audience-library.md)
+* [Attributi del cliente](attributes/attributes.md)
+* [Triggers](activation/triggers.md)
+* [Asset di Experience Cloud](experience-cloud-assets/experience-cloud-assets.md)
+* [Cookie di Experience Cloud](cookies/cookies-privacy.md)
+
+## Amministrazione di utenti e prodotti
+
+* [Gestione di utenti e prodotti](admin-getting-started/admin-getting-started.md) (Admin Console)
+* [Abilita le soluzioni per i servizi di base](core-services/core-services.md)
+* [Domande frequenti](admin-getting-started/admin-getting-started.md)
+* [Organizzazioni e collegamento di account](admin-getting-started/organizations.md)
+* [Integrazioni](marketing-cloud-integrations.md)
+* [Integrazione di Adobe Target con Experience Cloud](https://docs.adobe.com/content/help/it-IT/target/using/integrate/a4t/a4t.html)
+* [Panoramica sulla privacy e sulla sicurezza di Experience Cloud](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
+* [Gestione profilo in Adobe Experience Cloud](https://theblog.adobe.com/profile-management-adobe-marketing-cloud-comes-together/) (blog)
+* [Recupero preventivo del DNS](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
+
+## Guida relativa a  Experience Cloud
 
 * [Documentazione del prodotto per tutte le soluzioni Experience Cloud](https://docs.adobe.com/content/help/it-IT/experience-cloud/user-guides/home.html): cerca aiuto all&#39;interno di Informazioni e supporto di Experience Cloud
 * [Note sulla versione e aggiornamenti dei prodotti](https://docs.adobe.com/content/help/it-IT/release-notes/experience-cloud/current.html): le novità di Experience Cloud, tutti gli aggiornamenti per chi si abbona
@@ -45,14 +65,4 @@ Questa pagina fornisce self-help, supporto e documentazione tecnica e di prodott
 * [Experience Cloud Debugger](https://docs.adobe.com/content/help/it-IT/debugger/using/experience-cloud-debugger.html)
 * [API del regolamento generale sulla protezione dei dati (RGPD)](https://www.adobe.io/apis/experiencecloud/gdpr.html)
 
-## Amministrazione e abilitazione
 
-* [Gestione di utenti e prodotti](admin-getting-started/admin-getting-started.md) (Admin Console)
-* [Abilita le soluzioni per i servizi di base](core-services/core-services.md)
-* [Domande frequenti](admin-getting-started/admin-getting-started.md)
-* [Organizzazioni e collegamento di account](admin-getting-started/organizations.md)
-* [Integrazioni](marketing-cloud-integrations.md)
-* [Integrazione di Adobe Target con Experience Cloud](https://docs.adobe.com/content/help/it-IT/target/using/integrate/a4t/a4t.html)
-* [Panoramica sulla privacy e sulla sicurezza di Experience Cloud](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
-* [Gestione profilo in Adobe Experience Cloud](https://theblog.adobe.com/profile-management-adobe-marketing-cloud-comes-together/) (blog)
-* [Recupero preventivo del DNS](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
