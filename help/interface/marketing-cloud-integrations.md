@@ -6,16 +6,16 @@ seo-title: Integrazioni di Experience Cloud
 solution: Experience Cloud
 title: Integrazioni di Experience Cloud
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
-translation-type: ht
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
+workflow-type: tm+mt
 source-wordcount: '1521'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 
-# Integrazioni di Experience Cloud
+# Integrazioni Experience Cloud
 
 Adobe Experience Cloud è un set completo di soluzioni integrate leader di settore generate su una piattaforma di dati comune con un set comune di potenti funzionalità.
 
@@ -33,16 +33,16 @@ Descrive come:
 
 Soluzioni o servizi:
 
-* Activation - Dynamic Tag Management o Experience Platform Launch
+* Attivazione - Experience Platform Launch (consigliato) o gestione tag dinamica
 * Analytics
 * Target
 * [Servizio Experience Cloud ID](https://docs.adobe.com/content/help/it-IT/id-service/using/home.html)
 
 ## Servizio Experience Cloud ID {#section_6ECCCFA2D84D4D4F88C879C799CA9D78}
 
-Guida: [Servizio Experience Cloud ID](https://docs.adobe.com/content/help/it-IT/id-service/using/home.html)
-
 Il servizio ID fornisce un ID universale e costante che identifica i visitatori in tutte le soluzioni Experience Cloud. Può sostituire il codice di generazione ID per servizi come Analytics, Audience Manager, Adobe Target, video heartbeat e altre soluzioni o funzionalità di Experience Cloud.
+
+See [Experience Cloud ID Service](https://docs.adobe.com/content/help/it-IT/id-service/using/home.html)
 
 **Soluzioni o servizi applicabili**
 
@@ -182,7 +182,7 @@ Sincronizza le tue risorse in Adobe Experience Manager (AEM) Assets con Adobe Cr
 
 ## Advertising Cloud {#section_9B1935F8BBC147C89C6DB68A35CB1BAB}
 
-Guida (accesso richiesto): [Integrazione con le soluzioni e i servizi principali di Adobe Experience Cloud](https://enterprise.efrontier.com/CMDashboard/help/internal/concepts_and_features/media_optimizer_integration_with_adobe_marketing_cloud.htm)
+Help (login required): [Integration with Adobe Experience Cloud Solutions and Services](https://enterprise.efrontier.com/CMDashboard/help/internal/concepts_and_features/media_optimizer_integration_with_adobe_marketing_cloud.htm)
 
 **Soluzioni o servizi applicabili**
 
