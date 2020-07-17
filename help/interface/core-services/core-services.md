@@ -6,10 +6,10 @@ seo-title: Abilitare le soluzioni Experience Cloud per i servizi core
 solution: Experience Cloud
 title: Abilita le tue soluzioni per i servizi core
 index: true
-translation-type: ht
-source-git-commit: c8d38647750747212c2b825feff600419c1f3352
-workflow-type: ht
-source-wordcount: '2358'
+translation-type: tm+mt
+source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
+workflow-type: tm+mt
+source-wordcount: '2356'
 ht-degree: 100%
 
 ---
@@ -146,7 +146,7 @@ In [!UICONTROL Dynamic Tag Management], fai clic su **[!UICONTROL <Web Property 
    >
    >Tutti i clienti Analytics dispongono già del provisioning per i servizi principali quali Attributi del cliente. Se non sei cliente Analytics, contatta l&#39;Assistenza clienti per richiedere il provisioning.
 
-## Passaggio 6: Verifica dell&#39;implementazione dei servizi di base {#section_E641782A0F4F44AF8C9C91216BE330D5}
+## Passaggio 6: Verificare l’implementazione {#section_E641782A0F4F44AF8C9C91216BE330D5}
 
 Utilizza il seguente procedimento per assicurarti che il Servizio Experience Cloud ID sia correttamente implementato sul tuo sito.
 
