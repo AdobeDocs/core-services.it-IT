@@ -6,16 +6,16 @@ seo-title: Integrazioni di Experience Cloud
 solution: Experience Cloud
 title: Integrazioni di Experience Cloud
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1521'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# Integrazioni Experience Cloud
+# Integrazioni di Experience Cloud
 
 Adobe Experience Cloud è un set completo di soluzioni integrate leader di settore generate su una piattaforma di dati comune con un set comune di potenti funzionalità.
 
@@ -33,7 +33,7 @@ Descrive come:
 
 Soluzioni o servizi:
 
-* Attivazione - Experience Platform Launch (consigliato) o gestione tag dinamica
+* Activation - Experience Platform Launch (consigliato) o Dynamic Tag Management
 * Analytics
 * Target
 * [Servizio Experience Cloud ID](https://docs.adobe.com/content/help/it-IT/id-service/using/home.html)
@@ -42,7 +42,7 @@ Soluzioni o servizi:
 
 Il servizio ID fornisce un ID universale e costante che identifica i visitatori in tutte le soluzioni Experience Cloud. Può sostituire il codice di generazione ID per servizi come Analytics, Audience Manager, Adobe Target, video heartbeat e altre soluzioni o funzionalità di Experience Cloud.
 
-See [Experience Cloud ID Service](https://docs.adobe.com/content/help/it-IT/id-service/using/home.html)
+Consulta il [Servizio Experience Cloud ID](https://docs.adobe.com/content/help/it-IT/id-service/using/home.html)
 
 **Soluzioni o servizi applicabili**
 
@@ -150,7 +150,7 @@ Integra Adobe Target con Adobe Analytics e altre soluzioni Experience Cloud per 
 
 ## Integrazioni di Experience Manager {#section_32FB010EF8B4429FBC63C8DC2A9BE98F}
 
-Guida: [Integrazione delle soluzioni](https://helpx.adobe.com/it/experience-manager/6-2/sites/administering/user-guide.html?topic=%2Fexperience-manager%2F6-2%2Fsites%2Fadministering%2Fmorehelp%2Fintegration.ug.js)
+Guida: [Integrazione delle soluzioni](https://helpx.adobe.com/it/experience-manager/6-2/sites/administering/user-guide.html?topic=/experience-manager/6-2/sites/administering/morehelp/integration.ug.js)
 
 Integra AEM con altre soluzioni e servizi di terze parti.
 
@@ -182,7 +182,7 @@ Sincronizza le tue risorse in Adobe Experience Manager (AEM) Assets con Adobe Cr
 
 ## Advertising Cloud {#section_9B1935F8BBC147C89C6DB68A35CB1BAB}
 
-Help (login required): [Integration with Adobe Experience Cloud Solutions and Services](https://enterprise.efrontier.com/CMDashboard/help/internal/concepts_and_features/media_optimizer_integration_with_adobe_marketing_cloud.htm)
+Guida (accesso richiesto): [integrazione con le soluzioni e i servizi di Adobe Experience Cloud](https://enterprise.efrontier.com/CMDashboard/help/internal/concepts_and_features/media_optimizer_integration_with_adobe_marketing_cloud.htm)
 
 **Soluzioni o servizi applicabili**
 
