@@ -6,11 +6,11 @@ seo-title: Aiuto e documentazione del prodotto per Adobe Experience Cloud e serv
 solution: Adobe Experience Cloud
 title: Aiuto per Experience Cloud e servizi di base
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '405'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ Experience Cloud è un insieme integrato di soluzioni e servizi di marketing dig
 
 ![Experience Cloud](assets/cloud-pulldown.png)
 
-Questa pagina consente di accedere alla documentazione di prodotto per le seguenti funzioni e servizi:
+Questa pagina consente di accedere alla documentazione del prodotto per i seguenti servizi e funzioni:
 
-* [Libreria Audience](audience-library/audience-library.md)
+* [Libreria pubblico](audience-library/audience-library.md)
 * [Attributi del cliente](attributes/attributes.md)
 * [Triggers](activation/triggers.md)
 * [Asset di Experience Cloud](experience-cloud-assets/experience-cloud-assets.md)
@@ -41,7 +41,7 @@ Questa pagina consente di accedere alla documentazione di prodotto per le seguen
 * [Gestione profilo in Adobe Experience Cloud](https://theblog.adobe.com/profile-management-adobe-marketing-cloud-comes-together/) (blog)
 * [Recupero preventivo del DNS](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
 
-## Guida relativa a  Experience Cloud
+## Relative guide di Experience Cloud
 
 * [Documentazione del prodotto per tutte le soluzioni Experience Cloud](https://docs.adobe.com/content/help/it-IT/experience-cloud/user-guides/home.html): cerca aiuto all&#39;interno di Informazioni e supporto di Experience Cloud
 * [Note sulla versione e aggiornamenti dei prodotti](https://docs.adobe.com/content/help/it-IT/release-notes/experience-cloud/current.html): le novità di Experience Cloud, tutti gli aggiornamenti per chi si abbona
