@@ -2,24 +2,24 @@
 description: Implementa Experience Cloud e diventa amministratore. Questo processo modernizza le soluzioni per funzioni quali Attributi del cliente e tipi di pubblico.
 keywords: core services;Customer Attributes
 seo-description: Implementa Experience Cloud e diventa amministratore. Questo processo modernizza le soluzioni per funzioni quali Attributi del cliente e tipi di pubblico.
-seo-title: Abilita le tue soluzioni Experience Cloud  per gli attributi del cliente e i tipi di pubblico
+seo-title: Abilitare le soluzioni Experience Cloud per gli attributi del cliente e i tipi di pubblico
 solution: Experience Cloud
-title: Abilita le tue soluzioni per i servizi core
+title: Abilitare le soluzioni per i servizi principali
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a47dc66b51758ed7e6b465f35375f979b479672f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2402'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
-# Abilita la tua implementazione per i servizi tra più soluzioni
+# Abilitare l’implementazione per i servizi tra più soluzioni
 
-Se hai implementato di recente  Experience Cloud utilizzando l&#39;Experience Platform Launch, sei già configurato per Attributi cliente e  pubblico Experience Cloud. Potete anche gestire utenti e prodotti nell&#39;Admin Console .
+Se hai implementato Experience Cloud di recente utilizzando Experience Platform Launch, disponi già della configurazione per Attributi del cliente e Tipi di pubblico di Experience Cloud. Inoltre puoi gestire utenti e prodotti nell’Admin Console.
 
-Per i clienti esistenti, potrebbe essere necessario modernizzare le implementazioni della soluzione e implementare l&#39;Experience Cloud . In questo modo puoi sfruttare gli attributi del cliente e le funzionalità del pubblico in Adobe  Analytics,  Audience Manager e  Adobe Target. A tal fine, effettuerai le seguenti operazioni:
+Per i clienti esistenti, potrebbe essere necessario modernizzare le implementazioni della soluzione e implementare l’Experience Cloud. In questo modo puoi sfruttare le funzioni Attributi del cliente e tipi di pubblico in Adobe Analytics, Audience Manager e Adobe Target. A tal fine, effettuerai le seguenti operazioni:
 
 1. [Partecipazione a Experience Cloud per diventare un amministratore](#section_2423F0BD3DF642658103310EE5EA6154)
 1. [Implementazione del servizio Experience Cloud ID](#section_3C9F6DF37C654D939625BB4D485E4354)
@@ -28,7 +28,7 @@ Per i clienti esistenti, potrebbe essere necessario modernizzare le implementazi
 1. [Aggiornamento dell&#39;implementazione di Adobe Target](#section_C2F4493C7A36406DAE2266B429A4BD24)
 1. [Verificare l’implementazione](#section_E641782A0F4F44AF8C9C91216BE330D5)
 1. [Gestione di utenti e prodotti](#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF)
-1. [Inizio della condivisione di attributi e dati di audience](#section_960C06093623462E8EA247B3E97274A1)
+1. [Inizio della condivisione dei dati degli attributi e dei tipi di pubblico](#section_960C06093623462E8EA247B3E97274A1)
 
 ## Passaggio 1: Partecipazione a Experience Cloud per diventare un amministratore {#section_2423F0BD3DF642658103310EE5EA6154}
 
@@ -189,7 +189,7 @@ Consulta [Gestione di utenti e prodotti Experience Cloud](../admin-getting-start
 
 Gli utenti che vengono aggiunti al gruppo [!UICONTROL Attributi del cliente] visualizzeranno la voce di menu [!UICONTROL Attributi del cliente] presente sul lato sinistro dell&#39;interfaccia Experience Cloud.
 
-## Passaggio 8: Inizio della condivisione di attributi e dati di audience {#section_960C06093623462E8EA247B3E97274A1}
+## Passaggio 8: Inizio della condivisione dei dati degli attributi e dei tipi di pubblico {#section_960C06093623462E8EA247B3E97274A1}
 
 Utilizza le seguenti funzionalità.
 
