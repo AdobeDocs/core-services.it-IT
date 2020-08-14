@@ -7,10 +7,10 @@ solution: Experience Cloud,Analytics
 title: Cookie di prime parti
 index: y
 snippet: y
-translation-type: ht
-source-git-commit: c8d38647750747212c2b825feff600419c1f3352
-workflow-type: ht
-source-wordcount: '1464'
+translation-type: tm+mt
+source-git-commit: f9e58c6d2054a5d53ea24831bf5979c2fc3dc53b
+workflow-type: tm+mt
+source-wordcount: '1462'
 ht-degree: 100%
 
 ---
@@ -90,7 +90,7 @@ Lo specialista FPC fornisce i nomi host configurati e i CNAME a cui devono esser
 
 Fintanto che il codice di implementazione non viene modificato, questo passaggio non influisce sulla raccolta dei dati e può essere eseguito in qualsiasi momento dopo l’aggiornamento del codice di implementazione.
 
->[!Nota:]
+>[!NOTE]
 >
 >Il servizio ID visitatori di Experience Cloud fornisce un’alternativa alla configurazione di un CNAME per abilitare i cookie di prime parti. Tuttavia, a causa delle recenti modifiche dell’ITP Apple, è comunque consigliabile allocare un CNAME persino quando si utilizza il servizio Experience Cloud ID.
 
@@ -104,7 +104,7 @@ Se hai configurato un CNAME e hai installato il certificato, puoi utilizzare il 
 
 `https://sstats.adobe.com/_check`
 
->[!Nota:]
+>[!NOTE]
 >
 >Se non è installato un certificato, verrà visualizzato un avviso di protezione.
 
