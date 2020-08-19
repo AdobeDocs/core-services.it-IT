@@ -6,11 +6,11 @@ seo-title: Integrazioni di Experience Cloud
 solution: Experience Cloud
 title: Integrazioni di Experience Cloud
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
-translation-type: ht
-source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
-workflow-type: ht
-source-wordcount: '1521'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
+workflow-type: tm+mt
+source-wordcount: '1523'
+ht-degree: 98%
 
 ---
 
@@ -119,7 +119,7 @@ Guida: [Guida introduttiva](https://docs.adobelaunch.com/getting-started)
 
 Utilizza le soluzioni di Experience Cloud Activation per configurare ed eseguire il debug delle soluzioni di Experience Cloud.
 
-1. Utilizza [Launch](https://docs.adobe.com/content/help/it-IT/launch/using/overview.html) o [Dynamic Tag Management](https://docs.adobe.com/content/help/it-IT/dtm/using/dtm-home.html) per inserire codice che attiva le soluzioni [Adobe Experience Cloud](solutions-core-services.md#topic_BD726D3A649E4FC49063029E86B70C62) sulle tue pagine.
+1. Use [Experience Platform Launch](https://docs.adobe.com/content/help/it-IT/launch/using/overview.html) or [Dynamic Tag Management](https://docs.adobe.com/content/help/it-IT/dtm/using/dtm-home.html) to insert code that activates [Adobe Experience Cloud solutions](solutions-core-services.md#topic_BD726D3A649E4FC49063029E86B70C62) on your pages.
 1. Utilizza [Adobe Cloud Platform Auditor](https://docs.adobe.com/content/help/it-IT/auditor/using/overview.html) per testare le tue implementazioni.
 
 Utilizza l&#39;estensione Adobe Experience Cloud Debugger per eseguire il debug dei problemi rilevati da Auditor o per esaminare altre informazioni sulle implementazioni.
