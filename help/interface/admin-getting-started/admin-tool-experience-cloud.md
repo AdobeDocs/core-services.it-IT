@@ -1,23 +1,23 @@
 ---
-description: Per visualizzare un elenco ordinabile e filtrabile di tutti gli utenti di Experience Cloud, scopri Admin Tool di Experience Cloud.
+description: Scopri  Strumento di amministrazione Experience Cloud per visualizzare un elenco ordinabile e filtrabile di tutti gli utenti e i criteri  Experience Cloud.
 keywords: core services
-seo-description: Per visualizzare un elenco ordinabile e filtrabile di tutti gli utenti di Experience Cloud, scopri Admin Tool di Experience Cloud.
+seo-description: Scopri  Strumento di amministrazione Experience Cloud per visualizzare un elenco ordinabile e filtrabile di tutti gli utenti e i criteri  Experience Cloud.
 seo-title: Visualizzare gli utenti e i dettagli utente di Experience Cloud
 solution: Experience Cloud
 title: 'Visualizzare gli utenti e i dettagli utente di Experience Cloud '
 index: true
-translation-type: ht
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
-workflow-type: ht
-source-wordcount: '693'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 7b34db76f3091c895863ebe771fb3c0baa05b13e
+workflow-type: tm+mt
+source-wordcount: '1271'
+ht-degree: 53%
 
 ---
 
 
-# Visualizzare gli utenti di Experience Cloud all’interno di Admin Tool
+# Visualizzare  utenti e criteri di Experience Cloud in Admin Tool
 
-Gli amministratori possono visualizzare un elenco ordinabile e filtrabile di tutti gli utenti Experience Cloud e dei relativi dettagli nel nuovo Admin Tool. I dettagli utente includono l’accesso ai prodotti, i ruoli e le informazioni sull’ultimo accesso. **Nota:** la gestione di utenti e prodotti è configurata all’interno di [Admin Console](admin-getting-started.md).
+Gli amministratori possono visualizzare un elenco ordinabile e filtrabile di tutti gli utenti e i criteri  Experience Cloud con i dettagli in Admin Tool. I dettagli utente includono l’accesso ai prodotti, i ruoli e le informazioni sull’ultimo accesso. I dettagli dei criteri includono l&#39;utente, il gruppo, lo sviluppatore, l&#39;integrazione e l&#39;elenco di amministratori di un criterio (profilo di prodotto), nonché le autorizzazioni e le informazioni dettagliate sulle risorse per il criterio. (**Note:** User and product management is configured in the [Admin Console](admin-getting-started.md).)
 
 1. Accedi a `https://experience.adobe.com/.`
 
@@ -92,3 +92,63 @@ In questa sezione viene visualizzato un elenco completo di tutti i profili di pr
 | [!UICONTROL Profilo di prodotto] | Nome univoco del profilo di prodotto. |
 | [!UICONTROL Assigned by Group (Assegnato dal gruppo)] | Nome del gruppo di utenti che associa l’utente a un profilo di prodotto. I risultati vuoti indicano che l’utente è stato assegnato in modo diretto al profilo di prodotto, non tramite un gruppo. |
 | [!UICONTROL Product Roles (Ruoli prodotto)] | Assegnazione del ruolo dell’utente all’interno del profilo di prodotto. Attualmente, queste informazioni sono valide solo per i profili di prodotto di Adobe Target. |
+
+## Pagina Criteri
+
+In questa pagina viene visualizzato l&#39;elenco completo dei criteri di  Experience Cloud dell&#39;organizzazione. Fornisce informazioni su prodotti, istanze, utenti e sviluppatori. Potete cercare, ordinare e filtrare le visualizzazioni personalizzate dell&#39;elenco dei criteri.
+
+| Elemento | Descrizione |
+|---|---|
+| [!UICONTROL Profilo di prodotto] | Nome del profilo di prodotto. La colonna può essere ordinata A->Z, Z->A. Fate clic sul nome di un profilo di prodotto per visualizzare ulteriori dettagli sul criterio. |
+| [!UICONTROL Prodotto] | Il prodotto associato al profilo di prodotto. La colonna può essere ordinata da A->Z e da Z->A. |
+| [!UICONTROL Istanza] | L&#39;istanza (ad esempio tenant o società di accesso) associata al profilo di prodotto. I prodotti che non hanno istanze univoche o tenant visualizzeranno un &quot; - &quot; per il valore. La colonna può essere ordinata da A->Z e da Z->A. |
+| [!UICONTROL Numero di utenti] | Numero univoco di utenti associati al profilo di prodotto, inclusa l&#39;assegnazione diretta e l&#39;assegnazione del gruppo. Le colonne possono essere ordinate in base al più piccolo, al più grande o al più piccolo. |
+| [!UICONTROL Numero di sviluppatori] | Conteggio dei ruoli sviluppatore associati al profilo di prodotto. Le colonne possono essere ordinate in base al più piccolo, al più grande o al più piccolo. |
+
+## Personalizzare la visualizzazione elenco criteri
+
+È possibile cercare, ordinare o filtrare le colonne per personalizzare l&#39;elenco dei criteri.
+
+* Cerca profili di prodotto per nome. Le ricerche corrispondono alla stringa di testo digitata.
+* Ordina le colonne in base ai valori crescenti o decrescenti. Questo vale per profilo [!UICONTROL prodotto,] [!UICONTROL prodotto,] [!UICONTROL istanza,] [!UICONTROL numero di utenti,] e [!UICONTROL numero di sviluppatori,] colonne.
+* Click the **[!UICONTROL Filter By]** icon to apply multiple filters to list product profiles with specific criteria. Quando vengono applicate più categorie di filtri, le ricerche contengono i gruppi associati alla `AND` soluzione di `AND` istanza.
+
+| Elemento | Descrizione |
+|---------|----------|
+| [!UICONTROL Filtro istanza] | Cercare stringhe di caratteri nella colonna dell&#39;istanza per limitare i risultati a una o più istanze. Aggiungete più filtri premendo Invio dopo ogni termine di ricerca. |
+| Filtro [!UICONTROL Soluzione] | Scegli tra le soluzioni disponibili. I filtri per più soluzioni cercano i risultati contenenti la soluzione 1 `OR` la soluzione 2. |
+
+## Visualizza dettagli criteri
+
+Nella pagina [!UICONTROL Criteri] , per visualizzare i dettagli di un criterio, fate clic sul nome del profilo di prodotto.
+
+Una visualizzazione dettagliata di ciascun profilo di prodotto mostra dettagli importanti sugli argomenti del profilo di prodotto (utenti, gruppi, ecc.), nonché sulle autorizzazioni e le risorse abilitate dal profilo di prodotto.  I dettagli del profilo di prodotto possono essere esportati in file CSV.  L’opzione [!UICONTROL Esporta CSV] produrrà 2 file CSV: Dettagli oggetto (Utenti, Gruppi di utenti, Sviluppatori, Integrazioni, Amministratori) ed elementi Autorizzazioni e Risorse.
+
+## Sezione di riepilogo
+
+In questa sezione viene visualizzato un riepilogo del profilo di prodotto che include:
+
+* Nome profilo di prodotto
+* Numero di utenti
+* Numero di sviluppatori
+* Numero di integrazioni
+* Prodotti associati
+* Istanza
+
+
+## Elenco dettagliato oggetti
+
+In questa sezione viene visualizzato un elenco completo di tutti gli utenti, i gruppi di utenti, gli sviluppatori, le integrazioni e gli amministratori assegnati al profilo di prodotto.
+
+| Tab | Descrizione |
+|---------|----------|
+| [!UICONTROL Utenti] | Elenco di utenti inclusi nel profilo di prodotto. L&#39;associazione del gruppo di utenti verrà visualizzata nella colonna [!UICONTROL Assegnato per gruppo] . |
+| [!UICONTROL Gruppi di utenti] | Elenco di gruppi di utenti associati al profilo di prodotto. |
+| [!UICONTROL Sviluppatori] | Elenco di sviluppatori associati al profilo di prodotto. |
+| [!UICONTROL Integrazioni] | Elenco di integrazioni associate al profilo di prodotto. |
+| [!UICONTROL Amministratori] | Elenco di amministratori associati al profilo di prodotto. |
+
+## Elenchi dettagliati di autorizzazioni e risorse
+
+In questa sezione viene visualizzato un elenco completo delle autorizzazioni e delle risorse disponibili per il profilo di prodotto. Le autorizzazioni e le risorse incluse nel profilo di prodotto sono state contrassegnate con un ✔ &quot;.  Gli elenchi di autorizzazioni e risorse sono stati organizzati in schede e colonne per facilitarne la visualizzazione.  Le schede e le colonne visualizzano l&#39;elenco delle sezioni applicabili al prodotto corrente.
+
