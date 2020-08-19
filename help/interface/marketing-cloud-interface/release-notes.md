@@ -6,11 +6,11 @@ seo-title: Note sulla versione cumulative
 solution: Experience Cloud
 title: Note sulla versione cumulative
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-translation-type: ht
-source-git-commit: 1f7672f43e870c7ab66d68f451c031ea2c5af15b
-workflow-type: ht
-source-wordcount: '3929'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: fa03e384d1dc878d45ef4b8d1f6fe269734ea891
+workflow-type: tm+mt
+source-wordcount: '3968'
+ht-degree: 99%
 
 ---
 
@@ -23,6 +23,12 @@ Per un elenco degli aggiornamenti della documentazione, consulta [Experience Clo
 
 Per le note sulla versione comprensive di tutte le soluzioni, consulta [Note sulla versione di Experience Cloud](https://docs.adobe.com/content/help/it-IT/release-notes/experience-cloud/current.html).
 
+## Agosto - 2020
+
+| Funzione | Descrizione |
+| -----------| ---------- |
+| Strumenti di amministrazione - Criteri | In questa pagina viene visualizzato l&#39;elenco completo dei criteri di  Experience Cloud dell&#39;organizzazione. Fornisce informazioni su prodotti, istanze, utenti e sviluppatori. Potete cercare, ordinare e filtrare le visualizzazioni personalizzate dell&#39;elenco dei criteri. Consulta la guida [Admin Tool di Experience Cloud](../admin-getting-started/admin-tool-experience-cloud.md) per ulteriori dettagli. |
+
 ## Aprile - 2020
 
 * La pagina [!UICONTROL Feed] di Experience Cloud è stata dichiarata obsoleta. (EXC-8505)
@@ -32,7 +38,7 @@ Per le note sulla versione comprensive di tutte le soluzioni, consulta [Note sul
 
 | Funzione | Descrizione |
 | -----------| ---------- |
-| Admin Tool - visualizza dettagli utente | Gli amministratori possono visualizzare un elenco ordinabile e filtrabile di tutti gli utenti Experience Cloud e dei relativi dettagli nel nuovo Admin Tool. I dettagli utente includono l&#39;accesso ai prodotti, i ruoli e le informazioni sull&#39;ultimo accesso. Consulta la guida [Admin Tool di Experience Cloud](https://docs.adobe.com/content/help/it-IT/core-services/interface/manage-users-and-products/admin-tool-experience-cloud.html) per ulteriori dettagli. |
+| Admin Tool - visualizza dettagli utente | Gli amministratori possono visualizzare un elenco ordinabile e filtrabile di tutti gli utenti Experience Cloud e dei relativi dettagli nel nuovo Admin Tool. I dettagli utente includono l&#39;accesso ai prodotti, i ruoli e le informazioni sull&#39;ultimo accesso. Consulta la guida [Admin Tool di Experience Cloud](../admin-getting-started/admin-tool-experience-cloud.md) per ulteriori dettagli. |
 
 **Correzioni**
 
