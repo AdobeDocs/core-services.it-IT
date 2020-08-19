@@ -7,23 +7,27 @@ solution: Experience Cloud
 title: 'Visualizzare gli utenti e i dettagli utente di Experience Cloud '
 index: true
 translation-type: tm+mt
-source-git-commit: 7b34db76f3091c895863ebe771fb3c0baa05b13e
+source-git-commit: fa03e384d1dc878d45ef4b8d1f6fe269734ea891
 workflow-type: tm+mt
 source-wordcount: '1271'
-ht-degree: 53%
+ht-degree: 51%
 
 ---
 
 
 # Visualizzare  utenti e criteri di Experience Cloud in Admin Tool
 
-Gli amministratori possono visualizzare un elenco ordinabile e filtrabile di tutti gli utenti e i criteri  Experience Cloud con i dettagli in Admin Tool. I dettagli utente includono l’accesso ai prodotti, i ruoli e le informazioni sull’ultimo accesso. I dettagli dei criteri includono l&#39;utente, il gruppo, lo sviluppatore, l&#39;integrazione e l&#39;elenco di amministratori di un criterio (profilo di prodotto), nonché le autorizzazioni e le informazioni dettagliate sulle risorse per il criterio. (**Note:** User and product management is configured in the [Admin Console](admin-getting-started.md).)
+Gli amministratori possono visualizzare un elenco ordinabile e filtrabile di tutti gli utenti e i criteri  Experience Cloud con i dettagli in Admin Tool. I dettagli utente includono l’accesso ai prodotti, i ruoli e le informazioni sull’ultimo accesso. I dettagli dei criteri includono l&#39;utente, il gruppo, lo sviluppatore, l&#39;integrazione e l&#39;elenco di amministratori di un criterio (profilo di prodotto), nonché le autorizzazioni e le informazioni dettagliate sulle risorse per il criterio.
+
+>[!NOTE]
+>
+>User and product management is configured in the [Admin Console](admin-getting-started.md).
 
 1. Accedi a `https://experience.adobe.com/.`
 
    ![](assets/admin-tool.png)
 
-1. Dalla home di Experience Cloud, fai clic su **[!UICONTROL Admin Tool.]**
+1. In Accesso [!UICONTROL rapido], fai clic su **[!UICONTROL Admin Tool.]**
 
    In alternativa, nell’URL della pagina principale puoi sostituire _home_ con _admin_.
 
@@ -65,7 +69,7 @@ Per visualizzare i dettagli di un utente, nella pagina [!UICONTROL Utenti], sele
 
 La visualizzazione dettagliata di ciascun utente mostra dettagli importanti sull’accesso alla soluzione da parte dell’utente, sui ruoli di amministratore e di prodotto, oltre alle informazioni sull’ultimo accesso.
 
-## Sezione About (Informazioni)
+## Informazioni sulla sezione
 
 In questa sezione viene visualizzato un riepilogo dell’account utente, il quale include:
 
@@ -77,11 +81,11 @@ In questa sezione viene visualizzato un riepilogo dell’account utente, il qual
 * Paese
 * Last Login (Ultimo accesso)
 
-## Solutions Summary (Riepilogo delle soluzioni)
+## Riepilogo delle soluzioni
 
 In questa sezione viene visualizzato un riepilogo delle soluzioni Experience Cloud a cui l’utente può accedere, comprensivo del ruolo amministrativo del prodotto, se applicabile.
 
-## Detailed Product Access List (Elenco dettagliato di accesso al prodotto)
+## Elenco dettagliato di accesso ai prodotti
 
 In questa sezione viene visualizzato un elenco completo di tutti i profili di prodotto dell’utente in questione.
 
@@ -96,6 +100,8 @@ In questa sezione viene visualizzato un elenco completo di tutti i profili di pr
 ## Pagina Criteri
 
 In questa pagina viene visualizzato l&#39;elenco completo dei criteri di  Experience Cloud dell&#39;organizzazione. Fornisce informazioni su prodotti, istanze, utenti e sviluppatori. Potete cercare, ordinare e filtrare le visualizzazioni personalizzate dell&#39;elenco dei criteri.
+
+![](assets/admin-tool-policies.png)
 
 | Elemento | Descrizione |
 |---|---|
@@ -122,9 +128,16 @@ In questa pagina viene visualizzato l&#39;elenco completo dei criteri di  Experi
 
 Nella pagina [!UICONTROL Criteri] , per visualizzare i dettagli di un criterio, fate clic sul nome del profilo di prodotto.
 
-Una visualizzazione dettagliata di ciascun profilo di prodotto mostra dettagli importanti sugli argomenti del profilo di prodotto (utenti, gruppi, ecc.), nonché sulle autorizzazioni e le risorse abilitate dal profilo di prodotto.  I dettagli del profilo di prodotto possono essere esportati in file CSV.  L’opzione [!UICONTROL Esporta CSV] produrrà 2 file CSV: Dettagli oggetto (Utenti, Gruppi di utenti, Sviluppatori, Integrazioni, Amministratori) ed elementi Autorizzazioni e Risorse.
+![](assets/admin-tool-policy-detail.png)
 
-## Sezione di riepilogo
+Una visualizzazione dettagliata di ciascun profilo di prodotto mostra dettagli importanti sui soggetti del profilo di prodotto (utenti, gruppi e così via). Vengono inoltre visualizzate le autorizzazioni e le risorse abilitate dal profilo di prodotto.
+
+I dettagli del profilo di prodotto possono essere esportati in file CSV. L’opzione [!UICONTROL Esporta CSV] genera due file CSV:
+
+* Dettagli Oggetto (Utenti, Gruppi Di Utenti, Sviluppatori, Integrazioni, Amministratori)
+* Autorizzazioni e risorse
+
+## Sezione Riepilogo
 
 In questa sezione viene visualizzato un riepilogo del profilo di prodotto che include:
 
@@ -135,8 +148,7 @@ In questa sezione viene visualizzato un riepilogo del profilo di prodotto che in
 * Prodotti associati
 * Istanza
 
-
-## Elenco dettagliato oggetti
+## Elenco dettagliato oggetto
 
 In questa sezione viene visualizzato un elenco completo di tutti gli utenti, i gruppi di utenti, gli sviluppatori, le integrazioni e gli amministratori assegnati al profilo di prodotto.
 
@@ -150,5 +162,4 @@ In questa sezione viene visualizzato un elenco completo di tutti gli utenti, i g
 
 ## Elenchi dettagliati di autorizzazioni e risorse
 
-In questa sezione viene visualizzato un elenco completo delle autorizzazioni e delle risorse disponibili per il profilo di prodotto. Le autorizzazioni e le risorse incluse nel profilo di prodotto sono state contrassegnate con un ✔ &quot;.  Gli elenchi di autorizzazioni e risorse sono stati organizzati in schede e colonne per facilitarne la visualizzazione.  Le schede e le colonne visualizzano l&#39;elenco delle sezioni applicabili al prodotto corrente.
-
+In questa sezione viene visualizzato un elenco completo delle autorizzazioni e delle risorse disponibili per il profilo di prodotto. Le autorizzazioni e le risorse incluse nel profilo di prodotto sono state contrassegnate con un ✔ &quot;. Gli elenchi di autorizzazioni e risorse sono stati organizzati in schede e colonne per facilitarne la visualizzazione. Le schede e le colonne visualizzano l&#39;elenco delle sezioni applicabili al prodotto corrente.
