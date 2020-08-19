@@ -7,9 +7,9 @@ solution: Experience Cloud,Analytics
 title: Cookie di prime parti
 index: y
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f9e58c6d2054a5d53ea24831bf5979c2fc3dc53b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1462'
 ht-degree: 100%
 
@@ -124,7 +124,7 @@ Risposta: `SUCCESS`
 
 ### Convalida tramite [!DNL nslookup]
 
-È possibile utilizzare `nslookup` per la convalida. Utilizzando `sstats.adobe.com`come esempio, apri un prompt dei comandi e digita `nslookup sstats.adobe.com`
+È possibile utilizzare `nslookup` per la convalida. Utilizzando `sstats.adobe.com` come esempio, apri un prompt dei comandi e digita `nslookup sstats.adobe.com`
 
 Se tutto è configurato correttamente, verrà visualizzata una restituzione simile a:
 
