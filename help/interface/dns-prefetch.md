@@ -5,10 +5,10 @@ seo-title: Utilizzo del recupero preventivo del DNS con diverse soluzioni e serv
 solution: Experience Cloud
 title: Utilizzo del recupero preventivo del DNS con diverse soluzioni e servizi
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
-translation-type: ht
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
-workflow-type: ht
-source-wordcount: '398'
+translation-type: tm+mt
+source-git-commit: 3e86fe7ee638158b5f9d6fa4405caaeb9b092430
+workflow-type: tm+mt
+source-wordcount: '396'
 ht-degree: 100%
 
 ---
@@ -51,9 +51,9 @@ Gli esempi seguenti mostrano come eseguire chiamate di recupero preventivo del D
    * `<link rel="dns-prefetch" href="//cm.everesttechnet">`
 
 
-* **[!DNL Target]:**`<link rel="dns-prefetch" href="//insert customer code here.tt.omtrdc.net">`
+* **[!DNL Target]:** `<link rel="dns-prefetch" href="//insert customer code here.tt.omtrdc.net">`
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Recupero preventivo del DNS](https://www.chromium.org/developers/design-documents/dns-prefetching)
 
