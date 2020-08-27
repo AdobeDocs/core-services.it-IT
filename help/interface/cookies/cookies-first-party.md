@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: Cookie di prime parti
 index: y
 snippet: y
-translation-type: ht
-source-git-commit: f9e58c6d2054a5d53ea24831bf5979c2fc3dc53b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b34cec87be58b9a4df3e9b061010689e5db4adb6
+workflow-type: tm+mt
 source-wordcount: '1462'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -110,7 +110,7 @@ Se hai configurato un CNAME e hai installato il certificato, puoi utilizzare il 
 
 ### Convalida tramite [!DNL curl]
 
-Adobe consiglia di utilizzare [!DNL [curl](https://curl.haxx.se/)] dalla riga di comando. Gli utenti [!DNL Windows] possono eseguire l’installazione di [!DNL curl] da: <https://curl.haxx.se/windows/>
+Adobe recommends using [[!DNL curl]](https://curl.haxx.se/) from the command line. Gli utenti [!DNL Windows] possono eseguire l’installazione di [!DNL curl] da: <https://curl.haxx.se/windows/>
 
 Se disponi di un CNAME ma non è installato alcun certificato, esegui:
 `curl -k https://sstats.adobe.com/_check`
