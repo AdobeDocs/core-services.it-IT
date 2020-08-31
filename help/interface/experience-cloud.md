@@ -6,16 +6,16 @@ seo-title: Aiuto e documentazione del prodotto per Adobe Experience Cloud e serv
 solution: Adobe Experience Cloud
 title: Aiuto per Experience Cloud e servizi di base
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8e165bb47d7e947b817c51e496c3e493cb02d4fc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '392'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# Experience Cloud Documentazione dell&#39;interfaccia
+# Documentazione dell’interfaccia di Experience Cloud
 
 Experience Cloud è un insieme integrato di soluzioni e servizi di marketing digitali realizzati da Adobe. Offre altresì un&#39;interfaccia intuitiva che consente di accedere rapidamente alle soluzioni cloud e ai servizi core.
 
@@ -26,7 +26,7 @@ Questa pagina consente di accedere alla documentazione del prodotto per i seguen
 * [[!UICONTROL Libreria pubblico]](audience-library/audience-library.md)
 * [[!UICONTROL Attributi del cliente]](attributes/attributes.md)
 * [[!UICONTROL Triggers]](activation/triggers.md)
-* [[!UICONTROL Experience Cloud Assets]](experience-cloud-assets/experience-cloud-assets.md)
+* [Experience Cloud [!UICONTROL Assets]](experience-cloud-assets/experience-cloud-assets.md)
 * [Cookie di Experience Cloud](cookies/cookies-privacy.md)
 
 ## Amministrazione di utenti e prodotti
@@ -37,7 +37,7 @@ Questa pagina consente di accedere alla documentazione del prodotto per i seguen
 * [Organizzazioni e collegamento di account](admin-getting-started/organizations.md)
 * [Integrazioni](marketing-cloud-integrations.md)
 * [Integrazione di Adobe Target con Experience Cloud](https://docs.adobe.com/content/help/it-IT/target/using/integrate/a4t/a4t.html)
-* [Panoramica sulla privacy e sulla sicurezza  Experience Cloud](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
+* [Panoramica sulla privacy e sulla sicurezza di Experience Cloud](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
 * [Recupero preventivo del DNS](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
 
 ## Relative guide di Experience Cloud
