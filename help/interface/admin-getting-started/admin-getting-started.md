@@ -6,9 +6,9 @@ seo-title: Gestione di utenti e prodotti Experience Cloud
 solution: Experience Cloud
 title: Gestione di utenti e prodotti Experience Cloud
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1455'
 ht-degree: 100%
 
@@ -53,7 +53,7 @@ Per accedere ad Admin Console:
 1. Vai su [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/#).
 1. Digita il tuo [Adobe ID o Enterprise ID](https://helpx.adobe.com/it/enterprise/help/identity.html) e la relativa password.
 
-In alternativa, dal menu Experience Cloud (![](assets/menu-icon.png)), fai clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Avvia Admin Console]**.
+In alternativa, dal menu Experience Cloud ( ![](assets/menu-icon.png) ), fai clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Avvia Admin Console]**.
 
 **Argomenti correlati**
 
