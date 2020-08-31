@@ -6,11 +6,11 @@ seo-title: Note sulla versione cumulative
 solution: Experience Cloud
 title: Note sulla versione cumulative
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fa03e384d1dc878d45ef4b8d1f6fe269734ea891
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3968'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ Per un elenco degli aggiornamenti della documentazione, consulta [Experience Clo
 
 Per le note sulla versione comprensive di tutte le soluzioni, consulta [Note sulla versione di Experience Cloud](https://docs.adobe.com/content/help/it-IT/release-notes/experience-cloud/current.html).
 
-## Agosto - 2020
+## Agosto 2020
 
 | Funzione | Descrizione |
 | -----------| ---------- |
-| Strumenti di amministrazione - Criteri | In questa pagina viene visualizzato l&#39;elenco completo dei criteri di  Experience Cloud dell&#39;organizzazione. Fornisce informazioni su prodotti, istanze, utenti e sviluppatori. Potete cercare, ordinare e filtrare le visualizzazioni personalizzate dell&#39;elenco dei criteri. Consulta la guida [Admin Tool di Experience Cloud](../admin-getting-started/admin-tool-experience-cloud.md) per ulteriori dettagli. |
+| Admin Tool - Criteri | In questa pagina viene visualizzato l’elenco completo dei criteri di Experience Cloud per l’organizzazione. Fornisce informazioni su prodotti, istanze, utenti e sviluppatori. È inoltre possibile eseguire ricerche nonché ordinare e filtrare viste personalizzate dell’elenco dei criteri. Per ulteriori informazioni, consulta la guida [Admin Tool di Experience Cloud](../admin-getting-started/admin-tool-experience-cloud.md). |
 
 ## Aprile - 2020
 
@@ -38,7 +38,7 @@ Per le note sulla versione comprensive di tutte le soluzioni, consulta [Note sul
 
 | Funzione | Descrizione |
 | -----------| ---------- |
-| Admin Tool - visualizza dettagli utente | Gli amministratori possono visualizzare un elenco ordinabile e filtrabile di tutti gli utenti Experience Cloud e dei relativi dettagli nel nuovo Admin Tool. I dettagli utente includono l&#39;accesso ai prodotti, i ruoli e le informazioni sull&#39;ultimo accesso. Consulta la guida [Admin Tool di Experience Cloud](../admin-getting-started/admin-tool-experience-cloud.md) per ulteriori dettagli. |
+| Admin Tool - visualizza dettagli utente | Gli amministratori possono visualizzare un elenco ordinabile e filtrabile di tutti gli utenti Experience Cloud e dei relativi dettagli nel nuovo Admin Tool. I dettagli degli utenti includono l’accesso ai prodotti, i ruoli e le informazioni sull’ultimo accesso. Consulta la guida [Admin Tool di Experience Cloud](../admin-getting-started/admin-tool-experience-cloud.md) per ulteriori dettagli. |
 
 **Correzioni**
 
@@ -175,7 +175,7 @@ Un problema noto crea la duplicazione di account automaticamente generati in Aud
 
 ## Rilascio 15.6.1 - 11 giugno 2015 {#section_AD2019F8D2F84C9EB2B0533FAACF7043}
 
-Nessuna informazione disponibile
+Nessuna informazione disponibile.
 
 ## Rilascio 15.5.1 - 13 maggio 2015 {#section_EF197410964E40D294D0D8024738CFBA}
 
@@ -441,7 +441,7 @@ Nuove funzioni, problemi noti e correzioni nella [!DNL Adobe Experience Cloud] c
 
 * I file eliminati da [!DNL Experience Cloud] non vengono eliminati da [!DNL Digital Asset Management].
 * Alcuni utenti di [!UICONTROL Exchange] potrebbero trovare nei commenti i propri nomi come una lunga stringa ID invece dei loro nomi.
-* Non è possibile eseguire il rendering di alcuni file [!DNL .png] su una scheda
+* Non è possibile eseguire il rendering di alcuni file [!DNL .png] su una scheda.
 * Puoi caricare più file mediante il metodo di caricamento rispetto al trascinamento della selezione. Per risultati migliori, effettua il caricamento dei file tramite [!UICONTROL Risorse].
 * Il collegamento [!DNL Search&Promote] non è disponibile dalla pagina [!UICONTROL Organizations &amp; Product Access (Organizzazione e accesso ai prodotti)].
 * Gli utenti di [!DNL Exchange] per migliorare la propria esperienza devono cancellare i loro cookie.
