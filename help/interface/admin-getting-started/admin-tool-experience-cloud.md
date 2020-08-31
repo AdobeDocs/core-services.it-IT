@@ -6,11 +6,11 @@ seo-title: Visualizzare gli utenti e i dettagli utente di Experience Cloud
 solution: Experience Cloud
 title: 'Visualizzare gli utenti e i dettagli utente di Experience Cloud '
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 82b0b42d8b06388e396bf2959503fe484c8b3a66
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1271'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -21,13 +21,13 @@ Gli amministratori possono visualizzare un elenco ordinabile e filtrabile di tut
 
 >[!NOTE]
 >
->User and product management is configured in the [Admin Console](admin-getting-started.md).
+>La gestione di utenti e prodotti è configurata in [Admin Console](admin-getting-started.md).
 
-1. Accedi a `https://experience.adobe.com/.`
+1. Accedere a `https://experience.adobe.com/.`
 
    ![](assets/admin-tool.png)
 
-1. In Accesso [!UICONTROL rapido], fai clic su **[!UICONTROL Admin Tool.]**
+1. In [!UICONTROL Accesso rapido], fai clic su **[!UICONTROL Admin Tool]**.
 
    In alternativa, nell’URL della pagina principale puoi sostituire _home_ con _admin_.
 
@@ -61,7 +61,7 @@ Puoi eseguire ricerche, oltre a ordinare o filtrare le viste personalizzate dell
 | Filtro [!UICONTROL ID Type (Tipo di ID)] | Scegli tra i tipi di ID disponibili. È possibile utilizzare più tipi di ID come filtro. |
 | Filtro [!UICONTROL Soluzione] | Scegli tra le soluzioni disponibili. I filtri per più soluzioni cercano i risultati contenenti la soluzione 1 `OR` la soluzione 2. |
 
-## View user details (Visualizza dettagli utente)
+## Visualizzare i dettagli degli utenti
 
 Per visualizzare i dettagli di un utente, nella pagina [!UICONTROL Utenti], seleziona l’e-mail dell’utente in questione.
 
@@ -69,7 +69,7 @@ Per visualizzare i dettagli di un utente, nella pagina [!UICONTROL Utenti], sele
 
 La visualizzazione dettagliata di ciascun utente mostra dettagli importanti sull’accesso alla soluzione da parte dell’utente, sui ruoli di amministratore e di prodotto, oltre alle informazioni sull’ultimo accesso.
 
-## Informazioni sulla sezione
+## Sezione Informazioni
 
 In questa sezione viene visualizzato un riepilogo dell’account utente, il quale include:
 
@@ -77,15 +77,15 @@ In questa sezione viene visualizzato un riepilogo dell’account utente, il qual
 * Nome
 * E-mail
 * Nome utente (gli account Federated ID possono presentare nomi utente diversi dall’indirizzo e-mail)
-* [ID Type (Tipo di ID)](https://helpx.adobe.com/it/enterprise/using/identity.html)
+* [Tipo ID](https://helpx.adobe.com/it/enterprise/using/identity.html)
 * Paese
-* Last Login (Ultimo accesso)
+* Ultimo accesso
 
 ## Riepilogo delle soluzioni
 
 In questa sezione viene visualizzato un riepilogo delle soluzioni Experience Cloud a cui l’utente può accedere, comprensivo del ruolo amministrativo del prodotto, se applicabile.
 
-## Elenco dettagliato di accesso ai prodotti
+## Elenco dettagliato di accesso al prodotto
 
 In questa sezione viene visualizzato un elenco completo di tutti i profili di prodotto dell’utente in questione.
 
@@ -94,8 +94,8 @@ In questa sezione viene visualizzato un elenco completo di tutti i profili di pr
 | [!UICONTROL Prodotto] | Il nome associato al profilo di prodotto. |
 | [!UICONTROL Istanza] | Il nome dell’istanza (ad esempio società di accesso o tenant) associata al prodotto e al profilo di prodotto. |
 | [!UICONTROL Profilo di prodotto] | Nome univoco del profilo di prodotto. |
-| [!UICONTROL Assigned by Group (Assegnato dal gruppo)] | Nome del gruppo di utenti che associa l’utente a un profilo di prodotto. I risultati vuoti indicano che l’utente è stato assegnato in modo diretto al profilo di prodotto, non tramite un gruppo. |
-| [!UICONTROL Product Roles (Ruoli prodotto)] | Assegnazione del ruolo dell’utente all’interno del profilo di prodotto. Attualmente, queste informazioni sono valide solo per i profili di prodotto di Adobe Target. |
+| [!UICONTROL Assegnato per gruppo] | Nome del gruppo di utenti che associa l’utente a un profilo di prodotto. I risultati vuoti indicano che l’utente è stato assegnato in modo diretto al profilo di prodotto, non tramite un gruppo. |
+| [!UICONTROL Ruoli prodotto] | Assegnazione del ruolo dell’utente all’interno del profilo di prodotto. Attualmente, queste informazioni sono valide solo per i profili di prodotto di Adobe Target. |
 
 ## Pagina Criteri
 
@@ -134,7 +134,7 @@ Una visualizzazione dettagliata di ciascun profilo di prodotto mostra dettagli i
 
 I dettagli del profilo di prodotto possono essere esportati in file CSV. L’opzione [!UICONTROL Esporta CSV] genera due file CSV:
 
-* Dettagli Oggetto (Utenti, Gruppi Di Utenti, Sviluppatori, Integrazioni, Amministratori)
+* Dettagli soggetti (utenti, gruppi di utenti, sviluppatori, integrazioni, amministratori)
 * Autorizzazioni e risorse
 
 ## Sezione Riepilogo
@@ -148,7 +148,7 @@ In questa sezione viene visualizzato un riepilogo del profilo di prodotto che in
 * Prodotti associati
 * Istanza
 
-## Elenco dettagliato oggetto
+## Elenco dettagliato dei soggetti
 
 Questa sezione presenta un elenco completo di tutti gli utenti, i gruppi di utenti, gli sviluppatori, le integrazioni e gli amministratori assegnati al profilo di prodotto.
 
