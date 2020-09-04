@@ -6,11 +6,11 @@ seo-title: Creazione di una sorgente attributo cliente e caricamento del file di
 solution: Experience Cloud
 title: Creazione di una sorgente attributo cliente e caricamento del file di dati
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
-translation-type: ht
-source-git-commit: af5201da6eac644e150783195bdbc8f93760c3f1
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
+workflow-type: tm+mt
 source-wordcount: '1177'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -158,10 +158,7 @@ Nella pagina [!UICONTROL Crea nuova [o Modifica] origine attributi del cliente],
 
 ## Utilizzo degli Attributi del cliente in Adobe Analytics {#task_7EB0680540CE4B65911B2C779210915D}
 
-Con i dati ora disponibili in soluzioni come
-<keyword>
-Adobe Analytics
-</keyword>, puoi generare rapporti sui dati, analizzarli e intraprendere le azioni necessarie nelle campagne di marketing.
+Con i dati ora disponibili in soluzioni come  Adobe Analytics, puoi creare rapporti sui dati, analizzarli e intraprendere le azioni appropriate nelle campagne di marketing.
 
 L&#39;esempio seguente mostra un segmento di [!DNL Analytics] basato su attributi multipli. Questo segmento mostra gli utenti con sottoscrizione a [!DNL Photoshop Lightroom] il cui prodotto maggiormente lanciato è Photoshop.
 
