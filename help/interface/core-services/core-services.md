@@ -6,9 +6,9 @@ seo-title: Abilitare le soluzioni Experience Cloud per gli attributi del cliente
 solution: Experience Cloud
 title: Abilitare le soluzioni per i servizi principali
 index: true
-translation-type: ht
-source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
+workflow-type: tm+mt
 source-wordcount: '2402'
 ht-degree: 100%
 
@@ -136,7 +136,7 @@ Verifica di essere nella raccolta dati regionale (RDC). Se il dominio della racc
 
 Si consiglia di modernizzare l&#39;implementazione di Analytics aggiornando le librerie JavaScript, incluso l&#39;API visitatore. Il modo più semplice per farlo è aggiungere uno strumento [!DNL Adobe Analytics] in Dynamic Tag Management specificando *`Automatic`* come metodo di configurazione.
 
-In [!UICONTROL Dynamic Tag Management], fai clic su **[!UICONTROL <Web Property Name>]** > **[!UICONTROL  Panoramica ]** > **[!UICONTROL  Aggiungi uno strumento ]** > **[!UICONTROL  Adobe Analytics ]**. Per informazioni sulla distribuzione, consulta [Impostazioni di Adobe Analytics](https://docs.adobe.com/content/help/it-IT/dtm/using/tools/analytics-dtm.html) in Dynamic Tag Management.
+In [!UICONTROL Dynamic Tag Management], fai clic su **`<Web Property Name>`** > **[!UICONTROL Panoramica]** > **[!UICONTROL Aggiungi uno strumento]** > **[!UICONTROL Adobe Analytics]**. Per informazioni sulla distribuzione, consulta [Impostazioni di Adobe Analytics](https://docs.adobe.com/content/help/it-IT/dtm/using/tools/analytics-dtm.html) in Dynamic Tag Management.
 
 ## Passaggio 5: (Adobe Target) Aggiorna la tua implementazione Adobe Target {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
