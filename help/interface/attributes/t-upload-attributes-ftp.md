@@ -6,9 +6,9 @@ seo-title: Facoltativo - Caricamento del file di dati tramite FTP
 solution: Experience Cloud
 title: Facoltativo - Caricamento del file di dati tramite FTP
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '293'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Puoi caricare i dati dopo la creazione di un&#39;origine attributo del cliente e
 
 1. [Crea un&#39;origine attributo del cliente e carica il file di dati...](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78).
 
-   Verifica di aver effettuato l&#39;accesso al tuo sito FTP all&#39;indirizzo `ftp.adobe.com/<sftpname>`.
+   Verifica di aver effettuato l’accesso al tuo sito FTP su `ftp.adobe.com/<sftpname>`.
 
 1. Fai clic su **[!UICONTROL Azioni]** > **[!UICONTROL Caricamento file]**.
 
