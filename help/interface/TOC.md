@@ -1,15 +1,15 @@
 ---
 audience: end-user
-user-guide-title: Guida utente all'interfaccia di Experience Cloud
+user-guide-title: Guida all'interfaccia  Experience Cloud
 breadcrumb-title: Interface Guide
 user-guide-description: Adobe Experience Cloud services include the People (Audiences and Customer Attributes), Offers, Experience Platform Launch, and Mobile Services.
 user-guide-url: https://www.adobe.com
 index: true
-translation-type: ht
-source-git-commit: 1833bae7ecf422e2cddae87df9311a40ecea4a0e
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 014e04cdf7e6d80909c988c6e3e961736fd30f13
+workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -28,13 +28,13 @@ ht-degree: 100%
    + [Cookie di prime parti in Experience Cloud](cookies/cookies-first-party.md)
    + [Cookie di Analytics](cookies/cookies-analytics.md)
    + [Cookie di Audience Manager](cookies/cookies-am.md)
-   + [Cookie di [!UICONTROL Data Connectors]](cookies/cookies-dc.md)
-   + [Cookie di [!UICONTROL Data Workbench]](cookies/cookies-insight.md)
+   + Cookie di [[!UICONTROL Data Connectors]](cookies/cookies-dc.md)
+   + Cookie di [[!UICONTROL Data Workbench]](cookies/cookies-insight.md)
    + [Cookie di Experience Cloud](cookies/cookies-mc.md)
    + [Cookie di Advertising Cloud](cookies/cookies-advertising-cloud.md)
-   + [Cookie di [!DNL Scene7]](cookies/cookies-s7.md)
-   + [Cookie di [!DNL Search and Promote] ](cookies/cookies-snp.md)
-   + [Cookie di [!DNL Target]](cookies/cookies-target.md)
+   + Cookie di [[!DNL Scene7] ](cookies/cookies-s7.md)
+   + Cookie di [[!DNL Search and Promote] ](cookies/cookies-snp.md)
+   + Cookie di [[!DNL Target] ](cookies/cookies-target.md)
    + [Abilitazione delle impostazioni della privacy per i cookie del browser](cookies/browser-cookie-settings.md)
    + [Effetti delle modifiche al supporto dei cookie di terze parti sui clienti](cookies/cookies-thirdparty.md)
 + Gestione di utenti e prodotti {#manage-users-and-products}
@@ -58,8 +58,8 @@ ht-degree: 100%
    + [Carica una risorsa in una cartella condivisa dal desktop Creative Cloud](experience-cloud-assets/t-cc-asset-upload-thor.md)
    + [Requisiti del file risorsa per la condivisione](experience-cloud-assets/assets-file-reqs.md)
    + [Comportamento delle cartelle condivise](experience-cloud-assets/asset-behavior.md)
-+ Audiences in Experience Cloud {#audiences}
-   + [Panoramica dei tipi di pubblico](audience-library/audience-library.md)
++ Experience Cloud Audiences {#audiences}
+   + [Panoramica di  Experience Cloud Audiences](audience-library/audience-library.md)
    + [Creazione di un pubblico](audience-library/t-audience-create.md)
    + [Pubblicazione di un segmento di pubblico di Analytics](audience-library/t-publish-audience-segment.md)
 + Attributi del cliente in Experience Cloud {#customer-attributes}
