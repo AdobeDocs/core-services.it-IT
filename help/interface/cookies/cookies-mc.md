@@ -3,12 +3,12 @@ description: Adobe Experience Cloud utilizza i cookie per memorizzare un ID visi
 keywords: cookies;privacy
 seo-description: Adobe Experience Cloud utilizza i cookie per memorizzare un ID visitatore utilizzato nelle soluzioni Experience Cloud.
 seo-title: Cookie di Experience Cloud
-solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
+solution: Experience Cloud,Analytics,Target
 title: Cookie di Experience Cloud
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
-translation-type: ht
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 100%
 
@@ -39,11 +39,11 @@ Adobe Experience Cloud utilizza i cookie per memorizzare un ID visitatore utiliz
   </tr> 
   <tr> 
    <td colname="col1"> <p> Utilizzo </p> </td> 
-   <td colname="col2"> <p>Questo cookie viene impostato dal dominio del cliente dopo che il cookie AMCV è stato impostato dal client. Questo cookie ha lo scopo di consentire il tracciamento degli ID permanenti nello stato di prima parte e viene utilizzato come ID di riferimento se il cookie AMCV è scaduto. Vedi Cookie AMCV qui per ulteriori dettagli. </p> </td> 
+   <td colname="col2"> <p>Questo cookie viene impostato dal dominio del cliente dopo che il cookie AMCV è stato impostato dal client. Questo cookie ha lo scopo di consentire il tracciamento degli ID permanenti nello stato di prima parte e viene utilizzato come ID di riferimento se il cookie AMCV è scaduto. Vedi Cookie AMCV qui per ulteriori dettagli </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Posizione </p> </td> 
-   <td colname="col2"> <p>Solo clienti CNAME. Non applicabile in caso di terze parti. Il cookie è memorizzato nel tuo dominio, lo stesso utilizzato dal CNAME e dalla richiesta di immagine Analytics. </p> </td> 
+   <td colname="col2"> <p>Solo clienti CNAME. Non applicabile in caso di terze parti. Il cookie è memorizzato nel tuo dominio, lo stesso utilizzato dal CNAME e dalla richiesta di immagine Analytics </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Dimensione </p> </td> 
