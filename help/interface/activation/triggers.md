@@ -3,14 +3,14 @@ description: Come configurare Experience Cloud Triggers.
 keywords: integrations;Triggers
 seo-description: Come configurare Experience Cloud Triggers.
 seo-title: Triggers
-solution: Marketing Cloud
+solution: Experience Cloud
 title: Triggers
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
 translation-type: tm+mt
-source-git-commit: af0bb1497252afa9bca2d6c7bacb11749cfe654c
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
 workflow-type: tm+mt
 source-wordcount: '668'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Crea un trigger e configurane le condizioni. Ad esempio, puoi specificare i crit
    | Start new session after (Avvia nuova sessione dopo) | Crea un trigger per gli eventi di inizio e fine sessione. |
 
 5. Fai clic su **[!UICONTROL Salva]**.
-6. Usa i trigger per la [commercializzazione in tempo reale](https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html) in [!DNL Adobe Campaign].
+6. Usa i trigger per la [commercializzazione in tempo reale](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html) in [!DNL Adobe Campaign].
 
 ### Esempio di trigger
 
