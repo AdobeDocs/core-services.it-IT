@@ -3,11 +3,11 @@ description: Self help, documentazione del prodotto e documentazione tecnica per
 keywords: core services
 seo-description: Questa pagina offre self help, documentazione del prodotto e documentazione tecnica per Experience Cloud.
 seo-title: Aiuto e documentazione del prodotto per Adobe Experience Cloud e servizi core.
-solution: Adobe Experience Cloud
+solution: Experience Cloud
 title: Aiuto per Experience Cloud e servizi di base
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: dbcfb3ae9e1a5fb620f6794f42d567641b9ef838
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 80%
