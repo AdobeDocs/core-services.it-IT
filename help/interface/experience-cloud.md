@@ -7,9 +7,9 @@ solution: Adobe Experience Cloud
 title: Aiuto per Experience Cloud e servizi di base
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 014e04cdf7e6d80909c988c6e3e961736fd30f13
+source-git-commit: dbcfb3ae9e1a5fb620f6794f42d567641b9ef838
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '434'
 ht-degree: 80%
 
 ---
@@ -21,7 +21,7 @@ Experience Cloud è un insieme integrato di soluzioni e servizi di marketing dig
 
 ![Experience Cloud](assets/cloud-pulldown.png)
 
-Questa guida fornisce la documentazione di prodotto per la gestione di utenti e prodotti in  Experience Cloud, nonché gli attributi del cliente e  pubblico del Experience Cloud (Libreria Pubblico). Gli articoli in questa guida includono:
+La Guida all&#39;amministrazione di Adobe Experience Cloud include assistenza &#39;amministrazione di utenti e prodotti di Experience Cloud, nella Libreria Pubblico, negli attributi cliente e  risorse Experience Cloud. Gli articoli in questa guida includono:
 
 * [[!UICONTROL Libreria pubblico]](audience-library/audience-library.md)
 * [[!UICONTROL Attributi del cliente]](attributes/attributes.md)
