@@ -3,12 +3,12 @@ description: Garantire la privacy dei clienti e la sicurezza dei dati sono le pr
 keywords: cookies;privacy
 seo-description: Garantire la privacy dei clienti e la sicurezza dei dati sono le principali priorità di Adobe. Adobe partecipa a più organizzazioni che si interessano della privacy e collabora con gli enti di controllo e ai principi di autoregolamentazione (ad esempio il programma Digital Advertising Alliance AdChoices) per fornire ai clienti informazioni su come vengono utilizzate le loro informazioni e su quali opzioni utilizzare.
 seo-title: Informazioni su cookie e privacy
-solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
+solution: Experience Cloud,Analytics,Target
 title: Informazioni su cookie e privacy
 uuid: 7fb36845-6282-438a-bbc6-0c3cf95de1c9
-translation-type: ht
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 100%
 
