@@ -3,12 +3,12 @@ description: Audience Manager si avvale di alcuni cookie semplici per eseguire f
 keywords: cookies
 seo-description: Audience Manager si avvale di alcuni cookie semplici per eseguire funzioni diverse, come l’assegnazione di ID, la registrazione delle chiamate dati, il tracciamento degli errori e test per verificare se è possibile impostare i cookie. Questa sezione elenca e descrive i vari cookie impostati da Audience Manager.
 seo-title: Cookie di Audience Manager
-solution: Marketing Cloud,Audience Manager
+solution: Experience Cloud, Audience Manager
 title: Cookie di Audience Manager
 uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
-translation-type: ht
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 100%
 
