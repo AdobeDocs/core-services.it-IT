@@ -6,17 +6,17 @@ solution: Experience Cloud
 title: Panoramica di  Experience Cloud Audiences
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
 translation-type: tm+mt
-source-git-commit: 014e04cdf7e6d80909c988c6e3e961736fd30f13
+source-git-commit: 1809543ce26ed0e6dc2bf973de46384a2ef13c32
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 95%
+source-wordcount: '837'
+ht-degree: 90%
 
 ---
 
 
 # Experience Cloud Audiences overview {#topic_679810123CAA4E0CA4FA3417FB0100C7}
 
-I tipi di pubblico sono raccolte di visitatori (un elenco di ID visitatore). I servizi di pubblico di Adobe gestiscono la trasformazione dei dati dei visitatori in segmentazione del pubblico. La creazione e la gestione dei tipi di pubblico sono simili alla creazione e all&#39;uso dei segmenti, e in più permettono di condividere i segmenti di pubblico in [!DNL Experience Cloud].
+I tipi di pubblico sono raccolte di visitatori (un elenco di ID visitatore).  Adobe  Libreria Pubblico consente di gestire la conversione dei dati dei visitatori in segmenti di pubblico. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to products and services in [!DNL Experience Cloud].
 
 ![](assets/audiences.png)
 
