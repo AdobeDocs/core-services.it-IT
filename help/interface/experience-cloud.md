@@ -10,14 +10,14 @@ translation-type: tm+mt
 source-git-commit: a32b5e9f8d3bed89b0001a40aa159591880dd84c
 workflow-type: tm+mt
 source-wordcount: '475'
-ht-degree: 64%
+ht-degree: 75%
 
 ---
 
 
 # Amministrazione  Experience Cloud, pubblico e attributi cliente
 
-Experience Cloud è un insieme integrato di soluzioni e servizi di marketing digitali realizzati da Adobe. Offre altresì un&#39;interfaccia intuitiva che consente di accedere rapidamente alle soluzioni cloud e ai servizi core.
+Experience Cloud è un insieme integrato di soluzioni e servizi per il digital marketing realizzati da Adobe. Offre altresì un&#39;interfaccia intuitiva che consente di accedere rapidamente alle soluzioni cloud e ai servizi core.
 
 ![Experience Cloud](assets/cloud-pulldown.png)
 
@@ -37,9 +37,9 @@ Questa guida fornisce l&#39;accesso alla guida &#39;amministrazione di utenti e 
 * [Panoramica sulla privacy e sulla sicurezza di Experience Cloud](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
 * [Recupero preventivo del DNS](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
 
-## Guide di 
+## Guide
 
- guide Experience Cloud correlate includono:
+Le guide correlate a Experience Cloud includono:
 
 * [Adobe Mobile](https://docs.adobe.com/content/help/it-IT/mobile-services/using/home.html)
 * [Device Co-op](https://docs.adobe.com/content/help/it-IT/device-co-op/using/home.html)
@@ -50,15 +50,15 @@ Questa guida fornisce l&#39;accesso alla guida &#39;amministrazione di utenti e 
 * [API del regolamento generale sulla protezione dei dati (RGPD)](https://www.adobe.io/apis/experiencecloud/gdpr.html)
 * [[!UICONTROL Dynamic Tag Management]](https://docs.adobe.com/content/help/it-IT/dtm/using/dtm-home.html)
 
-## Esercitazioni
+## Tutorial
 
-Esercitazioni di supporto autonomo e procedure guidate rapide in Experience League:
+Sfrutta i tutorial e le guide pratiche disponibili in Experience League:
 
-* [Tutte le esercitazioni in Experience League](https://experienceleague.corp.adobe.com/?lang=en#quick-how-tos)
-* [Esercitazioni  Experience Platform](https://experienceleague.corp.adobe.com/docs/core-services-learn/tutorials/overview.html?lang=en)
+* [Tutti i tutorial in Experience League](https://experienceleague.corp.adobe.com/?lang=en#quick-how-tos)
+* [Tutorial su Experience Platform](https://experienceleague.corp.adobe.com/docs/core-services-learn/tutorials/overview.html?lang=en)
 * [Real-time Customer Data Platform](https://experienceleague.corp.adobe.com/docs/platform-learn/tutorials/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=en)
 
-## Note sulla versione e guida relativa  Experience Cloud
+## Note sulla versione e guide relative a Experience Cloud
 
 * [Documentazione del prodotto per tutte le soluzioni Experience Cloud](https://docs.adobe.com/content/help/it-IT/experience-cloud/user-guides/home.html): cerca aiuto all&#39;interno di Informazioni e supporto di Experience Cloud
 * [Note sulla versione e aggiornamenti dei prodotti](https://docs.adobe.com/content/help/it-IT/release-notes/experience-cloud/current.html): le novità di Experience Cloud, tutti gli aggiornamenti per chi si abbona
