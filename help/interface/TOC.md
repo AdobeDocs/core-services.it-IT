@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: 1809543ce26ed0e6dc2bf973de46384a2ef13c32
 workflow-type: tm+mt
 source-wordcount: '367'
-ht-degree: 92%
+ht-degree: 93%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 92%
    + [Requisiti del file risorsa per la condivisione](experience-cloud-assets/assets-file-reqs.md)
    + [Comportamento delle cartelle condivise](experience-cloud-assets/asset-behavior.md)
 + Experience Cloud Audience Library {#audiences}
-   + [Panoramica di  Experience Cloud Audiences](audience-library/audience-library.md)
+   + [Panoramica di Experience Cloud Audiences](audience-library/audience-library.md)
    + [Creazione di un pubblico](audience-library/t-audience-create.md)
    + [Pubblicazione di un segmento di pubblico di Analytics](audience-library/t-publish-audience-segment.md)
 + Attributi del cliente in Experience Cloud {#customer-attributes}
