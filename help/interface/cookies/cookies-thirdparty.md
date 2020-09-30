@@ -6,9 +6,9 @@ seo-title: Effetti delle modifiche al supporto dei cookie di terze parti sui cli
 solution: Experience Cloud,Analytics,Target
 title: Effetti delle modifiche al supporto dei cookie di terze parti sui clienti
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '368'
 ht-degree: 100%
 
