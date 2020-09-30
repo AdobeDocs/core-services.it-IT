@@ -6,9 +6,9 @@ seo-title: Organizzazioni e collegamento di account
 solution: Experience Cloud
 title: Organizzazioni e collegamento di account
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '399'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ Informazioni sulla gestione delle organizzazioni e sul collegamento di account d
 
 ## Identificazione della tua organizzazione {#concept_384D169B0B724B799D573B8ECB5C39BF}
 
-Un&#39;*organizzazione* è l&#39;entità che consente all&#39;amministratore di configurare gruppi e utenti e di controllare il single sign-on in Experience Cloud. L&#39;organizzazione funziona come un&#39;azienda che abbraccia tutti i prodotti e le soluzioni Experience Cloud. Nella maggior parte dei casi, un’organizzazione è il nome dell’azienda. Tuttavia, un’azienda può avere molte organizzazioni.
+Un&#39;*organizzazione* è l&#39;entità che consente all&#39;amministratore di configurare gruppi e utenti e di controllare il single sign-on in Experience Cloud. L&#39;organizzazione funziona come un&#39;azienda che abbraccia tutti i prodotti e le soluzioni Experience Cloud. Nella maggior parte dei casi, un’organizzazione è il nome dell’azienda. Tuttavia, un’azienda può avere più organizzazioni.
 
 Inoltre, potrebbe essere necessario individuare l’ID organizzazione a scopo di assistenza. Puoi verificare di essere nell’organizzazione corretta o cambiare organizzazione utilizzando il menu **[!UICONTROL Organizzazione]**.
 
@@ -41,7 +41,7 @@ In genere, gli amministratori di Experience Cloud concedono l&#39;accesso a solu
 
 1. Segui i passaggi contenuti nell&#39;e-mail di invito a Experience Cloud.
 1. Accedi utilizzando il tuo Adobe ID o Enterprise ID.
-1. Fai clic sul selettore della soluzione ( ![](assets/menu-icon.png)).
+1. Fai clic sul selettore della soluzione (![](assets/menu-icon.png)).
 
    ![](assets/solutions-active.png)
 
