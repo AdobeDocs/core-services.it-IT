@@ -7,10 +7,10 @@ solution: Experience Cloud
 title: Aiuto per Experience Cloud e i servizi Platform
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 1493c77ce1adc4bae3f70c4b0c0b82acde90ee47
+source-git-commit: 34c8fa5bbc7524e2193be688e9cda68e134be467
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 98%
+source-wordcount: '476'
+ht-degree: 97%
 
 ---
 
@@ -42,7 +42,7 @@ Questa guida fornisce informazioni utili per l’amministrazione di utenti e pro
 Le guide correlate a Experience Cloud includono:
 
 * [Adobe Mobile](https://docs.adobe.com/content/help/it-IT/mobile-services/using/home.html)
-* [Device Co-op](https://docs.adobe.com/content/help/it-IT/device-co-op/using/home.html)
+* [grafico Co-op Experience Platform](https://docs.adobe.com/content/help/it-IT/device-co-op/using/home.html)
 * [Exchange](https://experiencecloud.adobeexchange.com/)
 * [Servizio Experience Cloud ID](https://docs.adobe.com/content/help/it-IT/id-service/using/home.html)
 * [Experience Platform Launch](https://docs.adobe.com/content/help/it-IT/launch/using/overview.html)
