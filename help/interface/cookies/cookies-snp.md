@@ -6,9 +6,9 @@ seo-title: Cookie di Search&Promote
 solution: Experience Cloud,Analytics,Target
 title: Cookie di Search&Promote
 uuid: 65bf24e0-0564-4dc2-b652-9fd9db57d23f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '132'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ Search&amp;Promote utilizza i cookie per comprendere e anticipare le intenzioni 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Scadenza </p> </td> 
-   <td colname="col2"> <p>Configurabile in Search&amp;Promote (<span class="uicontrol"> Progettazione</span> &gt; <span class="uicontrol"> Navigazione</span> &gt; <span class="uicontrol"> Ricerche recenti</span>). Puoi scegliere tra le seguenti opzioni di scadenza dei cookie: </p> <p> 
+   <td colname="col2"> <p>Configurabile in Search&amp;Promote (<span class="uicontrol">Progettazione</span> &gt; <span class="uicontrol"> Navigazione</span> &gt; <span class="uicontrol"> Ricerche recenti</span>). Puoi scegliere tra le seguenti opzioni di scadenza dei cookie: </p> <p> 
      <ul id="ul_28F564A6337D497699D5247F755981B8"> 
       <li id="li_6478BB5AF82341F787F92D03E277DBBB">Fine sessione </li> 
       <li id="li_AF88B165365D4A63A82CB6ADD4542D66"> 3 ore </li> 
