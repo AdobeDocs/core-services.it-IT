@@ -6,9 +6,9 @@ seo-title: Cookie di Analytics
 solution: Experience Cloud,Analytics,Target
 title: Cookie di Analytics
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9d9a69193a877c553db73d230723f1c24dbfed6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '812'
 ht-degree: 100%
 
