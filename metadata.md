@@ -7,12 +7,12 @@ solution-hub-url: https://helpx.adobe.com/it/support/experience-cloud/core-servi
 solution-icon: help/interface/assets/experience-cloud-logo-24.png
 getting-started-title: Introduzione
 getting-started-url: https://helpx.adobe.com/it/experience-cloud-core-services/get-started.html
-tutorials-title: Esercitazioni
+tutorials-title: Tutorial
 tutorials-url: https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/core-services.it-IT
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '172'
 ht-degree: 100%
 
