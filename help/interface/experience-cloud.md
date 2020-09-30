@@ -6,16 +6,16 @@ seo-title: Aiuto e documentazione del prodotto per Adobe Experience Cloud e i se
 solution: Experience Cloud
 title: Aiuto per Experience Cloud e i servizi Platform
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-translation-type: ht
-source-git-commit: a32b5e9f8d3bed89b0001a40aa159591880dd84c
-workflow-type: ht
-source-wordcount: '475'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1493c77ce1adc4bae3f70c4b0c0b82acde90ee47
+workflow-type: tm+mt
+source-wordcount: '474'
+ht-degree: 98%
 
 ---
 
 
-# Amministrazione di Experience Cloud, tipi di pubblico e attributi cliente
+# Servizi e amministrazione dell&#39;applicazione  Experience Cloud
 
 Experience Cloud è un insieme integrato di soluzioni e servizi per il digital marketing realizzati da Adobe. Offre altresì un&#39;interfaccia intuitiva che consente di accedere rapidamente alle soluzioni cloud e ai servizi core.
 
