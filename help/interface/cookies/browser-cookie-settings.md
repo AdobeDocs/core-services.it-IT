@@ -6,9 +6,9 @@ seo-title: Abilitazione delle impostazioni della privacy per i cookie del browse
 solution: Experience Cloud, Analytics, Target, Social
 title: Abilitazione delle impostazioni della privacy per i cookie del browser
 uuid: f6a56e8b-b021-49db-8eb4-6c14af0c7243
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '329'
 ht-degree: 100%
 
