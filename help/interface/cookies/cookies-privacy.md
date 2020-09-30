@@ -6,9 +6,9 @@ seo-title: Informazioni su cookie e privacy
 solution: Experience Cloud,Analytics,Target
 title: Informazioni su cookie e privacy
 uuid: 7fb36845-6282-438a-bbc6-0c3cf95de1c9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '421'
 ht-degree: 100%
 
