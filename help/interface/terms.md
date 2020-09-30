@@ -6,11 +6,11 @@ seo-title: Terminologia
 solution: Experience Cloud
 title: Terminologia
 uuid: 30253c0d-944b-4e15-b9af-093afa3ddc17
-translation-type: ht
-source-git-commit: c00eb57a226945f71307b33afdf147c93334c083
-workflow-type: ht
-source-wordcount: '1474'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 34c8fa5bbc7524e2193be688e9cda68e134be467
+workflow-type: tm+mt
+source-wordcount: '1476'
+ht-degree: 99%
 
 ---
 
@@ -27,7 +27,7 @@ Un riferimento terminologico per i nuovi utenti di Experience Cloud, per compren
 | Campagne | In Creative Cloud, si può immaginare una campagna come una campagna di marketing che utilizza le risorse immagini di Creative Cloud. | In Experience Cloud, le campagne determinano il contenuto da visualizzare al pubblico. Inoltre, determinano dove (posizione) e quando viene visualizzato il contenuto. Una campagna ha un obiettivo specifico che viene tracciato dalle metriche.<br>Per avviare una campagna devi far corrispondere il contesto del visitatore con le regole impostate nella campagna e la consegna di contenuto in base ai limiti tecnici del canale della posizione.<br>In Adobe Target, i termini campagna e attività sono sinonimi. |
 | Canale | In Creative Cloud, i canali possono essere immagini in scala di grigi che memorizzano diversi tipi di informazioni. Essi sono canali di informazioni e canali di colore. | In Experience Cloud, un canale è un attributo di una posizione, o un&#39;attività in una campagna.<br>In Analytics, i canali di marketing vengono comunemente utilizzati per fornire approfondimenti su come i visitatori trovano il tuo sito, come tramite le campagne e-mail.<br>Gli esempi includono:<ul><li>E-mail</li><li>Annunci visualizzati</li><li>Social Network</li><li>Ricerca pagata</li><li>Ricerca naturale</li><li>Domini di riferimento</li></ul> |
 | Contesto | Di solito si riferisce a un menu o a delle informazioni disponibili e relative a una selezione o a un&#39;attività in esecuzione. | Il contesto descrive i dettagli dell&#39;interazione corrente del visitatore con una proprietà digitale. Gli esempi di contesto includono la posizione del loro mouse, lo stato di un campo di un modulo, il valore del loro carrello o il dispositivo che stanno utilizzando. <br>[Dynamic Tag Management](https://docs.adobe.com/content/help/it-IT/dtm/using/dtm-home.html) fornisce la funzionalità di rilevamento di contesti e attivazione di servizi più solida sul mercato attuale e offre il componente contestuale dei servizi di profilo e pubblico. |
-| Consumer ID (ID consumatore) | Nessun uso speciale. | L&#39;ID utilizzato da un membro di Device Co-op per riconoscere una persona. Questo numero è assegnato dal marchio ed è spesso gestito in un sistema CRM. **Nota:** questo ID non deve essere confuso con _setCustomerIDs_, la chiamata alla funzione [Experience Cloud ID](https://docs.adobe.com/content/help/it-IT/id-service/using/intro/about-id-service.html) che invia gli ID dei consumatori a Experience Cloud. |
+| Consumer ID (ID consumatore) | Nessun uso speciale. | L&#39;ID utilizzato da un membro del grafico Co-op  Experience Platform per riconoscere una persona. Questo numero è assegnato dal marchio ed è spesso gestito in un sistema CRM. **Nota:** questo ID non deve essere confuso con _setCustomerIDs_, la chiamata alla funzione [Experience Cloud ID](https://docs.adobe.com/content/help/it-IT/id-service/using/intro/about-id-service.html) che invia gli ID dei consumatori a Experience Cloud. |
 | Contenuto | In Creative Cloud, il contenuto si riferisce al testo e alle immagini presenti in una pagina. Questo termine viene usato in modo simile in Creative e Experience Cloud. | In Experience Cloud, il termine “contenuto” si riferisce al contenuto di marketing che si può utilizzare come parte di una campagna per supportare un obiettivo specifico.<br>Il contenuto viene utilizzato in posizioni specifiche e può comprendere risorse. Il contenuto può essere strutturato, come informazioni di prodotto, o non strutturato, come una pagina Web o una schermata in un&#39;applicazione mobile.<br>Gli esempi includono:<ul><li>Pagine web</li><li>Banner</li><li>Aggiornamenti di stato</li><li>Commenti</li><li>Annunci testuali</li><li>Informazioni prodotto</li><li>Recensioni prodotto</li><li>Dati modulo</li><li>Documenti in un indice di ricerca</li><li>Post social</li><li>Articoli</li><li>Pubblicazioni</li></ul> |
 | Dashboard di | Nessun uso speciale. | Una raccolta di visualizzazioni di dati che riunisce più metriche chiave in un&#39;unica vista. |
 | Applicazione dell&#39;utilizzo dati | Nessun uso speciale. | Le politiche, la progettazione del sistema, le pratiche e le procedure emanate e definite da un sistema (soluzioni, app, servizi, SDK, API e così via) per l&#39;uso dei metadati dell&#39;utilizzo dati al fine di consentire un uso dei dati aderente alle politiche aziendali sulla privacy di Adobe, alle considerazioni contrattuali e ai principi generali sulla privacy. |
