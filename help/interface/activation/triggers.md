@@ -6,9 +6,9 @@ seo-title: Triggers
 solution: Experience Cloud
 title: Triggers
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '668'
 ht-degree: 100%
 
@@ -55,7 +55,7 @@ Crea un trigger e configurane le condizioni. Ad esempio, puoi specificare i crit
    |--- |--- |
    | Nome | Nome intuitivo per il trigger. |
    | Descrizione | La descrizione di questo trigger, le modalità di utilizzo e così via. |
-   | Suite di rapporti | La suite di rapporti di [Analytics](https://docs.adobe.com/content/help/it-IT/analytics/admin/manage-report-suites/report-suites-admin.html) utilizzata per questo trigger. Questa impostazione identifica i dati di reporting da utilizzare. |
+   | Suite di rapporti | La [suite di rapporti](https://docs.adobe.com/content/help/it-IT/analytics/admin/manage-report-suites/report-suites-admin.html) di Analytics utilizzata per questo trigger. Questa impostazione identifica i dati di reporting da utilizzare. |
    | La visita deve includere<br>La visita non deve includere<br>Trigger dopo nessuna azione<br>Includi metadati | Puoi definire i criteri o i comportamenti del visitatore desiderati e i comportamenti indesiderati.  Ad esempio, regole per un semplice trigger di abbandono carrello potrebbero essere:<ul><li>La visita deve includere: Aggiunta carrello (metrica) ed Esiste. (puoi definire ulteriormente la regola con una visualizzazione di prodotto specifica o con dimensioni come Tipi di browser).</li><li>La visita non deve includere: Pagamento.</li><li>Trigger dopo nessuna azione per: 10 minuti.</li><li>Includi metadati: ti consente di aggiungere una dimensione Campaign particolare o variabili rilevanti per il comportamento di un visitatore. Questo campo può essere utile per Adobe Campaign per creare l&#39;e-mail di ricommercializzazione corretta.</li></ul><br>Puoi specificare un operatore logico ANY, AND oppure OR all&#39;interno o tra contenitori, a seconda dei criteri che ritieni importanti per la regola. |
    | Contenitore | Nei contenitori vengono impostati e archiviati regole, condizioni o filtri che definiscono un trigger. Se vuoi far verificare gli eventi contemporaneamente, inseriscili nello stesso contenitore. Ciò significa che ogni contenitore elabora indipendentemente a livello di risultato.  Ad esempio, in caso di due contenitori uniti dall&#39;operatore AND, le regole saranno idonee quando due risultati soddisfano i requisiti. |
    | Start new session after (Avvia nuova sessione dopo) | Crea un trigger per gli eventi di inizio e fine sessione. |
