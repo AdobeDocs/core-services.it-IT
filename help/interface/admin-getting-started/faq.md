@@ -6,9 +6,9 @@ seo-title: Domande frequenti sui servizi principali di Experience Cloud.
 solution: Experience Cloud
 title: Domande frequenti
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '731'
 ht-degree: 100%
 
