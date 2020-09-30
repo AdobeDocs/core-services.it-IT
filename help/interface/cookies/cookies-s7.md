@@ -6,9 +6,9 @@ seo-title: Cookie di Scene7
 solution: Experience Cloud,Analytics,Target
 title: Cookie di Scene7
 uuid: f9b9d13a-17e5-4139-8c84-6fe5d22c4196
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '429'
 ht-degree: 100%
 
