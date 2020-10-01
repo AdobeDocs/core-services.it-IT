@@ -6,11 +6,11 @@ seo-title: Cookie di Experience Cloud
 solution: Experience Cloud,Analytics,Target
 title: Cookie di Experience Cloud
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
-translation-type: ht
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
-workflow-type: ht
-source-wordcount: '294'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 7bd5b20d24d6ed1bcf2ea8cd1555af217013127e
+workflow-type: tm+mt
+source-wordcount: '368'
+ht-degree: 79%
 
 ---
 
@@ -49,6 +49,10 @@ Adobe Experience Cloud utilizza i cookie per memorizzare un ID visitatore utiliz
    <td colname="col1"> <p> Dimensione </p> </td> 
    <td colname="col2"> <p>45 byte </p> </td> 
   </tr> 
+  <tr> 
+   <td colname="col1"> <p> SameSite=Lax </p> </td> 
+   <td colname="col2"> <p>I cookie con questa impostazione vengono inviati solo quando il dominio visualizzato nell’URL del browser corrisponde al dominio del cookie. Questa è la nuova impostazione predefinita per i cookie in Chrome.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -85,6 +89,10 @@ Consulta anche [Cookie e il servizio ID](https://docs.adobe.com/content/help/it-
   <tr> 
    <td colname="col1"> <p> Dimensione </p> </td> 
    <td colname="col2"> <p> Può variare, nella maggior parte dei casi questo cookie è lungo circa 200 byte. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Nessun valore aggiunto. Per impostazione predefinita, Chrome è impostato su Lax. </p> </td> 
+   <td colname="col2"> <p> I cookie con questa impostazione vengono inviati solo quando il dominio visualizzato nell’URL del browser corrisponde al dominio del cookie. Questa è la nuova impostazione predefinita per i cookie in Chrome. </p> </td> 
   </tr> 
  </tbody> 
 </table>
