@@ -6,16 +6,16 @@ seo-title: Abilitare le soluzioni Experience Cloud per gli attributi del cliente
 solution: Experience Cloud
 title: Abilitare le soluzioni per i servizi principali
 index: true
-translation-type: ht
-source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
-workflow-type: ht
-source-wordcount: '2402'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
+workflow-type: tm+mt
+source-wordcount: '2403'
+ht-degree: 99%
 
 ---
 
 
-# Abilitare l’implementazione per i servizi tra più soluzioni
+# Abilita la tua implementazione per i servizi  Experience Cloud
 
 Se hai implementato Experience Cloud di recente utilizzando Experience Platform Launch, disponi già della configurazione per Attributi del cliente e Tipi di pubblico di Experience Cloud. Inoltre puoi gestire utenti e prodotti nell’Admin Console.
 
