@@ -1,14 +1,14 @@
 ---
 description: Informazioni sugli aggiornamenti dell'Aiuto di Experience Cloud.
-keywords: core services
+keywords: Experience Cloud services
 seo-description: Informazioni sugli aggiornamenti dell'Aiuto di Experience Cloud.
 seo-title: Aggiornamenti documentazione - Experience Cloud
 solution: Experience Cloud
 title: Aggiornamenti documentazione - Experience Cloud
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
-translation-type: ht
-source-git-commit: fa03e384d1dc878d45ef4b8d1f6fe269734ea891
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
+workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 100%
 
