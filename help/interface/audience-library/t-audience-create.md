@@ -6,11 +6,11 @@ seo-title: Creazione di un pubblico
 solution: Experience Cloud
 title: Creazione di un pubblico
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
-translation-type: ht
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: cc523480327172c89d590065e4321cf1d5f9ab6e
+workflow-type: tm+mt
 source-wordcount: '494'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -34,6 +34,7 @@ Ogni cerchio rappresenta una regola che definisce l’iscrizione al pubblico. I 
 >[!NOTE]
 >
 >Il pubblico è completamente definito al termine della raccolta dei dati per il periodo specificato.
+
 L’esempio seguente mostra come creare le regole per un pubblico composito. Questo pubblico è composto da:
 
 * Sezione Home &amp; Garden (Casa e giardino) derivata dai dati di pagina o dai dati di analisi non elaborati.
