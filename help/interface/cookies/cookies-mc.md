@@ -6,11 +6,11 @@ seo-title: Cookie di Experience Cloud
 solution: Experience Cloud,Analytics,Target
 title: Cookie di Experience Cloud
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7bd5b20d24d6ed1bcf2ea8cd1555af217013127e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '368'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -39,11 +39,11 @@ Adobe Experience Cloud utilizza i cookie per memorizzare un ID visitatore utiliz
   </tr> 
   <tr> 
    <td colname="col1"> <p> Utilizzo </p> </td> 
-   <td colname="col2"> <p>Questo cookie viene impostato dal dominio del cliente dopo che il cookie AMCV è stato impostato dal client. Questo cookie ha lo scopo di consentire il tracciamento degli ID permanenti nello stato di prima parte e viene utilizzato come ID di riferimento se il cookie AMCV è scaduto. Vedi Cookie AMCV qui per ulteriori dettagli </p> </td> 
+   <td colname="col2"> <p>Questo cookie viene impostato dal dominio del cliente dopo che il cookie AMCV è stato impostato dal client. Questo cookie ha lo scopo di consentire il tracciamento degli ID permanenti nello stato di prima parte e viene utilizzato come ID di riferimento se il cookie AMCV è scaduto. Vedi Cookie AMCV qui per ulteriori dettagli. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Posizione </p> </td> 
-   <td colname="col2"> <p>Solo clienti CNAME. Non applicabile in caso di terze parti. Il cookie è memorizzato nel tuo dominio, lo stesso utilizzato dal CNAME e dalla richiesta di immagine Analytics </p> </td> 
+   <td colname="col2"> <p>Solo clienti CNAME. Non applicabile in caso di terze parti. Il cookie è memorizzato nel tuo dominio, lo stesso utilizzato dal CNAME e dalla richiesta di immagine Analytics. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Dimensione </p> </td> 
@@ -60,7 +60,7 @@ Adobe Experience Cloud utilizza i cookie per memorizzare un ID visitatore utiliz
 
 Il [servizio ID di Experience Platform](https://docs.adobe.com/content/help/it-IT/id-service/using/home.html) utilizza JavaScript per memorizzare un ID visitatore univoco in un cookie `AMCV_###@AdobeOrg` sul dominio del sito web corrente, dove `###` rappresenta una stringa casuale di caratteri come `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
 
-Consulta anche [Cookie e il servizio ID](https://docs.adobe.com/content/help/it-IT/id-service/using/intro/cookies.html)
+Consulta anche [Cookie e il servizio ID](https://docs.adobe.com/content/help/it-IT/id-service/using/intro/cookies.html).
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 
@@ -91,7 +91,7 @@ Consulta anche [Cookie e il servizio ID](https://docs.adobe.com/content/help/it-
    <td colname="col2"> <p> Può variare, nella maggior parte dei casi questo cookie è lungo circa 200 byte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Nessun valore aggiunto. Per impostazione predefinita, Chrome è impostato su Lax. </p> </td> 
+   <td colname="col1"> <p>Nessun valore aggiunto. Chrome viene impostato su Lax per impostazione predefinita. </p> </td> 
    <td colname="col2"> <p> I cookie con questa impostazione vengono inviati solo quando il dominio visualizzato nell’URL del browser corrisponde al dominio del cookie. Questa è la nuova impostazione predefinita per i cookie in Chrome. </p> </td> 
   </tr> 
  </tbody> 
