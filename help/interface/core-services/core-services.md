@@ -6,16 +6,16 @@ seo-title: Abilitare le soluzioni Experience Cloud per gli attributi del cliente
 solution: Experience Cloud
 title: Abilitare le soluzioni per i servizi principali
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2403'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Abilita la tua implementazione per i servizi  Experience Cloud
+# Abilitare l’implementazione per i servizi Experience Cloud
 
 Se hai implementato Experience Cloud di recente utilizzando Experience Platform Launch, disponi già della configurazione per Attributi del cliente e Tipi di pubblico di Experience Cloud. Inoltre puoi gestire utenti e prodotti nell’Admin Console.
 
@@ -136,7 +136,7 @@ Verifica di essere nella raccolta dati regionale (RDC). Se il dominio della racc
 
 Si consiglia di modernizzare l&#39;implementazione di Analytics aggiornando le librerie JavaScript, incluso l&#39;API visitatore. Il modo più semplice per farlo è aggiungere uno strumento [!DNL Adobe Analytics] in Dynamic Tag Management specificando *`Automatic`* come metodo di configurazione.
 
-In [!UICONTROL Dynamic Tag Management], fai clic su **`<Web Property Name>`**  > **[!UICONTROL Panoramica]** > **[!UICONTROL Aggiungi uno strumento]** > **[!UICONTROL Adobe Analytics]**. Per informazioni sulla distribuzione, consulta [Impostazioni di Adobe Analytics](https://docs.adobe.com/content/help/it-IT/dtm/using/tools/analytics-dtm.html) in Dynamic Tag Management.
+In [!UICONTROL Dynamic Tag Management], fai clic su **`<Web Property Name>`** > **[!UICONTROL Panoramica]** > **[!UICONTROL Aggiungi uno strumento]** > **[!UICONTROL Adobe Analytics]**. Per informazioni sulla distribuzione, consulta [Impostazioni di Adobe Analytics](https://docs.adobe.com/content/help/it-IT/dtm/using/tools/analytics-dtm.html) in Dynamic Tag Management.
 
 ## Passaggio 5: (Adobe Target) Aggiorna la tua implementazione Adobe Target {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
