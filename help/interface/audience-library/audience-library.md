@@ -1,15 +1,15 @@
 ---
-description: Gestisci la conversione dei dati dei visitatori in segmentazione dell'audience in  servizio Pubblico di Experience Cloud.
-seo-description: Gestisci la conversione dei dati dei visitatori in segmentazione dell'audience in  servizio Pubblico di Experience Cloud.
-seo-title: ' Experience Cloud Audiences'
+description: Gestisci come tradurre i dati sui visitatori in segmentazione del pubblico, con il servizio Experience Cloud Audiences.
+seo-description: Gestisci come tradurre i dati sui visitatori in segmentazione del pubblico, con il servizio Experience Cloud Audiences.
+seo-title: Servizio Experience Cloud Audiences
 solution: Experience Cloud
 title: 'Experience Cloud Audiences '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5a11e4e3d033ea36b6af10a51f29c8a94b5252f4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '835'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
