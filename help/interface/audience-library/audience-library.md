@@ -5,11 +5,11 @@ seo-title: Servizio Experience Cloud Audiences
 solution: Experience Cloud
 title: 'Experience Cloud Audiences '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
-translation-type: ht
-source-git-commit: 5a11e4e3d033ea36b6af10a51f29c8a94b5252f4
-workflow-type: ht
-source-wordcount: '835'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: e59e70b4c07a18456d9cd6651ef94029870d65f3
+workflow-type: tm+mt
+source-wordcount: '831'
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,7 @@ Puoi creare o derivare tipi di pubblico da diverse fonti, come ad esempio:
 
 **Tipi di pubblico in tempo reale e basati sullo storico**
 
-Tutti i tipi di pubblico, a prescindere da dove provengono, sono accessibili per l&#39;uso in tempo reale. Tuttavia, i tipi di pubblico condivisi da Analytics ad Audience Manager non sono accessibili per il targeting in tempo reale. Il sistema valuta i pubblici in due modi:
+Tutti i tipi di pubblico, a prescindere da dove provengono, sono accessibili per l&#39;uso in tempo reale. Tuttavia, i tipi di pubblico condivisi da Analytics a  Audience Manager non sono accessibili per il targeting in tempo reale. Il sistema valuta i pubblici in due modi:
 
 * I pubblici storici di Analytics vengono valutati ogni 4 ore. Il tempo totale di elaborazione e condivisione può richiedere fino a 8 ore.  I pubblici storici includono sempre i visitatori di ritorno.
 * I dati in tempo reale provengono dal servizio Experience Cloud Audiences e sono valutati in tempo reale.
@@ -72,6 +72,6 @@ La tabella seguente descrive come i pubblici vengono utilizzati nelle soluzioni 
 | Nuovo | [Creazione di un pubblico](../audience-library/audience-library.md). |
 | Titolo e descrizione | Intestazione della colonna per identificare e descrivere il pubblico. |
 | Autore | La persona che ha creato il segmento di pubblico. |
-| Origine | Identifica la posizione in cui è stato creato il pubblico.<ul><li>**Analytics:** un segmento creato in Reports &amp; Analytics o Ad Hoc Analysis e [pubblicato in Experience Cloud](../audience-library/audience-library.md).</li><li>**Experience Cloud:** un nuovo pubblico [creato in Experience Cloud Audiences](../audience-library/audience-library.md).</li><li>**Audience Manager:** i tipi di pubblico creati da Audience Manager vengono visualizzati automaticamente in Experience Cloud Audiences.</li></ul> |
+| Origine | Identifica la posizione in cui è stato creato il pubblico.<ul><li>**Analytics:** Segmento creato in  Adobe Analytics, quindi [pubblicato nel Experience Cloud](../audience-library/audience-library.md).</li><li>**Experience Cloud:** un nuovo pubblico [creato in Experience Cloud Audiences](../audience-library/audience-library.md).</li><li>**Audience Manager:** i tipi di pubblico creati da Audience Manager vengono visualizzati automaticamente in Experience Cloud Audiences.</li></ul> |
 | Dimensione attuali | Dimensione attuale del pubblico. |
 | Attivo | Lo stato attivo del segmento. |
