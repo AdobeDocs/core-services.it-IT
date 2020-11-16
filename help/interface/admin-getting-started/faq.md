@@ -1,23 +1,31 @@
 ---
-description: Domande frequenti e relative risposte per gli amministratori in Experience Cloud.
+description: Supporto browser, domande e risposte comuni per gli amministratori del Experience Cloud .
 keywords: core services, Experience Cloud, Experience Platform, Analytics, Target, user management.
-seo-description: Domande frequenti e relative risposte per gli amministratori in Experience Cloud.
+seo-description: Supporto browser, domande e risposte comuni per gli amministratori del Experience Cloud .
 seo-title: Domande frequenti sui servizi principali di Experience Cloud.
 solution: Experience Cloud
 title: Domande frequenti
 index: true
-translation-type: ht
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
-workflow-type: ht
-source-wordcount: '731'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ddf8943a18c9826acfb240192f6a3db987d31a0e
+workflow-type: tm+mt
+source-wordcount: '780'
+ht-degree: 89%
 
 ---
 
 
 # Domande frequenti su Experience Cloud
 
-Domande frequenti e relative risposte per gli amministratori in Experience Cloud.
+Scopri il supporto dei browser e le domande e risposte comuni per gli amministratori del Experience Cloud .
+
+## Quali browser sono supportati in  Experience Cloud?
+
+* Microsoft Edge (due versioni correnti e precedenti)
+* Google Chrome (due versioni correnti e precedenti)
+* Mozilla Firefox (due versioni correnti e precedenti)
+* Safari (versioni correnti e precedenti)
+* Opera (due versioni correnti e precedenti)
 
 ## Come posso sapere se le mie soluzioni sono abilitate per i servizi principali?
 
