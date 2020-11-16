@@ -5,11 +5,11 @@ seo-title: Servizio Experience Cloud Audiences
 solution: Experience Cloud
 title: 'Experience Cloud Audiences '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
-translation-type: ht
-source-git-commit: e59e70b4c07a18456d9cd6651ef94029870d65f3
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: a2dfb2e14fdb7173fb859f45228fb9b1c997e172
+workflow-type: tm+mt
 source-wordcount: '831'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -26,7 +26,7 @@ Puoi creare o derivare tipi di pubblico da diverse fonti, come ad esempio:
 * Da segmenti di [!DNL Analytics] pubblicati in [!DNL Experience Cloud]
 * Da [!DNL Audience Manager]
 
-**Tipi di pubblico in tempo reale e basati sullo storico**
+**Pubblico in tempo reale e pubblico storico**
 
 Tutti i tipi di pubblico, a prescindere da dove provengono, sono accessibili per l&#39;uso in tempo reale. Tuttavia, i tipi di pubblico condivisi da Analytics a Audience Manager non sono accessibili per il targeting in tempo reale. Il sistema valuta i pubblici in due modi:
 
