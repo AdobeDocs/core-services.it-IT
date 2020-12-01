@@ -1,16 +1,16 @@
 ---
-description: Domande frequenti e best practice per gli attributi del cliente in Analytics e Target.
+description: 'Attributi del cliente: domande frequenti e best practice per  Adobe Analytics e  Adobe Target.'
 keywords: Customer Attributes
 seo-description: Domande frequenti e best practice per gli attributi del cliente in Analytics e Target.
 seo-title: Domande frequenti, limitazioni e best practice
 solution: Experience Cloud
-title: Domande frequenti, limitazioni e best practice
+title: Attributi del cliente - domande frequenti per Adobe Experience Cloud
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
-translation-type: ht
-source-git-commit: 8a7693ea41cf74ceaca2de22aa81f01a24ef3bd2
-workflow-type: ht
-source-wordcount: '1240'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 9763e6f9c2521574e6c4e3d2bc4e96195eeec9f9
+workflow-type: tm+mt
+source-wordcount: '1245'
+ht-degree: 98%
 
 ---
 
