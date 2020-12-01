@@ -1,21 +1,21 @@
 ---
-description: Panoramica e prerequisiti per il caricamento di Attributi del cliente a Experience Cloud.
-keywords: core services;Customer Attributes
+description: Panoramica e prerequisiti per il caricamento di attributi cliente nell’Adobe Experience Cloud.
+keywords: core services;Customer Attributes; Adobe Experience Cloud; Analytics; Target
 seo-description: Panoramica e prerequisiti per il caricamento di Attributi del cliente a Experience Cloud.
 seo-title: Servizio Attributi del cliente di Experience Cloud
 solution: Experience Cloud
-title: Servizio Attributi del cliente di Experience Cloud
+title: Adobe Experience Cloud - Servizio Attributi del cliente
 uuid: 1621402d-990f-46f9-981a-473280559069
-translation-type: ht
-source-git-commit: 5a11e4e3d033ea36b6af10a51f29c8a94b5252f4
-workflow-type: ht
-source-wordcount: '465'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 9763e6f9c2521574e6c4e3d2bc4e96195eeec9f9
+workflow-type: tm+mt
+source-wordcount: '469'
+ht-degree: 94%
 
 ---
 
 
-# Servizio Attributi del cliente di Experience Cloud
+# Attributi del cliente in Adobe Experience Cloud
 
 Passa a **[!DNL Experience Platform]** > **[!UICONTROL Persone]** > **[!UICONTROL Attributi del cliente]**
 
