@@ -6,10 +6,10 @@ user-guide-description: La guida ai servizi e all’amministrazione di Adobe Exp
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 5a11e4e3d033ea36b6af10a51f29c8a94b5252f4
+source-git-commit: 9763e6f9c2521574e6c4e3d2bc4e96195eeec9f9
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 100%
+source-wordcount: '393'
+ht-degree: 98%
 
 ---
 
@@ -28,13 +28,13 @@ ht-degree: 100%
    + [Cookie di prime parti in Experience Cloud](cookies/cookies-first-party.md)
    + [Cookie di Analytics](cookies/cookies-analytics.md)
    + [Cookie di Audience Manager](cookies/cookies-am.md)
-   + [Cookie di [!UICONTROL Data Connectors]](cookies/cookies-dc.md)
-   + [Cookie di [!UICONTROL Data Workbench]](cookies/cookies-insight.md)
+   + Cookie di [[!UICONTROL Data Connectors]](cookies/cookies-dc.md)
+   + Cookie di [[!UICONTROL Data Workbench]](cookies/cookies-insight.md)
    + [Cookie di Experience Cloud](cookies/cookies-mc.md)
    + [Cookie di Advertising Cloud](cookies/cookies-advertising-cloud.md)
-   + [Cookie di [!DNL Scene7] ](cookies/cookies-s7.md)
-   + [Cookie di [!DNL Search and Promote] ](cookies/cookies-snp.md)
-   + [Cookie di [!DNL Target] ](cookies/cookies-target.md)
+   + Cookie di [[!DNL Scene7] ](cookies/cookies-s7.md)
+   + Cookie di [[!DNL Search and Promote] ](cookies/cookies-snp.md)
+   + Cookie di [[!DNL Target] ](cookies/cookies-target.md)
    + [Abilitazione delle impostazioni della privacy per i cookie del browser](cookies/browser-cookie-settings.md)
    + [Effetti delle modifiche al supporto dei cookie di terze parti sui clienti](cookies/cookies-thirdparty.md)
 + Gestione di utenti e prodotti {#manage-users-and-products}
@@ -63,7 +63,7 @@ ht-degree: 100%
    + [Creazione di un pubblico](audience-library/t-audience-create.md)
    + [Pubblicazione di un segmento di pubblico di Analytics](audience-library/t-publish-audience-segment.md)
 + Attributi del cliente di Experience Cloud {#customer-attributes}
-   + [Servizio Attributi del cliente](attributes/attributes.md)
+   + [Attributi del cliente in Adobe Experience Cloud](attributes/attributes.md)
    + [Domande frequenti, limitazioni e best practice](attributes/faq-crs.md)
    + [Informazioni su file di dati e origini dati per Attributi del cliente](attributes/crs-data-file.md)
    + [Creazione di una sorgente attributo cliente e caricamento del file di dati](attributes/t-crs-usecase.md)
