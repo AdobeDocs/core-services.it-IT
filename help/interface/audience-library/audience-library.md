@@ -1,36 +1,36 @@
 ---
-description: Gestisci come tradurre i dati sui visitatori in segmentazione del pubblico, con il servizio Experience Cloud Audiences.
+description: Scopri come gestire la conversione dei dati dei visitatori in segmenti di pubblico nel servizio Adobe Experience Cloud Audience.
 seo-description: Gestisci come tradurre i dati sui visitatori in segmentazione del pubblico, con il servizio Experience Cloud Audiences.
 seo-title: Servizio Experience Cloud Audiences
 solution: Experience Cloud
-title: 'Experience Cloud Audiences '
+title: 'Adobe Experience Cloud Audiences '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
-translation-type: ht
-source-git-commit: a2dfb2e14fdb7173fb859f45228fb9b1c997e172
-workflow-type: ht
-source-wordcount: '831'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: e7d297820dbb666308c5906eca01a0c248e35fe3
+workflow-type: tm+mt
+source-wordcount: '832'
+ht-degree: 93%
 
 ---
 
 
 # Experience Cloud Audiences {#topic_679810123CAA4E0CA4FA3417FB0100C7}
 
-I tipi di pubblico sono raccolte di visitatori (un elenco di ID visitatore). Con la funzione Libreria tipi di pubblico di Adobe puoi gestire come tradurre i dati sui visitatori in segmentazione del pubblico. I tipi di pubblico possono essere creati e gestiti in modo analogo a come si creano e utilizzano i segmenti, e in più permettono di condividere i segmenti di pubblico in [!DNL Experience Cloud].
+I tipi di pubblico sono raccolte di visitatori (un elenco di ID visitatore). Con la funzione Libreria tipi di pubblico di Adobe puoi gestire come tradurre i dati sui visitatori in segmentazione del pubblico. La creazione e la gestione dei tipi di pubblico è simile alla creazione e all&#39;utilizzo di segmenti. Puoi anche condividere il segmento di pubblico con prodotti e servizi in [!DNL Experience Cloud].
 
 ![](assets/audiences.png)
 
 Puoi creare o derivare tipi di pubblico da diverse fonti, come ad esempio:
 
 * Fonti nuove create in [!DNL Experience Cloud]
-* Da segmenti di [!DNL Analytics] pubblicati in [!DNL Experience Cloud]
-* Da [!DNL Audience Manager]
+* [!DNL Analytics] segmenti pubblicati nel pannello [!DNL Experience Cloud]
+* [!DNL Audience Manager]
 
 **Tipi di pubblico in tempo reale o basati sullo storico**
 
 Tutti i tipi di pubblico, a prescindere da dove provengono, sono accessibili per l’uso in tempo reale. Tuttavia, i tipi di pubblico condivisi da Analytics a Audience Manager non sono accessibili per il targeting in tempo reale. Il sistema valuta i tipi di pubblico in due modi:
 
-* I tipi di pubblico storici di Analytics vengono valutati ogni 4 ore. Il tempo totale di elaborazione e condivisione può richiedere fino a 8 ore.  I tipi di pubblico storici includono sempre i visitatori di ritorno.
+* I tipi di pubblico storici di Analytics vengono valutati ogni 4 ore. Il tempo totale di elaborazione e condivisione può richiedere fino a 8 ore. I tipi di pubblico storici includono sempre i visitatori di ritorno.
 * I dati in tempo reale provengono dal servizio Experience Cloud Audiences e sono valutati in tempo reale.
 
 ## Utilizzo dei tipi di pubblico da parte delle soluzioni {#concept_01EB9345C5344597BC94A864EDD38EE1}
