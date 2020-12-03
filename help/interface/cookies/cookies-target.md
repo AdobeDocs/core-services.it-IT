@@ -6,9 +6,9 @@ seo-title: Cookie di Target
 solution: Experience Cloud,Analytics,Target,Social
 title: Cookie di Target
 uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 100%
 
