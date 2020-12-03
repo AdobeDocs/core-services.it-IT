@@ -1,6 +1,6 @@
 ---
 description: Tipi di file e limiti dimensione consentiti per la condivisione di risorse tra Experience Cloud e Creative Cloud.
-keywords: condivisione di risorse;Creative Cloud;servizi principali
+keywords: asset sharing;Creative Cloud;core services
 seo-description: Tipi di file e limiti dimensione consentiti per la condivisione di risorse tra Experience Cloud e Creative Cloud.
 seo-title: Requisiti del file risorsa per la condivisione
 solution: Experience Cloud
@@ -8,6 +8,9 @@ title: Requisiti del file risorsa per la condivisione
 uuid: 1621accf-c407-437b-ae12-61f13cc338d0
 translation-type: tm+mt
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
+workflow-type: tm+mt
+source-wordcount: '142'
+ht-degree: 63%
 
 ---
 
@@ -18,15 +21,15 @@ Tipi di file e limiti dimensione consentiti per la condivisione di risorse tra E
 
 ## Tipi di file consentiti per il caricamento {#section_52B6A40BB00B45BC944C01C49B4BB590}
 
-I tipi di file che puoi caricare includono immagini, documenti e file multimediali. Consulta [Formati supportati](https://helpx.adobe.com/experience-manager/brand-portal/using/brand-portal-supported-formats.html) per ulteriori informazioni sui formati dei file in [!DNL Experience Cloud] risorse.
+I tipi di file che puoi caricare includono immagini, documenti e file multimediali. Consulta Formati [](https://helpx.adobe.com/experience-manager/brand-portal/using/brand-portal-supported-formats.html) supportati per informazioni sui formati dei file in [!DNL Experience Cloud] Risorse.
 
 ## Limiti per la dimensione del file {#section_410ED8E24DBD4136830AE679C6B10D88}
 
-I limiti per la dimensione del file derivano dal browser e possono quindi variare a seconda del browser utilizzato:
+I limiti di dimensione del file provengono dal browser e possono variare da un browser all&#39;altro:
 
-| Browser | Caricamento (dimensione totale) | Download (per file) |
+| Browser | Carica (dimensione totale) | Download (Per File) |
 |--- |--- |--- |
-| Internet Explorer 6 | 2 GB | 2 GB  4 GB for chunked or connection-close transfers. |
+| Internet Explorer 6 | 2 GB | 2 GB 4 GB per trasferimenti con blocco o chiusura della connessione. |
 | Internet Explorer 7 | 2 GB | 4 GB |
 | Internet Explorer 8 | 2 GB | 17,592 GB |
 | Internet Explorer da 9 a 11 | 4 GB | 17,592 GB |
