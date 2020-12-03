@@ -113,7 +113,7 @@ Experience Platform Launch viene visualizzato sulla pagina Prodotti in Admin Con
 
 Consulta [User Management](https://docs.adobe.com/content/help/it-IT/launch/using/reference/admin/user-permissions.html) per informazioni sulle autorizzazioni degli utenti in Admin Console e configura opzioni specifiche per Launch, tra cui l&#39;assegnazione di diritti ai profili.
 
-## Experience Manager come servizio cloud
+## Experience Manager as a Cloud Service
 
 I clienti Adobe Enterprise sono rappresentati come organizzazioni IMS nell&#39;Adobe Admin Console, il portale utilizzato dai clienti Adobe per gestire le adesioni ai prodotti per utenti e gruppi. I clienti AEM possono utilizzare Adobe Admin Console per gestire le adesioni ai prodotti e l&#39;autenticazione IMS per AEM as a Cloud Service.
 
