@@ -5,9 +5,9 @@ seo-description: Condividi cartelle e risorse tra Experience Cloud e Creative Cl
 seo-title: Condivisione di cartelle e risorse Experience Cloud con Creative Cloud
 solution: Experience Cloud
 title: Condivisione di cartelle e risorse Experience Cloud con Creative Cloud
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 100%
 
