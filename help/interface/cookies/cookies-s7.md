@@ -6,9 +6,9 @@ seo-title: Cookie di Scene7
 solution: Experience Cloud,Analytics,Target
 title: Cookie di Scene7
 uuid: f9b9d13a-17e5-4139-8c84-6fe5d22c4196
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ I visualizzatori AS3 successivi non implementano la persistenza della sessione.
 | Informazioni memorizzate | Imposta il cookie della sessione. AuthFilter, incorporato in IPS ImageServer (IS, IR, e anche i contesti SWF/interfacce e video) utilizza il cookie per l’autorizzazione degli accessi. Se presente, consente la trasmissione delle richieste HTTP. Altrimenti restituisce non autorizzato. |
 | Scadenza | Questo cookie è un cookie di sessione. La scadenza della sessione corrente è impostata su 45 minuti nell’IPS di Scene7 [!DNL web.xml]. |
 
-**Nome cookie: s7js.flyout.InfoMessage.displayed`assetId`.state**
+**Nome cookie: s7js.flyout.InfoMessage.displayed `assetId`.state**
 
 <table id="table_6835D64C5D464A049F576621F2BE3FAD"> 
  <thead> 
