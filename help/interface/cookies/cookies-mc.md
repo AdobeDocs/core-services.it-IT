@@ -6,9 +6,9 @@ seo-title: Cookie di Experience Cloud
 solution: Experience Cloud,Analytics,Target
 title: Cookie di Experience Cloud
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 7bd5b20d24d6ed1bcf2ea8cd1555af217013127e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 100%
 
