@@ -6,9 +6,9 @@ seo-title: Condivisione di una cartella di risorse Experience Cloud
 solution: Experience Cloud
 title: Condivisione di una cartella di risorse Experience Cloud
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 100%
 
