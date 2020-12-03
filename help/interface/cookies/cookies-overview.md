@@ -4,9 +4,9 @@ seo-description: Molti servizi all’interno di Adobe Experience Cloud utilizzan
 seo-title: Cookie utilizzati in Experience Cloud
 title: Cookie utilizzati in Experience Cloud
 uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 100%
 
