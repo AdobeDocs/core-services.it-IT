@@ -6,9 +6,9 @@ seo-title: Informazioni su file di dati e origini dati per Attributi del cliente
 solution: Experience Cloud
 title: Informazioni su file di dati e origini dati per Attributi del cliente
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1218'
 ht-degree: 100%
 
