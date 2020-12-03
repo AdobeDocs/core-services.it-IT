@@ -6,9 +6,9 @@ seo-title: Cookie di Data Workbench
 solution: Experience Cloud,Analytics,Target
 title: Cookie di Data Workbench
 uuid: c15013f4-c47d-4950-aa19-be9afd25cd5f
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 100%
 
