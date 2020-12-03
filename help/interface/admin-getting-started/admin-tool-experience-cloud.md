@@ -6,9 +6,9 @@ seo-title: Visualizzare gli utenti e i dettagli utente di Experience Cloud
 solution: Experience Cloud
 title: 'Visualizzare gli utenti e i dettagli utente di Experience Cloud '
 index: true
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 82b0b42d8b06388e396bf2959503fe484c8b3a66
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1271'
 ht-degree: 100%
 
