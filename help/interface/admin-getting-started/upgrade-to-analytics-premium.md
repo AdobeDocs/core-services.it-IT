@@ -7,9 +7,9 @@ solution: Experience Cloud
 title: Aggiornamento ad Analytics Premium e Experience Cloud
 topic: Premium
 uuid: 450a601c-d199-4e90-b525-19bd9f9576d2
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 100%
 
