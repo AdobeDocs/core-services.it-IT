@@ -6,9 +6,9 @@ seo-title: Note sulla versione cumulative
 solution: Experience Cloud
 title: Note sulla versione cumulative
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: fa03e384d1dc878d45ef4b8d1f6fe269734ea891
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3968'
 ht-degree: 100%
 
