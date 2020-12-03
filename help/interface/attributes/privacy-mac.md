@@ -6,9 +6,9 @@ seo-title: Considerazioni sulla privacy - Attributi del cliente
 solution: Experience Cloud
 title: Considerazioni sulla privacy - Attributi del cliente
 uuid: 5666dc4e-55fa-4196-9985-cf530cfb9247
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 100%
 
