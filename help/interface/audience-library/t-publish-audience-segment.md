@@ -1,9 +1,9 @@
 ---
 title: Pubblicazione di un segmento di pubblico di Analytics
 description: Pubblica un segmento di pubblico, o audience, di Analytics in Experience Cloud e Adobe Target, per attività di marketing relative all’audience.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 631cf29b724c6edd8027c772789df72ae2ab5eb8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '62'
 ht-degree: 100%
 
