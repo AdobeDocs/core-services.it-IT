@@ -6,9 +6,9 @@ seo-title: Cookie di Analytics
 solution: Experience Cloud,Analytics,Target
 title: Cookie di Analytics
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c9d9a69193a877c553db73d230723f1c24dbfed6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ Ulteriori informazioni sui [cookie di prime parti](/help/interface/cookies/cooki
 | Informazioni memorizzate | Contiene una copia dell’Experience Cloud ID (ECID) o del MID. Il MID viene memorizzato in una coppia chiave/valore con sintassi s_ecid=MCMID | `<ECID>` |
 | Scadenza | 2 anni |
 | Utilizzo | Questo cookie viene impostato dal dominio del cliente dopo che il cookie AMCV è stato impostato dal client. Questo cookie ha lo scopo di consentire il tracciamento degli ID permanenti nello stato Prima parte e viene utilizzato come ID di riferimento se il cookie AMCV è scaduto. Vedi Cookie AMCV qui per ulteriori dettagli |
-| Posizione | Solo clienti CNAME. Non applicabile in caso di terze parti. Il cookie è memorizzato nel tuo dominio, lo stesso utilizzato dal CNAME e dalla richiesta di immagine Analytics |
+| Posizione | Solo clienti CNAME. Non applicabile in caso di terze parti. Il cookie è memorizzato nel tuo dominio, lo stesso utilizzato dal CNAME e dalla richiesta di immagine Analytics. |
 | Dimensione | 45 byte |
 
 ## Nome cookie: s_cc {#section-03aa90aa7e36427b8cb12dc4a0f0291e}
