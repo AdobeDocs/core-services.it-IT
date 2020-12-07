@@ -1,16 +1,14 @@
 ---
 description: Rimozione degli utenti che hanno bloccato tutti i cookie su browser desktop e mobili. Questa impostazione di privacy esclude gli utenti che rinunciano alla raccolta dati di Analytics.
 keywords: cookies;privacy
-seo-description: Rimozione degli utenti che hanno bloccato tutti i cookie su browser desktop e mobili. Questa impostazione di privacy esclude gli utenti che rinunciano alla raccolta dati di Analytics.
-seo-title: Abilitazione delle impostazioni della privacy per i cookie del browser
 solution: Experience Cloud, Analytics, Target, Social
-title: Abilitazione delle impostazioni della privacy per i cookie del browser
+title: Come abilitare le impostazioni di privacy per i cookie del browser | Adobe Experience Cloud
 uuid: f6a56e8b-b021-49db-8eb4-6c14af0c7243
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 100%
+source-wordcount: '305'
+ht-degree: 96%
 
 ---
 
