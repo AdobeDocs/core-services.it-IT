@@ -1,23 +1,21 @@
 ---
-description: Tipi di file e limiti dimensione consentiti per la condivisione di risorse tra Experience Cloud e Creative Cloud.
+description: Informazioni sui tipi di file consentiti e sulle limitazioni di dimensione per la condivisione di risorse tra Adobe Experience Cloud e Creative Cloud.
 keywords: asset sharing;Creative Cloud;core services
-seo-description: Tipi di file e limiti dimensione consentiti per la condivisione di risorse tra Experience Cloud e Creative Cloud.
-seo-title: Requisiti del file risorsa per la condivisione
 solution: Experience Cloud
-title: Requisiti del file risorsa per la condivisione
+title: Requisiti del file per la condivisione delle risorse | Adobe Experience Cloud
 uuid: 1621accf-c407-437b-ae12-61f13cc338d0
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 63%
+source-wordcount: '125'
+ht-degree: 21%
 
 ---
 
 
-# Requisiti del file risorsa per la condivisione
+# Requisiti del file per la condivisione delle risorse
 
-Tipi di file e limiti dimensione consentiti per la condivisione di risorse tra Experience Cloud e Creative Cloud.
+Tipi di file e limiti dimensione consentiti per la condivisione di risorse tra  Experience Cloud e Creative Cloud.
 
 ## Tipi di file consentiti per il caricamento {#section_52B6A40BB00B45BC944C01C49B4BB590}
 
