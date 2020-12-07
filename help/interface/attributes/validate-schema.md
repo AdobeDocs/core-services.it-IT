@@ -1,16 +1,14 @@
 ---
-description: Il procedimento di convalida consente di mappare i nomi e le descrizioni visualizzati agli attributi caricati (stringhe, interi, numeri e così via). Uno schema viene creato in base a queste impostazioni. Lo schema viene utilizzato per convalidare tutti i dati futuri caricati in questa sorgente dati. Questo processo di mappatura non altera i dati originali.
-keywords: Customer Attributes;core services
-seo-description: Il procedimento di convalida consente di mappare i nomi e le descrizioni visualizzati agli attributi caricati (stringhe, interi, numeri e così via). Uno schema viene creato in base a queste impostazioni. Lo schema viene utilizzato per convalidare tutti i dati futuri caricati in questa sorgente dati. Questo processo di mappatura non altera i dati originali.
-seo-title: Convalida dello schema
+description: Scoprite come convalidare lo schema degli attributi cliente in Adobe Experience Cloud.
+keywords: Customer Attributes;Experience Cloud services
 solution: Experience Cloud
-title: Convalida dello schema
+title: Come convalidare lo schema dell'attributo del cliente | Adobe Experience Cloud
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 100%
+source-wordcount: '467'
+ht-degree: 95%
 
 ---
 
