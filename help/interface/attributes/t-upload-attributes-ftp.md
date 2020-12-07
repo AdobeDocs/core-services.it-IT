@@ -1,16 +1,14 @@
 ---
 description: Se non effettui il caricamento trascinando la selezione, puoi caricare l'attributo del cliente in Experience Cloud tramite FTP.
 keywords: Customer Attributes;core services
-seo-description: Se non effettui il caricamento trascinando la selezione, puoi caricare l'attributo del cliente in Experience Cloud tramite FTP.
-seo-title: Facoltativo - Caricamento del file di dati tramite FTP
 solution: Experience Cloud
-title: Facoltativo - Caricamento del file di dati tramite FTP
+title: Caricamento del file di dati attributo del cliente tramite FTP | Adobe Experience Cloud
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
 translation-type: tm+mt
-source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 100%
+source-wordcount: '271'
+ht-degree: 95%
 
 ---
 
