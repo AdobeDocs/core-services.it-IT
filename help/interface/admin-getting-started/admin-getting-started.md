@@ -1,11 +1,11 @@
 ---
 description: Scopri come accedere all'Adobe Admin Console, gestire le autorizzazioni  utente e i profili di prodotto del Experience Cloud e il supporto del browser.
 keywords: Experience Cloud services
-solution: Adobe Experience Cloud
+solution: Experience Cloud
 title: Scopri come gestire utenti e prodotti | Adobe Experience Cloud
 index: true
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: dae4bbecc05ed6a78470354f82e4e3cd8f003660
 workflow-type: tm+mt
 source-wordcount: '1435'
 ht-degree: 97%
