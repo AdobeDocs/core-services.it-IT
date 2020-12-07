@@ -3,10 +3,10 @@ description: Scopri la gestione di prodotti e utenti Adobe Experience Cloud, Peo
 solution: Experience Cloud
 title: Panoramica dei servizi  Experience Cloud | Adobe Experience Cloud
 translation-type: tm+mt
-source-git-commit: 7dbf1fa59ac856d84309bff6fabe3462bf49ccf1
+source-git-commit: dae4bbecc05ed6a78470354f82e4e3cd8f003660
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '479'
+ht-degree: 90%
 
 ---
 
@@ -16,7 +16,6 @@ ht-degree: 0%
 I servizi Adobe Experience Cloud includono [!UICONTROL Persone] (tipi di pubblico e attributi del cliente), Experience Platform Launch e Mobile Services. Per avere assistenza puoi inoltre consultare la gestione di utenti e prodotti Experience Cloud.
 
 Per accedere a questi servizi in Experience Cloud, fai clic sul **[!UICONTROL selettore dell’applicazione]**
-
 ![](assets/menu-icon.png).
 
 ![](assets/platform-core-services.png)
@@ -34,7 +33,7 @@ Il presente Aiuto descrive i seguenti prodotti e servizi:
 | [Risorse](experience-cloud-assets/experience-cloud-assets.md) | Archivia, sincronizza e condividi facilmente tutte le tue risorse digitali da una posizione centrale, risparmiando tempo e offrendo in tal modo un&#39;esperienza del cliente più coerente. |
 | [Experience Platform Launch](https://docs.adobe.com/content/help/it-IT/launch/using/overview.html) | [!UICONTROL Experience Platform Launch] rappresenta la nuova generazione di soluzioni per la raccolta dati e l’implementazione di tecnologie per siti e app. [!UICONTROL Experience Platform Launch] offre ai clienti un modo semplice di implementare e gestire tutti i tag pubblicitari, di analisi e di marketing necessari per fornire ai clienti esperienze personalizzate. |
 | [Journey Orchestration](https://docs.adobe.com/content/help/it-IT/journeys/using/journey-orchestration-home.html) | Crea casi di utilizzo di orchestrazione in tempo reale sulla base dei dati contestuali memorizzati negli eventi o nelle origini dati. [!UICONTROL Journey Orchestration] è un applicativo integrato all&#39;interno di Experience Platform. |
-| [Location Service](https://docs.adobe.com/content/help/it-IT/places/using/home.html) | Adobe [!UICONTROL Experience Platform Location Service] è un servizio di geolocalizzazione che consente alle app mobili dotate di awareness della posizione di contestualizzare quest&#39;ultima mediante l&#39;uso di interfacce SDK avanzate e facili da usare, associate a un database flessibile di punti di interesse (POI). |
+| [Location Service](https://docs.adobe.com/content/help/it-IT/places/using/home.html) | Adobe [!UICONTROL Experience Platform Location Service] is a geo-location service that enables mobile apps with location awareness to understand the location context by using rich and easy-to-use SDK interfaces accompanied by a flexible database of points of interests (POIs). |
 | [Exchange](exchange.md) | Cerca, sfoglia, seleziona, paga e scarica estensioni Digital Marketing tramite app. |
 | [Mobile Services](https://docs.adobe.com/content/help/it-IT/mobile-services/using/home.html) | Adobe Mobile Services riunisce le funzionalità di marketing mobile di applicazioni per dispositivi mobili da Experience Cloud, consentendoti di comprendere e migliorare il coinvolgimento degli utenti con le applicazioni mobili. |
 | People | Crea una visualizzazione completa dei singoli clienti, connettendo dati Adobe e non-Adobe nelle tue soluzioni Experience Cloud. Scopri quali sono i loro interessi mentre interagiscono con i vari punti di contatto. Riconosci i consumatori più fedeli quando accedono da dispositivi sconosciuti. Dividi i gruppi di utenti in tipi di pubblico per attività di marketing mirate.<br>[Tipi di pubblico](audience-library/audience-library.md): categorizza diversi tipi di clienti in tipi di pubblico e condividi questi ultimi tra le soluzioni Experience Cloud.<br>[Attributi del cliente](attributes/attributes.md): un arricchimento ai tipi di pubblico che consente di connettere le informazioni sui clienti raccolte al di fuori di Experience Cloud.<br>[Device Graph (Grafico dispositivo)](https://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html): collabora con i marchi più popolari al mondo per riconoscere un consumatore familiare che accede da un dispositivo sconosciuto. |
