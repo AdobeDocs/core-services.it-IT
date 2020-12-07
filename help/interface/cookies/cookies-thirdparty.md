@@ -1,16 +1,14 @@
 ---
-description: Poiché il supporto dei cookie di terze parti è diventato sempre più limitato nei vari browser, Adobe ha lavorato a nuove soluzioni che bilanciano con attenzione i requisiti dei clienti con il diritto alla privacy del consumatore nelle soluzioni Adobe Experience Cloud.
+description: Scopri come il supporto per i cookie di terze parti è diventato sempre più limitato tra i vari browser.
 keywords: cookies;privacy
-seo-description: Poiché il supporto dei cookie di terze parti è diventato sempre più limitato nei vari browser, Adobe ha lavorato a nuove soluzioni che bilanciano con attenzione i requisiti dei clienti con il diritto alla privacy del consumatore nelle soluzioni Adobe Experience Cloud.
-seo-title: Effetti delle modifiche al supporto dei cookie di terze parti sui clienti
 solution: Experience Cloud,Analytics,Target
-title: Effetti delle modifiche al supporto dei cookie di terze parti sui clienti
+title: Le modifiche al supporto dei cookie di terze parti influiscono sui clienti | Adobe Experience Cloud
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 100%
+source-wordcount: '298'
+ht-degree: 91%
 
 ---
 
