@@ -1,21 +1,19 @@
 ---
 description: Considerazioni e pratiche ottimali sui dati personali caricati e utilizzati in Adobe Experience Cloud.
 keywords: Customer Attributes;core services
-seo-description: Considerazioni e pratiche ottimali sui dati personali caricati e utilizzati in Adobe Experience Cloud.
-seo-title: Considerazioni sulla privacy - Attributi del cliente
 solution: Experience Cloud
-title: Considerazioni sulla privacy - Attributi del cliente
+title: Considerazioni sulla privacy per gli attributi del cliente | Adobe Experience Cloud
 uuid: 5666dc4e-55fa-4196-9985-cf530cfb9247
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 100%
+source-wordcount: '518'
+ht-degree: 96%
 
 ---
 
 
-# Considerazioni sulla privacy - Attributi del cliente
+# Considerazioni sulla privacy per gli attributi del cliente in  Experience Cloud
 
 Considerazioni e pratiche ottimali sui dati personali caricati e utilizzati in Adobe Experience Cloud.
 
