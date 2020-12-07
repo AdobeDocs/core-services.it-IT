@@ -1,22 +1,20 @@
 ---
-description: Condividi cartelle e risorse tra Experience Cloud e Creative Cloud. Collabora, commenta risorse condivise e utilizzale in soluzioni Experience Cloud come Adobe Social e Adobe Target. La cartella condivisa deve provenire da Experience Cloud.
+description: 'Scoprite come condividere cartelle e risorse tra  Experience Cloud e Creative Cloud. '
 keywords: asset sharing;Creative Cloud;core services
-seo-description: Condividi cartelle e risorse tra Experience Cloud e Creative Cloud. Collabora, commenta risorse condivise e utilizzale in soluzioni Experience Cloud come Adobe Social e Adobe Target. La cartella condivisa deve provenire da Experience Cloud.
-seo-title: Condivisione di cartelle e risorse Experience Cloud con Creative Cloud
 solution: Experience Cloud
-title: Condivisione di cartelle e risorse Experience Cloud con Creative Cloud
+title: Condivisione  cartelle e risorse di Experience Cloud con Creative Cloud | Adobe Experience Cloud
 translation-type: tm+mt
-source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 100%
+source-wordcount: '174'
+ht-degree: 75%
 
 ---
 
 
 # Condivisione di cartelle e risorse Experience Cloud con Creative Cloud
 
-Condividi cartelle e risorse tra Experience Cloud e Creative Cloud. Collabora, commenta risorse condivise e utilizzale in soluzioni Experience Cloud come Adobe Social e Adobe Target. La cartella condivisa deve provenire da Experience Cloud.
+Condivisione di cartelle e risorse tra  Experience Cloud e Creative Cloud. Collabora, commenta risorse condivise e utilizzale in soluzioni Experience Cloud come Adobe Social e Adobe Target. La cartella condivisa deve provenire da  Experience Cloud.
 
 ## Benefici della condivisione {#section_4AA9939F38064280BB181D5F9E1FDEEE}
 
