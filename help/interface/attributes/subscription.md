@@ -1,21 +1,19 @@
 ---
 description: Scopri le origini di dati della soluzione e la configurazione delle sottoscrizioni. Le sottoscrizioni consentono il flusso di dati degli attributi del cliente tra Experience Cloud e le soluzioni (Analytics e Target).
 keywords: Customer Attributes;core services
-seo-description: Scopri le origini di dati della soluzione e la configurazione delle sottoscrizioni. Le sottoscrizioni consentono il flusso di dati degli attributi del cliente tra Experience Cloud e le soluzioni (Analytics e Target).
-seo-title: Configurazione delle sottoscrizioni
 solution: Experience Cloud
-title: Configurazione delle sottoscrizioni
+title: Come configurare le sottoscrizioni | Adobe Experience Cloud
 uuid: f74a8155-0a21-46b3-9b1e-4c838f72f24f
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 100%
+source-wordcount: '384'
+ht-degree: 96%
 
 ---
 
 
-# Configurazione delle sottoscrizioni
+# Come configurare le sottoscrizioni in  Experience Cloud
 
 Scopri le origini di dati della soluzione e la configurazione delle sottoscrizioni. Le sottoscrizioni consentono il flusso di dati degli attributi del cliente tra Experience Cloud e le soluzioni (Analytics e [!DNL Target]).
 
