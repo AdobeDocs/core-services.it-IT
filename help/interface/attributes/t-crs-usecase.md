@@ -1,16 +1,14 @@
 ---
-description: Creazione della sorgente attributo cliente e caricamento del file di dati.
+description: Scopri come creare l'origine attributo del cliente e caricarla sull'Adobe Experience Cloud.
 keywords: Customer Attributes;core services
-seo-description: Creazione della sorgente attributo cliente e caricamento del file di dati.
-seo-title: Creazione di una sorgente attributo cliente e caricamento del file di dati
 solution: Experience Cloud
-title: Creazione di una sorgente attributo cliente e caricamento del file di dati
+title: Creare un'origine attributo del cliente e caricare il file di dati | Adobe Experience Cloud
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 translation-type: tm+mt
-source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '1177'
-ht-degree: 100%
+source-wordcount: '1168'
+ht-degree: 97%
 
 ---
 
