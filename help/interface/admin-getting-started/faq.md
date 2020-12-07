@@ -1,16 +1,14 @@
 ---
-description: Browser supportati, domande frequenti e relative risposte per gli amministratori di Experience Cloud.
+description: Scopri il supporto dei browser e ottieni risposte alle domande più frequenti per gli amministratori nell'Adobe Experience Cloud.
 keywords: core services, Experience Cloud, Experience Platform, Analytics, Target, user management.
-seo-description: Browser supportati, domande frequenti e relative risposte per gli amministratori di Experience Cloud.
-seo-title: Domande frequenti sui servizi principali di Experience Cloud.
-solution: Experience Cloud
-title: Domande frequenti
+solution: Adobe Experience Cloud
+title: Domande frequenti sul Experience Cloud  | Adobe Experience Cloud
 index: true
 translation-type: tm+mt
-source-git-commit: ddf8943a18c9826acfb240192f6a3db987d31a0e
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 100%
+source-wordcount: '770'
+ht-degree: 96%
 
 ---
 
