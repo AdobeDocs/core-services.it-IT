@@ -3,12 +3,12 @@ description: Scopri gli ultimi aggiornamenti dei marchi per i cloud, come esplor
 seo-description: Scopri gli ultimi aggiornamenti dei marchi per i cloud, come esplorare l’interfaccia e dove trovare aiuto per le soluzioni e i servizi di base.
 seo-title: Informazioni sui nuovi nomi cloud in Experience Cloud
 solution: Experience Cloud
-title: Informazioni sui nuovi nomi cloud in Experience Cloud
+title: Informazioni sui nuovi nomi cloud in Experience Cloud | Adobe Experience Cloud
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
 translation-type: tm+mt
-source-git-commit: 3a2bc2faef572328b69f5828749c990a0083bd1f
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '670'
 ht-degree: 100%
 
 ---
