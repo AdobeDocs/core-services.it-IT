@@ -1,15 +1,13 @@
 ---
-description: Implementa il recupero preventivo del DNS per contribuire a ridurre i tempi di caricamento delle pagine con soluzioni e servizi diversi.
-seo-description: Implementa il recupero preventivo del DNS per contribuire a ridurre i tempi di caricamento delle pagine con soluzioni e servizi diversi.
-seo-title: Utilizzo del recupero preventivo del DNS con diverse soluzioni e servizi
+description: Come implementare il recupero preventivo del DNS per ridurre i tempi di caricamento delle pagine con diverse soluzioni e servizi in Adobe Experience Cloud.
 solution: Experience Cloud
-title: Utilizzo del recupero preventivo del DNS con diverse soluzioni e servizi
+title: Utilizzo del recupero preventivo del DNS con diverse soluzioni e servizi | Adobe Experience Cloud
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
 translation-type: tm+mt
-source-git-commit: 3e86fe7ee638158b5f9d6fa4405caaeb9b092430
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 100%
+source-wordcount: '383'
+ht-degree: 91%
 
 ---
 
