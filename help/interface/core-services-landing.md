@@ -3,10 +3,10 @@ description: Scopri la gestione di prodotti e utenti Adobe Experience Cloud, Peo
 solution: Experience Cloud
 title: Panoramica dei servizi  Experience Cloud | Adobe Experience Cloud
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 7dbf1fa59ac856d84309bff6fabe3462bf49ccf1
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +15,9 @@ ht-degree: 98%
 
 I servizi Adobe Experience Cloud includono [!UICONTROL Persone] (tipi di pubblico e attributi del cliente), Experience Platform Launch e Mobile Services. Per avere assistenza puoi inoltre consultare la gestione di utenti e prodotti Experience Cloud.
 
-Per accedere a questi servizi in Experience Cloud, fai clic sul **[!UICONTROL selettore dell’applicazione]** ![](assets/menu-icon.png).
+Per accedere a questi servizi in Experience Cloud, fai clic sul **[!UICONTROL selettore dell’applicazione]**
+
+![](assets/menu-icon.png).
 
 ![](assets/platform-core-services.png)
 
