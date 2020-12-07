@@ -1,16 +1,14 @@
 ---
-description: Impara a usare le regole dell’attributo per creare un pubblico e definire un pubblico composito in Experience Cloud.
+description: Scopri come utilizzare le regole degli attributi per creare un'audience e definire un'audience composita in Adobe Experience Cloud.
 keywords: core services
-seo-description: Impara a usare le regole dell’attributo per creare un pubblico e definire un pubblico composito in Experience Cloud.
-seo-title: Creazione di un pubblico
-solution: Experience Cloud
-title: Creazione di un pubblico
+solution: Adobe Experience Cloud
+title: Creazione di un'audience | Adobe Experience Cloud
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
 translation-type: tm+mt
-source-git-commit: cc523480327172c89d590065e4321cf1d5f9ab6e
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 100%
+source-wordcount: '475'
+ht-degree: 94%
 
 ---
 
