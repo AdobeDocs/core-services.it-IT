@@ -1,16 +1,14 @@
 ---
-description: Implementa Experience Cloud e diventa amministratore. Questo processo modernizza le soluzioni per funzioni quali Attributi del cliente e tipi di pubblico.
+description: Scoprite come implementare Adobe Experience Cloud e diventare un amministratore.
 keywords: core services;Customer Attributes
-seo-description: Implementa Experience Cloud e diventa amministratore. Questo processo modernizza le soluzioni per funzioni quali Attributi del cliente e tipi di pubblico.
-seo-title: Abilitare le soluzioni Experience Cloud per gli attributi del cliente e i tipi di pubblico
 solution: Experience Cloud
-title: Abilitare le soluzioni per i servizi principali
+title: Abilita le tue soluzioni per i servizi di base | Adobe Experience Cloud
 index: true
 translation-type: tm+mt
-source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '2403'
-ht-degree: 100%
+source-wordcount: '2368'
+ht-degree: 99%
 
 ---
 
