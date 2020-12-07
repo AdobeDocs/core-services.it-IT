@@ -1,16 +1,14 @@
 ---
-description: Requisiti dei file di dati e diverse origini dati per caricare Attributi del cliente su Experience Cloud.
+description: Requisiti del file di dati e origini dati multiple per il caricamento di attributi cliente nell'Adobe Experience Cloud.
 keywords: Customer Attributes;core services
-seo-description: Requisiti dei file di dati e diverse origini dati per caricare Attributi del cliente su Experience Cloud.
-seo-title: Informazioni su file di dati e origini dati per Attributi del cliente
 solution: Experience Cloud
-title: Informazioni su file di dati e origini dati per Attributi del cliente
+title: Informazioni su file di dati e origini dati per gli attributi cliente | Adobe Experience Cloud
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 100%
+source-wordcount: '1199'
+ht-degree: 97%
 
 ---
 
