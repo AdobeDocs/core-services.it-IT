@@ -1,5 +1,5 @@
 ---
-description: Scopri come gestire la conversione dei dati dei visitatori in segmenti di pubblico nel servizio Adobe Experience Cloud Audience.
+description: Scopri come gestire la traduzione dei dati dei visitatori in segmentazione del pubblico, con il servizio Adobe Experience Cloud Audiences.
 solution: Experience Cloud
 type: Documentation
 title: 'Adobe Experience Cloud Audiences '
@@ -8,21 +8,21 @@ translation-type: tm+mt
 source-git-commit: 2376fa2edf0477515f6e0cfe31af4821c9c6b86c
 workflow-type: tm+mt
 source-wordcount: '814'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
 # Experience Cloud Audiences {#topic_679810123CAA4E0CA4FA3417FB0100C7}
 
-I tipi di pubblico sono raccolte di visitatori (un elenco di ID visitatore). Con la funzione Libreria tipi di pubblico di Adobe puoi gestire come tradurre i dati sui visitatori in segmentazione del pubblico. La creazione e la gestione dei tipi di pubblico è simile alla creazione e all&#39;utilizzo di segmenti. Puoi anche condividere il segmento di pubblico con prodotti e servizi in [!DNL Experience Cloud].
+I tipi di pubblico sono raccolte di visitatori (un elenco di ID visitatore). Con la funzione Libreria tipi di pubblico di Adobe puoi gestire come tradurre i dati sui visitatori in segmentazione del pubblico. La creazione e la gestione dei tipi di pubblico è simile alla creazione e all’utilizzo di segmenti. Puoi anche condividere il segmento di pubblico con i prodotti e i servizi di [!DNL Experience Cloud].
 
 ![](assets/audiences.png)
 
 Puoi creare o derivare tipi di pubblico da diverse fonti, come ad esempio:
 
 * Fonti nuove create in [!DNL Experience Cloud]
-* [!DNL Analytics] segmenti pubblicati nel pannello [!DNL Experience Cloud]
+* Segmenti [!DNL Analytics] pubblicati in [!DNL Experience Cloud]
 * [!DNL Audience Manager]
 
 **Tipi di pubblico in tempo reale o basati sullo storico**
