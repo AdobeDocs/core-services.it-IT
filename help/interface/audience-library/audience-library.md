@@ -1,14 +1,13 @@
 ---
 description: Scopri come gestire la conversione dei dati dei visitatori in segmenti di pubblico nel servizio Adobe Experience Cloud Audience.
-seo-description: Gestisci come tradurre i dati sui visitatori in segmentazione del pubblico, con il servizio Experience Cloud Audiences.
-seo-title: Servizio Experience Cloud Audiences
 solution: Experience Cloud
+type: Documentation
 title: 'Adobe Experience Cloud Audiences '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
 translation-type: tm+mt
-source-git-commit: e7d297820dbb666308c5906eca01a0c248e35fe3
+source-git-commit: 2376fa2edf0477515f6e0cfe31af4821c9c6b86c
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '814'
 ht-degree: 93%
 
 ---
