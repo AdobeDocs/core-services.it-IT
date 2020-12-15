@@ -2,13 +2,13 @@
 description: Se non effettui il caricamento trascinando la selezione, puoi caricare l'attributo del cliente in Experience Cloud tramite FTP.
 keywords: Customer Attributes;core services
 solution: Experience Cloud
-title: Caricamento del file di dati attributo del cliente tramite FTP | Adobe Experience Cloud
+title: 'Caricamento del file di dati attributo del cliente tramite FTP '
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 95%
+source-wordcount: '268'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,7 @@ Puoi caricare i dati dopo la creazione di un&#39;origine attributo del cliente e
 >
 >Controlla i [requisiti del file di dati per caricare Attributi del cliente](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) prima di caricare il file.
 
-È possibile caricare i file sul sito FTP degli Attributi del cliente tramite FTP o SFTP.
+È possibile caricare i file sul sito FTP degli Attributi del cliente tramite FTP o SFTP:
 
 * È necessario un client che supporti le connessioni SFTP.
 * Puoi connetterti con SFTP utilizzando nome utente/password o senza utilizzare alcuna password, come descritto [qui](https://docs.adobe.com/help/it-IT/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html).
