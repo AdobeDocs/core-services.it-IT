@@ -2,13 +2,13 @@
 description: Informazioni sugli aggiornamenti della guida di Adobe Experience Cloud.
 keywords: Experience Cloud services
 solution: Experience Cloud
-title: Aggiornamenti della documentazione -  Experience Cloud | Adobe Experience Cloud
+title: 'Aggiornamenti documentazione - Experience Cloud '
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
 translation-type: tm+mt
-source-git-commit: 7dbf1fa59ac856d84309bff6fabe3462bf49ccf1
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '251'
+ht-degree: 96%
 
 ---
 
