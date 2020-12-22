@@ -1,5 +1,5 @@
 ---
-description: Scopri l’amministrazione di utenti e prodotti in Adobe Admin Console, abilita soluzioni per  servizi di Experience Cloud, e informazioni su Libreria Pubblico, Attributi del cliente,  risorse Experience Cloud e altro ancora.
+description: Scopri come amministrare utenti e prodotti in Adobe Admin Console, come abilitare le soluzioni dei servizi Experience Cloud e informazioni su Libreria tipi di pubblico, Attributi del cliente, Experience Cloud Assets e altro ancora.
 keywords: Adobe Experience Cloud services, customer attributes, audiences, user and product administration
 solution: Experience Cloud
 title: 'Servizi di Experience Cloud  e amministrazione '
@@ -8,12 +8,12 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '426'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
 
-# Documentazione dell’interfaccia di Experience Cloud
+# Servizi e amministrazione di Experience Cloud
 
 Experience Cloud è un insieme integrato di soluzioni e servizi per il digital marketing realizzati da Adobe. Offre altresì un&#39;interfaccia intuitiva che consente di accedere rapidamente alle soluzioni cloud e ai servizi core.
 
@@ -60,7 +60,7 @@ Sfrutta i tutorial e le guide pratiche disponibili in Experience League:
 
 * [Documentazione del prodotto per tutte le soluzioni Experience Cloud](https://docs.adobe.com/content/help/it-IT/experience-cloud/user-guides/home.html): cerca aiuto all&#39;interno di Informazioni e supporto di Experience Cloud
 * [Note sulla versione e aggiornamenti dei prodotti](https://docs.adobe.com/content/help/it-IT/release-notes/experience-cloud/current.html): le novità di Experience Cloud, tutti gli aggiornamenti per chi si abbona
-* [Esercitazioni per l&#39;implementazione dei servizi core](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html): video ed esercitazioni sui servizi core
+* [Esercitazioni per l&#39;implementazione dei servizi core](https://docs.adobe.com/content/help/it-IT/core-services-learn/tutorials/overview.html): video ed esercitazioni sui servizi core
 * [Assistenza degli esperti di Experience League](https://landing.adobe.com/experience-league/): ottieni informazioni guidate dagli esperti e dalla community
 * [Istruzione e training](https://helpx.adobe.com/it/learning.html?promoid=KAUDK): interagisci con Adobe per trarre il massimo dai nostri prodotti
 * [Blog sull&#39;esperienza dei clienti](https://theblog.adobe.com/customer-experience/): leggi il blog Experience Cloud
