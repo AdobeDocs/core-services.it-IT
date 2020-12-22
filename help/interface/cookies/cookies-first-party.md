@@ -1,5 +1,5 @@
 ---
-description: Scoprite come  Adobe Analytics utilizza i cookie per fornire informazioni su variabili e componenti che non persistono tra le richieste di immagini e le sessioni del browser.
+description: Scopri come Adobe Analytics utilizza i cookie per fornire informazioni su variabili e componenti che non permangono tra richieste di immagini e sessioni del browser.
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics
 title: 'Come utilizzare i cookie di prime parti '
@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '1444'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -108,7 +108,7 @@ Se hai configurato un CNAME e hai installato il certificato, puoi utilizzare il 
 
 ### Convalida tramite [!DNL curl]
 
-Adobe recommends using [[!DNL curl]](https://curl.haxx.se/) from the command line. Gli utenti [!DNL Windows] possono eseguire l’installazione di [!DNL curl] da: <https://curl.haxx.se/windows/>
+Adobe consiglia di utilizzare [[!DNL curl]](https://curl.haxx.se/) dalla riga di comando. Gli utenti [!DNL Windows] possono eseguire l’installazione di [!DNL curl] da: <https://curl.haxx.se/windows/>
 
 Se disponi di un CNAME ma non è installato alcun certificato, esegui:
 `curl -k https://sstats.adobe.com/_check`
