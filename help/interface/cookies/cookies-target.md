@@ -1,5 +1,5 @@
 ---
-description: Scoprite come  Adobe Target utilizza i cookie per consentire agli operatori del sito Web di verificare quali contenuti e offerte online sono più rilevanti per i visitatori.
+description: Scopri come Adobe Target utilizza i cookie per consentire agli operatori dei siti web di verificare quali contenuti e offerte online sono più rilevanti per i visitatori.
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target,Social
 title: 'Come utilizzare  cookie Adobe Target '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '269'
-ht-degree: 88%
+ht-degree: 97%
 
 ---
 
