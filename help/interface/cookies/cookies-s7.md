@@ -1,5 +1,5 @@
 ---
-description: ' Adobe Scene7 utilizza i cookie per memorizzare informazioni utili che possono essere utilizzate per distribuire contenuti multimediali dinamici al browser.'
+description: Come Adobe Scene7 utilizza i cookie per memorizzare informazioni utili per inviare contenuti Dynamic Media al browser.
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
 title: 'Cookie di Scene7 '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '411'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
