@@ -1,5 +1,5 @@
 ---
-description: Scopri il supporto dei browser e ottieni risposte alle domande più frequenti per gli amministratori nell'Adobe Experience Cloud.
+description: Scopri quali sono i browser supportati e le risposte alle domande più frequenti per gli amministratori di Adobe Experience Cloud.
 keywords: core services, Experience Cloud, Experience Platform, Analytics, Target, user management.
 solution: Experience Cloud
 title: 'Domande frequenti su Experience Cloud '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '767'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ La funzionalità fornita dall&#39;interfaccia Experience Cloud aggiunge più val
 
 ## Come posso risolvere i problemi sulla migrazione della mia azienda?
 
-[Contatta il supporto Adobe](https://helpx.adobe.com/it/marketing-cloud/contact-support.html).
+[Contatta il supporto Adobe](https://helpx.adobe.com/marketing-cloud/contact-support.html).
 
 ## Che cos’è il _provisioning?_
 
@@ -73,7 +73,7 @@ Provisioning in Experience Cloud significa:
 
 Gli amministratori di Admin Console possono concedere l&#39;accesso agli utenti. Gli utenti ricevono un’e-mail con le istruzioni di accesso.
 
-Potresti aver bisogno di [contattare il supporto Adobe](https://helpx.adobe.com/it/marketing-cloud/contact-support.html) per verificare che la tua azienda disponga del provisioning completo.
+Potresti aver bisogno di [contattare il supporto Adobe](https://helpx.adobe.com/marketing-cloud/contact-support.html) per verificare che la tua azienda disponga del provisioning completo.
 
 ## Dove va un utente per gestire il collegamento dell’account?
 
