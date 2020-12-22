@@ -1,18 +1,18 @@
 ---
-description: Scopri  risorse di Experience Cloud da condividere tra le diverse soluzioni.
+description: Scopri le risorse di Experience Cloud da condividere tra le diverse soluzioni.
 solution: Experience Cloud
-title: 'Panoramica delle risorse  Experience Cloud '
+title: 'Panoramica delle risorse di Experience Cloud '
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
-# Panoramica delle risorse  Experience Cloud
+# Panoramica delle risorse di Experience Cloud
 
 Il servizio di base Experience Cloud Assets fornisce un archivio unico e centralizzato di risorse pronte per le attività di marketing da condividere tra le diverse soluzioni. Una risorsa è un documento, un’immagine, un video o dell’audio digitale (o parte di essi) che può avere più rappresentazioni e risorse secondarie (ad esempio, livelli in un file [!DNL Photoshop], slide in un file [!DNL PowerPoint], pagine in un file PDF e file in un file ZIP).
 
