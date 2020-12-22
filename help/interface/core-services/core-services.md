@@ -1,5 +1,5 @@
 ---
-description: Scoprite come implementare Adobe Experience Cloud e diventare un amministratore.
+description: Scopri come implementare Adobe Experience Cloud e diventare un amministratore.
 keywords: core services;Customer Attributes
 solution: Experience Cloud
 title: 'Abilitare le soluzioni per i servizi principali '
@@ -99,7 +99,7 @@ Se non utilizzi [!UICONTROL Experience Platform Launch] o [!UICONTROL Dynamic Ta
 
 ## Analytics &amp; Adobe Target - Sincronizzazione dell&#39;ID cliente {#section_AD473A6A21C1446498E700363F9A8437}
 
-In qualità di parte dell&#39;impostazione del servizio Experience Cloud ID, Adobe consiglia per Analytics e [!DNL Target] la sincronizzazione degli [ID cliente](https://docs.adobe.com/content/help/it-IT/id-service/using/reference/authenticated-state.html) con Experience Cloud.
+In qualità di parte dell&#39;impostazione del servizio Experience Cloud ID, Adobe consiglia per Analytics e [!DNL Target] la sincronizzazione degli [ID cliente](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) con Experience Cloud.
 
 In Adobe Target, `mbox3rdpartyid` deve ottenere l&#39;ID cliente e inviarlo a [!DNL Target]. Consulta [Uso degli attributi del cliente](https://docs.adobe.com/content/help/it-IT/target/using/audiences/visitor-profiles/working-with-customer-attributes.html) in [!DNL Target].
 
@@ -225,4 +225,4 @@ Se desideri fornire ai visitatori del sito la funzionalità di rinuncia, devi ag
 
 Per le istruzioni, consulta [Adobe Experience Cloud - Implementazione rinunce Adobe](https://docs.adobe.com/content/help/it-IT/analytics/implementation/js/opt-out.html).
 
-Per abilitare il tracciamento tra domini, consulta [CNAME raccolta dati e tracciamento tra domini](https://docs.adobe.com/content/help/it-IT/id-service/using/reference/analytics-reference/cname.html).
+Per abilitare il tracciamento tra domini, consulta [CNAME raccolta dati e tracciamento tra domini](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/cname.html).
