@@ -1,5 +1,5 @@
 ---
-description: Scoprite come caricare una risorsa in una cartella condivisa dal desktop di Creative Cloud al Experience Cloud .
+description: Scopri come caricare una risorsa in una cartella condivisa dal desktop di Creative Cloud a Experience Cloud.
 keywords: asset sharing;Creative Cloud;core services
 solution: Experience Cloud
 title: 'Caricamento di una risorsa in una cartella condivisa dal desktop Creative Cloud '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '65'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
