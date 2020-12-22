@@ -8,12 +8,12 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '515'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
 
-# Considerazioni sulla privacy per gli attributi del cliente in  Experience Cloud
+# Considerazioni sulla privacy per Attributi del cliente in Experience Cloud
 
 Considerazioni e pratiche ottimali sui dati personali caricati e utilizzati in Adobe Experience Cloud.
 
