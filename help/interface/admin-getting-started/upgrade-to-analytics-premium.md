@@ -52,7 +52,7 @@ L&#39;aggiornamento a Predictive Intelligence abilita [Analytics Premium](../adm
 
 | Prodotto | Aggiornamenti |
 |---|---|
-| Reports &amp; Analytics | [Analisi contributi](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) |
+| Reporting e analisi | [Analisi contributi](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) |
 | Data Workbench | Aree di lavoro predefinite per le qualifiche del pubblico e il marketing predittivo |
 | Platform Analytics | Streaming live (dashboard e trigger) |
 
@@ -70,7 +70,7 @@ L&#39;aggiornamento a Customer 360 offre [Analytics Premium](../admin-getting-st
 
 Advanced Attribution offre l&#39;accesso ad [Analytics Premium](../admin-getting-started/upgrade-to-analytics-premium.md#section_7F50AD7906544F899B844BE31D3BB507), oltre alla funzionalità Algorithmic Attribution in Data Workbench (25% del volume di chiamate al server).
 
-## Requisiti Data Workbench {#section_D959CA68D6DB42C38707F8E0CA3654CC}
+## Requisiti Data Workbench  {#section_D959CA68D6DB42C38707F8E0CA3654CC}
 
 Gli utenti supportati possono richiedere che tutte le licenze dei clienti siano aggiornate per riflettere la versione Premium scrivendo un&#39;e-mail all&#39;indirizzo `dwb@adobe.com`. In tal modo, si abilitano funzioni come Algorithmic Attribution.
 
