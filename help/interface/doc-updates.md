@@ -1,5 +1,5 @@
 ---
-description: Informazioni sugli aggiornamenti della guida di Adobe Experience Cloud.
+description: Informazioni sugli aggiornamenti dell’aiuto di Adobe Experience Cloud.
 keywords: Experience Cloud services
 solution: Experience Cloud
 title: 'Aggiornamenti documentazione - Experience Cloud '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '251'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
