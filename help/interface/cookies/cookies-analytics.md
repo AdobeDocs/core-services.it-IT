@@ -1,5 +1,5 @@
 ---
-description: Scopri  cookie Adobe Analytics in Adobe Experience Cloud.
+description: Scopri come funzionano i cookie di Adobe Analytics in Adobe Experience Cloud.
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
 title: 'Come utilizzare  cookie Adobe Analytics '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '757'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
