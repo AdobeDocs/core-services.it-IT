@@ -1,5 +1,5 @@
 ---
-description: Scopri i termini in Adobe Experience Cloud e come sono diversi nella Creative Cloud.
+description: Scopri i termini usati in Adobe Experience Cloud e le differenze rispetto a Creative Cloud.
 keywords: asset sharing;audience services;Creative Cloud;core services
 seo-description: nulle
 seo-title: Terminologia
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '1489'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Un riferimento terminologico per i nuovi utenti di Experience Cloud, per compren
 | Portfolio | Un insieme di più file o risorse. | Un contenitore di campagne. |
 | Profilo di prodotto | Consulta [Gestione di prodotti e profili](https://helpx.adobe.com/it/enterprise/using/manage-products-and-profiles.html). | Affinché un utente sia autorizzato a utilizzare un prodotto o un servizio, deve far parte di un profilo di prodotto. L&#39;amministratore del prodotto assegna le licenze a un profilo di prodotto effettuandone l&#39;associazione a un piano che hai acquistato.<br>Un utente può appartenere a più profili di prodotto, ciascuno dei quali conferisce diverse licenze all&#39;utente. L&#39;idoneità finale di un utente è l&#39;unione di tutte le licenze a lui conferite da ciascun profilo di prodotto. |
 | Pianificazione | Può essere riferita a una sequenza di scene in Adobe Story o ad attività pianificate in ColdFusion. | In Experience Cloud, una pianificazione è la data di inizio (anno, mese, giorno) e una data di fine per l&#39;attivazione di campagne, canali e attività. Le pianificazioni delle attività hanno una granularità al minuto. Modificando una pianificazione si crea una scheda.<br>Gli esempi includono:<ul><li>Pianificazioni campagna</li><li>Pianificazioni canale</li><li>Pianificazioni attività</li></ul> |
-| Segmento | N/D | L&#39;output di un insieme di regole necessario a qualificare un&#39;audience. In Analytics, i [segmenti](https://docs.adobe.com/content/help/it-IT/analytics/components/segmentation/seg-home.html) possono essere utilizzati come alternativa per la definizione di un&#39;audience che può essere passata a Experience Cloud. <br>In Audience Manager, un segmento è una raccolta di [caratteristiche](https://docs.adobe.com/content/help/it-IT/audience-manager/user-guide/features/traits/traits-overview.html) e di tutti quei criteri che qualificano i visitatori per l&#39;appartenenza o l&#39;inclusione in quel segmento specifico. Inoltre, rappresenta una raccolta di persone che condividono questi attributi comuni. |
+| Segmento | N/D | L&#39;output di un insieme di regole necessario a qualificare un&#39;audience. In Analytics, i [segmenti](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html) possono essere utilizzati come alternativa per la definizione di un&#39;audience che può essere passata a Experience Cloud. <br>In Audience Manager, un segmento è una raccolta di [caratteristiche](https://docs.adobe.com/content/help/it-IT/audience-manager/user-guide/features/traits/traits-overview.html) e di tutti quei criteri che qualificano i visitatori per l&#39;appartenenza o l&#39;inclusione in quel segmento specifico. Inoltre, rappresenta una raccolta di persone che condividono questi attributi comuni. |
 | Condivisione | In Creative Cloud puoi condividere file esternamente tra piattaforme (social, community, e-mail e così via). | In Experience Cloud puoi condividere una risorsa solamente come una scheda, all&#39;interno di bacheche nell&#39;interfaccia. La condivisione è disponibile a coloro che hanno effettuato l&#39;accesso al sito. |
 | Soluzione | Nessun uso speciale. | In Experience Cloud, le soluzioni sono prodotti come Adobe Analytics, Adobe Social, Adobe Target e così via.<br>Consulta [Informazioni sui nuovi nomi cloud in Experience Cloud](solutions-core-services.md). |
-| Caratteristica | N/D | Una coppia chiave-valore, ad esempio color=blue. In Audience Manager, [le caratteristiche](https://docs.adobe.com/content/help/it-IT/audience-manager/user-guide/features/traits/traits-overview.html) vengono utilizzate per creare i segmenti. |
+| Caratteristica | N/D | Una coppia chiave-valore, ad esempio color=blue. In Audience Manager, [le caratteristiche](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/traits/traits-overview.html) vengono utilizzate per creare i segmenti. |
