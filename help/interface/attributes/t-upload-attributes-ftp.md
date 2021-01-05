@@ -2,13 +2,13 @@
 description: Se non effettui il caricamento trascinando la selezione, puoi caricare l'attributo del cliente in Experience Cloud tramite FTP.
 keywords: Customer Attributes;core services
 solution: Experience Cloud
-title: 'Caricamento del file di dati attributo del cliente tramite FTP '
+title: 'Caricare il file di dati di attributi cliente tramite FTP '
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '268'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
