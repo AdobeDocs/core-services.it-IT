@@ -2,9 +2,9 @@
 description: Come eliminare e sostituire gli attributi nello schema in Adobe Experience Cloud.
 title: 'Aggiornare lo schema (eliminare un attributo) '
 uuid: a465fa89-6c7f-4c07-aa59-84c968a82917
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '58'
 ht-degree: 100%
 
