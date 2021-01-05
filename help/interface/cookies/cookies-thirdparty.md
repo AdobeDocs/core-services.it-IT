@@ -2,13 +2,13 @@
 description: Scopri come il supporto dei cookie di terze parti viene sempre più limitato nei vari browser.
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
-title: 'Le modifiche al supporto dei cookie di terze parti influiscono sui clienti '
+title: 'Modifiche al supporto dei cookie di terze parti e impatto sui clienti '
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '295'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
