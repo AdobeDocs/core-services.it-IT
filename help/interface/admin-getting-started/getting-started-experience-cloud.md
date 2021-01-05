@@ -4,9 +4,9 @@ keywords: core services, sign in to Experience Cloud
 solution: Experience Cloud
 title: 'Accesso e gestione delle impostazioni del profilo Experience Cloud '
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '937'
 ht-degree: 100%
 
@@ -120,7 +120,7 @@ Puoi modificare il tuo profilo Experience Cloud, specificare un&#39;organizzazio
 
    Nella pagina Profilo e password, completa i campi e le opzioni riportati sotto Dati personali.
 
-## Recupero della password  {#task_46541A2806164CB1A4AE8239604E4EB1}
+## Recupero della password {#task_46541A2806164CB1A4AE8239604E4EB1}
 
 1. Accedi alla pagina di accesso alla soluzione.
 1. Fai clic su **[!UICONTROL Password dimenticata]**.
