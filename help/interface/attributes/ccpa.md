@@ -1,9 +1,9 @@
 ---
 title: 'Supporto per gli attributi del cliente per il California Consumer Privacy Act (accordo sulla privacy dei consumatori della California) '
 description: Supporto per gli attributi del cliente per il California Consumer Privacy Act (accordo sulla privacy dei consumatori della California)
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '433'
 ht-degree: 100%
 
@@ -53,7 +53,7 @@ Per richiedere l&#39;accesso e l&#39;eliminazione dei dati per gli [!UICONTROL a
 
 * &quot;key&quot;: &lt;*in genere il nome del cliente*>
 
-* &quot;action&quot;: **accesso** o **eliminazione**
+* &quot;action&quot;: **accesso** (access) o **eliminazione** (delete)
 
 * &quot;user IDs&quot; (ID utente):
 
