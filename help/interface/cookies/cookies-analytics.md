@@ -2,13 +2,13 @@
 description: Scopri come funzionano i cookie di Adobe Analytics in Adobe Experience Cloud.
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
-title: 'Come utilizzare  cookie Adobe Analytics '
+title: 'Come utilizzare i cookie di Adobe Analytics '
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '757'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Ulteriori informazioni sui [cookie di prime parti](/help/interface/cookies/cooki
 | Informazioni memorizzate | Questo cookie viene impostato e letto dal codice JavaScript per determinare se i cookie sono abilitati (impostati semplicemente su “True”) |
 | Scadenza | Questo è un cookie di sessione e scade quando il browser viene chiuso |
 | Utilizzo | Un solo cookie per tutti gli account |
-| Posizione | Il cookie viene memorizzato nel dominio della pagina |
+| Posizione | Il cookie viene memorizzato nel dominio della pagina. |
 | Dimensione | 4 byte |
 
 ## Nome cookie: s_sq {#section-8abfff3a302d494f81a3cfb91e3b09ff}
@@ -57,16 +57,16 @@ Ulteriori informazioni sui [cookie di prime parti](/help/interface/cookies/cooki
 | Informazioni memorizzate | Questo cookie viene impostato e letto dal codice JavaScript quando sono abilitate le funzionalità ClickMap e Activity Map; contiene informazioni sul collegamento precedente su cui l’utente ha fatto clic |
 | Scadenza | Questo è un cookie di sessione e scade quando il browser viene chiuso |
 | Utilizzo | Un solo cookie per tutti gli account |
-| Posizione | Il cookie viene memorizzato nel dominio della pagina |
+| Posizione | Il cookie viene memorizzato nel dominio della pagina. |
 | Dimensione | Varia a seconda della dimensione dell’URL della pagina, ma in genere è compresa tra 100 e 200 byte |
 
 ## Nome cookie: s_vi {#section-5d50a078de444d12b7d927d68ff3b679}
 
 | Attributo | Descrizione |
 |--- |--- |
-| Informazioni memorizzate | ID visitatore univoco/timestamp |
+| Informazioni memorizzate | ID visitatore univoco/timestamp. |
 | Scadenza | 2 anni |
-| Utilizzo | Questo cookie viene usato per identificare un visitatore univoco |
+| Utilizzo | Questo cookie viene usato per identificare un visitatore univoco. |
 | Posizione | Questo cookie viene memorizzato nel dominio della richiesta di immagine, in genere 2o7.net o omtrdc.net se utilizzi cookie di terze parti o il tuo dominio se utilizzi cookie di prime parti |
 | Dimensione | 44 byte |
 
@@ -78,9 +78,9 @@ Ulteriori informazioni sui [cookie di prime parti](/help/interface/cookies/cooki
 
 | Attributo | Descrizione |
 |--- |--- |
-| Informazioni memorizzate | ID visitatore univoco/timestamp di fallback |
+| Informazioni memorizzate | ID visitatore univoco/timestamp di fallback. |
 | Scadenza | 2 anni |
-| Utilizzo | Questo cookie viene usato per identificare un visitatore univoco Se il cookie standard `s_vi` non è disponibile a causa di restrizioni relative ai cookie di terze parti. Non viene utilizzato per le implementazioni che utilizzano cookie di prime parti |
+| Utilizzo | Questo cookie viene usato per identificare un visitatore univoco. Se il cookie standard `s_vi` non è disponibile a causa di restrizioni relative ai cookie di terze parti. Non viene utilizzato per le implementazioni che utilizzano cookie di prime parti |
 | Posizione | Questo cookie viene memorizzato nel dominio come cookie di prime parti |
 | Dimensione | 33 byte |
 
