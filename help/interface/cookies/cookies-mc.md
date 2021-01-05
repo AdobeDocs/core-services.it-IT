@@ -4,9 +4,9 @@ keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
 title: 'Cookie di Experience Cloud '
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '348'
 ht-degree: 100%
 
@@ -78,7 +78,7 @@ Consulta anche [Cookie e il servizio ID](https://docs.adobe.com/content/help/it-
   </tr> 
   <tr> 
    <td colname="col1"> <p> Utilizzo </p> </td> 
-   <td colname="col2"> <p> Questo cookie viene usato per identificare un visitatore univoco </p> </td> 
+   <td colname="col2"> <p> Questo cookie viene usato per identificare un visitatore univoco. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Posizione </p> </td> 
