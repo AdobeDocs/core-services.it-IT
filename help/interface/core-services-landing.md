@@ -1,12 +1,12 @@
 ---
 description: Scopri la gestione di prodotti e utenti Adobe Experience Cloud, People (tipi di pubblico e attributi del cliente), Journey Orchestration, Offerte, Places, Experience Platform Launch e Mobile Services.
 solution: Experience Cloud
-title: 'Panoramica dei servizi  Experience Cloud '
-translation-type: tm+mt
+title: 'Panoramica dei servizi Experience Cloud '
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '476'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
