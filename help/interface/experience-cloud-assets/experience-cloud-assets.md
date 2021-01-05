@@ -3,9 +3,9 @@ description: Scopri le risorse di Experience Cloud da condividere tra le diverse
 solution: Experience Cloud
 title: 'Panoramica delle risorse di Experience Cloud '
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '334'
 ht-degree: 100%
 
