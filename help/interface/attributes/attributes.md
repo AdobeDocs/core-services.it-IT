@@ -1,11 +1,11 @@
 ---
-title: Cosa sono gli attributi cliente?
+title: Come assegnare gli attributi del cliente
 description: Informazioni sul servizio Attributi del cliente in Adobe Experience Cloud. Scoprite come caricare i dati degli attributi cliente da utilizzare  Adobe Analytics e  Adobe Target.
 solution: Experience Cloud
 feature: Experience Cloud Customer Attributes
 role: Administrator
 translation-type: tm+mt
-source-git-commit: 9aebc0221b4d35c31968394ebb159f10f82960bd
+source-git-commit: 10635b4eda2fff32ef04878178be3ac88fa32756
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 93%
