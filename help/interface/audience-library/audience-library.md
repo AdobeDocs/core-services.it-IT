@@ -1,13 +1,12 @@
 ---
-description: Scopri come gestire la traduzione dei dati dei visitatori in segmentazione del pubblico, con il servizio Adobe Experience Cloud Audiences.
 solution: Experience Cloud
 type: Documentation
 title: 'Adobe Experience Cloud Audiences '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
-translation-type: ht
-source-git-commit: 2376fa2edf0477515f6e0cfe31af4821c9c6b86c
-workflow-type: ht
-source-wordcount: '814'
+translation-type: tm+mt
+source-git-commit: 7ad0ea1692ca73fce91af931dc80f0e1dc2347a1
+workflow-type: tm+mt
+source-wordcount: '796'
 ht-degree: 100%
 
 ---
@@ -55,7 +54,7 @@ La tabella seguente descrive come i tipi di pubblico vengono utilizzati nelle so
 | Aiuto con | Risorsa |
 |--- |--- |
 | Non riesci a trovare Pubblico? | Verifica di avere il provisioning. Consulta [Guida introduttiva: Abilitare le soluzioni per i servizi principali](../core-services/core-services.md).<br>Fai clic [qui](https://www.adobe.com/go/audiences) per richiedere l’accesso a Profili e pubblico (modulo di provisioning integrazioni). |
-| Casi di utilizzo | Per maggiori informazioni sulla soluzione da utilizzare, vai in [Opzioni di creazione pubblico](https://helpx.adobe.com/it/marketing-cloud-core/kb/People/Audience-Creation-Options.html) nella Knowledge Base. |
+| Casi di utilizzo | Per maggiori informazioni sulla soluzione da utilizzare, vai in [Opzioni di creazione pubblico](https://helpx.adobe.com/marketing-cloud-core/kb/People/Audience-Creation-Options.html) nella Knowledge Base. |
 | Forum | Il [forum di Audiences](https://forums.adobe.com/community/experience-cloud/platform/core-services/people-service/audiences) è un’ulteriore risorsa per ottenere aiuto sui tipi di pubblico. |
 
 ## Elementi dell&#39;interfaccia libreria di tipi di pubblico {#section_D04ACEF61CEF4B189AE6BA9F40D0DBF4}
