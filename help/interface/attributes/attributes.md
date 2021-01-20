@@ -1,19 +1,19 @@
 ---
-title: Come utilizzare Attributi del cliente
-description: Informazioni sul servizio Attributi del cliente in Adobe Experience Cloud. Scopri come caricare i dati per l’utilizzo in  Adobe Analytics e  Adobe Target.
+title: Quali sono gli attributi del cliente e come funzionano?
+description: Informazioni sul servizio Attributi del cliente in Adobe Experience Cloud. Scoprite come caricare i dati degli attributi cliente da utilizzare  Adobe Analytics e  Adobe Target.
 solution: Experience Cloud
-feature: Customer Attributes
+feature: Experience Cloud Customer Attributes
 role: Administrator
 translation-type: tm+mt
-source-git-commit: 654b13b2053df2c91b4c539b4d37b66c6008d759
+source-git-commit: 253ec3d13c66be792214e09616f83e8b24929c3c
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 92%
+source-wordcount: '490'
+ht-degree: 91%
 
 ---
 
 
-# Come utilizzare gli attributi del cliente in Adobe Experience Cloud
+# Come utilizzare gli attributi del cliente in  Experience Cloud
 
 Attributi del cliente in Adobe Experience Cloud consente di caricare i dati aziendali acquisiti da un database di gestione delle relazioni con i clienti (CRM). Puoi caricare i dati in un’origine dati di attributi cliente in Experience Cloud, quindi utilizzarli in Adobe Analytics e Adobe Target.
 
