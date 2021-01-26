@@ -5,10 +5,10 @@ solution: Experience Cloud
 title: 'Abilitare le soluzioni per i servizi principali '
 index: true
 translation-type: tm+mt
-source-git-commit: 56301935a3f3e20633294d29cc01e4bcfb7924d5
+source-git-commit: d8b4f8c5ff963fce48adf7cd312543a98955828c
 workflow-type: tm+mt
-source-wordcount: '2351'
-ht-degree: 96%
+source-wordcount: '2352'
+ht-degree: 95%
 
 ---
 
@@ -32,21 +32,21 @@ Per i clienti esistenti, potrebbe essere necessario modernizzare le implementazi
 
 Come partecipare a Experience Cloud:
 
-![](assets/step1_icon.png) Verifica di disporre degli SKU Adobe Analytics o Adobe Target appropriati.
+1. Verifica di disporre degli SKU Adobe Analytics o Adobe Target appropriati.
 
-* **Adobe Analytics:** Standard o Premium (non lo SKU legacy di [!DNL SiteCatalyst]).
-* **Adobe Target:** Standard o Premium.
+   * **Adobe Analytics:** Standard o Premium (non lo SKU legacy di [!DNL SiteCatalyst]).
+   * **Adobe Target:** Standard o Premium.
 
->[!NOTE]
->
->Ad [!DNL Target] esempio, effettua la migrazione a at.js da [!DNL mbox.js]. Consulta [Aggiornamento da at.js 1. x a at.js 2. x](https://docs.adobe.com/content/help/it-IT/target/using/implement-target/client-side/upgrading-from-atjs-1x-to-atjs-20.html).
+   >[!NOTE]
+   >
+   >Ad [!DNL Target] esempio, effettua la migrazione a at.js da [!DNL mbox.js]. Consulta [Aggiornamento da at.js 1. x a at.js 2. x](https://docs.adobe.com/content/help/it-IT/target/using/implement-target/client-side/upgrading-from-atjs-1x-to-atjs-20.html).
 
-![](assets/step2_icon.png) Modernizza la tua implementazione ed effettua il provisioning di un amministratore.
+1. Modernizza la tua implementazione ed effettua il provisioning di un amministratore.
 
-1. Segui i passaggi indicati in [Distribuzione del servizio [!UICONTROL Experience Cloud ID]](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354).
-1. Contatta il tuo Account Manager e avvia il processo di provisioning per Experience Cloud.
+   * Seguire i passaggi indicati di seguito in [Implementare il [!UICONTROL  servizio ID Experience Cloud]](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354).
+   * Contatta il tuo Account Manager e avvia il processo di provisioning per Experience Cloud.
 
-![](assets/step3_icon.png) Gestisci utenti e prodotti in [!UICONTROL Admin Console].
+1. Gestisci utenti e prodotti in [!UICONTROL Admin Console].
 
 ### Accesso amministratore
 
@@ -54,18 +54,18 @@ Se hai il ruolo di amministratore, puoi accedere a [experiencecloud.adobe.com](h
 
 Dovresti visualizzare il collegamento **[!UICONTROL Amministrazione]** nel menu di navigazione di Experience Cloud.
 
-Per assistenza, consulta [Amministrazione di utenti e prodotti Experience Cloud](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909).
+Per ulteriori informazioni, vedere [Amministrazione di utenti e prodotti  Experience Cloud](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909).
 
 ### Accesso utente
 
 Per accedere a Experience Cloud, i tuoi utenti devono:
 
-1. Disporre di un Adobe ID (o Enterprise ID per un&#39;azienda).
-1. Accedere a [experiencecloud.adobe.com](https://experiencecloud.adobe.com).
-1. Appartenere a un gruppo di soluzioni mappato a un gruppo enterprise.
-1. Se necessario, collega i loro account della soluzione al rispettivo Adobe ID (procedura descritta di seguito).
+* Disporre di un Adobe ID (o Enterprise ID per un&#39;azienda).
+* Accedere a [experiencecloud.adobe.com](https://experiencecloud.adobe.com).
+* Appartenere a un gruppo di soluzioni mappato a un gruppo enterprise.
+* Se necessario, collega i loro account della soluzione al rispettivo Adobe ID (procedura descritta di seguito).
 
-![](assets/step4_icon.png) Facoltativo: collega gli account utente esistenti.
+### Facoltativo: collega gli account utente esistenti.
 
 Probabilmente alcuni dei tuoi utenti sono già membri di gruppi di soluzioni, ad esempio di un gruppo Analytics che hai precedentemente gestito in [!UICONTROL Analytics] > [!UICONTROL Strumenti di amministrazione].
 
