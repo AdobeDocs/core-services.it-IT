@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: d8b4f8c5ff963fce48adf7cd312543a98955828c
 workflow-type: tm+mt
 source-wordcount: '2352'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -79,13 +79,13 @@ Consulta [Collegamento di account in Experience Cloud](../admin-getting-started/
 
 Le sezioni seguenti descrivono come poter modernizzare l&#39;implementazione. La modernizzazione dell&#39;implementazione abilita i servizi core in Experience Cloud.
 
-## Implementazione del servizio [!UICONTROL ID Experience Cloud ] {#section_3C9F6DF37C654D939625BB4D485E4354}
+## Implementa il [!UICONTROL servizio Experience Cloud ID] {#section_3C9F6DF37C654D939625BB4D485E4354}
 
 Il [!UICONTROL Servizio Experience Cloud ID] fornisce un ID comune per l&#39;integrazione tra diverse soluzioni. Fornisce l&#39;identificazione dei visitatori tra domini, oltre a un percorso per il targeting e la personalizzazione tra dispositivi e browser basati sui dati CRM che sono stati caricati tramite gli [!UICONTROL Attributi del cliente].
 
-Il metodo più semplice per abilitare  servizi di base dei Experienci Cloud è attivarli automaticamente per Analytics e  Adobe Target tramite l&#39;estensione del servizio ID Experience Cloud [](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html?lang=en#extensions-ref) in [!UICONTROL Experience Platform Launch].
+Il metodo più semplice per abilitare i servizi core di Experience Cloud è quello di attivarli automaticamente per Analytics e Adobe Target tramite l&#39;[estensione del servizio Experience Cloud ID](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html?lang=it#extensions-ref) all’interno di [!UICONTROL Experience Platform Launch].
 
-Per ricevere un aiuto completo sul Servizio Experience Cloud ID (già ID visitatore), visita [qui](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=en#intro).
+Per ricevere un aiuto completo sul Servizio Experience Cloud ID (già ID visitatore), visita [qui](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=it#intro).
 
 **Non usi [!UICONTROL Experience Platform Launch] o [!UICONTROL Dynamic Tag Management]?**
 
@@ -126,7 +126,7 @@ Contatta l&#39;Assistenza clienti per abilitare i dati presenti nella cronologia
 
 >[!NOTE]
 >
->La funzionalità di mappatura delle suite di rapporti è stata rimossa a novembre 2020. Rivolgiti all&#39;Assistenza clienti per qualsiasi domanda.
+>La funzionalità di mappatura di suite di rapporti è diventata obsoleta a novembre 2020. Per eventuali domande, rivolgiti al servizio di assistenza clienti.
 
 I servizi Experience Cloud (come Experience Cloud ID e il servizio [!UICONTROL People]) sono associati a una suite di rapporti di un&#39;organizzazione Experience Cloud, anziché a una sola suite di rapporti di Analytics. Per garantire il corretto funzionamento di questi servizi, ogni suite di rapporti di Analytics deve essere mappata a un&#39;organizzazione Experience Cloud.
 
@@ -216,7 +216,7 @@ Quando si usano i servizi resi disponibili tramite il servizio core [!UICONTROL 
 * Coppie chiave/valore di [!DNL Analytics] (proprietà, eVars, variabili elenco e così via). Per impostazione predefinita, le righe del registro contengono l&#39;indirizzo IP, incluso l&#39;ultimo ottetto dell&#39;IP (partendo dal presupposto che l&#39;indirizzo IP non sia stato modificato dalle impostazioni di offuscamento dell&#39;IP di Adobe [!DNL Analytics]).
 * Caratteristiche e segmenti per i quali i visitatori si qualificano in base a regole impostate in Audience Manager.
 * (Facoltativo) Uno o più degli ID. In base al tipo di implementazione del servizio ID, puoi effettuare invii mediante uno o più degli ID, come ID CRM o indirizzi e-mail con hash. Se tali dati vengono inviati ad Adobe [!DNL Analytics], vengono trasferiti ad Adobe Gestione dell&#39;audience. Adobe consiglia di non fornire informazioni personali ad Adobe [!DNL Analytics]. Consiglia invece di utilizzare hash univoci per mascherare i dati prima di inviarli ad Adobe.
-* Segmenti originati in [!DNL Analytics] mediante la funzionalità back-end di condivisione del segmento
+* Segmenti originati in [!DNL Analytics] mediante la funzionalità back-end di condivisione del segmento.
 * Il cookie demdex.net viene impostato se i cookie di terze parti non sono bloccati. Il cookie di prime parti `AMCV_###@AdobeOrg` è sempre impostato con il servizio Experience Cloud ID.
 
 Tutti gli elementi di questi dati vengono inviati ad Adobe Audience Manager sotto forma di file di log. Audience Manager elabora e archivia tali dati negli Stati Uniti. Audience Manager non fornisce un&#39;opzione per archiviare o elaborare tali dati al di fuori degli Stati Uniti.
