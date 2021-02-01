@@ -2,11 +2,11 @@
 description: Scopri come mappare una o più suite di rapporti per un’organizzazione in Experience Cloud.
 title: 'Mappatura di suite di rapporti per un’organizzazione '
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 56301935a3f3e20633294d29cc01e4bcfb7924d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1163'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->La funzionalità di mappatura delle suite di rapporti è stata rimossa a novembre 2020. Rivolgiti all&#39;Assistenza clienti per qualsiasi domanda.
+>La funzionalità di mappatura di suite di rapporti è diventata obsoleta a novembre 2020. Per eventuali domande, rivolgiti al servizio di assistenza clienti.
 
 I servizi di Experience Cloud (come il servizio Experience Cloud ID e [!UICONTROL People]) sono associati a un’organizzazione invece che a suite di rapporti individuale. Per garantire il corretto funzionamento di questi servizi, ogni suite di rapporti di Analytics deve essere mappata su un’organizzazione. Il processo di mappatura:
 
@@ -60,7 +60,7 @@ Questa sezione contiene suggerimenti per aiutarti a selezionare l’organizzazio
 
 ### Quale organizzazione dovrei scegliere?
 
-Se il servizio Experience Cloud ID è al momento distribuito sulla suite di rapporti, assicurati che l’organizzazione che selezioni nello strumento di Mappatura di suite di rapporti sia nella stessa organizzazione indicata nel file [!DNL visitorAPI.js] sul tuo sito. Puoi utilizzare le istruzioni in [Testa e verifica il servizio Experience Cloud ID](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/test-verify.html) per individuare l’ID organizzazione utilizzato dal servizio ID visitatore.
+Se il servizio Experience Cloud ID è al momento distribuito sulla suite di rapporti, assicurati che l’organizzazione che selezioni nello strumento di Mappatura di suite di rapporti sia nella stessa organizzazione indicata nel file [!DNL visitorAPI.js] sul tuo sito. Puoi utilizzare le istruzioni in [Testa e verifica il servizio Experience Cloud ID](https://docs.adobe.com/content/help/it-IT/id-service/using/implementation-guides/test-verify.html) per individuare l’ID organizzazione utilizzato dal servizio ID visitatore.
 
 Se il servizio ID visitatore non è ancora distribuito sui siti che raccolgono i dati per la suite di rapporti, se distribuisci il servizio ID visitatore di Experience Cloud in futuro, dovrai verificare che la distribuzione corrisponda all’organizzazione scelta nello strumento di Mappatura di suite di rapporti.
 
