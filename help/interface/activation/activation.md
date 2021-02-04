@@ -1,21 +1,21 @@
 ---
 description: 'Activation include l''ultimo prodotto di gestione dei tag: Experience Platform Launch. Dynamic Tag Management (DTM) e Triggers.'
-keywords: core services
+keywords: servizi di base
 seo-description: 'Activation include l''ultimo prodotto di gestione dei tag: Experience Platform Launch. Dynamic Tag Management (DTM) e Triggers.'
 seo-title: Activation
-solution: Experience Cloud
+solution: Experience Cloud Services
 title: Servizi Activation in Experience Cloud
 uuid: 54ada638-3592-49ee-930a-9f44bcc5e5d3
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '438'
+translation-type: tm+mt
+source-git-commit: 119bbd98e78fe55ae30ef874e2125fa196221363
+workflow-type: tm+mt
+source-wordcount: '440'
 ht-degree: 100%
 
 ---
 
 
-# Activation
+# Attivazione
 
 Activation include il più recente prodotto di gestione dei tag denominato Experience Platform Launch, Dynamic Tag Management (DTM) e Triggers.
 
