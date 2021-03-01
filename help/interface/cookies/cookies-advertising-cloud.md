@@ -2,11 +2,11 @@
 description: Scopri i cookie Adobe Ad Cloud per la mappatura degli eventi di coinvolgimento e di conversione e, potenzialmente, come utilizzare tali informazioni per ottimizzare le offerte di annunci.
 title: 'Cookie di Advertising Cloud '
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '521'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 26b2af2196253632f1590efc3e5d1e208436b7d6
+workflow-type: tm+mt
+source-wordcount: '538'
+ht-degree: 96%
 
 ---
 
@@ -97,7 +97,7 @@ Advertising Cloud utilizza i cookie per mappare gli eventi di coinvolgimento pub
   </tr> 
   <tr> 
    <td colname="col1"> <p>Scadenza </p> </td> 
-   <td colname="col2"> <p>2 anni </p> </td> 
+   <td colname="col2"> <p>I cookie impostati il 24 febbraio 2021 o versioni precedenti scadono dopo 730 giorni. I cookie impostati il 25 febbraio 2021 o versioni successive scadono dopo 364 giorni.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Utilizzo </p> </td> 
