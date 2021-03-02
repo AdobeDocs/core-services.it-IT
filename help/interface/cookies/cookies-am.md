@@ -1,14 +1,18 @@
 ---
 description: Scopri come funzionano i cookie di Audience Manager in Adobe Experience Cloud.
-keywords: cookies
+keywords: cookie
 solution: Experience Cloud, Audience Manager
 title: 'Cookie di Audience Manager '
 uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '608'
-ht-degree: 100%
+feature: Cookie
+topic: Amministrazione
+role: Amministratore
+level: Esperienza
+translation-type: tm+mt
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+workflow-type: tm+mt
+source-wordcount: '613'
+ht-degree: 99%
 
 ---
 
