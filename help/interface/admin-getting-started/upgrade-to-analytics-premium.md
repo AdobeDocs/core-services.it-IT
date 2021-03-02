@@ -1,15 +1,18 @@
 ---
-description: Gli amministratori possono scoprire i requisiti e cosa aspettarsi dall'aggiornamento ad Analytics Premium, oltre a dove trovare le informazioni necessarie in qualità di amministratore Experience Cloud.
-keywords: Adobe Analytics Premium upgrade
+description: Scopri i requisiti e cosa aspettarsi dall’aggiornamento ad Analytics Premium.
+keywords: Aggiornamento ad Adobe Analytics Premium
 solution: Experience Cloud
-title: 'Aggiornare ad Analytics Premium e Experience Cloud '
-topic: Premium
+title: 'Aggiornamento ad Analytics Premium e Experience Cloud '
+topic: Amministrazione
 uuid: 450a601c-d199-4e90-b525-19bd9f9576d2
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '641'
-ht-degree: 100%
+feature: Admin Console
+role: Amministratore
+level: Esperienza
+translation-type: tm+mt
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+workflow-type: tm+mt
+source-wordcount: '636'
+ht-degree: 95%
 
 ---
 
@@ -52,7 +55,7 @@ L&#39;aggiornamento a Predictive Intelligence abilita [Analytics Premium](../adm
 
 | Prodotto | Aggiornamenti |
 |---|---|
-| Reports &amp; Analytics | [Analisi contributi](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) |
+| Reports &amp; Analytics | [Analisi contributi](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) |
 | Data Workbench | Aree di lavoro predefinite per le qualifiche del pubblico e il marketing predittivo |
 | Platform Analytics | Streaming live (dashboard e trigger) |
 
@@ -70,7 +73,7 @@ L&#39;aggiornamento a Customer 360 offre [Analytics Premium](../admin-getting-st
 
 Advanced Attribution offre l&#39;accesso ad [Analytics Premium](../admin-getting-started/upgrade-to-analytics-premium.md#section_7F50AD7906544F899B844BE31D3BB507), oltre alla funzionalità Algorithmic Attribution in Data Workbench (25% del volume di chiamate al server).
 
-## Requisiti Data Workbench {#section_D959CA68D6DB42C38707F8E0CA3654CC}
+## Requisiti Data Workbench  {#section_D959CA68D6DB42C38707F8E0CA3654CC}
 
 Gli utenti supportati possono richiedere che tutte le licenze dei clienti siano aggiornate per riflettere la versione Premium scrivendo un&#39;e-mail all&#39;indirizzo `dwb@adobe.com`. In tal modo, si abilitano funzioni come Algorithmic Attribution.
 
