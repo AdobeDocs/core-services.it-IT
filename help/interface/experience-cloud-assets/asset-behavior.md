@@ -1,14 +1,18 @@
 ---
 description: Scopri le regole sul funzionamento delle cartelle condivise quando vengono spostate, eliminate e ripristinate in Experience Cloud.
-keywords: asset sharing;Creative Cloud;core services
+keywords: condivisione di risorse;Creative Cloud;servizi principali
 solution: Experience Cloud
 title: 'Comportamento delle cartelle condivise '
 uuid: 86348401-f4b1-4efe-acd1-7e73a7030edf
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '561'
-ht-degree: 100%
+feature: Risorse
+topic: Amministrazione
+role: Amministratore
+level: Esperienza
+translation-type: tm+mt
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+workflow-type: tm+mt
+source-wordcount: '571'
+ht-degree: 99%
 
 ---
 
