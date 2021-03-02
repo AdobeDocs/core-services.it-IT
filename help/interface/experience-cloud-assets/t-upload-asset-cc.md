@@ -1,14 +1,18 @@
 ---
 description: Come caricare una risorsa in una cartella condivisa dal browser Creative Cloud a Experience Cloud.
-keywords: asset sharing;Creative Cloud;core services
+keywords: condivisione di risorse;Creative Cloud;servizi principali
 solution: Experience Cloud
 title: 'Caricamento di una risorsa in una cartella condivisa dal browser di Creative Cloud '
 uuid: 701e28ed-4d1f-4109-882e-64d3b16cd2da
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '83'
-ht-degree: 100%
+feature: Risorse
+topic: Amministrazione
+role: Amministratore
+level: Esperienza
+translation-type: tm+mt
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+workflow-type: tm+mt
+source-wordcount: '93'
+ht-degree: 98%
 
 ---
 
