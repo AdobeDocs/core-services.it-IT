@@ -2,10 +2,14 @@
 description: Scopri i cookie Adobe Ad Cloud per la mappatura degli eventi di coinvolgimento e di conversione e, potenzialmente, come utilizzare tali informazioni per ottimizzare le offerte di annunci.
 title: 'Cookie di Advertising Cloud '
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
+feature: Cookie
+topic: Amministrazione
+role: Amministratore
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 26b2af2196253632f1590efc3e5d1e208436b7d6
+source-git-commit: 6eab2decc39f250d48e3355b8c63c5a0c868944c
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '542'
 ht-degree: 96%
 
 ---
