@@ -1,14 +1,14 @@
 ---
 description: Come condividere una cartella di risorse Experience Cloud con utenti Creative Cloud.
-keywords: asset sharing;Creative Cloud;core services
+keywords: condivisione di risorse;Creative Cloud;servizi principali
 solution: Experience Cloud
 title: 'Condivisione di una cartella di risorse Experience Cloud '
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '307'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
+workflow-type: tm+mt
+source-wordcount: '313'
+ht-degree: 84%
 
 ---
 
@@ -44,13 +44,13 @@ Condividi una cartella di risorse Experience Cloud con utenti Creative Cloud.
 
    ![](assets/asset_comment_mac.png)
 
-1. Per non condividere una cartella fai clic su **[!UICONTROL Condividi con Creative Cloud]** (come nel [Passaggio 3](../experience-cloud-assets/t-share-creative-cloud.md#step_BA17CFA185284641A9B878BA29551996)), rimuovi l’utente facendo clic su X, quindi fai clic su **[!UICONTROL Condividi]**.
+1. Per annullare la condivisione di una cartella, fai clic su **[!UICONTROL Condividi con Creative Cloud]** (simile a [Passaggio 3](../experience-cloud-assets/t-share-creative-cloud.md#step_BA17CFA185284641A9B878BA29551996)), quindi rimuovi gli utenti facendo clic su X, quindi fai clic su **[!UICONTROL Condividi]**.
 
 ![](assets/asset_remove_user.png)
 
-Quando hai rimosso tutti gli utenti di Creative Cloud, la cartella non è più condivisa e gli utenti di Creative Cloud non possono più accedervi.
+Dopo aver rimosso tutti gli utenti di Creative Cloud, la cartella non è più condivisa e gli utenti di Creative Cloud non possono più accedervi.
 
-Altri metodi per utilizzare una risorsa condivisa:
+Altri modi per utilizzare una risorsa condivisa:
 
 * Utilizzare il [!UICONTROL selettore delle risorse] in [!DNL Adobe Social] per i post social.
 * Carica o inverti le risorse in [Offers Library (Libreria offerte)](https://docs.adobe.com/help/it-IT/target/using/experiences/offers/manage-content.html) in [!DNL Adobe Target] per le immagini nelle attività.
