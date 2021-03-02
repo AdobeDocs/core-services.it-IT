@@ -1,13 +1,17 @@
 ---
 description: Scopri le risorse di Experience Cloud da condividere tra le diverse soluzioni.
 solution: Experience Cloud
-title: 'Panoramica delle risorse di Experience Cloud '
+title: Panoramica delle risorse
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
+feature: Risorse
+topic: Amministrazione
+role: Amministratore
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 83%
+source-wordcount: '336'
+ht-degree: 82%
 
 ---
 
