@@ -1,14 +1,18 @@
 ---
-description: Funzionalità, note sulla versione e problemi noti per l'interfaccia Experience Cloud.
-keywords: core services
+description: '"Funzioni più recenti, note sulla versione e problemi noti per i servizi Experience Cloud come Attributi del cliente, Tipi di pubblico e gestione degli utenti."'
+keywords: servizi di base
 solution: Experience Cloud
 title: 'Note sulla versione cumulative '
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '3954'
-ht-degree: 100%
+feature: '"Attributi del cliente, Libreria Pubblico, Admin Console"'
+topic: Amministrazione
+role: Amministratore
+level: Esperienza
+translation-type: tm+mt
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+workflow-type: tm+mt
+source-wordcount: '3973'
+ht-degree: 99%
 
 ---
 
@@ -159,7 +163,7 @@ Se accedi a Dynamic Tag Management tramite l&#39;interfaccia **[!UICONTROL Exper
 * È stato risolto un problema relativo alla Libreria Pubblico che impediva la condivisione dell&#39;audience dalla segmentazione di Analytics. Tale problema causava la visualizzazione del messaggio &quot;Collecting Data&quot; (Raccolta dati) (0 audiences). Per evitare questo problema, Adobe consiglia di mantenere le dimensioni del segmento inferiori ai 50.000 membri del pubblico per ciascun segmento. (MAC-25788)
 * È stato risolto un problema precedentemente noto sulla pagina Attributi del cliente - Modifica schema, il quale causava un errore In base al contenuto, che si verificava durante la modifica di un nome visualizzato. (MAC-25589, AN-103834)
 
-## Rilascio 15.7 - 22 luglio 2015 {#section_2683A152176944E48EF6C943892975B7}
+## Rilascio 15.7 - 22 luglio 2015  {#section_2683A152176944E48EF6C943892975B7}
 
 * È stato risolto un problema che impediva l&#39;aggiornamento nei report di Analytics delle descrizioni degli attributi specificate nella pagina Visualizza/Modifica schema (negli attributi del cliente). (MAC-25985)
 * È stato risolto un problema che impediva il rendering delle miniature per le risorse caricate. (MAC-25863)
@@ -171,7 +175,7 @@ Se accedi a Dynamic Tag Management tramite l&#39;interfaccia **[!UICONTROL Exper
 
 Un problema noto crea la duplicazione di account automaticamente generati in Audience Manager e li collega automaticamente a un&#39;identità Experience Cloud del cliente. Il problema si verifica quando si tenta di passare ad Audience Manager prima di collegare i propri account. Adobe consiglia di collegare gli account Audience Manager a Experience Cloud prima di spostarsi ad Audience Manager. (MAC-25640)
 
-## Rilascio 15.6.1 - 11 giugno 2015 {#section_AD2019F8D2F84C9EB2B0533FAACF7043}
+## Rilascio 15.6.1 - 11 giugno 2015  {#section_AD2019F8D2F84C9EB2B0533FAACF7043}
 
 Nessuna informazione disponibile.
 
@@ -287,7 +291,7 @@ Correzioni:
 * È stato risolto un problema che impediva la visualizzazione dell&#39;icona Aggiungi (simbolo più) in [!UICONTROL Regole] della pagina [!UICONTROL Crea nuovo pubblico].
 * È stato migliorato il supporto all&#39;interfaccia di Experience Cloud per Internet Explorer 9.
 
-## Rilascio 15.1.1 - 15 gennaio 2015 {#section_F1A352E928AF432E94CC0A289C345184}
+## Rilascio 15.1.1 - 15 gennaio 2015  {#section_F1A352E928AF432E94CC0A289C345184}
 
 Nuove funzioni, problemi noti e correzioni nella [!DNL Adobe Experience Cloud] collaborazione e nell&#39;interfaccia di condivisione.
 
@@ -327,7 +331,7 @@ Nuove funzioni, problemi noti e correzioni nella [!DNL Adobe Experience Cloud] c
 * Alcuni utenti potrebbero rilevare dei problemi durante la creazione di un&#39;audience in una suite di rapporti di Analytics dopo l&#39;abilitazione di audience condivise.
 * Alcuni utenti potrebbero avere dei problemi durante il caricamento di risorse su una bacheca.
 
-## Rilascio 14.11.1 - 13 novembre 2014 {#section_A6CF1D4F27B9496892A89C983EB39102}
+## Rilascio 14.11.1 - 13 novembre 2014  {#section_A6CF1D4F27B9496892A89C983EB39102}
 
 Problemi noti:
 
@@ -340,7 +344,7 @@ Problemi noti:
 * L&#39;interfaccia di [!DNL Experience Cloud] può diminuire le prestazioni se usata in parallelo da molti utenti.
 * La sincronizzazione di Adobe Experience Manager con Creative Cloud non funziona correttamente.
 
-## Rilascio 14.10.1 - 16 ottobre 2014 {#section_E3A0F4423B814707AA3745E083500835}
+## Rilascio 14.10.1 - 16 ottobre 2014  {#section_E3A0F4423B814707AA3745E083500835}
 
 Nuove funzioni, problemi noti e correzioni nella [!DNL Adobe Experience Cloud] collaborazione e nell&#39;interfaccia di condivisione.
 
@@ -453,7 +457,7 @@ Nuove funzioni, problemi noti e correzioni nella [!DNL Adobe Experience Cloud] c
 
 Nessuno.
 
-## Rilascio 14.6.1 - 19 giugno 2014 {#marketing_cloud_interface}
+## Rilascio 14.6.1 - 19 giugno 2014  {#marketing_cloud_interface}
 
 Nuove funzioni, problemi noti e correzioni nella [!DNL Adobe Experience Cloud] collaborazione e nell&#39;interfaccia di condivisione.
 
@@ -489,7 +493,7 @@ Nuove funzioni, problemi noti e correzioni nella [!DNL Adobe Experience Cloud] c
 
 * È stato risolto un problema che impediva il caricamento di video in applicazioni.
 
-## Rilascio 14.5.1 - 22 maggio 2014 {#section_7E22B2CB3ABA4D6EAED8CA8EFDE5433E}
+## Rilascio 14.5.1 - 22 maggio 2014  {#section_7E22B2CB3ABA4D6EAED8CA8EFDE5433E}
 
 <table id="table_4E4B34EEE3D94D78BA1A1FBC62950559"> 
  <thead> 
@@ -540,7 +544,7 @@ Nuove funzioni, problemi noti e correzioni nella [!DNL Adobe Experience Cloud] c
 * Gli utenti non riuscivano a condividere file di PowerPoint sulle bacheche.
 * Alcuni utenti rimarcavano un layout visivo scadente in Internet Explorer 10 rispetto ad altri browser.
 
-## Rilascio 14.4.1 - 22 aprile 2014 {#section_E2A699764E744D2E8D418E9A3D40AF6B}
+## Rilascio 14.4.1 - 22 aprile 2014  {#section_E2A699764E744D2E8D418E9A3D40AF6B}
 
 <table id="table_D95C0DC64F2A4B47BAC83E504CFD6825"> 
  <thead> 
@@ -621,7 +625,7 @@ La versione 14.3.1 è una release di manutenzione che si concentra sulla velocit
 * Non è possibile effettuare il rendering su una scheda di alcuni file PNG.
 * Non è possibile inviare feedback beta.
 
-## Rilascio 14.2.1 - 24 febbraio 2014 {#section_5AD81B0737C843AFB4BE9C4420D70EB3}
+## Rilascio 14.2.1 - 24 febbraio 2014  {#section_5AD81B0737C843AFB4BE9C4420D70EB3}
 
 <table id="table_DFAB002358C94A17A7F91DAB323A488F"> 
  <thead> 
