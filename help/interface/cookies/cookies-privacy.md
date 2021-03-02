@@ -1,14 +1,18 @@
 ---
 description: Scopri gli aspetti relativi a cookie e privacy nelle soluzioni e nei servizi Adobe Experience Cloud.
-keywords: cookies;privacy
+keywords: cookie;privacy
 solution: Experience Cloud,Analytics,Target
-title: 'Panoramica dei cookie e della privacy '
+title: 'Cookie e privacy '
 uuid: 7fb36845-6282-438a-bbc6-0c3cf95de1c9
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '332'
-ht-degree: 100%
+feature: Cookie
+topic: Amministrazione
+role: Amministratore
+level: Esperienza
+translation-type: tm+mt
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+workflow-type: tm+mt
+source-wordcount: '336'
+ht-degree: 98%
 
 ---
 
