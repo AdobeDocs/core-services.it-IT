@@ -1,14 +1,18 @@
 ---
-description: Se non effettui il caricamento trascinando la selezione, puoi caricare l'attributo del cliente in Experience Cloud tramite FTP.
-keywords: Customer Attributes;core services
+description: Scopri come caricare i dati degli attributi del cliente tramite FTP in Experience Cloud.
+keywords: Attributi del cliente;servizi principali
 solution: Experience Cloud
 title: 'Caricare il file di dati di attributi cliente tramite FTP '
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '268'
-ht-degree: 100%
+feature: Attributi del cliente
+topic: Amministrazione
+role: Amministratore
+level: Esperienza
+translation-type: tm+mt
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+workflow-type: tm+mt
+source-wordcount: '271'
+ht-degree: 93%
 
 ---
 
