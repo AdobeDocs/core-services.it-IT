@@ -3,13 +3,17 @@ description: Scopri gli ultimi aggiornamenti dei marchi per i cloud, come esplor
 seo-description: Scopri gli ultimi aggiornamenti dei marchi per i cloud, come esplorare l’interfaccia e dove trovare aiuto per le soluzioni e i servizi di base.
 seo-title: Informazioni sui nuovi nomi cloud in Experience Cloud
 solution: Experience Cloud
-title: 'Informazioni sui nuovi nomi cloud in Experience Cloud '
+title: 'Informazioni sui nomi cloud in Experience Cloud '
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '667'
-ht-degree: 100%
+feature: Admin Console
+topic: Amministrazione
+role: Amministratore
+level: Esperienza
+translation-type: tm+mt
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+workflow-type: tm+mt
+source-wordcount: '671'
+ht-degree: 98%
 
 ---
 
@@ -84,11 +88,11 @@ Adobe Target si integra con Analytics e altri servizi di base Experience Cloud. 
 
 La soluzione di gestione dei contenuti Adobe Experience Manager consente di gestire con facilità le risorse e i contenuti dei siti web, delle app mobili, della community e dei moduli.
 
-Per ricevere assistenza, consulta [Adobe Experience Manager 6.5](https://helpx.adobe.com/it/support/experience-manager/6-5.html).
+Per ricevere assistenza, consulta [Adobe Experience Manager 6.5](https://helpx.adobe.com/support/experience-manager/6-5.html).
 
 [Adobe Audience Manager](https://docs.adobe.com/content/help/it-IT/audience-manager/user-guide/aam-home.html)
 
-La piattaforma di gestione dei dati Adobe Audience Manager consente di creare dei profili di pubblico specifici, per individuare e rivolgersi ai segmenti di clienti più importanti su ogni canale.
+La piattaforma di gestione dei dati Adobe Audience Manager consente di creare dei profili di pubblico univoci, per individuare e rivolgersi ai segmenti di clienti più importanti su ogni canale.
 
 [Adobe Advertising Cloud](https://docs.adobe.com/content/help/it-IT/release-notes/experience-cloud/current.html#adcloud)
 
@@ -102,7 +106,7 @@ Con Adobe Campaign puoi progettare, distribuire e misurare le campagne su tutti 
 
 Adobe Primetime è una piattaforma TV multischermo che aiuta le emittenti a creare esperienze TV e cinematografiche coinvolgenti e personalizzate per qualsiasi tipo di pubblico.
 
-## Cosa sono i servizi di base? {#concept_38AC4888C3F84694AE4F60311C21B9C2}
+## Cosa sono i servizi di base?  {#concept_38AC4888C3F84694AE4F60311C21B9C2}
 
 [I servizi di base](https://docs.adobe.com/content/help/it-IT/core-services/interface/about-core-services/core-services-landing.html) includono funzionalità che semplificano l’implementazione dei prodotti e abilitano flussi di lavoro tra soluzioni, ad esempio la segmentazione del pubblico, il caricamento di attributi cliente e strumenti di collaborazione.
 
