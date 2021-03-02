@@ -3,11 +3,11 @@ description: Scopri le risorse di Experience Cloud da condividere tra le diverse
 solution: Experience Cloud
 title: 'Panoramica delle risorse di Experience Cloud '
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
+workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
@@ -64,7 +64,7 @@ La modifica di una risorsa abilita funzionalità quali:
 
 ## Cercare risorse {#section_50FE049010B446FC9640AA6A30E5A730}
 
-Puoi cercare per parola chiave, tipo di file, dimensione, ultima modifica, stato pubblicazione, orientamento e stile.
+È possibile eseguire ricerche per parola chiave, tipo di file, dimensioni, ultima modifica, stato di pubblicazione, orientamento e stile.
 
 ![](assets/asset-search.png)
 
