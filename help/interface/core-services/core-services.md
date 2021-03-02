@@ -1,14 +1,18 @@
 ---
-description: Scopri come implementare Adobe Experience Cloud e diventare un amministratore.
+description: '"Modernizza le tue soluzioni Adobe Analytics e Adobe Target per i servizi tra più soluzioni. Scopri come iniziare a utilizzare i servizi Experience Cloud."'
 keywords: servizi di base;Attributi del cliente
 solution: Experience Cloud
-title: 'Abilitare le soluzioni per i servizi principali '
+title: '"Abilitare le soluzioni per i servizi tra più soluzioni"'
 index: true
+feature: Attributi del cliente
+topic: Amministrazione
+role: Amministratore
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '2357'
-ht-degree: 99%
+source-wordcount: '2369'
+ht-degree: 98%
 
 ---
 
