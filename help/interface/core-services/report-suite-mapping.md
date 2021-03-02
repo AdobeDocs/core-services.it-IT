@@ -2,11 +2,15 @@
 description: Scopri come mappare una o più suite di rapporti per un’organizzazione in Experience Cloud.
 title: 'Mappatura di suite di rapporti per un’organizzazione '
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
-translation-type: ht
-source-git-commit: 56301935a3f3e20633294d29cc01e4bcfb7924d5
-workflow-type: ht
-source-wordcount: '1163'
-ht-degree: 100%
+feature: Admin Console
+topic: Amministrazione
+role: Amministratore
+level: Esperienza
+translation-type: tm+mt
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+workflow-type: tm+mt
+source-wordcount: '1168'
+ht-degree: 99%
 
 ---
 
