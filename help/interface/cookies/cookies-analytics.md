@@ -1,14 +1,18 @@
 ---
 description: Scopri come funzionano i cookie di Adobe Analytics in Adobe Experience Cloud.
-keywords: cookies;privacy
+keywords: cookie;privacy
 solution: Experience Cloud,Analytics,Target
-title: 'Come utilizzare i cookie di Adobe Analytics '
+title: 'Cookie di Analytics '
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '757'
-ht-degree: 100%
+feature: Cookie
+topic: Amministrazione
+role: Amministratore
+level: Esperienza
+translation-type: tm+mt
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+workflow-type: tm+mt
+source-wordcount: '759'
+ht-degree: 99%
 
 ---
 
