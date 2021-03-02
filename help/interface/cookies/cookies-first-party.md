@@ -1,15 +1,19 @@
 ---
 description: Scopri come Adobe Analytics utilizza i cookie per fornire informazioni su variabili e componenti che non permangono tra richieste di immagini e sessioni del browser.
-keywords: cookies;privacy
+keywords: cookie;privacy
 solution: Experience Cloud,Analytics
-title: 'Come utilizzare i cookie di prime parti '
+title: '"Cookie di prime parti "'
 index: y
 snippet: y
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '1444'
-ht-degree: 100%
+feature: Cookie
+topic: Amministrazione
+role: Amministratore
+level: Esperienza
+translation-type: tm+mt
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+workflow-type: tm+mt
+source-wordcount: '1447'
+ht-degree: 99%
 
 ---
 
