@@ -1,15 +1,15 @@
 ---
-description: '"Modernizza le tue soluzioni Adobe Analytics e Adobe Target per i servizi tra più soluzioni. Scopri come iniziare a utilizzare i servizi Experience Cloud."'
+description: Modernizza le tue soluzioni Adobe Analytics e Adobe Target per i servizi tra più soluzioni. Scopri come iniziare a utilizzare i servizi Experience Cloud.
 keywords: servizi di base;Attributi del cliente
 solution: Experience Cloud
-title: '"Abilitare le soluzioni per i servizi tra più soluzioni"'
+title: Abilitare le soluzioni per i servizi tra più soluzioni
 index: true
 feature: Attributi del cliente
 topic: Amministrazione
 role: Amministratore
 level: Esperienza
 translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: 042f7caed2f1bace05f59c6c2824c286a13934fe
 workflow-type: tm+mt
 source-wordcount: '2369'
 ht-degree: 98%
