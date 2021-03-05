@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 6eab2decc39f250d48e3355b8c63c5a0c868944c
 workflow-type: tm+mt
 source-wordcount: '542'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -101,7 +101,7 @@ Advertising Cloud utilizza i cookie per mappare gli eventi di coinvolgimento pub
   </tr> 
   <tr> 
    <td colname="col1"> <p>Scadenza </p> </td> 
-   <td colname="col2"> <p>I cookie impostati il 24 febbraio 2021 o versioni precedenti scadono dopo 730 giorni. I cookie impostati il 25 febbraio 2021 o versioni successive scadono dopo 364 giorni.</p> </td> 
+   <td colname="col2"> <p>I cookie impostati il 24 febbraio 2021 o prima scadono dopo 730 giorni. I cookie impostati a partire dal 25 febbraio 2021 scadono dopo 364 giorni.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Utilizzo </p> </td> 
