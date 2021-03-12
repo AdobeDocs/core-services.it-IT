@@ -7,12 +7,12 @@ uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
 feature: Libreria pubblico
 topic: Amministrazione
 role: Amministratore
-level: Esperienza
-translation-type: tm+mt
+level: Con esperienza
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '479'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -93,4 +93,4 @@ La regola risultante è un pubblico definito composto dagli utenti di Chrome e S
 
 Al termine della raccolta dei dati per il periodo specificato, i cerchi si combinano per mostrare un pubblico definito.
 
-Dopo il salvataggio, il pubblico è disponibile per altre soluzioni. Ad esempio, puoi includere un pubblico condiviso in un’attività Adobe Target.
+Dopo il salvataggio, il pubblico è disponibile per altre soluzioni. Ad esempio, puoi includere un pubblico condiviso in un’attività di Adobe Target.
