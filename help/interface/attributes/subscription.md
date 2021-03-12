@@ -1,18 +1,18 @@
 ---
 description: Scopri le origini di dati della soluzione e la configurazione delle sottoscrizioni. Le sottoscrizioni consentono il flusso di dati degli attributi del cliente tra Experience Cloud e le soluzioni (Analytics e Target).
-keywords: Attributi del cliente;servizi principali
+keywords: Attributi del cliente;servizi core
 solution: Experience Cloud
 title: 'Configurare gli abbonamenti '
 uuid: f74a8155-0a21-46b3-9b1e-4c838f72f24f
 feature: Attributi del cliente
 topic: Amministrazione
 role: Amministratore
-level: Esperienza
-translation-type: tm+mt
+level: Con esperienza
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '390'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
