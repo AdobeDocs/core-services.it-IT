@@ -7,12 +7,12 @@ description: Scopri come gestire la traduzione dei dati dei visitatori in segmen
 feature: Libreria pubblico
 topic: Amministrazione
 role: Amministratore
-level: Esperienza
-translation-type: tm+mt
+level: Con esperienza
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '819'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ La tabella seguente descrive come i tipi di pubblico vengono utilizzati nelle so
 | Aiuto con | Risorsa |
 |--- |--- |
 | Non riesci a trovare Pubblico? | Verifica di avere il provisioning. Consulta [Guida introduttiva: Abilitare le soluzioni per i servizi principali](../core-services/core-services.md).<br>Fai clic [qui](https://www.adobe.com/go/audiences) per richiedere l’accesso a Profili e pubblico (modulo di provisioning integrazioni). |
-| Casi di utilizzo | Per maggiori informazioni sulla soluzione da utilizzare, vai in [Opzioni di creazione pubblico](https://helpx.adobe.com/marketing-cloud-core/kb/People/Audience-Creation-Options.html) nella Knowledge Base. |
+| Casi di utilizzo | Per maggiori informazioni sulla soluzione da utilizzare, vai in [Opzioni di creazione pubblico](https://helpx.adobe.com/it/marketing-cloud-core/kb/People/Audience-Creation-Options.html) nella Knowledge Base. |
 | Forum | Il [forum di Audiences](https://forums.adobe.com/community/experience-cloud/platform/core-services/people-service/audiences) è un’ulteriore risorsa per ottenere aiuto sui tipi di pubblico. |
 
 ## Elementi dell&#39;interfaccia libreria di tipi di pubblico {#section_D04ACEF61CEF4B189AE6BA9F40D0DBF4}
