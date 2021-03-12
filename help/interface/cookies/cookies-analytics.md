@@ -7,12 +7,12 @@ uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
 feature: Cookie
 topic: Amministrazione
 role: Amministratore
-level: Esperienza
-translation-type: tm+mt
+level: Con esperienza
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '759'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
