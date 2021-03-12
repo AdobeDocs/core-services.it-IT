@@ -4,12 +4,12 @@ description: Come pubblicare un segmento di pubblico, o audience, di Adobe Analy
 feature: Libreria pubblico
 topic: Amministrazione
 role: Amministratore
-level: Esperienza
-translation-type: tm+mt
+level: Con esperienza
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '70'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
