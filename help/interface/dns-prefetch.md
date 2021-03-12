@@ -1,17 +1,17 @@
 ---
-description: Scopri come implementare il recupero preventivo del DNS per ridurre i tempi di caricamento delle pagine con diverse soluzioni e servizi in Experience Cloud.
+description: Scopri come implementare la prelettura del DNS per ridurre i tempi di caricamento delle pagine con diversi servizi e soluzioni in Experience Cloud.
 solution: Experience Cloud
 title: 'Utilizzo del recupero preventivo del DNS con diverse soluzioni e servizi '
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
-feature: '"Attributi del cliente, Libreria Pubblico, Admin Console"'
+feature: “Attributi del cliente, Libreria Pubblico, Admin Console”
 topic: Amministrazione
 role: Amministratore
-level: Esperienza
-translation-type: tm+mt
+level: Con esperienza
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '389'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
