@@ -1,18 +1,18 @@
 ---
 description: Scopri come convalidare lo schema di attributi cliente in Adobe Experience Cloud.
-keywords: Attributi del cliente;servizi Experience Cloud
+keywords: Attributi del cliente; servizi Experience Cloud
 solution: Experience Cloud
 title: 'Come convalidare lo schema di attributi cliente '
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
 feature: Attributi del cliente
 topic: Amministrazione
 role: Amministratore
-level: Esperienza
-translation-type: tm+mt
+level: Con esperienza
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '474'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
