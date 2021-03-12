@@ -6,19 +6,19 @@ uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 feature: Risorse
 topic: Amministrazione
 role: Amministratore
-level: Esperienza
-translation-type: tm+mt
+level: Con esperienza
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '336'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
 
 # Panoramica delle risorse di Experience Cloud
 
-Il servizio di base Experience Cloud Assets fornisce un archivio unico e centralizzato di risorse pronte per le attività di marketing da condividere tra le diverse soluzioni. Una risorsa è un documento, un’immagine, un video o dell’audio digitale (o parte di essi) che può avere più rappresentazioni e risorse secondarie (ad esempio, livelli in un file [!DNL Photoshop], slide in un file [!DNL PowerPoint], pagine in un file PDF e file in un file ZIP).
+Il servizio di base Experience Cloud Assets fornisce un archivio unico e centralizzato di risorse pronte per le attività di marketing da condividere tra le diverse soluzioni. Una risorsa è un documento, un’immagine, un video o un file audio (o parte di essi) che può avere più rappresentazioni e risorse secondarie (ad esempio, livelli in un file [!DNL Photoshop], slide in un file [!DNL PowerPoint], pagine in un PDF e file in un file ZIP).
 
 I servizi delle risorse includono:
 
@@ -68,7 +68,7 @@ La modifica di una risorsa abilita funzionalità quali:
 
 ## Cercare risorse {#section_50FE049010B446FC9640AA6A30E5A730}
 
-È possibile eseguire ricerche per parola chiave, tipo di file, dimensioni, ultima modifica, stato di pubblicazione, orientamento e stile.
+Puoi cercare per parola chiave, tipo di file, dimensione, ultima modifica, stato di pubblicazione, orientamento e stile.
 
 ![](assets/asset-search.png)
 
