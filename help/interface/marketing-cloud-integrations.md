@@ -7,12 +7,12 @@ uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
 feature: Admin Console
 topic: Amministrazione
 role: Amministratore
-level: Esperienza
-translation-type: tm+mt
+level: Con esperienza
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1516'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -38,13 +38,13 @@ Soluzioni o servizi:
 * Activation - Experience Platform Launch (consigliato) o Dynamic Tag Management
 * Analytics
 * Target
-* [Servizio Experience Cloud ID](https://docs.adobe.com/content/help/en/id-service/using/home.html)
+* [Servizio Experience Cloud ID](https://docs.adobe.com/content/help/it-IT/id-service/using/home.html)
 
 ## Servizio Experience Cloud ID {#section_6ECCCFA2D84D4D4F88C879C799CA9D78}
 
 Il servizio ID fornisce un ID universale e costante che identifica i visitatori in tutte le soluzioni Experience Cloud. Può sostituire il codice di generazione ID per servizi come Analytics, Audience Manager, Adobe Target, video heartbeat e altre soluzioni o funzionalità di Experience Cloud.
 
-Consulta il [Servizio Experience Cloud ID](https://docs.adobe.com/content/help/en/id-service/using/home.html)
+Consulta il [Servizio Experience Cloud ID](https://docs.adobe.com/content/help/it-IT/id-service/using/home.html)
 
 **Soluzioni o servizi applicabili**
 
@@ -143,11 +143,11 @@ Integra Adobe Target con Adobe Analytics e altre soluzioni Experience Cloud per 
 
 **Soluzioni o servizi applicabili**
 
-* Attributi del cliente: configurare la [sottoscrizione](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html) di Adobe Target per gli attributi del cliente
-* Experience Cloud Audiences: [Libreria di pubblico di Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)
+* Attributi del cliente: configurare la [sottoscrizione](https://docs.adobe.com/content/help/it-IT/core-services/interface/customer-attributes/subscription.html) di Adobe Target per gli attributi del cliente
+* Experience Cloud Audiences: [Libreria di pubblico di Experience Cloud](https://docs.adobe.com/content/help/it-IT/core-services/interface/audiences/audience-library.html)
 * Analytics: [Adobe Analytics come sorgente di reporting per Adobe Target](https://docs.adobe.com/content/help/it-IT/target/using/integrate/a4t/a4t.html)
 * Dynamic Tag Management: [Procedure consigliate per l&#39;implementazione di Adobe Target tramite DTM](https://docs.adobe.com/content/help/it-IT/dtm/implementing/overview.html)
-* Audience Manager: [Integrazione dei dati di Adobe Target con Adobe Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
+* Audience Manager: [Integrazione dei dati di Adobe Target con Adobe Audience Manager](https://docs.adobe.com/content/help/it-IT/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
 * Campaign: [Integrazione di Adobe Target con Campaign](https://docs.adobe.com/content/help/it-IT/target/using/integrate/campaign-and-target.html)
 
 ## Integrazioni di Experience Manager {#section_32FB010EF8B4429FBC63C8DC2A9BE98F}
@@ -180,7 +180,7 @@ Sincronizza le tue risorse in Adobe Experience Manager (AEM) Assets con Adobe Cr
 
 * AEM
 * Creative Cloud
-* [Experience Cloud](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud.html)
+* [Experience Cloud](https://helpx.adobe.com/it/experience-manager/6-2/sites/administering/using/marketing-cloud.html)
 
 ## Advertising Cloud {#section_9B1935F8BBC147C89C6DB68A35CB1BAB}
 
@@ -190,9 +190,9 @@ Guida (accesso richiesto): [integrazione con le soluzioni e i servizi di Adobe E
 
 **Analytics:** può inviare giornalmente i dati su conversione e frequentazione del sito a Media Optimizer, dove i dati sono disponibili per le attività di report e di ottimizzazione degli annunci. Media Optimizer può inoltre inviare quotidianamente i dati relativi al traffico generato da motori di ricerca e social network ad Analytics, dove i dati sono disponibili per la creazione di report nelle funzionalità di reporting e analisi, Report Builder e Ad Hoc Analysis.
 
-**Dynamic Tag Manager:** puoi [utilizzare Dynamic Tag Manager per creare tag di tracciamento conversione basati su pixel di Media Optimizer](https://docs.adobe.com/content/help/en/dtm/using/tools/media-optimizer.html), oltre a tag di tracciamento di terze parti, per le pagine di destinazione di ricerca, social e annunci di visualizzazione (puoi anche creare tag Media Optimizer direttamente in Media Optimizer).
+**Dynamic Tag Manager:** puoi [utilizzare Dynamic Tag Manager per creare tag di tracciamento conversione basati su pixel di Media Optimizer](https://docs.adobe.com/content/help/it-IT/dtm/using/tools/media-optimizer.html), oltre a tag di tracciamento di terze parti, per le pagine di destinazione di ricerca, social e annunci di visualizzazione (puoi anche creare tag Media Optimizer direttamente in Media Optimizer).
 
-**Experience Cloud Audiences:** (inserzionisti con gestione della visualizzazione) puoi utilizzare uno qualsiasi dei [tipi di pubblico Adobe Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) come target degli annunci di visualizzazione. Puoi utilizzare automaticamente i tipi di pubblico creati in Adobe Experience Cloud e i tipi di pubblico di Analytics pubblicati in Adobe Experience Cloud, e puoi utilizzare i tipi di pubblico di Audience Manager quando l&#39;account Media Optimizer è configurato per consentirlo. Contatta l&#39;account manager per ulteriori informazioni sull&#39;accesso ad Adobe Experience Cloud, sui Profili, sui tipi di pubblico e sulla configurazione iniziale tra Media Optimizer e Adobe Experience Cloud Audiences. **Nota:** se utilizzi anche Adobe Target, qualsiasi tipo di pubblico condiviso su Adobe Experience Cloud è disponibile anche per le attività in Adobe Target.
+**Experience Cloud Audiences:** (inserzionisti con gestione della visualizzazione) puoi utilizzare uno qualsiasi dei [tipi di pubblico Adobe Experience Cloud](https://docs.adobe.com/content/help/it-IT/core-services/interface/audiences/audience-library.html) come target degli annunci di visualizzazione. Puoi utilizzare automaticamente i tipi di pubblico creati in Adobe Experience Cloud e i tipi di pubblico di Analytics pubblicati in Adobe Experience Cloud, e puoi utilizzare i tipi di pubblico di Audience Manager quando l&#39;account Media Optimizer è configurato per consentirlo. Contatta l&#39;account manager per ulteriori informazioni sull&#39;accesso ad Adobe Experience Cloud, sui Profili, sui tipi di pubblico e sulla configurazione iniziale tra Media Optimizer e Adobe Experience Cloud Audiences. **Nota:** se utilizzi anche Adobe Target, qualsiasi tipo di pubblico condiviso su Adobe Experience Cloud è disponibile anche per le attività in Adobe Target.
 
 **Experience Cloud Assets:** (inserzionisti con gestione della visualizzazione) puoi utilizzare una qualsiasi delle risorse Adobe Experience Cloud come base per la creazione dei tuoi annunci di visualizzazione, utilizzando la nuova vista Display Beta. Devi [aver effettuato l&#39;accesso a Media Optimizer tramite Adobe Experience Cloud](https://enterprise-test.efrontier.com/CMDashboard/help/internal/getting_started/t_log_in_from_adobe_marketing_cloud.htm) per accedere alle risorse di Adobe Experience Cloud. Contatta il tuo account manager per sapere come effettuare l&#39;accesso ad Adobe Experience Cloud.
 
