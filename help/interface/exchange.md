@@ -4,15 +4,15 @@ keywords: servizi di base
 solution: Experience Cloud
 title: 'Marketplace di Exchange '
 uuid: 73db5cc5-5fb2-43a2-a164-5cbca9e9a206
-feature: '"Attributi del cliente, Libreria Pubblico, Admin Console"'
+feature: “Attributi del cliente, Libreria Pubblico, Admin Console”
 topic: Amministrazione
 role: Amministratore
-level: Esperienza
-translation-type: tm+mt
+level: Con esperienza
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '143'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
