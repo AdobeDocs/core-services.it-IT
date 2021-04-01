@@ -6,10 +6,10 @@ user-guide-description: Scopri come gestire utenti e prodotti in Adobe Experienc
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 56301935a3f3e20633294d29cc01e4bcfb7924d5
+source-git-commit: b466cffbbb37eec39266d90cb6a849562d608cd9
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 100%
+source-wordcount: '381'
+ht-degree: 98%
 
 ---
 
@@ -22,19 +22,19 @@ ht-degree: 100%
    + [Abilitare l’implementazione per i servizi tra più soluzioni](core-services/core-services.md)
    + [Mappatura di suite di rapporti per un&#39;organizzazione](core-services/report-suite-mapping.md)
    + [Informazioni sui nuovi nomi cloud in Experience Cloud](solutions-core-services.md)
-+ [Integrazioni di Experience Cloud](marketing-cloud-integrations.md)
++ [Integrazioni Experience Cloud](marketing-cloud-integrations.md)
 + Cookie di Experience Cloud {#ec-cookies}
    + [Panoramica sui cookie di Experience Cloud](cookies/cookies-privacy.md)
    + [Cookie di prime parti in Experience Cloud](cookies/cookies-first-party.md)
    + [Cookie di Analytics](cookies/cookies-analytics.md)
    + [Cookie di Audience Manager](cookies/cookies-am.md)
-   + [Cookie di [!UICONTROL Data Connectors]](cookies/cookies-dc.md)
-   + [Cookie di [!UICONTROL Data Workbench]](cookies/cookies-insight.md)
+   + Cookie di [[!UICONTROL Data Connectors]](cookies/cookies-dc.md)
+   + Cookie di [[!UICONTROL Data Workbench]](cookies/cookies-insight.md)
    + [Cookie di Experience Cloud](cookies/cookies-mc.md)
    + [Cookie di Advertising Cloud](cookies/cookies-advertising-cloud.md)
-   + [Cookie di [!DNL Scene7] ](cookies/cookies-s7.md)
-   + [Cookie di [!DNL Search and Promote] ](cookies/cookies-snp.md)
-   + [Cookie di [!DNL Target] ](cookies/cookies-target.md)
+   + Cookie di [[!DNL Scene7] ](cookies/cookies-s7.md)
+   + Cookie di [[!DNL Search and Promote] ](cookies/cookies-snp.md)
+   + Cookie di [[!DNL Target] ](cookies/cookies-target.md)
    + [Abilitazione delle impostazioni della privacy per i cookie del browser](cookies/browser-cookie-settings.md)
    + [Effetti delle modifiche al supporto dei cookie di terze parti sui clienti](cookies/cookies-thirdparty.md)
 + Gestione di utenti e prodotti {#manage-users-and-products}
@@ -63,8 +63,8 @@ ht-degree: 100%
    + [Creazione di un pubblico](audience-library/t-audience-create.md)
    + [Pubblicazione di un segmento di pubblico di Analytics](audience-library/t-publish-audience-segment.md)
 + Attributi del cliente di Experience Cloud {#customer-attributes}
-   + [Attributi del cliente in Adobe Experience Cloud](attributes/attributes.md)
-   + [Domande frequenti, limitazioni e best practice](attributes/faq-crs.md)
+   + [Panoramica degli attributi del cliente](attributes/attributes.md)
+   + [Domande frequenti sugli attributi del cliente](attributes/faq-crs.md)
    + [Informazioni su file di dati e origini dati per Attributi del cliente](attributes/crs-data-file.md)
    + [Creazione di una sorgente attributo cliente e caricamento del file di dati](attributes/t-crs-usecase.md)
    + [Facoltativo - Caricamento del file dati tramite FTP](attributes/t-upload-attributes-ftp.md)
@@ -73,14 +73,12 @@ ht-degree: 100%
    + [Aggiornamento dello schema](attributes/t-update-schema.md)
    + [Supporto per il regolamento generale sulla protezione dei dati](attributes/gdpr.md)
    + [Supporto per il California Consumer Privacy Act](attributes/ccpa.md)
-   + [Considerazioni sulla privacy - Attributi del cliente](attributes/privacy-mac.md)
+   + [Considerazioni sulla privacy per Attributi del cliente](attributes/privacy-mac.md)
 + Note sulla versione di Experience Cloud {#release-notes}
    + [Novità in Experience Cloud](https://docs.adobe.com/content/help/it-IT/release-notes/experience-cloud/current.html)
    + [Note sulla versione cumulativa](marketing-cloud-interface/release-notes.md)
-+ [Marketplace di Exchange](exchange.md)
-+ [Mobile Services](https://docs.adobe.com/content/help/it-IT/mobile-services/using/home.html)
 + Altre risorse {#more-resources}
    + [Forum](https://forums.adobe.com/community/experience-cloud)
    + [Terminologia](terms.md)
    + [Utilizzo del recupero preventivo del DNS con diverse soluzioni e servizi](dns-prefetch.md)
-   + [Aggiornamenti documentazione - Experience Cloud](doc-updates.md)
+   + [Aggiornamenti alla documentazione](doc-updates.md)
