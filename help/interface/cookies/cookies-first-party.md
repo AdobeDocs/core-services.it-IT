@@ -9,11 +9,11 @@ feature: Cookie
 topic: Amministrazione
 role: Amministratore
 level: Con esperienza
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '1447'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: f67e207cb130ee057471d3fc13845f1df66376b6
+workflow-type: tm+mt
+source-wordcount: '1444'
+ht-degree: 95%
 
 ---
 
@@ -29,7 +29,9 @@ Per implementare i cookie di prime parti sono disponibili due opzioni:
 * Servizio ID di Experience Platform. Il servizio ID può impostare il cookie nella prima parte utilizzando JavaScript.
 * Le voci DNS nel server DNS della società per configurare un alias CNAME in un dominio ospitato da Adobe. Sebbene diversi prodotti Adobe supportino l’uso di un CNAME, in tutti i casi questo viene utilizzato per creare un endpoint di prima parte affidabile per un cliente specifico e rimane di proprietà di tale cliente. Se il cliente controlla più domini, può sfruttare un singolo endpoint CNAME per monitorare gli utenti nei loro domini, ma poiché questo richiede l’uso di cookie di terze parti per tutti i domini al di fuori di quello specifico di CNAME, l’endpoint non funzionerà se i cookie di terze parti sono bloccati e pertanto non è consigliato. I CNAME Adobe non vengono mai utilizzati per monitorare un singolo o un dispositivo tra domini diversi che sono di proprietà di clienti differenti.
 
-Persino quando si utilizza la prima opzione con il servizio Experience Cloud ID, l’ITP di Apple renderà di breve durata i cookie di prime parti, dunque è preferibile utilizzarlo con la seconda opzione.
+>[!NOTE]
+>
+>Per entrambe le opzioni, il programma ITP (Intelligent Tracking Prevention) di Apple renderà i cookie di prime parti di breve durata sui browser che sono governati da ITP, che includono Safari su MacOS e tutti i browser su iOS e iPadOS. A partire da novembre 2020, entrambi i tipi di cookie hanno una scadenza di sette giorni. Questa scadenza è soggetta a modifiche.
 
 Per la seconda opzione che utilizza un CNAME, se il tuo sito dispone di pagine sicure con protocollo HTTPS, puoi lavorare con Adobe per ottenere un certificato SSL che ti consenta di implementare i cookie di prime parti. Adobe consiglia vivamente di utilizzare esclusivamente HTTPS per la raccolta dei dati, in quanto il supporto per la raccolta HTTP verrà eliminato nella seconda metà del 2020.
 
@@ -94,7 +96,7 @@ Fintanto che il codice di implementazione non viene modificato, questo passaggio
 
 >[!NOTE]
 >
->Il servizio ID visitatori di Experience Cloud fornisce un’alternativa alla configurazione di un CNAME per abilitare i cookie di prime parti. Tuttavia, a causa delle recenti modifiche dell’ITP Apple, è comunque consigliabile allocare un CNAME persino quando si utilizza il servizio Experience Cloud ID.
+>Il servizio ID visitatore di Experience Cloud fornisce un’alternativa alla configurazione di un CNAME per abilitare i cookie di prime parti.
 
 ## Convalida dell’inoltro nome host {#validate}
 
