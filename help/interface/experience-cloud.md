@@ -4,14 +4,14 @@ keywords: Servizi Adobe Experience Cloud, attributi cliente, pubblico, amministr
 solution: Experience Cloud
 title: 'Servizi e amministrazione di Experience Cloud '
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-feature: “Attributi del cliente, Libreria Pubblico, Admin Console”
+feature: '"Attributi del cliente"'
 topic: Amministrazione
 role: Amministratore
 level: Con esperienza
 translation-type: tm+mt
-source-git-commit: b466cffbbb37eec39266d90cb6a849562d608cd9
+source-git-commit: ea8f36313940d7c5c12d753084a4fb8d0a4379bc
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '443'
 ht-degree: 98%
 
 ---
