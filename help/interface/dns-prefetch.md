@@ -3,14 +3,14 @@ description: Scopri come implementare la prelettura del DNS per ridurre i tempi 
 solution: Experience Cloud
 title: 'Utilizzo del recupero preventivo del DNS con diverse soluzioni e servizi '
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
-feature: “Attributi del cliente, Libreria Pubblico, Admin Console”
+feature: Attributi del cliente
 topic: Amministrazione
 role: Amministratore
 level: Con esperienza
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '389'
+translation-type: tm+mt
+source-git-commit: ea8f36313940d7c5c12d753084a4fb8d0a4379bc
+workflow-type: tm+mt
+source-wordcount: '385'
 ht-degree: 100%
 
 ---
