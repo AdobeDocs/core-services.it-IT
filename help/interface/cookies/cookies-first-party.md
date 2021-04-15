@@ -7,16 +7,16 @@ index: y
 snippet: y
 feature: Cookie
 topic: Amministrazione
-role: Amministratore
-level: Con esperienza
+role: Administrator
+level: Experienced
+exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
 translation-type: tm+mt
-source-git-commit: 04f23f3b36b246aa1fe6d672aaeef1dc9140ef3a
+source-git-commit: 4e3d6e605df4d1861f1dffb4cde5311eea283ee3
 workflow-type: tm+mt
-source-wordcount: '1444'
-ht-degree: 95%
+source-wordcount: '1499'
+ht-degree: 86%
 
 ---
-
 
 # Informazioni sui cookie di prime parti
 
@@ -49,23 +49,25 @@ Il programma di certificazione gestito di Adobe consente di implementare un nuov
 
 Per implementare un nuovo certificato SSL di prima parte per i cookie di prime parti:
 
-1. Compila il [modulo di richiesta dei cookie di prime parti](/help/interface/cookies/assets/FPC_Request_Form.xlsx) e apri un ticket con l’Assistenza clienti per richiedere la configurazione dei cookie di prime parti nel programma gestito da Adobe. Ogni campo è descritto all’interno del documento con esempi.
+1. Compila il [modulo di richiesta dei cookie di prime parti](/help/interface/cookies/assets/First_Part_Domain_Request_Form.xlsx) e apri un ticket con l’Assistenza clienti per richiedere la configurazione dei cookie di prime parti nel programma gestito da Adobe. Ogni campo è descritto all’interno del documento con esempi.
 
-1. Crea record CNAME (consulta le istruzioni riportate di seguito).
+2. Crea record CNAME (consulta le istruzioni riportate di seguito).
 
-   Quando ricevi il ticket, un rappresentante dell’assistenza clienti ti fornirà una coppia di record CNAME. Questi record devono essere configurati sul server DNS della tua azienda per consentire ad Adobe di acquistare il certificato per conto tuo. I CNAME avranno un aspetto simile a quanto segue:
+   Dopo aver ricevuto il ticket, un rappresentante dell’Assistenza clienti deve fornirti un record CNAME. Questi record devono essere configurati sul server DNS della tua azienda per consentire ad Adobe di acquistare il certificato per conto tuo. Il CNAME sarà simile al seguente:
 
-   **Protetto**: ad esempio, il nome host `smetrics.example.com` punta a: `example.com.ssl.d1.omtrdc.net`.
+   **Protetto**: ad esempio, il nome host `smetrics.example.com` punta a: `example.com.adobedc.net`.
 
-   **Non protetto**: ad esempio, il nome host `metrics.example.com` punta a: `example.com.d1.omtrdc.net`.
+>[!NOTE]
+> In passato consigliamo ai clienti di impostare due CNAME uno per HTTPS e uno per HTTP. Poiché è buona prassi crittografare il traffico e la maggior parte dei browser scoraggia fortemente HTTP, si sconsiglia più di impostare un CNAME per HTTP. Se necessario, sarà così:
+>    **Non protetto** — il nome host `metrics.example.com` punta a: `example.com.adobedc.net`.
 
-1. Quando questi CNAME diventano attivi, Adobe collabora con DigiCert per acquistare e installare un certificato sui server di produzione di Adobe.
+1. Quando il CNAME è attivo, Adobe collabora con DigiCert per acquistare e installare un certificato sui server di produzione di Adobe.
 
    Se disponi già di un’implementazione, prendi in considerazione Migrazione visitatori per mantenere i visitatori esistenti. Dopo il push live del certificato all’ambiente di produzione di Adobe, potrai aggiornare le variabili del server di tracciamento con i nuovi nomi host. Ciò significa che, se il sito non è protetto (HTTP), devi aggiornare `s.trackingServer`. Se il sito è protetto (HTTPS), aggiorna sia la variabile `s.trackingServer` che la variabile `s.trackingServerSecure`.
 
-1. [Convalida dell’inoltro nome host](#validate) (vedi di seguito).
+2. [Convalida dell’inoltro nome host](#validate) (vedi di seguito).
 
-1. [Aggiorna il codice di implementazione](#update) (vedi di seguito).
+3. [Aggiorna il codice di implementazione](#update) (vedi di seguito).
 
 ### Manutenzione e rinnovi
 
@@ -76,7 +78,7 @@ I certificati SSL scadono ogni anno, il che significa che Adobe deve acquistare 
 | Domanda | Risposta |
 |---|---|
 | **Il processo è sicuro?** | Sì, il programma gestito da Adobe è più sicuro del metodo legacy, in quanto nessun certificato o chiave privata vengono trasmessi al di fuori di Adobe e dell’autorità di certificazione emittente. |
-| **In che modo Adobe può acquistare un certificato per il mio dominio?** | Il certificato può essere acquistato solo dopo aver puntato il nome host specificato (ad esempio `smetrics.example.com`) a un nome host di proprietà di Adobe. In pratica questo nome host viene delegato ad Adobe e consente ad Adobe di acquistare il certificato a tuo nome. |
+| **In che modo Adobe può acquistare un certificato per il mio dominio?** | Il certificato può essere acquistato solo dopo aver puntato il nome host specificato (ad esempio `telemetry.example.com`) a un nome host di proprietà di Adobe. In pratica questo nome host viene delegato ad Adobe e consente ad Adobe di acquistare il certificato a tuo nome. |
 | **Posso richiedere la revoca del certificato?** | Sì, come proprietario del dominio, hai diritto di richiedere la revoca del certificato. Per completare il processo, dovrai solo aprire un ticket con l’Assistenza clienti. |
 | **Il certificato utilizzerà la cifratura SHA-2?** | Sì, Adobe collaborerà con DigiCert per emettere un certificato SHA-2. |
 | **Sono previsti costi aggiuntivi?** | No, Adobe offre questo servizio a tutti i clienti attuali di Analytics senza costi aggiuntivi. |
@@ -85,12 +87,16 @@ I certificati SSL scadono ogni anno, il che significa che Adobe deve acquistare 
 
 Il team che gestisce la rete della tua organizzazione deve configurare i server DNS creando nuovi record CNAME. Ciascun nome host comunica i dati ai server di raccolta dati di Adobe.
 
-Lo specialista FPC fornisce i nomi host configurati e i CNAME a cui devono essere puntati. Ad esempio:
+Lo specialista FPC fornisce il nome host configurato e a quale CNAME devono essere puntati. Ad esempio:
 
 * **Nome host SSL**: `smetrics.mysite.com`
-* **CNAME SSL**: `mysite.com.ssl.sc.omtrdc.net`
-* **Nome host non SSL**: `metrics.mysite.com`
-* **CNAME non SSL**: `mysite.com.sc.omtrdc.net`
+* **CNAME SSL**: `mysite.com.adobedc.net`
+
+>[!NOTE]
+> Se utilizzi ancora non protetto , il sarà simile al seguente.
+> * **Nome host non SSL**: `metrics.mysite.com`
+> * **CNAME non SSL**: `mysite.com.adobedc.net`
+
 
 Fintanto che il codice di implementazione non viene modificato, questo passaggio non influisce sulla raccolta dei dati e può essere eseguito in qualsiasi momento dopo l’aggiornamento del codice di implementazione.
 
@@ -106,7 +112,7 @@ Per la convalida sono disponibili i seguenti metodi:
 
 Se hai configurato un CNAME e hai installato il certificato, puoi utilizzare il browser per la convalida:
 
-`https://sstats.adobe.com/_check`
+`https://smetrics.adobe.com/_check`
 
 >[!NOTE]
 >
@@ -117,27 +123,27 @@ Se hai configurato un CNAME e hai installato il certificato, puoi utilizzare il 
 Adobe consiglia di utilizzare [[!DNL curl]](https://curl.haxx.se/) dalla riga di comando. Gli utenti [!DNL Windows] possono eseguire l’installazione di [!DNL curl] da: <https://curl.haxx.se/windows/>
 
 Se disponi di un CNAME ma non è installato alcun certificato, esegui:
-`curl -k https://sstats.adobe.com/_check`
+`curl -k https://smetrics.adobe.com/_check`
 Risposta: `SUCCESS`
 
 Il valore `-k` disattiva l’avviso di protezione.
 
 Se hai configurato un CNAME e il certificato è installato, esegui:
-`curl https://sstats.adobe.com/_check`
+`curl https://smetrics.adobe.com/_check`
 Risposta: `SUCCESS`
 
 ### Convalida tramite [!DNL nslookup]
 
-È possibile utilizzare `nslookup` per la convalida. Utilizzando `sstats.adobe.com` come esempio, apri un prompt dei comandi e digita `nslookup sstats.adobe.com`
+È possibile utilizzare `nslookup` per la convalida. Utilizzando `smetrics.adobe.com` come esempio, apri un prompt dei comandi e digita `nslookup smetrics.adobe.com`
 
 Se tutto è configurato correttamente, verrà visualizzata una restituzione simile a:
 
 ```
-nslookup sstats.adobe.com
+nslookup smetrics.adobe.com
 Server:             10.30.7.247
 Address:     10.30.7.247#53
 
-sstats.adobe.com    canonical name = adobe.com.ssl.d1.sc.omtrdc.net.
+smetrics.adobe.com    canonical name = adobe.com.ssl.d1.sc.omtrdc.net.
 Name:  adobe.com.ssl.d1.sc.omtrdc.net
 Address: 54.218.180.161
 Name:  adobe.com.ssl.d1.sc.omtrdc.net
