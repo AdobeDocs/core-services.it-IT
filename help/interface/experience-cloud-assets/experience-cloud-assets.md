@@ -5,18 +5,22 @@ title: Panoramica delle risorse
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 feature: Risorse
 topic: Amministrazione
-role: Amministratore
-level: Con esperienza
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '336'
-ht-degree: 100%
+role: Administrator
+level: Experienced
+exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
+translation-type: tm+mt
+source-git-commit: e8fa9e9dc4de694d37012f6fb45eb8d3527d49f5
+workflow-type: tm+mt
+source-wordcount: '343'
+ht-degree: 97%
 
 ---
 
+# Panoramica di Experience Cloud Assets
 
-# Panoramica delle risorse di Experience Cloud
+>[!NOTE]
+>
+>Assets è un servizio di base legacy, ora in fase di manutenzione.
 
 Il servizio di base Experience Cloud Assets fornisce un archivio unico e centralizzato di risorse pronte per le attività di marketing da condividere tra le diverse soluzioni. Una risorsa è un documento, un’immagine, un video o un file audio (o parte di essi) che può avere più rappresentazioni e risorse secondarie (ad esempio, livelli in un file [!DNL Photoshop], slide in un file [!DNL PowerPoint], pagine in un PDF e file in un file ZIP).
 
