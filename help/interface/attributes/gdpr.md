@@ -1,10 +1,10 @@
 ---
 title: 'Supporto per gli attributi del cliente per il regolamento generale sulla protezione dei dati '
 description: Scopri come sono supportati gli attributi cliente per il Regolamento generale sulla protezione dei dati
-feature: Attributi del cliente
-topic: Amministrazione
-role: Amministratore
-level: Con esperienza
+feature: Customer Attributes
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

@@ -2,10 +2,10 @@
 description: Come eliminare e sostituire gli attributi nello schema in Adobe Experience Cloud.
 title: 'Aggiornare lo schema (eliminare un attributo) '
 uuid: a465fa89-6c7f-4c07-aa59-84c968a82917
-feature: Attributi del cliente
-topic: Amministrazione
-role: Amministratore
-level: Con esperienza
+feature: Customer Attributes
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

@@ -4,10 +4,10 @@ keywords: cookie;privacy
 solution: Experience Cloud, Analytics, Target
 title: 'Cookie dei Data Connectors '
 uuid: 5d27ba66-e640-4513-befc-69e8502de941
-feature: Cookie
-topic: Amministrazione
-role: Amministratore
-level: Con esperienza
+feature: Cookies
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

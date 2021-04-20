@@ -4,10 +4,10 @@ keywords: servizi di base
 solution: Experience Cloud
 title: 'Marketplace di Exchange '
 uuid: 73db5cc5-5fb2-43a2-a164-5cbca9e9a206
-feature: '"Attributi del cliente"'
-topic: Amministrazione
-role: Amministratore
-level: Con esperienza
+feature: "Customer Attributes"
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: ea8f36313940d7c5c12d753084a4fb8d0a4379bc
 workflow-type: tm+mt

@@ -3,11 +3,11 @@ description: Scopri i requisiti e cosa aspettarsi dall’aggiornamento ad Analyt
 keywords: Aggiornamento ad Adobe Analytics Premium
 solution: Experience Cloud
 title: 'Aggiornamento ad Analytics Premium ed Experience Cloud '
-topic: Amministrazione
+topic: Administration
 uuid: 450a601c-d199-4e90-b525-19bd9f9576d2
 feature: Admin Console
-role: Amministratore
-level: Con esperienza
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

@@ -4,10 +4,10 @@ keywords: Attributi del cliente;servizi core
 solution: Experience Cloud
 title: 'Creazione di una sorgente attributo cliente e caricamento del file di dati '
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
-feature: Attributi del cliente
-topic: Amministrazione
-role: Amministratore
-level: Con esperienza
+feature: Customer Attributes
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

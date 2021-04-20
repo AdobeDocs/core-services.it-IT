@@ -4,10 +4,10 @@ keywords: Attributi del cliente
 solution: Experience Cloud
 title: 'Risposte alle domande frequenti su Attributi del cliente '
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
-feature: Attributi del cliente
-topic: Amministrazione
-role: Amministratore
-level: Con esperienza
+feature: Customer Attributes
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: b466cffbbb37eec39266d90cb6a849562d608cd9
 workflow-type: tm+mt

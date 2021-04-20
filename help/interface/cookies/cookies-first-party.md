@@ -5,8 +5,8 @@ solution: Experience Cloud,Analytics
 title: '"Cookie di prime parti "'
 index: y
 snippet: y
-feature: Cookie
-topic: Amministrazione
+feature: Cookies
+topic: Administration
 role: Administrator
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e

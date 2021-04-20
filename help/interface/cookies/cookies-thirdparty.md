@@ -4,10 +4,10 @@ keywords: cookie;privacy
 solution: Experience Cloud,Analytics,Target
 title: 'Modifiche al supporto dei cookie di terze parti e impatto sui clienti '
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
-feature: Cookie
-topic: Amministrazione
-role: Amministratore
-level: Con esperienza
+feature: Cookies
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

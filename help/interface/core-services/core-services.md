@@ -4,10 +4,10 @@ keywords: servizi core; Attributi del cliente
 solution: Experience Cloud
 title: Abilita le soluzioni per i servizi tra più soluzioni
 index: true
-feature: Attributi del cliente
-topic: Amministrazione
-role: Amministratore
-level: Con esperienza
+feature: Customer Attributes
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: ht
 source-git-commit: 042f7caed2f1bace05f59c6c2824c286a13934fe
 workflow-type: ht
