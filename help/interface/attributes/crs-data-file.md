@@ -4,18 +4,18 @@ keywords: Attributi del cliente;servizi core
 solution: Experience Cloud
 title: 'Scopri come usare file e sorgenti dati per Attributi del cliente '
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
-feature: Customer Attributes
-topic: Administration
+feature: Attributi del cliente
+topic: Amministrazione
 role: Administrator
 level: Experienced
+exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
 translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
 workflow-type: ht
-source-wordcount: '1205'
+source-wordcount: '1203'
 ht-degree: 100%
 
 ---
-
 
 # Informazioni su file di dati e origini dati per Attributi del cliente
 
