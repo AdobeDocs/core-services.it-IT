@@ -5,16 +5,16 @@ solution: Experience Cloud,Analytics
 title: '"Cookie di prime parti "'
 index: y
 snippet: y
-feature: Cookies
-topic: Administration
+feature: Cookie
+topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
 translation-type: tm+mt
 source-git-commit: 4e3d6e605df4d1861f1dffb4cde5311eea283ee3
 workflow-type: tm+mt
-source-wordcount: '1499'
-ht-degree: 86%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ Per implementare i cookie di prime parti sono disponibili due opzioni:
 
 >[!NOTE]
 >
->Per entrambe le opzioni, il programma ITP (Intelligent Tracking Prevention) di Apple renderà i cookie di prime parti di breve durata sui browser che sono governati da ITP, che includono Safari su MacOS e tutti i browser su iOS e iPadOS. A partire da novembre 2020, entrambi i tipi di cookie hanno una scadenza di sette giorni. Questa scadenza è soggetta a modifiche.
+>Per entrambe le opzioni, il programma ITP (Intelligent Tracking Prevention) di Apple renderà i cookie di prime parti di breve durata sui browser che sono governati da ITP, che includono Safari su macOS e tutti i browser su iOS e iPadOS. A partire da novembre 2020, entrambi i tipi di cookie scadono dopo sette giorni. Questa scadenza è soggetta a modifiche.
 
 Per la seconda opzione che utilizza un CNAME, se il tuo sito dispone di pagine sicure con protocollo HTTPS, puoi lavorare con Adobe per ottenere un certificato SSL che ti consenta di implementare i cookie di prime parti. Adobe consiglia vivamente di utilizzare esclusivamente HTTPS per la raccolta dei dati, in quanto il supporto per la raccolta HTTP verrà eliminato nella seconda metà del 2020.
 
