@@ -7,17 +7,17 @@ solution: Experience Cloud
 title: 'Panoramica degli Triggers '
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
 feature: Admin Console
-topic: Administration
+topic: Amministrazione
 role: Administrator
 level: Experienced
+exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
 translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
 workflow-type: ht
-source-wordcount: '678'
+source-wordcount: '676'
 ht-degree: 100%
 
 ---
-
 
 # Triggers
 
