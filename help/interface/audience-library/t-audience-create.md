@@ -4,18 +4,18 @@ keywords: servizi di base
 solution: Experience Cloud
 title: 'Creazione di un pubblico '
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
-feature: Audience Library
-topic: Administration
+feature: Libreria pubblico
+topic: Amministrazione
 role: Administrator
 level: Experienced
+exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
 translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
 workflow-type: ht
-source-wordcount: '479'
+source-wordcount: '477'
 ht-degree: 100%
 
 ---
-
 
 # Creazione di un pubblico
 
