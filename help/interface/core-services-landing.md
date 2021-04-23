@@ -2,18 +2,18 @@
 description: Scopri la gestione di prodotti e utenti Adobe Experience Cloud, People (tipi di pubblico e attributi del cliente), Journey Orchestration, Offerte, Places, Experience Platform Launch e Mobile Services.
 solution: Experience Cloud
 title: 'Panoramica dei servizi Experience Cloud '
-feature: Customer Attributes
-topic: Administration
+feature: Attributi del cliente
+topic: Amministrazione
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 97117dc558240eabd0687f416ea4be7a45783048
-workflow-type: tm+mt
-source-wordcount: '469'
+exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
+translation-type: ht
+source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
+workflow-type: ht
+source-wordcount: '467'
 ht-degree: 100%
 
 ---
-
 
 # Informazioni su Experience Cloud {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
 
