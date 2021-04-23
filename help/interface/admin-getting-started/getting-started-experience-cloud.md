@@ -5,17 +5,17 @@ solution: Experience Cloud
 title: 'Accesso e gestione delle impostazioni del profilo Experience Cloud '
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 feature: Admin Console
-topic: Administration
+topic: Amministrazione
 role: Administrator
 level: Experienced
+exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
 translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
 workflow-type: ht
-source-wordcount: '949'
+source-wordcount: '947'
 ht-degree: 100%
 
 ---
-
 
 # Accesso e gestione delle impostazioni del profilo Experience Cloud
 
