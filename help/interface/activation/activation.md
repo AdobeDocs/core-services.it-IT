@@ -7,17 +7,17 @@ solution: Experience Cloud Services
 title: Servizi Activation in Experience Cloud
 uuid: 54ada638-3592-49ee-930a-9f44bcc5e5d3
 feature: Admin Console
-topic: Administration
+topic: Amministrazione
 role: Administrator
 level: Experienced
+exl-id: d57f168b-6beb-48f2-b0d2-92593ceee62e
 translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
 workflow-type: ht
-source-wordcount: '439'
+source-wordcount: '437'
 ht-degree: 100%
 
 ---
-
 
 # Activation
 
