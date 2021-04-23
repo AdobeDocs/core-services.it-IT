@@ -5,15 +5,15 @@ solution: Experience Cloud
 title: 'Integrazioni di Experience Cloud '
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
 feature: Admin Console
-topic: Administration
+topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
 translation-type: tm+mt
 source-git-commit: f081265eaa759756712c12254b9048c1fddf8e40
 workflow-type: tm+mt
-source-wordcount: '1533'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
