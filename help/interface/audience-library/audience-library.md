@@ -4,18 +4,18 @@ type: Documentation
 title: 'Adobe Experience Cloud Audiences '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
 description: Scopri come gestire la traduzione dei dati dei visitatori in segmentazione del pubblico, con il servizio Experience Cloud Audiences.
-feature: Audience Library
-topic: Administration
+feature: Libreria pubblico
+topic: Amministrazione
 role: Administrator
 level: Experienced
+exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
 translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
 workflow-type: ht
-source-wordcount: '819'
+source-wordcount: '816'
 ht-degree: 100%
 
 ---
-
 
 # Experience Cloud Audiences {#topic_679810123CAA4E0CA4FA3417FB0100C7}
 
