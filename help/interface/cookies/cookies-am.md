@@ -4,18 +4,18 @@ keywords: cookie
 solution: Experience Cloud, Audience Manager
 title: 'Cookie di Audience Manager '
 uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
-feature: Cookies
-topic: Administration
+feature: Cookie
+topic: Amministrazione
 role: Administrator
 level: Experienced
+exl-id: ab6de845-99ea-4cd8-b7cd-012fb641403f
 translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
 workflow-type: ht
-source-wordcount: '613'
+source-wordcount: '611'
 ht-degree: 100%
 
 ---
-
 
 # Cookie di Audience Manager {#audience-manager-cookies}
 
