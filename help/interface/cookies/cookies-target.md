@@ -4,16 +4,16 @@ keywords: cookie;privacy
 solution: Experience Cloud,Analytics,Target,Social
 title: 'Cookie di Adobe Target  '
 uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
-feature: Cookies
-topic: Administration
+feature: Cookie
+topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: c4399cc0-8333-47b8-b830-2ba7359f464a
 translation-type: tm+mt
 source-git-commit: dcb6fa5d8458995cba66bc2f89c954aa6bcd5923
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 55%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
