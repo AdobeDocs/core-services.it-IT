@@ -5,17 +5,17 @@ solution: Experience Cloud
 title: 'Organizzazioni e collegamento di account '
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
 feature: Admin Console
-topic: Administration
+topic: Amministrazione
 role: Administrator
 level: Experienced
+exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
 translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
 workflow-type: ht
-source-wordcount: '394'
+source-wordcount: '392'
 ht-degree: 100%
 
 ---
-
 
 # Organizzazioni e collegamento di account
 
