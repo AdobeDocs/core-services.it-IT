@@ -3,17 +3,17 @@ description: Scopri come mappare una o più suite di rapporti per un’organizza
 title: 'Mappatura di suite di rapporti per un’organizzazione '
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 feature: Admin Console
-topic: Administration
+topic: Amministrazione
 role: Administrator
 level: Experienced
+exl-id: 4e9f0f7a-8e16-4473-af4a-3e74ad50c044
 translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
 workflow-type: ht
-source-wordcount: '1168'
+source-wordcount: '1166'
 ht-degree: 100%
 
 ---
-
 
 # Mappatura di suite di rapporti per un’organizzazione {#topic_7C4740559EAC4E0FA5F8DEF886B580DA}
 
