@@ -4,18 +4,18 @@ keywords: condivisione di risorse;Creative Cloud;servizi principali
 solution: Experience Cloud
 title: 'Caricamento di una risorsa in una cartella condivisa dal desktop Creative Cloud '
 uuid: 88e97e4d-cf9e-4b26-923b-ee60583cae1a
-feature: Assets
-topic: Administration
+feature: Risorse
+topic: Amministrazione
 role: Administrator
 level: Experienced
+exl-id: 3fd747e5-38f8-40cc-a255-7a0130b1e32f
 translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
 workflow-type: ht
-source-wordcount: '75'
+source-wordcount: '73'
 ht-degree: 100%
 
 ---
-
 
 # Caricamento di una risorsa in una cartella condivisa dal desktop Creative Cloud
 
