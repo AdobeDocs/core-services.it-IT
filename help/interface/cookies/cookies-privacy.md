@@ -4,18 +4,18 @@ keywords: cookie;privacy
 solution: Experience Cloud,Analytics,Target
 title: 'Cookie e privacy '
 uuid: 7fb36845-6282-438a-bbc6-0c3cf95de1c9
-feature: Cookies
-topic: Administration
+feature: Cookie
+topic: Amministrazione
 role: Administrator
 level: Experienced
+exl-id: 169b5c67-aab6-4b2a-832e-c5998d796bf7
 translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
 workflow-type: ht
-source-wordcount: '336'
+source-wordcount: '334'
 ht-degree: 100%
 
 ---
-
 
 # Informazioni su cookie e privacy {#about-cookies-and-privacy}
 
@@ -36,4 +36,3 @@ Il diagramma seguente illustra l’utilizzo dei cookie per una richiesta di imma
 Il diagramma seguente illustra l’utilizzo dei cookie per una richiesta di immagini diretta (utilizzata negli scenari in cui non viene caricato un file JS):
 
 ![](assets/CookiesProcessGraphic2.png)
-
