@@ -12,8 +12,8 @@ exl-id: c4399cc0-8333-47b8-b830-2ba7359f464a
 translation-type: tm+mt
 source-git-commit: dcb6fa5d8458995cba66bc2f89c954aa6bcd5923
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '410'
+ht-degree: 55%
 
 ---
 
