@@ -11,8 +11,8 @@ exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
 translation-type: tm+mt
 source-git-commit: e8fa9e9dc4de694d37012f6fb45eb8d3527d49f5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '343'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Assets è un servizio di base legacy, ora in fase di manutenzione.
+>Assets è un servizio core legacy, attualmente in fase di sostenimento.
 
 Il servizio di base Experience Cloud Assets fornisce un archivio unico e centralizzato di risorse pronte per le attività di marketing da condividere tra le diverse soluzioni. Una risorsa è un documento, un’immagine, un video o un file audio (o parte di essi) che può avere più rappresentazioni e risorse secondarie (ad esempio, livelli in un file [!DNL Photoshop], slide in un file [!DNL PowerPoint], pagine in un PDF e file in un file ZIP).
 
@@ -60,7 +60,7 @@ La barra degli strumenti fornisce un accesso rapido a funzioni quali: Search, Ti
 
 ![](assets/asset-tools.png)
 
-## Modifica delle risorse {#section_CD3C55A9D4574455B94D0955391C8FEC}
+## Modifica delle risorse  {#section_CD3C55A9D4574455B94D0955391C8FEC}
 
 La modifica di una risorsa abilita funzionalità quali:
 
