@@ -9,11 +9,10 @@ topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '3964'
-ht-degree: 100%
+source-git-commit: 6b6dd0fd0ac51d485877e20bd94322415e80e65e
+workflow-type: tm+mt
+source-wordcount: '4111'
+ht-degree: 96%
 
 ---
 
@@ -24,6 +23,16 @@ Funzionalità, note sulla versione e problemi noti per l&#39;interfaccia Experie
 Per un elenco degli aggiornamenti della documentazione, consulta [Experience Cloud](../doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
 Per le note sulla versione comprensive di tutte le soluzioni, consulta [Note sulla versione di Experience Cloud](https://docs.adobe.com/content/help/it-IT/release-notes/experience-cloud/current.html).
+
+## Mag. - 2021
+
+| Funzione | Data | Descrizione |
+| ------- | ------- | ------- |
+| Intestazione e navigazione Experience Cloud | 20 maggio 2021 | Gli aggiornamenti di Adobe Experience Cloud includono una modifica al tema chiaro per l&#39;intestazione, con la possibilità di tornare facilmente a tema scuro e collegamento per controllare preferenze aggiuntive dal loro avatar utente nell&#39;intestazione dell&#39;Experience Cloud. Anche se non tutte le applicazioni in Experience Cloud supportano i temi, questa funzione sblocca il supporto futuro per i temi. |
+| Experience Cloud Global Search | 20 maggio 2021 | Con questa versione, la ricerca globale di Experience Cloud ti consente di cercare una qualsiasi della documentazione, dei corsi e delle esercitazioni di [Experience League](https://experienceleague.adobe.com/?lang=it#home). Attualmente, la ricerca globale è disponibile solo per gli utenti di Experience Platform. La ricerca globale di [!UICONTROL Piattaforma] consente di cercare qualsiasi oggetto aziendale in Experience Cloud, ad esempio segmenti, set di dati, schemi e altro ancora.) |
+| Preferenze lingua di Experience Cloud | 20 maggio 2021 | Questo aggiornamento include la possibilità di impostare le lingue preferite nell&#39;Experience Cloud [Preferenze](https://experience.adobe.com/preferences). |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Agosto 2020
 
@@ -293,7 +302,7 @@ Correzioni:
 
 ## Rilascio 15.1.1 - 15 gennaio 2015 {#section_F1A352E928AF432E94CC0A289C345184}
 
-Nuove funzioni, problemi noti e correzioni nella [!DNL Adobe Experience Cloud] collaborazione e nell&#39;interfaccia di condivisione.
+Nuove funzioni, problemi noti e correzioni nella collaborazione [!DNL Adobe Experience Cloud] e nell&#39;interfaccia di condivisione.
 
 <table id="table_AD0A8CA760E64227BB04BA6B0E425E80"> 
  <thead> 
@@ -346,7 +355,7 @@ Problemi noti:
 
 ## Rilascio 14.10.1 - 16 ottobre 2014 {#section_E3A0F4423B814707AA3745E083500835}
 
-Nuove funzioni, problemi noti e correzioni nella [!DNL Adobe Experience Cloud] collaborazione e nell&#39;interfaccia di condivisione.
+Nuove funzioni, problemi noti e correzioni nella collaborazione [!DNL Adobe Experience Cloud] e nell&#39;interfaccia di condivisione.
 
 <table id="table_7C1ACE8108D54782AE128ACD35069DF5"> 
  <thead> 
