@@ -10,24 +10,25 @@ topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-translation-type: tm+mt
-source-git-commit: 4e3d6e605df4d1861f1dffb4cde5311eea283ee3
+source-git-commit: 05548387f82e58a87d5133254da30215fbd6c827
 workflow-type: tm+mt
-source-wordcount: '1499'
-ht-degree: 91%
+source-wordcount: '1629'
+ht-degree: 83%
 
 ---
 
 # Informazioni sui cookie di prime parti
 
-Analytics utilizza i cookie per fornire informazioni su variabili e componenti che non permangono tra richieste di immagini e sessioni del browser. Questi cookie inoffensivi provengono da un dominio ospitato da Adobe e sono chiamati cookie di terze parti.
+Analytics utilizza i cookie per fornire informazioni su variabili e componenti che non permangono tra richieste di immagini e sessioni del browser. Laddove possibile, ad Adobe, vengono utilizzati cookie di prime parti per registrare le attività sul sito. Per registrare l’attività su siti diversi, ad esempio su altri domini di tua proprietà, sono necessari cookie di terze parti.
 
-Molti browser e applicazioni antispyware sono progettati per rifiutare ed eliminare i cookie di terze parti, inclusi quelli utilizzati nella raccolta dati di Analytics. Per supportare il tracciamento della modalità di interazione dei visitatori con il tuo sito web, puoi implementare i cookie di prime parti.
+Molti browser e applicazioni antispyware sono progettati per rifiutare ed eliminare i cookie di terze parti, inclusi quelli utilizzati nella raccolta dati di Analytics. Per supportare il tracciamento dell’interazione dei visitatori con il sito web, assicurati di aver configurato la raccolta dati per l’utilizzo dei cookie di prime parti:
 
 Per implementare i cookie di prime parti sono disponibili due opzioni:
 
-* Servizio ID di Experience Platform. Il servizio ID può impostare il cookie nella prima parte utilizzando JavaScript.
-* Le voci DNS nel server DNS della società per configurare un alias CNAME in un dominio ospitato da Adobe. Sebbene diversi prodotti Adobe supportino l’uso di un CNAME, in tutti i casi questo viene utilizzato per creare un endpoint di prima parte affidabile per un cliente specifico e rimane di proprietà di tale cliente. Se il cliente controlla più domini, può sfruttare un singolo endpoint CNAME per monitorare gli utenti nei loro domini, ma poiché questo richiede l’uso di cookie di terze parti per tutti i domini al di fuori di quello specifico di CNAME, l’endpoint non funzionerà se i cookie di terze parti sono bloccati e pertanto non è consigliato. I CNAME Adobe non vengono mai utilizzati per monitorare un singolo o un dispositivo tra domini diversi che sono di proprietà di clienti differenti.
+* Se utilizzi il servizio Experience Platform Identity (o il servizio ECID), imposterà automaticamente i cookie nel contesto di prime parti utilizzando JavaScript.
+* Se utilizzi gli identificatori legacy di Analytics (o il cookie &quot;s_vi&quot;), dipenderà da come hai configurato il server di raccolta dati. Se il server di raccolta dati corrisponde al dominio del sito, i cookie verranno impostati come di prime parti. Se il server di raccolta non corrisponde al dominio corrente, i cookie verranno impostati come di terze parti. In questo caso, se i cookie di terze parti sono bloccati, Analytics imposterà un [fallback id (&quot;s_fid&quot;)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=en#section-65e33f9bfc264959ac1513e2f4b10ac7) invece del cookie standard &quot;s_vi&quot;.
+
+Per garantire che il server di raccolta corrisponda al dominio del sito, puoi utilizzare un’implementazione CNAME per consentire l’impostazione dei cookie in un contesto di prime parti. Ciò comporta modifiche alle impostazioni DNS della tua azienda per configurare un alias CNAME che punta a un dominio ospitato di Adobe. Sebbene diversi prodotti Adobe supportino l’uso di un CNAME, in tutti i casi questo viene utilizzato per creare un endpoint di prima parte affidabile per un cliente specifico e rimane di proprietà di tale cliente. Se controlli più domini, puoi utilizzare un singolo endpoint CNAME per monitorare gli utenti nei loro domini, ma ovunque il dominio del sito non corrisponda ai cookie del dominio CNAME verrà impostato come di terze parti.
 
 >[!NOTE]
 >
@@ -53,15 +54,15 @@ Per implementare un nuovo certificato SSL di prima parte per i cookie di prime p
 
 2. Crea record CNAME (consulta le istruzioni riportate di seguito).
 
-   Dopo aver ricevuto il ticket, un rappresentante dell’Assistenza clienti deve fornirti un record CNAME. Questi record devono essere configurati sul server DNS della tua azienda per consentire ad Adobe di acquistare il certificato per conto tuo. Il CNAME sarà simile al seguente:
+   Quando viene ricevuto il ticket, un rappresentante dell’assistenza clienti ti fornirà un record CNAME. Questi record devono essere configurati sul server DNS della tua azienda per consentire ad Adobe di acquistare il certificato per conto tuo. Il CNAME avrà un aspetto simile a quanto segue:
 
    **Protetto**: ad esempio, il nome host `smetrics.example.com` punta a: `example.com.adobedc.net`.
 
 >[!NOTE]
-> In passato consigliamo ai clienti di impostare due CNAME uno per HTTPS e uno per HTTP. Poiché è buona prassi crittografare il traffico e la maggior parte dei browser scoraggia fortemente HTTP, si sconsiglia più di impostare un CNAME per HTTP. Se necessario, sarà così:
->    **Non protetto** — il nome host `metrics.example.com` punta a: `example.com.adobedc.net`.
+> In passato consigliavamo ai clienti di impostare due CNAME, uno per HTTPS e uno per HTTP. Poiché è buona prassi crittografare il traffico e la maggior parte dei browser scoraggia fortemente HTTP, ora non sconsigliamo più di impostare un CNAME per HTTP. Se sarà necessario configurarlo, dovrà presentarsi così:
+>    **Non protetto**: il nome host `metrics.example.com` punta a `example.com.adobedc.net`.
 
-1. Quando il CNAME è attivo, Adobe collabora con DigiCert per acquistare e installare un certificato sui server di produzione di Adobe.
+1. Una volta impostato il CNAME, Adobe collabora con DigiCert per acquistare e installare un certificato sui server di produzione di Adobe.
 
    Se disponi già di un’implementazione, prendi in considerazione Migrazione visitatori per mantenere i visitatori esistenti. Dopo il push live del certificato all’ambiente di produzione di Adobe, potrai aggiornare le variabili del server di tracciamento con i nuovi nomi host. Ciò significa che, se il sito non è protetto (HTTP), devi aggiornare `s.trackingServer`. Se il sito è protetto (HTTPS), aggiorna sia la variabile `s.trackingServer` che la variabile `s.trackingServerSecure`.
 
@@ -87,13 +88,13 @@ I certificati SSL scadono ogni anno, il che significa che Adobe deve acquistare 
 
 Il team che gestisce la rete della tua organizzazione deve configurare i server DNS creando nuovi record CNAME. Ciascun nome host comunica i dati ai server di raccolta dati di Adobe.
 
-Lo specialista FPC fornisce il nome host configurato e a quale CNAME devono essere puntati. Ad esempio:
+Lo specialista FPC ti fornisce il nome host configurato e il CNAME a cui deve puntare. Ad esempio:
 
 * **Nome host SSL**: `smetrics.mysite.com`
 * **CNAME SSL**: `mysite.com.adobedc.net`
 
 >[!NOTE]
-> Se utilizzi ancora non protetto , il sarà simile al seguente.
+> Se utilizzi ancora un CNAME non protetto, si presenterà come il seguente.
 > * **Nome host non SSL**: `metrics.mysite.com`
 > * **CNAME non SSL**: `mysite.com.adobedc.net`
 
