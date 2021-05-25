@@ -5,10 +5,10 @@ breadcrumb-title: Servizi e amministrazione di Experience Cloud
 user-guide-description: Scopri come gestire utenti e prodotti in Adobe Experience Cloud e come utilizzare i servizi Attributi del cliente e Libreria Pubblico. Scopri anche i cookie e risorse di Experience Cloud.
 user-guide-url: https://www.adobe.com
 index: true
-source-git-commit: 6b6dd0fd0ac51d485877e20bd94322415e80e65e
+source-git-commit: c3ce6e07c17e126cd2becdf65c40ccbe9398f012
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 100%
+source-wordcount: '386'
+ht-degree: 98%
 
 ---
 
@@ -16,6 +16,7 @@ ht-degree: 100%
 # Servizi e amministrazione di Experience Cloud {#interface}
 
 + [Servizi e amministrazione di Experience Cloud](experience-cloud.md)
++ [Experience Cloud di componenti dell’interfaccia centrale](experience-cloud-interface.md)
 + Servizi Experience Cloud {#about-core-services}
    + [Panoramica dei servizi Experience Cloud](core-services-landing.md)
    + [Abilitare l’implementazione per i servizi tra più soluzioni](core-services/core-services.md)
