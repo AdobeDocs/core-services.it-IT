@@ -7,11 +7,10 @@ topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '467'
-ht-degree: 100%
+source-git-commit: ea7db50d4af151ff47049fc648b8e77c11ec2ee4
+workflow-type: tm+mt
+source-wordcount: '455'
+ht-degree: 73%
 
 ---
 
@@ -26,17 +25,16 @@ Per accedere a questi servizi in Experience Cloud, fai clic sul **[!UICONTROL se
 
 >[!NOTE]
 >
->La documentazione del prodotto per Experience Platform si trova [qui](https://docs.adobe.com/content/help/it-IT/experience-platform/landing/home.html). La documentazione tecnica per gli sviluppatori di [!UICONTROL Experience Platform] si trova su [Adobe.io](https://www.adobe.io/apis/experienceplatform/home/services.html).
+>La documentazione del prodotto per Experience Platform si trova [qui](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=en). La documentazione tecnica per gli sviluppatori di [!UICONTROL Experience Platform] si trova su [Adobe.io](https://www.adobe.io/apis/experienceplatform/home/services.html).
 
 Il presente Aiuto descrive i seguenti prodotti e servizi:
 
 | Servizi core | Descrizione |
 |--- |--- |
 | [Activation](activation/activation.md) | Sistemi di gestione dei tag (Experience Platform Launch e Dynamic Tag Management).<br>Triggers consente di intervenire in tempo reale in Adobe Campaign sulla base delle informazioni provenienti da Adobe Analytics. |
-| [Amministrazione](admin-getting-started/admin-getting-started.md) | Gestisci le autorizzazioni di utenti e prodotti per tutti i cloud e le soluzioni Adobe in uso. |
 | [Risorse](experience-cloud-assets/experience-cloud-assets.md) | Archivia, sincronizza e condividi facilmente tutte le tue risorse digitali da una posizione centrale, risparmiando tempo e offrendo in tal modo un&#39;esperienza del cliente più coerente. |
-| [Experience Platform Launch](https://docs.adobe.com/content/help/it-IT/launch/using/overview.html) | [!UICONTROL Experience Platform Launch] rappresenta la nuova generazione di soluzioni per la raccolta dati e l’implementazione di tecnologie per siti e app. [!UICONTROL Experience Platform Launch] offre ai clienti un modo semplice di implementare e gestire tutti i tag pubblicitari, di analisi e di marketing necessari per fornire ai clienti esperienze personalizzate. |
-| [Journey Orchestration](https://docs.adobe.com/content/help/it-IT/journeys/using/journey-orchestration-home.html) | Crea casi di utilizzo di orchestrazione in tempo reale sulla base dei dati contestuali memorizzati negli eventi o nelle origini dati. [!UICONTROL Journey Orchestration] è un applicativo integrato all&#39;interno di Experience Platform. |
-| [Location Service](https://docs.adobe.com/content/help/it-IT/places/using/home.html) | Adobe [!UICONTROL Experience Platform Location Service] è un servizio di geolocalizzazione che consente alle app mobili abilitate alla posizione di contestualizzare quest’ultima mediante l’uso di interfacce SDK avanzate e facili da usare, associate a un database flessibile di punti di interesse (POI). |
-| [Mobile Services](https://docs.adobe.com/content/help/it-IT/mobile-services/using/home.html) | Adobe Mobile Services riunisce le funzionalità di marketing mobile di applicazioni per dispositivi mobili da Experience Cloud, consentendoti di comprendere e migliorare il coinvolgimento degli utenti con le applicazioni mobili. |
-| People | Crea una visualizzazione completa dei singoli clienti, connettendo dati Adobe e non-Adobe nelle tue soluzioni Experience Cloud. Scopri quali sono i loro interessi mentre interagiscono con i vari punti di contatto. Riconosci i consumatori più fedeli quando accedono da dispositivi sconosciuti. Dividi i gruppi di utenti in tipi di pubblico per attività di marketing mirate.<br>[Tipi di pubblico](audience-library/audience-library.md): categorizza diversi tipi di clienti in tipi di pubblico e condividi questi ultimi tra le soluzioni Experience Cloud.<br>[Attributi del cliente](attributes/attributes.md): un arricchimento ai tipi di pubblico che consente di connettere le informazioni sui clienti raccolte al di fuori di Experience Cloud.<br>[Device Graph (Grafico dispositivo)](https://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html): collabora con i marchi più popolari al mondo per riconoscere un consumatore familiare che accede da un dispositivo sconosciuto. |
+| [Experience Platform Launch/Raccolta dati](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=en) | [!UICONTROL Experience Platform Launch] rappresenta la nuova generazione di soluzioni per la raccolta dati e l’implementazione di tecnologie per siti e app. [!UICONTROL Experience Platform Launch] offre ai clienti un modo semplice di implementare e gestire tutti i tag pubblicitari, di analisi e di marketing necessari per fornire ai clienti esperienze personalizzate. |
+| [Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/journey-orchestration-home.html?lang=it) | Crea casi di utilizzo di orchestrazione in tempo reale utilizzando dati contestuali archiviati in eventi o origini dati. [!UICONTROL Journey Orchestration] è un applicativo integrato all&#39;interno di Experience Platform. |
+| [Location Service](https://experienceleague.adobe.com/docs/places/using/home.html?lang=en) | Adobe [!UICONTROL Experience Platform Location Service] è un servizio di geolocalizzazione. Consente alle app mobili dotate di awareness della posizione di comprendere il contesto della posizione utilizzando interfacce SDK avanzate e facili da usare, accompagnate da un database flessibile di punti di interesse (POI). |
+| [Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=en) | Adobe Mobile Services riunisce le funzionalità di marketing mobile di applicazioni per dispositivi mobili da Experience Cloud, consentendoti di comprendere e migliorare il coinvolgimento degli utenti con le applicazioni mobili. |
+| People | Crea una visualizzazione completa dei singoli clienti, connettendo dati Adobe e non-Adobe nelle tue soluzioni Experience Cloud. Scopri quali sono i loro interessi mentre interagiscono con i vari punti di contatto. Riconosci i consumatori più fedeli quando accedono da dispositivi sconosciuti. Dividi i gruppi di utenti in tipi di pubblico per attività di marketing mirate.<br>[Audiences](audience-library/audience-library.md)  - Dividi in categorie o tipi di pubblico diversi tipi di clienti, quindi condividili tra le applicazioni Experience Cloud.<br>[Attributi del cliente](attributes/attributes.md)  - Arricchimento del pubblico che consente di collegare le informazioni del consumatore raccolte al di fuori dell’Experience Cloud.<br>[Device Graph (Grafico dispositivo)](https://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html): collabora con i marchi più popolari al mondo per riconoscere un consumatore familiare che accede da un dispositivo sconosciuto. |
