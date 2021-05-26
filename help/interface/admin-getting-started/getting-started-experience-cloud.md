@@ -9,11 +9,10 @@ topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '947'
-ht-degree: 100%
+source-git-commit: ea7db50d4af151ff47049fc648b8e77c11ec2ee4
+workflow-type: tm+mt
+source-wordcount: '944'
+ht-degree: 99%
 
 ---
 
@@ -51,7 +50,7 @@ Accedi e verifica di essere nell&#39;[organizzazione](../admin-getting-started/o
 Aiuto per utenti non amministrativi che accedono a Experience Cloud.
 
 
-1. Verifica con il tuo amministratore che l&#39;[organizzazione](../admin-getting-started/getting-started-experience-cloud.md#concept_384D169B0B724B799D573B8ECB5C39BF) disponga del provisioning in Experience Cloud.
+1. Verifica con il tuo amministratore che l&#39;[organizzazione](../admin-getting-started/organizations.md) disponga del provisioning in Experience Cloud.
 
 
 1. Passa a [Adobe Experience Cloud](https://experiencecloud.adobe.com) ([!DNL experiencecloud.adobe.com]).
@@ -115,9 +114,9 @@ Puoi ordinare la visualizzazione delle notifiche in base ai tipi di messaggio ch
 
 Puoi modificare il tuo profilo Experience Cloud, specificare un&#39;organizzazione e una pagina di destinazione predefinite e molto altro.
 
-1. [Accesso a Experience Cloud](../admin-getting-started/getting-started-experience-cloud.md#task_1BFE87E20DCB44078CAC82F3CD44B985).
+1. Accedere a Experience Cloud.
 
-1. Dal menu Experience Cloud, fai clic sulla tua immagine del profilo.
+1. Ad Experience Cloud, fai clic sull’immagine del tuo profilo.
 
    ![](assets/edit-profile.png)
 1. Fai clic su **[!UICONTROL Modifica profilo]**.
