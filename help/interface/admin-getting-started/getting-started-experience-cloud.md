@@ -9,7 +9,7 @@ topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
-source-git-commit: ea7db50d4af151ff47049fc648b8e77c11ec2ee4
+source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 99%
@@ -53,7 +53,7 @@ Aiuto per utenti non amministrativi che accedono a Experience Cloud.
 1. Verifica con il tuo amministratore che l&#39;[organizzazione](../admin-getting-started/organizations.md) disponga del provisioning in Experience Cloud.
 
 
-1. Passa a [Adobe Experience Cloud](https://experiencecloud.adobe.com) ([!DNL experiencecloud.adobe.com]).
+1. Passa a [Adobe Experience Cloud](https://experience.adobe.com) ([!DNL experience.adobe.com]).
 1. Fai clic su **[!UICONTROL Accedi con Adobe ID]**.
 
    Il tuo amministratore Experience Cloud può aiutarti a determinare il tipo di account (Adobe ID o Enterprise ID).
@@ -138,11 +138,11 @@ In alternativa, puoi accedere a una pagina specifica di una soluzione, utilizzan
 
 ### Modello URL
 
-`https://<tenantId>.experiencecloud.adobe.com/<solutionname>?destURL=<fullURL>`
+`https://experience.adobe.com/#/@<tenantId>/<solutionname>?destURL=<fullURL>`
 
 URL di esempio:
 
-`https://aem62tenant.experiencecloud.adobe.com/analytics?destURL=https%3A%2F%2Fsc.omniture.com%2Freports%2F11562.html`
+`https://experience.adobe.com/#/@aem62tenant/analytics?destURL=https%3A%2F%2Fsc.omniture.com%2Freports%2F11562.html`
 
 >[!NOTE]
 >
