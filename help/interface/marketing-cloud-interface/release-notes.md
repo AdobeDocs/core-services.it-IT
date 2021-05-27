@@ -9,7 +9,7 @@ topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 6b6dd0fd0ac51d485877e20bd94322415e80e65e
+source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
 workflow-type: tm+mt
 source-wordcount: '4111'
 ht-degree: 96%
@@ -395,7 +395,7 @@ Nuove funzioni, problemi noti e correzioni nella collaborazione [!DNL Adobe Expe
 
 **Correzioni e miglioramenti**
 
-* Quando visiti il sito [!DNL experiencecloud.adobe.com], l&#39;esperienza di accesso ora è coerente con l&#39;accesso di Adobe Creative Cloud.
+* Quando visiti il sito [!DNL experience.adobe.com], l&#39;esperienza di accesso ora è coerente con l&#39;accesso di Adobe Creative Cloud.
 * Nella pagina Gestisci organizzazioni, l&#39;esperienza di collegamento (dopo aver ricevuto un invito) ora è uguale per ciascuna soluzione.
 
 **Problemi noti**
