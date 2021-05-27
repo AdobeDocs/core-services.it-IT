@@ -9,9 +9,8 @@ feature: Admin Console
 role: Administrator
 level: Experienced
 exl-id: 746d396d-9629-42db-8c55-07d2d24e4611
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
+source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
+workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 100%
 
@@ -55,7 +54,7 @@ L&#39;aggiornamento a Predictive Intelligence abilita [Analytics Premium](../adm
 
 | Prodotto | Aggiornamenti |
 |---|---|
-| Reports &amp; Analytics | [Analisi contributi](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) |
+| Reports &amp; Analytics | [Analisi contributi](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) |
 | Data Workbench | Aree di lavoro predefinite per le qualifiche del pubblico e il marketing predittivo |
 | Platform Analytics | Streaming live (dashboard e trigger) |
 
@@ -85,7 +84,7 @@ Qualsiasi software in esecuzione locale deve essere disattivato. Tra di essi rie
 
 Experience Cloud e i servizi principali sono disponibili per gli utenti di Analytics Standard e Premium, purché sia stata eseguita la modernizzazione dell&#39;implementazione descritta in [Guida introduttiva: Abilitare le soluzioni per i servizi di base](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C). (questa procedura consente di modernizzare la propria implementazione e di diventare amministratori in Experience Cloud).
 
-Dopo aver effettuato l&#39;iscrizione a Experience Cloud, puoi accedere tramite Experience Cloud dalla pagina [!DNL experiencecloud.adobe.com] e iniziare a utilizzare i servizi core (tra cui attributi del cliente, tipi di pubblico e analisi delle app mobile).
+Dopo aver effettuato l&#39;iscrizione a Experience Cloud, puoi accedere tramite Experience Cloud dalla pagina [!DNL experience.adobe.com] e iniziare a utilizzare i servizi core (tra cui attributi del cliente, tipi di pubblico e analisi delle app mobile).
 
 ### Amministrare utenti e gruppi
 
