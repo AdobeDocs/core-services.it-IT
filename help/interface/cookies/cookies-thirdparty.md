@@ -9,11 +9,10 @@ topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: 3d12a1b1-c952-4b42-815d-f64b31429cec
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '299'
-ht-degree: 100%
+source-git-commit: ef6196c3096ac7b26633eb4b1b9b2db26237732a
+workflow-type: tm+mt
+source-wordcount: '275'
+ht-degree: 84%
 
 ---
 
@@ -25,8 +24,7 @@ L’elenco seguente illustra l’effetto dei cookie di terze parti sulle impleme
 
 ## Adobe Analytics e Adobe Target
 
-* Per i clienti con un’[implementazione di prima parte](/help/interface/cookies/cookies-first-party.md), l’effetto è quasi nullo.
-* I clienti che non utilizzano l’implementazione di prime parti possono implementare il [servizio Experience Platform ID](https://docs.adobe.com/content/help/it-IT/id-service/using/implementation/implementation-guides.html) per memorizzare i cookie ID come cookie di prime parti senza un’implementazione di prime parti.
+* Analytics e Target non subiranno modifiche poiché la stessa attività del sito si basa solo sui cookie di prime parti. I cookie di terze parti sono necessari per comprendere l’attività dell’utente su più domini. Per i browser in cui i cookie di terze parti sono bloccati, il tracciamento tra domini diversi non sarà possibile utilizzando i cookie.
 
 ## Adobe Experience Manager
 
@@ -49,8 +47,3 @@ L’elenco seguente illustra l’effetto dei cookie di terze parti sulle impleme
    * La visualizzazione dipende inoltre fortemente dalla disponibilità di vari cookie della rete pubblicitaria per la sincronizzazione.
    * L’impatto generale è sconosciuto. Tuttavia, per quanto riguarda il primo punto, la visualizzazione è interessata più di altri servizi.
    * Stiamo lavorando internamente e con i nostri partner pubblicitari per valutare appieno l’impatto sulla distribuzione degli annunci.
-
-* Social:
-
-   * Non c’è alcun impatto sugli annunci marketplace di Facebook.
-   * L’impatto su Facebook Exchange (FBX) è lo stesso della visualizzazione degli annunci.
