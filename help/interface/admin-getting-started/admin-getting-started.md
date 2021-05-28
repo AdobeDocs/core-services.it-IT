@@ -8,10 +8,10 @@ topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: c32cc6783b53cc6e57bba0810a49038561ac9dcd
+source-git-commit: 2f315b2daa4e9d73b0adb1cf75fd7ff2417fd0c2
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 46%
+source-wordcount: '1276'
+ht-degree: 47%
 
 ---
 
@@ -111,15 +111,15 @@ Ad esempio, puoi creare un profilo di prodotto contenente più strumenti di Anal
 | Strumenti delle suite di rapporti | Attiva le autorizzazioni degli utenti per servizi web, gestione delle suite di rapporti, strumenti, rapporti ed elementi del dashboard. |
 | Strumenti di Analytics | Attiva le autorizzazioni degli utenti per l&#39;integrazione a Elementi generali (fatturazione, registri e così via), Gestione società, Strumenti, Accesso al servizio Web, Report Builder e Connettori dati. Le impostazioni aziendali della categoria Personalizza di Admin Console sono state trasferite negli strumenti di Analytics. |
 
-<!-- **User Account Migration**
+**Migrazione degli account utente**
 
-An Analytics user ID migration tool is available to help Analytics administrators migrate user accounts from Analytics User Management to the [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/).
+È disponibile uno strumento di migrazione degli ID utente di Analytics che permette agli amministratori di trasferire gli account utente da Gestione utenti di Analytics ad [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/).
 
-The account migration is being rolled out to customers in phases. Adobe will notify and assist you when it is your time to migrate existing user accounts from **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** to the Admin Console.
+La migrazione diventerà disponibile per i clienti in più fasi. Adobe ti invierà una notifica e ti fornirà assistenza quando arriverà il tuo momento di trasferire gli account utente esistenti da **[!UICONTROL Strumenti di amministrazione]** > **[!UICONTROL Gestione utenti]** all&#39;Admin Console.
 
-After the migration, users sign in using their Adobe ID (or Enterprise ID) and authenticate to their Experience Cloud solutions and services at [experience.adobe.com](https://experience.adobe.com). If users attempt to sign in via legacy logins ([!DNL my.omniture.com], [!DNL sc.omniture.com] and [!DNL experiencecloud.adobe.com]) they are redirected to [!DNL experience.adobe.com].
+Dopo la migrazione, gli utenti effettueranno l’accesso utilizzando il proprio Adobe ID (o Enterprise ID) e si autenticheranno nelle soluzioni e nei servizi di Experience Cloud all’indirizzo [experience.adobe.com](https://experience.adobe.com). Se gli utenti tentano di accedere tramite gli accessi legacy ([!DNL my.omniture.com], [!DNL sc.omniture.com] e [!DNL experiencecloud.adobe.com]) vengono reindirizzati a [!DNL experience.adobe.com].
 
-**Related help**  -->
+**Argomenti correlati**
 
 Per ulteriori informazioni, consulta [Migrazione degli ID utente di Analytics](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=en)
 
@@ -151,9 +151,9 @@ Consulta [Autorizzazioni utente](https://experienceleague.adobe.com/docs/launch/
 
 ## Experience Manager as a Cloud Service
 
-I clienti Adobe Enterprise sono rappresentati come organizzazioni nell&#39;Adobe [!UICONTROL Admin Console]. I clienti di Experience Manager (AEM) possono utilizzare l&#39;Adobe [!UICONTROL Admin Console] per gestire le adesioni ai prodotti e l&#39;autenticazione IMS per Experience Manager come [!UICONTROL Cloud Service].
+I clienti Adobe Enterprise sono rappresentati come organizzazioni nell&#39;Adobe [!UICONTROL Admin Console]. I clienti di Experience Manager possono utilizzare l&#39;Adobe [!UICONTROL Admin Console] per gestire le adesioni ai prodotti e l&#39;autenticazione IMS per Experience Manager come [!UICONTROL Cloud Service].
 
-Consulta [Supporto IMS per AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/ims-support.html?lang=en).
+Consulta [Supporto IMS per Experience Manager come Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/ims-support.html?lang=en).
 
 ## Audience Manager {#section_C31E3FA8A1E14463B1B3E07235F1983C}
 
