@@ -7,11 +7,10 @@ topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: 4e9f0f7a-8e16-4473-af4a-3e74ad50c044
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '1166'
-ht-degree: 100%
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '1165'
+ht-degree: 72%
 
 ---
 
@@ -23,18 +22,18 @@ ht-degree: 100%
 
 I servizi di Experience Cloud (come il servizio Experience Cloud ID e [!UICONTROL People]) sono associati a un’organizzazione invece che a suite di rapporti individuale. Per garantire il corretto funzionamento di questi servizi, ogni suite di rapporti di Analytics deve essere mappata su un’organizzazione. Il processo di mappatura:
 
-* Imposta un’organizzazione Experience Cloud come organizzazione principale per la suite di rapporti.
+* Imposta un’organizzazione di Experience Cloud come organizzazione principale per la suite di rapporti.
 * Non modifica chi può accedere a una suite di rapporti (l’accesso è ancora determinato dall’account di accesso di Adobe Analytics per ogni utente)
 
 ## Requisiti
 
-Devi essere un amministratore Analytics di una società di accesso che dispone dell’accesso alla suite di rapporti che desideri mappare. Inoltre, questo account deve essere [collegato a un’organizzazione Experience Cloud](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) per mappare le suite di rapporti su tale organizzazione.
+Devi essere un amministratore Analytics di una società di accesso che dispone dell’accesso alla suite di rapporti che desideri mappare. Inoltre, questo account deve essere [collegato a un&#39;organizzazione Experience Cloud](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) per mappare le suite di rapporti su tale organizzazione.
 
 Le organizzazioni sono disattivate se non disponi delle autorizzazioni di amministratore Analytics per una società di accesso nell&#39;organizzazione con accesso alla suite di rapporti specificata.
 
 ## Mappatura di una suite di rapporti su un’organizzazione {#task_23993FE78DF6455FA8D7BE60686EA16C}
 
-1. Passa a Suite di rapporti per la governance dei dati da [!DNL Analytics] > **[!UICONTROL Amministratore]** > **[!UICONTROL Governance dei dati]** (consulta [Visualizzare/gestire le impostazioni di governance dei dati della suite di rapporti](https://docs.adobe.com/help/it-IT/analytics/admin/data-governance/gdpr-view-settings.html))
+1. Passa a Suite di rapporti per la governance dei dati da [!DNL Analytics] > **[!UICONTROL Amministratore]** > **[!UICONTROL Governance dei dati]** (consulta [Visualizzare/gestire le impostazioni di governance dei dati della suite di rapporti](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-view-settings.html?lang=en))
 
 1. Per visualizzare le società con accesso a ogni suite di rapporti, fai clic su **[!UICONTROL Visibile per le società di accesso]**.
 
@@ -64,28 +63,28 @@ Questa sezione contiene suggerimenti per aiutarti a selezionare l’organizzazio
 
 ### Quale organizzazione dovrei scegliere?
 
-Se il servizio Experience Cloud ID è al momento distribuito sulla suite di rapporti, assicurati che l’organizzazione che selezioni nello strumento di Mappatura di suite di rapporti sia nella stessa organizzazione indicata nel file [!DNL visitorAPI.js] sul tuo sito. Puoi utilizzare le istruzioni in [Testa e verifica il servizio Experience Cloud ID](https://docs.adobe.com/content/help/it-IT/id-service/using/implementation-guides/test-verify.html) per individuare l’ID organizzazione utilizzato dal servizio ID visitatore.
+Se il servizio ID Experience Cloud è distribuito sulla suite di rapporti, assicurati che l’organizzazione selezionata nello strumento di mappatura suite per rapporti sia la stessa organizzazione specificata nel file [!DNL visitorAPI.js] sul sito. Puoi utilizzare le istruzioni in [Testa e verifica il servizio Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/implementation-guides/test-verify.html?lang=en) per individuare l’ID organizzazione utilizzato dal servizio ID visitatore.
 
-Se il servizio ID visitatore non è ancora distribuito sui siti che raccolgono i dati per la suite di rapporti, se distribuisci il servizio ID visitatore di Experience Cloud in futuro, dovrai verificare che la distribuzione corrisponda all’organizzazione scelta nello strumento di Mappatura di suite di rapporti.
+Se il servizio ID visitatore non è ancora distribuito sui siti che raccolgono i dati per la suite di rapporti, se distribuisci il servizio ID visitatore di Experience Cloud in futuro, assicurati che la distribuzione corrisponda all&#39;organizzazione scelta nello strumento di mappatura suite di rapporti.
 
 ### Perché alcune organizzazioni sono disattivate?
 
-Ciò indica che non disponi di privilegi sufficienti per la mappatura sulla suite di rapporti disattivata. Prendi in considerazione l&#39;esempio seguente:
+La disattivazione di un&#39;organizzazione indica che non disponi di privilegi sufficienti per la mappatura sulla suite di rapporti disattivata. Prendi in considerazione l&#39;esempio seguente:
 
 ![](assets/rs-mapping.png)
 
 In questo schema, il tasto blu indica i privilegi di amministratore. Le linee grigie indicano la visibilità.
 
-Questo utente ha accesso a due organizzazioni Experience Cloud. Ha eseguito le seguenti operazioni:
+Questo utente ha accesso a due organizzazioni Experience Cloud. Hanno eseguito le seguenti operazioni:
 
-* Ha collegato il suo account amministratore nella società di accesso di Analytics [!UICONTROL chapek] al suo account organizzazione di Experience Cloud [!UICONTROL Chapek Corp].
-* Ha collegato il suo account non amministratore nella società di accesso di Analytics [!UICONTROL doohan] al suo account organizzazione di Experience Cloud [!UICONTROL Chapek Corp].
-* Ha collegato il suo account non amministratore nella società di accesso di Analytics nigel al suo account organizzazione di Experience Cloud Nigel Inc.
+* Hanno collegato il loro account amministratore nella società di accesso [!UICONTROL chapek] Analytics al loro account organizzazione [!UICONTROL Chapek] Corp Experience Cloud.
+* Hanno collegato il loro account non amministratore nella società di accesso [!UICONTROL doohan] Analytics al loro account organizzazione [!UICONTROL Chapek] Corp Experience Cloud.
+* Hanno collegato il loro account non amministratore nella società di accesso nigel Analytics al loro account organizzazione di Experience Cloud Nigel Inc.
 
 I punti seguenti elencano le azioni di mappatura che questo utente può e non può eseguire relativamente a queste suite di rapporti:
 
 * La suite di rapporti [!UICONTROL Chapek-prod] può essere mappata sull’organizzazione [!UICONTROL Chapek Corp] poiché questo utente è un amministratore di una società di accesso di Analytics collegata ([!UICONTROL chapek]) e il suo account è collegato a questa organizzazione.
-* La suite di rapporti [!UICONTROL Nigel-prod] non può essere collegata da questo utente poiché non è un amministratore in alcuna società di accesso alla quale è visibile questa suite di rapporti.
+* [!UICONTROL La suite Nigel-] prodreport non può essere collegata da questo utente perché non è un amministratore in alcuna società di accesso a cui è visibile questa suite di rapporti.
 * La suite di rapporti [!UICONTROL Doohan-prod] può essere mappata su [!UICONTROL Chapek Corp] poiché questo utente è un amministratore di una società di accesso ([!UICONTROL chapek]) collegata all’organizzazione di Experience Cloud (nota che non è un amministratore della società di accesso di Analytics doohan). È importante comprendere che la suite di rapporti [!UICONTROL doohan-prod] è anche idonea a essere mappata sull’organizzazione di Experience Cloud Nigel Inc, anche se questo utente non può farlo. In questo caso, entrambe le organizzazioni di Experience Cloud sono visualizzate nell’elenco, ma [!UICONTROL Nigel Inc] è disattivata. Prima della mappatura, questo utente deve consultare un amministratore della società di accesso Nigel per determinare quale organizzazione è la migliore per la mappatura. L’interfaccia utente visualizza un avviso di possibile conflitto se selezioni un’organizzazione diversa dall’organizzazione in cui è stata originariamente creata la suite di rapporti.
 
 ## Domande frequenti {#section_099E485805994C929FF9C9F75219BEE1}
@@ -96,7 +95,7 @@ Alcune suite di rapporti potrebbero essere visibili in una società di accesso d
 
 ### Cosa succede se non riconosco alcune delle organizzazioni elencate nel menu a discesa per una delle mie suite di rapporti?
 
-L’elenco ti mostra tutte le *possibili* organizzazioni su cui le tue suite di rapporti possono essere mappate, anche se non possiedi l’autorizzazione per farlo. Se non sai se la suite di rapporti deve essere mappata su una delle suite di rapporti disattivate nell’elenco, consulta un amministratore Experience Cloud nella tua organizzazione per determinare la scelta migliore.
+L’elenco ti mostra tutte le *possibili* organizzazioni su cui le tue suite di rapporti possono essere mappate, anche se non possiedi l’autorizzazione per farlo. Se non sei sicuro se la suite di rapporti deve essere mappata su una delle suite di rapporti disattivate nell’elenco, consulta un amministratore di Experience Cloud nella tua organizzazione per determinare la scelta migliore.
 
 ### Cosa vuol dire se non riconosco alcune delle società di accesso elencate per una suite di rapporti nella colonna “Visibile alle società di accesso”?
 
@@ -108,11 +107,11 @@ Si tratta di una notifica per aiutarti a prendere una decisione informata sulla 
 
 ### Come posso sapere se una suite di rapporti è mappata?
 
-Le suite di rapporti mappate saranno visualizzate in un formato non modificabile. Se devi modificare una mappatura, contatta l’Assistenza clienti.
+Le suite di rapporti mappate vengono visualizzate in un formato non modificabile. Se devi modificare una mappatura, contatta l’Assistenza clienti.
 
 ### Cosa succede se conosco solo l’ID organizzazione per la mia organizzazione Experience Cloud? Come posso cercare il nome per il mio ID organizzazione?
 
-Puoi trovare il nome della tua organizzazione in [Impostazioni organizzazioni e account](https://docs.adobe.com/content/help/it-IT/core-services/interface/manage-users-and-products/organizations.html).
+Puoi trovare il nome della tua organizzazione in [Impostazioni organizzazioni e account](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=en).
 
 ### Visualizzo una data nella colonna “Data di mappatura”. Chi ha eseguito la mappatura?
 
