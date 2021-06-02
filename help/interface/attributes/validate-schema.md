@@ -9,17 +9,16 @@ topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
 source-wordcount: '472'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
 # Convalida dello schema
 
-Il procedimento di convalida consente di mappare i nomi e le descrizioni visualizzati agli attributi caricati (stringhe, interi, numeri e così via). Uno schema viene creato in base a queste impostazioni. Lo schema viene utilizzato per convalidare tutti i dati futuri caricati in questa sorgente dati. Questo processo di mappatura non altera i dati originali.
+Il procedimento di convalida consente di mappare i nomi e le descrizioni visualizzati agli attributi caricati (stringhe, interi, numeri e così via). Uno schema viene creato in base a queste impostazioni. Lo schema viene utilizzato per convalidare tutti i dati futuri caricati in questa sorgente dati. Il processo di mappatura non altera i dati originali.
 
 >[!NOTE]
 >
@@ -47,9 +46,9 @@ Nella pagina [!UICONTROL Convalida schema] ciascuna riga dello schema rappresent
 
    * **[!UICONTROL AVID (ID visitatore di Analytics):]** mostra se utilizzi una prop o eVar per caricare CID. Se tali ID vengono passati a Experience Cloud, tutti gli ID visitatore associati al CID che hai immesso vengono visualizzati qui.
 
-Puoi caricare i dati tramite FTP anche dopo la creazione di un&#39;origine attributo del cliente e un account FTP in Experience Cloud. Puoi creare un account FTP per ogni sorgente attributo. I file caricati vengono memorizzati nella cartella root di tale account. I dati devono essere in formato .csv e un secondo file .fin deve indicare il completamento del caricamento.
+Puoi caricare i dati tramite FTP anche dopo la creazione di un&#39;origine attributo del cliente e un account FTP in Experience Cloud. Puoi creare un account FTP per ogni sorgente attributo. I file caricati vengono memorizzati nella cartella root di tale account. I dati devono essere in formato `.csv` e un secondo file `.fin` deve indicare il completamento del caricamento
 
-I nomi applicati a stringhe, interi e numeri vengono utilizzati per creare metriche di [!DNL Analytics]. Consulta [Rapporto sugli attributi del cliente](https://docs.adobe.com/content/help/it-IT/core-services/interface/customer-attributes/attributes.html) nella guida di [!DNL Analytics] per ulteriori informazioni.
+I nomi applicati a stringhe, interi e numeri vengono utilizzati per creare metriche di [!DNL Analytics]. Consulta [Rapporto sugli attributi del cliente](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-customer-attributes.html?lang=en) nella guida di [!DNL Analytics] per ulteriori informazioni.
 
 * **[!UICONTROL Attributo:]** dati degli attributi letti dal file `.csv` caricato.
 
@@ -61,6 +60,6 @@ I nomi applicati a stringhe, interi e numeri vengono utilizzati per creare metri
 
    * **Numeri:** possono contenere fino a due posizioni decimali.
 
-* **[!UICONTROL Nome visualizzato:]** un nome descrittivo per l&#39;attributo. Ad esempio, puoi rinominare l&#39;attributo *età del cliente* in *Cliente dal*.
+* **[!UICONTROL Nome visualizzato:]** un nome descrittivo per l&#39;attributo. Ad esempio, puoi modificare un attributo *età cliente* in *Cliente da*.
 
 * **[!UICONTROL Descrizione:]** una descrizione dell&#39;attributo.
