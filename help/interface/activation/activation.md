@@ -11,56 +11,55 @@ topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: d57f168b-6beb-48f2-b0d2-92593ceee62e
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '437'
-ht-degree: 100%
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '266'
+ht-degree: 57%
 
 ---
 
-# Activation
+# Attivazione
 
-Activation include il più recente prodotto di gestione dei tag denominato Experience Platform Launch, Dynamic Tag Management (DTM) e Triggers.
+Attivazione include l&#39;ultimo prodotto di gestione tag denominato Experience Platform [!UICONTROL Raccolta dati] ([!UICONTROL Launch]) ed Experience Cloud [!UICONTROL Triggers].
 
 ## Experience Platform Launch {#section_05DF74E9EAC94518A155095C65F54568}
 
 Distribuisci e gestisci i tag di analisi, marketing e pubblicità necessari per sviluppare esperienze cliente rilevanti.
 
-Consulta [Experience Platform Launch](https://docs.adobe.com/content/help/it-IT/launch/using/intro/get-started/quick-start.html).
+Consulta la [Guida rapida di Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/get-started/quick-start.html?lang=en).
 
-## Dynamic Tag Management {#section_C7E000EEF3E6459FB4B6D4A8960DD8F0}
+<!-- ## Dynamic Tag Management {#section_C7E000EEF3E6459FB4B6D4A8960DD8F0}
 
-Per avviare Dynamic Tag Management fai clic su **[!UICONTROL Activation]** e invia una richiesta al team di provisioning di Adobe. Entro uno o due giorni lavorativi riceverai le credenziali di accesso.
+To launch Dynamic Tag Management, click **[!UICONTROL Activation]** and send a request to the Adobe provisioning team. You should receive your login credentials within one to two business days. 
 
 <table id="table_3241FF7CA0B242BFAFC68362A62AA0C7"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Attività </th> 
-   <th colname="col2" class="entry"> Descrizione </th> 
+   <th colname="col1" class="entry"> Task </th> 
+   <th colname="col2" class="entry"> Description </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/it-IT/dtm/using/tools/analytics-dtm.html" format="html" scope="external"> Distribuzione di Adobe Analytics </a> </p> </td> 
-   <td colname="col2"> <p> Istruzioni dettagliate per l'aggiunta di Adobe Analytics tramite Dynamic Tag Management di Adobe. </p> </td> 
+   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/dtm/using/tools/analytics-dtm.html" format="html" scope="external"> Deploy Adobe Analytics </a> </p> </td> 
+   <td colname="col2"> <p> Step-by-step instructions to add Adobe Analytics using Adobe Dynamic Tag Management </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html" format="html" scope="external"> Guide all'implementazione per il servizio Experience Cloud ID </a> </p> </td> 
-   <td colname="col2"> <p>Il servizio ID di Experience Cloud abilita le funzionalità principali tra le soluzioni Experience Cloud ID, tra cui Attributi del cliente, condivisione del pubblico e trigger. Adobe consiglia vivamente di implementare il servizio ID e usufruire di queste funzioni. </p> </td> 
+   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html" format="html" scope="external"> Implementation Guides for Experience Cloud ID Service </a> </p> </td> 
+   <td colname="col2"> <p>The Experience Cloud ID Service enables core functionality across Experience Cloud solutions (including Customer Attributes, audience sharing, and triggers). Adobe strongly recommends implementing the ID service and take advantage of these features. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/it-IT/dtm/using/dtm-home.html" format="https" scope="external"> Documentazione del prodotto Dynamic Tag Management </a> </p> </td> 
-   <td colname="col2"> <p>Ulteriori informazioni sulla distribuzione delle soluzioni Experience Cloud tramite Dynamic Tag Management. </p> </td>
+   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html" format="https" scope="external"> Dynamic Tag Management Product Documentation </a> </p> </td> 
+   <td colname="col2"> <p>Learn more about deploying Experience Cloud solutions with Dynamic Tag Management. </p> </td>
   </tr> 
  </tbody> 
 </table>
 
-Se desideri ricevere assistenza per l&#39;implementazione di Dynamic Tag Management, ti consigliamo di contattare l&#39;Account Manager per informazioni sulle offerte di Adobe Global Services, oppure sulle offerte di implementazione dei partner. Puoi contattarci anche su [@AdobeExpCare](https://twitter.com/AdobeExpCare) con l&#39;hashtag #DTM.
+If you want help implementing dynamic tag management we encourage you to contact your Account Manager for information on Adobe Global Services offerings, or implementation partner offerings. Please also feel free to contact us at [@AdobeExpCare](https://twitter.com/AdobeExpCare) with hashtag #DTM. -->
 
-## Experience Cloud Triggers {#section_EEA3A8B5EFCB4F8BABC4ADAF3DD41831}
+## Experience Cloud [!UICONTROL Triggers] {#section_EEA3A8B5EFCB4F8BABC4ADAF3DD41831}
 
-*Triggers* consente ai professionisti del marketing di definire e monitorare i comportamenti dei consumatori chiave e di generare comunicazioni tra soluzioni da usare in decisioni in tempo reale e nella personalizzazione.
+[!UICONTROL Experience Cloud ] Attiva i sensi degli addetti al marketing per definire e monitorare i comportamenti chiave dei consumatori e quindi generare comunicazioni tra soluzioni da utilizzare in decisioni in tempo reale e nella personalizzazione.
 
 <table id="table_AF6842470172429EA97C9B02163BD0C3"> 
  <thead> 
@@ -76,7 +75,7 @@ Se desideri ricevere assistenza per l&#39;implementazione di Dynamic Tag Managem
   </tr>
   <tr> 
    <td colname="col1"> <p>Utilizzo Triggers in Adobe Campaign </p> </td> 
-   <td colname="col2"> <p> Adobe Campaign Standard 16.7 introduce un'integrazione con il nuovo servizio Triggers. Questo servizio consente agli utenti business di definire facilmente i trigger, o attivatori, in base ai dati comportamentali online acquisiti in Adobe Analytics. Una volta definito l'attivatore, questo sarà disponibile in Adobe Campaign per supportare messaggi di remarketing che determinano coinvolgimento e conversioni. Questa nuova funzione pronta all'uso consentirà agli esperti di marketing di attivare i messaggi di remarketing al momento giusto, in base a eventi online quali abbandono del carrello, visualizzazioni di pagine, video visionati e così via. </p> </td>
+   <td colname="col2"> <p> Adobe Campaign Standard 16.7 introduce un'integrazione con il nuovo servizio Triggers. Questo servizio consente agli utenti business di definire facilmente i trigger, o attivatori, in base ai dati comportamentali online acquisiti in Adobe Analytics. Una volta definito l’attivatore, questo è disponibile in Adobe Campaign per supportare messaggi di remarketing che determinano coinvolgimento e conversioni. Questa nuova funzione pronta all’uso consente agli esperti di marketing di attivare messaggi di remarketing al momento giusto, in base a eventi online come abbandono del carrello, visualizzazioni di pagine e video guardati. </p> </td>
   </tr>
  </tbody>
 </table>
@@ -86,4 +85,4 @@ Se desideri ricevere assistenza per l&#39;implementazione di Dynamic Tag Managem
 
 L&#39;estensione Adobe Experience Cloud Debugger per Chrome esamina le pagine Web e aiuta a individuare problemi nell&#39;implementazione delle soluzioni Experience Cloud.
 
-Per ricevere assistenza, consulta [Experience Cloud Debugger](https://docs.adobe.com/content/help/it-IT/debugger/using/experience-cloud-debugger.html).
+Per ricevere assistenza, consulta [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=en).
