@@ -9,17 +9,16 @@ topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '477'
-ht-degree: 100%
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '476'
+ht-degree: 94%
 
 ---
 
 # Creazione di un pubblico
 
-Impara a usare le regole dell’attributo per creare un pubblico e definire un pubblico composito in Experience Cloud.
+Scopri come usare le regole per attributi per creare un pubblico, o audience, e definire un pubblico composito in Experience Cloud.
 
 Questo articolo ti aiuta a capire come:
 
@@ -52,7 +51,7 @@ L’esempio seguente mostra come creare le regole per un pubblico composito. Que
 1. Nella pagina [!UICONTROL Crea nuovo pubblico] specifica un titolo e una descrizione.
 1. In [!UICONTROL Regole], seleziona un&#39;origine attributo:
 
-   * **[!UICONTROL Dati Real-Time Analytics:]** (o dati non elaborati) si tratta di dati attributo derivati da richieste di immagini Analytics in tempo reale e includono dati come eVar ed eventi. Quando utilizzi questa origine di attributi, devi selezionare una suite di rapporti e definire la dimensione o l’evento da includere. Questa selezione di suite di rapporti fornisce la struttura delle variabili utilizzata dalla suite di rapporti.
+   * **[!UICONTROL Dati Real-Time Analytics:]**  (o dati non elaborati) si tratta di dati attributo derivati dalle richieste di immagini Real-Time Analytics e includono dati come eVar ed eventi. Quando utilizzi questa origine di attributi, devi selezionare una suite di rapporti e definire la dimensione o l’evento da includere. Questa selezione di suite di rapporti fornisce la struttura delle variabili utilizzata dalla suite di rapporti.
    >[!NOTE]
    >
    >A causa della memorizzazione nella cache, sono necessarie 12 ore prima che l’eliminazione delle suite di rapporti di Analytics possa essere visibile in Experience Cloud.
