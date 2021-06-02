@@ -9,11 +9,10 @@ topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: 27c026ff-198b-4f49-9718-f25f77a9e716
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
 source-wordcount: '517'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -38,7 +37,7 @@ Adobe è consapevole del fatto che questi tipi di decisioni su marketing e pubbl
 
 Quando si caricano dati PII su Adobe Analytics o Adobe Target, Adobe consiglia al cliente di aggiungere hash di tali dati prima di caricarli su Adobe. Le informazioni con hash possono essere comunque utilizzate per analisi e per scopi di marketing. Adobe vieta agli inserzionisti di inviare dati personali ad Adobe Analytics e Adobe Target, ad esempio cartelle cliniche, informazioni finanziarie e sui minori.
 
-Adobe consiglia agli inserzionisti di considerare attentamente le informazioni da utilizzare a fini di marketing e in quali circostanze l&#39;inserzionista dispone dell&#39;autorizzazione a utilizzare tali informazioni.
+L&#39;Adobe raccomanda agli inserzionisti di considerare attentamente quali informazioni sono appropriate da utilizzare a fini di marketing e in quali circostanze l&#39;inserzionista ha l&#39;autorizzazione a utilizzare tali informazioni.
 
 Poiché la normativa sulla privacy dei consumatori è in continuo mutamento, Adobe consiglia agli inserzionisti di rispettare tre principi comuni:
 
@@ -46,4 +45,4 @@ Poiché la normativa sulla privacy dei consumatori è in continuo mutamento, Ado
 1. Di&#39; ciò che fai (nell&#39;informativa sulla privacy).
 1. Non fare avere sorprese ai consumatori.
 
-Tenendo presenti queste aspettative, Adobe consiglia agli inserzionisti che associano le attività di ricerca ai dati PII di fornire un avviso o una personalizzazioni che indichi che il consumatore è autenticato. Un esempio è includere un saluto all&#39;interno dell&#39;intestazione del sito web. Adobe consiglia inoltre agli inserzionisti di descrivere nell&#39;informativa sulla privacy il tipo di informazioni di navigazione associate ai dati PII e in quali circostanze le informazioni di navigazione sono associate ai dati PII. Infine, Adobe consiglia vivamente agli inserzionisti di esaminare le opzioni di opt-out che forniscono ai consumatori per capire se e come possono utilizzare le informazioni di profilo non autenticate dopo la rinuncia.
+Tenendo presenti queste aspettative, Adobe consiglia agli inserzionisti che associano le attività di ricerca ai dati PII di fornire un avviso o una personalizzazioni che indichi che il consumatore è autenticato. Un esempio è includere un saluto all&#39;interno dell&#39;intestazione del sito web. Adobe consiglia inoltre agli inserzionisti di descrivere nell&#39;informativa sulla privacy il tipo di informazioni di navigazione associate ai dati PII e in quali circostanze le informazioni di navigazione sono associate ai dati PII. Infine, l&#39;Adobe consiglia vivamente agli inserzionisti di rivedere le scelte di rinuncia che forniscono ai consumatori per capire se e come possono utilizzare informazioni di profilo non autenticate dopo la rinuncia.
