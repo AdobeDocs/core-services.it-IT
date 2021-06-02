@@ -8,10 +8,10 @@ topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: b80ee031d4cfa7083a91140d7f5b0b78d21fb931
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
 workflow-type: tm+mt
 source-wordcount: '910'
-ht-degree: 31%
+ht-degree: 30%
 
 ---
 
@@ -63,11 +63,12 @@ Il menu [!UICONTROL Aiuto] consente inoltre di accedere a:
 
 ## Ricerca globale di oggetti ed entità
 
-La ricerca globale consente di trovare qualsiasi oggetto o entità aziendale ricercabile in un’esperienza semplice, coerente e semplice. Questa ricerca superfici gli oggetti a cui hai effettuato l’accesso di recente.
+La ricerca globale consente di trovare oggetti o entità aziendali ricercabili in un’esperienza semplice, coerente e semplice. Questa ricerca superfici gli oggetti a cui hai effettuato l’accesso di recente.
 
 ![](assets/platform-search.png)
 
-Questa ricerca è disponibile solo per gli utenti di Experience Platform.
+>!![NOTE]
+La ricerca globale è disponibile solo per gli utenti di Experience Platform.
 
 ## Gestisci preferenze account {#preferences}
 
@@ -122,9 +123,9 @@ Le guide correlate a Experience Cloud includono:
 
 * [Adobe Mobile](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=en)
 * [Grafico Co-op di Experience Platform](https://experienceleague.adobe.com/docs/device-co-op/using/home.html?lang=en)
-* [Exchange](https://www.adobeexchange.com/experiencecloud)
+* [Exchange](https://exchange.adobe.com/experiencecloud)
 * [Servizio Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en)
-* [Raccolta dati/Launch di Experience Platform](https://experienceleague.corp.adobe.com/docs/launch.html?lang=en)
+* [Raccolta dati/Launch di Experience Platform](https://experienceleague.adobe.com/docs/launch.html?lang=en)
 * [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=en)
 * [API del regolamento generale sulla protezione dei dati (RGPD)](https://www.adobe.io/apis/experiencecloud/gdpr.html)
 * [[!UICONTROL Dynamic Tag Management]](https://experienceleague.adobe.com/docs/dtm/using/dtm-home.html?lang=en)
@@ -139,10 +140,10 @@ Sfrutta i tutorial e le guide pratiche disponibili in Experience League:
 
 ## Note sulla versione e guide relative a Experience Cloud
 
-* [Documentazione del prodotto per tutte le soluzioni Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/user-guides/home.html?lang=en): cerca aiuto all&#39;interno di Informazioni e supporto di Experience Cloud
+* [Documentazione del prodotto per tutte le soluzioni Experience Cloud](https://experienceleague.adobe.com/docs/home.html?lang=en): cerca aiuto all&#39;interno di Informazioni e supporto di Experience Cloud
 * [Note sulla versione e aggiornamenti dei prodotti](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en): le novità di Experience Cloud, tutti gli aggiornamenti per chi si abbona
-* [Esercitazioni per l&#39;implementazione dei servizi core](https://experienceleague.adobe.com/docs/core-services-learn/tutorials/overview.html?lang=en): video ed esercitazioni sui servizi core
+* [Esercitazioni per l&#39;implementazione dei servizi core](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=en): video ed esercitazioni sui servizi core
 * [Assistenza degli esperti di Experience League](https://experienceleague.adobe.com/?lang=it): ottieni informazioni guidate dagli esperti e dalla community
 * [Istruzione e formazione](https://helpx.adobe.com/it/learning.html?promoid=KAUDK) : interagisci con l&#39;Adobe per trarre il massimo dai prodotti Adobe
-* [Blog sull&#39;esperienza dei clienti](https://blog.adobe.com/customer-experience/): leggi il blog Experience Cloud
+* [Blog sull&#39;esperienza dei clienti](https://blog.adobe.com/en/topics/digital-transformation.html): leggi il blog Experience Cloud
 * [Assistenza clienti](https://experienceleague.adobe.com/?support-solution=General&amp;lang=it#support): contatta l&#39;Assistenza clienti Adobe
