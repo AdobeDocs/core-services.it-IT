@@ -9,9 +9,8 @@ topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 100%
 
@@ -27,7 +26,7 @@ Un&#39;*organizzazione* è l&#39;entità che consente all&#39;amministratore di 
 
 Inoltre, potrebbe essere necessario individuare l’ID organizzazione a scopo di assistenza. Puoi verificare di essere nell’organizzazione corretta o cambiare organizzazione utilizzando il menu **[!UICONTROL Organizzazione]**.
 
-![Risultato passaggio](assets/organization-switch.png)
+![Risultato del passaggio](assets/organization-switch.png)
 
 ## Ricerca dell&#39;ID organizzazione {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
 
@@ -73,5 +72,5 @@ Assistenza per problemi derivanti dal collegamento dell’account.
 
 In genere, il collegamento dell’account ha esito negativo perché l’Adobe ID è collegato a un utente precedente. Quando non è possibile eseguire il collegamento, prova le seguenti operazioni:
 
-* [Contatta l’Assistenza Adobe](https://helpx.adobe.com/it/marketing-cloud/contact-support.html).
+* [Contatta l’Assistenza Adobe](https://helpx.adobe.com/it/contact/enterprise-support.ec.html).
 * Durante la risoluzione del problema, Accedi alla soluzione con la procedura standard.
