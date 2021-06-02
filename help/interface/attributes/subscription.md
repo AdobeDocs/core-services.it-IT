@@ -9,17 +9,16 @@ topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: cfa2aa5c-337f-401e-80eb-cbe36cb1d41e
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '388'
-ht-degree: 100%
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '386'
+ht-degree: 96%
 
 ---
 
 # Configurare gli abbonamenti in Experience Cloud
 
-Scopri le origini di dati della soluzione e la configurazione delle sottoscrizioni. Le sottoscrizioni consentono il flusso di dati degli attributi del cliente tra Experience Cloud e le soluzioni (Analytics e [!DNL Target]).
+Scopri le origini di dati della soluzione e la configurazione delle sottoscrizioni. Le sottoscrizioni consentono il flusso di dati degli attributi del cliente tra Experience Cloud e soluzioni ([!DNL Analytics] e [!DNL Target]).
 
 Ad esempio, una sottoscrizione Adobe Analytics abilita i dati degli attributi nei rapporti. Se usi Adobe Target puoi caricare gli attributi del cliente per il targeting e la segmentazione.
 
