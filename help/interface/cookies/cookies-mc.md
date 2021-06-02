@@ -9,11 +9,10 @@ topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: bd9bea58-9987-40d6-84e0-da185388bbbb
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '348'
-ht-degree: 100%
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '347'
+ht-degree: 96%
 
 ---
 
@@ -60,9 +59,9 @@ Adobe Experience Cloud utilizza i cookie per memorizzare un ID visitatore utiliz
 
 **Nome cookie: AMCV_###@AdobeOrg**
 
-Il [servizio ID di Experience Platform](https://docs.adobe.com/content/help/it-IT/id-service/using/home.html) utilizza JavaScript per memorizzare un ID visitatore univoco in un cookie `AMCV_###@AdobeOrg` sul dominio del sito web corrente, dove `###` rappresenta una stringa casuale di caratteri come `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
+Il [servizio ID di Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en) utilizza JavaScript per memorizzare un ID visitatore univoco in un cookie `AMCV_###@AdobeOrg` sul dominio del sito web corrente, dove `###` rappresenta una stringa casuale di caratteri come `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
 
-Consulta anche [Cookie e il servizio ID](https://docs.adobe.com/content/help/it-IT/id-service/using/intro/cookies.html).
+Consulta anche [Cookie e il servizio ID](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=en).
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 
@@ -93,7 +92,7 @@ Consulta anche [Cookie e il servizio ID](https://docs.adobe.com/content/help/it-
    <td colname="col2"> <p> Può variare, nella maggior parte dei casi questo cookie è lungo circa 200 byte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Nessun valore aggiunto. Chrome viene impostato su Lax per impostazione predefinita. </p> </td> 
+   <td colname="col1"> <p>Nessun valore aggiunto. Chrome utilizza Lax per impostazione predefinita. </p> </td> 
    <td colname="col2"> <p> I cookie con questa impostazione vengono inviati solo quando il dominio visualizzato nell’URL del browser corrisponde al dominio del cookie. Questa è la nuova impostazione predefinita per i cookie in Chrome. </p> </td> 
   </tr> 
  </tbody> 
