@@ -9,11 +9,10 @@ topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: ecb8d17f-f752-44ca-8877-44752c28dc70
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '415'
-ht-degree: 100%
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '413'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +30,7 @@ Per i visualizzatori AS2, i cookie:
 Per i visualizzatori AS2 Flash eCatalog, i cookie:
 
 * Archiviano il contenuto generato dall’utente (in particolare il contenuto immesso dall’utente nella funzione “note” del visualizzatore ecatalog). Questo contenuto viene ripristinato quando l’utente riprende una sessione.
-* Quando l’utente avvia un messaggio e-mail per condividere l’ecatalog con un altro utente, il contenuto delle note del secondo elenco dei visualizzatori di AS2 viene copiato sui nostri server e fornito al destinatario. Quando il destinatario avvia la sessione come visualizzatore, il contenuto delle note viene recuperato dal server e copiato in un cookie. Questa funzione è poco usata, pertanto non scade e il contenuto non aggiornato non viene rimosso. Al momento, persiste sui server a tempo indeterminato.
+* Quando l’utente avvia un messaggio e-mail per condividere l’ecatalog con un altro utente, il contenuto delle note del secondo elenco dei visualizzatori di AS2 viene copiato sui nostri server e fornito al destinatario. Quando il destinatario avvia la sessione come visualizzatore, il contenuto delle note viene recuperato dal server e copiato in un cookie. Questa funzione è poco usata, pertanto non scade e il contenuto non aggiornato non viene rimosso. Al momento, persiste sui server a tempo indefinito.
 
 I visualizzatori AS3 successivi non implementano la persistenza della sessione.
 
