@@ -6,11 +6,10 @@ topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: 320defc7-2cd5-4481-955d-77cf6fbfef6d
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '438'
-ht-degree: 100%
+source-git-commit: b968ca3a2751ab9af27e86595447f84f3cb20d68
+workflow-type: tm+mt
+source-wordcount: '437'
+ht-degree: 66%
 
 ---
 
@@ -22,19 +21,19 @@ Questa pagina descrive il supporto per gli [!UICONTROL Attributi del cliente] pe
 >
 >Il contenuto di questo documento non rappresenta e non intende sostituirsi a una consulenza legale. Consulta l&#39;assistenza legale per ricevere consigli in merito al CCPA.
 
-Il CCPA è la nuova legge sulla privacy della California, in vigore dal 1° gennaio 2020. Esso garantisce ai residenti della California nuovi diritti in merito alle loro informazioni personali e impone responsabilità in materia di protezione dei dati a determinate entità che conducono attività commerciali in California. Il CCPA garantisce ai consumatori il diritto di accedere ai propri dati personali e di cancellarli, nonché il diritto di non partecipare a determinate attività che possono essere considerate di “vendita” di informazioni personali a terzi.
+Il CCPA è la nuova legge sulla privacy della California, in vigore dal 1° gennaio 2020. Esso garantisce ai residenti della California nuovi diritti in merito alle loro informazioni personali e impone responsabilità in materia di protezione dei dati a determinate entità che conducono attività commerciali in California. Il CCPA garantisce ai consumatori il diritto di accedere ai propri dati personali e di cancellarli e il diritto di rinunciare a determinate attività che possono essere considerate come &quot;vendita&quot; di informazioni personali a terzi.
 
-In qualità di azienda, puoi determinare i dati personali che Adobe Experience Cloud elabora e archivia per tuo conto.
+In qualità di azienda, puoi determinare i dati personali elaborati e archiviati da Adobe Experience Cloud per tuo conto.
 
-In qualità di fornitore di servizi, Adobe Experience Cloud fornisce supporto alla tua azienda per l&#39;adempimento dei suoi obblighi in virtù del CCPA applicabili all&#39;uso di prodotti e servizi Experience Cloud, compresa la gestione delle richieste di accesso ed eliminazione di informazioni personali.
+In qualità di fornitore di servizi, Adobe Experience Cloud fornisce supporto alla tua azienda per adempiere ai suoi obblighi in virtù del CCPA applicabili all&#39;utilizzo di prodotti e servizi Experience Cloud. Questo supporto include la gestione delle richieste di accesso e cancellazione delle informazioni personali.
 
-In questo documento viene descritto come gli [!UICONTROL attributi del cliente] supportano i diritti all&#39;accesso e all&#39;eliminazione dei dati degli interessati ai sensi del CCPA tramite l&#39;API Adobe Experience Platform Privacy Service e l&#39;interfaccia utente di Privacy Service.
+Questo documento descrive come [!UICONTROL Attributi del cliente] supporta i diritti di accesso e cancellazione dei dati degli interessati ai sensi del CCPA tramite l’API di Adobe Experience Platform Privacy Service e l’interfaccia utente di Privacy Service.
 
 Per ulteriori informazioni sui servizi di privacy Adobe per il CCPA, visita il [Centro per la privacy di Adobe](https://www.adobe.com/privacy/ccpa.html).
 
 ## Configurazione necessaria per inviare richieste per gli [!UICONTROL attributi del cliente]
 
-Per richiedere l&#39;accesso e l&#39;eliminazione dei dati per gli [!UICONTROL attributi del cliente], è necessario:
+Per richiedere l&#39;accesso e l&#39;eliminazione dei dati per [!UICONTROL Attributi del cliente], devi:
 
 1. Identificare quanto segue:
 
@@ -42,7 +41,7 @@ Per richiedere l&#39;accesso e l&#39;eliminazione dei dati per gli [!UICONTROL a
    * ID alias dell&#39;origine dati CRS su cui desideri agire
    * ID CRM del profilo su cui desideri agire
 
-   Un ID organizzazione IMS è una stringa alfanumerica composta da 24 caratteri, con l&#39;aggiunta di @AdobeOrg. Se il team marketing o l&#39;amministratore di sistema Adobe interno non conosce l&#39;ID organizzazione IMS dell&#39;azienda, contatta l&#39;Assistenza clienti Adobe all&#39;indirizzo gdprsupport@adobe.com. Per inviare richieste all&#39;API per la privacy è necessario l&#39;ID organizzazione IMS.
+   Un ID organizzazione IMS è una stringa alfanumerica composta da 24 caratteri, con l&#39;aggiunta di @AdobeOrg. Se il team marketing o l&#39;amministratore di sistema Adobe interno non conosce l&#39;ID organizzazione IMS dell&#39;azienda, contatta l&#39;Assistenza clienti Adobe all&#39;indirizzo gdprsupport@adobe.com. Per inviare richieste all’API Privacy è necessario l’ID organizzazione IMS.
 
 1. In [!UICONTROL Privacy Service], puoi inviare le richieste di accesso ed eliminazione agli attributi del cliente e controllare lo stato delle richieste esistenti.
 
