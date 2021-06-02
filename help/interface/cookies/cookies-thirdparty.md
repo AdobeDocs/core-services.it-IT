@@ -9,22 +9,22 @@ topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: 3d12a1b1-c952-4b42-815d-f64b31429cec
-source-git-commit: ef6196c3096ac7b26633eb4b1b9b2db26237732a
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 84%
+source-wordcount: '267'
+ht-degree: 59%
 
 ---
 
 # Effetti delle modifiche al supporto dei cookie di terze parti sui clienti {#how-changes-to-third-party-cookie-support-impacts-customers}
 
-Poiché il supporto dei cookie di terze parti è diventato sempre più limitato nei vari browser, Adobe ha lavorato a nuove soluzioni che bilanciano con attenzione i requisiti dei clienti con il diritto alla privacy del consumatore nelle soluzioni Adobe Experience Cloud.
+Il supporto per i cookie di terze parti è diventato più limitato tra i vari browser. In quanto tale, Adobe ha lavorato a nuove soluzioni che bilanciano con attenzione i requisiti dei clienti con il diritto alla privacy del consumatore in tutte le applicazioni Experience Cloud.
 
-L’elenco seguente illustra l’effetto dei cookie di terze parti sulle implementazioni correnti delle soluzioni Adobe Experience Cloud:
+L’elenco seguente illustra l’impatto del supporto dei cookie di terze parti sulle implementazioni correnti delle applicazioni Experience Cloud:
 
 ## Adobe Analytics e Adobe Target
 
-* Analytics e Target non subiranno modifiche poiché la stessa attività del sito si basa solo sui cookie di prime parti. I cookie di terze parti sono necessari per comprendere l’attività dell’utente su più domini. Per i browser in cui i cookie di terze parti sono bloccati, il tracciamento tra domini diversi non sarà possibile utilizzando i cookie.
+* Analytics e Target non sono in gran parte interessati, in quanto la stessa attività del sito si basa solo sui cookie di prime parti. I cookie di terze parti sono necessari per comprendere l’attività dell’utente su più domini. Per i browser in cui i cookie di terze parti sono bloccati, il tracciamento tra domini diversi non è possibile utilizzando i cookie.
 
 ## Adobe Experience Manager
 
@@ -46,4 +46,4 @@ L’elenco seguente illustra l’effetto dei cookie di terze parti sulle impleme
    * La visualizzazione quotidiana del remarketing dipende completamente dall’utilizzo dei cookie di terze parti.
    * La visualizzazione dipende inoltre fortemente dalla disponibilità di vari cookie della rete pubblicitaria per la sincronizzazione.
    * L’impatto generale è sconosciuto. Tuttavia, per quanto riguarda il primo punto, la visualizzazione è interessata più di altri servizi.
-   * Stiamo lavorando internamente e con i nostri partner pubblicitari per valutare appieno l’impatto sulla distribuzione degli annunci.
+   * Adobe sta lavorando internamente e con i nostri partner pubblicitari per valutare appieno l’impatto sulla distribuzione degli annunci.
