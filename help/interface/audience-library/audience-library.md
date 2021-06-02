@@ -9,11 +9,10 @@ topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '816'
-ht-degree: 100%
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '819'
+ht-degree: 87%
 
 ---
 
@@ -33,7 +32,7 @@ Puoi creare o derivare tipi di pubblico da diverse fonti, come ad esempio:
 
 Tutti i tipi di pubblico, a prescindere da dove provengono, sono accessibili per l’uso in tempo reale. Tuttavia, i tipi di pubblico condivisi da Analytics a Audience Manager non sono accessibili per il targeting in tempo reale. Il sistema valuta i tipi di pubblico in due modi:
 
-* I tipi di pubblico storici di Analytics vengono valutati ogni 4 ore. Il tempo totale di elaborazione e condivisione può richiedere fino a 8 ore. I tipi di pubblico storici includono sempre i visitatori di ritorno.
+* I tipi di pubblico storici da Analytics vengono valutati ogni quattro ore. Il tempo totale di elaborazione e condivisione richiede fino a otto ore. I tipi di pubblico storici includono sempre i visitatori di ritorno.
 * I dati in tempo reale provengono dal servizio Experience Cloud Audiences e sono valutati in tempo reale.
 
 ## Utilizzo dei tipi di pubblico da parte delle soluzioni {#concept_01EB9345C5344597BC94A864EDD38EE1}
@@ -42,10 +41,10 @@ La tabella seguente descrive come i tipi di pubblico vengono utilizzati nelle so
 
 | Soluzione | Descrizione |
 |--- |--- |
-| Experience Cloud Audiences | Crea, gestisci e condividi tipi di pubblico in modo nativo mediante l’interfaccia della [Libreria tipi di pubblico](../audience-library/audience-library.md). È possibile:<ul><li>Utilizzare tipi di pubblico in tempo reale tramite gli attributi di analisi non elaborati</li><li>Combinare tipi di pubblico per creare tipi di pubblico compositi, unendo dati storici e in tempo reale</li><li>Visualizzare graficamente le dimensioni stimate dei tipi di pubblico</li></ul><br>Per suggerimenti sul tipo di pubblico da creare, consulta: [Experience Cloud Audiences](https://helpx.adobe.com/it/marketing-cloud-core/kb/People/Audience-Creation-Options.html). |
-| Analytics | Durante l’attività di segmentazione, puoi costruire un segmento, combinarlo con una suite di rapporti e quindi pubblicarlo in Experience Cloud. Quando si pubblica un segmento, questo viene visualizzato nella pagina [!UICONTROL Libreria tipi di pubblico] di Experience Cloud. Per informazioni dettagliate, consulta [Pubblicare segmenti in Experience Cloud](https://docs.adobe.com/content/help/it-IT/analytics/components/segmentation/segmentation-workflow/seg-publish.html) nell’Aiuto di Analytics. Il pubblico è inoltre disponibile come pubblico di destinazione per un’esperienza di campagna in Adobe Target e in Audience Manager. Una volta che un pubblico viene condiviso da Adobe Analytics e selezionato per essere utilizzato in una campagna attiva, tutti i profili di visitatori che hanno soddisfatto i criteri di definizione del segmento nei precedenti 90 giorni vengono inviati alla piattaforma [!UICONTROL Servizi di pubblico] di Experience Cloud. Il limite per i tipi di pubblico condivisi è stato aumentato a 75. Il pubblico condiviso con Experience Cloud da Analytics non può superare i 20 milioni di membri univoci. Inoltre, a causa della memorizzazione nella cache, sono necessarie 12 ore prima che l’eliminazione delle suite di rapporti di Analytics possa essere visibile in Experience Cloud. |
+| Tipi di pubblico di Experience Cloud | Crea, gestisci e condividi tipi di pubblico in modo nativo mediante l’interfaccia della [Libreria tipi di pubblico](../audience-library/audience-library.md). È possibile:<ul><li>Utilizzare tipi di pubblico in tempo reale tramite gli attributi di analisi non elaborati</li><li>Combinare tipi di pubblico per creare tipi di pubblico compositi, unendo dati storici e in tempo reale</li><li>Visualizzare graficamente le dimensioni stimate dei tipi di pubblico</li></ul><br>Per suggerimenti sul tipo di pubblico da creare, consulta: [Experience Cloud Audiences](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=en). |
+| Analytics | Durante l’attività di segmentazione, puoi costruire un segmento, combinarlo con una suite di rapporti e quindi pubblicarlo in Experience Cloud. Quando si pubblica un segmento, questo viene visualizzato nella pagina [!UICONTROL Libreria tipi di pubblico] di Experience Cloud. Per informazioni dettagliate, consulta [Pubblicare segmenti in Experience Cloud](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=en) nell’Aiuto di Analytics. Il pubblico è inoltre disponibile come pubblico di destinazione per un’esperienza di campagna in Adobe Target e in Audience Manager. Dopo aver condiviso un pubblico da Adobe Analytics e averlo selezionato per l&#39;utilizzo in una campagna attiva, i profili visitatore che soddisfano i criteri di definizione del segmento per gli ultimi 90 giorni vengono inviati a [!UICONTROL Servizi di pubblico]. Il limite per i tipi di pubblico condivisi è stato aumentato a 75. Il pubblico condiviso con Experience Cloud da Analytics non può superare i 20 milioni di membri univoci. Inoltre, a causa della memorizzazione nella cache, sono necessarie 12 ore prima che l’eliminazione delle suite di rapporti di Analytics possa essere visibile in Experience Cloud. |
 | Mobile Services | Analizza il traffico dei dispositivi mobili utilizzando la visualizzazione radiale nel rapporto [!UICONTROL Tipi di dispositivi]. |
-| [!DNL Target] | Il [servizio ID](https://docs.adobe.com/content/help/it-IT/id-service/using/home.html) unisce ID e dati dei visitatori in un singolo profilo actionable da utilizzare nelle soluzioni. La casella di controllo [Pubblica in Experience Cloud](../audience-library/audience-library.md), selezionabile in fase di creazione del segmento in Adobe Analytics, permette di rendere disponibile il segmento nella libreria di tipi di pubblico personalizzata di Adobe Target. Un segmento creato in Analytics o Audience Manager può essere utilizzato per attività in [!DNL Target]. Ad esempio, puoi creare campagne sulla base delle metriche di conversione di [!DNL Analytics] e sui segmenti di pubblico creati in [!DNL Analytics]. |
+| [!DNL Target] | Il [servizio ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en) unisce ID e dati dei visitatori in un singolo profilo actionable da utilizzare nelle soluzioni. La casella di controllo [Pubblica in Experience Cloud](../audience-library/audience-library.md), selezionabile in fase di creazione del segmento in Adobe Analytics, permette di rendere disponibile il segmento nella libreria di tipi di pubblico personalizzata di Adobe Target. Un segmento creato in Analytics o Audience Manager può essere utilizzato per attività in [!DNL Target]. Ad esempio, puoi creare campagne sulla base delle metriche di conversione di [!DNL Analytics] e sui segmenti di pubblico creati in [!DNL Analytics]. |
 | Audience Manager | I tipi di pubblico condivisi sono disponibili nella segmentazione di Audience Manager. Tutti i tipi di pubblico di Experience Cloud sono disponibili in formato nativo in Audience Manager, che fornisce:<ul><li>Automazione incorporata riguardo il modo in cui vengono condivisi e utilizzati nei flussi di lavoro delle soluzioni</li><li>Destinazioni esterne</li><li>Modellazione lookalike</li></ul> |
 | Campaign | <ul><li>Importare i tipi di pubblico condivisi da diverse soluzioni Adobe Experience Cloud in Adobe Campaign;</li><li>Esporta gli elenchi dei destinatari sotto forma di tipi di pubblico condivisi. Questi tipi di pubblico condivisi possono essere utilizzati nelle diverse soluzioni Adobe Experience Cloud che utilizzi.</li></ul> |
 | Advertising Cloud | Utilizza il pubblico come target. |
@@ -58,9 +57,9 @@ La tabella seguente descrive come i tipi di pubblico vengono utilizzati nelle so
 
 | Aiuto con | Risorsa |
 |--- |--- |
-| Non riesci a trovare Pubblico? | Verifica di avere il provisioning. Consulta [Guida introduttiva: Abilitare le soluzioni per i servizi principali](../core-services/core-services.md).<br>Fai clic [qui](https://www.adobe.com/go/audiences) per richiedere l’accesso a Profili e pubblico (modulo di provisioning integrazioni). |
-| Casi di utilizzo | Per maggiori informazioni sulla soluzione da utilizzare, vai in [Opzioni di creazione pubblico](https://helpx.adobe.com/it/marketing-cloud-core/kb/People/Audience-Creation-Options.html) nella Knowledge Base. |
-| Forum | Il [forum di Audiences](https://forums.adobe.com/community/experience-cloud/platform/core-services/people-service/audiences) è un’ulteriore risorsa per ottenere aiuto sui tipi di pubblico. |
+| Non riesci a trovare Pubblico? | Verifica di avere il provisioning. Consulta [Guida introduttiva: Abilitare le soluzioni per i servizi principali](../core-services/core-services.md).<br>Fai clic [qui](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES) per richiedere l’accesso a Profili e pubblico (modulo di provisioning integrazioni). |
+| Casi di utilizzo | Per maggiori informazioni sulla soluzione da utilizzare, vai in [Opzioni di creazione pubblico](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=en) nella Knowledge Base. |
+| Forum | Il [forum di Audiences](https://experienceleaguecommunities.adobe.com/t5/Adobe-Experience-Cloud-Audiences/ct-p/experience-cloud-audiences-community) è un’altra risorsa per ottenere aiuto sui tipi di pubblico. |
 
 ## Elementi dell&#39;interfaccia libreria di tipi di pubblico {#section_D04ACEF61CEF4B189AE6BA9F40D0DBF4}
 
