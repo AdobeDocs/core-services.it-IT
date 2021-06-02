@@ -9,21 +9,20 @@ topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '1203'
-ht-degree: 100%
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '1198'
+ht-degree: 78%
 
 ---
 
 # Informazioni su file di dati e origini dati per Attributi del cliente
 
-Requisiti dei file di dati e diverse origini dati per caricare Attributi del cliente su Experience Cloud.
+Requisiti del file di dati e origini dati multiple per il caricamento di Attributi del cliente in Experience Cloud.
 
-Avrai bisogno di accedere ai dati di gestione delle relazioni con i clienti o a dati simili della tua azienda. I dati da caricare in Experience Cloud devono essere un file `.csv`. Se effettui il caricamento mediante FTP o sFTP, puoi caricare anche un file `.fin`.
+Devi accedere a CRM o a dati simili dalla tua azienda. I dati da caricare in Experience Cloud devono essere un file `.csv`. Se effettui il caricamento mediante FTP o sFTP, puoi caricare anche un file `.fin`.
 
-La funzione Attributi del cliente è progettata per gestire alcuni file al giorno. Per limitare il problema di avere numero elevato di file di piccole dimensioni a ritardare l&#39;elaborazione, i file inviati nei 30 minuti di una batch precedente della stessa organizzazione vengono indirizzati a una coda di priorità inferiore.
+La funzione Attributi del cliente è progettata per gestire alcuni file al giorno. Per limitare il problema di avere molti file di piccole dimensioni che ritardano l&#39;elaborazione, i file inviati entro 30 minuti da un batch precedente della stessa organizzazione vengono indirizzati a una coda a priorità inferiore.
 
 ## Tipi di file consentiti e requisiti per la denominazione {#section_6F64FA02ACCC4215B0862CB6A1821FBF}
 
@@ -37,7 +36,7 @@ La funzione Attributi del cliente è progettata per gestire alcuni file al giorn
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .csv </span> </p> </td> 
-   <td colname="col2"> <p>Un file di valori separati da virgole (ad esempio un file creato in Excel). Questo è il file che contiene i dati degli attributi del cliente. </p> <p> <b>Requisiti di denominazione:</b> verifica che le estensioni dei nomi dei file non contengano spazi. </p> </td> 
+   <td colname="col2"> <p>Un file di valori separati da virgole (ad esempio un file creato in Excel). Questo file contiene i dati degli attributi del cliente. </p> <p> <b>Requisiti di denominazione:</b> verifica che le estensioni dei nomi dei file non contengano spazi. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .fin </span> </p> </td> 
@@ -78,7 +77,7 @@ Lo stesso file visualizzato in un editor di testo:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Colonna ID cliente </p> </td> 
-   <td colname="col2"> <p> La prima colonna deve essere un ID cliente univoco. L'ID usato deve corrispondere all'ID che viene passato al servizio Experience Cloud ID. </p> <p>Per Analytics, l'ID archiviato in una prop o eVar. </p> <p>Per Target, il valore setCustomerID. (Consulta <a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local"> Analytics e Adobe Target: sincronizzazione dell'ID cliente </a>) </p> <p> Questo ID cliente è l’identificatore univoco che il sistema di gestione delle relazioni con i clienti utilizza per ogni persona nel database. Le colonne rimanenti sono attributi provenienti dai dati di gestione delle relazioni con i clienti. Puoi scegliere quanti attributi caricare. </p> <p>Per le intestazioni delle colonne sono consigliati nomi descrittivi e leggibili, ma non sono obbligatori. Quando convalidi lo schema dopo il caricamento, puoi mappare i nomi descrittivi alle righe e alle colonne caricate. </p> <p> <b>Informazioni sugli ID cliente</b> </p> <p>In genere, un'azienda utilizza un ID cliente proveniente da un sistema di gestione delle relazioni con i clienti. Tale ID viene impostato usando la chiamata <span class="codeph">setCustomerIDs</span> quando una persona effettua l'accesso. Questo ID viene anche usato come chiave nel file CRM che viene caricato in Experience Cloud. Un <a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local"> ID alias</a> è un nome semplificato per i dati archiviati in Audience Manager, dove vengono archiviati i dati alias. Il sistema invia alias a questo archivio di dati (tramite setCustomerIDs). Il file di gestione delle relazioni con i clienti viene applicato ai dati in tale archivio di dati. </p> <p>Per informazioni su <span class="codeph">setCustomerIDs</span> consulta <a href="https://docs.adobe.com/content/help/it-IT/id-service/using/reference/authenticated-state.html" format="https" scope="external">ID cliente e stati di autenticazione</a>. </p> </td> 
+   <td colname="col2"> <p> La prima colonna deve essere un ID cliente univoco. L'ID usato deve corrispondere all'ID che viene passato al servizio Experience Cloud ID. </p> <p>Per Analytics, l'ID archiviato in una prop o eVar. </p> <p>Per Target, il valore setCustomerID. (Consulta <a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local"> Analytics e Adobe Target: sincronizzazione dell'ID cliente </a>) </p> <p> Questo ID cliente è l’identificatore univoco che il sistema di gestione delle relazioni con i clienti utilizza per ogni persona nel database. Le colonne rimanenti sono attributi provenienti dai dati di gestione delle relazioni con i clienti. Scegli quanti attributi caricare. </p> <p>Per le intestazioni delle colonne sono consigliati nomi descrittivi e leggibili, ma non sono obbligatori. Quando convalidi lo schema dopo il caricamento, puoi mappare i nomi descrittivi alle righe e alle colonne caricate. </p> <p> <b>Informazioni sugli ID cliente</b> </p> <p>In genere, un'azienda utilizza un ID cliente proveniente da un sistema di gestione delle relazioni con i clienti. Tale ID viene impostato usando la chiamata <span class="codeph">setCustomerIDs</span> quando una persona effettua l'accesso. Questo ID viene anche usato come chiave nel file CRM che viene caricato in Experience Cloud. Un <a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local"> ID alias</a> è un nome semplificato per i dati archiviati in Audience Manager, dove vengono archiviati i dati alias. Il sistema invia alias a questo archivio di dati (tramite setCustomerIDs). Il file di gestione delle relazioni con i clienti viene applicato ai dati in tale archivio di dati. </p> <p>Per informazioni su <span class="codeph">setCustomerIDs</span> consulta <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=en" format="https" scope="external">ID cliente e stati di autenticazione</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Intestazioni e colonne successive </p> </td> 
@@ -122,7 +121,7 @@ Lo stesso file visualizzato in un editor di testo:
   </tr> 
   <tr> 
    <td colname="col1"> <p>File multipli </p> </td> 
-   <td colname="col2"> <p>Durante il caricamento dei dati dell'attributo del cliente, se devi caricare diversi file in rapida successione, in particolare se sono di grandi dimensioni, accertati che il file precedente sia stato elaborato prima di caricare il file successivo. Puoi monitorare questo passaggio controllando quando il file precedente è stato spostato nella cartella elaborati o non riusciti all'interno del tuo account FTP di Attributi del cliente. </p> <p> La suddivisione di un file di grandi dimensioni in file più piccoli inviandoli in rapida successione potrebbe rallentare l'elaborazione, se non ti assicuri che ogni file sia elaborato completamente prima di inviare quello successivo. </p> </td> 
+   <td colname="col2"> <p>Durante il caricamento dei dati dell'attributo del cliente, se devi caricare diversi file in rapida successione, in particolare se sono di grandi dimensioni, accertati che il file precedente sia stato elaborato prima di caricare il file successivo. Puoi monitorare questo passaggio controllando quando il file precedente è stato spostato nella cartella elaborati o non riusciti all'interno del tuo account FTP Attributi del cliente. </p> <p> La suddivisione di un file di grandi dimensioni in file più piccoli e l'invio in rapida successione può rallentare l'elaborazione, a meno che tu non possa garantire che ogni file venga elaborato prima di inviare il successivo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Codifica caratteri </p> </td> 
@@ -130,7 +129,7 @@ Lo stesso file visualizzato in un editor di testo:
   </tr> 
    <tr> 
    <td colname="col1"> <p>Dati storici </p> </td> 
-   <td colname="col2"> <p> Gli attributi del cliente sono legati al profilo del visitatore sottostante in Analytics. Pertanto sono associati al visitatore per l'intera durata del profilo del visitatore in Analytics. Ciò include il comportamento precedente al primo accesso del cliente. </p> <p> Se utilizzi il metodo di recupero dei data warehouse, i dati vengono legati a un post_visid_high/low basato sull'ID di Analytics (AID). Se utilizzi il servizio Experience Cloud ID, i dati sono legati a un post_visid_high/low basato sull'Experience Cloud ID (MID). </p> </td> 
+   <td colname="col2"> <p> Gli attributi del cliente sono legati al profilo del visitatore sottostante in Analytics. Di conseguenza, gli [!UICONTROL Customer Attributes] sono associati al visitatore per l’intera vita di tale profilo in Analytics. Questo profilo include il comportamento che si è verificato prima del primo accesso del cliente. </p> <p> Se utilizzi il metodo Data Warehouse backfill, i dati sono legati a post_visid_high/low che si basa sull’ID di Analytics (AID). Se utilizzi il servizio Experience Cloud ID, i dati sono legati a un post_visid_high/low basato sull'Experience Cloud ID (MID). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Feed di dati </p> </td> 
@@ -143,7 +142,7 @@ Lo stesso file visualizzato in un editor di testo:
 
 Quando crei, modifichi o elimini sorgenti di attributi del cliente, si verifica un ritardo di circa un&#39;ora prima della effettiva sincronizzazione degli ID con la nuova sorgente dati.
 
-L&#39;ID alias per ogni origine di attributi del cliente deve essere univoco. Se hai più sorgenti di dati che sfruttano lo stesso ID, devi impostarle come segue:
+L&#39;ID alias per ogni origine di attributi del cliente deve essere univoco. Se hai più origini dati che utilizzano lo stesso ID, puoi impostarle come segue:
 
 **In VisitorAPI.js o nello strumento Experience Cloud ID in Dynamic Tag Management:**
 
@@ -156,7 +155,7 @@ Visitor.setCustomerIDs({
 });
 ```
 
-(Consulta [ID cliente e stati di autenticazione](https://docs.adobe.com/content/help/it-IT/id-service/using/reference/authenticated-state.html) per ulteriori informazioni.)
+(Consulta [ID cliente e stati di autenticazione](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=en) per ulteriori informazioni.)
 
 In **[!UICONTROL Experience Cloud]** > **[!UICONTROL Persone]** > **[!UICONTROL Attributi del cliente]**:
 
