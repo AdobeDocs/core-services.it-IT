@@ -1,5 +1,5 @@
 ---
-description: Scopri come creare una sorgente di attributi cliente e caricarla in Adobe Experience Cloud.
+description: Scopri come creare l’origine dell’attributo del cliente e caricarla in Adobe Experience Cloud.
 keywords: Attributi del cliente;servizi core
 solution: Experience Cloud
 title: 'Creazione di una sorgente attributo cliente e caricamento del file di dati '
@@ -9,18 +9,18 @@ topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '1148'
-ht-degree: 90%
+ht-degree: 76%
 
 ---
 
 # Creazione di una sorgente attributo cliente e caricamento del file di dati
 
-Creazione della sorgente attributo cliente (file CSV e FIN) e caricamento dei dati. Puoi attivare l&#39;origine dati quando lo desideri. Quando la sorgente dati è attiva, condividi i dati attributo in Analytics e Target.
+Crea l&#39;origine dell&#39;attributo del cliente (file CSV e FIN) e carica i dati. Puoi attivare l&#39;origine dati quando lo desideri. Quando la sorgente dati è attiva, condividi i dati attributo in Analytics e Target.
 
-## Flusso di lavoro attributi cliente {#concept_BF0AF88E9EF841219ED4D10754CD7154}
+## Flusso di lavoro Attributi del cliente {#concept_BF0AF88E9EF841219ED4D10754CD7154}
 
 ![](assets/crs.png)
 
@@ -57,7 +57,7 @@ Questi dati sono dati aziendali dei clienti provenienti dal tuo sistema di gesti
    ![](assets/01_crs_usecase.png)
 
 1. Prima di continuare, controlla le informazioni importanti in [Requisiti dei file di dati](crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) prima di caricare il file.
-1. [Crea un&#39;origine attributo del cliente e carica il di dati](t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78) come descritto.
+1. [Crea un&#39;origine attributo del cliente e carica i dati](t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78) come descritto di seguito.
 
 ## Creazione di una sorgente attributo cliente e caricamento del file di dati {#task_09DAC0F2B76141E491721C1E679AABC8}
 
@@ -65,7 +65,7 @@ Segui questi passaggi nella pagina Crea nuova origine attributo del cliente in E
 
 >[!IMPORTANT]
 >
->Quando crei, modifichi o elimini origini attributo del cliente, si verifica un ritardo di circa un&#39;ora prima della effettiva sincronizzazione degli ID con la nuova origine dati. Devi disporre di diritti di amministratore in Audience Manager per creare o modificare origini degli attributi del cliente. Contatta l&#39;Assistenza clienti o la consulenza di Audience Manager per ottenere i diritti di amministratore.
+>Quando crei, modifichi o elimini origini attributo del cliente, si verifica un ritardo di circa un&#39;ora prima della effettiva sincronizzazione degli ID con la nuova origine dati. È necessario disporre di diritti amministrativi in Audience Manager per creare o modificare le origini degli attributi del cliente. Contatta l&#39;Assistenza clienti o la consulenza di Audience Manager per ottenere i diritti di amministratore.
 
 1. In [!DNL Experience Cloud], fai clic sull&#39;icona Menu ![](assets/menu-icon.png).
 1. In **[!DNL Experience Platform]**, fai clic su **[!UICONTROL Persone]** > **[!UICONTROL Attributi del cliente]**.
@@ -82,7 +82,7 @@ Segui questi passaggi nella pagina Crea nuova origine attributo del cliente in E
 
    * **[!UICONTROL Descrizione:]** (facoltativo) una descrizione per la sorgente attributi dei dati.
 
-   * **[!UICONTROL ID alias:]** rappresenta un&#39;origine dei dati attributo del cliente come specificato nel sistema di gestione delle relazioni con i clienti. Un ID univoco utilizzato nel codice origine attributo del cliente. L&#39;ID deve essere univoco, in lettere minuscole e non deve comprendere spazi. Il valore immesso nel campo ID alias per l&#39;origine attributi del cliente nell&#39;interfaccia utente di Experience Cloud deve corrispondere ai valori ricevuti dall&#39;implementazione (sia tramite Dynamic Tag Management che JavaScript dell&#39;SDK di Mobile).
+   * **[!UICONTROL ID alias:]** rappresenta un&#39;origine dei dati dell&#39;attributo del cliente, ad esempio un sistema CRM specifico. Un ID univoco utilizzato nel codice origine attributo del cliente. L&#39;ID deve essere univoco, in lettere minuscole e non deve comprendere spazi. Il valore immesso nel campo ID alias per un&#39;origine attributo del cliente nell&#39;interfaccia utente di Experience Cloud deve corrispondere ai valori ottenuti dall&#39;implementazione (sia tramite gestione tag dinamica che JavaScript dell&#39;SDK di Mobile).
 
       L&#39;ID alias corrisponde ad alcune aree in cui puoi impostare valori ID cliente aggiuntivi. Ad esempio:
 
