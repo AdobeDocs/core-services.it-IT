@@ -1,16 +1,16 @@
 ---
 title: Come utilizzare Attributi del cliente
-description: Scopri il servizio Attributi del cliente in Adobe Experience Cloud. Scopri come caricare i dati degli attributi cliente da utilizzare in Adobe Analytics e Adobe Target.
+description: Scopri il servizio Attributi del cliente in Adobe Experience Cloud. Scopri come caricare i dati degli attributi del cliente da utilizzare in Adobe Analytics e Adobe Target.
 solution: Experience Cloud
 feature: Attributi del cliente
 role: Administrator
 topic: Amministrazione
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 87%
+ht-degree: 74%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 87%
 >
 >[!UICONTROL Attributi del cliente è un servizio legacy, attualmente in fase di sostenimento.]
 
-[!UICONTROL Attributi del cliente in Experience Cloud consente di caricare i dati aziendali acquisiti da un database di gestione delle relazioni con i clienti (CRM). ] Puoi caricare i dati in un’origine dati di attributi cliente in Experience Cloud, quindi utilizzarli in Adobe Analytics e Adobe Target.
+[!UICONTROL Attributi del cliente in Experience Cloud consente di caricare i dati aziendali acquisiti da un database di gestione delle relazioni con i clienti (CRM). ] Puoi caricare i dati in un&#39;origine dati Attributi del cliente nell&#39;Experience Cloud, quindi utilizzarli in Adobe Analytics e Adobe Target.
 
 Per individuare questa funzione, apri **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL Attributi del cliente]**
 
@@ -48,7 +48,7 @@ L&#39;immagine seguente è un esempio di un file di dati che mostra i dati dell&
 
 ![](assets/01_crs_usecase.png)
 
-Dopo aver generato il file dati, puoi caricarlo nella fonte dell&#39;attributo cliente che si crea in **[!UICONTROL Experience Cloud]** > **[!UICONTROL Attributi del cliente]**.
+Dopo aver creato il file di dati, puoi caricarlo nell&#39;origine dell&#39;attributo cliente che hai creato in **[!UICONTROL Experience Cloud]** > **[!UICONTROL Attributi del cliente]**.
 
 Consulta [Caricamento dei dati degli attributi del cliente](t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78) per conoscere questo flusso di lavoro.
 
