@@ -8,14 +8,14 @@ topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 11b999ef0c0d4f258e8665eb9c5bf427f5d618c4
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '911'
 ht-degree: 30%
 
 ---
 
-# Componenti dell’interfaccia centrale di Experience Cloud
+# Guida ai componenti dell’interfaccia centrale di Experience Cloud
 
 [La famiglia integrata di applicazioni, prodotti e servizi di marketing digitale di Experience ](https://experience.adobe.com) Cloud Adobe. L&#39;interfaccia intuitiva ti consente di accedere rapidamente alle applicazioni cloud, alle funzionalità di prodotto e ai servizi.
 
