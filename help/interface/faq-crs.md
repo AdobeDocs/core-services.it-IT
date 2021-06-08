@@ -1,0 +1,51 @@
+---
+description: Domande frequenti su Attributi del cliente in Adobe Experience Cloud, per Adobe Analytics e Adobe Target.
+keywords: Attributi del cliente
+solution: Experience Cloud
+title: 'Risposte alle domande frequenti su Attributi del cliente '
+uuid: e93eb531-23c7-4d75-92e8-75699f58546a
+feature: Attributi del cliente
+topic: Amministrazione
+role: Administrator
+level: Experienced
+exl-id: 6031e544-822b-4843-b3d8-98a36a3c40e8
+source-git-commit: 23ebc782838de74dcf0ae84d91b3b158794a2466
+workflow-type: tm+mt
+source-wordcount: '1175'
+ht-degree: 74%
+
+---
+
+# Domande frequenti su [!UICONTROL Attributi del cliente]
+
+Domande frequenti e best practice per [!UICONTROL Attributi del cliente] in Adobe Analytics e Adobe Target.
+
+## Best practice e limitazioni {#section_7F5189B3DAA84EE6865B91D2026EE05A}
+
+Assistenza e limitazioni durante l&#39;utilizzo degli [!UICONTROL attributi del cliente].
+
+| Problema | Descrizione |
+|--- |--- |
+| Limiti di sottoscrizione degli [!UICONTROL attributi del cliente] | Quando si esegue l’aggiornamento ad Analytics Premium, si verifica un ritardo di 24 ore prima che gli attributi aggiuntivi diventano disponibili. È possibile che venga visualizzato un errore [!UICONTROL Sottoscrizione attributi Max] durante questo ritardo. |
+| Più accessi sullo stesso dispositivo | Quando si utilizza [!UICONTROL Attributi del cliente] per caricare i profili dei clienti in un&#39;origine dati, Adobe consiglia di non condividere i dispositivi (ovvero lo stesso ID Experience Cloud). L’Experience Cloud ID (ECID) persiste sul dispositivo. Se si condivide un dispositivo, lo stesso ECID verrà collegato a più utenti e questo può causare risultati imprevisti in [!DNL Target]. **Nota:** per Mobile, l&#39;ECID è permanente dopo l&#39;installazione dell&#39;app Mobile. Reinstalla l’app per generare un nuovo ECID. Per il web, viene generato un nuovo ECID dopo che il cookie del browser viene cancellato. |
+| Limitazione della frequenza giornaliera di caricamento | Adobe consiglia di aggiornare la funzione Attributi del cliente solo una volta al giorno. Devi aspettare almeno 24 ore per caricare un altro file di dati di profilo cliente per lo stesso set di profili. |
+| ID Analytics personalizzato (`s.visitorID`) | L&#39;impostazione di un ID cliente usando `s.visitorID` è un metodo di identificazione degli utenti in Analytics. Tuttavia, le integrazioni in cui i dati [!DNL Analytics] vengono esportati o importati utilizzando il servizio ID non funzionano quando un visitatore viene identificato utilizzando `s.visitorID.`<br>Questo include, ma non è limitato a, tipi di pubblico condivisi, [!DNL Analytics] per Adobe Target (A4T) e [!UICONTROL Attributi del cliente].<br>Per queste integrazioni, l&#39;impostazione di un ID Analytics personalizzato non è supportata. |
+| Limitazioni del numero di caratteri in [!DNL Analytics] | Quando crei una sottoscrizione [!DNL Analytics], le lunghezze dei campi per i file caricati vengono troncate a 255. |
+
+## Domande frequenti sugli attributi del cliente {#section_E47866EEA83348E09FE43CEC5E44C461}
+
+| Domanda | Risposta |
+|--- |--- |
+| Posso ricevere notifiche sullo stato di caricamento degli attributi del cliente? | Sì. |
+| Cosa devo fare per iniziare a utilizzare attributi del cliente? | <ol><li>Richiedi il provisioning. Se sei un cliente Analytics, Adobe fornisce il provisioning per gli attributi del cliente. Se utilizzi solo Adobe Target e non disponi di Analytics, devi richiedere il provisioning dei servizi core contattando l’Assistenza clienti.</li> <li>Parla con il team interno addetto al CRM. Scopri i tipi di dati cliente disponibili e quali vorresti utilizzare in Analytics ed Experience Cloud.</li><li>Implementa i servizi principali. Consulta [Abilitazione dei servizi principali nelle soluzioni](core-services.md) per conoscere i passaggi per modernizzare l&#39;implementazione (per informazioni importanti, consulta la sezione sulla sincronizzazione degli ID cliente).</li></ol> **Nota:** sono disponibili le domande frequenti di amministratori sull&#39;implementazione dei servizi di base di [qui](faq.md). |
+| Quanti attributi del cliente posso utilizzare? | Puoi caricare centinaia di colonne `.csv` nel servizio di attributi del cliente. Tuttavia, quando configuri le sottoscrizioni e selezioni gli attributi, si applicano i seguenti limiti (per suite di rapporti), a seconda delle soluzioni che possiedi:  <ul><li>Foundation: 0</li><li>Select: 3</li><li>Prime: 15</li><li>Ultimate: 200</li><li>Standard: 3 totali</li><li>Premium: 200</li><li>Adobe Target Standard: 5</li><li>Adobe Target Premium: 200</li></ul> |
+| È richiesta la migrazione al servizio Experience Cloud ID? | La migrazione dipende dalle soluzioni che utilizzi. <ul><li>Adobe Analytics: fortemente consigliata </li><li>Adobe Target: obbligatoria. </li></ul><br>L’utilizzo del servizio Experience Cloud ID consente di utilizzare le funzionalità di Experience Cloud più recenti, tra cui i tipi di pubblico in tempo reale, la modernizzazione di Adobe Target, l’integrazione con Analytics e il tracciamento degli heartbeat video. <br> Per ulteriori dettagli, consulta [Abilitare i servizi core nelle soluzioni](core-services.md). <br>**Nota:** il [servizio Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=en) è l’implementazione modernizzata di quello che in precedenza era noto come _servizio ID visitatore di Analytics._ |
+| In che modo la funzionalità Attributi del cliente si relaziona con Adobe Audience Manager? | Anche se Audience Manager può ricevere dati per l’identificazione del pubblico, non può eseguire funzionalità di analisi in cui gli attributi vengono associati ai dati comportamentali storici. Inoltre, non fornisce le funzionalità di reporting, analisi e segmentazione che sono disponibili in Adobe Analytics. [!UICONTROL Persone] consente di legare tra loro dati dettagliati provenienti da più soluzioni e associarli a un singolo ID per l&#39;utilizzo in Experience Cloud. <br>In Adobe Target gli attributi del cliente vengono visualizzati come attributi individuali che possono essere combinati con altre regole per creare tipi di pubblico. I pubblici condivisi con il servizio [!UICONTROL Persone] sono pubblici completi che non possono essere modificati. |
+| **Solo per Analytics:** In che modo questa funzionalità è diversa da quella fornita in Analytics Premium? | In passato, i clienti interessati a combinare i dati degli attributi del cliente con i dati di Analytics si sono affidati in larga misura allo strumento Data Workbench per questa funzionalità. [!UICONTROL Attributi del cliente ] espone questa funzionalità a un pubblico più ampio fornendo Attributi del cliente come dimensioni e metriche in Reports &amp; Analytics, Ad Hoc Analysis e Report Builder. I clienti Analytics Standard possono accedere agli Attributi del cliente, ma con funzionalità limitate. La funzionalità completa è disponibile per i clienti Analytics Premium. |
+| **Solo per Adobe Target:** è possibile precaricare o caricare dati per clienti che Adobe Target non ha mai visto? | Sì. Quando il visitatore effettua la sua prima richiesta ad Adobe Target, il sistema recupera le informazioni esistenti di cui dispone l’Adobe da Attributi del cliente e le utilizza per il targeting. **Nota:** il recupero di tali dati può richiedere fino a 20 minuti dalla prima interazione del visitatore con Adobe Target. |
+| **Solo per Adobe Target:** posso creare un super pubblico combinando i dati degli attributi del cliente con i dati di pubblico condiviso? | No. I dati di pubblico condiviso costituiscono un pubblico completo. |
+| **Solo per Adobe Target:**[!UICONTROL  come si confronta la funzionalità degli attributi del cliente con l&#39;API di profilo di massa di Adobe Target?] | L&#39;API di profilo di massa consente di aggiornare i profili Adobe Target direttamente tramite l&#39;API, sia singolarmente che in massa. La funzionalità è simile agli attributi del cliente, ma con le seguenti differenze fondamentali:<ul><li>L&#39;API di profilo è una chiamata API REST e gli attributi del cliente utilizzano FTP.</li><li>L&#39;API di profilo di Adobe Target invia dati solo ad Adobe Target invece che all&#39;intero Experience Cloud.</li><li>Attributi del cliente fornisce una semplice interfaccia per creare e gestire questi dati esterni.</li></ul> |
+| **Solo per Adobe Target:** il caricamento di dati dagli attributi del cliente ad Adobe Target estende la durata del profilo del visitatore di Adobe Target? | Sì. Consulta [Durata del profilo del visitatore](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/visitor-profile.html?lang=en) nella Guida di Adobe Target. |
+| **Solo per Adobe Target:** posso eseguire il targeting sui dati caricati negli Attributi del cliente subito dopo che il visitatore è stato identificato dall&#39;ID cliente? | Sì.  Nella chiamata del server ad Adobe Target, che include l&#39;ID di terze parti mbox, sono disponibili tutti i dati degli attributi del cliente. |
+| **Solo per Adobe Target:** cosa rappresenta la colonna **[!UICONTROL Stato di sincronizzazione]** per i file caricati nell&#39;origine attributi del cliente? | Puoi visualizzare il numero di record pubblicati e sincronizzati da Adobe Target facendo clic sull&#39;icona Stato di sincronizzazione in corrispondenza di un file di attributi specifico. `Sync %` è una metrica in tempo reale che specifica la percentuale di profili sincronizzati in Adobe Target.<br> **Nota:** la sincronizzazione degli attributi con Adobe Target potrebbe richiedere fino a 24 ore. |
+| Cosa rappresentano le metriche di caricamento dei file nell&#39;origine attributi del cliente? | Puoi controllare lo stato degli attributi caricati in Attributi del cliente con l&#39;aiuto delle metriche seguenti: <ul><li>Record: numero di record nel file degli attributi.</li><li>**Nuovi record:** numero di nuovi record presenti nel file degli attributi.</li> <li>**Record aggiornati:** numero di record esistenti in Attributi del cliente con valori aggiornati nel file.</li><li>**Tutti i dati (record):** numero totale di record caricati correttamente in Attributi del cliente.</li></ul> |
