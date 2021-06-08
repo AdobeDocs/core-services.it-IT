@@ -8,11 +8,10 @@ topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: caf2ff76-2076-436d-a5a7-aff531464480
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '383'
-ht-degree: 100%
+source-git-commit: c7ed1324015beb7ebcf7a4ee21b05601e36e608f
+workflow-type: tm+mt
+source-wordcount: '384'
+ht-degree: 88%
 
 ---
 
@@ -22,7 +21,7 @@ Implementa il recupero preventivo del DNS per contribuire a ridurre i tempi di c
 
 ## Informazioni sul recupero preventivo del DNS {#section_772BF9CB7C4141DE9B0355146E2CD962}
 
-I browser utilizzano il recupero preventivo del DNS per risolvere automaticamente i nomi di dominio collegati in una pagina web ai relativi indirizzi IP. Il processo di recupero preventivo inizia quando il browser carica una pagina Web. Ad esempio, supponiamo che la tua pagina contenga un collegamento selezionabile a `www.adobe.com`. Quando un browser carica la pagina, utilizza il [sistema DNS](https://www.networksolutions.com/support/what-is-a-domain-name-server-dns-and-how-does-it-work/) per cercare il nome di dominio collegato e risolverlo nell’indirizzo IP numerico corrispondente. Il recupero preventivo del DNS migliora le prestazioni delle pagine perché il nome di dominio viene risolto sempre in un indirizzo IP prima che il visitatore di un sito faccia clic sul collegamento o pulsante. Il processo di recupero preventivo del DNS è trasparente per gli utenti.
+I browser utilizzano il recupero preventivo del DNS per risolvere automaticamente i nomi di dominio collegati in una pagina web ai relativi indirizzi IP. Il processo di recupero preventivo inizia quando il browser carica una pagina Web. Ad esempio, si supponga che la pagina contenga un collegamento selezionabile a `www.adobe.com`. Quando un browser carica la pagina, utilizza il [sistema DNS](https://www.networksolutions.com/support/what-is-a-domain-name-server-dns-and-how-does-it-work/) per cercare il nome di dominio collegato e risolverlo nell’indirizzo IP numerico corrispondente. Il recupero preventivo del DNS migliora le prestazioni delle pagine perché il nome di dominio viene risolto sempre in un indirizzo IP prima che il visitatore di un sito faccia clic sul collegamento o pulsante. Il processo di recupero preventivo del DNS è trasparente per gli utenti.
 
 ## Recupero preventivo del DNS e soluzioni Adobe Experience Cloud {#section_202A07F9F79F4ABDA44B98BA1DDCD516}
 
@@ -35,7 +34,7 @@ Tuttavia, puoi implementare manualmente il recupero preventivo del DNS con le so
 
 ## Esempi di codici di recupero preventivo del DNS {#section_E886F7B2861E48BA9EF3D8B3CE32B345}
 
-Gli esempi seguenti mostrano come eseguire chiamate di recupero preventivo del DNS in diverse soluzioni e servizi [!DNL Experience Cloud]. Alcune chiamate di recupero preventivo richiedono il tuo ID organizzazione [!DNL Adobe] o i dati del server di registrazione. In questi esempi, il codice in *corsivo* rappresenta un segnaposto variabile. Il codice deve essere sostituito con il tuo ID partner [!DNL Adobe], il codice cliente o le informazioni sul server di registrazione, ecc.
+Gli esempi seguenti mostrano come eseguire chiamate di recupero preventivo del DNS in diverse soluzioni e servizi [!DNL Experience Cloud]. Alcune chiamate di recupero preventivo richiedono il tuo ID organizzazione [!DNL Adobe] o i dati del server di registrazione. In questi esempi, il codice in *corsivo* rappresenta un segnaposto variabile. Il codice deve essere sostituito con il tuo [!DNL Adobe] ID partner, il codice cliente o le informazioni sul server di tracciamento e così via.
 
 * **Analytics:** `<link rel="dns-prefetch" href="//insert tracking server name here">`.
 
@@ -45,9 +44,9 @@ Gli esempi seguenti mostrano come eseguire chiamate di recupero preventivo del D
 
 * **Servizio Experience Cloud ID:** `<link rel="dns-prefetch" href="//fast. *`inserisci l’ID partner qui`*.demdex.net">`
 
-* **Dynamic Tag Manager** (DTM): non obbligatorio. I collegamenti DTM sono disponibili non appena si carica la pagina.
+* **Dynamic Tag Manager** (DTM): non obbligatorio. I collegamenti DTM sono disponibili al caricamento della pagina.
 
-* **Media Optimizer (Ad Cloud):**
+* **Media Optimizer (Advertising Cloud):**
 
    * `<link rel="dns-prefetch" href="//pixel.everesttech.net">`
    * `<link rel="dns-prefetch" href="//cm.everesttechnet">`
