@@ -4,22 +4,22 @@ user-guide-title: 'Componenti dell’interfaccia centrale di Experience Cloud '
 breadcrumb-title: Componenti dell’interfaccia centrale di Experience Cloud
 user-guide-description: Scopri l’interfaccia di Experience Cloud, configura le preferenze, cerca aiuto e oggetti aziendali. Ottieni aiuto per la gestione di utenti e prodotti, gli attributi del cliente, la libreria Pubblico, i cookie e le risorse di Experience Cloud.
 index: true
-source-git-commit: c703868b03b3383237c3aed2c8a39434db42436c
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '341'
-ht-degree: 82%
+ht-degree: 81%
 
 ---
 
 
 # Componenti dell’interfaccia centrale di Experience Cloud {#interface}
 
-+ [Experience Cloud di componenti dell’interfaccia centrale](experience-cloud.md)
++ [Guida ai componenti dell’interfaccia centrale di Experience Cloud](experience-cloud.md)
 + Servizi Experience Cloud {#services}
-   + [Panoramica dei servizi Experience Cloud](core-services-landing.md)
+   + [Servizi Experience Cloud](core-services-landing.md)
    + [Abilitare l’implementazione per i servizi tra più soluzioni](core-services.md)
-   + Experience Cloud Audiences {#audiences}
-      + [Servizio Experience Cloud Audiences](audience-library.md)
+   + Libreria di tipi di pubblico di Experience Cloud {#audiences}
+      + [Tipi di pubblico di Experience Cloud](audience-library.md)
       + [Creazione di un pubblico](t-audience-create.md)
       + [Pubblicazione di un segmento di pubblico di Analytics](t-publish-audience-segment.md)
    + Attributi del cliente di Experience Cloud {#customer-attributes}
