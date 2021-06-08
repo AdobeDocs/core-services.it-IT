@@ -6,10 +6,10 @@ feature: '"Componenti dell''interfaccia centrale"'
 topic: Amministrazione
 role: Administrator, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
+source-git-commit: b6282dfdfc37e2767802d4ce50bdd734141b521e
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -23,7 +23,7 @@ I componenti dell’interfaccia centrale di Experience Cloud includono funzioni 
 
 ## Accedere a Experience Cloud
 
-Accedi e verifica di essere nell&#39;[organizzazione](admin-getting-started/organizations.md) corretta.
+Accedi e verifica di essere nell&#39;[organizzazione](organizations.md) corretta.
 
 1. Passa a [Adobe Experience Cloud](https://experience.adobe.com).
 1. Fai clic su **[!UICONTROL Accedi con un Adobe ID]**.
@@ -31,7 +31,7 @@ Accedi e verifica di essere nell&#39;[organizzazione](admin-getting-started/orga
 
    ![](assets/organizations-menu.png)
 
-   L&#39;amministratore può aiutarti a verificare di essere nell&#39; [organizzazione](admin-getting-started/organizations.md) corretta.
+   L&#39;amministratore può aiutarti a verificare di essere nell&#39; [organizzazione](organizations.md) corretta.
 
 ## Accesso alle applicazioni Experience Cloud {#navigation}
 
@@ -59,7 +59,7 @@ Il menu [!UICONTROL Aiuto] consente inoltre di accedere a:
 Nel menu delle preferenze dell’account puoi effettuare le seguenti operazioni:
 
 * Specificare un tema scuro (non tutte le applicazioni supportano questo tema)
-* Cerca [Organizzazioni](admin-getting-started/organizations.md)
+* Cerca [Organizzazioni](organizations.md)
 * Esci
 * Configura account [preferenze, notifiche e sottoscrizioni](#preferences)
 
@@ -75,7 +75,7 @@ In [!UICONTROL Preferenze Experience Cloud], è possibile configurare le seguent
 
 | Funzione | Descrizione |
 |--- |--- |
-| Predefinito [organizzazione](admin-getting-started/organizations.md) | Seleziona l’organizzazione da visualizzare all’avvio di Experience Cloud. |
+| Predefinito [organizzazione](organizations.md) | Seleziona l’organizzazione da visualizzare all’avvio di Experience Cloud. |
 | [!UICONTROL Abbonamenti] | Seleziona i prodotti e le categorie a cui desideri abbonarti. Notifiche nel pop-up [!UICONTROL Notifications] e nella tua e-mail. |
 | [!UICONTROL Priorità] | Seleziona le categorie a cui vuoi assegnare la priorità alta. Queste categorie sono contrassegnate con un tag High e possono essere configurate per la distribuzione come avvisi. |
 | [!UICONTROL Avvisi] | Seleziona le notifiche per le quali desideri visualizzare gli avvisi nel browser. Gli avvisi vengono visualizzati nell’angolo in alto a destra della finestra per alcuni secondi. |
