@@ -9,10 +9,10 @@ topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '1198'
-ht-degree: 78%
+ht-degree: 69%
 
 ---
 
@@ -36,7 +36,7 @@ La funzione Attributi del cliente è progettata per gestire alcuni file al giorn
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .csv </span> </p> </td> 
-   <td colname="col2"> <p>Un file di valori separati da virgole (ad esempio un file creato in Excel). Questo file contiene i dati degli attributi del cliente. </p> <p> <b>Requisiti di denominazione:</b> verifica che le estensioni dei nomi dei file non contengano spazi. </p> </td> 
+   <td colname="col2"> <p>Un file di valori separati da virgole (ad esempio un file creato in Excel). Questo file contiene i dati dell'attributo cliente. </p> <p> <b>Requisiti di denominazione:</b> verifica che le estensioni dei nomi dei file non contengano spazi. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .fin </span> </p> </td> 
@@ -85,7 +85,7 @@ Lo stesso file visualizzato in un editor di testo:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Limiti degli attributi </p> </td> 
-   <td colname="col2"> <p>In Experience Cloud, nel servizio attributo cliente puoi caricare centinaia di colonne <span class="filepath">.csv</span>. Tuttavia, quando configuri le sottoscrizioni e selezioni gli attributi, si applicano i seguenti limiti a seconda delle soluzioni che possiedi: </p> <p> 
+   <td colname="col2"> <p>Nell’Experience Cloud puoi caricare centinaia di colonne <span class="filepath"> .csv </span> nel servizio Attributi del cliente . Tuttavia, quando configuri le sottoscrizioni e selezioni gli attributi, si applicano i seguenti limiti a seconda delle soluzioni che possiedi: </p> <p> 
      <ul id="ul_2BB85067918D4BB3B59394F3E3E37A6D"> 
       <li id="li_93703988B9934384B4B94A839D028380"> <b>Analytics Standard</b>: 3 totali </li> 
       <li id="li_D1E5E7BD24C54591B14D15DE97447835"> <b>Analytics Premium</b>: 200 per suite di rapporti </li> 
@@ -121,7 +121,7 @@ Lo stesso file visualizzato in un editor di testo:
   </tr> 
   <tr> 
    <td colname="col1"> <p>File multipli </p> </td> 
-   <td colname="col2"> <p>Durante il caricamento dei dati dell'attributo del cliente, se devi caricare diversi file in rapida successione, in particolare se sono di grandi dimensioni, accertati che il file precedente sia stato elaborato prima di caricare il file successivo. Puoi monitorare questo passaggio controllando quando il file precedente è stato spostato nella cartella elaborati o non riusciti all'interno del tuo account FTP Attributi del cliente. </p> <p> La suddivisione di un file di grandi dimensioni in file più piccoli e l'invio in rapida successione può rallentare l'elaborazione, a meno che tu non possa garantire che ogni file venga elaborato prima di inviare il successivo. </p> </td> 
+   <td colname="col2"> <p>Durante il caricamento dei dati di Attributi del cliente, se hai diversi file da caricare in rapida successione, e soprattutto se i file sono di grandi dimensioni, assicurati che il file precedente sia stato elaborato prima di caricare il file successivo. Puoi monitorare questo passaggio controllando quando il file precedente è stato spostato nella cartella elaborati o non riusciti all'interno del tuo account FTP Attributi del cliente. </p> <p> La suddivisione di un file di grandi dimensioni in file più piccoli e l'invio in rapida successione può rallentare l'elaborazione, a meno che tu non possa garantire che ogni file venga elaborato prima di inviare il successivo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Codifica caratteri </p> </td> 
@@ -140,9 +140,9 @@ Lo stesso file visualizzato in un editor di testo:
 
 ## Utilizzo di più origini dati {#section_76DEB6001C614F4DB8BCC3E5D05088CB}
 
-Quando crei, modifichi o elimini sorgenti di attributi del cliente, si verifica un ritardo di circa un&#39;ora prima della effettiva sincronizzazione degli ID con la nuova sorgente dati.
+Quando crei, modifichi o elimini origini attributo del cliente, si verifica un ritardo di circa un&#39;ora prima della effettiva sincronizzazione degli ID con la nuova origine dati.
 
-L&#39;ID alias per ogni origine di attributi del cliente deve essere univoco. Se hai più origini dati che utilizzano lo stesso ID, puoi impostarle come segue:
+L&#39;ID alias per ogni origine attributo del cliente deve essere univoco. Se hai più origini dati che utilizzano lo stesso ID, puoi impostarle come segue:
 
 **In VisitorAPI.js o nello strumento Experience Cloud ID in Dynamic Tag Management:**
 
@@ -159,4 +159,4 @@ Visitor.setCustomerIDs({
 
 In **[!UICONTROL Experience Cloud]** > **[!UICONTROL Persone]** > **[!UICONTROL Attributi del cliente]**:
 
-Crea due origini di attributi del cliente utilizzando ID alias univoci corrispondenti agli ID cliente qui sopra. Questo metodo consente di inviare lo stesso ID di riferimento a più origini di attributi del cliente.
+Crea due origini di attributi del cliente utilizzando ID alias univoci corrispondenti agli ID cliente qui sopra. Questo metodo consente di inviare lo stesso ID riferimento a più origini attributo del cliente.
