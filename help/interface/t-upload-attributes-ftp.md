@@ -1,26 +1,26 @@
 ---
-description: Scopri come caricare i dati degli attributi del cliente tramite FTP in Experience Cloud.
+description: Scopri come caricare nell’Experience Cloud i dati dell’attributo cliente tramite FTP.
 keywords: Attributi del cliente;servizi core
 solution: Experience Cloud
-title: 'Caricare il file di dati di attributi cliente tramite FTP '
+title: 'Caricamento del file di dati dell''attributo cliente tramite FTP '
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
 feature: Attributi del cliente
 topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '271'
-ht-degree: 90%
+ht-degree: 67%
 
 ---
 
 # Facoltativo - Caricamento del file di dati tramite FTP
 
-Se non effettui il caricamento trascinando la selezione, puoi caricare l&#39;attributo del cliente in Experience Cloud tramite FTP.
+Se non effettui il caricamento trascinando la selezione, puoi caricare nell’Experience Cloud i dati dell’attributo cliente tramite FTP.
 
-Puoi caricare i dati dopo la creazione di un&#39;origine attributo del cliente e un account FTP in Experience Cloud. Puoi creare un account FTP per ogni sorgente attributo. I file caricati vengono memorizzati nella cartella root di tale account. I dati devono essere in formato `.csv`, con un secondo file `.fin` per indicare che il caricamento è completo.
+Puoi caricare i dati dopo la creazione di un&#39;origine attributo del cliente e un account FTP nell&#39;Experience Cloud. Puoi creare un account FTP per ogni sorgente attributo. I file caricati vengono memorizzati nella cartella root di tale account. I dati devono essere in formato `.csv`, con un secondo file `.fin` per indicare che il caricamento è completo.
 
 >[!IMPORTANT]
 >
@@ -33,7 +33,7 @@ Puoi caricare i dati dopo la creazione di un&#39;origine attributo del cliente e
 
 **Per caricare il file di dati tramite FTP**
 
-1. [Crea un&#39;origine attributo del cliente e carica il file di dati...](t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78).
+1. [Creazione di una sorgente attributo cliente e caricamento del file di dati...](t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78).
 
    Verifica di aver effettuato l’accesso al tuo sito FTP su `ftp.adobe.com/<sftpname>`.
 
