@@ -1,18 +1,18 @@
 ---
-description: Scopri come convalidare lo schema di attributi cliente in Adobe Experience Cloud.
+description: Scopri come convalidare lo schema dell’attributo cliente in Adobe Experience Cloud.
 keywords: Attributi del cliente; servizi Experience Cloud
 solution: Experience Cloud
-title: 'Come convalidare lo schema di attributi cliente '
+title: 'Come convalidare lo schema dell''attributo cliente '
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
 feature: Attributi del cliente
 topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 91%
+ht-degree: 82%
 
 ---
 
@@ -46,7 +46,7 @@ Nella pagina [!UICONTROL Convalida schema] ciascuna riga dello schema rappresent
 
    * **[!UICONTROL AVID (ID visitatore di Analytics):]** mostra se utilizzi una prop o eVar per caricare CID. Se tali ID vengono passati a Experience Cloud, tutti gli ID visitatore associati al CID che hai immesso vengono visualizzati qui.
 
-Puoi caricare i dati tramite FTP anche dopo la creazione di un&#39;origine attributo del cliente e un account FTP in Experience Cloud. Puoi creare un account FTP per ogni sorgente attributo. I file caricati vengono memorizzati nella cartella root di tale account. I dati devono essere in formato `.csv`, con un secondo file `.fin` per indicare che il caricamento è completo.
+Puoi caricare i dati tramite FTP anche dopo la creazione di un&#39;origine attributo del cliente e un account FTP nell&#39;Experience Cloud. Puoi creare un account FTP per ogni sorgente attributo. I file caricati vengono memorizzati nella cartella root di tale account. I dati devono essere in formato `.csv`, con un secondo file `.fin` per indicare che il caricamento è completo.
 
 I nomi applicati a stringhe, interi e numeri vengono utilizzati per creare metriche di [!DNL Analytics]. 
 
