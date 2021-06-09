@@ -9,20 +9,27 @@ topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: f28f7f7824981b76fd05b8fb4eab874b04312712
 workflow-type: tm+mt
-source-wordcount: '4094'
-ht-degree: 90%
+source-wordcount: '4189'
+ht-degree: 88%
 
 ---
 
 # Note sulla versione cumulative
 
-Funzionalità, note sulla versione e problemi noti per l&#39;interfaccia Experience Cloud.
+Funzionalità, note sulla versione e problemi noti per i componenti dell’interfaccia centrale di Experience Cloud.
 
 Per un elenco degli aggiornamenti della documentazione, consulta [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
 Per le note sulla versione comprensive di tutte le soluzioni, consulta [Note sulla versione di Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en).
+
+## Giugno - 2021
+
+| Funzione | Data | Descrizione |
+| ------- | ------- | ------- |
+| Supporto per single sign-on per Adobe Federated ID | 17 giugno 2021 | Se utilizzi Federated ID, puoi accedere ad Experience Cloud senza dover inserire un indirizzo e-mail o una password. Per utilizzare questa funzione, aggiungi `#/sso:@domain` all’URL dell’Experience Cloud. <br>Ad esempio, si supponga di essere il proprietario del dominio  `adobecustomer.com` e di voler accedere ad Adobe Analytics. L’URL sarebbe: `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`. |
+| Ricerca Experience League | 1 giugno 2021 | La ricerca nella documentazione di Experience League è stata migliorata. Passa a [Experience League](https://experienceleague.corp.adobe.com/docs/?lang=en) e utilizza il campo **[!UICONTROL Ricerca]** per individuare esercitazioni, documentazione, corsi e altro ancora. |
 
 ## Mag. - 2021
 
