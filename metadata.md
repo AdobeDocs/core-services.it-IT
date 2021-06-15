@@ -11,10 +11,9 @@ solution-icon: help/interface/assets/experience-cloud-logo-24.png
 getting-started-title: Introduzione
 getting-started-url: https://helpx.adobe.com/it/experience-cloud-core-services/get-started.html
 tutorials-title: Tutorial
-tutorials-url: https://docs.adobe.com/content/help/it-IT/core-services-learn/tutorials/overview.html
+tutorials-url: https://experienceleague.adobe.com/content/help/en/core-services-learn/tutorials/overview.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/core-services.it-IT
-translation-type: tm+mt
-source-git-commit: 92879002608cc720b69cb323f9d4c12eee2181d5
+source-git-commit: 918c72e675be85f1309dc697a668771b97bef324
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
