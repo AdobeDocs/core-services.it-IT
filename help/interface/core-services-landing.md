@@ -10,7 +10,7 @@ exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
 source-git-commit: 6a9a3068d2831be28f4cbe859d93eb1ad580897f
 workflow-type: tm+mt
 source-wordcount: '372'
-ht-degree: 40%
+ht-degree: 59%
 
 ---
 
@@ -30,8 +30,8 @@ Il presente Aiuto descrive i seguenti prodotti e servizi:
 | [Componenti dell’interfaccia centrale](experience-cloud.md) | Accedi alle preferenze dell&#39;account, cerca la guida del prodotto e accedi ad applicazioni e servizi. |
 | [Abilitare l’implementazione per i servizi Experience Cloud](core-services.md) | I clienti esistenti possono modernizzare le implementazioni delle soluzioni e implementare Experience Cloud. In questo modo puoi utilizzare le funzioni Attributi del cliente e tipi di pubblico in Adobe Analytics, Audience Manager e Adobe Target. |
 | [Persone - Libreria Pubblico](audience-library.md) | I tipi di pubblico sono raccolte di visitatori (un elenco di ID visitatore). La libreria Pubblico di Adobe consente di gestire la trasformazione dei dati dei visitatori in segmentazione del pubblico. Come |
-| [Persone - Attributi del cliente](attributes.md) | Crea casi di utilizzo di orchestrazione in tempo reale utilizzando dati contestuali archiviati in eventi o origini dati. [!UICONTROL Journey Orchestration] è un applicativo integrato all&#39;interno di Experience Platform. |
-| [Location Service](https://experienceleague.adobe.com/docs/places/using/home.html?lang=en) | Adobe [!UICONTROL Experience Platform Location Service] è un servizio di geolocalizzazione. Consente alle app mobili dotate di awareness della posizione di comprendere il contesto della posizione utilizzando interfacce SDK avanzate e facili da usare, accompagnate da un database flessibile di punti di interesse (POI). |
+| [Persone - Attributi del cliente](attributes.md) | Crea casi di utilizzo di orchestrazione in tempo reale sulla base dei dati contestuali memorizzati negli eventi o nelle origini dati. [!UICONTROL Journey Orchestration] è un applicativo integrato all&#39;interno di Experience Platform. |
+| [Location Service](https://experienceleague.adobe.com/docs/places/using/home.html?lang=it) | Adobe [!UICONTROL Experience Platform Location Service] è un servizio di geolocalizzazione. Consente alle app mobili abilitate alla posizione di contestualizzare quest’ultima mediante l’uso di interfacce SDK avanzate e facili da usare, associate a un database flessibile di punti di interesse (POI). |
 | [Activation](activation.md) | Activation include il più recente prodotto di gestione tag denominato Raccolta dati di Experience Platform (Launch) e Trigger di Experience Cloud. |
 | [Risorse](experience-cloud-assets.md) | Il servizio di base Experience Cloud Assets fornisce un archivio unico e centralizzato di risorse pronte per le attività di marketing da condividere tra le diverse soluzioni. (Assets è un servizio legacy, attualmente in fase di sostenimento.) |
 | [Amministrazione](admin-getting-started.md) | Scopri come accedere ad Admin Console e gestire le autorizzazioni degli utenti e i profili di prodotto di Experience Cloud e il supporto del browser. |
@@ -41,4 +41,4 @@ Il presente Aiuto descrive i seguenti prodotti e servizi:
 
 >[!NOTE]
 >
->La documentazione del prodotto per Experience Platform si trova [qui](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=en). La documentazione tecnica per gli sviluppatori [!UICONTROL Experience Platform] si trova su [Adobe.io](https://www.adobe.io/apis/experienceplatform/home/services.html).
+>La documentazione del prodotto per Experience Platform si trova [qui](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=it). La documentazione tecnica per gli sviluppatori [!UICONTROL Experience Platform] si trova su [Adobe.io](https://www.adobe.io/apis/experienceplatform/home/services.html).
