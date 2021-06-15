@@ -7,7 +7,7 @@ index: true
 source-git-commit: 62c49148ec5dfc945f946cea9a5948a8be781111
 workflow-type: tm+mt
 source-wordcount: '344'
-ht-degree: 78%
+ht-degree: 80%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 78%
       + [Considerazioni sulla privacy per Attributi del cliente](privacy-mac.md)
    + Experience Cloud Activation {#activation}
       + [Panoramica di Activation](activation.md)
-      + [Guida utente di Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=en)
+      + [Guida utente di Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=it)
       + [Triggers](triggers.md)
    + Experience Cloud Assets {#assets}
       + [Panoramica di Experience Cloud Assets](experience-cloud-assets.md)
@@ -50,7 +50,7 @@ ht-degree: 78%
 + Amministrazione di Experienci Cloud {#administration}
    + [Gestione dell&#39;identità utente e dei prodotti Experience Cloud (Admin Console)](admin-getting-started.md)
    + [Visualizza i dettagli utente di Experience Cloud (Admin Tool)](admin-tool-experience-cloud.md)
-   + [Domande frequenti ](faq.md)
+   + [Domande frequenti](faq.md)
    + [Organizzazioni e collegamento di account](organizations.md)
    + [Aggiornamento ad Analytics Premium e Experience Cloud](upgrade-to-analytics-premium.md)
    + [Integrazioni di Experience Cloud](marketing-cloud-integrations.md)
@@ -64,9 +64,9 @@ ht-degree: 78%
       + [Cookie di [!UICONTROL Data Workbench]](cookies-insight.md)
       + [Cookie di Experience Cloud](cookies-mc.md)
       + [Cookie di Advertising Cloud](cookies-advertising-cloud.md)
-      + [[!DNL Scene7] cookie](cookies-s7.md)
-      + [[!DNL Search and Promote] cookie](cookies-snp.md)
-      + [[!DNL Target] cookie](cookies-target.md)
+      + [Cookie di [!DNL Scene7]](cookies-s7.md)
+      + [Cookie di [!DNL Search and Promote]](cookies-snp.md)
+      + [Cookie di [!DNL Target]](cookies-target.md)
       + [Abilitazione delle impostazioni della privacy per i cookie del browser](browser-cookie-settings.md)
       + [Effetti delle modifiche al supporto dei cookie di terze parti sui clienti ](cookies-thirdparty.md)
 + Note sulla versione per Experience Cloud di interfaccia utente {#release-notes}
