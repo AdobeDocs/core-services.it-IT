@@ -1,15 +1,15 @@
 ---
-description: 'Scopri i componenti dell’interfaccia centrale in Experience Cloud, ad  ricerca globale, preferenze dell’account, come navigare nell’interfaccia e ricevere aiuto. '
+description: 'Scopri i componenti dell’interfaccia centrale in Experience Cloud, che includono ricerca globale, preferenze dell’account, come navigare nell’interfaccia e ricevere aiuto. '
 solution: Experience Cloud
-title: 'Experience Cloud di componenti dell’interfaccia utente centrale '
-feature: '"Componenti dell''interfaccia centrale"'
+title: 'Componenti dell’interfaccia utente centrale di Experience Cloud '
+feature: “Componenti dell’interfaccia centrale”
 topic: Amministrazione
 role: Administrator, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: b6282dfdfc37e2767802d4ce50bdd734141b521e
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 7%
+source-wordcount: '437'
+ht-degree: 100%
 
 ---
 
@@ -17,69 +17,71 @@ ht-degree: 7%
 
 I componenti dell’interfaccia centrale di Experience Cloud includono funzioni che consentono di:
 
-* Accesso e accesso alle applicazioni e ai servizi
-* Ricerca di prodotti e oggetti aziendali tramite una ricerca globale
-* Gestisci le preferenze del tuo account (avvisi, notifiche e abbonamenti)
+* Accedere e utilizzare applicazioni e servizi
+* Trovare informazioni sul prodotto e oggetti aziendali tramite una ricerca globale
+* Gestire le preferenze dell’account (avvisi, notifiche e abbonamenti)
 
 ## Accedere a Experience Cloud
 
 Accedi e verifica di essere nell&#39;[organizzazione](organizations.md) corretta.
 
-1. Passa a [Adobe Experience Cloud](https://experience.adobe.com).
-1. Fai clic su **[!UICONTROL Accedi con un Adobe ID]**.
+1. Passa ad [Adobe Experience Cloud](https://experience.adobe.com).
+1. Fai clic su **[!UICONTROL Accedi con Adobe ID]**.
 1. In Adobe Experience Cloud, fai clic sulla tua organizzazione.
 
    ![](assets/organizations-menu.png)
 
-   L&#39;amministratore può aiutarti a verificare di essere nell&#39; [organizzazione](organizations.md) corretta.
+   L’amministratore può aiutarti a verificare di essere nell’[organizzazione](organizations.md) corretta.
 
-## Accesso alle applicazioni Experience Cloud {#navigation}
+## Accedere alle applicazioni di Experience Cloud {#navigation}
 
-Dopo aver effettuato l&#39;accesso ad Experience Cloud, è possibile accedere rapidamente a tutte le applicazioni, i servizi e le organizzazioni dall&#39;intestazione unificata.
+Dopo aver effettuato l’accesso ad Experience Cloud, è possibile accedere rapidamente a tutte le applicazioni, i servizi e le organizzazioni dall’lintestazione unificata.
 
-Fai clic sul selettore dell’applicazione ![](assets/menu-icon.png) per accedere ai servizi Experience Cloud di tua proprietà.
+Per accedere ai servizi Experience Cloud di tua proprietà, fai clic sul selettore delle applicazioni ![](assets/menu-icon.png).
 
 ![](assets/platform-core-services.png)
 
 ## Ricerca e supporto in Experience Cloud {#search}
 
-La ricerca Experience Cloud consente di cercare aiuto (documentazione, esercitazioni e corsi) su [Experience League](https://experienceleague.adobe.com/?lang=it#home).
+La funzione di ricerca di Experience Cloud consente di trovare risorse utili (documentazione, tutorial e corsi) su [Experience League](https://experienceleague.adobe.com/?lang=it#home).
 
 ![](assets/search-menu.png)
 
 Il menu [!UICONTROL Aiuto] consente inoltre di accedere a:
 
-* **[!UICONTROL Supporto]:** crea un ticket di supporto o contatta il supporto   tramite Twitter.
-* **[!UICONTROL Feedback]:** Contatta l&#39;Adobe utilizzando il Feedback e comunicaci cosa pensi.
-* **[!UICONTROL Stato]:** passa a  `https://status.adobe.com/experience_cloud` e controlla lo stato operativo del prodotto e  [!UICONTROL Gestisci sottoscrizioni].
-* **[!UICONTROL Developer Connection]:** navigazione nella documentazione per  `adobe.io` gli sviluppatori.
+* **[!UICONTROL Supporto]:** crea un ticket di supporto o contatta il [!UICONTROL Supporto] tramite Twitter.
+* **[!UICONTROL Feedback]:** contatta Adobe tramite Feedback e inviaci i tuoi commenti.
+* **[!UICONTROL Stato]:** passa a `https://status.adobe.com/experience_cloud` per controllare lo stato operativo del prodotto e [!UICONTROL gestire gli abbonamenti].
+* **[!UICONTROL Developer Connection]:** naviga in `adobe.io` e accedi alla documentazione per gli sviluppatori.
 
-## Preferenze account {#account-menu}
+## Preferenze dell’account {#account-menu}
 
 Nel menu delle preferenze dell’account puoi effettuare le seguenti operazioni:
 
 * Specificare un tema scuro (non tutte le applicazioni supportano questo tema)
-* Cerca [Organizzazioni](organizations.md)
-* Esci
-* Configura account [preferenze, notifiche e sottoscrizioni](#preferences)
+* Cercare le [organizzazioni](organizations.md)
+* Uscire
+* Configurare [preferenze, notifiche e abbonamenti](#preferences) dell’account
 
-### Gestisci Experience Cloud [!UICONTROL Preferenze] {#preferences}
+### Gestire le [!UICONTROL preferenze] di Experience Cloud {#preferences}
 
 Le preferenze di Experience Cloud includono notifiche, abbonamenti e avvisi.
 
-Fai clic su **[!UICONTROL Preferenze]** nel menu dell&#39;account ![](assets/preferences-icon-sm.png) per gestire le preferenze.
+Per gestire le preferenze, fai clic su **[!UICONTROL Preferenze]** nel menu dell’account ![](assets/preferences-icon-sm.png).
 
 ![](assets/preferences-page.png)
 
-In [!UICONTROL Preferenze Experience Cloud], è possibile configurare le seguenti funzioni:
+Nelle [!UICONTROL preferenze di Experience Cloud], è possibile configurare le seguenti funzioni:
 
 | Funzione | Descrizione |
 |--- |--- |
-| Predefinito [organizzazione](organizations.md) | Seleziona l’organizzazione da visualizzare all’avvio di Experience Cloud. |
-| [!UICONTROL Abbonamenti] | Seleziona i prodotti e le categorie a cui desideri abbonarti. Notifiche nel pop-up [!UICONTROL Notifications] e nella tua e-mail. |
-| [!UICONTROL Priorità] | Seleziona le categorie a cui vuoi assegnare la priorità alta. Queste categorie sono contrassegnate con un tag High e possono essere configurate per la distribuzione come avvisi. |
-| [!UICONTROL Avvisi] | Seleziona le notifiche per le quali desideri visualizzare gli avvisi nel browser. Gli avvisi vengono visualizzati nell’angolo in alto a destra della finestra per alcuni secondi. |
-| E-mail | Specifica la frequenza con cui desideri ricevere le e-mail di notifica. (Non inviato, istantaneo, giornaliero o settimanale.) |
+| [Organizzazione](organizations.md) predefinita | Seleziona l’organizzazione da visualizzare all’avvio di Experience Cloud. |
+| [!UICONTROL Abbonamenti] | Seleziona i prodotti e le categorie a cui desideri abbonarti. Notifiche nel riquadro a comparsa [!UICONTROL Notifiche] e via e-mail. |
+| [!UICONTROL Priorità] | Seleziona le categorie a cui vuoi assegnare la priorità alta. Queste categorie sono contrassegnate con il tag Alta e possono essere configurate per la distribuzione come avvisi. |
+| [!UICONTROL Avvisi] | Seleziona le notifiche per le quali desideri visualizzare gli avvisi nel browser. Gli avvisi vengono visualizzati per alcuni secondi nell’angolo in alto a destra della finestra. |
+| E-mail | Specifica la frequenza con cui desideri ricevere le e-mail di notifica: Non inviata, Immediata, Giornaliera o Settimanale. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Notifiche e annunci
 
@@ -87,4 +89,4 @@ Fai clic su **[!UICONTROL Notifiche]** per visualizzare le notifiche che ti inte
 
 ![](assets/notifications-menu-small.png)
 
-Puoi configurare le notifiche in [Preferenze Experience Cloud](#preferences).
+Puoi configurare le notifiche in [Preferenze di Experience Cloud](#preferences).
