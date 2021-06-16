@@ -9,10 +9,10 @@ topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 5e8e5a0f70393460442be247b2d9bf7548a32114
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '4190'
-ht-degree: 88%
+source-wordcount: '4199'
+ht-degree: 89%
 
 ---
 
@@ -31,13 +31,15 @@ Per le note sulla versione comprensive di tutte le soluzioni, consulta [Note sul
 | Supporto per single sign-on per Adobe Federated ID | 17 giugno 2021 | Se utilizzi Federated ID, puoi accedere ad Experience Cloud senza dover immettere un indirizzo e-mail o una password. Per utilizzare questa funzione, aggiungi `#/sso:@domain` all’URL dell’Experience Cloud. <br>Ad esempio, si supponga di essere il proprietario del dominio  `adobecustomer.com` e di voler accedere ad Adobe Analytics. L’URL sarebbe: `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`. |
 | Ricerca Experience League | 1 giugno 2021 | La ricerca nella documentazione di Experience League è stata migliorata. Passa a [Experience League](https://experienceleague.corp.adobe.com/docs/?lang=en) e utilizza il campo **[!UICONTROL Ricerca]** per individuare esercitazioni, documentazione, corsi e altro ancora. |
 
-## Mag. - 2021
+{style=&quot;table-layout:auto&quot;}
+
+## Maggio 2021
 
 | Funzione | Data | Descrizione |
 | ------- | ------- | ------- |
-| Intestazione e navigazione in Experience Cloud | 20 maggio 2021 | Gli aggiornamenti di Adobe Experience Cloud includono una modifica al tema chiaro per l&#39;intestazione, con la possibilità di tornare facilmente a tema scuro e collegamento per controllare preferenze aggiuntive dal loro avatar utente nell&#39;intestazione dell&#39;Experience Cloud. Non tutte le applicazioni di Experience Cloud supportano i temi, ma questa funzione sblocca la possibilità di supportarli in futuro. |
-| Ricerca globale in Experience Cloud | 20 maggio 2021 | Con questa versione, la ricerca globale in Experience Cloud ti consente di eseguire una ricerca qualsiasi nella documentazione, i corsi e le esercitazioni di [Experience League](https://experienceleague.adobe.com/?lang=it#home). Al momento, la ricerca globale è disponibile solo per gli utenti di Experience Platform. La ricerca globale di [!UICONTROL Platform] consente di cercare qualsiasi oggetto aziendale in Experience Cloud, tra cui segmenti, set di dati e schemi. |
-| Preferenze linguistiche di Experience Cloud | 20 maggio 2021 | Questo aggiornamento include la possibilità di impostare le lingue preferite nelle [Preferenze](https://experience.adobe.com/preferences) di Experience Cloud. |
+| Intestazione e navigazione Experience Cloud | 20 maggio 2021 | Gli aggiornamenti introdotti in Adobe Experience Cloud includono una modifica al tema chiaro per l’intestazione, con la possibilità di tornare facilmente al tema scuro e un collegamento per controllare altre preferenze dall’avatar dell’utente nell’intestazione di Experience Cloud. Anche se non tutte le applicazioni Experience Cloud supportano i temi, questa funzione ne abilita il supporto futuro. |
+| Ricerca globale in Experience Cloud | 20 maggio 2021 | Con questa versione, la funzione di ricerca globale di Experience Cloud consente di cercare tra tutti i contenuti (documentazione, corsi e tutorial) di [Experience League](https://experienceleague.adobe.com/?lang=it#home). Attualmente, la ricerca globale è disponibile solo per gli utenti di Experience Platform. La ricerca globale di [!UICONTROL Platform] consente di cercare in qualsiasi oggetto aziendale in Experience Cloud, ad esempio segmenti, set di dati, schemi e altro ancora. |
+| Preferenze lingua di Experience Cloud | 20 maggio 2021 | Questo aggiornamento include la possibilità di impostare le lingue preferite nelle [Preferenze](https://experience.adobe.com/preferences) di Experience Cloud. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -46,6 +48,8 @@ Per le note sulla versione comprensive di tutte le soluzioni, consulta [Note sul
 | Funzione | Descrizione |
 | -----------| ---------- |
 | Admin Tool - Criteri | In questa pagina viene visualizzato l’elenco completo dei criteri di Experience Cloud per l’organizzazione. Fornisce informazioni su prodotti, istanze, utenti e sviluppatori. È inoltre possibile eseguire ricerche nonché ordinare e filtrare viste personalizzate dell’elenco dei criteri. Per ulteriori informazioni, consulta la guida [Admin Tool di Experience Cloud](admin-tool-experience-cloud.md). |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Aprile - 2020
 
@@ -57,6 +61,8 @@ Per le note sulla versione comprensive di tutte le soluzioni, consulta [Note sul
 | Funzione | Descrizione |
 | -----------| ---------- |
 | Admin Tool - visualizza dettagli utente | Gli amministratori possono visualizzare un elenco ordinabile e filtrabile di tutti gli utenti Experience Cloud e dei relativi dettagli nel nuovo Admin Tool. I dettagli degli utenti includono l’accesso ai prodotti, i ruoli e le informazioni sull’ultimo accesso. Consulta la guida [Admin Tool di Experience Cloud](admin-tool-experience-cloud.md) per ulteriori dettagli. |
+
+{style=&quot;table-layout:auto&quot;}
 
 **Correzioni**
 
@@ -218,7 +224,7 @@ Nessuna informazione disponibile.
 </table>
 
 * È stato risolto un problema che impediva ad alcuni utenti di sincronizzare gli attributi del cliente.
-* È stato risolto un problema che impediva alla pagina [Documentazione sul prodotto Adobe Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en) di essere visualizzata in giapponese.
+* È stato risolto un problema che impediva alla pagina [Documentazione sul prodotto Adobe Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=it) di essere visualizzata in giapponese.
 * È stato risolto un problema che impediva l&#39;utilizzo di testo in giapponese nei commenti tra [!DNL Creative Cloud] e [!DNL Experience Cloud].
 
 ## Rilascio 15.4.1 - 8 aprile 2015 {#section_75634120CC934B3381EDEA7F6F976F0A}
