@@ -11,9 +11,9 @@ topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: cd0f9a975732c6c8c3db8ddca6e702449b0efeed
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '705'
 ht-degree: 71%
 
 ---
@@ -68,6 +68,8 @@ Crea un trigger e configurane le condizioni. Ad esempio, puoi specificare i crit
    | La visita deve includere<br>La visita non deve includere<br>Trigger dopo nessuna azione<br>Includi metadati | Puoi definire i criteri o i comportamenti del visitatore desiderati e i comportamenti indesiderati. Ad esempio, le regole per un semplice trigger di abbandono carrello possono essere:<ul><li>La visita deve includere: [!UICONTROL Aggiunta carrello] (metrica) e [!UICONTROL Esiste]. (puoi definire ulteriormente la regola con una visualizzazione di prodotto specifica o con dimensioni come Tipi di browser).</li><li>La visita non deve includere:  [!UICONTROL Pagamento].</li><li>Trigger dopo nessuna azione per: 10 minuti.</li><li>[!UICONTROL Includi metadati]: Consente di aggiungere una  [!DNL Campaign] dimensione o variabili specifiche rilevanti per il comportamento di un visitatore. Questo campo può essere utile per Adobe Campaign per creare l&#39;e-mail di ricommercializzazione corretta.</li></ul><br>Puoi specificare   [!UICONTROL Qualsiasi],    O    Orlogic all’interno o tra contenitori, a seconda dei criteri che ritieni importanti per la regola. |
    | [!UICONTROL Contenitore] | [!UICONTROL Nei contenitori vengono impostati e archiviati regole, condizioni o filtri che definiscono un trigger. ] Se vuoi far verificare gli eventi contemporaneamente, inseriscili nello stesso contenitore. Ciò significa che ogni contenitore elabora indipendentemente a livello di risultato. Ad esempio, in caso di due contenitori uniti dall&#39;operatore AND, le regole saranno idonee quando due risultati soddisfano i requisiti. |
    | Start new session after (Avvia nuova sessione dopo) | Crea un trigger per gli eventi di inizio e fine sessione. |
+
+   {style=&quot;table-layout:auto&quot;}
 
 5. Fai clic su **[!UICONTROL Salva]**.
 6. Usa i trigger per la [commercializzazione in tempo reale](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html?lang=en) in [!DNL Adobe Campaign].
