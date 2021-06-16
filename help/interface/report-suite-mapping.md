@@ -7,7 +7,7 @@ topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: 4e9f0f7a-8e16-4473-af4a-3e74ad50c044
-source-git-commit: 11b999ef0c0d4f258e8665eb9c5bf427f5d618c4
+source-git-commit: 978f2214cd802562880a3aff82677e033229c0a4
 workflow-type: tm+mt
 source-wordcount: '1119'
 ht-degree: 68%
@@ -63,7 +63,7 @@ Questa sezione contiene suggerimenti per aiutarti a selezionare l’organizzazio
 
 ### Quale organizzazione dovrei scegliere?
 
-Se il servizio ID Experience Cloud è distribuito sulla suite di rapporti, assicurati che l’organizzazione selezionata nello strumento di mappatura suite per rapporti sia la stessa organizzazione specificata nel file [!DNL visitorAPI.js] sul sito. Puoi utilizzare le istruzioni in [Testa e verifica il servizio Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html) per individuare l’ID organizzazione utilizzato dal servizio ID visitatore.
+Se il servizio ID Experience Cloud è distribuito sulla suite di rapporti, assicurati che l’organizzazione selezionata nello strumento di mappatura suite per rapporti sia la stessa organizzazione specificata nel file [!DNL visitorAPI.js] sul sito. Puoi utilizzare le istruzioni in [Testa e verifica il servizio Experience Cloud ID](https://experienceleague.corp.adobe.com/docs/id-service/using/implementation/test-verify.html) per individuare l’ID organizzazione utilizzato dal servizio ID visitatore.
 
 Assicurati che la distribuzione corrisponda all&#39;organizzazione scelta nello strumento di mappatura suite per rapporti.
 
