@@ -9,10 +9,10 @@ topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 0069c8b06cbacca6cd9fbdb898d4445931384ebb
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 76%
+source-wordcount: '1152'
+ht-degree: 75%
 
 ---
 
@@ -27,7 +27,7 @@ Crea l&#39;origine dell&#39;attributo del cliente (file CSV e FIN) e carica i da
 1. [Creazione di un file di dati](t-crs-usecase.md#task_B5FB8C0649374C7A94C45DCF2878EA1A)
 1. [Creazione di una sorgente attributo cliente e caricamento del file di dati](t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8)
 1. [Convalida dello schema](t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8)
-1. [Configurazione delle sottoscrizioni e attivazione dell&#39;origine attributo](t-crs-usecase.md#task_1ACA21198F0E46A897A320C244DFF6EA)
+1. [Configurazione delle sottoscrizioni e attiva l&#39;origine attributo](t-crs-usecase.md#task_1ACA21198F0E46A897A320C244DFF6EA)
 
 Dopo l&#39;attivazione dell&#39;origine dati puoi:
 
@@ -82,11 +82,11 @@ Segui questi passaggi nella pagina Crea nuova origine attributo del cliente in E
 
    * **[!UICONTROL Descrizione:]** (facoltativo) una descrizione per la sorgente attributi dei dati.
 
-   * **[!UICONTROL ID alias:]** rappresenta un&#39;origine dei dati dell&#39;attributo del cliente, ad esempio un sistema CRM specifico. Un ID univoco utilizzato nel codice origine attributo del cliente. L&#39;ID deve essere univoco, in lettere minuscole e non deve comprendere spazi. Il valore immesso nel campo ID alias per un&#39;origine attributo del cliente nell&#39;interfaccia utente di Experience Cloud deve corrispondere ai valori ottenuti dall&#39;implementazione (sia tramite gestione tag dinamica che JavaScript dell&#39;SDK di Mobile).
+   * **[!UICONTROL ID alias:]** rappresenta un&#39;origine dei dati dell&#39;attributo del cliente, ad esempio un sistema CRM specifico. [!UICONTROL L&#39;] ID alias è un ID univoco utilizzato nel codice sorgente dell&#39;attributo cliente. L&#39;ID deve essere univoco, in lettere minuscole e non deve comprendere spazi. Il valore immesso nel campo [!UICONTROL ID alias] per un&#39;origine dell&#39;attributo del cliente in Experience Cloud deve corrispondere ai valori che vengono passati dall&#39;implementazione (sia tramite Raccolta dati (Launch), Dynamic Tag Management o JavaScript dell&#39;SDK di Mobile).
 
       L&#39;ID alias corrisponde ad alcune aree in cui puoi impostare valori ID cliente aggiuntivi. Ad esempio:
 
-      * **Dynamic Tag Management:** l&#39;ID alias corrisponde al valore del *Codice di integrazione* in [!UICONTROL Impostazioni cliente], nello strumento del [servizio Experience Cloud ID](https://experienceleague.adobe.com/docs/dtm/using/tools/macid.html?lang=en).
+      * **Dynamic Tag Management:** l&#39;ID alias corrisponde al valore del *Codice di integrazione* in [!UICONTROL Impostazioni cliente], nello strumento del [servizio Experience Cloud ID](https://experienceleague.adobe.com/docs/dtm/using/tools/macid.html?lang=it).
 
       * **API visitatore:** l&#39;ID alias corrisponde agli [ID cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=en) aggiuntivi che puoi associare a ogni visitatore.
 
