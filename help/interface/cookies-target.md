@@ -9,9 +9,9 @@ topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: c4399cc0-8333-47b8-b830-2ba7359f464a
-source-git-commit: c7ed1324015beb7ebcf7a4ee21b05601e36e608f
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '414'
 ht-degree: 83%
 
 ---
@@ -33,6 +33,8 @@ Se necessario, puoi modificare queste impostazioni, fatta eccezione per la durat
 | Dominio server | `clientcode.tt.omtrdc.net`, utilizzando il codice cliente per il tuo [!DNL Adobe Target] account. |
 | Durata cookie | Il cookie rimane sul browser del visitatore per due anni dall’ultimo accesso. Non puoi modificare la durata del cookie. |
 
+{style=&quot;table-layout:auto&quot;}
+
 >[!NOTE]
 >
 >Se uno dei tuoi nomi di dominio include un codice del paese, ad esempio `mycompany.co.uk`, rivolgiti al team dei servizi client per configurare il `at.js` in modo che supporti questo codice.
@@ -46,3 +48,4 @@ Il cookie mantiene alcuni valori per gestire l’esperienza dei visitatori nelle
 | check | Un semplice valore di test utilizzato per determinare se un visitatore supporta i cookie. Impostato ogni volta che un visitatore richiede una pagina. |
 | disable | Impostato se il tempo di caricamento del visitatore supera il timeout configurato nel file at.js. Per impostazione predefinita, questo timeout dura 1 ora. |
 
+{style=&quot;table-layout:auto&quot;}
