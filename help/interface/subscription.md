@@ -9,10 +9,10 @@ topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: cfa2aa5c-337f-401e-80eb-cbe36cb1d41e
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 81%
+source-wordcount: '389'
+ht-degree: 82%
 
 ---
 
@@ -31,3 +31,5 @@ Ad esempio, una sottoscrizione Adobe Analytics abilita i dati degli attributi ne
 | Soluzione | **Adobe Analytics**<br> Seleziona Analytics e specifica la suite di rapporti in cui vuoi ricevere i dati degli attributi e gli attributi da includere.<br>**Adobe Target**<br> Puoi caricare gli attributi del cliente per il targeting e la segmentazione. Questa funzionalità è utile se vuoi destinare un test sulla base di dati di attributi o se vuoi rendere disponibili i dati per la segmentazione in Analytics.<br>I dati dell&#39;attributo del cliente caricato per un visitatore è disponibile all&#39;accesso in  **[!DNL Target]** >  **Audiences**.<br>Sono supportate più sorgenti di dati. Quando [imposti gli ID cliente](core-services.md) sul tuo sito web, verifica che almeno uno degli alias sia iscritto a [!DNL Target]. |
 | Suite di rapporti (Analytics) | Le suite di rapporti da Analytics.<br>Non puoi aggiungere più di 10 suite di rapporti alle sottoscrizioni di Analytics in un&#39;unica origine attributo. Quando scegli quali suite di rapporti includere, prendi in considerazione i seguenti suggerimenti:<ul><li>Scegli suite di rapporti con un set comune di clienti autenticati. Se i clienti autenticati in una suite di rapporti non si sovrappongono ai clienti autenticati in un&#39;altra suite di rapporti, separa queste suite di rapporti in sorgenti di attributi diverse.</li><li>Se possibile, le suite di rapporti incluse in un&#39;origine di attributi devono avere un volume di traffico simile.</li></ul><br>Se hai più di 10 suite di rapporti con un set comune di clienti autenticati, puoi configurare altre origini attributo del cliente, ciascuna con un massimo di 10 suite di rapporti. |
 | Attributi da includere (Analytics e [!DNL Target]) | Gli attributi che desideri inviare alla soluzione. <br>Quando configuri le sottoscrizioni e selezioni gli attributi, si applicano i seguenti limiti _per suite di rapporti,_ a seconda delle soluzioni che possiedi:<ul><li>Foundation: 0</li><li>Select: 3</li><li>Prime: 15</li><li>Ultimate: 200</li><li>Standard: 3 totali</li><li>Premium: 200 per suite di report</li><li>[!DNL Target] Standard: 5</li><li>[!DNL Target] Premium: 200</li></ul><br>**Nota:** quando esegui l&#39;aggiornamento ad Analytics Premium, si verifica un ritardo di 24 ore prima che gli attributi aggiuntivi siano disponibili. Durante questo lasso di tempo potresti ricevere un errore di tipo “Limite di attributi massimo per abbonamento”. |
+
+{style=&quot;table-layout:auto&quot;}
