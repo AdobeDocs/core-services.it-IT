@@ -9,10 +9,10 @@ topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
-source-git-commit: 11b999ef0c0d4f258e8665eb9c5bf427f5d618c4
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 82%
+source-wordcount: '939'
+ht-degree: 83%
 
 ---
 
@@ -44,6 +44,8 @@ Accedi e verifica di essere nell&#39;[organizzazione](organizations.md#topic_C31
 | [Gestione degli utenti di Creative Cloud](t-admin-add-cc-user.md) | Experience Cloud Assets consente agli esperti di marketing di condividere, sincronizzare e collaborare in cartelle con designer e altre risorse creative tramite la Creative Cloud. Da qui puoi gestire gli utenti di Creative Cloud che sono stati approvati per collaborare con la tua organizzazione. |
 | [Mappa le suite di rapporti](core-services.md) | (Solo Analytics): i servizi di base di Experience Cloud sono associati a un&#39;organizzazione invece che a una singola suite di rapporti. Per garantire il corretto funzionamento di questi servizi, ogni suite di rapporti di Analytics deve essere mappata su un&#39;organizzazione. (questa attività fa parte di un flusso di lavoro più ampio correlato alla sezione [abilitare Analytics per i servizi di base](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)). |
 | [ID organizzazione](organizations.md) | L&#39;*ID organizzazione* si trova al fondo della pagina Amministrazione. L&#39;ID è associato all&#39;azienda con provisioning di Experience Cloud. Questo ID è una stringa alfanumerica composta da 24 caratteri, seguita da (deve includere) @AdobeOrg. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Accesso a Experience Cloud (utenti) {#task_1BFE87E20DCB44078CAC82F3CD44B985}
 
@@ -113,7 +115,7 @@ Puoi modificare il tuo profilo Experience Cloud, specificare un&#39;organizzazio
 
 1. Accedere a Experience Cloud.
 
-1. Ad Experience Cloud, fai clic sull’immagine del tuo profilo.
+1. In Experience Cloud, fai clic sull’immagine del tuo profilo.
 
    ![](assets/edit-profile.png)
 1. Fai clic su **[!UICONTROL Modifica profilo]**.
@@ -150,3 +152,5 @@ URL di esempio:
 | `tenantId` | Nome del tenant a cui l&#39;utente deve accedere. | aem62tenant | Facoltativo |
 | `destURL` | L&#39;URL completo del punto in cui l&#39;utente deve essere indirizzato. | http://sc.omniture.com/login/?r=%2Fx%2F1_7xxzf&amp;tenantId=obuengsc&amp;company=OBU+Eng+SC | Facoltativo |
 | `solutionname` | Nome della soluzione MAC proprietaria del parametro `destURL`. Viene utilizzato per verificare che l&#39;utente abbia accesso alla soluzione proprietaria dell&#39;URL.  È responsabilità delle soluzioni assicurarsi che `solutionname` sia sincronizzato con il parametro `destURL`.  Ad esempio: Se l’URL contiene `solutionname` come social e il `destURL` fornito è un URL di Analytics, l’utente viene reindirizzato all’URL anche se non ha accesso ad Analytics. MAC NON verifica se il proprietario di `destURL` è sincronizzato con il nome della soluzione. | analytics | Obbligatorio se si utilizza il parametro `destURL` . |
+
+{style=&quot;table-layout:auto&quot;}
