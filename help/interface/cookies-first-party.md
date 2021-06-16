@@ -10,16 +10,16 @@ topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 11b999ef0c0d4f258e8665eb9c5bf427f5d618c4
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '1576'
-ht-degree: 55%
+source-wordcount: '1579'
+ht-degree: 60%
 
 ---
 
 # Informazioni sui cookie di prime parti
 
-Analytics utilizza i cookie per fornire informazioni su variabili e componenti che non permangono tra richieste di immagini e sessioni del browser. Laddove possibile, ad Adobe, vengono utilizzati cookie di prime parti per registrare le attività sul sito. Per registrare l’attività su siti diversi, ad esempio su altri domini di tua proprietà, sono necessari cookie di terze parti.
+Analytics utilizza i cookie per fornire informazioni su variabili e componenti che non permangono tra richieste di immagini e sessioni del browser. Laddove possibile, Adobe ricorre a cookie di prime parti per registrare le attività sul sito. Per registrare l’attività su siti diversi, ad esempio su altri domini di tua proprietà, sono necessari cookie di terze parti.
 
 Molti browser e applicazioni antispyware sono progettati per rifiutare ed eliminare i cookie di terze parti, inclusi i cookie utilizzati nella raccolta dati [!DNL Analytics]. Per supportare il tracciamento dell’interazione dei visitatori con il sito web, assicurati di aver configurato la raccolta dati per l’utilizzo dei cookie di prime parti:
 
@@ -28,7 +28,7 @@ Per implementare i cookie di prime parti sono disponibili due opzioni:
 * Se utilizzi il servizio Experience Platform Identity (servizio ECID), imposta automaticamente i cookie nel contesto di prime parti utilizzando JavaScript.
 * Se utilizzi [!DNL Analytics] identificatori legacy (ovvero il cookie `s_vi` ), dipende da come hai configurato il server di raccolta dati. Se il server di raccolta dati corrisponde al dominio del sito, i cookie vengono impostati come di prime parti. Se il server di raccolta non corrisponde al dominio corrente, i cookie vengono impostati come terze parti. In questo caso, se i cookie di terze parti sono bloccati, [!DNL Analytics] imposta un [fallback id (s_fid)](cookies-analytics.md) di prima parte invece del cookie standard &quot;s_vi&quot;.
 
-Per garantire che il server di raccolta corrisponda al dominio del sito, puoi utilizzare un’implementazione CNAME per impostare i cookie in un contesto di prime parti. Ciò comporta modifiche alle impostazioni DNS della tua azienda per configurare un alias CNAME che punta a un dominio ospitato di Adobe. Sebbene diversi prodotti Adobe supportino l’uso di un CNAME, in tutti i casi questo viene utilizzato per creare un endpoint di prima parte affidabile per un cliente specifico e rimane di proprietà di tale cliente. Se controlli più domini, puoi utilizzare un singolo endpoint CNAME per monitorare gli utenti nei loro domini, ma ovunque il dominio del sito non corrisponda ai cookie del dominio CNAME viene impostato come di terze parti.
+Per garantire che il server di raccolta corrisponda al dominio del sito, puoi utilizzare un’implementazione CNAME per impostare i cookie in un contesto di prime parti. Ciò comporta modifiche alle impostazioni DNS della tua azienda per configurare un alias CNAME che punti a un dominio ospitato da Adobe. Sebbene diversi prodotti Adobe supportino l’uso di un CNAME, in tutti i casi questo viene utilizzato per creare un endpoint di prima parte affidabile per un cliente specifico e rimane di proprietà di tale cliente. Se controlli più domini, puoi utilizzare un singolo endpoint CNAME per monitorare gli utenti nei loro domini, ma ovunque il dominio del sito non corrisponda ai cookie del dominio CNAME viene impostato come di terze parti.
 
 >[!NOTE]
 >
@@ -83,6 +83,8 @@ I certificati SSL scadono ogni anno, il che significa che Adobe deve acquistare 
 | **Posso richiedere la revoca del certificato?** | Sì, come proprietario del dominio, hai diritto di richiedere la revoca del certificato. Per completare il processo, dovrai solo aprire un ticket con l’Assistenza clienti. |
 | **Il certificato utilizzerà la cifratura SHA-2?** | Sì, Adobe collaborerà con DigiCert per emettere un certificato SHA-2. |
 | **Sono previsti costi aggiuntivi?** | No, Adobe offre questo servizio a tutti i clienti attuali di Analytics senza costi aggiuntivi. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Creazione di record CNAME
 
