@@ -9,9 +9,9 @@ topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-source-git-commit: c714a5549bc5377c584721404b11a394625c519f
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '769'
 ht-degree: 84%
 
 ---
@@ -43,6 +43,8 @@ Ulteriori informazioni sui [cookie di prime parti](cookies-first-party.md) sono 
 | Posizione | Solo clienti CNAME. Non applicabile in caso di terze parti. Il cookie è memorizzato nel tuo dominio, lo stesso utilizzato dal CNAME e dalla richiesta di immagine Analytics. |
 | Dimensione | 45 byte |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Nome cookie: s_cc {#section-03aa90aa7e36427b8cb12dc4a0f0291e}
 
 | Attributo | Descrizione |
@@ -52,6 +54,8 @@ Ulteriori informazioni sui [cookie di prime parti](cookies-first-party.md) sono 
 | Utilizzo | Un solo cookie per tutti gli account |
 | Posizione | Il cookie viene memorizzato nel dominio della pagina. |
 | Dimensione | 4 byte |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Nome cookie: s_sq {#section-8abfff3a302d494f81a3cfb91e3b09ff}
 
@@ -63,6 +67,8 @@ Ulteriori informazioni sui [cookie di prime parti](cookies-first-party.md) sono 
 | Posizione | Il cookie viene memorizzato nel dominio della pagina. |
 | Dimensione | Varia a seconda della dimensione dell’URL della pagina, ma in genere è compresa tra 100 e 200 byte |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Nome cookie: s_vi {#section-5d50a078de444d12b7d927d68ff3b679}
 
 | Attributo | Descrizione |
@@ -72,6 +78,8 @@ Ulteriori informazioni sui [cookie di prime parti](cookies-first-party.md) sono 
 | Utilizzo | Questo cookie viene usato per identificare un visitatore univoco. |
 | Posizione | Questo cookie viene memorizzato nel dominio della richiesta di immagine, in genere 2o7.net o omtrdc.net se utilizzi cookie di terze parti o il tuo dominio se utilizzi cookie di prime parti |
 | Dimensione | 44 byte |
+
+{style=&quot;table-layout:auto&quot;}
 
 >[!NOTE]
 >
@@ -87,6 +95,8 @@ Ulteriori informazioni sui [cookie di prime parti](cookies-first-party.md) sono 
 | Posizione | Questo cookie viene memorizzato nel dominio come cookie di prime parti |
 | Dimensione | 33 byte |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Flag dei cookie
 
 Nella tabella seguente sono descritti i flag per i cookie di Analytics:
@@ -98,6 +108,8 @@ Nella tabella seguente sono descritti i flag per i cookie di Analytics:
 | s_fid (Javascript) | No | No | Non impostato |
 | s_cc (Javascript) | No | No | Non impostato |
 | s_sq (Javascript) | No | No | Non impostato |
+
+{style=&quot;table-layout:auto&quot;}
 
 >[!NOTE]
 >
