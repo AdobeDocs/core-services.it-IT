@@ -9,10 +9,10 @@ topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: d2ff52ce1a591c7c607598b5f2892dbcca74594b
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 94%
+source-wordcount: '480'
+ht-degree: 95%
 
 ---
 
@@ -42,6 +42,8 @@ L’esempio seguente mostra come creare le regole per un pubblico composito. Que
 * Utenti Chrome e Safari derivati da un segmento [!DNL Adobe Analytics] [pubblicato](audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A) in [!DNL Experience Cloud].
 
    ![](assets/audience_create.png)
+
+**Creare un’audience**
 
 1. In [!DNL Experience Cloud], nella sezione [!DNL Experience Platform], fai clic su **[!UICONTROL Persone]** > **[!UICONTROL Libreria pubblico].**
 1. Nella pagina [!UICONTROL Pubblico] fai clic su **[!UICONTROL Nuovo]**. ![](assets/add_icon_small.png)
