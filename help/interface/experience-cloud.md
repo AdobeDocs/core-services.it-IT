@@ -8,9 +8,9 @@ topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '915'
 ht-degree: 62%
 
 ---
@@ -33,8 +33,8 @@ Dall’intestazione dell’Experience Cloud, puoi:
 Accedi e verifica di essere nell&#39;[organizzazione](organizations.md) corretta.
 
 1. Passa ad [Adobe Experience Cloud](https://experience.adobe.com).
-1. Fai clic su **[!UICONTROL Accedi con Adobe ID]**.
-1. In Adobe Experience Cloud, fai clic sulla tua organizzazione.
+1. Seleziona **[!UICONTROL Accedi con un Adobe ID]**.
+1. In Adobe Experience Cloud, seleziona la tua organizzazione.
 
    ![](assets/organizations-menu.png)
 
@@ -44,7 +44,7 @@ Accedi e verifica di essere nell&#39;[organizzazione](organizations.md) corretta
 
 Dopo aver effettuato l’accesso ad Experience Cloud, è possibile accedere rapidamente a tutte le applicazioni, i servizi e le organizzazioni dall’lintestazione unificata.
 
-Per accedere ai servizi di Experience Cloud di tua proprietà, fai clic sul selettore dell’applicazione ![](assets/menu-icon.png).
+Per accedere ai servizi Experience Cloud di tua proprietà, vai al selettore dell&#39;applicazione ![](assets/menu-icon.png).
 
 ![](assets/platform-core-services.png)
 
@@ -79,7 +79,7 @@ Le preferenze di Experience Cloud includono notifiche, abbonamenti e avvisi. Nel
 * Uscire
 * Configurare preferenze, notifiche e abbonamenti dell’account
 
-Per gestire le preferenze, fai clic su **[!UICONTROL Preferenze]** nel menu dell&#39;account ![](assets/preferences-icon-sm.png).
+Per gestire le preferenze, seleziona **[!UICONTROL Preferenze]** dal menu dell&#39;account ![](assets/preferences-icon-sm.png).
 
 ![](assets/preferences-page.png)
 
@@ -97,7 +97,7 @@ Nelle [!UICONTROL preferenze di Experience Cloud], è possibile configurare le s
 
 ## Notifiche e annunci {#notifications}
 
-Fai clic su **[!UICONTROL Notifiche]** per ricevere avvisi sugli aggiornamenti rilevanti e fruibili, inclusi rilasci di prodotti, avvisi di manutenzione, elementi condivisi e richieste di approvazione.
+Seleziona **[!UICONTROL Notifiche]** per ricevere avvisi sugli aggiornamenti rilevanti e fruibili, ad esempio versioni di prodotto, avvisi di manutenzione, elementi condivisi e richieste di approvazione.
 
 ![](assets/notifications-menu-small.png)
 
@@ -142,8 +142,8 @@ Sfrutta i tutorial e le guide pratiche disponibili in Experience League:
 
 ## Note sulla versione e guide relative a Experience Cloud
 
-* [Documentazione del prodotto per tutte le soluzioni Experience Cloud](https://experienceleague.adobe.com/docs/home.html?lang=en): cerca aiuto all&#39;interno di Informazioni e supporto di Experience Cloud
-* [Note sulla versione e aggiornamenti dei prodotti](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en): le novità di Experience Cloud, tutti gli aggiornamenti per chi si abbona
+* [Documentazione del prodotto per tutte le soluzioni Experience Cloud](https://experienceleague.adobe.com/docs/home.html?lang=it): cerca aiuto all&#39;interno di Informazioni e supporto di Experience Cloud
+* [Note sulla versione e aggiornamenti dei prodotti](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it): le novità di Experience Cloud, tutti gli aggiornamenti per chi si abbona
 * [Esercitazioni per l&#39;implementazione dei servizi core](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=en): video ed esercitazioni sui servizi core
 * [Assistenza degli esperti di Experience League](https://experienceleague.adobe.com/?lang=it): ottieni informazioni guidate dagli esperti e dalla community
 * [Istruzione e formazione](https://helpx.adobe.com/it/learning.html?promoid=KAUDK) : interagisci con l&#39;Adobe per trarre il massimo dai prodotti Adobe
