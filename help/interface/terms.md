@@ -11,10 +11,10 @@ topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: 3799f806-2794-43ab-9e70-06ee693871e7
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '1471'
-ht-degree: 74%
+ht-degree: 73%
 
 ---
 
@@ -40,7 +40,7 @@ Un riferimento terminologico per i nuovi utenti di Experience Cloud, per compren
 | [!UICONTROL Servizio Experience Platform Identity] | Nessun uso speciale. | Il servizio che collega le identità. È il servizio di collegamento dispositivi per la gestione dell&#39;esperienza basata sulle persone. |
 | Collegamento | Nessun uso speciale. Il termine “collegamento” si riferisce alla navigazione ipertestuale e il collegamento di elementi come font, proprietà, livelli e così via. | In Experience Cloud, il termine “collegamento” solitamente si riferisce al collegamento di account di diverse soluzioni all&#39;interfaccia.<br>Consulta [Organizzazioni e collegamento di account](organizations.md).<br>Il termine collegamento si riferisce anche agli URL standard per i rapporti di Analytics inviati ad altri utenti. |
 | Posizioni | Nella Creative Cloud, la posizione si riferisce alle posizioni dei file o a una posizione su un&#39;immagine o un documento aperto. | In Experience Cloud, le posizioni indicano il luogo in cui il pubblico visualizza e interagisce con il contenuto. L&#39;associazione tra le posizioni e il contenuto può essere più o meno statica, o può essere gestita dinamicamente in base alle regole di una campagna. Una posizione appartiene sempre a un canale specifico che determina come si può inviare il contenuto e come è possibile raccogliere metriche.<br>Gli esempi includono:<ul><li>Siti</li><li>Proprietà (Social)</li><li>Inventario visualizzato</li><li>Pagine di destinazione</li><li>Applicazioni mobili</li><li>Slot (video)</li></ul> |
-| Metriche | Non utilizzato nella Creative Cloud. | Aggregazione di numeri su concetti chiave e obiettivi. In Analytics, le metriche corrispondono a informazioni quantitative sull&#39;attività del visitatore come visualizzazioni, Click-through, ricariche, tempo medio trascorso, unità, ordini e guadagni. Consulta [Descrizioni metriche](https://experienceleague.adobe.com/docs/analytics/components/variables/metrics/metricslist.html?lang=en). |
+| Metriche | Non utilizzato nella Creative Cloud. | Aggregazione di numeri su concetti chiave e obiettivi. In Analytics, le metriche corrispondono a informazioni quantitative sull&#39;attività del visitatore come visualizzazioni, Click-through, ricariche, tempo medio trascorso, unità, ordini e ricavi. Consulta [Descrizioni metriche](https://experienceleague.adobe.com/docs/analytics/components/variables/metrics/metricslist.html?lang=en). |
 | Organizzazione | Non utilizzato nella Creative Cloud. | Un&#39;organizzazione è un&#39;entità di Experience Cloud che consente all&#39;amministratore di configurare utenti e prodotti e di controllare il single sign-on in Experience Cloud. Nella maggior parte dei casi, l&#39;organizzazione corrisponde all&#39;azienda di fatturazione. |
 | Portfolio | Un insieme di più file o risorse. | Un contenitore di campagne. |
 | Profilo di prodotto | Consulta [Gestione di prodotti e profili](https://helpx.adobe.com/enterprise/using/manage-products.html). | Affinché un utente abbia il diritto di utilizzare un prodotto o un servizio, deve far parte di un profilo di prodotto. L&#39;amministratore del prodotto assegna le licenze a un profilo di prodotto effettuandone l&#39;associazione a un piano che hai acquistato.<br>Un utente può appartenere a più profili di prodotto, ciascuno dei quali conferisce diverse licenze all&#39;utente. L&#39;idoneità finale di un utente è l&#39;unione di tutte le licenze a lui conferite da ciascun profilo di prodotto. |
