@@ -9,10 +9,10 @@ topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
-source-git-commit: 40fd81f8a293dc5bca3b41e8f6e708d1be4bae5d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '1248'
-ht-degree: 87%
+ht-degree: 82%
 
 ---
 
@@ -28,7 +28,7 @@ Gli amministratori possono visualizzare un elenco ordinabile e filtrabile di tut
 
    ![](assets/admin-tool.png)
 
-1. In [!UICONTROL Accesso rapido], fai clic su **[!UICONTROL Admin Tool]**.
+1. In [!UICONTROL Accesso rapido], selezionare **[!UICONTROL Admin Tool.]**
 
    In alternativa, nell’URL della pagina principale puoi sostituire _home_ con _admin_.
 
@@ -42,7 +42,7 @@ In questa pagina viene visualizzato l’elenco completo degli utenti con accesso
 
 | Elemento | Descrizione |
 |---|---|
-| [!UICONTROL Nome] | Il nome e il cognome dell’utente. Puoi ordinare questa colonna da A a Z e da Z a A. Per visualizzare ulteriori dettagli sull’utente, fai clic sul nome relativo. |
+| [!UICONTROL Nome] | Il nome e il cognome dell’utente. Puoi ordinare questa colonna da A a Z e da Z a A. Seleziona il nome di un utente per visualizzare ulteriori dettagli sull’utente. |
 | [!UICONTROL E-mail] | L’indirizzo e-mail associato all’utente. Puoi ordinare questa colonna da A a Z e da Z ad A. |
 | [!UICONTROL ID Type (Tipo di ID)] | Il tipo di identità per l’account dell’utente. È possibile applicare un filtro per visualizzare tipi di ID specifici. Per ulteriori informazioni, consulta [Manage identity types (Gestisci tipi di identità)](https://helpx.adobe.com/it/enterprise/using/identity.html). |
 | [!UICONTROL Soluzioni] | In questa sezione sono riepilogate le soluzioni Experience Cloud a cui l’utente può accedere. Per limitare l’elenco di utenti con accesso specifico alla soluzione puoi applicare i filtri. |
@@ -54,7 +54,7 @@ Puoi eseguire ricerche, oltre a ordinare o filtrare le viste personalizzate dell
 
 * Puoi cercare gli utenti per nome o e-mail. Le ricerche corrispondono alla stringa di testo digitata.
 * Ordina le colonne in base ai valori crescenti o decrescenti. Questo ordinamento si applica alle colonne [!UICONTROL Nome,] [!UICONTROL E-mail,] e [!UICONTROL Ultimo accesso].
-* Per applicare più filtri all’elenco degli utenti con criteri specifici, fai clic sull’icona **[!UICONTROL Filtra per]** . Quando vengono applicate più categorie di filtro, le ricerche contengono la soluzione `AND` ID TYPE `AND` del dominio e-mail.
+* Per applicare più filtri all’elenco degli utenti con criteri specifici, seleziona l’icona **[!UICONTROL Filtra per]** . Quando vengono applicate più categorie di filtro, le ricerche contengono la soluzione `AND` ID TYPE `AND` del dominio e-mail.
 
 | Elemento | Descrizione |
 |---------|----------|
@@ -64,7 +64,7 @@ Puoi eseguire ricerche, oltre a ordinare o filtrare le viste personalizzate dell
 
 ## Visualizzare i dettagli degli utenti
 
-Per visualizzare i dettagli di un utente, nella pagina [!UICONTROL Utenti], seleziona l’e-mail dell’utente in questione.
+Nella pagina [!UICONTROL Utenti], per visualizzare i dettagli di un utente, seleziona l’e-mail dell’utente.
 
 ![](assets/admin-tool-user-details.png)
 
@@ -106,7 +106,7 @@ In questa pagina viene visualizzato l’elenco completo dei criteri di Experienc
 
 | Elemento | Descrizione |
 |---|---|
-| [!UICONTROL Profilo prodotto] | Nome del profilo di prodotto. È possibile ordinare la colonna A->Z, Z->A. Per visualizzare ulteriori dettagli sul criterio, fai clic sul nome di un profilo di prodotto. |
+| [!UICONTROL Profilo prodotto] | Nome del profilo di prodotto. È possibile ordinare la colonna A->Z, Z->A. Per visualizzare ulteriori dettagli sul criterio, seleziona il nome di un profilo di prodotto. |
 | [!UICONTROL Prodotto] | Il prodotto associato al profilo di prodotto. Puoi ordinare questa colonna da A a Z e da Z ad A. |
 | [!UICONTROL Istanza] | L’istanza (ad esempio, tenant o società di accesso) associata al profilo di prodotto. I prodotti che non hanno istanze o tenant univoci presentano un &quot; - &quot; per il valore. Puoi ordinare questa colonna da A a Z e da Z ad A. |
 | [!UICONTROL Numero di utenti] | Numero univoco di utenti associati al profilo di prodotto, tramite assegnazione diretta e assegnazione di gruppi. Questa colonna può essere in ordine crescente o decrescente. |
@@ -118,7 +118,7 @@ In questa pagina viene visualizzato l’elenco completo dei criteri di Experienc
 
 * Puoi cercare i profili di prodotto per nome. Le ricerche corrispondono alla stringa di testo digitata.
 * Ordina le colonne in base ai valori crescenti o decrescenti. Questo ordinamento si applica alle colonne [!UICONTROL Profilo prodotto,] [!UICONTROL Prodotto,] [!UICONTROL Istanza,] [!UICONTROL Numero di utenti,] e [!UICONTROL Numero di sviluppatori,] .
-* Per applicare più filtri in modo da elencare i profili di prodotto con caratteristiche specifiche, fai clic sull’icona **[!UICONTROL Filtra per]**. Quando vengono applicate più categorie di filtri, le ricerche contengono i Gruppi `AND` Istanza `AND` Soluzione.
+* Seleziona l’icona **[!UICONTROL Filtra per]** per applicare più filtri per elencare i profili di prodotto con criteri specifici. Quando vengono applicate più categorie di filtri, le ricerche contengono i Gruppi `AND` Istanza `AND` Soluzione.
 
 | Elemento | Descrizione |
 |---------|----------|
@@ -127,7 +127,7 @@ In questa pagina viene visualizzato l’elenco completo dei criteri di Experienc
 
 ## Visualizzare i dettagli dei criteri
 
-Nella pagina [!UICONTROL Criteri], puoi visualizzare i dettagli di un criterio facendo clic sul nome del profilo di prodotto.
+Nella pagina [!UICONTROL Criteri] , per visualizzare i dettagli di un criterio, seleziona il nome del profilo di prodotto.
 
 ![](assets/admin-tool-policy-detail.png)
 
