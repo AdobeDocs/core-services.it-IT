@@ -11,10 +11,10 @@ topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '705'
-ht-degree: 71%
+ht-degree: 70%
 
 ---
 
@@ -52,9 +52,9 @@ Crea un trigger e configurane le condizioni. Ad esempio, puoi specificare i crit
 >
 >Esiste attualmente un limite tecnico di 100 trigger.
 
-1. Nell&#39;Experience Cloud, fai clic su ![](assets/menu-icon.png), quindi su **[!UICONTROL Raccolta dati/Launch]**.
-2. Nella scheda [!UICONTROL Triggers], fai clic su **[!UICONTROL Gestisci trigger]**.
-3. Fai clic su **[!UICONTROL Nuovo trigger]** e specifica il tipo di trigger:
+1. Nell&#39;Experience Cloud, seleziona ![](assets/menu-icon.png), quindi seleziona **[!UICONTROL Raccolta dati/Launch]**.
+2. Nella scheda [!UICONTROL Triggers], seleziona **[!UICONTROL Gestisci trigger]**.
+3. Seleziona **[!UICONTROL Nuovo trigger]**, quindi specifica il tipo di trigger:
 
    ![Risultato passaggio](assets/add-trigger.png)
 
@@ -71,7 +71,7 @@ Crea un trigger e configurane le condizioni. Ad esempio, puoi specificare i crit
 
    {style=&quot;table-layout:auto&quot;}
 
-5. Fai clic su **[!UICONTROL Salva]**.
+5. Seleziona **[!UICONTROL Salva]**.
 6. Usa i trigger per la [commercializzazione in tempo reale](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html?lang=en) in [!DNL Adobe Campaign].
 
 ### Esempio di trigger
