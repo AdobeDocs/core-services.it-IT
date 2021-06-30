@@ -9,21 +9,21 @@ topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: 5d852e0e-4004-4f94-a6f7-3a14a96cd42f
-source-git-commit: 40fd81f8a293dc5bca3b41e8f6e708d1be4bae5d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 60%
+source-wordcount: '297'
+ht-degree: 57%
 
 ---
 
-# Abilitazione delle impostazioni della privacy per i cookie del browser {#enable-privacy-settings-for-browser-cookies}
+# Abilitazione delle impostazioni della privacy per i cookie del browser{#enable-privacy-settings-for-browser-cookies}
 
 Puoi rimuovere gli utenti che hanno bloccato tutti i cookie su browser desktop e mobili. Questa funzione è un’impostazione per la privacy che esclude gli utenti che rinunciano alla raccolta dei dati e consente di rispettare l’intenzione di un utente di interrompere l’elaborazione di Analytics.
 
 **Per abilitare le impostazioni della privacy per i cookie del browser**
 
 1. Passa a **[!UICONTROL Strumenti di amministrazione]** > **[!UICONTROL Suite di rapporti]**.
-1. Fai clic su **[!UICONTROL Modifica impostazioni]** > **[!UICONTROL Generale]** > **[!UICONTROL Impostazioni privacy]**.
+1. Vai a **[!UICONTROL Modifica impostazioni]** > **[!UICONTROL Generale]** > **[!UICONTROL Impostazioni privacy]**.
 1. Abilita **[!UICONTROL Impostazioni privacy]** (per desktop o dispositivi mobili).
 
 >[!IMPORTANT]
