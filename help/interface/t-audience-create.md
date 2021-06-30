@@ -9,10 +9,10 @@ topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: d2ff52ce1a591c7c607598b5f2892dbcca74594b
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '480'
-ht-degree: 95%
+ht-degree: 91%
 
 ---
 
@@ -45,8 +45,8 @@ L’esempio seguente mostra come creare le regole per un pubblico composito. Que
 
 **Creare un’audience**
 
-1. In [!DNL Experience Cloud], nella sezione [!DNL Experience Platform], fai clic su **[!UICONTROL Persone]** > **[!UICONTROL Libreria pubblico].**
-1. Nella pagina [!UICONTROL Pubblico] fai clic su **[!UICONTROL Nuovo]**. ![](assets/add_icon_small.png)
+1. In [!DNL Experience Cloud], alla voce [!DNL Experience Platform], seleziona **[!UICONTROL Persone]** > **[!UICONTROL Libreria tipi di pubblico].**
+1. Nella pagina [!UICONTROL Tipi di pubblico], seleziona **[!UICONTROL Nuovo]**. ![](assets/add_icon_small.png)
 
    ![Risultato passaggio](assets/audience_create_new.png)
 
@@ -60,7 +60,7 @@ L’esempio seguente mostra come creare le regole per un pubblico composito. Que
 
    * **[!UICONTROL Experience Cloud:]** dati attributo derivati dalle sorgenti di [!DNL Experience Cloud]. Ad esempio, potrebbe trattarsi dei dati dei segmenti di pubblico che hai creato in [!DNL Analytics] o dei dati di [!DNL Audience Manager].
 
-1. Definisci le regole del pubblico, quindi fai clic su **[!UICONTROL Salva].**
+1. Definisci le regole del pubblico, quindi seleziona **[!UICONTROL Salva].**
 
 >[!NOTE]
 >
