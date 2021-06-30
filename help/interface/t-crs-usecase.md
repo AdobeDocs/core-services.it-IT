@@ -9,10 +9,10 @@ topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 0069c8b06cbacca6cd9fbdb898d4445931384ebb
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '1152'
-ht-degree: 75%
+ht-degree: 73%
 
 ---
 
@@ -67,13 +67,13 @@ Segui questi passaggi nella pagina Crea nuova origine attributo del cliente in E
 >
 >Quando crei, modifichi o elimini origini attributo del cliente, si verifica un ritardo di circa un&#39;ora prima della effettiva sincronizzazione degli ID con la nuova origine dati. È necessario disporre di diritti amministrativi in Audience Manager per creare o modificare le origini degli attributi del cliente. Contatta l&#39;Assistenza clienti o la consulenza di Audience Manager per ottenere i diritti di amministratore.
 
-1. In [!DNL Experience Cloud], fai clic sull&#39;icona Menu ![](assets/menu-icon.png).
-1. In **[!DNL Experience Platform]**, fai clic su **[!UICONTROL Persone]** > **[!UICONTROL Attributi del cliente]**.
+1. In [!DNL Experience Cloud], seleziona l’icona Menu ![](assets/menu-icon.png) .
+1. In **[!DNL Experience Platform]**, seleziona **[!UICONTROL Persone]** > **[!UICONTROL Attributi del cliente]**.
 
    La pagina [!UICONTROL Attributi del cliente] è il luogo in cui puoi gestire e modificare l&#39;origine dati degli attributi esistenti.
 
    ![Risultato passaggio](assets/03_crs_usecase.png)
-1. Fai clic su **[!UICONTROL Nuovo]**.
+1. Selezionare **[!UICONTROL Nuovo]**.
 
    ![Risultato passaggio](assets/04_crs_usecase.png)
 1. Nella pagina [!UICONTROL Modifica origine attributo del cliente] configura i campi seguenti:
@@ -153,9 +153,9 @@ Consulta [Configurazione delle sottoscrizioni](subscription.md#concept_ECA3C44FA
 
 **Per attivare un&#39;origine attributo**
 
-Nella pagina [!UICONTROL Crea nuova [o Modifica] origine attributi del cliente], individua l&#39;intestazione [!UICONTROL Attiva], quindi fai clic su **[!UICONTROL Attivo]**.
+Nella pagina [!UICONTROL Crea nuova [o Modifica] origine attributo del cliente], individua l&#39;intestazione [!UICONTROL Attiva], quindi seleziona **[!UICONTROL Attivo]**.
 
-![Risultato passaggio](assets/activate_attribute_source.png)
+![Risultato del passaggio](assets/activate_attribute_source.png)
 
 ## Utilizzo degli Attributi del cliente in Adobe Analytics {#task_7EB0680540CE4B65911B2C779210915D}
 
