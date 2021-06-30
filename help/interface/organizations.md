@@ -9,10 +9,10 @@ topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: c7ed1324015beb7ebcf7a4ee21b05601e36e608f
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '393'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -32,7 +32,7 @@ Inoltre, potrebbe essere necessario individuare l’ID organizzazione a scopo di
 
 L’**ID organizzazione** è l’ID associato all’azienda con provisioning di Experience Cloud. Questo ID è una stringa alfanumerica composta da 24 caratteri, seguita da (deve includere) @AdobeOrg.
 
-Per visualizzare l’ID organizzazione, passa alla pagina di destinazione di Experience Cloud oppure fai clic su (![](assets/menu-icon.png)), quindi su **[!UICONTROL Amministrazione]**. Puoi trovare l’ID organizzazione nella parte inferiore della [!UICONTROL Guida introduttiva di Experience Cloud] o della pagina [!UICONTROL Amministrazione].
+Per visualizzare l&#39;ID organizzazione, passa alla pagina di destinazione Experience Cloud oppure seleziona ( ![](assets/menu-icon.png)), quindi seleziona **[!UICONTROL Amministrazione]**. Puoi trovare l’ID organizzazione nella parte inferiore della [!UICONTROL Guida introduttiva di Experience Cloud] o della pagina [!UICONTROL Amministrazione].
 
 ![](assets/administration-page.png)
 
@@ -42,23 +42,23 @@ In genere, gli amministratori di Experience Cloud concedono l&#39;accesso a solu
 
 1. Segui i passaggi contenuti nell&#39;e-mail di invito a Experience Cloud.
 1. Accedi utilizzando il tuo Adobe ID o Enterprise ID.
-1. Fai clic sul selettore della soluzione (![](assets/menu-icon.png)).
+1. Seleziona il selettore della soluzione. ( ![](assets/menu-icon.png)).
 
    ![](assets/solutions-active.png)
 
    Le soluzioni a cui hai accesso sono colorate.
-1. Fai clic sulla soluzione desiderata.
+1. Seleziona la soluzione desiderata.
 
    ![](assets/analytics-link-accounts.png)
 
    Questo tipo di messaggio visualizza se fai parte del gruppo appropriato (e disponi dell&#39;autorizzazione per la soluzione) ma non hai ancora collegato le credenziali del tuo account al tuo Adobe ID.
-1. Fai clic su **[!UICONTROL Collega account]**, quindi immetti le tue credenziali.
+1. Seleziona **[!UICONTROL Collega account]**, quindi immetti le tue credenziali.
 
 ## Specificare una organizzazione e una pagina di destinazione predefinite {#concept_6A191B42A9874A9780882903BA18F071}
 
 Puoi specificare un&#39;organizzazione predefinita e una pagina di destinazione da usare al momento dell&#39;accesso.
 
-Nel tuo profilo, fai clic su **[!UICONTROL Modifica profilo]**.
+Nel tuo profilo, seleziona **[!UICONTROL Modifica profilo]**.
 
 ![](assets/edit-profile.png)
 
