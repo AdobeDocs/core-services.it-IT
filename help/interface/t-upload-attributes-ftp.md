@@ -9,10 +9,10 @@ topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '271'
-ht-degree: 67%
+ht-degree: 66%
 
 ---
 
@@ -37,7 +37,7 @@ Puoi caricare i dati dopo la creazione di un&#39;origine attributo del cliente e
 
    Verifica di aver effettuato l’accesso al tuo sito FTP su `ftp.adobe.com/<sftpname>`.
 
-1. Fai clic su **[!UICONTROL Azioni]** > **[!UICONTROL Caricamento file]**.
+1. Seleziona **[!UICONTROL Azioni]** > **[!UICONTROL Caricamento file]**.
 
 1. Carica un file `.fin` in modo che possa essere recuperato.
 
