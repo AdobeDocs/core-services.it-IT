@@ -9,10 +9,10 @@ topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: e26fb61f-4a7f-4c02-ba80-87a9c0edea86
-source-git-commit: cd0f9a975732c6c8c3db8ddca6e702449b0efeed
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '91'
-ht-degree: 83%
+ht-degree: 80%
 
 ---
 
@@ -22,5 +22,5 @@ Per assistenza Creative Cloud, consulta [https://helpx.adobe.com/creative-cloud/
 
 1. Avvia il browser di [!DNL Creative Cloud] e passa a [!UICONTROL Creative Cloud Files] (File di Creative Cloud).
 1. Apri la cartella condivisa.
-1. Fai clic su **[!UICONTROL Azioni]** > **[!UICONTROL Carica]**.
+1. Seleziona **[!UICONTROL Azioni]** > **[!UICONTROL Carica]**.
 1. Utilizza l’esplorazione file del sistema operativo in uso per selezionare o rimuovere le risorse.
