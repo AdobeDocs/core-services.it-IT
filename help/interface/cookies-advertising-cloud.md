@@ -7,14 +7,14 @@ topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: 6818edea-31b1-49fc-bca2-32828c7ca78d
-source-git-commit: 40fd81f8a293dc5bca3b41e8f6e708d1be4bae5d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 96%
+ht-degree: 84%
 
 ---
 
-# Cookie di Advertising Cloud {#advertising-cloud-cookies}
+# Cookie di Advertising Cloud{#advertising-cloud-cookies}
 
 Advertising Cloud utilizza i cookie per mappare gli eventi di coinvolgimento pubblicitario e, potenzialmente, per ottimizzare le offerte pubblicitarie.
 
@@ -30,7 +30,7 @@ Advertising Cloud utilizza i cookie per mappare gli eventi di coinvolgimento pub
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Informazioni memorizzate </p> </td> 
-   <td colname="col2"> <p>ID e timestamp (nel formato aaaammgg) dei clic di visualizzazione</p> </td> 
+   <td colname="col2"> <p>ID e timestamp (nel formato aaaammgg) della selezione del display</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Scadenza </p> </td> 
@@ -38,7 +38,7 @@ Advertising Cloud utilizza i cookie per mappare gli eventi di coinvolgimento pub
   </tr> 
   <tr> 
    <td colname="col1"> <p>Utilizzo </p> </td> 
-   <td colname="col2"> <p>Un cookie di terze parti utilizzato per determinare se un evento di clic su un annuncio visualizzato si applica a un hit di Adobe Analytics </p> </td> 
+   <td colname="col2"> <p>Cookie di terze parti utilizzato per determinare se un evento selezionato su un annuncio visualizzato si applica a un hit Adobe Analytics </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Posizione </p> </td> 
@@ -96,7 +96,7 @@ Advertising Cloud utilizza i cookie per mappare gli eventi di coinvolgimento pub
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Informazioni memorizzate </p> </td> 
-   <td colname="col2"> <p>Le marche temporali dell’ultima visita del surfista al sito web dell’inserzionista, l’ultimo clic di ricerca del surfista e l’ef_id creato quando il surfista ha fatto clic su un annuncio</p> </td> 
+   <td colname="col2"> <p>Le marche temporali dell’ultima visita del surfista al sito web dell’inserzionista, l’ultima selezione di ricerca del surfista e l’ef_id creato quando l’utente ha selezionato un annuncio</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Scadenza </p> </td> 
