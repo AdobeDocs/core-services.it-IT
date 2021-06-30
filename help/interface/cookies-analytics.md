@@ -9,14 +9,14 @@ topic: Amministrazione
 role: Administrator
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '769'
-ht-degree: 84%
+ht-degree: 79%
 
 ---
 
-# Cookie di Analytics {#analytics-cookies}
+# Cookie di Analytics{#analytics-cookies}
 
 Adobe Analytics utilizza i cookie per differenziare le richieste di browser diversi e memorizzare informazioni utili che un’applicazione può utilizzare in un secondo momento. Possono anche essere utilizzati per associare le informazioni di navigazione ai record dei clienti.
 
@@ -61,7 +61,7 @@ Ulteriori informazioni sui [cookie di prime parti](cookies-first-party.md) sono 
 
 | Attributo | Descrizione |
 |--- |--- |
-| Informazioni memorizzate | Questo cookie viene impostato e letto dal codice JavaScript quando sono abilitate le funzionalità ClickMap e Activity Map; contiene informazioni sul collegamento precedente su cui l’utente ha fatto clic |
+| Informazioni memorizzate | Questo cookie viene impostato e letto dal codice JavaScript quando la funzionalità SelectMap o la funzionalità Activity Map sono abilitate; contiene informazioni sul collegamento precedente selezionato dall&#39;utente |
 | Scadenza | Questo è un cookie di sessione e scade quando il browser viene chiuso |
 | Utilizzo | Un solo cookie per tutti gli account |
 | Posizione | Il cookie viene memorizzato nel dominio della pagina. |
