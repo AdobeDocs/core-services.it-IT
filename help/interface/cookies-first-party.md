@@ -7,10 +7,10 @@ index: y
 snippet: y
 feature: Cookie
 topic: Amministrazione
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '1579'
 ht-degree: 60%
