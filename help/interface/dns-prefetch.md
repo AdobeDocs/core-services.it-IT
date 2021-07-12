@@ -5,10 +5,10 @@ title: 'Utilizzo del recupero preventivo del DNS con diverse soluzioni e servizi
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
 feature: Attributi del cliente
 topic: Amministrazione
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: caf2ff76-2076-436d-a5a7-aff531464480
-source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 88%
