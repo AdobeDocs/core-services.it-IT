@@ -6,10 +6,10 @@ title: 'Scopri come usare file e sorgenti dati per Attributi del cliente '
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 feature: Attributi del cliente
 topic: Amministrazione
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '1198'
 ht-degree: 69%
