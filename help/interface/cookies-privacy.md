@@ -6,17 +6,17 @@ title: 'Cookie e privacy '
 uuid: 7fb36845-6282-438a-bbc6-0c3cf95de1c9
 feature: Cookie
 topic: Amministrazione
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 169b5c67-aab6-4b2a-832e-c5998d796bf7
-source-git-commit: 40fd81f8a293dc5bca3b41e8f6e708d1be4bae5d
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 85%
 
 ---
 
-# Informazioni su cookie e privacy {#about-cookies-and-privacy}
+# Informazioni su cookie e privacy{#about-cookies-and-privacy}
 
 Garantire la privacy dei clienti e la sicurezza dei dati sono le principali priorità di Adobe. Adobe partecipa a più organizzazioni sulla privacy e collabora con le autorità di regolamentazione della privacy e i principi di autoregolamentazione. Questa cooperazione include il programma Digital Advertising Alliance AdChoices per fornire ai clienti informazioni su come vengono utilizzate le loro informazioni e sulle scelte relative al loro utilizzo.
 
