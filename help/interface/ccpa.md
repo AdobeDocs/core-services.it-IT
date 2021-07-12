@@ -3,10 +3,10 @@ title: 'Supporto per gli attributi del cliente per il California Consumer Privac
 description: Scopri il supporto relativo agli attributi del cliente per il California Consumer Privacy Act (legge sulla privacy dei consumatori della California)
 feature: Attributi del cliente
 topic: Amministrazione
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 320defc7-2cd5-4481-955d-77cf6fbfef6d
-source-git-commit: 40fd81f8a293dc5bca3b41e8f6e708d1be4bae5d
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 66%
