@@ -6,10 +6,10 @@ title: 'Risposte alle domande frequenti su Attributi del cliente '
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 feature: Attributi del cliente
 topic: Amministrazione
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 6031e544-822b-4843-b3d8-98a36a3c40e8
-source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '1181'
 ht-degree: 67%
