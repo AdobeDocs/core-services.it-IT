@@ -8,9 +8,9 @@ topic: Amministrazione
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: e198879b806aa0765034d6d0cc2fcf2a6f5e856a
+source-git-commit: 31cfb3a85c255b72cbe5599aca09494c22fe4301
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '920'
 ht-degree: 61%
 
 ---
@@ -69,7 +69,7 @@ La ricerca globale consente di trovare oggetti o entità aziendali ricercabili i
 
 >[!NOTE]
 >
->La ricerca globale è disponibile solo per gli utenti di Experienci Platform e Journey Orchestration.
+>La ricerca globale è disponibile solo ad Experience Platform, Journey Optimizer, Offerte e Experience League.
 
 ## Gestisci preferenze account {#preferences}
 
