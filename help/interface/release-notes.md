@@ -9,10 +9,10 @@ topic: Amministrazione
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 31cfb3a85c255b72cbe5599aca09494c22fe4301
 workflow-type: tm+mt
-source-wordcount: '4199'
-ht-degree: 89%
+source-wordcount: '4224'
+ht-degree: 88%
 
 ---
 
@@ -23,6 +23,10 @@ Funzionalità, note sulla versione e problemi noti per i componenti dell’inter
 Per un elenco degli aggiornamenti della documentazione, consulta [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
 Per le note sulla versione comprensive di tutte le soluzioni, consulta [Note sulla versione di Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it).
+
+## Luglio - 2021
+
+La funzione Ricerca unificata è stata aggiornata per renderla disponibile per Journey Optimizer, offerte ed Experience League. In precedenza, questa funzione era disponibile solo per gli utenti di Experience Platform.
 
 ## Giugno - 2021
 
