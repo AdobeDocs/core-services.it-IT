@@ -8,18 +8,14 @@ topic: Amministrazione
 role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: aa50cf84ce4e1406d1222f416d9193ff2361fbee
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '334'
 ht-degree: 84%
 
 ---
 
 # Panoramica di Experience Cloud Assets
-
->[!NOTE]
->
->Assets è un servizio core legacy, attualmente in fase di sostenimento.
 
 Il servizio di base Experience Cloud Assets fornisce un archivio unico e centralizzato di risorse pronte per le attività di marketing da condividere tra le diverse soluzioni. Una risorsa è un documento, un’immagine, un video o un file audio (o parte di essi) che può avere più rappresentazioni e risorse secondarie (ad esempio, livelli in un file [!DNL Photoshop], slide in un file [!DNL PowerPoint], pagine in un PDF e file in un file ZIP).
 
