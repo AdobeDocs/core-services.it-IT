@@ -9,10 +9,10 @@ topic: Amministrazione
 role: Admin
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: aa50cf84ce4e1406d1222f416d9193ff2361fbee
 workflow-type: tm+mt
-source-wordcount: '1396'
-ht-degree: 77%
+source-wordcount: '1378'
+ht-degree: 76%
 
 ---
 
@@ -70,10 +70,6 @@ Creare e gestire tipi di pubblico nella Libreria di pubblico di Experience Cloud
 
 Aiuto: [Attributi del cliente](attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)
 
->[!NOTE]
->
->Attributi del cliente è un servizio legacy, attualmente in fase di sostenimento.
-
 Se acquisisci dati del cliente di livello Enterprise in un database di gestione delle relazioni con i clienti (Customer Relationship Management, CRM), puoi caricare tali dati in un&#39;origine dati Attributi del cliente nell&#39;Experience Cloud. Una volta effettuato l’aggiornamento, utilizza i dati in [!DNL Adobe Analytics] e [!DNL Adobe Target].
 
 **Soluzioni o servizi applicabili**
@@ -84,10 +80,6 @@ Se acquisisci dati del cliente di livello Enterprise in un database di gestione 
 ## Experience Cloud Assets {#section_92BC5DFDB0E0499CB0DD34B85E06F79A}
 
 Guida: [condividere cartelle Experience Cloud con Creative Cloud](creative-cloud.md)
-
->[!NOTE]
->
->Assets è un servizio core legacy, attualmente in fase di sostenimento.
 
 Condividi cartelle e risorse tra Experience Cloud e Creative Cloud. Collabora, commenta risorse condivise e utilizzale in soluzioni Experience Cloud come [!DNL Social] e [!DNL Target].
 
