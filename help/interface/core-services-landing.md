@@ -7,10 +7,10 @@ topic: Amministrazione
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: aa50cf84ce4e1406d1222f416d9193ff2361fbee
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 59%
+source-wordcount: '364'
+ht-degree: 58%
 
 ---
 
@@ -33,7 +33,7 @@ Il presente Aiuto descrive i seguenti prodotti e servizi:
 | [Persone - Attributi del cliente](attributes.md) | Crea casi di utilizzo di orchestrazione in tempo reale sulla base dei dati contestuali memorizzati negli eventi o nelle origini dati. [!UICONTROL Journey Orchestration] è un applicativo integrato all&#39;interno di Experience Platform. |
 | [Location Service](https://experienceleague.adobe.com/docs/places/using/home.html?lang=it) | Adobe [!UICONTROL Experience Platform Location Service] è un servizio di geolocalizzazione. Consente alle app mobili abilitate alla posizione di contestualizzare quest’ultima mediante l’uso di interfacce SDK avanzate e facili da usare, associate a un database flessibile di punti di interesse (POI). |
 | [Activation](activation.md) | Activation include il più recente prodotto di gestione tag denominato Raccolta dati di Experience Platform (Launch) e Trigger di Experience Cloud. |
-| [Risorse](experience-cloud-assets.md) | Il servizio di base Experience Cloud Assets fornisce un archivio unico e centralizzato di risorse pronte per le attività di marketing da condividere tra le diverse soluzioni. (Assets è un servizio legacy, attualmente in fase di sostenimento.) |
+| [Risorse](experience-cloud-assets.md) | Il servizio di base Experience Cloud Assets fornisce un archivio unico e centralizzato di risorse pronte per le attività di marketing da condividere tra le diverse soluzioni. |
 | [Amministrazione](admin-getting-started.md) | Scopri come accedere ad Admin Console e gestire le autorizzazioni degli utenti e i profili di prodotto di Experience Cloud e il supporto del browser. |
 | [Cookie](cookies-privacy.md) | Garantire la privacy dei clienti e la sicurezza dei dati sono le principali priorità di Adobe. Adobe partecipa a più organizzazioni sulla privacy e collabora con le autorità di regolamentazione della privacy e i principi di autoregolamentazione. |
 
