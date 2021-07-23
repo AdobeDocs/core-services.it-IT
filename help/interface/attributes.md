@@ -7,20 +7,16 @@ role: Admin
 topic: Amministrazione
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 12b2758155885386cdc3e6fc7e1a77f2b8e74b6e
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 75%
+source-wordcount: '485'
+ht-degree: 74%
 
 ---
 
 # Panoramica degli attributi del cliente
 
->[!IMPORTANT]
->
->[!UICONTROL Attributi del cliente è un servizio legacy, attualmente in fase di sostenimento.]
-
-[!UICONTROL Attributi del cliente in Experience Cloud consente di caricare i dati aziendali acquisiti da un database di gestione delle relazioni con i clienti (CRM). ] Puoi caricare i dati in un&#39;origine dati Attributi del cliente nell&#39;Experience Cloud, quindi utilizzarli in Adobe Analytics e Adobe Target.
+Attributi del cliente in Experience Cloud consente di caricare i dati aziendali acquisiti da un database di gestione delle relazioni con i clienti (CRM). Puoi caricare i dati in un&#39;origine dati Attributi del cliente nell&#39;Experience Cloud, quindi utilizzarli in Adobe Analytics e Adobe Target.
 
 Per individuare questa funzione, apri **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL Attributi del cliente]**
 
