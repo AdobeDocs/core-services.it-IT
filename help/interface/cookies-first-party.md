@@ -10,10 +10,10 @@ topic: Amministrazione
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 9a232162008524d900e3655716a84961c287c773
 workflow-type: tm+mt
-source-wordcount: '1579'
-ht-degree: 60%
+source-wordcount: '1617'
+ht-degree: 46%
 
 ---
 
@@ -21,20 +21,18 @@ ht-degree: 60%
 
 Analytics utilizza i cookie per fornire informazioni su variabili e componenti che non permangono tra richieste di immagini e sessioni del browser. Laddove possibile, Adobe ricorre a cookie di prime parti per registrare le attività sul sito. Per registrare l’attività su siti diversi, ad esempio su altri domini di tua proprietà, sono necessari cookie di terze parti.
 
-Molti browser e applicazioni antispyware sono progettati per rifiutare ed eliminare i cookie di terze parti, inclusi i cookie utilizzati nella raccolta dati [!DNL Analytics]. Per supportare il tracciamento dell’interazione dei visitatori con il sito web, assicurati di aver configurato la raccolta dati per l’utilizzo dei cookie di prime parti:
+Molti browser e applicazioni antispyware sono progettati per rifiutare ed eliminare i cookie di terze parti. L’Adobe garantisce che i cookie possano sempre essere impostati anche se i cookie di terze parti sono bloccati. Il comportamento specifico varia a seconda che si utilizzi il servizio Experience Platform Identity (servizio ECID) o gli identificatori legacy di Analytics (ovvero il cookie s_vi):
 
-Per implementare i cookie di prime parti sono disponibili due opzioni:
+* Il [servizio Experience Platform Identity (servizio ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=en) imposterà automaticamente i cookie di prime parti indipendentemente dal fatto che il dominio di raccolta corrisponda o meno al dominio del sito. Se non corrispondono, il servizio Identity utilizza JavaScript per impostare i cookie nel dominio del sito.
+* Se utilizzi [identificatori legacy di Analytics](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html?lang=en) (alias il cookie `s_vi` ), dipende da come hai configurato il server di raccolta dati. Se il server di raccolta dati corrisponde al dominio del sito, i cookie vengono impostati come di prime parti. Se il server di raccolta non corrisponde al dominio corrente, i cookie vengono impostati come terze parti. In questo caso, se i cookie di terze parti sono bloccati, Analytics imposta un [fallback id (s_fid)](cookies-analytics.md) invece del cookie standard &quot;s_vi&quot;.
 
-* Se utilizzi il servizio Experience Platform Identity (servizio ECID), imposta automaticamente i cookie nel contesto di prime parti utilizzando JavaScript.
-* Se utilizzi [!DNL Analytics] identificatori legacy (ovvero il cookie `s_vi` ), dipende da come hai configurato il server di raccolta dati. Se il server di raccolta dati corrisponde al dominio del sito, i cookie vengono impostati come di prime parti. Se il server di raccolta non corrisponde al dominio corrente, i cookie vengono impostati come terze parti. In questo caso, se i cookie di terze parti sono bloccati, [!DNL Analytics] imposta un [fallback id (s_fid)](cookies-analytics.md) di prima parte invece del cookie standard &quot;s_vi&quot;.
-
-Per garantire che il server di raccolta corrisponda al dominio del sito, puoi utilizzare un’implementazione CNAME per impostare i cookie in un contesto di prime parti. Ciò comporta modifiche alle impostazioni DNS della tua azienda per configurare un alias CNAME che punti a un dominio ospitato da Adobe. Sebbene diversi prodotti Adobe supportino l’uso di un CNAME, in tutti i casi questo viene utilizzato per creare un endpoint di prima parte affidabile per un cliente specifico e rimane di proprietà di tale cliente. Se controlli più domini, puoi utilizzare un singolo endpoint CNAME per monitorare gli utenti nei loro domini, ma ovunque il dominio del sito non corrisponda ai cookie del dominio CNAME viene impostato come di terze parti.
+Se desideri che il server di raccolta corrisponda al dominio del sito, puoi utilizzare un’implementazione CNAME che consente l’inoltro dai server di raccolta di Adobe da un dominio personalizzato specificato nell’implementazione CNAME ai server di raccolta di. Ciò comporta modifiche alle impostazioni DNS della tua azienda per configurare un alias CNAME che punta a un dominio ospitato di Adobe. Sebbene diversi prodotti Adobe supportino l’uso di un CNAME, in tutti i casi questo viene utilizzato per creare un endpoint di prima parte affidabile per un cliente specifico e rimane di proprietà di tale cliente. Se controlli più domini, puoi utilizzare un singolo endpoint CNAME per monitorare gli utenti nei loro domini, ma ovunque il dominio del sito non corrisponda ai cookie del dominio CNAME viene impostato come di terze parti.
 
 >[!NOTE]
 >
->Per entrambe le opzioni, il programma ITP (Intelligent Tracking Prevention) di Apple rende i cookie di prime parti di breve durata sui browser gestiti da ITP, che includono Safari su macOS e tutti i browser su iOS e iPadOS. A partire da novembre 2020, entrambi i tipi di cookie scadono dopo sette giorni. Questa scadenza è soggetta a modifiche.
+>Indipendentemente dal fatto che il dominio di raccolta corrisponda al dominio del sito, il programma ITP (Intelligent Tracking Prevention) di Apple rende di breve durata i cookie di prime parti impostati da Adobe su browser gestiti da ITP, tra cui Safari su macOS e tutti i browser su iOS e iPadOS. A partire da novembre 2020, anche i cookie impostati tramite CNAME hanno la stessa scadenza dei cookie impostati tramite JavaScript. Questa scadenza è soggetta a modifiche.
 
-Per la seconda opzione che utilizza un CNAME, se il tuo sito dispone di pagine sicure con protocollo HTTPS, puoi lavorare con Adobe per ottenere un certificato SSL che ti consenta di implementare i cookie di prime parti. Adobe consiglia vivamente di utilizzare esclusivamente HTTPS per la raccolta dei dati, in quanto, ad Adobe, il supporto per la raccolta HTTP verrà eliminato nella seconda metà del 2020.
+Se desideri stabilire un CNAME per la raccolta dati e se il tuo sito dispone di pagine sicure utilizzando il protocollo HTTPS, puoi lavorare con Adobe per ottenere un certificato SSL.
 
 Spesso il processo di rilascio del certificato SSL crea confusione e richiede tempo. Di conseguenza, l’Adobe ha stabilito una partnership con DigiCert, un’autorità di certificazione (CA) leader del settore, e ha sviluppato un processo integrato che automatizza l’acquisto e la gestione di tali certificati.
 
@@ -42,15 +40,15 @@ Con la tua autorizzazione, collaboriamo con CA per rilasciare, distribuire e ges
 
 ## Programma di certificazione gestito da Adobe
 
-Il programma di certificazione gestito di Adobe è il processo consigliato per l’implementazione di un nuovo certificato SSL di prima parte per i cookie di prime parti.
+Il programma di certificazione gestito di Adobe è il processo consigliato per l’impostazione del certificato SSL di prima parte necessario per un’implementazione CNAME che garantisce che il server di raccolta Adobi corrisponda al dominio del sito.
 
-Il programma di certificazione gestito di Adobe consente di implementare un nuovo certificato SSL di prima parte per i cookie di prime parti senza costi aggiuntivi (per i primi 100 CNAME). Se al momento disponi di un certificato SSL gestito dal cliente, rivolgiti all’Assistenza clienti Adobe per informazioni sulla migrazione al programma di certificazione gestito da Adobe.
+Il programma Adobe Managed Certificate consente di implementare un nuovo certificato SSL di prima parte senza costi aggiuntivi (per i primi 100 CNAME). Se al momento disponi di un certificato SSL gestito dal cliente, rivolgiti all’Assistenza clienti Adobe per informazioni sulla migrazione al programma di certificazione gestito da Adobe.
 
 ### Implementazione
 
-Per implementare un nuovo certificato SSL di prima parte per i cookie di prime parti:
+Di seguito è illustrata l’implementazione di un nuovo certificato SSL di prima parte per la raccolta di dati di prime parti:
 
-1. Compila il [modulo di richiesta dei cookie di prime parti](/help/interface/cookies/assets/First_Part_Domain_Request_Form.xlsx) e apri un ticket con l’Assistenza clienti per richiedere la configurazione dei cookie di prime parti nel programma gestito da Adobe. Ogni campo è descritto all’interno del documento con esempi.
+1. Compila il [modulo di richiesta del dominio di prime parti](/help/interface/cookies/assets/First_Part_Domain_Request_Form.xlsx) e apri un ticket con l’Assistenza clienti per richiedere di configurare la raccolta dati di prime parti sul programma gestito da Adobe. Ogni campo è descritto all’interno del documento con esempi.
 
 2. Crea record CNAME (consulta le istruzioni riportate di seguito).
 
@@ -103,10 +101,6 @@ Lo specialista FPC ti fornisce il nome host configurato e il CNAME a cui deve pu
 
 Fintanto che il codice di implementazione non viene modificato, questo passaggio non influisce sulla raccolta dei dati e può essere eseguito in qualsiasi momento dopo l’aggiornamento del codice di implementazione.
 
->[!NOTE]
->
->Il servizio ID visitatore di Experience Cloud fornisce un’alternativa alla configurazione di un CNAME per abilitare i cookie di prime parti.
-
 ## Convalida dell’inoltro nome host {#validate}
 
 Per la convalida sono disponibili i seguenti metodi:
@@ -157,7 +151,7 @@ Address: 54.187.216.46
 
 ## Aggiorna il codice di implementazione {#update}
 
-Prima di modificare il codice sul sito per utilizzare i cookie di prime parti, completa i prerequisiti seguenti:
+Prima di modificare il codice sul sito per utilizzare la raccolta dati di prime parti, completa i prerequisiti seguenti:
 
 * Richiedi un certificato SSL seguendo i passaggi descritti in precedenza nella sezione *Implementa* del [Programma di certificazione gestito da Adobe](#adobe-managed-certificate-program).
 * Crea record CNAME (vedi sopra).
@@ -166,12 +160,12 @@ Prima di modificare il codice sul sito per utilizzare i cookie di prime parti, c
 Dopo aver verificato che i nomi host rispondano e inoltrino ai server di raccolta dati di Adobe, puoi modificare la tua implementazione in modo che punti ai nomi host della tua raccolta dati.
 
 1. Apri il tuo file JavaScript di base (`s_code.js/AppMeasurement.js`).
-1. Se vuoi aggiornare la versione del codice, sostituisci l’intero file `s_code.js/AppMeasurement.js` con la versione più recente e sostituisci eventuali plug-in o personalizzazioni (se presenti). **Oppure**, se desideri aggiornare il codice solo per i cookie di prime parti, individua le variabili s.trackingServer e s.trackingServerSecure (se utilizzi SSL) e puntale ai nuovi nomi host della tua raccolta dati. Usiamo ilmiosito.com come esempio: `s.trackingServer = "metrics.mysite.com"` `s.trackingServerSecure = "smetrics.mysite.com"`
+1. Se vuoi aggiornare la versione del codice, sostituisci l’intero file `s_code.js/AppMeasurement.js` con la versione più recente e sostituisci eventuali plug-in o personalizzazioni (se presenti). **Oppure**, se desideri aggiornare il codice solo per la raccolta dati di prime parti, individua le variabili s.trackingServer e s.trackingServerSecure (se utilizzi SSL) e puntale ai nuovi nomi host della tua raccolta dati. Usiamo ilmiosito.com come esempio: `s.trackingServer = "metrics.mysite.com"` `s.trackingServerSecure = "smetrics.mysite.com"`
 
 1. Carica il file JavaScript di base aggiornato sul sito.
 
-1. Se stai passando ai cookie di prime parti da un’implementazione di lunga data o a un nome host di raccolta di prima parte diverso, Adobe consiglia di migrare i visitatori dal dominio precedente al nuovo dominio.
+1. Se passi alla raccolta dati di prime parti da un’implementazione di lunga data o cambi a un nome host di raccolta di prime parti diverso, Adobe consiglia di migrare i visitatori dal dominio precedente al nuovo dominio.
 
 Consulta la sezione [Migrazione dei visitatori](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/visitor-migration.html?lang=en) nella Guida all’implementazione di Analytics.
 
-Dopo che hai caricato il file JavaScript, tutto è configurato per la raccolta dati di cookie di prime parti. L’Adobe consiglia di monitorare i rapporti di Analytics per le prossime ore per garantire che la raccolta dei dati continui come normale. In caso contrario, verifica che tutti i passaggi precedenti siano stati completati e fai contattare l’Assistenza clienti da uno degli utenti supportati dalla tua organizzazione.
+Dopo che hai caricato il file JavaScript, tutto è configurato per la raccolta dati di di prime parti. L’Adobe consiglia di monitorare i rapporti di Analytics per le prossime ore per garantire che la raccolta dei dati continui come normale. In caso contrario, verifica che tutti i passaggi precedenti siano stati completati e fai contattare l’Assistenza clienti da uno degli utenti supportati dalla tua organizzazione.
