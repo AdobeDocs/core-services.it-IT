@@ -9,10 +9,10 @@ topic: Amministrazione
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 31cfb3a85c255b72cbe5599aca09494c22fe4301
+source-git-commit: 1ab2027e60dd0cd6d62986dfd18922bd8c3de2d3
 workflow-type: tm+mt
-source-wordcount: '4224'
-ht-degree: 88%
+source-wordcount: '4279'
+ht-degree: 87%
 
 ---
 
@@ -23,6 +23,12 @@ Funzionalità, note sulla versione e problemi noti per i componenti dell’inter
 Per un elenco degli aggiornamenti della documentazione, consulta [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
 Per le note sulla versione comprensive di tutte le soluzioni, consulta [Note sulla versione di Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it).
+
+## Agosto - 2021
+
+| Funzione | Data | Descrizione |
+| ------- | ------- | -------|
+| [!UICONTROL Recenti]  unificati: supporto esteso per gli oggetti aziendali a cui è stato effettuato l’accesso di recente | 10 agosto 2021 | [!UICONTROL Unified ] Recentsis esteso ad altri oggetti aziendali in Journey Optimizer e Experience Platform. I clienti Journey Optimizer possono trovare gli oggetti a cui hanno effettuato l’accesso di recente (messaggi, Percorsi, segmenti, schemi, set di dati, origini dati, eventi, azioni, origini e destinazioni) dalla home page di Adobe Journey Optimizer. |
 
 ## Luglio - 2021
 
