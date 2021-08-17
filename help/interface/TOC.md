@@ -4,10 +4,10 @@ user-guide-title: 'Componenti dell’interfaccia centrale di Experience Cloud '
 breadcrumb-title: Componenti dell’interfaccia centrale di Experience Cloud
 user-guide-description: Scopri l’interfaccia di Experience Cloud, configura le preferenze, cerca aiuto e oggetti aziendali. Ottieni aiuto per la gestione di utenti e prodotti, gli attributi del cliente, la libreria Pubblico, i cookie e le risorse di Experience Cloud.
 index: true
-source-git-commit: 62c49148ec5dfc945f946cea9a5948a8be781111
+source-git-commit: 21701779b0a502b39791a59104182fc5d3323f7b
 workflow-type: tm+mt
 source-wordcount: '344'
-ht-degree: 80%
+ht-degree: 81%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 80%
       + [Considerazioni sulla privacy per Attributi del cliente](privacy-mac.md)
    + Experience Cloud Activation {#activation}
       + [Panoramica di Activation](activation.md)
-      + [Guida utente di Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=it)
+      + [Guida utente di Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
       + [Triggers](triggers.md)
    + Experience Cloud Assets {#assets}
       + [Panoramica di Experience Cloud Assets](experience-cloud-assets.md)
@@ -47,7 +47,7 @@ ht-degree: 80%
       + [Caricamento di una risorsa in una cartella condivisa dal desktop Creative Cloud](t-cc-asset-upload-thor.md)
       + [Requisiti del file risorsa per la condivisione](assets-file-reqs.md)
       + [Comportamento delle cartelle condivise](asset-behavior.md)
-+ Amministrazione di Experienci Cloud {#administration}
++ Experience Cloud amministrazione {#administration}
    + [Gestione dell&#39;identità utente e dei prodotti Experience Cloud (Admin Console)](admin-getting-started.md)
    + [Visualizza i dettagli utente di Experience Cloud (Admin Tool)](admin-tool-experience-cloud.md)
    + [Domande frequenti](faq.md)
@@ -71,7 +71,7 @@ ht-degree: 80%
       + [Effetti delle modifiche al supporto dei cookie di terze parti sui clienti ](cookies-thirdparty.md)
 + Note sulla versione per Experience Cloud di interfaccia utente {#release-notes}
    + [Note sulla versione per i componenti dell’interfaccia centrale](release-notes.md)
-   + [Note sulla versione per tutti gli Experienci Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en)
+   + [Note sulla versione per tutti gli Experienci Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it)
 + Altre risorse {#more-resources}
    + [Forum](https://experienceleaguecommunities.adobe.com/)
    + [Terminologia](terms.md)
