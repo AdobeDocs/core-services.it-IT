@@ -9,7 +9,7 @@ topic: Amministrazione
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 88%
@@ -33,7 +33,7 @@ Scopri quali sono i browser supportati e le risposte alle domande più frequenti
 Se non è stato effettuato il provisioning della tua implementazione per i servizi principali, consulta [Abilitare le soluzioni per i servizi principali](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C), in cui si descrivono i seguenti temi:
 
 1. [Partecipazione a Experience Cloud per diventare un amministratore](core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
-1. [Implementa il servizio Experience Cloud ID tramite Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/get-started/quick-start.html?lang=en).
+1. [Implementa il servizio Experience Cloud ID tramite Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en).
 1. [Mappare suite di rapporti per un’organizzazione Experience Cloud](core-services.md#concept_apg_zq2_rw)
 1. [Modernizzare il codice AppMeasurement di Analytics (solo per Analytics)](core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [Modernizzare l’implementazione di Adobe Target (solo per Adobe Target)](core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)
