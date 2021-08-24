@@ -12,7 +12,7 @@ exl-id: ab6de845-99ea-4cd8-b7cd-012fb641403f
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '611'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -32,18 +32,18 @@ Audience Manager si avvale di alcuni cookie semplici per eseguire funzioni diver
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Finalità</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager </span> imposta questo cookie per assegnare un ID univoco a un visitatore del sito. Il cookie <span class="wintitle"> demdex </span> aiuta <span class="keyword"> Audience Manager </span> a eseguire funzioni di base come l’identificazione dei visitatori, la sincronizzazione degli ID, la segmentazione, la modellazione, il reporting e così via. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager </span> imposta questo cookie per assegnare un ID univoco a un visitatore del sito. Il cookie <span class="wintitle">demdex</span> aiuta <span class="keyword">Audience Manger</span> a eseguire funzioni di base come l’identificazione dei visitatori, la sincronizzazione degli ID, la segmentazione, la modellazione, il reporting, ecc. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Contenuto</b> </p> </td> 
-   <td colname="col2"> <p>Il cookie <span class="wintitle"> demdex </span> contiene un ID utente univoco (UUID) come mostrato nell’esempio di seguito: </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p>Vedi anche <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=en" format="https" scope="external">Indice degli ID in Audience Manager</a>. </p> </td> 
+   <td colname="col2"> <p>Il cookie <span class="wintitle"> demdex </span> contiene un ID utente univoco (UUID) come mostrato nell’esempio di seguito: </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p>Vedi anche <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=it" format="https" scope="external">Indice degli ID in Audience Manager</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Altri Attributi</b> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_11291DA87C5045E880034E06C863BCDA"> 
       <li id="li_40C30A06A12449A4A8748621223CA71B">Durata: il cookie <span class="wintitle"> demdex </span> ha un intervallo time-to-live (TTL) di 180 giorni. Il TTL viene reimpostato su 180 giorni a ogni interazione dell’utente con un sito Web partner. Il cookie scade se un utente non torna al sito entro l’intervallo TTL. </li> 
-      <li id="li_A589EDA2198249829207A183872EF1FF">Rinuncia: <span class="keyword"> Audience Manager </span> ripristina il cookie con una stringa <span class="codeph"> Do Not Target </span> se un utente rinuncia alla raccolta di dati. In questo caso, il TTL del cookie è impostato su 10 anni. </li> 
+      <li id="li_A589EDA2198249829207A183872EF1FF">Rinuncia: <span class="keyword"> Audience Manager </span> ripristina il cookie con una stringa <span class="codeph"> Do Not Adobe Target </span> se un utente rinuncia alla raccolta di dati. In questo caso, il TTL del cookie è impostato su 10 anni. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -76,7 +76,7 @@ Audience Manager si avvale di alcuni cookie semplici per eseguire funzioni diver
    <td colname="col2"> <p> 
      <ul id="ul_4922AC2CD55D4C888A6FBEB22F8B889B"> 
       <li id="li_91A68C44E53840379C2ACDED25468735">Durata: il cookie <span class="wintitle"> dextp </span> ha un intervallo time-to-live (TTL) di 180 giorni. </li> 
-      <li id="li_6B8C674EFAAC4DABA0A640CF29247F99">Rinuncia: <span class="keyword"> Audience Manager </span> ripristina il cookie con una stringa <span class="codeph"> Do Not Target </span> se un utente rinuncia alla raccolta di dati. In questo caso, il TTL del cookie è impostato su 10 anni. </li> 
+      <li id="li_6B8C674EFAAC4DABA0A640CF29247F99">Rinuncia: <span class="keyword"> Audience Manager </span> ripristina il cookie con una stringa <span class="codeph"> Do Not Adobe Target </span> se un utente rinuncia alla raccolta di dati. In questo caso, il TTL del cookie è impostato su 10 anni. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -129,7 +129,7 @@ La tabella seguente elenca e definisce gli elementi di un cookie `dextp` in base
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Finalità</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager </span> imposta questo cookie in caso di errore durante l’invio di dati a una <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html?lang=en" format="https" scope="external">destinazione</a>. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager </span> imposta questo cookie in caso di errore durante l’invio di dati a una <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html?lang=it" format="https" scope="external">destinazione</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Contenuto</b> </p> </td> 
@@ -144,7 +144,7 @@ La tabella seguente elenca e definisce gli elementi di un cookie `dextp` in base
    <td colname="col2"> <p> 
      <ul id="ul_5D13DD701B484B51BF2808A69A919106"> 
       <li id="li_4E665114C63246FBA32A4E19984D2693">Durata: il cookie <span class="wintitle"> dst </span> ha un intervallo time-to-live (TTL) di 180 giorni. </li> 
-      <li id="li_A682B566704F43D2AB72487EFF212474">Rinuncia: <span class="keyword"> Audience Manager </span> ripristina il cookie con una stringa <span class="codeph"> Do Not Target </span> se un utente rinuncia alla raccolta di dati. </li> 
+      <li id="li_A682B566704F43D2AB72487EFF212474">Rinuncia: <span class="keyword"> Audience Manager </span> ripristina il cookie con una stringa <span class="codeph"> Do Not Adobe Target </span> se un utente rinuncia alla raccolta di dati. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
