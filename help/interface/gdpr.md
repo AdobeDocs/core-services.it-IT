@@ -9,19 +9,19 @@ exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '433'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 # Supporto per gli attributi del cliente per il regolamento generale sulla protezione dei dati
 
-Questa pagina descrive come [!UICONTROL Attributi del cliente] supporta il Regolamento generale sulla protezione dei dati (RGPD).
+Questa pagina descrive come la funzione [!UICONTROL Attributi del cliente] supporta il regolamento generale sulla protezione dei dati (RGPD).
 
 >[!IMPORTANT]
 >
 >Il contenuto di questo documento non rappresenta o non intende sostituirsi a una consulenza legale. Consulta l&#39;assistenza legale per ricevere consigli in merito al RGPD.
 
-Il [regolamento generale sulla protezione dei dati](https://business.adobe.com/privacy/general-data-protection-regulation.html), una legge in vigore dal 25 maggio 2018, conferisce a tutte le persone (soggetti dei dati) all&#39;interno dei confini dell&#39;Unione europea (Ue) il controllo dei loro dati personali. Semplifica inoltre il contesto normativo per le aziende internazionali. La presente legge si applica a tutte le aziende (titolari del trattamento dei dati) che offrono beni o servizi, che controllano il comportamento o raccolgono dati personali da soggetti all&#39;interno dei confini dell&#39;Ue nel momento in cui i loro dati personali vengono trattati, indipendentemente dalla sede del titolare del trattamento.
+Il [regolamento generale sulla protezione dei dati](https://business.adobe.com/it/privacy/general-data-protection-regulation.html), una legge in vigore dal 25 maggio 2018, conferisce a tutte le persone (soggetti dei dati) all&#39;interno dei confini dell&#39;Unione europea (Ue) il controllo dei loro dati personali. Semplifica inoltre il contesto normativo per le aziende internazionali. La presente legge si applica a tutte le aziende (titolari del trattamento dei dati) che offrono beni o servizi, che controllano il comportamento o raccolgono dati personali da soggetti all&#39;interno dei confini dell&#39;Ue nel momento in cui i loro dati personali vengono trattati, indipendentemente dalla sede del titolare del trattamento.
 
 Adobe Experience Cloud agisce come responsabile del trattamento per tutti i dati personali che riceve e archivia per conto dei propri clienti. In qualità di titolare del trattamento dei dati, puoi determinare i dati personali che Adobe Experience Cloud elabora e archivia per tuo conto.
 
@@ -31,7 +31,7 @@ Per maggiori informazioni sul significato del RGPD per la tua attività, consult
 
 ## Configurazione necessaria per inviare richieste per gli [!UICONTROL attributi del cliente]
 
-Per richiedere l&#39;accesso e l&#39;eliminazione dei dati per [!UICONTROL Attributi del cliente], devi:
+Per richiedere l’accesso e l’eliminazione dei dati per [!UICONTROL Attributi del cliente], è necessario:
 
 1. Identificare quanto segue:
 
@@ -39,7 +39,7 @@ Per richiedere l&#39;accesso e l&#39;eliminazione dei dati per [!UICONTROL Attri
    * ID alias dell&#39;origine dati CRS su cui desideri agire
    * ID CRM del profilo su cui desideri agire
 
-   Un ID organizzazione IMS è una stringa alfanumerica composta da 24 caratteri, con l&#39;aggiunta di @AdobeOrg. Se il team marketing o l&#39;amministratore di sistema Adobe interno non conosce l&#39;ID organizzazione IMS dell&#39;azienda, contatta l&#39;Assistenza clienti Adobe all&#39;indirizzo gdprsupport@adobe.com. Per inviare richieste all’API Privacy è necessario l’ID organizzazione IMS.
+   Un ID organizzazione IMS è una stringa alfanumerica composta da 24 caratteri, con l&#39;aggiunta di @AdobeOrg. Se il team marketing o l&#39;amministratore di sistema Adobe interno non conosce l&#39;ID organizzazione IMS dell&#39;azienda, contatta l&#39;Assistenza clienti Adobe all&#39;indirizzo gdprsupport@adobe.com. Per inviare richieste all’API per la privacy è necessario l’ID organizzazione IMS.
 
 1. In [!UICONTROL Privacy Service], puoi inviare le richieste di accesso ed eliminazione agli attributi del cliente e controllare lo stato delle richieste esistenti.
 
