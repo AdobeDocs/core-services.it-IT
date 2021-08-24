@@ -12,13 +12,13 @@ exl-id: f94e8b8f-d666-4aa1-a3b7-246026035b78
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '126'
-ht-degree: 74%
+ht-degree: 84%
 
 ---
 
 # Gestione degli utenti di Creative Cloud
 
-Experience Cloud fornisce strumenti amministrativi per la gestione degli utenti di Creative Cloud approvati. Questi utenti possono essere invitati su base ad hoc per la cartella di una campagna. Solo gli utenti che sono stati aggiunti all’elenco da un amministratore possono essere invitati a una campagna. Gli utenti aggiunti vengono visualizzati nell’elenco utenti completo dell’Experience Cloud.
+Experience Cloud fornisce strumenti amministrativi per la gestione degli utenti di Creative Cloud approvati. Questi utenti possono essere invitati su base ad hoc per la cartella di una campagna. Solo gli utenti che sono stati aggiunti all’elenco da un amministratore possono essere invitati a una campagna. Gli utenti aggiunti verranno visualizzati nell’elenco di utenti compilato automatico in Experience Cloud.
 
 >[!NOTE]
 >
