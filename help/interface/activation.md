@@ -14,13 +14,13 @@ exl-id: d57f168b-6beb-48f2-b0d2-92593ceee62e
 source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
 source-wordcount: '266'
-ht-degree: 57%
+ht-degree: 96%
 
 ---
 
 # Attivazione
 
-Activation include l&#39;ultimo prodotto di gestione tag denominato Experience Platform [!UICONTROL Raccolta dati] ([!UICONTROL Launch]) ed Experience Cloud [!UICONTROL Triggers].
+Activation include l’ultimo prodotto di gestione tag denominato Experience Platform [!UICONTROL Data Collection] ([!UICONTROL Launch]) ed Experience Cloud [!UICONTROL Triggers].
 
 ## Experience Platform Launch {#section_05DF74E9EAC94518A155095C65F54568}
 
@@ -30,7 +30,7 @@ Consulta la [Guida rapida di Experience Platform Launch](https://experienceleagu
 
 ## Experience Cloud [!UICONTROL Triggers] {#section_EEA3A8B5EFCB4F8BABC4ADAF3DD41831}
 
-[!UICONTROL Experience Cloud ] Attiva i sensi degli addetti al marketing per definire e monitorare i comportamenti chiave dei consumatori e quindi generare comunicazioni tra soluzioni da utilizzare in decisioni in tempo reale e nella personalizzazione.
+[!UICONTROL Experience Cloud Triggers] consente ai professionisti del marketing di definire e monitorare i comportamenti dei consumatori chiave e di generare comunicazioni tra soluzioni da usare in decisioni in tempo reale e nella personalizzazione.
 
 <table id="table_AF6842470172429EA97C9B02163BD0C3"> 
  <thead> 
@@ -46,7 +46,7 @@ Consulta la [Guida rapida di Experience Platform Launch](https://experienceleagu
   </tr>
   <tr> 
    <td colname="col1"> <p>Utilizzo Triggers in Adobe Campaign </p> </td> 
-   <td colname="col2"> <p> Adobe Campaign Standard 16.7 introduce un'integrazione con il nuovo servizio Triggers. Questo servizio consente agli utenti business di definire facilmente i trigger, o attivatori, in base ai dati comportamentali online acquisiti in Adobe Analytics. Una volta definito l’attivatore, questo è disponibile in Adobe Campaign per supportare messaggi di remarketing che determinano coinvolgimento e conversioni. Questa nuova funzione pronta all’uso consente agli esperti di marketing di attivare messaggi di remarketing al momento giusto, in base a eventi online come abbandono del carrello, visualizzazioni di pagine e video guardati. </p> </td>
+   <td colname="col2"> <p> Adobe Campaign Standard 16.7 introduce un'integrazione con il nuovo servizio Triggers. Questo servizio consente agli utenti business di definire facilmente i trigger, o attivatori, in base ai dati comportamentali online acquisiti in Adobe Analytics. Una volta definito l'attivatore, questo sarà disponibile in Adobe Campaign per supportare messaggi di remarketing che determinano coinvolgimento e conversioni. Questa nuova funzione pronta all’uso consentirà agli esperti di marketing di attivare i messaggi di remarketing al momento giusto, in base a eventi online quali abbandono del carrello, visualizzazioni di pagine, video visionati e così via. </p> </td>
   </tr>
  </tbody>
 </table>
@@ -56,4 +56,4 @@ Consulta la [Guida rapida di Experience Platform Launch](https://experienceleagu
 
 L&#39;estensione Adobe Experience Cloud Debugger per Chrome esamina le pagine Web e aiuta a individuare problemi nell&#39;implementazione delle soluzioni Experience Cloud.
 
-Per ricevere assistenza, consulta [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=en).
+Per ricevere assistenza, consulta [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=it).
