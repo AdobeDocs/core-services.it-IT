@@ -3,9 +3,9 @@ description: Scopri come le soluzioni e i servizi di Adobe Experience Cloud util
 title: 'Utilizzo dei cookie in Experience Cloud '
 uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
 source-git-commit: c7ed1324015beb7ebcf7a4ee21b05601e36e608f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '174'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -18,6 +18,6 @@ I cookie sono forniti per mantenere le informazioni durante e talvolta tra le vi
 
 >[!NOTE]
 >
->Leggi, regolamenti e principi di autoregolamentazione richiedono di ottenere il consenso dei visitatori prima di poter archiviare o recuperare informazioni su un computer o su un altro dispositivo connesso al web. L’Adobe suggerisce all’utente di verificare con il proprio consulente quali leggi, regolamenti e principi controllano l’utilizzo dei cookie.
+>Leggi, normative e principi di autoregolamentazione richiedono di ottenere il consenso dei visitatori prima di poter archiviare o recuperare informazioni su un computer o su un altro dispositivo connesso al web. Adobe ti consiglia di rivolgerti al proprio consulente legale per capire quali siano le leggi, le normative e i principi applicabili all’uso dei cookie nel tuo caso specifico.
 
 Questa documentazione descrive i cookie utilizzati dalla suite ed è stata preparata per aiutarti a comprendere gli obblighi in relazione al consenso.
