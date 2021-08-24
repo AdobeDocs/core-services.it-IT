@@ -12,15 +12,15 @@ exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '769'
-ht-degree: 79%
+ht-degree: 95%
 
 ---
 
 # Cookie di Analytics{#analytics-cookies}
 
-Adobe Analytics utilizza i cookie per differenziare le richieste di browser diversi e memorizzare informazioni utili che un’applicazione può utilizzare in un secondo momento. Possono anche essere utilizzati per associare le informazioni di navigazione ai record dei clienti.
+Adobe Analytics utilizza i cookie per differenziare le richieste di browser diversi e memorizzare informazioni utili che un’applicazione può utilizzare in un secondo momento. Possono inoltre essere utilizzati per associare le informazioni di navigazione ai record dei clienti.
 
-Analytics utilizza i cookie per definire in modo anonimo nuovi visitatori, aiutare ad analizzare i dati clickstream e monitorare l’attività storica sul sito web, ad esempio la risposta a campagne particolari o la lunghezza del ciclo di vendita.
+In particolare, Analytics utilizza i cookie per definire in modo anonimo nuovi visitatori, aiutare ad analizzare i dati di clickstream e monitorare le attività effettuate sul sito web, ad esempio la risposta a campagne particolari o la durata del ciclo di vendita.
 
 * [Nome cookie: s_ecid](cookies-mc.md#section-32fd753c3fa54452acd62b021434919a)
 * [Nome cookie: AMCV_###@AdobeOrg](cookies-mc.md#section-a12aa2a9296940ae82d8921b381b8fb0)
@@ -49,7 +49,7 @@ Ulteriori informazioni sui [cookie di prime parti](cookies-first-party.md) sono 
 
 | Attributo | Descrizione |
 |--- |--- |
-| Informazioni memorizzate | Questo cookie viene impostato e letto dal codice JavaScript per determinare se i cookie sono abilitati (impostato su &quot;True&quot;) |
+| Informazioni memorizzate | Questo cookie viene impostato e letto dal codice JavaScript per determinare se i cookie sono abilitati (impostati su “True”). |
 | Scadenza | Questo è un cookie di sessione e scade quando il browser viene chiuso |
 | Utilizzo | Un solo cookie per tutti gli account |
 | Posizione | Il cookie viene memorizzato nel dominio della pagina. |
@@ -113,10 +113,10 @@ Nella tabella seguente sono descritti i flag per i cookie di Analytics:
 
 >[!NOTE]
 >
->Se si utilizza un singolo CNAME per il monitoraggio tra più domini o proprietà, SameSite deve essere impostato su “None” per `s_vi`. Per assistenza sulla modifica delle impostazioni dei cookie di Analytics, contatta l’Assistenza clienti.
+>Se si utilizza un singolo CNAME per il monitoraggio tra più domini o proprietà, SameSite deve essere impostato su “None” per `s_vi`. Per ricevere assistenza nella modifica delle impostazioni dei cookie di Analytics, contatta l’Assistenza clienti.
 
 ## Cookie impostati da plug-in {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
-Puoi impostare altri cookie in base all’utilizzo dei plug-in di Analytics. Questi cookie sono snippet di codice disponibili per il client in varie circostanze. Queste circostanze includono: recupero dei valori dall’URL; concatenazione di valori da passare ad Analytics; acquisizione dell’abbandono del modulo e così via. Per informazioni specifiche sui cookie impostati da ciascun plug-in, contatta l’Assistenza clienti. Un esempio può essere il cookie [!DNL s_vh] usato con i plug-in *Imposta una volta per* e *Imposta e ottieni ultimo valore*.
+Puoi impostare altri cookie in base all’utilizzo dei plug-in di Analytics. Questi cookie sono snippet di codice che il client può usare in diverse circostanze. Queste circostanze includono: recupero dei valori dall’URL; concatenazione di valori da passare ad Analytics; acquisizione dell’abbandono del modulo e così via. Per informazioni specifiche sui cookie impostati da ciascun plug-in, contatta l’Assistenza clienti. Un esempio può essere il cookie [!DNL s_vh] usato con i plug-in *Imposta una volta per* e *Imposta e ottieni ultimo valore*.
 
-Le variabili di conversione (eVarX) trasmesse su una richiesta di immagine senza JavaScript, come il codice inserito all’interno di un’e-mail, vengono attribuite correttamente solo se il client e-mail e il browser Web condividono lo spazio dei cookie.
+Le variabili di conversione (eVarX) trasmesse in una richiesta di immagine senza JavaScript, come il codice inserito all’interno di un’e-mail, vengono attribuite correttamente solo se il client e-mail e il browser web condividono lo stesso spazio di cookie.
