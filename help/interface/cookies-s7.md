@@ -12,11 +12,11 @@ exl-id: ecb8d17f-f752-44ca-8877-44752c28dc70
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
-# Cookie di Scene7{#scene-cookies}
+# Cookie di Scene7 {#scene-cookies}
 
 Scene7 utilizza i cookie per memorizzare informazioni utili che possono essere utilizzate per inviare contenuti multimediali dinamici al browser.
 
@@ -24,13 +24,13 @@ Scene7 memorizza le informazioni in locale per alcuni visualizzatori AS2 basati 
 
 Per i visualizzatori AS2, i cookie:
 
-* Monitora lo stato della sessione di un utente, ad esempio la pagina corrente e l&#39;immagine visualizzata, il livello di zoom corrente e così via.
+* Monitora lo stato della sessione di un utente, ad esempio la pagina corrente e l’immagine visualizzata, il livello di zoom corrente ecc.
 * Determinano quanto tempo è trascorso dalla sessione precedente dell’utente. Il visualizzatore utilizza queste informazioni per decidere se continuare una sessione precedente o avviarne una nuova. Queste informazioni vengono inviate anche ai server di Scene7, che tuttavia non vengono utilizzati.
 
 Per i visualizzatori AS2 Flash eCatalog, i cookie:
 
 * Archiviano il contenuto generato dall’utente (in particolare il contenuto immesso dall’utente nella funzione “note” del visualizzatore ecatalog). Questo contenuto viene ripristinato quando l’utente riprende una sessione.
-* Quando l&#39;utente avvia un&#39;e-mail per condividere l&#39;ecatalog con un altro utente, il contenuto delle note del secondo elenco dei visualizzatori AS2 viene copiato nei server di Adobe per fornirlo al destinatario. Quando il destinatario avvia la sessione come visualizzatore, il contenuto delle note viene recuperato dal server e copiato in un cookie. Questa funzione è poco usata, pertanto non scade e il contenuto non aggiornato non viene rimosso. Al momento, persiste sui server a tempo indefinito.
+* Quando l’utente avvia un messaggio e-mail per condividere l’eCatalog con un altro utente, il contenuto delle note del secondo elenco dei visualizzatori AS2 viene copiato sui server Adobe e fornito al destinatario. Quando il destinatario avvia la sessione come visualizzatore, il contenuto delle note viene recuperato dal server e copiato in un cookie. Questa funzione è poco usata, pertanto non scade e il contenuto non aggiornato non viene rimosso. Al momento, persiste sui server a tempo indefinito.
 
 I visualizzatori AS3 successivi non implementano la persistenza della sessione.
 
