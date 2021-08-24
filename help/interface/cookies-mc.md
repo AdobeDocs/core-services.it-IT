@@ -1,5 +1,5 @@
 ---
-description: Scopri come il servizio ID viene memorizzato e utilizzato nelle applicazioni Experience Cloud.
+description: Scopri come il servizio ID viene memorizzato e utilizzato nelle applicazioni di Experience Cloud.
 keywords: cookie;privacy
 solution: Experience Cloud,Analytics,Target
 title: 'Cookie di Experience Cloud '
@@ -12,13 +12,13 @@ exl-id: bd9bea58-9987-40d6-84e0-da185388bbbb
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
 # Cookie di Experience Cloud{#experience-cloud-cookies}
 
-Adobe Experience Cloud utilizza i cookie per memorizzare un ID visitatore utilizzato nelle applicazioni Experience Cloud.
+Adobe Experience Cloud utilizza i cookie per memorizzare un ID visitatore utilizzato nelle applicazioni di Experience Cloud.
 
 **Nome cookie: s_ecid**
 
@@ -61,7 +61,7 @@ Adobe Experience Cloud utilizza i cookie per memorizzare un ID visitatore utiliz
 
 Il [servizio ID di Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it) utilizza JavaScript per memorizzare un ID visitatore univoco in un cookie `AMCV_###@AdobeOrg` sul dominio del sito web corrente, dove `###` rappresenta una stringa casuale di caratteri come `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
 
-Consulta anche [Cookie e il servizio ID](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=en).
+Consulta anche [Cookie e il servizio ID](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=it).
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 
