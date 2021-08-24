@@ -12,7 +12,7 @@ exl-id: 062576da-328e-4b46-9e71-5a25733d607a
 source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 88%
+ht-degree: 98%
 
 ---
 
@@ -34,7 +34,7 @@ Se non è stato effettuato il provisioning della tua implementazione per i servi
 
 1. [Partecipazione a Experience Cloud per diventare un amministratore](core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
 1. [Implementa il servizio Experience Cloud ID tramite Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en).
-1. [Mappare suite di rapporti per un’organizzazione Experience Cloud](core-services.md#concept_apg_zq2_rw)
+1. [Mappare le suite di rapporti per un’organizzazione Experience Cloud](core-services.md#concept_apg_zq2_rw)
 1. [Modernizzare il codice AppMeasurement di Analytics (solo per Analytics)](core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [Modernizzare l’implementazione di Adobe Target (solo per Adobe Target)](core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)
 1. [Verificare l’implementazione](core-services.md#section_E641782A0F4F44AF8C9C91216BE330D5)
@@ -49,7 +49,7 @@ No. Experience Cloud è incluso senza alcun costo aggiuntivo. Tuttavia, alcuni s
 
 ## Perché la mia azienda deve effettuare l’accesso all’interfaccia Experience Cloud?
 
-La funzionalità fornita dall&#39;interfaccia Experience Cloud aggiunge più valore alla tua azienda. È anche il percorso standard per accedere alle soluzioni in futuro, sostituendo altri flussi di accesso alle singole soluzioni. L’accesso tramite Experience Cloud facilita una transizione più fluida in un secondo momento.
+La funzionalità fornita dall&#39;interfaccia Experience Cloud aggiunge più valore alla tua azienda. Sarà anche il percorso standard per accedere alle soluzioni in futuro, sostituendo altri flussi di accesso di singole soluzioni. L’accesso tramite Experience Cloud semplifica una futura transizione.
 
 ## Come posso risolvere i problemi sulla migrazione della mia azienda?
 
@@ -98,13 +98,13 @@ Consulta [Ricerca dell’ID organizzazione](organizations.md).
 
 L’ID organizzazione viene visualizzato nella pagina di destinazione di Experience Cloud e nella [pagina di destinazione di Admin Console](https://adminconsole.adobe.com).
 
-In alternativa, se sei un amministratore, puoi accedere all’Admin Console (vai a [https://adminconsole.adobe.com](https://adminconsole.adobe.com#)) per un’organizzazione specifica e visualizzare il tuo ID organizzazione IMS nell’URL.
+In alternativa, se sei un amministratore, puoi accedere ad Admin Console ([https://adminconsole.adobe.com](https://adminconsole.adobe.com#)) per un’organizzazione specifica e visualizzare il tuo lD organizzazione IMS nell’URL.
 
 Ad esempio, nell’URL seguente:
 
 `https://adminconsole.adobe.com/C538193582390300A495CC9@AdobeOrg/overview`
 
-L&#39;ID è:
+L’ID è:
 
 `C538193582390300A495CC9@AdobeOrg`
 
