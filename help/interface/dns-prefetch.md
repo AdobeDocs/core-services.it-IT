@@ -11,7 +11,7 @@ exl-id: caf2ff76-2076-436d-a5a7-aff531464480
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '384'
-ht-degree: 88%
+ht-degree: 96%
 
 ---
 
@@ -34,7 +34,7 @@ Tuttavia, puoi implementare manualmente il recupero preventivo del DNS con le so
 
 ## Esempi di codici di recupero preventivo del DNS {#section_E886F7B2861E48BA9EF3D8B3CE32B345}
 
-Gli esempi seguenti mostrano come eseguire chiamate di recupero preventivo del DNS in diverse soluzioni e servizi [!DNL Experience Cloud]. Alcune chiamate di recupero preventivo richiedono il tuo ID organizzazione [!DNL Adobe] o i dati del server di registrazione. In questi esempi, il codice in *corsivo* rappresenta un segnaposto variabile. Il codice deve essere sostituito con il tuo [!DNL Adobe] ID partner, il codice cliente o le informazioni sul server di tracciamento e così via.
+Gli esempi seguenti mostrano come eseguire chiamate di recupero preventivo del DNS in diverse soluzioni e servizi [!DNL Experience Cloud]. Alcune chiamate di recupero preventivo richiedono il tuo ID organizzazione [!DNL Adobe] o i dati del server di registrazione. In questi esempi, il codice in *corsivo* rappresenta un segnaposto variabile. Il codice deve essere sostituito con il tuo ID partner [!DNL Adobe], il codice cliente o le informazioni sul server di registrazione, ecc.
 
 * **Analytics:** `<link rel="dns-prefetch" href="//insert tracking server name here">`.
 
@@ -44,7 +44,7 @@ Gli esempi seguenti mostrano come eseguire chiamate di recupero preventivo del D
 
 * **Servizio Experience Cloud ID:** `<link rel="dns-prefetch" href="//fast. *`inserisci l’ID partner qui`*.demdex.net">`
 
-* **Dynamic Tag Manager** (DTM): non obbligatorio. I collegamenti DTM sono disponibili al caricamento della pagina.
+* **Dynamic Tag Manager** (DTM): non obbligatorio. I collegamenti DTM sono disponibili quando viene caricata la pagina.
 
 * **Media Optimizer (Advertising Cloud):**
 
