@@ -12,13 +12,13 @@ exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: fc29feb4425d99c4e28fb1d40036dd9d93a801c2
 workflow-type: tm+mt
 source-wordcount: '4279'
-ht-degree: 88%
+ht-degree: 95%
 
 ---
 
 # Note sulla versione cumulative
 
-Funzionalità, note sulla versione e problemi noti per i componenti dell’interfaccia centrale di Experience Cloud.
+Funzionalità, note sulla versione e problemi noti per l’interfaccia componenti centrale di Experience Cloud.
 
 Per un elenco degli aggiornamenti della documentazione, consulta [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
@@ -34,11 +34,11 @@ Per le note sulla versione comprensive di tutte le soluzioni, consulta [Note sul
 
 La funzione Ricerca unificata è stata aggiornata per renderla disponibile per Journey Optimizer, offerte ed Experience League. In precedenza, questa funzione era disponibile solo per gli utenti di Experience Platform.
 
-## Giugno - 2021
+## Giugno 2021
 
 | Funzione | Data | Descrizione |
 | ------- | ------- | ------- |
-| Supporto di single sign-on per Adobe Federated ID | 17 giugno 2021 | Se utilizzi Federated ID, puoi accedere ad Experience Cloud senza dover immettere un indirizzo e-mail o una password. Per utilizzare questa funzione, aggiungi `#/sso:@domain` all’URL dell’Experience Cloud. <br>Ad esempio, supponi di essere il proprietario del dominio `adobecustomer.com` e di voler accedere ad Adobe Analytics. L’URL sarebbe: `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`. |
+| Supporto di single sign-on per Adobe Federated ID | 17 giugno 2021 | Se utilizzi Federated ID, puoi accedere ad Experience Cloud senza dover immettere un indirizzo e-mail o una password. Per utilizzare questa funzione, aggiungi `#/sso:@domain` all’URL di Experience Cloud. <br>Ad esempio, se sei il proprietario del dominio `adobecustomer.com` e vuoi accedere ad Adobe Analytics, l’URL sarà: `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`. |
 | Ricerca in Experience League | 1 giugno 2021 | La ricerca nella documentazione in Experience League è stata migliorata. Passa a [Experience League](https://experienceleague.adobe.com/docs/?lang=it) e utilizza il campo **[!UICONTROL Ricerca]** per trovare tutorial, documentazione, corsi e altro ancora. |
 
 {style=&quot;table-layout:auto&quot;}
@@ -76,7 +76,7 @@ La funzione Ricerca unificata è stata aggiornata per renderla disponibile per J
 
 **Correzioni**
 
-* **Customer Attributes (Attributi del cliente)**: l&#39;interfaccia utente Customer Attributes (Attributi del cliente) adesso mostra nel target gli stati aggiuntivi di profili sincronizzati. (MCUI-10231)
+* **Attributi del cliente**: l&#39;interfaccia della funzione Attributi del cliente adesso mostra anche gli stati di profili sincronizzati in Target. (MCUI-10231)
 * **Triggers servizio core:** per mancanza di utilizzo, è stato rimosso il punteggio di propensione &quot;Probabilità di tornare tra 30 giorni&quot; durante la creazione di un trigger di tipo Abandonment (Abbandono). (MCUI-10056)
 
 ## Gennaio - 2020
@@ -118,11 +118,11 @@ La funzione Ricerca unificata è stata aggiornata per renderla disponibile per J
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Configurazioni di prodotto preconfigurate in Admin Console </p> </td> 
-   <td colname="col2"> <p>Ad Experience Cloud, gli amministratori dei clienti possono utilizzare configurazioni di prodotto pre-create e mappate a gruppi di autorizzazioni predefiniti per Analytics e Dynamic Tag Management. </p> <p>Questa ottimizzazione è disponibile per le organizzazioni con provisioning recente e riduce il tempo necessario alla gestione degli utenti in Admin Console. </p> </td> 
+   <td colname="col2"> <p>Gli amministratori di clienti Experience Cloud possono utilizzare configurazioni di prodotto pre-create e mappate su gruppi di autorizzazioni predefiniti per Analytics e Dynamic Tag Management. </p> <p>Questa ottimizzazione è disponibile per le organizzazioni con provisioning recente e riduce il tempo necessario alla gestione degli utenti in Admin Console. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Miglioramento dei feed </p> </td> 
-   <td colname="col2"> <p> Durante la creazione di un post nel feed di Experience Cloud, la riga A ora utilizza l'argomento attualmente attivo al posto dell'organizzazione come impostazione predefinita.</p> </td> 
+   <td colname="col2"> <p> Durante la creazione di un nuovo post nel feed di Experience Cloud, la riga A adesso si basa sull’argomento attualmente attivo, anziché utilizzare l’organizzazione come impostazione predefinita.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -143,11 +143,11 @@ La funzione Ricerca unificata è stata aggiornata per renderla disponibile per J
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Miglioramenti sugli assets di Experience Cloud </p> </td> 
-   <td colname="col2"> <p>In Experience Cloud Assets puoi archiviare, condividere e sincronizzare le risorse digitali da una singola posizione centrale. Risorse di Experience Cloud utilizza alcune delle funzioni disponibili in <span class="keyword"> Adobe Experience Manager</span> (AEM). </p> <p>Consulta <a href="experience-cloud-assets.md#concept_DDA5224C907D4A4F817D795DA0ED64D0" format="dita" scope="local">Experience Cloud</a></p> </td> 
+   <td colname="col2"> <p>In Experience Cloud Assets puoi archiviare, condividere e sincronizzare le risorse digitali da una singola posizione centrale. Experience Cloud Assets sfrutta alcune funzioni disponibili in <span class="keyword">Adobe Experience Manager</span> (AEM). </p> <p>Consulta <a href="experience-cloud-assets.md#concept_DDA5224C907D4A4F817D795DA0ED64D0" format="dita" scope="local">Experience Cloud</a></p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Miglioramenti al collegamento dell'account </p> </td> 
-   <td colname="col2"> <p>È stato migliorato il flusso di lavoro dell'interfaccia per collegare gli account della soluzione con Experience Cloud (Adobe ID). Questo nuovo flusso di lavoro individua tutti gli account dell'utente associati a un'organizzazione e consente di scegliere gli account da collegare. Abbiamo inoltre semplificato l’esperienza di collegamento dell’account, in modo che non sia più necessario accedere alla pagina Gestisci organizzazioni per collegare manualmente gli account. </p> </td> 
+   <td colname="col2"> <p>È stato migliorato il flusso di lavoro dell'interfaccia per collegare gli account della soluzione con Experience Cloud (Adobe ID). Questo nuovo flusso di lavoro individua tutti gli account dell'utente associati a un'organizzazione e consente di scegliere gli account da collegare. Abbiamo anche semplificato l’esperienza di collegamento dell’account, affinché non sia più necessario accedere alla pagina Gestione organizzazioni per la procedura di collegamento manuale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -179,7 +179,7 @@ Se accedi a Dynamic Tag Management tramite l&#39;interfaccia **[!UICONTROL Exper
 
 >[!NOTE]
 >
->Microsoft® termina il supporto](https://www.microsoft.com/it-it/WindowsForBusiness/End-of-IE-support) di Internet Explorer 8, 9 e 10. [ In quanto tale, i problemi segnalati a fronte di tali versioni specifiche di Internet Explorer non verranno corretti.
+>Microsoft® sta [cessando il supporto](https://www.microsoft.com/it-it/WindowsForBusiness/End-of-IE-support) di Internet Explorer 8, 9 e 10. In quanto tale, i problemi segnalati a fronte di tali versioni specifiche di Internet Explorer non verranno corretti.
 
 ## Rilascio 15.10 - 14 ottobre 2015 {#section_68123833D3634BD3A473C12862BF9606}
 
@@ -251,7 +251,7 @@ Nessuna informazione disponibile.
    <td colname="col1"> <p>Miglioramenti dell'amministrazione: </p> 
     <ul id="ul_7D5FCBEFA262435D865CA1018BFB792E"> 
      <li id="li_6E98974CCB094ABBAB57C51ED56C3F00"> <span class="wintitle"> Admin Console</span> </li> 
-     <li id="li_8CDAB6301FD44C3999EE4EEB1A0A2FD6">Supporto per aziende e Federated ID </li> 
+     <li id="li_8CDAB6301FD44C3999EE4EEB1A0A2FD6">Assistenza Enterprise e Federated ID </li> 
     </ul> </td> 
    <td colname="col2"> <p>La funzionalità Gestione dei gruppi e degli utenti si trova ora in Admin Console. Il nuovo percorso di navigazione è: </p> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol">Amministrazione</span> &gt; <span class="uicontrol">Avvia Admin Console</span></p> <p> Inoltre, è stato aggiunto il supporto per Enterprise ID e Federated ID. Puoi utilizzare gli Enterprise ID, i Federated ID e gli Adobe ID nella stessa implementazione enterprise. Ad esempio, utilizza gli Adobe ID per gli utenti che possono usare altri prodotti e servizi Adobe. Per gli utenti, utilizza gli Enterprise o Federated ID se desideri gestire i loro account. </p> </td> 
   </tr> 
@@ -264,7 +264,7 @@ Nessuna informazione disponibile.
 
 **Problemi noti**
 
-* Il collegamento e lo scollegamento dell&#39;organizzazione Dynamic Tag Management con Experience Cloud non funziona per le nuove organizzazioni Experience Cloud create dall&#39;utente. Adobe sta lavorando per risolvere questo problema e ripristinare la funzionalità con la versione di maggio. Se rilevi dei problemi durante l&#39;accesso single sign-on in Dynamic Tag Management tramite Experience Cloud, utilizza l&#39;accesso precedente all&#39;indirizzo [!DNL dtm.adobe.com].
+* Il collegamento e lo scollegamento dell&#39;organizzazione Dynamic Tag Management con Experience Cloud non funziona per le nuove organizzazioni Experience Cloud create dall&#39;utente. Stiamo cercando di risolvere questo problema per ripristinare la funzionalità con la versione di maggio. Se rilevi dei problemi durante l&#39;accesso single sign-on in Dynamic Tag Management tramite Experience Cloud, utilizza l&#39;accesso precedente all&#39;indirizzo [!DNL dtm.adobe.com].
 * Un problema noto impedisce la condivisione di audience da suite di rapporti che non sono di proprietà dall&#39;account Analytics collegato. Stiamo cercando di risolvere il problema
 
 ## Rilascio 15.3.2 - 19 marzo 2015 {#section_07760FD9CA43497FA8BDCCA990A24BFD}
@@ -279,7 +279,7 @@ Nessuna informazione disponibile.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Attributi del cliente </p> </td> 
-   <td colname="col2"> <p>Se acquisisci dati del cliente di livello Enterprise in un database di gestione delle relazioni con i clienti (Customer Relationship Management, CRM), puoi caricare tali dati in un'origine dati Attributi del cliente nell'Experience Cloud. Dopo il caricamento dei dati, puoi effettuare i rapporti <span class="uicontrol">Visitor Profile (Profilo visitatore)</span> &gt; <span class="uicontrol">Attributi del cliente</span> in Analytics. </p> <p>Inoltre, puoi utilizzare i dati caricati come segmento del pubblico in <span class="keyword">Adobe Target</span>. </p> <p>Consulta la documentazione del prodotto relativa agli <a href="attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local"> Attributi del cliente</a>. </p> <p> Per informazioni sulla modernizzazione delle soluzioni per i servizi principali, consulta <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> Abilitare le soluzioni per i servizi principali</a>. </p> </td> 
+   <td colname="col2"> <p>Se acquisisci dati del cliente di livello Enterprise in un database di gestione delle relazioni con i clienti (CRM), puoi caricare tali dati in un’origine dati di attributi cliente in Experience Cloud. Dopo il caricamento dei dati, puoi effettuare i rapporti <span class="uicontrol">Visitor Profile (Profilo visitatore)</span> &gt; <span class="uicontrol">Attributi del cliente</span> in Analytics. </p> <p>Inoltre, puoi utilizzare i dati caricati come segmento del pubblico in <span class="keyword">Adobe Target</span>. </p> <p>Consulta la documentazione del prodotto relativa agli <a href="attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local"> Attributi del cliente</a>. </p> <p> Per informazioni sulla modernizzazione delle soluzioni per i servizi principali, consulta <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> Abilitare le soluzioni per i servizi principali</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -481,7 +481,7 @@ Nuove funzioni, problemi noti e correzioni nella [!DNL Adobe Experience Cloud] c
 * Gli utenti di [!DNL Exchange] per migliorare la propria esperienza devono cancellare i loro cookie.
 * [!DNL Experience Cloud] L&#39;interfaccia di può subire rallentamenti se usata in parallelo da più utenti.
 * Alcuni utenti potrebbero vedere i propri contenuti di [!DNL Creative Cloud] rimossi dalla propria cartella se il contenuto in questione non è condiviso in [!DNL Experience Cloud].
-* Dopo 15 minuti di inattività verrai disconnesso. La disconnessione in una località comporta anche la disconnessione da [!DNL Experience Cloud].
+* Dopo 15 minuti di inattività verrai disconnesso. Inoltre, la disconnessione in una località comporta anche la disconnessione da [!DNL Experience Cloud].
 * Alcuni utenti potrebbero avere dei problemi a collegare i loro account di Audience Manager e a [!DNL Experience Cloud].
 * Gli utenti di [!UICONTROL Exchange] possono visualizzare solamente la lingua inglese nel selettore lingua.
 
@@ -518,7 +518,7 @@ Nuove funzioni, problemi noti e correzioni nella [!DNL Adobe Experience Cloud] c
 * Il collegamento [!DNL Search&Promote] non è disponibile dalla pagina [!UICONTROL Organizations &amp; Product Access (Organizzazione e accesso ai prodotti)].
 * I filtri applicati ai report con tendenze [!DNL Analytics] sono applicati alle schede in [!DNL Experience Cloud].
 * Alcuni utenti non possono collegare il loro account di Gestione dell&#39;audience all&#39;account di [!DNL Experience Cloud].
-* Dopo 15 minuti di inattività verrai disconnesso. La disconnessione in una località comporta anche la disconnessione dall’Experience Cloud.
+* Dopo 15 minuti di inattività verrai disconnesso. Inoltre, la disconnessione in una località comporta anche la disconnessione da Experience Cloud.
 * Alcuni utenti di Exchange potrebbero trovare nei commenti i propri nomi come una lunga stringa ID invece dei loro nomi.
 
 **Correzioni**
@@ -537,11 +537,11 @@ Nuove funzioni, problemi noti e correzioni nella [!DNL Adobe Experience Cloud] c
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud Exchange </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol">Aiuto</span> &gt; <span class="uicontrol">Exchange</span></p> <p><span class="keyword">Experience Cloud</span><span class="wintitle"> Exchange</span> è un'unica destinazione in cui è possibile eseguire ricerche, sfogliare, selezionare, pagare e scaricare estensioni Digital Marketing tramite app. </p> <p>Le app includono connettori dati, configurazioni personalizzate per il prodotto di base di Adobe, applicazioni di terze parti, rapporti e schede <span class="keyword"> Experience Cloud</span>. </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol">Aiuto</span> &gt; <span class="uicontrol">Exchange</span></p> <p><span class="keyword">Experience Cloud</span><span class="wintitle"> Exchange</span> è un'unica destinazione in cui è possibile eseguire ricerche, sfogliare, selezionare, pagare e scaricare estensioni Digital Marketing tramite app. </p> <p>Le app includono connettori dati, configurazioni personalizzate per il prodotto di base di Adobe, applicazioni di terze parti, rapporti e schede di <span class="keyword">Experience Cloud</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud Audiences </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol">Audiences</span></p> <p> In <span class="wintitle">Audiences</span> puoi creare, modificare e gestire i diversi tipi di pubblico (o audience), nello stesso modo in cui lavori con i segmenti. Ad esempio, puoi creare un segmento in Reports &amp; Analytics, quindi condividerlo con <span class="wintitle"> Experience Cloud</span><span class="wintitle"> Audiences</span>. Una volta condiviso, il pubblico è disponibile in <span class="keyword">Adobe Target</span> per attività di campagna e in Adobe Audience Manager per la segmentazione. </p> <p> <p>Nota: Per richiedere l'abilitazione in Target, visita <a href="https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES" format="http" scope="external"> https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES</a>. </p> </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol">Audiences</span></p> <p> In <span class="wintitle">Audiences</span> puoi creare, modificare e gestire i diversi tipi di pubblico (o audience), nello stesso modo in cui lavori con i segmenti. Ad esempio, puoi creare un segmento in Reports &amp; Analytics, quindi condividerlo con <span class="wintitle">Experience Cloud</span><span class="wintitle"> Audiences</span>. Una volta condiviso, il pubblico è disponibile in <span class="keyword">Adobe Target</span> per attività di campagna e in Adobe Audience Manager per la segmentazione. </p> <p> <p>Nota: per richiedere l’abilitazione in Target, visita <a href="https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES" format="http" scope="external">https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES</a>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> </p> </td> 
@@ -549,11 +549,11 @@ Nuove funzioni, problemi noti e correzioni nella [!DNL Adobe Experience Cloud] c
   </tr> 
   <tr> 
    <td colname="col1"> <p> </p> </td> 
-   <td colname="col2"> <p>I nuovi utenti di Adobe possono collegare i loro account Scene7 ad Adobe ID e i loro membri del team. Gli amministratori possono anche scollegare gli utenti dagli account di Scene7. </p> </td> 
+   <td colname="col2"> <p>I nuovi utenti di Adobe possono collegare i loro account Scene7 all’Adobe ID così come i membri dei loro gruppi. Gli amministratori possono anche scollegare gli utenti dagli account di Scene7. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Sincronizzazione risorsa </p> </td> 
-   <td colname="col2"> <p> Puoi condividere risorse in Risorse di Experience Manager con Experience Cloud e Creative Cloud. Qualsiasi modifica apportata a tali risorse si riflette sulle copie delle risorse condivise in Experience Cloud e Creative Cloud. </p> </td> 
+   <td colname="col2"> <p> In Experience Manager Assets puoi condividere risorse con Experience Cloud e Creative Cloud. Le modifiche apportate a tali risorse vengono estese anche alle relative copie condivise in Experience Cloud e Creative Cloud. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -574,7 +574,7 @@ Nuove funzioni, problemi noti e correzioni nella [!DNL Adobe Experience Cloud] c
 * Per alcuni utenti, l&#39;eliminazione dei file da [!DNL Experience Cloud] non si sincronizzava con [!DNL Digital Asset Management].
 * Gli utenti venivano disconnessi dopo 15 minuti di inattività del browser.
 * Gli utenti non riuscivano a condividere file di PowerPoint sulle bacheche.
-* Alcuni utenti avevano un layout visivo scadente in Internet Explorer 10.
+* Alcuni utenti hanno segnalato un layout visivo scadente in Internet Explorer 10.
 
 ## Rilascio 14.4.1 - 22 aprile 2014 {#section_E2A699764E744D2E8D418E9A3D40AF6B}
 
@@ -625,7 +625,7 @@ Nuove funzioni, problemi noti e correzioni nella [!DNL Adobe Experience Cloud] c
 
 ## Rilascio 14.3.1 - 13 marzo 2014 {#section_5D142E3225E3477A84DC01B8197D39BC}
 
-La versione 14.3.1 è una versione di manutenzione che si concentra su velocità, stabilità e sicurezza. Non include nuove funzioni.
+La versione 14.3.1 è una versione di manutenzione che si concentra sulla velocità, stabilità e sicurezza. Non include nuove funzioni.
 
 **Correzioni**
 
