@@ -1,15 +1,15 @@
 ---
-description: 'Scopri i componenti dell’interfaccia centrale in Experience Cloud, che includono ricerca globale, preferenze dell’account, come navigare nell’interfaccia e ricevere aiuto. '
+description: 'Scopri come accedere e i componenti dell’interfaccia centrale in Experience Cloud. Scopri la ricerca globale, le preferenze del tuo account, come navigare nell’interfaccia e ottenere aiuto. '
 solution: Experience Cloud
 title: 'Componenti dell’interfaccia utente centrale di Experience Cloud '
 feature: “Componenti dell’interfaccia centrale”
 topic: Amministrazione
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: c9a6059b0af9c6229fd72580f997c1c6f2dfbbe4
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 88%
+source-wordcount: '718'
+ht-degree: 50%
 
 ---
 
@@ -21,17 +21,54 @@ I componenti dell’interfaccia centrale di Experience Cloud includono funzioni 
 * Trovare informazioni sul prodotto e oggetti aziendali tramite una ricerca globale
 * Gestire le preferenze dell’account (avvisi, notifiche e abbonamenti)
 
-## Accedere a Experience Cloud
+## Supporto browser in Experience Cloud {#browser}
+
+Per ottenere le migliori prestazioni, Experience Cloud è ottimizzato per i browser più popolari, inclusa la versione più recente, e per le due versioni precedenti.
+
+* Chrome
+* Bordo
+* Firefox
+* Opera
+* Safari
+
+Se il browser in uso non è presente nell’elenco, potrebbe essere comunque supportato, ma si consiglia di utilizzare uno dei browser elencati.
+
+>[!NOTE]
+>
+>Non tutte le applicazioni in esecuzione sul dominio Experience Cloud supportano tutti i browser. Se non sei sicuro, controlla la documentazione di un&#39;applicazione specifica.
+
+## Supporto linguistico in Experience Cloud {#languages}
+
+Experience Cloud supporta le lingue preferite per ogni utente, come impostato nelle preferenze dell’account utente di Adobe. Le lingue supportate al momento sono:
+
+* Cinese
+* Inglese
+* Francese
+* Tedesco
+* Italiano
+* Giapponese
+* Coreano
+* Portoghese
+* Spagnolo
+* Taiwanese
+
+Sebbene tutti i team applicativi si siano impegnati a supportare le lingue globali, non tutte le applicazioni sono disponibili in tutte le lingue indicate in precedenza. Se la lingua principale non è supportata in un&#39;applicazione Experience Cloud, è inoltre possibile impostare una lingua secondaria su predefinita, se applicabile. Questo può essere fatto in [Experience Cloud preferenze utente](https://experience.adobe.com/preferences).
+
+## Accedere a Experience Cloud {#signin}
 
 Accedi e verifica di essere nell&#39;[organizzazione](organizations.md) corretta.
 
 1. Passa ad [Adobe Experience Cloud](https://experience.adobe.com).
 1. Seleziona **[!UICONTROL Accedi con un Adobe ID]**.
-1. In Adobe Experience Cloud, seleziona la tua organizzazione.
+1. Verifica di essere nell’organizzazione corretta.
 
    ![](assets/organizations-menu.png)
 
-   L’amministratore può aiutarti a verificare di essere nell’[organizzazione](organizations.md) corretta.
+   Per verificare di aver effettuato l&#39;accesso alla [organizzazione](organizations.md) corretta, fai clic sull&#39;avatar del tuo profilo per visualizzare il nome dell&#39;organizzazione. Se hai accesso a più organizzazioni, puoi anche visualizzare e passare a un’altra organizzazione direttamente nella barra dell’intestazione.
+
+   Se l’organizzazione utilizza Federated ID, Experience Cloud consente di accedere con il single sign-on dell’organizzazione senza la necessità di immettere l’indirizzo e-mail e la password. A questo scopo, aggiungi `#/sso:@domain` all&#39;URL dell&#39;Experience Cloud (`https://experience.adobe.com`).
+
+   Ad esempio, per un’organizzazione con Federated ID e il dominio `adobecustomer.com`, imposta il collegamento URL su `https://experience.adobe.com/#/sso:@adobecustomer.com`. Puoi anche accedere direttamente a un&#39;applicazione specifica segnalando questo URL, aggiunto al percorso dell&#39;applicazione. (Ad esempio, per Adobe Analytics, `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`.)
 
 ## Accedere alle applicazioni di Experience Cloud {#navigation}
 
@@ -83,7 +120,7 @@ Nelle [!UICONTROL preferenze di Experience Cloud], è possibile configurare le s
 
 {style=&quot;table-layout:auto&quot;}
 
-## Notifiche e annunci
+## Notifiche e annunci {#notifications}
 
 Seleziona **[!UICONTROL Notifiche]** per visualizzare le notifiche che ti interessano e gli annunci di Adobe.
 
