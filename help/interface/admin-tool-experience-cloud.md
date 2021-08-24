@@ -12,7 +12,7 @@ exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '1248'
-ht-degree: 82%
+ht-degree: 91%
 
 ---
 
@@ -46,14 +46,14 @@ In questa pagina viene visualizzato l’elenco completo degli utenti con accesso
 | [!UICONTROL E-mail] | L’indirizzo e-mail associato all’utente. Puoi ordinare questa colonna da A a Z e da Z ad A. |
 | [!UICONTROL ID Type (Tipo di ID)] | Il tipo di identità per l’account dell’utente. È possibile applicare un filtro per visualizzare tipi di ID specifici. Per ulteriori informazioni, consulta [Manage identity types (Gestisci tipi di identità)](https://helpx.adobe.com/it/enterprise/using/identity.html). |
 | [!UICONTROL Soluzioni] | In questa sezione sono riepilogate le soluzioni Experience Cloud a cui l’utente può accedere. Per limitare l’elenco di utenti con accesso specifico alla soluzione puoi applicare i filtri. |
-| [!UICONTROL Last Login (Ultimo accesso)] | Ora e data dell’accesso utente più recente a Experience Cloud. Questa colonna può essere ordinata in base a date ascendenti o discendenti. <br> **Importante:** a partire dal 13 gennaio 2020, gli ultimi dati di accesso dell’utente saranno conservati per 365 giorni. Queste informazioni hanno lo scopo di mostrare l’attività di accesso corrente nell’Experience Cloud e non di consigliare di intervenire sugli account inattivi prima del 13 gennaio 2020. |
+| [!UICONTROL Last Login (Ultimo accesso)] | Ora e data dell’accesso utente più recente a Experience Cloud. Questa colonna può essere ordinata in base a date ascendenti o discendenti. <br> **Importante:** a partire dal 13 gennaio 2020, gli ultimi dati di accesso dell’utente saranno conservati per 365 giorni. Queste informazioni si propongono di mostrare l’attuale attività all’interno di Experience Cloud e non costituiscono un consiglio a intervenire sugli account inattivi prima del 13 gennaio 2020. |
 
 ## Personalizzare la vista elenco degli utenti
 
 Puoi eseguire ricerche, oltre a ordinare o filtrare le viste personalizzate dell’elenco di utenti.
 
 * Puoi cercare gli utenti per nome o e-mail. Le ricerche corrispondono alla stringa di testo digitata.
-* Ordina le colonne in base ai valori crescenti o decrescenti. Questo ordinamento si applica alle colonne [!UICONTROL Nome,] [!UICONTROL E-mail,] e [!UICONTROL Ultimo accesso].
+* Ordina le colonne in base ai valori crescenti o decrescenti. L’operazione può essere eseguita nelle colonne [!UICONTROL Nome], [!UICONTROL E-mail] e [!UICONTROL Ultimo accesso].
 * Per applicare più filtri all’elenco degli utenti con criteri specifici, seleziona l’icona **[!UICONTROL Filtra per]** . Quando vengono applicate più categorie di filtro, le ricerche contengono la soluzione `AND` ID TYPE `AND` del dominio e-mail.
 
 | Elemento | Descrizione |
@@ -77,7 +77,7 @@ In questa sezione viene visualizzato un riepilogo dell’account utente, il qual
 * Avatar dell’utente e badge dell’amministratore di sistema (laddove applicabile)
 * Nome
 * E-mail
-* Nome utente (gli account di Federated ID possono avere nomi utente diversi dall’indirizzo e-mail)
+* Nome utente (gli account Federated ID possono presentare nomi utente diversi dall’indirizzo e-mail)
 * [Tipo ID](https://helpx.adobe.com/enterprise/using/identity.html)
 * Paese
 * Ultimo accesso
@@ -95,7 +95,7 @@ In questa sezione viene visualizzato un elenco completo di tutti i profili di pr
 | [!UICONTROL Prodotto] | Il nome associato al profilo di prodotto. |
 | [!UICONTROL Istanza] | Il nome dell’istanza (ad esempio società di accesso o tenant) associata al prodotto e al profilo di prodotto. |
 | [!UICONTROL Profilo di prodotto] | Nome univoco del profilo di prodotto. |
-| [!UICONTROL Assegnato per gruppo] | Nome del gruppo di utenti che associa l’utente a un profilo di prodotto. I risultati vuoti indicano che l’utente è stato assegnato direttamente al profilo di prodotto, non tramite un gruppo. |
+| [!UICONTROL Assegnato per gruppo] | Nome del gruppo di utenti che associa l’utente a un profilo di prodotto. I risultati vuoti indicano che l’utente è stato assegnato al profilo di prodotto in modo diretto, ossia non tramite un gruppo. |
 | [!UICONTROL Ruoli prodotto] | Assegnazione del ruolo dell’utente all’interno del profilo di prodotto. Attualmente, queste informazioni sono valide solo per i profili di prodotto di Adobe Target. |
 
 ## Pagina Criteri
@@ -108,7 +108,7 @@ In questa pagina viene visualizzato l’elenco completo dei criteri di Experienc
 |---|---|
 | [!UICONTROL Profilo prodotto] | Nome del profilo di prodotto. È possibile ordinare la colonna A->Z, Z->A. Per visualizzare ulteriori dettagli sul criterio, seleziona il nome di un profilo di prodotto. |
 | [!UICONTROL Prodotto] | Il prodotto associato al profilo di prodotto. Puoi ordinare questa colonna da A a Z e da Z ad A. |
-| [!UICONTROL Istanza] | L’istanza (ad esempio, tenant o società di accesso) associata al profilo di prodotto. I prodotti che non hanno istanze o tenant univoci presentano un &quot; - &quot; per il valore. Puoi ordinare questa colonna da A a Z e da Z ad A. |
+| [!UICONTROL Istanza] | L’istanza (ad esempio tenant o società di accesso) associata al profilo di prodotto. Per i prodotti che non hanno istanze o tenant univoci, il valore visualizzato è “-”. Puoi ordinare questa colonna da A a Z e da Z ad A. |
 | [!UICONTROL Numero di utenti] | Numero univoco di utenti associati al profilo di prodotto, tramite assegnazione diretta e assegnazione di gruppi. Questa colonna può essere in ordine crescente o decrescente. |
 | [!UICONTROL Numero di sviluppatori] | Numero di ruoli sviluppatore associati al profilo di prodotto. Questa colonna può essere in ordine crescente o decrescente. |
 
@@ -117,7 +117,7 @@ In questa pagina viene visualizzato l’elenco completo dei criteri di Experienc
 È possibile eseguire ricerche nonché ordinare e filtrare viste personalizzate dell’elenco dei criteri.
 
 * Puoi cercare i profili di prodotto per nome. Le ricerche corrispondono alla stringa di testo digitata.
-* Ordina le colonne in base ai valori crescenti o decrescenti. Questo ordinamento si applica alle colonne [!UICONTROL Profilo prodotto,] [!UICONTROL Prodotto,] [!UICONTROL Istanza,] [!UICONTROL Numero di utenti,] e [!UICONTROL Numero di sviluppatori,] .
+* Ordina le colonne in base ai valori crescenti o decrescenti. Questo vale per le colonne [!UICONTROL Profilo prodotto], [!UICONTROL Prodotto], [!UICONTROL Istanza], [!UICONTROL Numero di utenti] e [!UICONTROL Numero di sviluppatori].
 * Seleziona l’icona **[!UICONTROL Filtra per]** per applicare più filtri per elencare i profili di prodotto con criteri specifici. Quando vengono applicate più categorie di filtri, le ricerche contengono i Gruppi `AND` Istanza `AND` Soluzione.
 
 | Elemento | Descrizione |
@@ -155,7 +155,7 @@ Questa sezione presenta un elenco completo di tutti gli utenti, i gruppi di uten
 
 | Scheda | Descrizione |
 |---------|----------|
-| [!UICONTROL Utenti] | Elenco di utenti inclusi nel profilo di prodotto. L&#39;associazione del gruppo di utenti viene visualizzata nella colonna [!UICONTROL Assegnato per gruppo] . |
+| [!UICONTROL Utenti] | Elenco di utenti inclusi nel profilo di prodotto. L’associazione tramite un gruppo di utenti viene visualizzata nella colonna [!UICONTROL Assegnato per gruppo]. |
 | [!UICONTROL Gruppi di utenti] | Elenco di gruppi di utenti associati al profilo di prodotto. |
 | [!UICONTROL Sviluppatori] | Elenco di sviluppatori associati al profilo di prodotto. |
 | [!UICONTROL Integrazioni] | Elenco di integrazioni associate al profilo di prodotto. |
