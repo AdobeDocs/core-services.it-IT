@@ -12,7 +12,7 @@ exl-id: 32f4723e-0e66-46b6-b0c2-ae47b9a06a87
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '316'
-ht-degree: 62%
+ht-degree: 67%
 
 ---
 
@@ -56,7 +56,7 @@ Quando hai rimosso tutti gli utenti di Creative Cloud, la cartella non è più c
 Altri metodi per utilizzare una risorsa condivisa:
 
 * Utilizzare il [!UICONTROL selettore delle risorse] in [!DNL Adobe Social] per i post social.
-* Carica o inverti le risorse in [Offers Library (Libreria offerte)](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=en) in [!DNL Adobe Target] per le immagini nelle attività.
+* Carica o inverti le risorse in [Offers Library (Libreria offerte)](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=it) in [!DNL Adobe Target] per le immagini nelle attività.
 
 Dopo aver condiviso una cartella su Creative Cloud, visualizzerai il logo Creative Cloud sulla cartella.
 
@@ -64,6 +64,6 @@ Dopo aver condiviso una cartella su Creative Cloud, visualizzerai il logo Creati
 
 Argomenti correlati:
 
-* [Aiuto di Creative Cloud - Gestione e sincronizzazione dei file](https://helpx.adobe.com/creative-cloud/help/sync-creative-cloud-files.html)
-* [Aiuto di Creative Cloud - Collaborazione con altri](https://helpx.adobe.com/creative-cloud/help/collaboration.html)
-* [Aiuto di Creative Cloud - Domande frequenti sulla collaborazione](https://helpx.adobe.com/creative-cloud/help/collaboration-faq.html)
+* [Aiuto di Creative Cloud - Gestione e sincronizzazione dei file](https://helpx.adobe.com/it/creative-cloud/help/sync-creative-cloud-files.html)
+* [Aiuto di Creative Cloud - Collaborazione con altri](https://helpx.adobe.com/it/creative-cloud/help/collaboration.html)
+* [Aiuto di Creative Cloud - Domande frequenti sulla collaborazione](https://helpx.adobe.com/it/creative-cloud/help/collaboration-faq.html)
