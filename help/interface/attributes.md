@@ -1,6 +1,6 @@
 ---
 title: Come utilizzare Attributi del cliente
-description: Scopri il servizio Attributi del cliente in Adobe Experience Cloud. Scopri come caricare i dati degli attributi del cliente da utilizzare in Adobe Analytics e Adobe Target.
+description: Scopri il servizio Attributi del cliente in Adobe Experience Cloud. Scopri come caricare i dati degli attributi cliente da utilizzare in Adobe Analytics e Adobe Target.
 solution: Experience Cloud
 feature: Attributi del cliente
 role: Admin
@@ -10,13 +10,13 @@ exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
 source-git-commit: a19887e3160faa0ef91bd975fc6e1e08a0a9d948
 workflow-type: tm+mt
 source-wordcount: '485'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
 # Panoramica degli attributi del cliente
 
-[!UICONTROL Attributi del cliente in Experience Cloud consente di caricare i dati aziendali acquisiti da un database di gestione delle relazioni con i clienti (CRM). ] Puoi caricare i dati in un&#39;origine dati Attributi del cliente nell&#39;Experience Cloud, quindi utilizzarli in Adobe Analytics e Adobe Target.
+[!UICONTROL Attributi del cliente] in Experience Cloud consente di caricare i dati aziendali acquisiti da un database di gestione delle relazioni con i clienti (CRM). Puoi caricare i dati in un’origine dati di attributi cliente in Experience Cloud, quindi utilizzarli in Adobe Analytics e Adobe Target.
 
 Per individuare questa funzione, apri **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL Attributi del cliente]**
 
@@ -30,11 +30,11 @@ Per individuare questa funzione, apri **[!DNL Experience Platform]** > **[!UICON
 
    Per sapere se l&#39;azienda ha accesso a Attributi del cliente, l&#39;amministratore [!DNL Experience Cloud] deve effettuare l&#39;accesso a [Experience Cloud](https://experience.adobe.com). Vai a **[!UICONTROL Amministrazione]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Prodotti]**. Se *Attributi del cliente* compare in uno dei [!UICONTROL Profili del prodotto], puoi iniziare.
 
-   Gli utenti che vengono aggiunti agli Attributi del cliente visualizzano la voce di menu [!UICONTROL Attributi del cliente] sul lato sinistro dell&#39;interfaccia di Experience Cloud.
+   Gli utenti che vengono aggiunti al profilo di prodotto Attributi del cliente troveranno la voce di menu [!UICONTROL Attributi del cliente] sul lato sinistro dell’interfaccia di Experience Cloud.
 
 * Qualsiasi versione di `at.js` o la versione 58 o successiva di `mbox.js` di **Adobe Target** sono necessarie per Attributi del cliente.
 
-   Consulta [Come distribuire l&#39;implementazione at.js](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html?lang=en) o [Mbox.js](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/mbox-implement/mbox-download.html?lang=en).
+   Consulta [Come distribuire l&#39;implementazione at.js](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html?lang=it) o [Mbox.js](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/mbox-implement/mbox-download.html?lang=it).
 
 ## Cosa sono i dati cliente Enterprise? {#section_6F34C29F11414842AA57D2B1248FA3C6}
 
@@ -44,7 +44,7 @@ L&#39;immagine seguente è un esempio di un file di dati che mostra i dati dell&
 
 ![](assets/01_crs_usecase.png)
 
-Dopo aver creato il file di dati, puoi caricarlo nell&#39;origine dell&#39;attributo cliente che hai creato in **[!UICONTROL Experience Cloud]** > **[!UICONTROL Attributi del cliente]**.
+Dopo aver generato il file dati, puoi caricarlo nell’origine di attributi cliente creata in **[!UICONTROL Experience Cloud]** > **[!UICONTROL Attributi del cliente]**.
 
 Consulta [Caricamento dei dati degli attributi del cliente](t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78) per conoscere questo flusso di lavoro.
 
@@ -52,11 +52,11 @@ Consulta [Caricamento dei dati degli attributi del cliente](t-crs-usecase.md#tas
 
 Quando i dati si trovano in Experience Cloud, puoi personalizzarli e condividerli con soluzioni per reporting, segmentazioni, attività e campagne.
 
-Ad esempio:
+Esempio:
 
 | Soluzione | Vantaggi e casi d&#39;uso |
 |--- |--- |
-| Adobe Analytics | Gli esperti di marketing e gli analisti sono pienamente consapevoli dei seguenti fatti:<ul><li>Le campagne online sono più efficaci con i tuoi clienti di livello Gold.</li><li>Quali sono i prodotti ricercati dai clienti di livello gold rispetto a clienti di livello platinum.</li><li>Se la nuova progettazione del tuo sito web sta avendo un impatto positivo sui tassi di conversione per i clienti meno recenti.</li><li>I prodotti che i clienti con un lifetime value basso tendono a cercare sul mio sito.</li></ul> |
+| Adobe Analytics | Gli esperti di marketing e gli analisti sono pienamente consapevoli dei seguenti fatti:<ul><li>Le campagne online sono più efficaci con i tuoi clienti di livello Gold.</li><li>Quali sono i prodotti ricercati dai clienti di livello gold rispetto a clienti di livello platinum.</li><li>Se la nuova progettazione del tuo sito web sta avendo un impatto positivo sui tassi di conversione per i clienti meno recenti.</li><li>Quali sono i prodotti più ricercati nel sito dai clienti con un valore lifetime basso.</li></ul> |
 | Adobe Target | I dati attributo consentono agli utenti di Adobe Target di:<ul><li>Mostrare sconti e offerte speciali ai membri del club fedeltà.</li><li>Consigliare prodotti più costosi ai clienti di lusso.</li><li>Per i clienti che già ricevono le e-mail, inserisci un&#39;offerta di upselling nello spazio normalmente riservato alle iscrizioni e-mail.</li></ul> |
 
 {style=&quot;table-layout:auto&quot;}
