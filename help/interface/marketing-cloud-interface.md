@@ -9,7 +9,7 @@ uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
 source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
 source-wordcount: '651'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ Nuove funzioni e correzioni nell’interfaccia di [!DNL Adobe Experience Cloud].
 
 **Problema noto**
 
-Molte delle notifiche di manutenzione su interventi pianificati di manutenzione/aggiornamento di prodotti sono assenti nel riepilogo e-mail delle notifiche. Stiamo lavorando per garantire che tutte le notifiche di manutenzione siano incluse nel riepilogo e-mail.
+Molte delle notifiche di manutenzione su interventi pianificati di manutenzione/aggiornamento di prodotti sono assenti nel riepilogo e-mail delle notifiche. Stiamo lavorando affinché tutte le notifiche di manutenzione vengano incluse nel riepilogo e-mail.
 
 ## 8 agosto 2017 {#section_2313A875454044F490B418506DD24593}
 
@@ -72,7 +72,7 @@ Molte delle notifiche di manutenzione su interventi pianificati di manutenzione/
 |--- |--- |
 | Notifiche - Impostazioni granulari | Puoi abilitare le notifiche per eventi e attività relative a prodotti e soluzioni, comprese le notifiche sull’attività di caricamento di [Attributi clienti](attributes.md). |
 | Notifiche - Notifiche di manutenzione | Nelle impostazioni di notifica puoi abilitare quelle relative alla manutenzione di prodotti e soluzioni. |
-| Admin Console per soluzioni Experience Cloud | I nuovi clienti Experience Cloud possono iniziare a utilizzare Admin Console, che offre una posizione centrale per la gestione delle autorizzazioni Adobe nell’intera l’organizzazione.<br>La migrazione ad Admin Console per la gestione degli utenti procederà a ondate. Adobe ti contatta (amministratori di sistema) quando è il momento di eseguire la migrazione.<br>Per gli amministratori di Analytics: consulta la sezione [Migrazione di Analytics](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=it). |
+| Admin Console per soluzioni Experience Cloud | I nuovi clienti Experience Cloud possono iniziare a utilizzare Admin Console, che offre una posizione centrale per la gestione delle autorizzazioni Adobe nell’intera l’organizzazione.<br>La migrazione ad Admin Console per la gestione degli utenti procederà a ondate. Quando sarà il momento di effettuare la migrazione, Adobe contatterà gli amministratori di sistema.<br>Per gli amministratori di Analytics: consulta la sezione [Migrazione di Analytics](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=it). |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -85,11 +85,11 @@ Molte delle notifiche di manutenzione su interventi pianificati di manutenzione/
 
 {style=&quot;table-layout:auto&quot;}
 
-## 8 novembre 2016 - 16.11.1 {#section_7065A9BCCDF544C2BB37E9A7D661EA6A}
+## 8 novembre 2016, 16.11.1 {#section_7065A9BCCDF544C2BB37E9A7D661EA6A}
 
 | Funzione | Descrizione |
 |--- |--- |
-| Aggiornamento di Profilo e password | Gli utenti non possono più modificare le informazioni del profilo utente IMS in Dati personali nella sezione Modifica profilo > Profilo e password, bensì vengono reindirizzati a `accounts.adobe.com`. Questo aggiornamento si applica a tutti i tipi di identità (Adobe ID, Enterprise e Federated). |
+| Aggiornamento di Profilo e password | Gli utenti non possono più modificare le informazioni del profilo utente IMS in Dati personali nella sezione Modifica profilo > Profilo e password, bensì vengono reindirizzati a `accounts.adobe.com`. Questo aggiornamento vale per tutti i tipi di identità (Adobe ID, Enterprise e Federated). |
 
 {style=&quot;table-layout:auto&quot;}
 
