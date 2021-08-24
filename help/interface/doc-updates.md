@@ -12,7 +12,7 @@ exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
 source-git-commit: 9a232162008524d900e3655716a84961c287c773
 workflow-type: tm+mt
 source-wordcount: '252'
-ht-degree: 84%
+ht-degree: 98%
 
 ---
 
@@ -30,7 +30,7 @@ Struttura della guida riorganizzata, sommario.
 
 **Aggiornato: 01/06/2021**
 
-Aggiornamento di [pagina di destinazione](experience-cloud.md) con la nuova guida sull&#39;accesso ad Experience Cloud, ricerca globale, preferenze e notifiche.
+Aggiornamento della [pagina di destinazione](experience-cloud.md) con la nuova guida su accesso a Experience Cloud, ricerca globale, preferenze e notifiche.
 
 **Aggiornato: 19/08/2020**
 
@@ -38,7 +38,7 @@ Aggiornamento della sezione [Visualizzare i dettagli degli utenti Experience Clo
 
 **Aggiornato: 19/05/2020**
 
-Documentazione di Gestione delle offerte obsoleta.
+Documentazione di Offer Management dichiarata obsoleta.
 
 **Aggiornato: 15/05/2020**
 
@@ -57,7 +57,7 @@ Aggiunta la sezione [Visualizza i dettagli utente di Experience Cloud (Admin Too
 
 **Aggiornato: 05/09/2018**
 
-È stata aggiunta la procedura per eliminare un attributo del cliente. Consulta [(Facoltativo) Aggiornare lo schema (eliminare gli attributi)](t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C).
+Aggiunta di informazioni su come eliminare un attributo cliente. Consulta [(Facoltativo) Aggiornare lo schema (eliminare gli attributi)](t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C).
 
 **Aggiornato: 08/06/2018**
 
