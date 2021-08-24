@@ -12,7 +12,7 @@ exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '480'
-ht-degree: 91%
+ht-degree: 96%
 
 ---
 
@@ -53,7 +53,7 @@ L’esempio seguente mostra come creare le regole per un pubblico composito. Que
 1. Nella pagina [!UICONTROL Crea nuovo pubblico] specifica un titolo e una descrizione.
 1. In [!UICONTROL Regole], seleziona un&#39;origine attributo:
 
-   * **[!UICONTROL Dati Real-Time Analytics:]**  (o dati non elaborati) si tratta di dati attributo derivati dalle richieste di immagini Real-Time Analytics e includono dati come eVar ed eventi. Quando utilizzi questa origine di attributi, devi selezionare una suite di rapporti e definire la dimensione o l’evento da includere. Questa selezione di suite di rapporti fornisce la struttura delle variabili utilizzata dalla suite di rapporti.
+   * **[!UICONTROL Dati Real-Time Analytics]** (o dati non elaborati): si tratta di dati di attributi derivati da richieste di immagini di Real-Time Analytics e includono dati come eVar ed eventi. Quando utilizzi questa origine di attributi, devi selezionare una suite di rapporti e definire la dimensione o l’evento da includere. Questa selezione di suite di rapporti fornisce la struttura delle variabili utilizzata dalla suite di rapporti.
    >[!NOTE]
    >
    >A causa della memorizzazione nella cache, sono necessarie 12 ore prima che l’eliminazione delle suite di rapporti di Analytics possa essere visibile in Experience Cloud.
