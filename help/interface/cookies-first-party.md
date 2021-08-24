@@ -13,7 +13,7 @@ exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
 source-git-commit: 9a232162008524d900e3655716a84961c287c773
 workflow-type: tm+mt
 source-wordcount: '1617'
-ht-degree: 46%
+ht-degree: 71%
 
 ---
 
@@ -23,10 +23,10 @@ Analytics utilizza i cookie per fornire informazioni su variabili e componenti c
 
 Molti browser e applicazioni antispyware sono progettati per rifiutare ed eliminare i cookie di terze parti. L’Adobe garantisce che i cookie possano sempre essere impostati anche se i cookie di terze parti sono bloccati. Il comportamento specifico varia a seconda che si utilizzi il servizio Experience Platform Identity (servizio ECID) o gli identificatori legacy di Analytics (ovvero il cookie s_vi):
 
-* Il [servizio Experience Platform Identity (servizio ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=en) imposterà automaticamente i cookie di prime parti indipendentemente dal fatto che il dominio di raccolta corrisponda o meno al dominio del sito. Se non corrispondono, il servizio Identity utilizza JavaScript per impostare i cookie nel dominio del sito.
-* Se utilizzi [identificatori legacy di Analytics](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html?lang=en) (alias il cookie `s_vi` ), dipende da come hai configurato il server di raccolta dati. Se il server di raccolta dati corrisponde al dominio del sito, i cookie vengono impostati come di prime parti. Se il server di raccolta non corrisponde al dominio corrente, i cookie vengono impostati come terze parti. In questo caso, se i cookie di terze parti sono bloccati, Analytics imposta un [fallback id (s_fid)](cookies-analytics.md) invece del cookie standard &quot;s_vi&quot;.
+* Il [servizio Experience Platform Identity (servizio ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=it) imposterà automaticamente i cookie di prime parti indipendentemente dal fatto che il dominio di raccolta corrisponda o meno al dominio del sito. Se non corrispondono, il servizio Identity utilizza JavaScript per impostare i cookie nel dominio del sito.
+* Se utilizzi [identificatori legacy di Analytics](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html?lang=en) (alias il cookie `s_vi` ), dipende da come hai configurato il server di raccolta dati. Se il server di raccolta dati corrisponde al dominio del sito, i cookie verranno impostati come cookie di prime parti. Se il server di raccolta non corrisponde al dominio attuale, verranno impostati come cookie di terze parti. In questo caso, se i cookie di terze parti sono bloccati, Analytics imposta un [fallback id (s_fid)](cookies-analytics.md) invece del cookie standard &quot;s_vi&quot;.
 
-Se desideri che il server di raccolta corrisponda al dominio del sito, puoi utilizzare un’implementazione CNAME che consente l’inoltro dai server di raccolta di Adobe da un dominio personalizzato specificato nell’implementazione CNAME ai server di raccolta di. Ciò comporta modifiche alle impostazioni DNS della tua azienda per configurare un alias CNAME che punta a un dominio ospitato di Adobe. Sebbene diversi prodotti Adobe supportino l’uso di un CNAME, in tutti i casi questo viene utilizzato per creare un endpoint di prima parte affidabile per un cliente specifico e rimane di proprietà di tale cliente. Se controlli più domini, puoi utilizzare un singolo endpoint CNAME per monitorare gli utenti nei loro domini, ma ovunque il dominio del sito non corrisponda ai cookie del dominio CNAME viene impostato come di terze parti.
+Se desideri che il server di raccolta corrisponda al dominio del sito, puoi utilizzare un’implementazione CNAME che consente l’inoltro dai server di raccolta di Adobe da un dominio personalizzato specificato nell’implementazione CNAME ai server di raccolta di. Ciò comporta modifiche alle impostazioni DNS della tua azienda per configurare un alias CNAME che punta a un dominio ospitato di Adobe. Sebbene diversi prodotti Adobe supportino l’uso di un CNAME, in tutti i casi questo viene utilizzato per creare un endpoint di prima parte affidabile per un cliente specifico e rimane di proprietà di tale cliente. Se controlli più domini, è possibile utilizzare un singolo endpoint CNAME per monitorare gli utenti nei vari domini; tuttavia, nei casi in cui il sito non corrisponde ai cookie del dominio CNAME, verrà impostato come di terze parti.
 
 >[!NOTE]
 >
@@ -34,15 +34,15 @@ Se desideri che il server di raccolta corrisponda al dominio del sito, puoi util
 
 Se desideri stabilire un CNAME per la raccolta dati e se il tuo sito dispone di pagine sicure utilizzando il protocollo HTTPS, puoi lavorare con Adobe per ottenere un certificato SSL.
 
-Spesso il processo di rilascio del certificato SSL crea confusione e richiede tempo. Di conseguenza, l’Adobe ha stabilito una partnership con DigiCert, un’autorità di certificazione (CA) leader del settore, e ha sviluppato un processo integrato che automatizza l’acquisto e la gestione di tali certificati.
+Spesso il processo di rilascio del certificato SSL crea confusione e richiede tempo. Di conseguenza, Adobe ha stabilito una partnership con DigiCert, un’autorità di certificazione (CA) leader del settore, e ha sviluppato un processo integrato per automatizzare l’acquisto e la gestione di tali certificati.
 
-Con la tua autorizzazione, collaboriamo con CA per rilasciare, distribuire e gestire un nuovo certificato SSL SHA-2 per te. Adobe continua a gestire questo certificato e assicura che una scadenza, una revoca o un problema di sicurezza imprevisti non comprometta la disponibilità della raccolta sicura della tua organizzazione.
+Con la tua autorizzazione, collaboriamo con la nostra CA per rilasciare, distribuire e gestire un nuovo certificato SSL SHA-2 per tuo conto. Adobe continua a gestire questo certificato e fa in modo che, in caso di scadenza, revoca o problemi di sicurezza imprevisti, la raccolta sicura delle organizzazioni non venga compromessa.
 
 ## Programma di certificazione gestito da Adobe
 
 Il programma di certificazione gestito di Adobe è il processo consigliato per l’impostazione del certificato SSL di prima parte necessario per un’implementazione CNAME che garantisce che il server di raccolta Adobi corrisponda al dominio del sito.
 
-Il programma Adobe Managed Certificate consente di implementare un nuovo certificato SSL di prima parte senza costi aggiuntivi (per i primi 100 CNAME). Se al momento disponi di un certificato SSL gestito dal cliente, rivolgiti all’Assistenza clienti Adobe per informazioni sulla migrazione al programma di certificazione gestito da Adobe.
+Il programma Adobe Managed Certificate consente di implementare un nuovo certificato SSL di prima parte senza costi aggiuntivi (per i primi 100 CNAME). Se al momento disponi di un tuo certificato SSL gestito dal cliente, chiama l’Assistenza clienti Adobe per informazioni su come effettuare la migrazione al programma di certificazione gestito da Adobe.
 
 ### Implementazione
 
@@ -52,15 +52,15 @@ Di seguito è illustrata l’implementazione di un nuovo certificato SSL di prim
 
 2. Crea record CNAME (consulta le istruzioni riportate di seguito).
 
-   Quando viene ricevuto il ticket, un rappresentante dell’assistenza clienti ti fornirà un record CNAME. Questi record devono essere configurati sul server DNS della tua azienda per consentire ad Adobe di acquistare il certificato per conto tuo. Il CNAME è simile al seguente:
+   Quando viene ricevuto il ticket, un rappresentante dell’assistenza clienti ti fornirà un record CNAME. Questi record devono essere configurati sul server DNS della tua azienda per consentire ad Adobe di acquistare il certificato per conto tuo. Il CNAME ha un aspetto simile a quanto segue:
 
    **Protetto**: ad esempio, il nome host `smetrics.example.com` punta a: `example.com.adobedc.net`.
 
 >[!NOTE]
-> In passato, Adobe consigliava ai clienti di impostare due CNAME uno per HTTPS e uno per HTTP. Poiché è buona prassi crittografare il traffico e la maggior parte dei browser scoraggia fortemente HTTP, ora non sconsigliamo più di impostare un CNAME per HTTP. Se necessario, sarà così:
+> In passato consigliavamo ai clienti di impostare due CNAME, uno per HTTPS e uno per HTTP. Poiché è buona prassi crittografare il traffico e la maggior parte dei browser scoraggia fortemente HTTP, ora non sconsigliamo più di impostare un CNAME per HTTP. Se sarà necessario configurarlo, dovrà presentarsi così:
 >    **Non protetto**: il nome host `metrics.example.com` punta a `example.com.adobedc.net`.
 
-1. Quando il CNAME è attivo, Adobe collabora con DigiCert per acquistare e installare un certificato sui server di produzione di Adobe.
+1. Una volta impostato il CNAME, Adobe collabora con DigiCert per acquistare e installare un certificato sui server di produzione di Adobe.
 
    Se disponi già di un’implementazione, prendi in considerazione Migrazione visitatori per mantenere i visitatori esistenti. Dopo il push live del certificato all’ambiente di produzione di Adobe, potrai aggiornare le variabili del server di tracciamento con i nuovi nomi host. Ciò significa che, se il sito non è protetto (HTTP), devi aggiornare `s.trackingServer`. Se il sito è protetto (HTTPS), aggiorna sia la variabile `s.trackingServer` che la variabile `s.trackingServerSecure`.
 
@@ -70,13 +70,13 @@ Di seguito è illustrata l’implementazione di un nuovo certificato SSL di prim
 
 ### Manutenzione e rinnovi
 
-I certificati SSL scadono ogni anno, il che significa che Adobe deve acquistare un nuovo certificato per ogni implementazione su base annua. Tutti gli utenti supportati all’interno della tua organizzazione ricevono una notifica e-mail ogni volta che un’implementazione è vicina alla scadenza. Affinché Adobe possa rinnovare il tuo nome host, un utente supportato deve rispondere all’e-mail inviata da Adobe e indicare che intendi continuare a utilizzare il nome host in scadenza per la raccolta dei dati. A questo punto, Adobe acquisterà e installerà automaticamente un nuovo certificato.
+I certificati SSL scadono ogni anno, il che significa che Adobe deve acquistare un nuovo certificato per ogni implementazione su base annua. Tutti gli utenti supportati all’interno dell’organizzazione riceveranno una notifica e-mail ogni volta che un’implementazione è vicina alla scadenza. Affinché Adobe possa rinnovare il tuo nome host, un utente supportato deve rispondere all’e-mail inviata da Adobe e indicare che intendi continuare a utilizzare il nome host in scadenza per la raccolta dei dati. A questo punto, Adobe acquisterà e installerà automaticamente un nuovo certificato.
 
 ### Domande frequenti
 
 | Domanda | Risposta |
 |---|---|
-| **Il processo è sicuro?** | Sì, il programma gestito dall&#39;Adobe è più sicuro del nostro metodo legacy, in quanto nessun certificato o chiave privata cambia le mani al di fuori dell&#39;Adobe e dell&#39;autorità di certificazione che lo rilascia. |
+| **Il processo è sicuro?** | Sì, il programma gestito da Adobe è più sicuro del metodo legacy, in quanto nessun certificato o chiave privata vengono trasmessi al di fuori di Adobe e dell’autorità di certificazione emittente. |
 | **In che modo Adobe può acquistare un certificato per il mio dominio?** | Il certificato può essere acquistato solo dopo aver puntato il nome host specificato (ad esempio `telemetry.example.com`) a un nome host di proprietà di Adobe. In pratica questo nome host viene delegato ad Adobe e consente ad Adobe di acquistare il certificato a tuo nome. |
 | **Posso richiedere la revoca del certificato?** | Sì, come proprietario del dominio, hai diritto di richiedere la revoca del certificato. Per completare il processo, dovrai solo aprire un ticket con l’Assistenza clienti. |
 | **Il certificato utilizzerà la cifratura SHA-2?** | Sì, Adobe collaborerà con DigiCert per emettere un certificato SHA-2. |
@@ -86,15 +86,15 @@ I certificati SSL scadono ogni anno, il che significa che Adobe deve acquistare 
 
 ## Creazione di record CNAME
 
-Il team delle operazioni di rete della tua organizzazione deve configurare i server DNS creando record CNAME. Ciascun nome host comunica i dati ai server di raccolta dati di Adobe.
+Il team che gestisce la rete della tua organizzazione deve configurare i server DNS creando nuovi record CNAME. Ciascun nome host comunica i dati ai server di raccolta dati di Adobe.
 
-Lo specialista FPC ti fornisce il nome host configurato e il CNAME a cui deve puntare. Ad esempio:
+Lo specialista FPC ti fornisce il nome host configurato e il CNAME a cui deve puntare. Esempio:
 
 * **Nome host SSL**: `smetrics.mysite.com`
 * **CNAME SSL**: `mysite.com.adobedc.net`
 
 >[!NOTE]
-> Se utilizzi ancora non protetto, avrà un aspetto simile al seguente:
+> Se utilizzi ancora un CNAME non protetto, si presenterà come il seguente:
 > * **Nome host non SSL**: `metrics.mysite.com`
 > * **CNAME non SSL**: `mysite.com.adobedc.net`
 
@@ -113,7 +113,7 @@ Se hai configurato un CNAME e hai installato il certificato, puoi utilizzare il 
 
 >[!NOTE]
 >
->Se non è installato un certificato, viene visualizzato un avviso di protezione.
+>Se non è installato un certificato, verrà visualizzato un avviso di protezione.
 
 ### Convalida tramite [!DNL curl]
 
@@ -133,7 +133,7 @@ Risposta: `SUCCESS`
 
 È possibile utilizzare `nslookup` per la convalida. Utilizzando `smetrics.adobe.com` come esempio, apri un prompt dei comandi e digita `nslookup smetrics.adobe.com`
 
-Se tutto è stato configurato correttamente, viene visualizzata una restituzione simile a:
+Se tutto è configurato correttamente, verrà visualizzata una restituzione simile a:
 
 ```
 nslookup smetrics.adobe.com
@@ -153,11 +153,11 @@ Address: 54.187.216.46
 
 Prima di modificare il codice sul sito per utilizzare la raccolta dati di prime parti, completa i prerequisiti seguenti:
 
-* Richiedi un certificato SSL seguendo i passaggi descritti in precedenza nella sezione *Implementa* del [Programma di certificazione gestito da Adobe](#adobe-managed-certificate-program).
+* Richiedi un certificato SSL seguendo i passaggi descritti in precedenza nella sezione sull’*implementazione* in [Programma di certificazione gestito di Adobe](#adobe-managed-certificate-program).
 * Crea record CNAME (vedi sopra).
 * Convalida i nomi host (vedi sopra).
 
-Dopo aver verificato che i nomi host rispondano e inoltrino ai server di raccolta dati di Adobe, puoi modificare la tua implementazione in modo che punti ai nomi host della tua raccolta dati.
+Dopo aver verificato che i nomi host rispondano e trasmettano ai server di raccolta dati di Adobe, puoi modificare l’implementazione in modo che punti ai nomi host della tua raccolta dati.
 
 1. Apri il tuo file JavaScript di base (`s_code.js/AppMeasurement.js`).
 1. Se vuoi aggiornare la versione del codice, sostituisci l’intero file `s_code.js/AppMeasurement.js` con la versione più recente e sostituisci eventuali plug-in o personalizzazioni (se presenti). **Oppure**, se desideri aggiornare il codice solo per la raccolta dati di prime parti, individua le variabili s.trackingServer e s.trackingServerSecure (se utilizzi SSL) e puntale ai nuovi nomi host della tua raccolta dati. Usiamo ilmiosito.com come esempio: `s.trackingServer = "metrics.mysite.com"` `s.trackingServerSecure = "smetrics.mysite.com"`
@@ -166,6 +166,6 @@ Dopo aver verificato che i nomi host rispondano e inoltrino ai server di raccolt
 
 1. Se passi alla raccolta dati di prime parti da un’implementazione di lunga data o cambi a un nome host di raccolta di prime parti diverso, Adobe consiglia di migrare i visitatori dal dominio precedente al nuovo dominio.
 
-Consulta la sezione [Migrazione dei visitatori](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/visitor-migration.html?lang=en) nella Guida all’implementazione di Analytics.
+Consulta la sezione [Migrazione dei visitatori](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/visitor-migration.html?lang=it) nella Guida all’implementazione di Analytics.
 
-Dopo che hai caricato il file JavaScript, tutto è configurato per la raccolta dati di di prime parti. L’Adobe consiglia di monitorare i rapporti di Analytics per le prossime ore per garantire che la raccolta dei dati continui come normale. In caso contrario, verifica che tutti i passaggi precedenti siano stati completati e fai contattare l’Assistenza clienti da uno degli utenti supportati dalla tua organizzazione.
+Dopo che hai caricato il file JavaScript, tutto è configurato per la raccolta dati di di prime parti. Per le prime ore, Adobe consiglia di monitorare i report di Analytics per verificare che la raccolta dei dati continui come previsto. In caso contrario, verifica che tutti i passaggi precedenti siano stati completati e fai contattare l’Assistenza clienti da uno degli utenti supportati dalla tua organizzazione.
