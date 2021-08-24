@@ -1,8 +1,8 @@
 ---
-description: Scopri come convalidare lo schema dell’attributo cliente in Adobe Experience Cloud.
+description: Scopri come convalidare lo schema di attributi cliente in Adobe Experience Cloud.
 keywords: Attributi del cliente; servizi Experience Cloud
 solution: Experience Cloud
-title: 'Come convalidare lo schema dell''attributo cliente '
+title: 'Come convalidare lo schema di attributi cliente '
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
 feature: Attributi del cliente
 topic: Amministrazione
@@ -12,7 +12,7 @@ exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -46,9 +46,9 @@ Nella pagina [!UICONTROL Convalida schema] ciascuna riga dello schema rappresent
 
    * **[!UICONTROL AVID (ID visitatore di Analytics):]** mostra se utilizzi una prop o eVar per caricare CID. Se tali ID vengono passati a Experience Cloud, tutti gli ID visitatore associati al CID che hai immesso vengono visualizzati qui.
 
-Puoi caricare i dati tramite FTP anche dopo la creazione di un&#39;origine attributo del cliente e un account FTP nell&#39;Experience Cloud. Puoi creare un account FTP per ogni sorgente attributo. I file caricati vengono memorizzati nella cartella root di tale account. I dati devono essere in formato `.csv`, con un secondo file `.fin` per indicare che il caricamento è completo.
+Puoi caricare i dati anche tramite FTP, dopo aver creato un’origine per gli attributi cliente e un account FTP in Experience Cloud. Puoi creare un account FTP per ogni sorgente attributo. I file caricati vengono memorizzati nella cartella root di tale account. I dati devono essere in formato `.csv` e un secondo file `.fin` deve indicare il completamento del caricamento.
 
-I nomi applicati a stringhe, interi e numeri vengono utilizzati per creare metriche di [!DNL Analytics]. 
+I nomi applicati a stringhe, interi e numeri vengono utilizzati per creare metriche di [!DNL Analytics].
 
 * **[!UICONTROL Attributo:]** dati degli attributi letti dal file `.csv` caricato.
 
@@ -60,6 +60,6 @@ I nomi applicati a stringhe, interi e numeri vengono utilizzati per creare metri
 
    * **Numeri:** possono contenere fino a due posizioni decimali.
 
-* **[!UICONTROL Nome visualizzato:]** un nome descrittivo per l&#39;attributo. Ad esempio, puoi modificare un attributo *età cliente* in *Cliente da*.
+* **[!UICONTROL Nome visualizzato:]** un nome descrittivo per l&#39;attributo. Ad esempio, puoi rinominare l’attributo *età del cliente* in *Cliente dal*.
 
 * **[!UICONTROL Descrizione:]** una descrizione dell&#39;attributo.
