@@ -5,15 +5,15 @@ solution: Experience Cloud,Analytics
 title: '"Cookie di prime parti "'
 index: y
 snippet: y
-feature: Cookie
-topic: Amministrazione
+feature: Cookies
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 9a232162008524d900e3655716a84961c287c773
+source-git-commit: 1e7c4c02b08a17b2666afc7a82ea44d598675b3c
 workflow-type: tm+mt
-source-wordcount: '1617'
-ht-degree: 71%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -166,6 +166,6 @@ Dopo aver verificato che i nomi host rispondano e trasmettano ai server di racco
 
 1. Se passi alla raccolta dati di prime parti da un’implementazione di lunga data o cambi a un nome host di raccolta di prime parti diverso, Adobe consiglia di migrare i visitatori dal dominio precedente al nuovo dominio.
 
-Consulta la sezione [Migrazione dei visitatori](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/visitor-migration.html?lang=it) nella Guida all’implementazione di Analytics.
+Consulta la sezione [Migrazione dei visitatori](https://experienceleague.adobe.com/docs/analytics/technotes/visitor-migration.html?lang=en) nella Guida all’implementazione di Analytics.
 
 Dopo che hai caricato il file JavaScript, tutto è configurato per la raccolta dati di di prime parti. Per le prime ore, Adobe consiglia di monitorare i report di Analytics per verificare che la raccolta dei dati continui come previsto. In caso contrario, verifica che tutti i passaggi precedenti siano stati completati e fai contattare l’Assistenza clienti da uno degli utenti supportati dalla tua organizzazione.
