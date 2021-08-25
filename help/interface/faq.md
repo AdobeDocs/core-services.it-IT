@@ -5,14 +5,14 @@ solution: Experience Cloud
 title: 'Domande frequenti su Experience Cloud '
 index: true
 feature: Admin Console
-topic: Amministrazione
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
+source-git-commit: 399a3ddb47deb83481bcdfb0c578804b2bbfbae8
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -98,7 +98,7 @@ Consulta [Ricerca dell’ID organizzazione](organizations.md).
 
 L’ID organizzazione viene visualizzato nella pagina di destinazione di Experience Cloud e nella [pagina di destinazione di Admin Console](https://adminconsole.adobe.com).
 
-In alternativa, se sei un amministratore, puoi accedere ad Admin Console ([https://adminconsole.adobe.com](https://adminconsole.adobe.com#)) per un’organizzazione specifica e visualizzare il tuo lD organizzazione IMS nell’URL.
+In alternativa, se sei un amministratore, puoi accedere ad Admin Console ([https://adminconsole.adobe.com](https://adminconsole.adobe.com)) per un’organizzazione specifica e visualizzare il tuo lD organizzazione IMS nell’URL.
 
 Ad esempio, nell’URL seguente:
 
