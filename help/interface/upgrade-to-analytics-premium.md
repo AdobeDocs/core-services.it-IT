@@ -10,7 +10,7 @@ role: Admin
 level: Experienced
 exl-id: 746d396d-9629-42db-8c55-07d2d24e4611
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '625'
 ht-degree: 100%
 
@@ -56,7 +56,7 @@ L&#39;aggiornamento a Predictive Intelligence abilita [Analytics Premium](upgrad
 
 | Prodotto | Aggiornamenti |
 |---|---|
-| Reports &amp; Analytics | [Analisi contributi](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=en) |
+| Reports &amp; Analytics | [Analisi contributi](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=it) |
 | Data Workbench | Aree di lavoro predefinite per le qualifiche del pubblico e il marketing predittivo |
 | Platform Analytics | Streaming live (dashboard e trigger) |
 
