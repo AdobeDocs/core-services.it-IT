@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
 source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1151'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -67,13 +67,13 @@ Segui questi passaggi nella pagina Crea nuova origine attributo del cliente in E
 >
 >Quando crei, modifichi o elimini origini di attributi del cliente, si verifica un ritardo di circa un’ora prima dell’effettiva sincronizzazione degli ID con la nuova origine dati. Devi disporre di diritti di amministratore in Audience Manager per creare o modificare origini degli attributi del cliente. Contatta l&#39;Assistenza clienti o la consulenza di Audience Manager per ottenere i diritti di amministratore.
 
-1. In [!DNL Experience Cloud], seleziona l’icona Menu ![](assets/menu-icon.png) .
-1. In **[!DNL Experience Platform]**, seleziona **[!UICONTROL Persone]** > **[!UICONTROL Attributi del cliente]**.
+1. In [!DNL Experience Cloud] seleziona l’icona Menu ![](assets/menu-icon.png).
+1. In **[!DNL Experience Platform]**, seleziona **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**.
 
    La pagina [!UICONTROL Attributi del cliente] è il luogo in cui puoi gestire e modificare l&#39;origine dati degli attributi esistenti.
 
    ![Risultato passaggio](assets/03_crs_usecase.png)
-1. Selezionare **[!UICONTROL Nuovo]**.
+1. Seleziona **[!UICONTROL Nuovo]**.
 
    ![Risultato passaggio](assets/04_crs_usecase.png)
 1. Nella pagina [!UICONTROL Modifica origine attributo del cliente] configura i campi seguenti:
@@ -82,11 +82,11 @@ Segui questi passaggi nella pagina Crea nuova origine attributo del cliente in E
 
    * **[!UICONTROL Descrizione:]** (facoltativo) una descrizione per la sorgente attributi dei dati.
 
-   * **[!UICONTROL ID alias:]** rappresenta un’origine dei dati di ttributi del cliente come specificato nel sistema CRM. [!UICONTROL L&#39;] ID alias è un ID univoco utilizzato nel codice sorgente dell&#39;attributo cliente. L&#39;ID deve essere univoco, in lettere minuscole e non deve comprendere spazi. Il valore immesso nel campo [!UICONTROL ID alias] per un&#39;origine dell&#39;attributo del cliente in Experience Cloud deve corrispondere ai valori che vengono passati dall&#39;implementazione (sia tramite Raccolta dati (Launch), Dynamic Tag Management o JavaScript dell&#39;SDK di Mobile).
+   * **[!UICONTROL ID alias:]** rappresenta un’origine dei dati di ttributi del cliente come specificato nel sistema CRM. [!UICONTROL Alias ID] è un ID univoco utilizzato nel codice di origine degli attributi del cliente. L&#39;ID deve essere univoco, in lettere minuscole e non deve comprendere spazi. Il valore immesso nel campo [!UICONTROL Alias ID] per l’origine degli attributi del cliente in Experience Cloud deve corrispondere ai valori ricevuti dall’implementazione (tramite Data Collection (Launch), Dynamic Tag Management o JavaScript dell’SDK Mobile).
 
       L&#39;ID alias corrisponde ad alcune aree in cui puoi impostare valori ID cliente aggiuntivi. Esempio:
 
-      * **Dynamic Tag Management:** l&#39;ID alias corrisponde al valore del *Codice di integrazione* in [!UICONTROL Impostazioni cliente], nello strumento del [servizio Experience Cloud ID](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en).
+      * **Dynamic Tag Management:** l&#39;ID alias corrisponde al valore del *Codice di integrazione* in [!UICONTROL Impostazioni cliente], nello strumento del [servizio Experience Cloud ID](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=it).
 
       * **API visitatore:** l&#39;ID alias corrisponde agli [ID cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=it) aggiuntivi che puoi associare a ogni visitatore.
 
@@ -153,7 +153,7 @@ Consulta [Configurazione delle sottoscrizioni](subscription.md#concept_ECA3C44FA
 
 **Per attivare un&#39;origine attributo**
 
-Nella pagina [!UICONTROL Crea nuova [o Modifica] origine attributo del cliente], individua l&#39;intestazione [!UICONTROL Attiva], quindi seleziona **[!UICONTROL Attivo]**.
+Nella pagina [!UICONTROL Crea nuovo [o ]Modifica origine attributi del cliente], individua l&#39;intestazione [!UICONTROL Attiva], quindi seleziona **[!UICONTROL Attiva]**.
 
 ![Risultato del passaggio](assets/activate_attribute_source.png)
 
