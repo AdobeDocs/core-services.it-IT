@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '939'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -28,12 +28,12 @@ L’accesso a Experience Cloud (anziché a una singola soluzione) consente di ac
 
 Accedi e verifica di essere nell&#39;[organizzazione](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) corretta.
 
-1. Seleziona il menu Experience Cloud ( ![](assets/menu-icon.png)), quindi seleziona **[!UICONTROL Amministrazione]**.
+1. Seleziona il menu di Experience Cloud (![](assets/menu-icon.png)) e poi **[!UICONTROL Amministrazione]**.
 
    Se il collegamento **[!UICONTROL Amministrazione]** non compare, significa che non sei un amministratore Experience Cloud per [l’organizzazione](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) visualizzata. Per assistenza su come diventare amministratore, contatta l&#39;Assistenza clienti o un amministratore Experience Cloud della tua azienda.
-1. Selezionare **[!UICONTROL Amministrazione]**.
+1. Seleziona **[!UICONTROL Amministrazione]**.
 
-1. Continua selezionando uno dei collegamenti seguenti:
+1. Per procedere, seleziona uno dei collegamenti seguenti:
 
 | Elemento | Descrizione |
 |--- |--- |
@@ -68,9 +68,9 @@ Aiuto per utenti non amministrativi che accedono a Experience Cloud.
 
 ## Configurare le impostazioni account personali predefinite {#task_73CBCAE6C91749D19C95421E5AC311BA}
 
-Puoi modificare i dati personali e specificare un&#39;[organizzazione](admin-getting-started.md#concept_705C626560A54CA2A4215F1C870C42B2) e una pagina di destinazione predefinite dopo l&#39;accesso a Experience Cloud.
+Puoi modificare i dati personali e specificare un&#39; [organizzazione](admin-getting-started.md#concept_705C626560A54CA2A4215F1C870C42B2) e una pagina di destinazione predefinite dopo l&#39;accesso a Experience Cloud.
 
-1. Accedi all&#39;Experience Cloud, quindi seleziona l&#39;icona del tuo profilo.
+1. Accedi a Experience Cloud e seleziona l’icona del tuo profilo.
 
    ![](assets/edit-profile.png)
 1. Seleziona **[!UICONTROL Modifica profilo]**.
@@ -82,7 +82,7 @@ Puoi modificare i dati personali e specificare un&#39;[organizzazione](admin-get
 
 Ricevi notifiche (tramite e-mail o nel prodotto) su aggiornamenti di sistema, avvisi di manutenzione, post, menzioni e risorse condivise. Puoi inoltre specificare i prodotti e le soluzioni per cui desideri ricevere notifiche, incluso lo stato di caricamento per Attributi del cliente.
 
-Per passare a Notifiche, seleziona l&#39;icona **[!UICONTROL Notifiche]** ![](assets/notifications-icon.png), quindi seleziona l&#39;icona **[!UICONTROL Impostazioni]** ![](assets/icon_edit_board.png).
+Per passare a Notifiche, seleziona l’icona **[!UICONTROL Notifiche]**![](assets/notifications-icon.png), quindi l’icona **[!UICONTROL Impostazioni]** ![](assets/icon_edit_board.png).
 
 Puoi ordinare la visualizzazione delle notifiche in base ai tipi di messaggio che ti interessano e cercare le notifiche. È inoltre possibile:
 
@@ -115,7 +115,7 @@ Puoi modificare il tuo profilo Experience Cloud, specificare un&#39;organizzazio
 
 1. Accedere a Experience Cloud.
 
-1. Ad Experience Cloud, seleziona l’immagine del profilo.
+1. In Experience Cloud, seleziona l’immagine del tuo profilo.
 
    ![](assets/edit-profile.png)
 1. Seleziona **[!UICONTROL Modifica profilo]**.
@@ -125,7 +125,7 @@ Puoi modificare il tuo profilo Experience Cloud, specificare un&#39;organizzazio
 ## Recupero della password {#task_46541A2806164CB1A4AE8239604E4EB1}
 
 1. Accedi alla pagina di accesso alla soluzione.
-1. Selezionare **[!UICONTROL Password dimenticata]**.
+1. Seleziona **[!UICONTROL Password dimenticata]**.
 
    Reimpostando la password dovresti risolvere il problema del collegamento della password per Experience Cloud.
 
