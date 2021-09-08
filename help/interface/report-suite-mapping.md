@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 4e9f0f7a-8e16-4473-af4a-3e74ad50c044
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1119'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -35,17 +35,17 @@ Le organizzazioni sono disattivate se non disponi delle autorizzazioni di ammini
 
 1. Passa a Suite di rapporti per la governance dei dati da [!DNL Analytics] > **[!UICONTROL Amministratore]** > **[!UICONTROL Governance dei dati]** (consulta [Visualizzare/gestire le impostazioni di governance dei dati della suite di rapporti](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-view-settings.html?lang=it))
 
-1. Per visualizzare le società con accesso a ogni suite di rapporti, seleziona **[!UICONTROL Visibile per le società di accesso]**.
+1. Per visualizzare le società di accesso che possono accedere a ogni suite di rapporti, seleziona **[!UICONTROL Visibile per le società di accesso]**.
 
    Questa visualizzazione ti aiuta a prendere una decisione informata sulla mappatura.
 
-1. Seleziona l’elenco a discesa nella colonna **[!UICONTROL Organizzazione mappata]** accanto a una suite di rapporti e seleziona l’organizzazione da mappare.
+1. Seleziona l’elenco a discesa nella colonna **[!UICONTROL Organizzazione mappata]** vicino a una suite di rapporti, e quindi l’organizzazione da mappare.
 
    Consulta la sezione successiva per suggerimenti sulla selezione di un’organizzazione Experience Cloud.
 
 ## Mappare più suite di rapporti su un’organizzazione {#task_94955B0D8ABA4CB1A38746ECF8E32711}
 
-1. Seleziona **[!UICONTROL Experience Cloud]** > **[!UICONTROL Amministrazione]** > **[!UICONTROL Mappatura suite di rapporti]**.
+1. Seleziona **[!UICONTROL Experience Cloud]** > **[!UICONTROL Amministrazione]** > **[!UICONTROL Mappatura suite per rapporti]**.
 
 1. Seleziona le suite di rapporti da mappare.
 
