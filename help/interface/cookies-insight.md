@@ -10,13 +10,13 @@ role: Admin
 level: Experienced
 exl-id: f00cbf4d-ece0-4827-a65f-e3b7068d680c
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '95'
 ht-degree: 100%
 
 ---
 
-# Cookie di Data Workbench{#data-workbench-cookies}
+# Cookie di Data Workbench {#data-workbench-cookies}
 
 Data Workbench utilizza i cookie per analizzare in tempo reale grandi quantità di dati in rapida evoluzione.
 
