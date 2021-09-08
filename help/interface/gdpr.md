@@ -7,7 +7,7 @@ role: Admin
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '433'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Adobe Experience Cloud agisce come responsabile del trattamento per tutti i dati
 
 In questo documento viene descritto come gli [!UICONTROL attributi del cliente] supportano i diritti all&#39;accesso e all&#39;eliminazione dei dati degli interessati ai sensi del RGPD tramite l&#39;API Adobe Experience Platform Privacy Service e l&#39;interfaccia utente di Privacy Service.
 
-Per maggiori informazioni sul significato del RGPD per la tua attività, consulta [RGPD e aziende](https://business.adobe.com/privacy/general-data-protection-regulation.html).
+Per maggiori informazioni sul significato del RGPD per la tua attività, consulta [RGPD e aziende](https://business.adobe.com/it/privacy/general-data-protection-regulation.html).
 
 ## Configurazione necessaria per inviare richieste per gli [!UICONTROL attributi del cliente]
 
