@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
 source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2272'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -86,7 +86,7 @@ Le sezioni seguenti descrivono come poter modernizzare l&#39;implementazione. La
 
 Il [!UICONTROL Servizio Experience Cloud ID] fornisce un ID comune per l&#39;integrazione tra diverse soluzioni. Fornisce l&#39;identificazione dei visitatori tra domini, oltre a un percorso per il targeting e la personalizzazione tra dispositivi e browser basati sui dati CRM che sono stati caricati tramite gli [!UICONTROL Attributi del cliente].
 
-Il metodo più semplice per abilitare i servizi core di Experience Cloud è quello di attivarli automaticamente per Analytics e Adobe Target tramite l&#39;[estensione del servizio Experience Cloud ID](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=en) all’interno di [!UICONTROL Experience Platform Launch].
+Il metodo più semplice per abilitare i servizi core di Experience Cloud è quello di attivarli automaticamente per Analytics e Adobe Target tramite l&#39;[estensione del servizio Experience Cloud ID](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=it) all’interno di [!UICONTROL Experience Platform Launch].
 
 Per ricevere un aiuto completo sul Servizio Experience Cloud ID (già ID visitatore), visita [qui](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=it#intro).
 
@@ -104,7 +104,7 @@ Se non utilizzi [!UICONTROL Experience Platform Launch] o [!UICONTROL Dynamic Ta
 
 ### Analytics &amp; Adobe Target - Sincronizzazione dell&#39;ID cliente {#section_AD473A6A21C1446498E700363F9A8437}
 
-In qualità di parte dell&#39;impostazione del servizio Experience Cloud ID, Adobe consiglia per Analytics e [!DNL Target] la sincronizzazione degli [ID cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=en) con Experience Cloud.
+In qualità di parte dell&#39;impostazione del servizio Experience Cloud ID, Adobe consiglia per Analytics e [!DNL Target] la sincronizzazione degli [ID cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=it) con Experience Cloud.
 
 In Adobe Target, `mbox3rdpartyid` deve ottenere l’ID cliente e inviarlo a [!DNL Target]. Consulta [Uso degli attributi del cliente](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html?lang=it) in [!DNL Target].
 
@@ -139,12 +139,12 @@ I servizi Experience Cloud (come Experience Cloud ID e il servizio [!UICONTROL P
 
 Se utilizzi Analytics, verifica di essere nella raccolta dati regionale (RDC). Se il dominio della raccolta dati è `omtrdc.net` o se il CNAME è mappato a `omtrdc.net` sei all&#39;interno dell&#39;RDC. Consulta [Passaggio all&#39;RDC](https://experienceleague.adobe.com/docs/analytics/technotes/rdc/regional-data-collection.html?lang=it) per ulteriori informazioni. Se stai utilizzando cookie di terze parti, fai riferimento a [CNAME e servizio Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=it) per informazioni sulla raccolta dei dati CNAME e sul tracciamento tra domini.
 
-Si consiglia di modernizzare l&#39;implementazione di Analytics aggiornando le librerie JavaScript, incluso l&#39;API visitatore. Il modo più semplice per eseguire questa operazione è aggiungere un&#39;estensione [Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=en) in Raccolta dati di Experience Platform (Launch).
+Si consiglia di modernizzare l&#39;implementazione di Analytics aggiornando le librerie JavaScript, incluso l&#39;API visitatore. Il modo più semplice per eseguire questa operazione è aggiungere un’ [estensione Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=it) in Experience Platform Data Collection (Launch).
 
 ## Aggiornamento dell&#39;implementazione di Adobe Target {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
-* È consigliabile aggiungere un&#39;[estensione Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html?lang=en) in [!UICONTROL Experience Platform Launch] per rendere automatico il recupero della libreria. Puoi anche impostare l&#39;[estensione del servizio Experience Cloud ID](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=en) per Adobe Target (e altre soluzioni) tramite [!UICONTROL Experience Platform Launch]. **È necessario** l&#39;aggiornamento del [!UICONTROL Servizio Experience Cloud ID] per consentire ad Adobe Target di utilizzare i servizi core.
-* Se non utilizzi [!UICONTROL Experience Platform Launch], [aggiorna manualmente la libreria mbox](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html?lang=en).
+* È consigliabile aggiungere un&#39;[estensione Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html?lang=it) in [!UICONTROL Experience Platform Launch] per rendere automatico il recupero della libreria. Puoi anche impostare l&#39;[estensione del servizio Experience Cloud ID](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=it) per Adobe Target (e altre soluzioni) tramite [!UICONTROL Experience Platform Launch]. **È necessario** l&#39;aggiornamento del [!UICONTROL Servizio Experience Cloud ID] per consentire ad Adobe Target di utilizzare i servizi core.
+* Se non utilizzi [!UICONTROL Experience Platform Launch], [aggiorna manualmente la libreria mbox](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html?lang=it).
 * Richiedi l&#39;accesso per utilizzare Adobe Analytics come fonte di reporting per [!DNL Adobe Target]. I dati di [!DNL Target] e [!DNL Analytics] sono combinati nella stessa chiamata al server durante l&#39;elaborazione affinché i visitatori siano collegati tra le due soluzioni. Consulta [Implementazione di Analytics per Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=it).
 
    >[!IMPORTANT]
@@ -153,7 +153,7 @@ Si consiglia di modernizzare l&#39;implementazione di Analytics aggiornando le l
 
 ## Verificare l’implementazione {#section_E641782A0F4F44AF8C9C91216BE330D5}
 
-Utilizza il seguente procedimento per assicurarti che il servizio Experience Cloud ID sia correttamente implementato sul tuo sito.
+Utilizza il seguente procedimento per assicurarti che il Servizio Experience Cloud ID sia correttamente implementato sul tuo sito.
 
 1. Elimina i cookie dal sito in uso in modo da poter visualizzare la richiesta a Experience Cloud ID Service (la richiesta viene effettuata alla prima visita, quindi una volta a settimana per ciascun visitatore).
 1. Utilizzando un analizzatore di pacchetti o il pannello di rete in un debugger del browser web, cerca una richiesta indirizzata a [!DNL dpm.demdex.net].
@@ -230,4 +230,4 @@ Se desideri fornire ai visitatori del sito la funzionalità di rinuncia, devi ag
 
 Per le istruzioni, consulta [Adobe Experience Cloud - Implementazione rinunce Adobe](https://experienceleague.adobe.com/docs/analytics/implementation/js/opt-out.html?lang=it).
 
-Per abilitare il tracciamento tra domini, consulta [CNAME raccolta dati e tracciamento tra domini](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=en).
+Per abilitare il tracciamento tra domini, consulta [CNAME raccolta dati e tracciamento tra domini](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=it).
