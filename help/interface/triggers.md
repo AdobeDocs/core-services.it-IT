@@ -12,9 +12,9 @@ role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '705'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -52,9 +52,9 @@ Crea un trigger e configurane le condizioni. Ad esempio, puoi specificare i crit
 >
 >Esiste attualmente un limite tecnico di 100 trigger.
 
-1. Nell&#39;Experience Cloud, seleziona ![](assets/menu-icon.png), quindi seleziona **[!UICONTROL Raccolta dati/Launch]**.
-2. Nella scheda [!UICONTROL Triggers], seleziona **[!UICONTROL Gestisci trigger]**.
-3. Seleziona **[!UICONTROL Nuovo trigger]**, quindi specifica il tipo di trigger:
+1. In Experience Cloud, seleziona ![](assets/menu-icon.png), quindi seleziona **[!UICONTROL Data Collection/Launch]**.
+2. Sulla scheda [!UICONTROL Attivatori] seleziona **[!UICONTROL Gestione attivatori]**.
+3. Fai clic su **[!UICONTROL Nuovo attivatore]** e specifica il tipo di trigger:
 
    ![Risultato passaggio](assets/add-trigger.png)
 
