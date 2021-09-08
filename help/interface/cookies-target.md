@@ -10,13 +10,13 @@ role: Admin
 level: Experienced
 exl-id: c4399cc0-8333-47b8-b830-2ba7359f464a
 source-git-commit: f50c6c883acb9ac0d3a754e09494cf93e3f3d7c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '437'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# Cookie di Adobe Target{#target-cookies}
+# Cookie di Adobe Target {#target-cookies}
 
 Adobe Target utilizza i cookie per consentire agli operatori dei siti web di verificare quali contenuti e offerte online sono più rilevanti per i visitatori.
 
@@ -43,7 +43,7 @@ Nel cookie è conservata una serie di valori per la gestione dell’esperienza d
 
 | Valore | Definizione |
 | --- | --- |
-| session ID | ID univoco per una sessione utente. Per impostazione predefinita, la sessione scade dopo 30 minuti di inattività. Se generi personalmente l’identificatore sessionId (ad esempio, per implementazioni lato server), considera i seguenti aspetti:<ul><li>L’ID sessione può essere una stringa stampabile qualsiasi, eccetto uno spazio, un punto interrogativo ( ?  ) o una barra ( / ).</li><li>*L’ID sessione può contenere da 1 a 128 caratteri.</li><li>Per una particolare sessione, il suo valore deve rimanere lo stesso per tutte le varie richieste.</li><li>Non sono ammesse sessioni parallele (sessionID distinti) per un determinato visitatore in un dato momento.</li></ul>L’indirizzamento a un particolare nodo nel cluster Edge viene eseguito utilizzando l’ID sessione.<ul><li>La sessione è attiva per 30 minuti sul lato server. Pertanto, non utilizzare un ID sessione diverso per un particolare identificatore `tntId/thirdPartyId` entro 30 minuti dall’ultima richiesta effettuata con l’identificatore `tntId/thirdPartyId`. In caso contrario, le modifiche al profilo potrebbero risultare incoerenti e imprevedibili.</li><li>L’utilizzo dello stesso ID sessione con più `tntIds/thirdPartyIds` può causare modifiche imprevedibili ai profili identificati da `tntId/thirdPartyIDs`.</li></ul>**Nota**: Consulta  [il limite del numero di ](https://experienceleague.adobe.com/docs/target/using/troubleshoot/target-limits.html?lang=en#content-delivery) richieste simultanee per un determinato ID sessione. |
+| session ID | ID univoco per una sessione utente. Per impostazione predefinita, la sessione scade dopo 30 minuti di inattività. Se generi personalmente l’identificatore sessionId (ad esempio, per implementazioni lato server), considera i seguenti aspetti:<ul><li>L’ID sessione può essere una stringa stampabile qualsiasi, eccetto uno spazio, un punto interrogativo ( ?  ) o una barra ( / ).</li><li>*L’ID sessione può contenere da 1 a 128 caratteri.</li><li>Per una particolare sessione, il suo valore deve rimanere lo stesso per tutte le varie richieste.</li><li>Non sono ammesse sessioni parallele (sessionID distinti) per un determinato visitatore in un dato momento.</li></ul>L’indirizzamento a un particolare nodo nel cluster Edge viene eseguito utilizzando l’ID sessione.<ul><li>La sessione è attiva per 30 minuti sul lato server. Pertanto, non utilizzare un ID sessione diverso per un particolare identificatore `tntId/thirdPartyId` entro 30 minuti dall’ultima richiesta effettuata con l’identificatore `tntId/thirdPartyId`. In caso contrario, le modifiche al profilo potrebbero risultare incoerenti e imprevedibili.</li><li>L’utilizzo dello stesso ID sessione con più `tntIds/thirdPartyIds` può causare modifiche imprevedibili ai profili identificati da `tntId/thirdPartyIDs`.</li></ul>**Nota**: verifica il [limite del numero di richieste simultanee](https://experienceleague.adobe.com/docs/target/using/troubleshoot/target-limits.html?lang=it#content-delivery) per un determinato ID sessione. |
 | pc ID | Un ID semi-permanente per il browser di un visitatore. Rimane attivo finché i cookie non vengono eliminati manualmente. |
 | check | Un semplice valore di test utilizzato per determinare se un visitatore supporta i cookie. Impostato ogni volta che un visitatore richiede una pagina. |
 | disable | Impostato se il tempo di caricamento del visitatore supera il timeout configurato nel file at.js. Per impostazione predefinita, il timeout avviene dopo 1 ora. |
