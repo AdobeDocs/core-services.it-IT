@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1248'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Gli amministratori possono visualizzare un elenco ordinabile e filtrabile di tut
 
    ![](assets/admin-tool.png)
 
-1. In [!UICONTROL Accesso rapido], selezionare **[!UICONTROL Admin Tool.]**
+1. In [!UICONTROL Accesso rapido], seleziona **[!UICONTROL Admin Tool.]**
 
    In alternativa, nell’URL della pagina principale puoi sostituire _home_ con _admin_.
 
@@ -42,7 +42,7 @@ In questa pagina viene visualizzato l’elenco completo degli utenti con accesso
 
 | Elemento | Descrizione |
 |---|---|
-| [!UICONTROL Nome] | Il nome e il cognome dell’utente. Puoi ordinare questa colonna da A a Z e da Z a A. Seleziona il nome di un utente per visualizzare ulteriori dettagli sull’utente. |
+| [!UICONTROL Nome] | Il nome e il cognome dell’utente. Puoi ordinare questa colonna da A a Z e da Z ad A. Per visualizzare ulteriori dettagli su un utente, selezionane il nome. |
 | [!UICONTROL E-mail] | L’indirizzo e-mail associato all’utente. Puoi ordinare questa colonna da A a Z e da Z ad A. |
 | [!UICONTROL ID Type (Tipo di ID)] | Il tipo di identità per l’account dell’utente. È possibile applicare un filtro per visualizzare tipi di ID specifici. Per ulteriori informazioni, consulta [Manage identity types (Gestisci tipi di identità)](https://helpx.adobe.com/it/enterprise/using/identity.html). |
 | [!UICONTROL Soluzioni] | In questa sezione sono riepilogate le soluzioni Experience Cloud a cui l’utente può accedere. Per limitare l’elenco di utenti con accesso specifico alla soluzione puoi applicare i filtri. |
@@ -54,7 +54,7 @@ Puoi eseguire ricerche, oltre a ordinare o filtrare le viste personalizzate dell
 
 * Puoi cercare gli utenti per nome o e-mail. Le ricerche corrispondono alla stringa di testo digitata.
 * Ordina le colonne in base ai valori crescenti o decrescenti. L’operazione può essere eseguita nelle colonne [!UICONTROL Nome], [!UICONTROL E-mail] e [!UICONTROL Ultimo accesso].
-* Per applicare più filtri all’elenco degli utenti con criteri specifici, seleziona l’icona **[!UICONTROL Filtra per]** . Quando vengono applicate più categorie di filtro, le ricerche contengono la soluzione `AND` ID TYPE `AND` del dominio e-mail.
+* Per applicare all’elenco degli utenti più filtri con criteri specifici, seleziona l’icona **[!UICONTROL Filtra per]**. Quando vengono applicate più categorie di filtro, le ricerche contengono la soluzione `AND` ID TYPE `AND` del dominio e-mail.
 
 | Elemento | Descrizione |
 |---------|----------|
@@ -64,7 +64,7 @@ Puoi eseguire ricerche, oltre a ordinare o filtrare le viste personalizzate dell
 
 ## Visualizzare i dettagli degli utenti
 
-Nella pagina [!UICONTROL Utenti], per visualizzare i dettagli di un utente, seleziona l’e-mail dell’utente.
+Per visualizzare i dettagli di un utente, nella pagina [!UICONTROL Utenti] seleziona l’indirizzo e-mail dell’utente in questione.
 
 ![](assets/admin-tool-user-details.png)
 
@@ -78,7 +78,7 @@ In questa sezione viene visualizzato un riepilogo dell’account utente, il qual
 * Nome
 * E-mail
 * Nome utente (gli account Federated ID possono presentare nomi utente diversi dall’indirizzo e-mail)
-* [Tipo ID](https://helpx.adobe.com/enterprise/using/identity.html)
+* [Tipo ID](https://helpx.adobe.com/it/enterprise/using/identity.html)
 * Paese
 * Ultimo accesso
 
@@ -106,7 +106,7 @@ In questa pagina viene visualizzato l’elenco completo dei criteri di Experienc
 
 | Elemento | Descrizione |
 |---|---|
-| [!UICONTROL Profilo prodotto] | Nome del profilo di prodotto. È possibile ordinare la colonna A->Z, Z->A. Per visualizzare ulteriori dettagli sul criterio, seleziona il nome di un profilo di prodotto. |
+| [!UICONTROL Profilo prodotto] | Nome del profilo di prodotto. È possibile ordinare la colonna dalla A alla Z oppure dalla Z alla A. Per visualizzare ulteriori dettagli sul criterio, seleziona il nome di un profilo di prodotto. |
 | [!UICONTROL Prodotto] | Il prodotto associato al profilo di prodotto. Puoi ordinare questa colonna da A a Z e da Z ad A. |
 | [!UICONTROL Istanza] | L’istanza (ad esempio tenant o società di accesso) associata al profilo di prodotto. Per i prodotti che non hanno istanze o tenant univoci, il valore visualizzato è “-”. Puoi ordinare questa colonna da A a Z e da Z ad A. |
 | [!UICONTROL Numero di utenti] | Numero univoco di utenti associati al profilo di prodotto, tramite assegnazione diretta e assegnazione di gruppi. Questa colonna può essere in ordine crescente o decrescente. |
@@ -118,7 +118,7 @@ In questa pagina viene visualizzato l’elenco completo dei criteri di Experienc
 
 * Puoi cercare i profili di prodotto per nome. Le ricerche corrispondono alla stringa di testo digitata.
 * Ordina le colonne in base ai valori crescenti o decrescenti. Questo vale per le colonne [!UICONTROL Profilo prodotto], [!UICONTROL Prodotto], [!UICONTROL Istanza], [!UICONTROL Numero di utenti] e [!UICONTROL Numero di sviluppatori].
-* Seleziona l’icona **[!UICONTROL Filtra per]** per applicare più filtri per elencare i profili di prodotto con criteri specifici. Quando vengono applicate più categorie di filtri, le ricerche contengono i Gruppi `AND` Istanza `AND` Soluzione.
+* Per applicare più filtri in modo da elencare i profili di prodotto secondo criteri specifici, seleziona l’icona **[!UICONTROL Filtra per]**. Quando vengono applicate più categorie di filtri, le ricerche contengono i Gruppi `AND` Istanza `AND` Soluzione.
 
 | Elemento | Descrizione |
 |---------|----------|
@@ -127,7 +127,7 @@ In questa pagina viene visualizzato l’elenco completo dei criteri di Experienc
 
 ## Visualizzare i dettagli dei criteri
 
-Nella pagina [!UICONTROL Criteri] , per visualizzare i dettagli di un criterio, seleziona il nome del profilo di prodotto.
+Nella pagina [!UICONTROL Criteri], puoi visualizzare i dettagli di un criterio selezionando il nome del profilo di prodotto.
 
 ![](assets/admin-tool-policy-detail.png)
 
