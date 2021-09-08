@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: fc29feb4425d99c4e28fb1d40036dd9d93a801c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4279'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -24,15 +24,15 @@ Per un elenco degli aggiornamenti della documentazione, consulta [Experience Clo
 
 Per le note sulla versione comprensive di tutte le soluzioni, consulta [Note sulla versione di Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it).
 
-## Agosto - 2021
+## Agosto 2021
 
 | Funzione | Data | Descrizione |
 | ------- | ------- | -------|
-| [!UICONTROL Recenti]  unificati: supporto esteso per gli oggetti aziendali a cui è stato effettuato l’accesso di recente | 10 agosto 2021 | [!UICONTROL Unified ] Recentsis esteso ad altri oggetti aziendali in Journey Optimizer e Experience Platform. I clienti Journey Optimizer possono trovare gli oggetti a cui hanno effettuato l’accesso di recente (messaggi, Percorsi, segmenti, schemi, set di dati, origini dati, eventi, azioni, origini e destinazioni) dalla home page di Adobe Journey Optimizer. |
+| [!UICONTROL Recenti unificati]: supporto esteso per gli oggetti di business a cui è stato effettuato l’accesso di recente | 10 agosto 2021 | [!UICONTROL Recenti unificati] è esteso ad altri oggetti di business in Journey Optimizer ed Experience Platform. I clienti Journey Optimizer possono trovare gli oggetti a cui hanno effettuato l’accesso di recente (messaggi, percorsi, segmenti, schemi, set di dati, origini dati, eventi, azioni, origini e destinazioni) dalla home page di Adobe Journey Optimizer. |
 
-## Luglio - 2021
+## Luglio 2021
 
-La funzione Ricerca unificata è stata aggiornata per renderla disponibile per Journey Optimizer, offerte ed Experience League. In precedenza, questa funzione era disponibile solo per gli utenti di Experience Platform.
+La funzione Ricerca unificata è stata aggiornata per renderla disponibile anche per Journey Optimizer, Offerte ed Experience League. In precedenza, questa funzione era disponibile solo per gli utenti di Experience Platform.
 
 ## Giugno 2021
 
@@ -304,7 +304,7 @@ Nessuna informazione disponibile.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Activation </p> </td> 
-   <td colname="col2"> <p> <a href="activation.md#concept_EE756B6B0A0643DAB8CA3A00E665406C" format="dita" scope="local">Activation</a> ora viene visualizzato nella barra di navigazione a sinistra in <span class="keyword">Experience Cloud</span>. <span class="wintitle"> </span> Activationè un servizio  <span class="keyword"> Experience </span> Cloud attualmente integrato con la tecnologia Dynamic Tag Management ed effettua il reindirizzamento al momento della selezione. </p> </td> 
+   <td colname="col2"> <p> <a href="activation.md#concept_EE756B6B0A0643DAB8CA3A00E665406C" format="dita" scope="local">Activation</a> ora viene visualizzato nella barra di navigazione a sinistra in <span class="keyword">Experience Cloud</span>. <span class="wintitle"> Activation</span> è un servizio di<span class="keyword"> Experience Cloud</span> attualmente integrato con la tecnologia Dynamic Tag Management ed effettua il reindirizzamento al momento del clic. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Aggiornamenti documentazione - Servizi core </p> </td> 
@@ -392,7 +392,7 @@ Nuove funzioni, problemi noti e correzioni nella collaborazione [!DNL Adobe Expe
    <td colname="col1"> <p>Modifica autorizzazioni utente </p> </td> 
    <td colname="col2"> <p>Adesso i proprietari di una bacheca possono modificare le autorizzazioni dell'utente di una determinata bacheca. </p> <p> 
      <ol id="ol_B12251C510744538AF9BCE60ACB04016"> 
-      <li id="li_87B3EDE9542B47CEBE0BE7F2D1DE844D">Sulla bacheca, selezionare <span class="uicontrol"> Impostazioni</span>. </li> 
+      <li id="li_87B3EDE9542B47CEBE0BE7F2D1DE844D">Sulla bacheca, fare clic su <span class="uicontrol"> Impostazioni</span>. </li> 
       <li id="li_0F4786B0E1E743069D082E7DC488A031">Accanto a ogni proprietario specificare <span class="uicontrol">Proprietario</span>, <span class="uicontrol">Visualizzatore</span> o <span class="uicontrol">Editor</span>. </li> 
      </ol> </p> </td> 
   </tr> 
@@ -563,7 +563,7 @@ Nuove funzioni, problemi noti e correzioni nella [!DNL Adobe Experience Cloud] c
 * [!DNL Experience Cloud] non si collegava ad [!DNL Adobe Target]. Questo problema si verificava se l&#39;accesso ad [!DNL Adobe Target] poteva essere usato su più server di [!DNL Target].
 * [!DNL Adobe Media Optimizer] non creava gli utenti in maniera automatica quando l&#39;utente veniva creato in [!DNL Experience Cloud].
 * Le opzioni in caselle combinate utilizzate per aggiungere nuovi utenti scomparivano temporaneamente durante la digitazione.
-* Il collegamento Commenti sulla vista delle schede delle risorse non era selezionabile.
+* Non era possibile selezionare il collegamento Commenti nella vista a schede delle risorse.
 * Dopo l&#39;aggiunta di un tag personalizzato a una risorsa, nessun&#39;altra modifica ai metadati era persistente.
 * Durante l&#39;eliminazione di un&#39;immagine, il servizio di base delle risorse non avvisa se l&#39;immagine è utilizzata nelle funzioni di base di Adobe Target.
 * Prestazione lenta dell&#39;interfaccia [!UICONTROL Experience Cloud] se usata in parallelo da più utenti.
@@ -590,9 +590,9 @@ Nuove funzioni, problemi noti e correzioni nella [!DNL Adobe Experience Cloud] c
    <td colname="col1"> <p>Creazione di schede dagli argomenti dell'Aiuto </p> </td> 
    <td colname="col2"> <p>Dopo l'abilitazione della funzionalità Condividi su Adobe Experience Cloud nella barra degli strumenti Segnalibri del browser in uso, puoi condividere le pagine dell'Aiuto dall'URL del microsito. </p> <p> <b>Per condividere un argomento dell'Aiuto</b> </p> 
     <ol id="ol_F94B816121494B0FA16CC07B0E96AED8"> 
-     <li id="li_F47187D4B5FE46D3A51D257DD569B4D6"> <p>Nell'Experience Cloud <span class="keyword"></span>, selezionare <span class="uicontrol"> Amministrazione</span>. </p> </li> 
+     <li id="li_F47187D4B5FE46D3A51D257DD569B4D6"> <p>In <span class="keyword"> Experience Cloud</span> seleziona <span class="uicontrol"> Amministrazione</span>. </p> </li> 
      <li id="li_94EF58E7A4974B63951E14F72A710183"> <p>Trascina il pulsante <span class="uicontrol">Condividi su Adobe Experience Cloud</span> nella barra degli strumenti Segnalibri. </p> </li> 
-     <li id="li_69EEC4F25D8F4AD7AA106A10B7F50FF6"> <p>Passa a una pagina dell'Aiuto (o rimani in quella attuale), quindi seleziona <span class="uicontrol"> Condividi su Adobe Experience Cloud</span> nella barra degli strumenti Segnalibri del browser in uso. </p> <p>Questo passaggio crea una scheda che puoi visualizzare in <span class="wintitle">Experience Cloud</span>. </p> </li> 
+     <li id="li_69EEC4F25D8F4AD7AA106A10B7F50FF6"> <p>Passa a una pagina di aiuto (o rimani in quella attuale), quindi seleziona <span class="uicontrol"> Condividi in Adobe Experience Cloud</span> nella barra degli strumenti Segnalibri. </p> <p>Questo passaggio crea una scheda che puoi visualizzare in <span class="wintitle">Experience Cloud</span>. </p> </li> 
     </ol> </td> 
   </tr> 
  </tbody> 
@@ -606,7 +606,7 @@ Nuove funzioni, problemi noti e correzioni nella [!DNL Adobe Experience Cloud] c
 * La pagina di destinazione della soluzione [!DNL Analytics] ha degli errori di formattazione.
 * Gli utenti devono disconnettersi ed effettuare nuovamente l&#39;accesso per far diventare effettive tutte le modifiche ad autorizzazioni e iscrizioni.
 * Durante l&#39;eliminazione di un&#39;immagine, il servizio di base delle [!UICONTROL risorse] non avvisa se l&#39;immagine è utilizzata in [!DNL Adobe Target Essentials].
-* Il collegamento Commenti sulla vista delle schede delle risorse non è selezionabile.
+* Non è possibile selezionare il collegamento Commenti nella vista a schede delle risorse.
 * Le opzioni in caselle combinate utilizzate per aggiungere nuovi utenti scompaiono temporaneamente durante la digitazione.
 * L&#39;accesso a [!DNL Experience Cloud] dura più di un secondo.
 * I dati condivisi da [!DNL Media Optimizer] non sono correttamente rappresentati in [!DNL Experience Cloud].
@@ -639,7 +639,7 @@ La versione 14.3.1 è una versione di manutenzione che si concentra sulla veloci
 * Gli utenti devono disconnettersi ed effettuare nuovamente l&#39;accesso per far diventare effettive tutte le modifiche ad autorizzazioni e iscrizioni.
 * Se *`Remember me`* non è selezionato durante l&#39;accesso, l&#39;utente verrà disconnesso dopo 15 minuti.
 * La pagina di destinazione della soluzione [!DNL Analytics] ha degli errori di formattazione.
-* Il collegamento Commenti sulla vista delle schede delle risorse non è selezionabile.
+* Non è possibile selezionare il collegamento Commenti nella vista a schede delle risorse.
 * L&#39;interfaccia di Experience Cloud può subire rallentamenti se usata in parallelo da più utenti.
 * Non è possibile collegare [!DNL Adobe Target] Experience Cloud ad [!DNL Adobe Target] se l&#39;accesso ad può essere utilizzato su più server di Target.
 * L&#39;accesso a Experience Cloud dura più di un secondo.
@@ -683,5 +683,5 @@ La versione 14.3.1 è una versione di manutenzione che si concentra sulla veloci
 
 * È stato risolto un problema che impediva l&#39;applicazione di filtri si segmenti di rapporti condivisi di [!DNL Analytics].
 * È stato risolto un problema che causava la visualizzazione della pagina [!UICONTROL Soluzioni Experience Cloud] come collegata, anche se gli account delle soluzioni non erano collegati.
-* È stato risolto un problema che impediva ai clienti di [!DNL Adobe Target] in Asia di selezionare il pulsante **[!UICONTROL Continua a Experience Cloud]** nella pagina di collegamento.
+* È stato risolto un problema che impediva ai clienti di [!DNL Adobe Target] in Asia di selezionare il pulsante **[!UICONTROL Continua su Experience Cloud]** nella pagina di collegamento.
 * È stato risolto un problema che impediva la condivisione di video di YouTube.
