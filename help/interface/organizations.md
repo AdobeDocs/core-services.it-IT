@@ -12,7 +12,7 @@ exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
 source-git-commit: ec724555c3799eeca350592498267d0b71b4ff04
 workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 64%
+ht-degree: 71%
 
 ---
 
@@ -38,7 +38,7 @@ Potrebbe essere necessario individuare l&#39;ID organizzazione a scopo di assist
 
 L’**ID organizzazione** è l’ID associato all’azienda con provisioning di Experience Cloud. Questo ID è una stringa alfanumerica composta da 24 caratteri, seguita da (deve includere) @AdobeOrg.
 
-Per visualizzare l&#39;ID organizzazione, passa alla pagina di destinazione Experience Cloud oppure seleziona ( ![](assets/menu-icon.png)), quindi seleziona **[!UICONTROL Amministrazione]**. Puoi trovare l’ID organizzazione nella parte inferiore della [!UICONTROL Guida introduttiva di Experience Cloud] o della pagina [!UICONTROL Amministrazione].
+Per visualizzare l’ID organizzazione, passa alla pagina di destinazione di Experience Cloud oppure seleziona ( ![](assets/menu-icon.png)), quindi **[!UICONTROL Amministrazione]**. Puoi trovare l’ID organizzazione nella parte inferiore della [!UICONTROL Guida introduttiva di Experience Cloud] o della pagina [!UICONTROL Amministrazione].
 
 ![](assets/administration-page.png)
 
@@ -48,7 +48,7 @@ In genere, gli amministratori di Experience Cloud concedono l&#39;accesso a solu
 
 1. Segui i passaggi contenuti nell&#39;e-mail di invito a Experience Cloud.
 1. Accedi utilizzando il tuo Adobe ID o Enterprise ID.
-1. Seleziona il selettore della soluzione. ( ![](assets/menu-icon.png)).
+1. Seleziona il selettore delle soluzioni (![](assets/menu-icon.png)).
 
    ![](assets/solutions-active.png)
 

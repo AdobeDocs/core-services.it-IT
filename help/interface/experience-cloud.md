@@ -3,15 +3,15 @@ description: Scopri i componenti dell’interfaccia centrale di Experience Cloud
 solution: Experience Cloud
 title: Guida e documentazione dell’interfaccia di Experience Cloud
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-feature: '"Attributi del cliente"'
-topic: Amministrazione
+feature: Customer Attributes
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: 4534f764ea821576c3ac5cd1959d387a3689e837
 workflow-type: tm+mt
-source-wordcount: '1306'
-ht-degree: 63%
+source-wordcount: '1303'
+ht-degree: 66%
 
 ---
 
@@ -33,7 +33,7 @@ Dall’area dell’intestazione di Experience Cloud, è possibile:
 Accedi e verifica di essere nell&#39;[organizzazione](organizations.md) corretta.
 
 1. Passa ad [Adobe Experience Cloud](https://experience.adobe.com).
-1. Seleziona **[!UICONTROL Accedi con un Adobe ID]**.
+1. Seleziona **[!UICONTROL Accedi con Adobe ID]**.
 1. Verifica di essere nell’organizzazione corretta.
 
    ![](assets/organizations-menu.png)
@@ -122,7 +122,7 @@ Le preferenze di Experience Cloud includono notifiche, abbonamenti e avvisi. Nel
 * Uscire
 * Configurare preferenze, notifiche e abbonamenti dell’account
 
-Per gestire le preferenze, seleziona **[!UICONTROL Preferenze]** dal menu dell&#39;account ![](assets/preferences-icon-sm.png).
+Per gestire le preferenze, seleziona **[!UICONTROL Preferenze]** nel menu dell’account ![](assets/preferences-icon-sm.png).
 
 ![](assets/preferences-page.png)
 
@@ -140,7 +140,7 @@ Nelle [!UICONTROL preferenze di Experience Cloud], è possibile configurare le s
 
 ## Notifiche e annunci {#notifications}
 
-Seleziona **[!UICONTROL Notifiche]** per ricevere avvisi sugli aggiornamenti rilevanti e fruibili, ad esempio versioni di prodotto, avvisi di manutenzione, elementi condivisi e richieste di approvazione.
+Seleziona **[!UICONTROL Notifiche]** per ricevere avvisi sugli aggiornamenti rilevanti e fruibili, inclusi rilasci di prodotto, avvisi di manutenzione, elementi condivisi e richieste di approvazione.
 
 ![](assets/notifications-menu-small.png)
 
@@ -184,7 +184,7 @@ Le guide correlate a Experience Cloud includono:
 * [Experience Platform Data Collection/Launch](https://experienceleague.adobe.com/docs/launch.html?lang=it)
 * [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=it)
 * [API del regolamento generale sulla protezione dei dati (RGPD)](https://www.adobe.io/apis/experiencecloud/gdpr.html)
-* [[!UICONTROL Dynamic Tag Management]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
+* [[!UICONTROL Dynamic Tag Management]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=it)
 
 ## Tutorial
 
@@ -196,7 +196,7 @@ Sfrutta i tutorial e le guide pratiche disponibili in Experience League:
 
 ## Note sulla versione e guide relative a Experience Cloud
 
-* [Documentazione del prodotto per tutte le soluzioni Experience Cloud](https://experienceleague.adobe.com/docs/home.html?lang=en): cerca aiuto all&#39;interno di Informazioni e supporto di Experience Cloud
+* [Documentazione del prodotto per tutte le soluzioni Experience Cloud](https://experienceleague.adobe.com/docs/home.html?lang=it): cerca aiuto all&#39;interno di Informazioni e supporto di Experience Cloud
 * [Note sulla versione e aggiornamenti dei prodotti](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it): le novità di Experience Cloud, tutti gli aggiornamenti per chi si abbona
 * [Esercitazioni per l&#39;implementazione dei servizi core](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=en): video ed esercitazioni sui servizi core
 * [Assistenza degli esperti di Experience League](https://experienceleague.adobe.com/?lang=it): ottieni informazioni guidate dagli esperti e dalla community

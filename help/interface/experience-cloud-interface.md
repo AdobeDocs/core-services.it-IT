@@ -2,14 +2,14 @@
 description: 'Scopri come accedere e i componenti dell’interfaccia centrale in Experience Cloud. Scopri la ricerca globale, le preferenze del tuo account, come navigare nell’interfaccia e ottenere aiuto. '
 solution: Experience Cloud
 title: 'Componenti dell’interfaccia utente centrale di Experience Cloud '
-feature: “Componenti dell’interfaccia centrale”
-topic: Amministrazione
+feature: Central Interface Components
+topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
 source-git-commit: c9a6059b0af9c6229fd72580f997c1c6f2dfbbe4
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 50%
+source-wordcount: '714'
+ht-degree: 56%
 
 ---
 
@@ -59,7 +59,7 @@ Sebbene tutti i team applicativi si siano impegnati a supportare le lingue globa
 Accedi e verifica di essere nell&#39;[organizzazione](organizations.md) corretta.
 
 1. Passa ad [Adobe Experience Cloud](https://experience.adobe.com).
-1. Seleziona **[!UICONTROL Accedi con un Adobe ID]**.
+1. Seleziona **[!UICONTROL Accedi con Adobe ID]**.
 1. Verifica di essere nell’organizzazione corretta.
 
    ![](assets/organizations-menu.png)
@@ -74,7 +74,7 @@ Accedi e verifica di essere nell&#39;[organizzazione](organizations.md) corretta
 
 Dopo aver effettuato l’accesso ad Experience Cloud, è possibile accedere rapidamente a tutte le applicazioni, i servizi e le organizzazioni dall’lintestazione unificata.
 
-Seleziona il selettore dell’applicazione ![](assets/menu-icon.png) per accedere ai servizi di Experience Cloud di tua proprietà.
+Per accedere ai servizi Experience Cloud di tcui disponi, seleziona il selettore delle applicazioni ![](assets/menu-icon.png).
 
 ![](assets/platform-core-services.png)
 
@@ -104,7 +104,7 @@ Nel menu delle preferenze dell’account puoi effettuare le seguenti operazioni:
 
 Le preferenze di Experience Cloud includono notifiche, abbonamenti e avvisi.
 
-Seleziona **[!UICONTROL Preferenze]** dal menu dell&#39;account ![](assets/preferences-icon-sm.png) per gestire le preferenze.
+Per gestire le preferenze, seleziona **[!UICONTROL Preferenze]** nel menu dell’account ![](assets/preferences-icon-sm.png).
 
 ![](assets/preferences-page.png)
 
