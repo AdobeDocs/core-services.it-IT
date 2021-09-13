@@ -11,7 +11,7 @@ exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: 4534f764ea821576c3ac5cd1959d387a3689e837
 workflow-type: tm+mt
 source-wordcount: '1303'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -34,45 +34,45 @@ Accedi e verifica di essere nell&#39;[organizzazione](organizations.md) corretta
 
 1. Passa ad [Adobe Experience Cloud](https://experience.adobe.com).
 1. Seleziona **[!UICONTROL Accedi con Adobe ID]**.
-1. Verifica di essere nell’organizzazione corretta.
+1. Verifica di essere nell’organizzazione giusta.
 
    ![](assets/organizations-menu.png)
 
-   **Verificare la propria organizzazione**
+   **Verifica l’organizzazione**
 
-   Per verificare di aver effettuato l&#39;accesso alla [organizzazione](organizations.md) corretta, fai clic sull&#39;avatar del tuo profilo per visualizzare il nome dell&#39;organizzazione. Se hai accesso a più organizzazioni, puoi anche visualizzare e passare a un’altra organizzazione direttamente nella barra dell’intestazione.
+   Per verificare di aver eseguito l’accesso all’[organizzazione](organizations.md) giusta, fai clic sull’avatar del tuo profilo per visualizzarne il nome. Se ha accesso a più organizzazioni, puoi anche vedere le altre e passare a un’altra organizzazione direttamente dalla barra dell’intestazione.
 
-   Se l’organizzazione utilizza Federated ID, Experience Cloud consente di accedere con il single sign-on dell’organizzazione senza la necessità di immettere l’indirizzo e-mail e la password. A questo scopo, aggiungi `#/sso:@domain` all&#39;URL dell&#39;Experience Cloud (`https://experience.adobe.com`).
+   Se la tua organizzazione usa Federated ID, Experience Cloud ti consente di usare l’accesso Single Sign-On (SSO) della tua organizzazione, senza inserire indirizzo e-mail e password. Per utilizzare questa funzione, aggiungi `#/sso:@domain` all’URL di Experience Cloud (`https://experience.adobe.com`).
 
-   Ad esempio, per un’organizzazione con Federated ID e il dominio `adobecustomer.com`, imposta il collegamento URL su `https://experience.adobe.com/#/sso:@adobecustomer.com`. Puoi anche accedere direttamente a un&#39;applicazione specifica segnalando questo URL, aggiunto al percorso dell&#39;applicazione. (Ad esempio, per Adobe Analytics, `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`.)
+   Ad esempio, per un’organizzazione con Federated ID e il dominio `adobecustomer.com`, imposta il link dell’URL su `https://experience.adobe.com/#/sso:@adobecustomer.com`. Puoi anche passare direttamente a una specifica applicazione salvando come segnalibro o preferito l’URL seguito dal percorso dell’applicazione. Ad esempio, per Adobe Analytics: `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`.
 
 ## Accedere alle applicazioni di Experience Cloud {#navigation}
 
 Dopo aver effettuato l’accesso ad Experience Cloud, è possibile accedere rapidamente a tutte le applicazioni, i servizi e le organizzazioni dall’lintestazione unificata.
 
-Per accedere alle applicazioni e ai servizi di Experience Cloud forniti all&#39;interno della tua organizzazione, vai al selettore delle applicazioni ![](assets/menu-icon.png).
+Per accedere alle applicazioni e ai servizi Experience Cloud per i quali disponi dei diritti di accesso nella tua organizzazione, passa al selettore delle applicazioni ![](assets/menu-icon.png).
 
 ![](assets/platform-core-services.png)
 
-## Supporto browser in Experience Cloud {#browser}
+## Supporto dei browser in Experience Cloud {#browser}
 
-Per ottenere le migliori prestazioni, Experience Cloud è ottimizzato per i browser più popolari, inclusa la versione più recente, e per le due versioni precedenti.
+Per prestazioni ottimali, Experience Cloud è stato ottimizzato per i browser più diffusi, comprese l’ultima versione e le due versioni precedenti.
 
 * Chrome
-* Bordo
+* Edge
 * Firefox
 * Opera
 * Safari
 
-Se il browser in uso non è presente nell’elenco, potrebbe essere comunque supportato, ma si consiglia di utilizzare uno dei browser elencati.
+Se il tuo browser non è elencato, potrebbe comunque essere supportato, ma si consiglia di usare uno dei browser elencati.
 
 >[!NOTE]
 >
->Non tutte le applicazioni in esecuzione sul dominio Experience Cloud supportano tutti i browser. Se non sei sicuro, controlla la documentazione di un&#39;applicazione specifica.
+>Non tutte le applicazioni in esecuzione nel dominio Experience Cloud supportano tutti i browser. In caso di dubbi, consulta la documentazione delle specifiche applicazioni.
 
-## Supporto linguistico in Experience Cloud {#languages}
+## Supporto delle lingue in Experience Cloud {#languages}
 
-Experience Cloud supporta le lingue preferite per ogni utente, come impostato nelle preferenze dell’account utente di Adobe. Le lingue supportate al momento sono:
+Experience Cloud supporta le lingue preferite per ciascun utente, impostate nelle preferenze del proprio account utente Adobe. Sono supportate le seguenti lingue:
 
 * Cinese
 * Inglese
@@ -85,11 +85,11 @@ Experience Cloud supporta le lingue preferite per ogni utente, come impostato ne
 * Spagnolo
 * Taiwanese
 
-Sebbene tutti i team applicativi si siano impegnati a supportare le lingue globali, non tutte le applicazioni sono disponibili in tutte le lingue indicate in precedenza. Se la lingua principale non è supportata in un&#39;applicazione Experience Cloud, è inoltre possibile impostare una lingua secondaria su predefinita, se applicabile. Questo può essere fatto in [Experience Cloud preferenze utente](https://experience.adobe.com/preferences).
+Tutti i team delle applicazioni sono orientati al supporto globale delle lingue; tuttavia, non tutte le applicazioni sono disponibili in tutte le lingue sopraelencate. Se la tua lingua principale non è supportata in un’applicazione Experience Cloud, puoi impostare una lingua secondaria che, all’occorrenza, verrà usata per impostazione predefinita. Puoi impostare queste opzioni nelle [preferenze utente di Experience Cloud](https://experience.adobe.com/preferences).
 
 ## Ottenere assistenza e supporto {#support}
 
-Accedi a informazioni e aiuto utilizzando l’icona Aiuto (![risorsa](assets/help-icon.png)) nell’intestazione, compresi i contenuti della guida (documentazione, esercitazioni e corsi) su [Experience League](https://experienceleague.adobe.com/?lang=it#home), e le risorse aggiuntive per le singole applicazioni. Puoi anche inviare feedback aperti e creare ticket di supporto con priorità.
+Dall’icona Aiuto (![risorsa](assets/help-icon.png)) nell’intestazione puoi accedere ai contenuti di apprendimento e alla guida, compresi i contenuti dell’Aiuto (documentazione, tutorial e corsi) disponibili in [Experience League](https://experienceleague.adobe.com/?lang=it#home), nonché risorse aggiuntive per le singole applicazioni. Puoi anche inviare feedback aperti e creare ticket di supporto con priorità.
 
 ![](assets/search-menu.png)
 
@@ -108,12 +108,12 @@ La ricerca globale consente di trovare oggetti o entità business ricercabili in
 
 >[!NOTE]
 >
->La ricerca globale non è disponibile in tutte le applicazioni Experience Cloud, ma man mano che viene indicizzato più contenuto, verrà aggiunta alle applicazioni pertinenti. Disponibilità a partire da luglio 2021:
+>La ricerca globale non è disponibile in tutte le applicazioni Experience Cloud, ma verrà aggiunta alle applicazioni pertinenti man mano che vengono indicizzati più contenuti. Disponibilità a luglio 2021:
 
 * Experience Platform
 * Journey Optimizer
 
-## Preferenze di profilo utente e account {#preferences}
+## Profilo utente e preferenze account {#preferences}
 
 Le preferenze di Experience Cloud includono notifiche, abbonamenti e avvisi. Nel menu delle preferenze dell’account puoi effettuare le seguenti operazioni:
 
@@ -144,16 +144,16 @@ Seleziona **[!UICONTROL Notifiche]** per ricevere avvisi sugli aggiornamenti ril
 
 ![](assets/notifications-menu-small.png)
 
-## domini di Experience Cloud {#domains}
+## Domini di Experience Cloud {#domains}
 
-Experience Cloud utilizza i seguenti host per distribuire l’applicazione, migliorare le prestazioni e l’esperienza di prodotto. Adobe consiglia di aggiungere questi domini all’elenco Consentiti del firewall, per garantire un’esperienza ottimale. Domini aggiuntivi possono essere utilizzati anche per applicazioni di Experience Cloud specifiche, come Adobe Analytics. Per ulteriori informazioni, consulta la documentazione di queste applicazioni .
+Experience Cloud usa i seguenti host per fornire l’applicazione e migliorare le prestazioni e l’esperienza di utilizzo del prodotto. Adobe consiglia di aggiungere questi domini all’elenco dei domini consentiti del tuo firewall. Specifiche applicazioni Experience Cloud, ad esempio Adobe Analytics, potrebbero utilizzare domini aggiuntivi. Per informazioni, consulta la documentazione delle singole applicazioni.
 
 | Tecnologia | Domini |
 |--- |--- |
-| Domini Adobe Experience Cloud | `adobe.com`, `adobe.net`, `adobe.io` |
-| Servizio Adobe Identity Management (IMS) | `adobelogin.com` |
-| Experience Cloud di font | `typekit.net` |
-| Visibilità (per assistenza e guida sui prodotti) | `esp.aptrinsic.com` |
+| Domini di Adobe Experience Cloud | `adobe.com`, `adobe.net`, `adobe.io` |
+| Adobe Identity Management Service (IMS) | `adobelogin.com` |
+| Font di Experience Cloud | `typekit.net` |
+| Gainsight (per l’Aiuto e le guide dei prodotti) | `esp.aptrinsic.com` |
 
 ## Ottenere aiuto per l’amministrazione e i servizi tra diverse applicazioni
 
