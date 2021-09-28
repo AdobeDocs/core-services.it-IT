@@ -11,9 +11,9 @@ role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
 source-git-commit: 1e7c4c02b08a17b2666afc7a82ea44d598675b3c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1614'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -166,6 +166,6 @@ Dopo aver verificato che i nomi host rispondano e trasmettano ai server di racco
 
 1. Se stai passando alla raccolta dati di prima parte da un’implementazione di lunga data o a un nome host di raccolta di prima parte diverso, Adobe consiglia di migrare i visitatori dal dominio precedente al nuovo.
 
-Consulta la sezione [Migrazione dei visitatori](https://experienceleague.adobe.com/docs/analytics/technotes/visitor-migration.html?lang=en) nella Guida all’implementazione di Analytics.
+Consulta la sezione [Migrazione dei visitatori](https://experienceleague.adobe.com/docs/analytics/technotes/visitor-migration.html?lang=it) nella Guida all’implementazione di Analytics.
 
 Dopo che hai caricato il file JavaScript, tutto è configurato per la raccolta dati di prime parti. Per le prime ore, Adobe consiglia di monitorare i report di Analytics per verificare che la raccolta dei dati continui come previsto. In caso contrario, verifica che tutti i passaggi precedenti siano stati completati e fai contattare l’Assistenza clienti da uno degli utenti supportati dalla tua organizzazione.
