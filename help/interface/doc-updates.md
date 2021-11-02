@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
 source-git-commit: 29af6733b7964a0e98bb664366d4c92bebdceddb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '516'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -24,11 +24,11 @@ Informazioni sugli aggiornamenti della documentazione prodotto di Experience Clo
 
 | Funzione | Descrizione |
 | ------- | ------- |
-| Home page | Experience Cloud: le informazioni relative al piè di pagina nella home page sono state spostate nella scheda del profilo utente, incluse le note legali e la selezione della lingua in Preferenze. |
-| Dashboard AEP | [!DNL Helios Lite] fornisce consigli sui grafici all’interno del flusso di lavoro di creazione dei widget di Experience Platform. Data la selezione dei dati (attualmente selezione di dati con una singola variabile), Helios consiglia una visualizzazione appropriata per accompagnare la selezione dei dati. |
-| Dashboard AEP | [!DNL Instory] fornisce narrazioni scritte basate su ML e didascalie per i grafici. Decora grafici nella pagina AEP Dashboards con punti elenco pertinenti che richiamano importanti modifiche e incidenti nei dati grafici. |
+| Home page | Experience Cloud: le informazioni al piè di pagina nella home page sono state spostate nella scheda del profilo utente, incluse le Note legali e la selezione della lingua in Preferenze. |
+| Dashboard AEP | [!DNL Helios Lite] fornisce consigli sui grafici all’interno del flusso di lavoro di creazione dei widget di Experience Platform. Data una selezione dei dati (attualmente selezione di dati con una singola variabile), Helios consiglia una visualizzazione appropriata per accompagnarla. |
+| Dashboard AEP | [!DNL Instory] fornisce narrazioni scritte e didascalie per i grafici basate sull’apprendimento automatico. Decora i grafici nella pagina Dashboard AEP con punti elenco pertinenti che indicano importanti modifiche e incidenti nei dati inseriti nei grafici. |
 
-**Aggiornato 13/10/2021**
+**Aggiornato il 13/10/2021**
 
 | Funzione | Descrizione |
 | ------- | ------- |
