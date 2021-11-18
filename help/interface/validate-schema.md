@@ -4,15 +4,15 @@ keywords: Attributi del cliente; servizi Experience Cloud
 solution: Experience Cloud
 title: 'Come convalidare lo schema di attributi cliente '
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
-feature: Attributi del cliente
-topic: Amministrazione
+feature: Customer Attributes
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '453'
-ht-degree: 100%
+source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
+workflow-type: tm+mt
+source-wordcount: '459'
+ht-degree: 98%
 
 ---
 
@@ -26,11 +26,11 @@ Il procedimento di convalida consente di mappare i nomi e le descrizioni visuali
 
 **[!UICONTROL Origine degli attributi del cliente]** > **[!UICONTROL Crea nuova origine degli attributi del cliente]** > **[!UICONTROL Visualizza/Modifica schema]**
 
-![](assets/view_edit_schema.png)
+![Modificare uno schema](assets/view_edit_schema.png)
 
 Nella pagina [!UICONTROL Convalida schema] ciascuna riga dello schema rappresenta una colonna del file CSV caricato.
 
-![](assets/06_crs_usecase.png)
+![Convalida della pagina dello schema in Experience Cloud](assets/06_crs_usecase.png)
 
 * **[!UICONTROL Aggiungi dati:]** consente di caricare nuovi dati dell&#39;attributo in questa origine dati.
 

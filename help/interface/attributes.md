@@ -2,14 +2,14 @@
 title: Come utilizzare Attributi del cliente
 description: Scopri il servizio Attributi del cliente in Adobe Experience Cloud. Scopri come caricare i dati degli attributi cliente da utilizzare in Adobe Analytics e Adobe Target.
 solution: Experience Cloud
-feature: Attributi del cliente
+feature: Customer Attributes
 role: Admin
-topic: Amministrazione
+topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: a19887e3160faa0ef91bd975fc6e1e08a0a9d948
-workflow-type: ht
-source-wordcount: '485'
+source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
+workflow-type: tm+mt
+source-wordcount: '490'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 Per individuare questa funzione, apri **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL Attributi del cliente]**
 
-![](assets/custom_reports.png)
+![Panoramica degli attributi del cliente](assets/custom_reports.png)
 
 ## Prerequisiti per il caricamento di attributi del cliente {#section_BD38693AFBF34926BA28E964963B4EA0}
 
@@ -42,7 +42,7 @@ I dati Enterprise risiedono in altri sistemi. Possono risultare complessi e dive
 
 L&#39;immagine seguente è un esempio di un file di dati che mostra i dati dell&#39;utente con sottoscrizione per prodotti, inclusi gli ID membro, i prodotti autorizzati, i prodotti più lanciati e così via.
 
-![](assets/01_crs_usecase.png)
+![Cosa sono i dati cliente Enterprise?](assets/01_crs_usecase.png)
 
 Dopo aver generato il file dati, puoi caricarlo nell’origine di attributi cliente creata in **[!UICONTROL Experience Cloud]** > **[!UICONTROL Attributi del cliente]**.
 

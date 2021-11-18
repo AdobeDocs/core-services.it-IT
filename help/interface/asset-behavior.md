@@ -4,14 +4,14 @@ keywords: condivisione di risorse;Creative Cloud;servizi principali
 solution: Experience Cloud
 title: 'Comportamento delle cartelle condivise '
 uuid: 86348401-f4b1-4efe-acd1-7e73a7030edf
-feature: Risorse
-topic: Amministrazione
+feature: Assets
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 5ddcb2f0-b491-466d-b357-aeacbfcf0b8e
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '569'
+source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
+workflow-type: tm+mt
+source-wordcount: '623'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ Regole per il comportamento delle cartelle condivise in caso di spostamento, eli
 
 Sposti una cartella non condivisa in una cartella condivisa:
 
-![](assets/01_assets_move.png)
+![Cartella non condivisa in una cartella condivisa](assets/01_assets_move.png)
 
 **Risultato**: entrambe le cartelle vengono condivise.
 
@@ -36,7 +36,7 @@ Sposti una cartella non condivisa in una cartella condivisa:
 
 Sposti una cartella condivisa in una cartella non condivisa.
 
-![](assets/02_assets_move.png)
+![Cartella condivisa in una cartella non condivisa](assets/02_assets_move.png)
 
 **Risultato**: la cartella non condivisa rimane non condivisa. La cartella condivisa rimane condivisa.
 
@@ -44,7 +44,7 @@ Sposti una cartella condivisa in una cartella non condivisa.
 
 Sposti il contenuto di una cartella non condivisa in una cartella condivisa.
 
-![](assets/03_assets_move.png)
+![Contenuto di una cartella non condivisa in una cartella condivisa](assets/03_assets_move.png)
 
 **Risultato:** il contenuto ora è condiviso e tutti i collaboratori possono visualizzarlo. Lo spazio di archiviazione usato aumenta in base alla dimensione del contenuto.
 
@@ -52,7 +52,7 @@ Sposti il contenuto di una cartella non condivisa in una cartella condivisa.
 
 Archivi o elimini il contenuto di una cartella condivisa.
 
-![](assets/04_assets_move.png)
+![Contenuto condiviso archiviato ed eliminato](assets/04_assets_move.png)
 
 **Risultato:** il contenuto viene archiviato per il proprietario della cartella. I collaboratori che non possiedono il contenuto non potranno più accedervi.
 
@@ -60,7 +60,7 @@ Archivi o elimini il contenuto di una cartella condivisa.
 
 Sposti il contenuto da una cartella condivisa di tua proprietà a una cartella non condivisa.
 
-![](assets/05_assets_move.png)
+![Contenuto di proprietà condiviso in una cartella non condivisa](assets/05_assets_move.png)
 
 **Risultato:** il contenuto non è più condiviso. I collaboratori della cartella condivisa non hanno più accesso al contenuto.
 
@@ -68,7 +68,7 @@ Sposti il contenuto da una cartella condivisa di tua proprietà a una cartella n
 
 Sposti il contenuto da una cartella condivisa di proprietà di un altro utente a una cartella non condivisa.
 
-![](assets/06_assets_move.png)
+![Contenuto non di proprietà in una cartella non condivisa](assets/06_assets_move.png)
 
 **Risultato:** il contenuto viene visualizzato nella cartella non condivisa e rimosso dalla cartella condivisa. I collaboratori della cartella condivisa non hanno più accesso al contenuto. Il contenuto viene archiviato per il proprietario della cartella condivisa.
 
@@ -78,7 +78,7 @@ I proprietari e gli editor possono spostare contenuti di cui non sono proprietar
 
 Archivi (via web) o elimini (via desktop) una cartella condivisa di tua proprietà.
 
-![](assets/07_assets_move.png)
+![Cartella di proprietà archiviata o eliminata](assets/07_assets_move.png)
 
 **Risultato:** la cartella non è più condivisa e viene quindi archiviata. I collaboratori non hanno più accesso alla cartella.
 
@@ -86,7 +86,7 @@ Archivi (via web) o elimini (via desktop) una cartella condivisa di tua propriet
 
 Sposti una cartella condivisa di tua proprietà in un’altra cartella condivisa, che sia di tua proprietà o meno.
 
-![](assets/09_assets_move.png)
+![Cartella condivisa in un’altra cartella condivisa](assets/09_assets_move.png)
 
 **Risultato:** quando la cartella viene spostata nella seconda cartella, viene condivisa con i nuovi collaboratori.
 
@@ -94,7 +94,7 @@ Sposti una cartella condivisa di tua proprietà in un’altra cartella condivisa
 
 Sposti il contenuto da una cartella condivisa a un’altra cartella condivisa.
 
-![](assets/11_assets_move.png)
+![Contenuto condiviso in un’altra cartella condivisa](assets/11_assets_move.png)
 
 **Risultato:** il contenuto viene visualizzato nella seconda cartella e ora è condiviso con i nuovi collaboratori. Il contenuto viene rimosso dalla prima cartella e il proprietario lo visualizza come archiviato; gli altri collaboratori non possono più accedervi.
 
@@ -102,6 +102,6 @@ Sposti il contenuto da una cartella condivisa a un’altra cartella condivisa.
 
 Ripristini il contenuto da un archivio che apparteneva a una cartella condivisa. Il contenuto era di tua proprietà al momento dell’archiviazione.
 
-![](assets/12_assets_move.png)
+![Contenuto ripristinato dall’archivio](assets/12_assets_move.png)
 
 **Risultato:** il contenuto viene ripristinato nella cartella condivisa e tutti i collaboratori possono di nuovo accedervi. Se la cartella condivisa non esiste più, il contenuto viene inserito in una copia non condivisa delle cartelle principali originali.

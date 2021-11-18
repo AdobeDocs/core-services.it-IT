@@ -6,10 +6,10 @@ feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: c9a6059b0af9c6229fd72580f997c1c6f2dfbbe4
-workflow-type: ht
-source-wordcount: '714'
-ht-degree: 100%
+source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
+workflow-type: tm+mt
+source-wordcount: '733'
+ht-degree: 99%
 
 ---
 
@@ -62,7 +62,7 @@ Accedi e verifica di essere nell&#39;[organizzazione](organizations.md) corretta
 1. Seleziona **[!UICONTROL Accedi con Adobe ID]**.
 1. Verifica di essere nell’organizzazione giusta.
 
-   ![](assets/organizations-menu.png)
+   ![Verifica l’organizzazione](assets/organizations-menu.png)
 
    Per verificare di aver eseguito l’accesso all’[organizzazione](organizations.md) giusta, fai clic sull’avatar del tuo profilo per visualizzarne il nome. Se ha accesso a più organizzazioni, puoi anche vedere le altre e passare a un’altra organizzazione direttamente dalla barra dell’intestazione.
 
@@ -76,13 +76,13 @@ Dopo aver effettuato l’accesso ad Experience Cloud, è possibile accedere rapi
 
 Per accedere ai servizi Experience Cloud di tcui disponi, seleziona il selettore delle applicazioni ![](assets/menu-icon.png).
 
-![](assets/platform-core-services.png)
+![Accedere alle applicazioni di Experience Cloud](assets/platform-core-services.png)
 
 ## Ricerca e supporto in Experience Cloud {#search}
 
 La funzione di ricerca di Experience Cloud consente di trovare risorse utili (documentazione, tutorial e corsi) su [Experience League](https://experienceleague.adobe.com/?lang=it#home).
 
-![](assets/search-menu.png)
+![Ricerca e supporto in Experience Cloud](assets/search-menu.png)
 
 Il menu [!UICONTROL Aiuto] consente inoltre di accedere a:
 
@@ -106,7 +106,7 @@ Le preferenze di Experience Cloud includono notifiche, abbonamenti e avvisi.
 
 Per gestire le preferenze, seleziona **[!UICONTROL Preferenze]** nel menu dell’account ![](assets/preferences-icon-sm.png).
 
-![](assets/preferences-page.png)
+![Gestisci Experience Cloud](assets/preferences-page.png)
 
 Nelle [!UICONTROL preferenze di Experience Cloud], è possibile configurare le seguenti funzioni:
 
@@ -124,6 +124,6 @@ Nelle [!UICONTROL preferenze di Experience Cloud], è possibile configurare le s
 
 Seleziona **[!UICONTROL Notifiche]** per visualizzare le notifiche che ti interessano e gli annunci di Adobe.
 
-![](assets/notifications-menu-small.png)
+![Notifiche e annunci](assets/notifications-menu-small.png)
 
 Puoi configurare le notifiche in [Preferenze di Experience Cloud](#preferences).

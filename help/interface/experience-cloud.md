@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 4534f764ea821576c3ac5cd1959d387a3689e837
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
 workflow-type: tm+mt
-source-wordcount: '1303'
-ht-degree: 100%
+source-wordcount: '1333'
+ht-degree: 96%
 
 ---
 
@@ -36,7 +36,7 @@ Accedi e verifica di essere nell&#39;[organizzazione](organizations.md) corretta
 1. Seleziona **[!UICONTROL Accedi con Adobe ID]**.
 1. Verifica di essere nell’organizzazione giusta.
 
-   ![](assets/organizations-menu.png)
+   ![Verifica di essere nell’organizzazione giusta](assets/organizations-menu.png)
 
    **Verifica l’organizzazione**
 
@@ -52,7 +52,7 @@ Dopo aver effettuato l’accesso ad Experience Cloud, è possibile accedere rapi
 
 Per accedere alle applicazioni e ai servizi Experience Cloud per i quali disponi dei diritti di accesso nella tua organizzazione, passa al selettore delle applicazioni ![](assets/menu-icon.png).
 
-![](assets/platform-core-services.png)
+![Accedere alle applicazioni di Experience Cloud](assets/platform-core-services.png)
 
 ## Supporto dei browser in Experience Cloud {#browser}
 
@@ -91,7 +91,7 @@ Tutti i team delle applicazioni sono orientati al supporto globale delle lingue;
 
 Dall’icona Aiuto (![risorsa](assets/help-icon.png)) nell’intestazione puoi accedere ai contenuti di apprendimento e alla guida, compresi i contenuti dell’Aiuto (documentazione, tutorial e corsi) disponibili in [Experience League](https://experienceleague.adobe.com/?lang=it#home), nonché risorse aggiuntive per le singole applicazioni. Puoi anche inviare feedback aperti e creare ticket di supporto con priorità.
 
-![](assets/search-menu.png)
+![Ottenere assistenza e supporto](assets/search-menu.png)
 
 Il menu [!UICONTROL Aiuto] consente inoltre di accedere a:
 
@@ -104,7 +104,7 @@ Il menu [!UICONTROL Aiuto] consente inoltre di accedere a:
 
 La ricerca globale consente di trovare oggetti o entità business ricercabili in modalità semplice, coerente e immediata. Questa ricerca fa emergere gli oggetti utilizzati di recente.
 
-![](assets/platform-search.png)
+![Ricerca globale di oggetti ed entità](assets/platform-search.png)
 
 >[!NOTE]
 >
@@ -124,7 +124,7 @@ Le preferenze di Experience Cloud includono notifiche, abbonamenti e avvisi. Nel
 
 Per gestire le preferenze, seleziona **[!UICONTROL Preferenze]** nel menu dell’account ![](assets/preferences-icon-sm.png).
 
-![](assets/preferences-page.png)
+![Profilo utente e preferenze account](assets/preferences-page.png)
 
 Nelle [!UICONTROL preferenze di Experience Cloud], è possibile configurare le seguenti funzioni:
 
@@ -142,7 +142,7 @@ Nelle [!UICONTROL preferenze di Experience Cloud], è possibile configurare le s
 
 Seleziona **[!UICONTROL Notifiche]** per ricevere avvisi sugli aggiornamenti rilevanti e fruibili, inclusi rilasci di prodotto, avvisi di manutenzione, elementi condivisi e richieste di approvazione.
 
-![](assets/notifications-menu-small.png)
+![Notifiche e annunci](assets/notifications-menu-small.png)
 
 ## Domini di Experience Cloud {#domains}
 
@@ -157,7 +157,7 @@ Experience Cloud usa i seguenti host per fornire l’applicazione e migliorare l
 
 ## Ottenere aiuto per l’amministrazione e i servizi tra diverse applicazioni
 
-Questa guida fornisce informazioni utili per l’amministrazione di utenti e prodotti Experience Cloud tramite Admin Console e l’abilitazione delle soluzioni per i servizi Platform. Puoi anche accedere all’Aiuto per Libreria tipi di pubblico, Attributi del cliente, Experience Cloud Assets e altro ancora:
+Questa guida fornisce l’accesso all’Aiuto sull’amministrazione di utenti e prodotti Experience Cloud nell’Admin Console, per l’abilitazione delle applicazioni per i servizi Platform. Puoi anche accedere all’Aiuto per Libreria tipi di pubblico, Attributi del cliente, Experience Cloud Assets e altro ancora:
 
 * [[!UICONTROL Libreria pubblico]](audience-library.md)
 * [[!UICONTROL Attributi del cliente]](attributes.md)
@@ -165,7 +165,7 @@ Questa guida fornisce informazioni utili per l’amministrazione di utenti e pro
 * [Experience Cloud [!UICONTROL Assets]](experience-cloud-assets.md)
 * [Cookie di Experience Cloud](cookies-privacy.md)
 * [Gestione di utenti e prodotti](admin-getting-started.md) (Admin Console)
-* [Abilitare le soluzioni per i servizi principali](core-services.md)
+* [Abilitare le applicazioni per i servizi principali](core-services.md)
 * [Domande frequenti](admin-getting-started.md)
 * [Organizzazioni e collegamento di account](organizations.md)
 * [Integrazioni](marketing-cloud-integrations.md)
@@ -196,7 +196,7 @@ Sfrutta i tutorial e le guide pratiche disponibili in Experience League:
 
 ## Note sulla versione e guide relative a Experience Cloud
 
-* [Documentazione del prodotto per tutte le soluzioni Experience Cloud](https://experienceleague.adobe.com/docs/home.html?lang=it): cerca aiuto all&#39;interno di Informazioni e supporto di Experience Cloud
+* [Documentazione del prodotto per tutte le applicazioni Experience Cloud](https://experienceleague.adobe.com/docs/home.html?lang=it) - Cerca aiuto all&#39;interno di Informazioni e supporto per Experience Cloud
 * [Note sulla versione e aggiornamenti dei prodotti](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it): le novità di Experience Cloud, tutti gli aggiornamenti per chi si abbona
 * [Esercitazioni per l&#39;implementazione dei servizi core](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=en): video ed esercitazioni sui servizi core
 * [Assistenza degli esperti di Experience League](https://experienceleague.adobe.com/?lang=it): ottieni informazioni guidate dagli esperti e dalla community

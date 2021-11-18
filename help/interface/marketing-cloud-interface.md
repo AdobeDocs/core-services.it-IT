@@ -1,15 +1,15 @@
 ---
 description: Una panoramica delle nuove funzionalità e degli aggiornamenti in Experience Cloud.
 keywords: servizi di base
-seo-description: Una panoramica delle nuove funzionalità e degli aggiornamenti in Experience Cloud.
-seo-title: Novità in Experience Cloud
+seo-description: An overview of new features and updates in the Experience Cloud.
+seo-title: What's new in the Experience Cloud
 solution: Experience Cloud
 title: 'Novità in Experience Cloud '
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
-workflow-type: ht
-source-wordcount: '651'
-ht-degree: 100%
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
+source-wordcount: '634'
+ht-degree: 87%
 
 ---
 
@@ -51,7 +51,7 @@ Nuove funzioni e correzioni nell’interfaccia di [!DNL Adobe Experience Cloud].
 
 | Funzione | Descrizione |
 |--- |--- |
-| Nuova pagina di destinazione dell’amministrazione | Quando accedi a Experience Cloud e apri la pagina Amministrazione, adesso è disponibile una nuova interfaccia intuitiva per aiutarti a visualizzare rapidamente le soluzioni e i servizi core di Experience Cloud. |
+| Nuova pagina di destinazione dell’amministrazione | Quando accedi all’Experience Cloud e apri la pagina Amministrazione, è disponibile una nuova interfaccia intuitiva per aiutarti ad accedere rapidamente alle tue applicazioni Experience Cloud e ai Servizi di base. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -70,8 +70,8 @@ Molte delle notifiche di manutenzione su interventi pianificati di manutenzione/
 
 | Funzione | Descrizione |
 |--- |--- |
-| Notifiche - Impostazioni granulari | Puoi abilitare le notifiche per eventi e attività relative a prodotti e soluzioni, comprese le notifiche sull’attività di caricamento di [Attributi clienti](attributes.md). |
-| Notifiche - Notifiche di manutenzione | Nelle impostazioni di notifica puoi abilitare quelle relative alla manutenzione di prodotti e soluzioni. |
+| Notifiche - Impostazioni granulari | Puoi abilitare le notifiche per eventi e attività relative a prodotti e applicazioni, comprese le notifiche su [Attributi del cliente](attributes.md) carica attività. |
+| Notifiche - Notifiche di manutenzione | Nelle impostazioni di notifica, puoi abilitare le notifiche di manutenzione per prodotti e applicazioni. |
 | Admin Console per soluzioni Experience Cloud | I nuovi clienti Experience Cloud possono iniziare a utilizzare Admin Console, che offre una posizione centrale per la gestione delle autorizzazioni Adobe nell’intera l’organizzazione.<br>La migrazione ad Admin Console per la gestione degli utenti procederà a ondate. Quando sarà il momento di effettuare la migrazione, Adobe contatterà gli amministratori di sistema.<br>Per gli amministratori di Analytics: consulta la sezione [Migrazione di Analytics](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=it). |
 
 {style=&quot;table-layout:auto&quot;}
@@ -80,7 +80,7 @@ Molte delle notifiche di manutenzione su interventi pianificati di manutenzione/
 
 | Funzione | Descrizione |
 |--- |--- |
-| Mappatura in batch di suite di rapporti | In Amministrazione > Mappatura suite di rapporti ora puoi selezionare più suite di rapporti, quindi mapparle su un&#39;organizzazione. (in precedenza era necessario mapparle singolarmente).  <br>[La mappatura delle suite di rapporti](core-services.md) su un’unica organizzazione consente di abilitare funzioni e servizi tra più soluzioni in Experience Cloud. |
+| Mappatura in batch di suite di rapporti | In Amministrazione > Mappatura suite di rapporti ora puoi selezionare più suite di rapporti, quindi mapparle su un&#39;organizzazione. (in precedenza era necessario mapparle singolarmente).  <br>[Mappatura di suite di rapporti](core-services.md) in un’unica organizzazione consente di abilitare funzioni e servizi tra più applicazioni nell’Experience Cloud. |
 | Aggiornamenti relativi al pubblico di Experience Cloud | **Applicazione di suite di rapporti**<br> Ora puoi applicare una suite di rapporti a tutte le tue [regole per il pubblico](t-audience-create.md). In precedenza, era necessario indicare una suite di rapporti per ciascuna definizione di regola. <br>**Prop e variabili**<br> Ora è possibile includere le proprietà di Analytics e le variabili predefinite (oltre a eVar ed eventi) per il pubblico in tempo reale. |
 
 {style=&quot;table-layout:auto&quot;}

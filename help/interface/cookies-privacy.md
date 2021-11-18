@@ -4,15 +4,15 @@ keywords: cookie;privacy
 solution: Experience Cloud,Analytics,Target
 title: 'Cookie e privacy '
 uuid: 7fb36845-6282-438a-bbc6-0c3cf95de1c9
-feature: Cookie
-topic: Amministrazione
+feature: Cookies
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 169b5c67-aab6-4b2a-832e-c5998d796bf7
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '335'
-ht-degree: 100%
+source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
+workflow-type: tm+mt
+source-wordcount: '347'
+ht-degree: 95%
 
 ---
 
@@ -30,8 +30,8 @@ Ad esempio, i dati contenuti nei cookie impostati dal sito Web Adobe.com non pos
 
 Il diagramma seguente illustra l’utilizzo dei cookie per una richiesta di immagine standard:
 
-![](assets/CookiesProcessGraphic-01.png)
+![Utilizzo di cookie per una richiesta di immagine standard](assets/CookiesProcessGraphic-01.png)
 
 Il diagramma seguente illustra l’utilizzo dei cookie per una richiesta di immagini diretta (utilizzata negli scenari in cui non viene caricato un file JS):
 
-![](assets/CookiesProcessGraphic2.png)
+![Utilizzo di cookie per una richiesta di immagine diretta](assets/CookiesProcessGraphic2.png)

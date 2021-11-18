@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: 399a3ddb47deb83481bcdfb0c578804b2bbfbae8
-workflow-type: ht
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
 source-wordcount: '774'
-ht-degree: 100%
+ht-degree: 77%
 
 ---
 
@@ -28,9 +28,9 @@ Scopri quali sono i browser supportati e le risposte alle domande più frequenti
 * Safari (versione corrente e due versioni precedenti)
 * Opera (versione corrente e due versioni precedenti)
 
-## Come posso sapere se le mie soluzioni sono abilitate per i servizi principali?
+## Come posso sapere se le mie applicazioni sono abilitate per i servizi di base?
 
-Se non è stato effettuato il provisioning della tua implementazione per i servizi principali, consulta [Abilitare le soluzioni per i servizi principali](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C), in cui si descrivono i seguenti temi:
+Se non è stato effettuato il provisioning della tua implementazione per i servizi di base, consulta [Abilitare le applicazioni per i servizi principali](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C), che descrive come:
 
 1. [Partecipazione a Experience Cloud per diventare un amministratore](core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
 1. [Implementa il servizio Experience Cloud ID tramite Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=it).
@@ -49,20 +49,20 @@ No. Experience Cloud è incluso senza alcun costo aggiuntivo. Tuttavia, alcuni s
 
 ## Perché la mia azienda deve effettuare l’accesso all’interfaccia Experience Cloud?
 
-La funzionalità fornita dall&#39;interfaccia Experience Cloud aggiunge più valore alla tua azienda. Sarà anche il percorso standard per accedere alle soluzioni in futuro, sostituendo altri flussi di accesso di singole soluzioni. L’accesso tramite Experience Cloud semplifica una futura transizione.
+La funzionalità fornita dall&#39;interfaccia Experience Cloud aggiunge più valore alla tua azienda. È inoltre il percorso standard per l&#39;accesso alle applicazioni in futuro, sostituendo altri flussi di accesso alle singole applicazioni. L’accesso tramite Experience Cloud semplifica una futura transizione.
 
 ## Come posso risolvere i problemi sulla migrazione della mia azienda?
 
-[Contatta il supporto Adobe](https://experienceleague.adobe.com/?support-solution=General&amp;lang=it#support).
+[Contatta il supporto Adobe](https://experienceleague.adobe.com/?support-solution=General#support).
 
 ## Che cos’è il _provisioning?_
 
 Provisioning in Experience Cloud significa:
 
-* Gli utenti possono effettuare l&#39;accesso a [!DNL Experience Cloud] e alle soluzioni di collegamento.
+* Gli utenti possono effettuare l&#39;accesso al [!DNL Experience Cloud] e le applicazioni di collegamento.
 * Possono iniziare a utilizzare le funzionalità disponibili in Experience Cloud, ad esempio Persone.
-* Puoi prepararti a smettere di utilizzare il processo di accesso specifico per soluzioni.
-* Puoi mantenere il controllo dell’accesso alle soluzioni.
+* Puoi prepararti a ritirarti il processo di accesso specifico per l’applicazione.
+* È possibile mantenere il controllo di accesso alle applicazioni.
 
 ## Come posso gestire utenti e profili di prodotto?
 
@@ -76,13 +76,13 @@ Provisioning in Experience Cloud significa:
 
 Gli amministratori di Admin Console possono concedere l&#39;accesso agli utenti. Gli utenti ricevono un’e-mail con le istruzioni di accesso.
 
-Potresti aver bisogno di [contattare il supporto Adobe](https://experienceleague.adobe.com/?support-solution=General&amp;lang=it#support) per verificare che la tua azienda disponga del provisioning completo.
+Potresti aver bisogno di [contattare il supporto Adobe](https://experienceleague.adobe.com/?support-solution=General#support) per verificare che la tua azienda disponga del provisioning completo.
 
 ## Dove va un utente per gestire il collegamento dell’account?
 
-Alcuni utenti potrebbero dover collegare l&#39;account della loro soluzione (Analytics) a Adobe ID o Enterprise ID.
+Alcuni utenti potrebbero dover collegare il loro account dell&#39;applicazione (Analytics) all&#39;Adobe ID o all&#39;Enterprise ID.
 
-Consulta [Collegare l’account di una soluzione a un Adobe ID](organizations.md#task_FD389E78640848919E247AC5E95B8369).
+Vedi [Collegamento di un account applicazione a un Adobe ID](organizations.md#task_FD389E78640848919E247AC5E95B8369).
 
 ## Come posso gestire profili e organizzazioni dell’account utente?
 
@@ -90,7 +90,7 @@ Consulta [Gestire gli account utente](organizations.md#topic_C31CB834F109465A82E
 
 ## Che cos’è un’organizzazione?
 
-Un&#39;*organizzazione* è l&#39;entità che consente all&#39;amministratore di configurare gruppi e utenti e di controllare il single sign-on in Experience Cloud. L&#39;organizzazione funziona come un&#39;azienda che abbraccia tutti i prodotti e le soluzioni Experience Cloud. Nella maggior parte dei casi, un’organizzazione è il nome dell’azienda. Tuttavia, un’azienda può avere più organizzazioni.
+Un&#39;*organizzazione* è l&#39;entità che consente all&#39;amministratore di configurare gruppi e utenti e di controllare il single sign-on in Experience Cloud. L&#39;organizzazione funziona come un&#39;azienda di accesso che si estende su tutti i prodotti e le applicazioni Experience Cloud. Nella maggior parte dei casi, un’organizzazione è il nome dell’azienda. Tuttavia, un’azienda può avere più organizzazioni.
 
 ## Dove posso trovare l’ID organizzazione IMS?
 
@@ -110,16 +110,16 @@ L’ID è:
 
 ## Cosa devo fare quando uno degli utenti lascia la mia azienda?
 
-È necessario rimuovere il loro accesso dalla soluzione. Essi non potranno accedere al prodotto da Experience Cloud o mediante accesso diretto. Devi rimuoverli anche a livello di Experience Cloud.
+Il loro accesso deve essere rimosso dall&#39;applicazione stessa. Essi non potranno accedere al prodotto da Experience Cloud o mediante accesso diretto. Devi rimuoverli anche a livello di Experience Cloud.
 
 ## Che cos’è un Adobe ID?
 
 Consulta [Tipi di identità](https://helpx.adobe.com/it/enterprise/using/identity.html).
 
-## Posso collegare account della soluzione per i miei utenti?
+## Posso collegare account dell&#39;applicazione per i miei utenti?
 
-No. Gli utenti devono collegare le proprie soluzioni con i propri nomi utente e password.
+No. Gli utenti devono collegare le proprie applicazioni con i propri nomi utente e password.
 
 ## Perché visualizzo Social anche se la mia azienda non lo possiede?
 
-Adobe Social è un prodotto che può essere venduto con Analytics. Di conseguenza, se disponi di Analytics, visualizzerai questa soluzione, ma non vi avrai accesso a meno che tu non l’abbia acquistata.
+Adobe Social è un prodotto che può essere venduto con Analytics. Pertanto, se disponi di Analytics visualizzerai questa applicazione, ma non potrai accedervi a meno che non l&#39;hai acquistata.

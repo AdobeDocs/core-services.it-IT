@@ -1,30 +1,30 @@
 ---
-description: Scopri le risorse di Experience Cloud da condividere tra le diverse soluzioni.
+description: Scopri le risorse di Experience Cloud che puoi condividere tra le applicazioni.
 solution: Experience Cloud
 title: Panoramica delle risorse
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
-feature: Risorse
-topic: Amministrazione
+feature: Assets
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
-source-git-commit: aa50cf84ce4e1406d1222f416d9193ff2361fbee
-workflow-type: ht
-source-wordcount: '334'
-ht-degree: 100%
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
+source-wordcount: '356'
+ht-degree: 83%
 
 ---
 
 # Panoramica di Experience Cloud Assets
 
-Il servizio di base Experience Cloud Assets fornisce un archivio unico e centralizzato di risorse pronte per le attività di marketing da condividere tra le diverse soluzioni. Una risorsa è un documento, un’immagine, un video o un file audio (o parte di essi) che può avere più rappresentazioni e risorse secondarie (ad esempio, livelli in un file [!DNL Photoshop], slide in un file [!DNL PowerPoint], pagine in un PDF e file in un file ZIP).
+Experience Cloud Assets fornisce un archivio unico e centralizzato di risorse pronte per il marketing da condividere tra le applicazioni. Una risorsa è un documento, un’immagine, un video o un file audio (o parte di essi) che può avere più rappresentazioni e risorse secondarie (ad esempio, livelli in un file [!DNL Photoshop], slide in un file [!DNL PowerPoint], pagine in un PDF e file in un file ZIP).
 
 I servizi delle risorse includono:
 
-* Archivio delle risorse, interfaccia di gestione, interfaccia di selezione incorporata (a cui potete accedere tramite le soluzioni).
-* Integrazioni con Creative Cloud, collaborazione con Experience Cloud e soluzioni Experience Cloud.
+* Archivio delle risorse, interfaccia di gestione, interfaccia di selezione incorporata (a cui si accede tramite le applicazioni).
+* Integrazioni con Creative Cloud, collaborazione Experience Cloud e applicazioni di Experience Cloud.
 
-L’utilizzo delle risorse migliora la coerenza e la conformità al marchio, velocizzando i tempi sul mercato. Puoi semplificare i flussi di lavoro nelle soluzioni:
+L’utilizzo delle risorse migliora la coerenza e la conformità al marchio, velocizzando i tempi sul mercato. Puoi semplificare i flussi di lavoro nelle applicazioni:
 
 * **[!DNL Social]**: pubblicazione su canali social, Facebook, Twitter, LinkedIn, Google+.
 * **[!DNL Target]**: creazione di esperienze per A/B e test multivariati.
@@ -45,7 +45,7 @@ In [!UICONTROL Experience Cloud Assets] puoi eseguire le seguenti operazioni:
 
 ## Passare a Experience Cloud Assets {#section_3657039DD3524F2AA88753BFF4781125}
 
-![](assets/asset-nav.png)
+![Passare a Experience Cloud Assets](assets/asset-nav.png)
 
 ## Accedere alla barra degli strumenti {#section_EC2E401D225148818F3753248556BE6B}
 
@@ -53,7 +53,7 @@ Passa a una risorsa (o una directory di risorse), quindi seleziona **[!UICONTROL
 
 La barra degli strumenti fornisce un accesso rapido a funzioni quali: Search, Timeline, Renditions, Edit, Annotate, and Download (Cerca, Timeline, Rappresentazioni, Modifica, Annota e Scarica).
 
-![](assets/asset-tools.png)
+![Accedere alla barra degli strumenti](assets/asset-tools.png)
 
 ## Modifica delle risorse {#section_CD3C55A9D4574455B94D0955391C8FEC}
 
@@ -63,25 +63,25 @@ La modifica di una risorsa abilita funzionalità quali:
 * Rotazione
 * Capovolgimento
 
-![](assets/asset-edit.png)
+![Modifica delle risorse](assets/asset-edit.png)
 
 ## Cercare risorse {#section_50FE049010B446FC9640AA6A30E5A730}
 
 Puoi cercare per parola chiave, tipo di file, dimensione, ultima modifica, stato di pubblicazione, orientamento e stile.
 
-![](assets/asset-search.png)
+![Cercare risorse](assets/asset-search.png)
 
 ## Annotare risorse {#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A}
 
 Seleziona **[!UICONTROL Annota]** per disegnare cerchi o frecce su un’immagine e annota la risorsa per la revisione da parte di colleghi.
 
-![](assets/assets-annotate.png)
+![Annotare risorse](assets/assets-annotate.png)
 
 ## Visualizzare risorse a tutto schermo e usare lo zoom {#section_A9F50D7D6BE341A2AB8244A4E42A4EF7}
 
 Seleziona **[!UICONTROL Viste]** > **[!UICONTROL Immagine]** per visualizzare l’immagine della risorsa completa e abilitare lo zoom.
 
-![](assets/asset-zoom.png)
+![Visualizzare risorse a schermo intero](assets/asset-zoom.png)
 
 ## Visualizzare le proprietà della risorsa {#section_FED28711DAB14E1BBEEA7CA890EE9573}
 
@@ -89,7 +89,7 @@ Scegli tra la vista della scheda con proprietà, la vista dell&#39;elenco e la v
 
 Seleziona **[!UICONTROL Viste]** > **[!UICONTROL Proprietà]** per visualizzare le proprietà di una risorsa:
 
-![](assets/asset-properties.png)
+![Visualizzare le proprietà della risorsa](assets/asset-properties.png)
 
 ## Eseguire rapporti sull’utilizzo {#section_15D782FFB8D74CF4A735116CC03AD902}
 
@@ -97,4 +97,4 @@ Visualizza il numero di utenti, l&#39;archiviazione usata e le risorse totali.
 
 Seleziona **[!UICONTROL Strumenti]** > **[!UICONTROL Rapporti]** > **[!UICONTROL Rapporto utilizzo]**
 
-![](assets/assets-usage-report.png)
+![Eseguire rapporti sull’utilizzo](assets/assets-usage-report.png)

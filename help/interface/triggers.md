@@ -1,26 +1,26 @@
 ---
 description: Come configurare Experience Cloud Triggers.
 keywords: integrazioni;Triggers
-seo-description: Come configurare Experience Cloud Triggers.
+seo-description: How to configure Experience Cloud Triggers.
 seo-title: Triggers
 solution: Experience Cloud
 title: 'Panoramica degli Triggers '
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
 feature: Admin Console
-topic: Amministrazione
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '705'
-ht-degree: 100%
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
+source-wordcount: '702'
+ht-degree: 96%
 
 ---
 
 # Experience Cloud Triggers
 
-[!UICONTROL Triggers] in Experience Cloud consente di identificare, definire e monitorare i comportamenti chiave dei consumatori, per poi generare comunicazioni tra le diverse soluzioni in modo da coinvolgere nuovamente i visitatori.
+[!UICONTROL Triggers] in Experience Cloud consente di identificare, definire e monitorare i comportamenti chiave dei consumatori, e quindi generare comunicazioni tra applicazioni per coinvolgere nuovamente i visitatori.
 
 ## Panoramica di Triggers {#topic_4F21FCE9A64E46E8B6D51F494FA652A7}
 
@@ -30,7 +30,7 @@ Puoi utilizzare i trigger nelle decisioni in tempo reale e nella personalizzazio
 * Applicazioni e moduli incompleti
 * Qualsiasi azione o sequenza di azioni sul sito
 
-![](assets/trigger-abandonment-2.png)
+![Esempio di trigger](assets/trigger-abandonment-2.png)
 
 >[!NOTE]
 >
@@ -82,10 +82,10 @@ Esempi di Experience Cloud Triggers:
 
 Ad esempio, nella pagina seguente sono illustrate le regole che è possibile utilizzare per un attivatore di [!UICONTROL abbandono del carrello], in base ai prodotti visualizzati durante una visita.
 
-![](assets/abandonment-trigger.png)
+![Trigger di abbandono del carrello](assets/abandonment-trigger.png)
 
 #### Trigger referrer
 
 Il trigger seguente si attiva quando viene visualizzato un risultato con il prodotto Stivali da uomo e il referrer Facebook. Per valutare i due criteri (*products* e *referrer*) nello stesso risultato, devono essere aggiunti allo stesso contenitore.
 
-![](assets/fb-boots-promo.png)
+![Trigger referrer](assets/fb-boots-promo.png)

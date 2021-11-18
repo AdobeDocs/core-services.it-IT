@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 29af6733b7964a0e98bb664366d4c92bebdceddb
-workflow-type: ht
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
 source-wordcount: '516'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -24,9 +24,9 @@ Informazioni sugli aggiornamenti della documentazione prodotto di Experience Clo
 
 | Funzione | Descrizione |
 | ------- | ------- |
-| Home page | Experience Cloud: le informazioni al piè di pagina nella home page sono state spostate nella scheda del profilo utente, incluse le Note legali e la selezione della lingua in Preferenze. |
+| Home page | Experience Cloud: le informazioni relative al piè di pagina nella home page sono state spostate nella scheda del profilo utente, incluse le note legali e la selezione della lingua in Preferenze. |
 | Dashboard AEP | [!DNL Helios Lite] fornisce consigli sui grafici all’interno del flusso di lavoro di creazione dei widget di Experience Platform. Data una selezione dei dati (attualmente selezione di dati con una singola variabile), Helios consiglia una visualizzazione appropriata per accompagnarla. |
-| Dashboard AEP | [!DNL Instory] fornisce narrazioni scritte e didascalie per i grafici basate sull’apprendimento automatico. Decora i grafici nella pagina Dashboard AEP con punti elenco pertinenti che indicano importanti modifiche e incidenti nei dati inseriti nei grafici. |
+| Dashboard AEP | [!DNL Instory] fornisce narrazioni scritte basate su apprendimento automatico e didascalie per i grafici. Decora i grafici nella pagina Dashboard AEP con punti elenco pertinenti che indicano importanti modifiche e incidenti nei dati inseriti nei grafici. |
 
 **Aggiornato il 13/10/2021**
 
@@ -118,7 +118,7 @@ Aggiunto [Experience Cloud Assets](experience-cloud-assets.md#concept_DDA5224C90
 
 **Aggiornato: 02/03/2015**
 
-Aggiunto [Abilitare le soluzioni per i servizi principali](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C).
+Aggiunto [Abilitare le applicazioni per i servizi principali](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)
 
 **Aggiornato: 15/01/2015**
 

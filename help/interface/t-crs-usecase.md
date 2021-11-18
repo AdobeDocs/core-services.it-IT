@@ -4,15 +4,15 @@ keywords: Attributi del cliente;servizi core
 solution: Experience Cloud
 title: 'Creare un’origine di attributi cliente e caricare il file di dati '
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
-feature: Attributi del cliente
-topic: Amministrazione
+feature: Customer Attributes
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
-workflow-type: ht
-source-wordcount: '1151'
-ht-degree: 100%
+source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
+workflow-type: tm+mt
+source-wordcount: '1169'
+ht-degree: 93%
 
 ---
 
@@ -22,7 +22,7 @@ Creazione dell’origine di attributi cliente (file CSV e FIN) e caricamento dei
 
 ## Flusso di lavoro per attributi cliente {#concept_BF0AF88E9EF841219ED4D10754CD7154}
 
-![](assets/crs.png)
+![Flusso di lavoro per attributi cliente](assets/crs.png)
 
 1. [Creazione di un file di dati](t-crs-usecase.md#task_B5FB8C0649374C7A94C45DCF2878EA1A)
 1. [Creare un’origine di attributi e caricare il file di dati](t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8)
@@ -38,7 +38,7 @@ Dopo l&#39;attivazione dell&#39;origine dati puoi:
 >
 >Per accedere a questa funzione, gli utenti devono essere assegnati al profilo di prodotto Attributi del cliente (Attributi del cliente - Accesso standard). Vai a **[!UICONTROL Amministrazione]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Prodotti]**. Se *Attributi del cliente* compare in uno dei [!UICONTROL Profili del prodotto], puoi iniziare. Gli utenti che vengono aggiunti al gruppo Attributi del cliente visualizzeranno il menu [!UICONTROL Attributi del cliente] sul lato sinistro dell’interfaccia di Experience Cloud.
 >
->Per utilizzare la funzione Attributi del cliente, gli utenti devono appartenere anche a gruppi a livello di soluzione (Analytics o [!DNL Target]).
+>Per utilizzare la funzione Attributi del cliente, gli utenti devono appartenere anche a gruppi a livello di applicazione (Analytics o [!DNL Target]).
 
 Consulta [Gestione di utenti e prodotti Experience Cloud](admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9).
 
@@ -54,7 +54,7 @@ Questi dati sono dati aziendali dei clienti provenienti dal tuo sistema CRM. Pos
 
    Esempio di un file di dati di un cliente aziendale:
 
-   ![](assets/01_crs_usecase.png)
+   ![Esempio di un file di dati di un cliente aziendale](assets/01_crs_usecase.png)
 
 1. Prima di continuare, controlla le informazioni importanti in [Requisiti dei file di dati](crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) prima di caricare il file.
 1. [Crea un’origine di attributi cliente e carica i dati](t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78), come descritto di seguito.
@@ -129,7 +129,6 @@ Segui questi passaggi nella pagina Crea nuova origine attributo del cliente in E
    * **[!UICONTROL ID forniti dal cliente con soglia degli alias elevata:]** visualizza il numero di ID forniti dal cliente con 500 o più ID visitatore di Experience Cloud con alias. Questi ID forniti dal cliente non rappresentano individui ma accessi condivisi. Il sistema distribuisce gli attributi associati a questi ID ai 500 ID visitatore di Experience Cloud con alias più recenti, fino a raggiungere la soglia di 10.000. Quindi, il sistema invalida l&#39;ID fornito dal cliente e non distribuisce più attributi associati.
 
 
-
 ## Convalida dello schema {#task_404AAC411B0D4E129AB3AC8B7BE85859}
 
 Il procedimento di convalida consente di mappare i nomi e le descrizioni visualizzati agli attributi caricati (stringhe, interi, numeri e così via). Puoi anche eliminare gli attributi aggiornando lo schema.
@@ -147,7 +146,7 @@ Informazioni su come eliminare e sostituire gli attributi nello schema.
 
 ## Configurazione delle sottoscrizioni e attivazione dell&#39;origine attributo {#task_1ACA21198F0E46A897A320C244DFF6EA}
 
-La configurazione di una sottoscrizione imposta il flusso di dati tra Experience Cloud e le soluzioni. L&#39;attivazione della sorgente attributi consente il flusso dei dati verso le soluzioni sottoscritte. I record cliente che hai caricato vengono associati ai segnali ID in entrata provenienti dal sito web o dall&#39;applicazione.
+La configurazione di una sottoscrizione imposta il flusso di dati tra l’Experience Cloud e le applicazioni. L&#39;attivazione dell&#39;origine attributo consente il flusso dei dati alle applicazioni sottoscritte. I record cliente che hai caricato vengono associati ai segnali ID in entrata provenienti dal sito web o dall&#39;applicazione.
 
 Consulta [Configurazione delle sottoscrizioni](subscription.md#concept_ECA3C44FA6D540C89CC04BA3C49E63BF).
 
@@ -159,11 +158,11 @@ Nella pagina [!UICONTROL Crea nuovo [o ]Modifica origine attributi del cliente],
 
 ## Utilizzo degli Attributi del cliente in Adobe Analytics {#task_7EB0680540CE4B65911B2C779210915D}
 
-Con i dati ora disponibili in soluzioni come Adobe Analytics, puoi creare rapporti sui dati, analizzarli e intraprendere azioni appropriate nelle campagne di marketing.
+Ora che i dati sono disponibili in applicazioni come Adobe Analytics, puoi creare rapporti sui dati, analizzarli e intraprendere l’azione appropriata nelle campagne di marketing.
 
 L’esempio seguente mostra un segmento di [!DNL Analytics] basato sugli attributi caricati. Questo segmento mostra gli utenti con sottoscrizione a [!DNL Photoshop Lightroom] il cui prodotto maggiormente lanciato è Photoshop.
 
-![](assets/08_crs_usecase.png)
+![Segmento di Analytics basato sugli attributi caricati](assets/08_crs_usecase.png)
 
 Quando pubblichi un segmento in Experience Cloud, esso diventa disponibile in Experience Cloud Audiences e in Audience Manager.
 
@@ -171,6 +170,6 @@ Quando pubblichi un segmento in Experience Cloud, esso diventa disponibile in Ex
 
 In [!DNL Target] puoi selezionare un attributo del cliente dalla sezione [!UICONTROL Profilo visitatore] al momento della creazione di un pubblico. Tutti gli attributi del cliente hanno il prefisso `crs.` nell’elenco. Per creare di tipi di pubblico combina questi attributi con altri attributi di dati.
 
-![](assets/crs-add-attribute-target.png)
+![Utilizzo degli Attributi del cliente in Adobe Target](assets/crs-add-attribute-target.png)
 
 Consulta [Creazione di un nuovo pubblico](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=it) nella guida di [!DNL Target].

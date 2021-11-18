@@ -3,13 +3,13 @@ description: Scopri come mappare una o più suite di rapporti per un’organizza
 title: 'Mappatura di suite di rapporti per un’organizzazione '
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 feature: Admin Console
-topic: Amministrazione
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 4e9f0f7a-8e16-4473-af4a-3e74ad50c044
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '1119'
+source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
+workflow-type: tm+mt
+source-wordcount: '1131'
 ht-degree: 100%
 
 ---
@@ -49,7 +49,7 @@ Le organizzazioni sono disattivate se non disponi delle autorizzazioni di ammini
 
 1. Seleziona le suite di rapporti da mappare.
 
-   ![](assets/rs-mapping-multiple.png)
+   ![Seleziona le suite di rapporti da mappare](assets/rs-mapping-multiple.png)
 
 1. Seleziona l’organizzazione (Outdoors Inc, in questo esempio), quindi fai clic su **[!UICONTROL Seleziona]**.
 
@@ -71,7 +71,7 @@ Assicurati che l’implementazion corrisponda all’organizzazione scelta nello 
 
 Le organizzazioni visualizzate in grigio sono disabilitate in quanto non disponi di privilegi sufficienti per utilizzarle nella mappatura per la suite di rapporti disabilitata. Prendi in considerazione l&#39;esempio seguente:
 
-![](assets/rs-mapping.png)
+![Perché alcune organizzazioni sono disattivate?](assets/rs-mapping.png)
 
 In questo schema, il tasto blu indica i privilegi di amministratore. Le linee grigie indicano la visibilità.
 
