@@ -7,9 +7,9 @@ topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
 source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '733'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -76,7 +76,7 @@ Dopo aver effettuato l’accesso ad Experience Cloud, è possibile accedere rapi
 
 Per accedere ai servizi Experience Cloud di tcui disponi, seleziona il selettore delle applicazioni ![](assets/menu-icon.png).
 
-![Accedere alle applicazioni di Experience Cloud](assets/platform-core-services.png)
+![Accedere alle applicazioni Experience Cloud](assets/platform-core-services.png)
 
 ## Ricerca e supporto in Experience Cloud {#search}
 
@@ -106,7 +106,7 @@ Le preferenze di Experience Cloud includono notifiche, abbonamenti e avvisi.
 
 Per gestire le preferenze, seleziona **[!UICONTROL Preferenze]** nel menu dell’account ![](assets/preferences-icon-sm.png).
 
-![Gestisci Experience Cloud](assets/preferences-page.png)
+![Gestire Experience Cloud](assets/preferences-page.png)
 
 Nelle [!UICONTROL preferenze di Experience Cloud], è possibile configurare le seguenti funzioni:
 
