@@ -1,7 +1,7 @@
 ---
-description: Scopri le risorse di Experience Cloud che puoi condividere tra le applicazioni.
+description: Scopri Experience Cloud Assets per la condivisione tra le diverse applicazioni.
 solution: Experience Cloud
-title: Panoramica delle risorse
+title: Panoramica di Assets
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 feature: Assets
 topic: Administration
@@ -9,22 +9,22 @@ role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '356'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
 # Panoramica di Experience Cloud Assets
 
-Experience Cloud Assets fornisce un archivio unico e centralizzato di risorse pronte per il marketing da condividere tra le applicazioni. Una risorsa è un documento, un’immagine, un video o un file audio (o parte di essi) che può avere più rappresentazioni e risorse secondarie (ad esempio, livelli in un file [!DNL Photoshop], slide in un file [!DNL PowerPoint], pagine in un PDF e file in un file ZIP).
+Experience Cloud Assets fornisce un archivio unico e centralizzato di risorse pronte per le attività di marketing da condividere tra le diverse applicazioni. Una risorsa è un documento, un’immagine, un video o un file audio (o parte di essi) che può avere più rappresentazioni e risorse secondarie (ad esempio, livelli in un file [!DNL Photoshop], slide in un file [!DNL PowerPoint], pagine in un PDF e file in un file ZIP).
 
-I servizi delle risorse includono:
+I servizi Assets includono:
 
-* Archivio delle risorse, interfaccia di gestione, interfaccia di selezione incorporata (a cui si accede tramite le applicazioni).
-* Integrazioni con Creative Cloud, collaborazione Experience Cloud e applicazioni di Experience Cloud.
+* Archivio delle risorse, interfaccia di gestione, interfaccia di selezione incorporata (accessibile dall’interno di altre applicazioni).
+* Integrazioni con Creative Cloud, collaborazione con Experience Cloud e applicazioni Experience Cloud.
 
-L’utilizzo delle risorse migliora la coerenza e la conformità al marchio, velocizzando i tempi sul mercato. Puoi semplificare i flussi di lavoro nelle applicazioni:
+L’utilizzo di Assets migliora la coerenza e la conformità al marchio, velocizzando il time-to-market. Puoi semplificare i flussi di lavoro nelle applicazioni:
 
 * **[!DNL Social]**: pubblicazione su canali social, Facebook, Twitter, LinkedIn, Google+.
 * **[!DNL Target]**: creazione di esperienze per A/B e test multivariati.
@@ -35,9 +35,9 @@ In [!UICONTROL Experience Cloud Assets] puoi eseguire le seguenti operazioni:
 
 * [Passare a Experience Cloud Assets](experience-cloud-assets.md#section_3657039DD3524F2AA88753BFF4781125)
 * [Accedere alla barra degli strumenti](experience-cloud-assets.md#section_EC2E401D225148818F3753248556BE6B)
-* [Modifica delle risorse](experience-cloud-assets.md#section_CD3C55A9D4574455B94D0955391C8FEC)
+* [Modificare le risorse](experience-cloud-assets.md#section_CD3C55A9D4574455B94D0955391C8FEC)
 * [Cercare risorse](experience-cloud-assets.md#section_50FE049010B446FC9640AA6A30E5A730)
-* [Annotare risorse](experience-cloud-assets.md#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A)
+* [Annotare le risorse](experience-cloud-assets.md#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A)
 * [Visualizzare risorse a tutto schermo e usare lo zoom](experience-cloud-assets.md#section_A9F50D7D6BE341A2AB8244A4E42A4EF7)
 * [Visualizzare le proprietà della risorsa](experience-cloud-assets.md#section_FED28711DAB14E1BBEEA7CA890EE9573)
 * [Eseguire rapporti sull’utilizzo](experience-cloud-assets.md#section_15D782FFB8D74CF4A735116CC03AD902)
@@ -51,11 +51,11 @@ In [!UICONTROL Experience Cloud Assets] puoi eseguire le seguenti operazioni:
 
 Passa a una risorsa (o una directory di risorse), quindi seleziona **[!UICONTROL Seleziona]**.
 
-La barra degli strumenti fornisce un accesso rapido a funzioni quali: Search, Timeline, Renditions, Edit, Annotate, and Download (Cerca, Timeline, Rappresentazioni, Modifica, Annota e Scarica).
+La barra degli strumenti consente di accedere rapidamente a funzioni quali: Cerca, Timeline, Rappresentazioni, Modifica, Annota e Scarica.
 
 ![Accedere alla barra degli strumenti](assets/asset-tools.png)
 
-## Modifica delle risorse {#section_CD3C55A9D4574455B94D0955391C8FEC}
+## Modificare le risorse {#section_CD3C55A9D4574455B94D0955391C8FEC}
 
 La modifica di una risorsa abilita funzionalità quali:
 
@@ -63,25 +63,25 @@ La modifica di una risorsa abilita funzionalità quali:
 * Rotazione
 * Capovolgimento
 
-![Modifica delle risorse](assets/asset-edit.png)
+![Modificare le risorse](assets/asset-edit.png)
 
 ## Cercare risorse {#section_50FE049010B446FC9640AA6A30E5A730}
 
 Puoi cercare per parola chiave, tipo di file, dimensione, ultima modifica, stato di pubblicazione, orientamento e stile.
 
-![Cercare risorse](assets/asset-search.png)
+![Cercare le risorse](assets/asset-search.png)
 
-## Annotare risorse {#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A}
+## Annotare le risorse {#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A}
 
 Seleziona **[!UICONTROL Annota]** per disegnare cerchi o frecce su un’immagine e annota la risorsa per la revisione da parte di colleghi.
 
-![Annotare risorse](assets/assets-annotate.png)
+![Annotare le risorse](assets/assets-annotate.png)
 
 ## Visualizzare risorse a tutto schermo e usare lo zoom {#section_A9F50D7D6BE341A2AB8244A4E42A4EF7}
 
 Seleziona **[!UICONTROL Viste]** > **[!UICONTROL Immagine]** per visualizzare l’immagine della risorsa completa e abilitare lo zoom.
 
-![Visualizzare risorse a schermo intero](assets/asset-zoom.png)
+![Visualizzare le risorse a schermo intero](assets/asset-zoom.png)
 
 ## Visualizzare le proprietà della risorsa {#section_FED28711DAB14E1BBEEA7CA890EE9573}
 
