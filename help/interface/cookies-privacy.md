@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 169b5c67-aab6-4b2a-832e-c5998d796bf7
 source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '347'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -30,8 +30,8 @@ Ad esempio, i dati contenuti nei cookie impostati dal sito Web Adobe.com non pos
 
 Il diagramma seguente illustra l’utilizzo dei cookie per una richiesta di immagine standard:
 
-![Utilizzo di cookie per una richiesta di immagine standard](assets/CookiesProcessGraphic-01.png)
+![Utilizzo di cookie per una richiesta immagine standard](assets/CookiesProcessGraphic-01.png)
 
 Il diagramma seguente illustra l’utilizzo dei cookie per una richiesta di immagini diretta (utilizzata negli scenari in cui non viene caricato un file JS):
 
-![Utilizzo di cookie per una richiesta di immagine diretta](assets/CookiesProcessGraphic2.png)
+![Utilizzo di cookie per una richiesta immagine diretta](assets/CookiesProcessGraphic2.png)
