@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 746d396d-9629-42db-8c55-07d2d24e4611
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '622'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ L&#39;aggiornamento a Predictive Intelligence abilita [Analytics Premium](upgrad
 
 | Prodotto | Aggiornamenti |
 |---|---|
-| Reports &amp; Analytics | [Analisi contributi](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=en) |
+| Reports &amp; Analytics | [Analisi contributi](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=it) |
 | Data Workbench | Aree di lavoro predefinite per le qualifiche del pubblico e il marketing predittivo |
 | Platform Analytics | Streaming live (dashboard e trigger) |
 
@@ -88,7 +88,7 @@ Qualsiasi software in esecuzione locale deve essere disattivato. Questo software
 
 ## Experience Cloud - Amministrazione utenti e prodotti {#section_6471C54454024301B2E0B687F79F6738}
 
-Gli utenti di Analytics Standard e Premium possono accedere ad Experienci Cloud e servizi di base se hai seguito la modernizzazione dell&#39;implementazione descritta in [Guida introduttiva: abilitare le applicazioni per i servizi principali](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C). (questa procedura consente di modernizzare la propria implementazione e di diventare amministratori in Experience Cloud).
+Experience Cloud e i servizi principali sono disponibili per gli utenti di Analytics Standard e Premium, purché sia stata eseguita la modernizzazione dell’implementazione come descritto in [Guida introduttiva: abilitare le applicazioni per i servizi principali](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C). (questa procedura consente di modernizzare la propria implementazione e di diventare amministratori in Experience Cloud).
 
 Dopo aver effettuato l&#39;iscrizione a Experience Cloud, puoi accedere tramite Experience Cloud dalla pagina [!DNL experience.adobe.com] e iniziare a utilizzare i servizi core (tra cui attributi del cliente, tipi di pubblico e analisi delle app mobile).
 
@@ -96,8 +96,8 @@ Dopo aver effettuato l&#39;iscrizione a Experience Cloud, puoi accedere tramite 
 
 La gestione degli utenti viene eseguita all&#39;interno di [Adobe Admin Console](https://helpx.adobe.com/it/enterprise/using/admin-console.html) (collegamento al prodotto).
 
-Puoi impostare una mappatura 1:1 tra un gruppo creato in Adobe Admin Console e un gruppo della soluzione (come Adobe Analytics). Successivamente, un nuovo utente aggiunto al gruppo di Admin Console mappato ha un account applicazione Analytics creato automaticamente e collegato all&#39;Adobe ID dell&#39;utente. (Gli utenti esistenti devono collegare manualmente le credenziali dell&#39;account dell&#39;applicazione per accedere alle applicazioni tramite l&#39;accesso Experience Cloud.)
+Puoi impostare una mappatura 1:1 tra un gruppo creato in Adobe Admin Console e un gruppo della soluzione (come Adobe Analytics). Successivamente, viene aggiunto un nuovo utente al gruppo Admin Console, il quale disporrà di un account dell’applicazione Analytics creato in automatico e collegato al relativo Adobe ID. Per accedere alle applicazioni tramite Experience Cloud, gli utenti esistenti devono effettuare il collegamento manuale delle credenziali dell’account dell’applicazione.
 
 >[!NOTE]
 >
->Puoi mappare più gruppi di applicazioni a un gruppo di Admin Console. Tuttavia, Adobe consiglia di effettuare la mappatura 1:1. Grazie al caricamento di un file CSV, la mappatura anticipata dei gruppi consente di invitare, creare, concedere autorizzazioni e aggiungere più utenti.
+>Puoi mappare più gruppi dell’applicazione a un gruppo Admin Console. Tuttavia, Adobe consiglia di effettuare la mappatura 1:1. Grazie al caricamento di un file CSV, la mappatura anticipata dei gruppi consente di invitare, creare, concedere autorizzazioni e aggiungere più utenti.
