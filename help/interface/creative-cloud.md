@@ -9,15 +9,15 @@ role: Admin
 level: Experienced
 exl-id: 41290ea3-86ce-4e9d-8c3c-bbe30c337c4c
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '178'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # Condivisione di cartelle e risorse Experience Cloud con Creative Cloud
 
-Condividi cartelle e risorse tra Experience Cloud e Creative Cloud. Collabora, annota risorse condivise e utilizzale in applicazioni di Experience Cloud come Adobe Social e Adobe Target. La cartella condivisa deve provenire da Experience Cloud.
+Condividi cartelle e risorse tra Experience Cloud e Creative Cloud. Collabora, commenta risorse condivise e utilizzale in applicazioni Experience Cloud come Adobe Social e Adobe Target. La cartella condivisa deve provenire da Experience Cloud.
 
 ## Benefici della condivisione {#section_4AA9939F38064280BB181D5F9E1FDEEE}
 
