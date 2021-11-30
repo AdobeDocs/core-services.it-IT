@@ -10,15 +10,15 @@ role: Admin
 level: Experienced
 exl-id: 3d12a1b1-c952-4b42-815d-f64b31429cec
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '265'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # Effetti delle modifiche al supporto dei cookie di terze parti sui clienti {#how-changes-to-third-party-cookie-support-impacts-customers}
 
-Il supporto per i cookie di terze parti è diventato più limitato in tutti i browser. In quanto tale, Adobe ha lavorato su nuove applicazioni che bilanciano accuratamente i requisiti dei clienti con il diritto alla privacy del consumatore in tutte le applicazioni Experience Cloud.
+Il supporto per i cookie di terze parti è diventato più limitato in tutti i browser. Adobe sta mettendo a punto nuove applicazioni che bilanciano con attenzione i requisiti dei clienti con il diritto alla privacy dei consumatori, per tutte le applicazioni Experience Cloud.
 
 L’elenco seguente illustra l’effetto dei cookie di terze parti sulle implementazioni correnti delle applicazioni di Adobe Experience Cloud:
 
