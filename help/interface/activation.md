@@ -12,9 +12,9 @@ role: Admin
 level: Experienced
 exl-id: d57f168b-6beb-48f2-b0d2-92593ceee62e
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '245'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Consulta la [Guida rapida di Experience Platform Launch](https://experienceleagu
 
 ## Experience Cloud [!UICONTROL Triggers] {#section_EEA3A8B5EFCB4F8BABC4ADAF3DD41831}
 
-[!UICONTROL Trigger di Experience Cloud] consente agli esperti di marketing di definire e monitorare i comportamenti chiave dei consumatori e di generare comunicazioni tra applicazioni da utilizzare in decisioni in tempo reale e nella personalizzazione.
+[!UICONTROL Experience Cloud Triggers] consente ai professionisti del marketing di definire e monitorare i comportamenti dei consumatori chiave e di generare comunicazioni tra diverse applicazioni da usare nelle decisioni in tempo reale e nella personalizzazione.
 
 <table id="table_AF6842470172429EA97C9B02163BD0C3"> 
  <thead> 
