@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
 source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1169'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Dopo l&#39;attivazione dell&#39;origine dati puoi:
 >
 >Per utilizzare la funzione Attributi del cliente, gli utenti devono appartenere anche a gruppi a livello di applicazione (Analytics o [!DNL Target]).
 
-Consulta [Gestione di utenti e prodotti Experience Cloud](admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9).
+Consulta [Gestire utenti e prodotti Experience Cloud](admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9).
 
 ## Creazione di un file di dati {#task_B5FB8C0649374C7A94C45DCF2878EA1A}
 
@@ -56,7 +56,7 @@ Questi dati sono dati aziendali dei clienti provenienti dal tuo sistema CRM. Pos
 
    ![Esempio di un file di dati di un cliente aziendale](assets/01_crs_usecase.png)
 
-1. Prima di continuare, controlla le informazioni importanti in [Requisiti dei file di dati](crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) prima di caricare il file.
+1. Prima di continuare, controlla le informazioni importanti in [Requisiti dei file di dati](crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) e dopo carica il file.
 1. [Crea un’origine di attributi cliente e carica i dati](t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78), come descritto di seguito.
 
 ## Creare un’origine di attributi e caricare il file di dati {#task_09DAC0F2B76141E491721C1E679AABC8}
@@ -146,7 +146,7 @@ Informazioni su come eliminare e sostituire gli attributi nello schema.
 
 ## Configurazione delle sottoscrizioni e attivazione dell&#39;origine attributo {#task_1ACA21198F0E46A897A320C244DFF6EA}
 
-La configurazione di una sottoscrizione imposta il flusso di dati tra l’Experience Cloud e le applicazioni. L&#39;attivazione dell&#39;origine attributo consente il flusso dei dati alle applicazioni sottoscritte. I record cliente che hai caricato vengono associati ai segnali ID in entrata provenienti dal sito web o dall&#39;applicazione.
+La configurazione di una sottoscrizione imposta il flusso di dati tra Experience Cloud e le applicazioni. L’attivazione dell’origine degli attributi consente il flusso dei dati verso le applicazioni sottoscritte. I record cliente che hai caricato vengono associati ai segnali ID in entrata provenienti dal sito web o dall&#39;applicazione.
 
 Consulta [Configurazione delle sottoscrizioni](subscription.md#concept_ECA3C44FA6D540C89CC04BA3C49E63BF).
 
@@ -158,7 +158,7 @@ Nella pagina [!UICONTROL Crea nuovo [o ]Modifica origine attributi del cliente],
 
 ## Utilizzo degli Attributi del cliente in Adobe Analytics {#task_7EB0680540CE4B65911B2C779210915D}
 
-Ora che i dati sono disponibili in applicazioni come Adobe Analytics, puoi creare rapporti sui dati, analizzarli e intraprendere l’azione appropriata nelle campagne di marketing.
+Con i dati ora disponibili in applicazioni come Adobe Analytics, puoi creare rapporti sui dati, analizzarli e intraprendere azioni appropriate nelle campagne di marketing.
 
 L’esempio seguente mostra un segmento di [!DNL Analytics] basato sugli attributi caricati. Questo segmento mostra gli utenti con sottoscrizione a [!DNL Photoshop Lightroom] il cui prodotto maggiormente lanciato è Photoshop.
 
@@ -168,7 +168,7 @@ Quando pubblichi un segmento in Experience Cloud, esso diventa disponibile in Ex
 
 ## Utilizzo degli Attributi del cliente in Adobe Target {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
-In [!DNL Target] puoi selezionare un attributo del cliente dalla sezione [!UICONTROL Profilo visitatore] al momento della creazione di un pubblico. Tutti gli attributi del cliente hanno il prefisso `crs.` nell’elenco. Per creare di tipi di pubblico combina questi attributi con altri attributi di dati.
+In [!DNL Target] puoi selezionare un attributo del cliente dalla sezione [!UICONTROL Profilo visitatore] al momento della creazione di un pubblico. Tutti gli attributi del cliente hanno il prefisso `crs.` nell’elenco. Per creare dei tipi di pubblico, combina questi attributi con altri attributi di dati.
 
 ![Utilizzo degli Attributi del cliente in Adobe Target](assets/crs-add-attribute-target.png)
 
