@@ -4,7 +4,7 @@ keywords: integrazioni;Triggers
 seo-description: How to configure Experience Cloud Triggers.
 seo-title: Triggers
 solution: Experience Cloud
-title: 'Panoramica degli Triggers '
+title: 'Panoramica di Triggers '
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
 feature: Admin Console
 topic: Administration
@@ -12,15 +12,15 @@ role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '702'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # Experience Cloud Triggers
 
-[!UICONTROL Triggers] in Experience Cloud consente di identificare, definire e monitorare i comportamenti chiave dei consumatori, e quindi generare comunicazioni tra applicazioni per coinvolgere nuovamente i visitatori.
+[!UICONTROL Triggers] in Experience Cloud consente di identificare, definire e monitorare i comportamenti chiave dei consumatori, per poi generare comunicazioni tra le diverse soluzioni in modo da coinvolgere nuovamente i visitatori.
 
 ## Panoramica di Triggers {#topic_4F21FCE9A64E46E8B6D51F494FA652A7}
 
