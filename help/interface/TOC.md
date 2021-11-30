@@ -5,9 +5,9 @@ breadcrumb-title: Componenti dell’interfaccia centrale di Experience Cloud
 user-guide-description: Scopri l’interfaccia di Experience Cloud, configura le preferenze, cerca informazioni e oggetti business. Accedi alla documentazione su gestione di utenti e prodotti, Attributi del cliente, Libreria tipi di pubblico, cookie e Experience Cloud Assets.
 index: true
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '344'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 95%
 + [Guida dei componenti dell’interfaccia centrale di Experience Cloud](experience-cloud.md)
 + Servizi Experience Cloud {#services}
    + [Servizi Experience Cloud](core-services-landing.md)
-   + [Abilitare l’implementazione per i servizi tra più applicazioni](core-services.md)
+   + [Abilitare l’implementazione dei servizi tra più applicazioni](core-services.md)
    + Libreria di tipi di pubblico di Experience Cloud {#audiences}
       + [Tipi di pubblico di Experience Cloud](audience-library.md)
       + [Creazione di un pubblico](t-audience-create.md)
@@ -54,7 +54,7 @@ ht-degree: 95%
    + [Organizzazioni e collegamento di account](organizations.md)
    + [Aggiornamento ad Analytics Premium e Experience Cloud](upgrade-to-analytics-premium.md)
    + [Integrazioni di Experience Cloud](marketing-cloud-integrations.md)
-   + [Utilizzo del recupero preventivo del DNS con applicazioni e servizi diversi](dns-prefetch.md)
+   + [Utilizzo del recupero preventivo del DNS con diverse applicazioni e servizi](dns-prefetch.md)
    + Cookie di Experience Cloud {#ec-cookies}
       + [Panoramica sui cookie di Experience Cloud](cookies-privacy.md)
       + [Cookie di prime parti in Experience Cloud](cookies-first-party.md)
