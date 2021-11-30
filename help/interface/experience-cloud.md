@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1333'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Accedi e verifica di essere nell&#39;[organizzazione](organizations.md) corretta
 1. Seleziona **[!UICONTROL Accedi con Adobe ID]**.
 1. Verifica di essere nell’organizzazione giusta.
 
-   ![Verifica di essere nell’organizzazione giusta](assets/organizations-menu.png)
+   ![Verifica di essere nell’organizzazione corretta](assets/organizations-menu.png)
 
    **Verifica l’organizzazione**
 
@@ -52,7 +52,7 @@ Dopo aver effettuato l’accesso ad Experience Cloud, è possibile accedere rapi
 
 Per accedere alle applicazioni e ai servizi Experience Cloud per i quali disponi dei diritti di accesso nella tua organizzazione, passa al selettore delle applicazioni ![](assets/menu-icon.png).
 
-![Accedere alle applicazioni di Experience Cloud](assets/platform-core-services.png)
+![Accedere alle applicazioni Experience Cloud](assets/platform-core-services.png)
 
 ## Supporto dei browser in Experience Cloud {#browser}
 
@@ -157,7 +157,7 @@ Experience Cloud usa i seguenti host per fornire l’applicazione e migliorare l
 
 ## Ottenere aiuto per l’amministrazione e i servizi tra diverse applicazioni
 
-Questa guida fornisce l’accesso all’Aiuto sull’amministrazione di utenti e prodotti Experience Cloud nell’Admin Console, per l’abilitazione delle applicazioni per i servizi Platform. Puoi anche accedere all’Aiuto per Libreria tipi di pubblico, Attributi del cliente, Experience Cloud Assets e altro ancora:
+Questa guida fornisce informazioni utili per l’amministrazione di utenti e prodotti Experience Cloud tramite Admin Console e l’abilitazione delle applicazioni per i servizi Platform. Puoi anche accedere all’Aiuto per Libreria tipi di pubblico, Attributi del cliente, Experience Cloud Assets e altro ancora:
 
 * [[!UICONTROL Libreria pubblico]](audience-library.md)
 * [[!UICONTROL Attributi del cliente]](attributes.md)
@@ -196,9 +196,9 @@ Sfrutta i tutorial e le guide pratiche disponibili in Experience League:
 
 ## Note sulla versione e guide relative a Experience Cloud
 
-* [Documentazione del prodotto per tutte le applicazioni Experience Cloud](https://experienceleague.adobe.com/docs/home.html?lang=it) - Cerca aiuto all&#39;interno di Informazioni e supporto per Experience Cloud
+* [Documentazione del prodotto per tutte le applicazioni Experience Cloud](https://experienceleague.adobe.com/docs/home.html?lang=it): cerca aiuto nella sezione Informazioni e supporto di Experience Cloud
 * [Note sulla versione e aggiornamenti dei prodotti](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it): le novità di Experience Cloud, tutti gli aggiornamenti per chi si abbona
-* [Esercitazioni per l&#39;implementazione dei servizi core](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=en): video ed esercitazioni sui servizi core
+* [Esercitazioni per l&#39;implementazione dei servizi core](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=it): video ed esercitazioni sui servizi core
 * [Assistenza degli esperti di Experience League](https://experienceleague.adobe.com/?lang=it): ottieni informazioni guidate dagli esperti e dalla community
 * [Formazione e training](https://helpx.adobe.com/it/learning.html?promoid=KAUDK): interagisci con Adobe per trarre il massimo dai nostri prodotti.
 * [Blog sull&#39;esperienza dei clienti](https://blog.adobe.com/it/topics/digital-transformation.html): leggi il blog Experience Cloud
