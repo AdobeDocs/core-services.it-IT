@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1282'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -84,11 +84,11 @@ Utilizzando questi ruoli, puoi delegare simultaneamente la gestione ad altri sen
 
 1. In Admin Console, seleziona **[!UICONTROL Utenti]**, quindi fai clic sul nome dell’utente.
 
-   ![Diritti amministrativi in Admin Console](assets/edit-admin-rights.png)
+   ![Diritti di amministrazione in Admin Console](assets/edit-admin-rights.png)
 
 1. Seleziona **[!UICONTROL Modifica diritti amministratore]**.
 
-   ![Modifica dei diritti amministrativi in Admin Console](assets/edit-admin-rights-page.png)
+   ![Modificare i diritti di amministrazione in Admin Console](assets/edit-admin-rights-page.png)
 
 1. Specifica i diritti di amministrazione dell’utente.
 1. Seleziona **[!UICONTROL Salva]**.
@@ -106,8 +106,8 @@ Ad esempio, puoi creare un profilo di prodotto contenente più strumenti di Anal
 | Elemento | Descrizione |
 |--- |--- |
 | Suite di rapporti | Attiva le autorizzazioni per suite di rapporti specifiche. |
-| Metriche | Attiva le autorizzazioni per il traffico, le conversioni, gli eventi personalizzati, gli eventi delle applicazioni, in base al contenuto e così via. |
-| Dimensioni | Personalizza l’accesso degli utenti a un livello granulare, compresi eVar, rapporti sul traffico, rapporti sulle applicazioni e rapporti sui percorsi. |
+| Metriche | Attiva le autorizzazioni per traffico, conversione, eventi personalizzati, eventi delle applicazioni, in base al contenuto e così via. |
+| Dimensioni | Personalizza l’accesso degli utenti a un livello granulare, inclusi eVar e rapporti sul traffico, sulle applicazioni e sui percorsi. |
 | Strumenti delle suite di rapporti | Attiva le autorizzazioni degli utenti per servizi web, gestione delle suite di rapporti, strumenti, rapporti ed elementi del dashboard. |
 | Strumenti di Analytics | Attiva le autorizzazioni degli utenti per elementi generali (fatturazione, registri e così via), gestione società, strumenti, accesso ai servizi web, Report Builder e integrazione con Data Connectors. Le impostazioni aziendali della categoria Personalizza di Admin Console sono state trasferite negli strumenti di Analytics. |
 
@@ -117,7 +117,7 @@ Ad esempio, puoi creare un profilo di prodotto contenente più strumenti di Anal
 
 La migrazione diventerà disponibile per i clienti in più fasi. Adobe ti invierà una notifica e ti fornirà assistenza quando arriverà il tuo momento di trasferire gli account utente esistenti da **[!UICONTROL Strumenti di amministrazione]** > **[!UICONTROL Gestione utenti]** all&#39;Admin Console.
 
-Dopo la migrazione, gli utenti effettueranno l’accesso utilizzando il proprio Adobe ID (o Enterprise ID) e si autenticheranno nelle applicazioni e nei servizi di Experience Cloud in [experience.adobe.com](https://experience.adobe.com). Gli utenti che tenteranno di accedere con i metodi precedenti ([!DNL my.omniture.com], [!DNL sc.omniture.com] e [!DNL experiencecloud.adobe.com]) verranno reindirizzati a [!DNL experience.adobe.com].
+Dopo la migrazione, gli utenti potranno accedere con il proprio Adobe ID (o Enterprise ID) e autenticarsi nelle applicazioni e nei servizi Experience Cloud nella pagina [experience.adobe.com](https://experience.adobe.com). Gli utenti che tenteranno di accedere con i metodi precedenti ([!DNL my.omniture.com], [!DNL sc.omniture.com] e [!DNL experiencecloud.adobe.com]) verranno reindirizzati a [!DNL experience.adobe.com].
 
 **Argomenti correlati**
 
@@ -129,9 +129,9 @@ In Adobe Target, un&#39;area di lavoro è un profilo di prodotto. Consente a un&
 
 Vedi:
 
-* [Autorizzazioni per gli utenti Enterprise](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=en)
-* [Gestire prodotti e profili](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)
-* Video: [Come configurare le aree di lavoro di Adobe Target in Adobe Admin Console](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* [Autorizzazioni per gli utenti Enterprise](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=it)
+* [Gestire prodotti e profili](https://helpx.adobe.com/it/enterprise/admin-guide.html/it/enterprise/using/manage-products.ug.html)
+* Video: [Come configurare le aree di lavoro di Adobe Target in Adobe Admin Console](https://helpx.adobe.com/it/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## Gestire profili di prodotto, tenant e gruppi di sicurezza in Campaign {#section_09CDF75366444CF5810CF321B7C712F3}
 
@@ -143,7 +143,7 @@ Consulta [Gestione di gruppi e utenti](https://experienceleague.adobe.com/docs/c
 
 ## Gestire la raccolta dati di Experience Platform (Launch) {#section_F2DA6778DD2D48AA8F794041971EE6B1}
 
-La [!UICONTROL Raccolta dati] di Experience Platform ([!UICONTROL Launch]) viene visualizzata sulla pagina [!UICONTROL Prodotti] in [!UICONTROL Admin Console]. Puoi includere altre applicazioni e altri servizi in un profilo di prodotto Launch.
+La [!UICONTROL Raccolta dati] di Experience Platform ([!UICONTROL Launch]) viene visualizzata sulla pagina [!UICONTROL Prodotti] in [!UICONTROL Admin Console]. Puoi includere altre applicazioni e servizi in un profilo di prodotto Launch.
 
 Invita gli utenti in [!UICONTROL Platform Launch] e assegna ruoli utente e autorizzazioni.
 
@@ -173,6 +173,6 @@ Consulta [Amministrazione](https://experienceleague.adobe.com/docs/audience-mana
 
 ### Requisiti di soluzioni e prodotti
 
-* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=en)
+* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=it)
 * [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/system-requirements.html?lang=it)
-* [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=en)
+* [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=it)
