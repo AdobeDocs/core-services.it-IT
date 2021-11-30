@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
 source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '508'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -81,7 +81,7 @@ In [!UICONTROL Regole], definisci le selezioni dell’attributo *`Home & Garden`
 
 ![Visitatori Chrome e Safari](assets/chrome_safari.png)
 
-Per un confronto, potresti aggiungere una regola *OR* per visualizzare tutti i visitatori in una sezione del sito, ad esempio Patio &amp; Furniture (Patio e mobili).
+Per un confronto, potresti aggiungere una regola *OR* per visualizzare tutti i visitatori in una sezione del sito, ad esempio Patio e mobili.
 
 ![Regola OR per un pubblico](assets/audiences_rule_patio.png)
 
