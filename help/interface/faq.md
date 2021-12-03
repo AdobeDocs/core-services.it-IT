@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '774'
-ht-degree: 100%
+source-git-commit: c6fe48c65994a8f743c8e80a58a0fbad386ffe49
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -53,7 +53,7 @@ La funzionalità fornita dall&#39;interfaccia Experience Cloud aggiunge più val
 
 ## Come posso risolvere i problemi sulla migrazione della mia azienda?
 
-[Contatta il supporto Adobe](https://experienceleague.adobe.com/?support-solution=General&amp;lang=it#support).
+[Contatta il supporto Adobe](https://experienceleague.adobe.com/?support-solution=General#support).
 
 ## Che cos’è il _provisioning?_
 
@@ -70,13 +70,13 @@ Provisioning in Experience Cloud significa:
 
 * La gestione di prodotti e adesioni utente viene eseguita in [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (collegamento prodotto).
 
-* **Importante:** gli amministratori di Analytics devono consultare [Gestire gli utenti di Analytics in Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=it) per informazioni sulla migrazione degli ID utente dagli strumenti di amministrazione di Analytics ad Admin Console.
+* **Importante:** gli amministratori di Analytics devono consultare [Gestire gli utenti di Analytics in Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=it) per informazioni sulla migrazione degli ID utente dagli strumenti di amministrazione di Analytics ad Admin Console.
 
 ## Cosa posso fare se qualcuno non riesce ad accedere a Experience Cloud?
 
 Gli amministratori di Admin Console possono concedere l&#39;accesso agli utenti. Gli utenti ricevono un’e-mail con le istruzioni di accesso.
 
-Potresti aver bisogno di [contattare il supporto Adobe](https://experienceleague.adobe.com/?support-solution=General&amp;lang=it#support) per verificare che la tua azienda disponga del provisioning completo.
+Potresti aver bisogno di [contattare il supporto Adobe](https://experienceleague.adobe.com/?support-solution=General#support) per verificare che la tua azienda disponga del provisioning completo.
 
 ## Dove va un utente per gestire il collegamento dell’account?
 
