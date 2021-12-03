@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '1282'
+source-git-commit: 3507af336715eb3664f8ce5176ddaf74ecbd7bcd
+workflow-type: tm+mt
+source-wordcount: '1281'
 ht-degree: 100%
 
 ---
@@ -121,7 +121,7 @@ Dopo la migrazione, gli utenti potranno accedere con il proprio Adobe ID (o Ente
 
 **Argomenti correlati**
 
-Per ulteriori informazioni, consulta [Migrazione degli ID utente di Analytics](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=it).
+Per ulteriori informazioni, consulta [Migrazione degli ID utente di Analytics](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=it).
 
 ## Gestire Adobe Target: profili di prodotto e aree di lavoro {#section_3860AF177C9E4C7E9C390D36A414F353}
 
@@ -129,9 +129,9 @@ In Adobe Target, un&#39;area di lavoro è un profilo di prodotto. Consente a un&
 
 Vedi:
 
-* [Autorizzazioni per gli utenti Enterprise](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=it)
-* [Gestire prodotti e profili](https://helpx.adobe.com/it/enterprise/admin-guide.html/it/enterprise/using/manage-products.ug.html)
-* Video: [Come configurare le aree di lavoro di Adobe Target in Adobe Admin Console](https://helpx.adobe.com/it/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* [Autorizzazioni per gli utenti Enterprise](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=en)
+* [Gestire prodotti e profili](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)
+* Video: [Come configurare le aree di lavoro di Adobe Target in Adobe Admin Console](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## Gestire profili di prodotto, tenant e gruppi di sicurezza in Campaign {#section_09CDF75366444CF5810CF321B7C712F3}
 
@@ -173,6 +173,6 @@ Consulta [Amministrazione](https://experienceleague.adobe.com/docs/audience-mana
 
 ### Requisiti di soluzioni e prodotti
 
-* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=it)
+* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=en)
 * [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/system-requirements.html?lang=it)
-* [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=it)
+* [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=en)
