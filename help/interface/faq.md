@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: c6fe48c65994a8f743c8e80a58a0fbad386ffe49
+source-git-commit: 84d33be461ef26c8aadba8f47bd93875356d3ad4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '830'
+ht-degree: 93%
 
 ---
 
@@ -54,6 +54,12 @@ La funzionalità fornita dall&#39;interfaccia Experience Cloud aggiunge più val
 ## Come posso risolvere i problemi sulla migrazione della mia azienda?
 
 [Contatta il supporto Adobe](https://experienceleague.adobe.com/?support-solution=General#support).
+
+## Come [!DNL Adobe Support] accedi al mio ambiente Adobe cloud per risolvere un problema ?
+
+[!DNL Adobe Support] Puoi inviare una richiesta di rappresentazione per la quale ricevi un’e-mail con marchio Adobe (ad esempio, di seguito) che richiede l’autorizzazione esplicita. L&#39;accesso è concesso per un periodo limitato. Una volta concesso, l&#39;accesso può essere revocato da te in qualsiasi momento. L’Adobe registra tutte le azioni intraprese dai rappresentanti Adobi.
+
+![](/help/interface/admin-getting-started/assets/support-email.png)
 
 ## Che cos’è il _provisioning?_
 
