@@ -8,9 +8,9 @@ topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
 source-git-commit: 087db5e8d9dd066567797fb426797e746cd7fe2c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '490'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -44,9 +44,9 @@ L&#39;immagine seguente è un esempio di un file di dati che mostra i dati dell&
 
 ![Cosa sono i dati cliente Enterprise?](assets/01_crs_usecase.png)
 
-Dopo aver generato il file dati, puoi caricarlo nell’origine di attributi cliente creata in **[!UICONTROL Experience Cloud]** > **[!UICONTROL Attributi del cliente]**.
+Dopo aver generato il file dati, puoi caricarlo nell’origine di Attributi del cliente creata in **[!UICONTROL Experience Cloud]** > **[!UICONTROL Attributi del cliente]**.
 
-Vedi [Caricare dati degli attributi del cliente](t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78) per scoprire questo flusso di lavoro.
+Consulta [Caricamento dei dati degli attributi del cliente](t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78) per conoscere questo flusso di lavoro.
 
 ## Esempi di Attributi del cliente in Analytics e Target {#section_4E77650F6CEE4C4ABCD0B3221A5AE5D9}
 
