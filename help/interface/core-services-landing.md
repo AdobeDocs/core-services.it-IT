@@ -7,16 +7,16 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
+source-git-commit: a4a1914856001a93967c6a63ad4d389138b33217
+workflow-type: tm+mt
 source-wordcount: '366'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
 # Servizi Experience Cloud {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
 
-Questa documentazione tratta le funzioni dell’intestazione unificata di Experience Cloud, ad esempio il servizio [!UICONTROL People] (Tipi di pubblico e Attributi del cliente), la gestione di utenti e prodotti per Experience Cloud, cookie, preferenze dell’account, notifiche e così via.
+Questa documentazione si applica alle funzioni dell’intestazione unificata dell’Experience Cloud, ad esempio [!UICONTROL Persone] servizi (tipi di pubblico e attributi del cliente), gestione di utenti e prodotti, ad Experience Cloud cookie, preferenze dell&#39;account, notifiche e così via.
 
 Per accedere a questi servizi in Experience Cloud, seleziona il **[!UICONTROL Selettore delle applicazioni]**
 ![Selettore dei servizi](assets/menu-icon.png).
