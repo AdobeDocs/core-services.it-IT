@@ -12,7 +12,7 @@ exl-id: 062576da-328e-4b46-9e71-5a25733d607a
 source-git-commit: 84d33be461ef26c8aadba8f47bd93875356d3ad4
 workflow-type: tm+mt
 source-wordcount: '830'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -55,9 +55,9 @@ La funzionalità fornita dall&#39;interfaccia Experience Cloud aggiunge più val
 
 [Contatta il supporto Adobe](https://experienceleague.adobe.com/?support-solution=General#support).
 
-## Come [!DNL Adobe Support] accedi al mio ambiente Adobe cloud per risolvere un problema ?
+## In che modo [!DNL Adobe Support] può accedere al mio ambiente cloud Adobe per risolvere un problema?
 
-[!DNL Adobe Support] Puoi inviare una richiesta di rappresentazione per la quale ricevi un’e-mail con marchio Adobe (ad esempio, di seguito) che richiede l’autorizzazione esplicita. L&#39;accesso è concesso per un periodo limitato. Una volta concesso, l&#39;accesso può essere revocato da te in qualsiasi momento. L’Adobe registra tutte le azioni intraprese dai rappresentanti Adobi.
+[!DNL Adobe Support] può inviare una richiesta di rappresentazione: riceverai un’e-mail con marchio Adobe (esempio di seguito) in cui ti si richiede l’autorizzazione esplicita. L’accesso è concesso per un periodo limitato. Una volta concesso, puoi revocare l’accesso in qualsiasi momento. Adobe registra tutte le azioni intraprese dai rappresentanti Adobe.
 
 ![](/help/interface/admin-getting-started/assets/support-email.png)
 
