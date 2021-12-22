@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
 source-git-commit: 3650e57eaaddbda74cd4af913a37b8dedb8b1933
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '537'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Informazioni sugli aggiornamenti della documentazione prodotto di Experience Clo
 
 **Aggiornato il 13/12/2021**
 
-È stato aggiornato il [domande frequenti sull&#39;amministrazione](faq.md) con informazioni su come Adobe Support può accedere all’ambiente cloud di Adobe per risolvere un problema.
+Sono state aggiornate le [domande frequenti sull’amministrazione](faq.md) con informazioni su come Adobe Support può accedere al tuo ambiente cloud Adobe per risolvere un problema.
 
 **Aggiornato il 28/10/2021**
 
@@ -45,7 +45,7 @@ Informazioni sugli aggiornamenti della documentazione prodotto di Experience Clo
 
 È stata aggiornata la pagina [Componenti centrali](experience-cloud.md) (pagina di destinazione di questa guida). È stato aggiunto il supporto per browser e lingue, aggiornamenti alle organizzazioni, accesso e ulteriori informazioni sui domini.
 
-**Aggiornato: 6/08/2021**
+**Aggiornato: 06/08/2021**
 
 Aggiornamento di [Cookie di prime parti](cookies-first-party.md).
 
