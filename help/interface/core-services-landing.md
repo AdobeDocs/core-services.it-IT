@@ -8,15 +8,15 @@ role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
 source-git-commit: a4a1914856001a93967c6a63ad4d389138b33217
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '366'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # Servizi Experience Cloud {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
 
-Questa documentazione si applica alle funzioni dell’intestazione unificata dell’Experience Cloud, ad esempio [!UICONTROL Persone] servizi (tipi di pubblico e attributi del cliente), gestione di utenti e prodotti, ad Experience Cloud cookie, preferenze dell&#39;account, notifiche e così via.
+Questa documentazione tratta le funzioni dell’intestazione unificata di Experience Cloud, ad esempio il servizio [!UICONTROL People] (Tipi di pubblico e Attributi del cliente), la gestione di utenti e prodotti per Experience Cloud, cookie, preferenze dell’account, notifiche e così via.
 
 Per accedere a questi servizi in Experience Cloud, seleziona il **[!UICONTROL Selettore delle applicazioni]**
 ![Selettore dei servizi](assets/menu-icon.png).
@@ -29,7 +29,7 @@ Il presente Aiuto descrive i seguenti prodotti e servizi:
 |--- |--- |
 | [Componenti dell’interfaccia centrale](experience-cloud.md) | Accedi alle preferenze dell’account, alla guida del prodotto e ad applicazioni e servizi. |
 | [Abilitare l’implementazione per i servizi Experience Cloud](core-services.md) | I clienti esistenti possono modernizzare l’esecuzione delle applicazioni e implementare Experience Cloud. In questo modo puoi sfruttare le funzioni Attributi del cliente e tipi di pubblico in Adobe Analytics, Audience Manager e Adobe Target. |
-| [People - Libreria tipi di pubblico](audience-library.md) | I tipi di pubblico sono raccolte di visitatori (un elenco di ID visitatore). Con la funzione Libreria tipi di pubblico di Adobe puoi gestire come tradurre i dati sui visitatori in segmentazione del pubblico. As |
+| [People - Libreria tipi di pubblico](audience-library.md) | I tipi di pubblico sono raccolte di visitatori (un elenco di ID visitatore). Con la funzione Libreria tipi di pubblico di Adobe puoi gestire come tradurre i dati sui visitatori in segmentazione del pubblico. Come |
 | [People - Attributi del cliente](attributes.md) | Crea casi di utilizzo di orchestrazione in tempo reale sulla base dei dati contestuali memorizzati negli eventi o nelle origini dati. [!UICONTROL Journey Orchestration] è un applicativo integrato all&#39;interno di Experience Platform. |
 | [Location Service](https://experienceleague.adobe.com/docs/places/using/home.html?lang=it) | Adobe [!UICONTROL Experience Platform Location Service] è un servizio di geolocalizzazione. Consente alle app mobili abilitate alla posizione di contestualizzare quest’ultima mediante l’uso di interfacce SDK avanzate e facili da usare, associate a un database flessibile di punti di interesse (POI). |
 | [Activation](activation.md) | Activation include il più recente prodotto di gestione tag denominato Experience Platform Data Collection (Launch) ed Experience Cloud Triggers. |
