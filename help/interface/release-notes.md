@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: 786299df8f07c440e278fb1dc187fd1c9ab5db1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4525'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Per un elenco degli aggiornamenti della documentazione, consulta [Experience Clo
 
 Per le note sulla versione riguardanti tutte le applicazioni, consulta [Note sulla versione di Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it).
 
-## Novembre - 2021
+## Novembre 2021
 
 | Funzione | Descrizione |
 | ------- | ------- |
@@ -34,7 +34,7 @@ Per le note sulla versione riguardanti tutte le applicazioni, consulta [Note sul
 
 {style=&quot;table-layout:auto&quot;}
 
-## Ottobre - 2021
+## Ottobre 2021
 
 | Funzione | Descrizione |
 | ------- | ------- |
@@ -82,12 +82,12 @@ La funzione Ricerca unificata è stata aggiornata per renderla disponibile anche
 
 {style=&quot;table-layout:auto&quot;}
 
-## Aprile - 2020
+## Aprile 2020
 
 * La pagina [!UICONTROL Feed] di Experience Cloud è stata dichiarata obsoleta. (EXC-8505)
 * La pagina di accesso di Experience Cloud è stata aggiornata con nuovi elementi di branding. (EXC-10747)
 
-## Febbraio - 2020
+## Febbraio 2020
 
 | Funzione | Descrizione |
 | -----------| ---------- |
@@ -100,18 +100,18 @@ La funzione Ricerca unificata è stata aggiornata per renderla disponibile anche
 * **Attributi del cliente**: l&#39;interfaccia della funzione Attributi del cliente adesso mostra anche gli stati di profili sincronizzati in Target. (MCUI-10231)
 * **Triggers servizio core:** per mancanza di utilizzo, è stato rimosso il punteggio di propensione &quot;Probabilità di tornare tra 30 giorni&quot; durante la creazione di un trigger di tipo Abandonment (Abbandono). (MCUI-10056)
 
-## Gennaio - 2020
+## Gennaio 2020
 
 * La pagina Feed è stata rimossa a dicembre 2019. Nel prodotto verrà visualizzato un avviso di funzione rimossa. (MCUI-10039)
 
-## Agosto - 2019
+## Agosto 2019
 
 * È stato risolto un problema critico nell&#39;accesso a Experience Cloud che per alcuni utenti causava l&#39;uscita dalla sessione. (MCUI-6908)
 * È stato aggiornato l&#39;accesso a Experience Cloud per migliorarne le prestazioni e ridurne la latenza. (MCUI-6854, MCUI-6869, MCUI-6883)
 * Sono state apportate modifiche cosmetiche all&#39;interfaccia. (MCUI-6861, MCUI-6911, MCUI-6862)
 * È stato risolto un problema a causa del quale la funzione [!UICONTROL Triggers] di Experience Cloud generava un&#39;interpretazione errata della clausola _Like_ nella definizione dell&#39;[!UICONTROL attivatore]. (MCUI-6611)
 
-## Aprile - 2019
+## Aprile 2019
 
 * Lo switcher dell’app è stato aggiornato per includere la suite di applicazioni Marketo in Experience Cloud e gli aggiornamenti di branding in Experience Platform. (MCUI-6529)
 * La pagina Home di Experience Cloud è stata aggiornata per includere i link di navigazione per le pagine Feed e Amministrazione. (MCUI-6682)
@@ -125,7 +125,7 @@ La funzione Ricerca unificata è stata aggiornata per renderla disponibile anche
 * È stato risolto un problema che impediva alla ricerca dell&#39;Aiuto di restituire risultati. (MCUI-1670)
 * Gestione eVar corretta e migliorata in Triggers. (MCUI-6400)
 
-## Versione 16.5.1 - 26 maggio 2016 {#section_3785F182BC13493F84903CA69EB6D0A8}
+## Rilascio 16.5.1 - 26 maggio 2016 {#section_3785F182BC13493F84903CA69EB6D0A8}
 
 **Funzioni e miglioramenti**
 
@@ -500,7 +500,7 @@ Nuove funzioni, problemi noti e correzioni nella [!DNL Adobe Experience Cloud] c
 * Puoi caricare più file mediante il metodo di caricamento rispetto al trascinamento della selezione. Per risultati migliori, effettua il caricamento dei file tramite [!UICONTROL Risorse].
 * Il collegamento [!DNL Search&Promote] non è disponibile dalla pagina [!UICONTROL Organizations &amp; Product Access (Organizzazione e accesso ai prodotti)].
 * Gli utenti di [!DNL Exchange] per migliorare la propria esperienza devono cancellare i loro cookie.
-* [!DNL Experience Cloud] L&#39;interfaccia di può subire rallentamenti se usata in parallelo da più utenti.
+* L&#39;interfaccia di [!DNL Experience Cloud] può subire rallentamenti se usata in parallelo da più utenti.
 * Alcuni utenti potrebbero vedere i propri contenuti di [!DNL Creative Cloud] rimossi dalla propria cartella se il contenuto in questione non è condiviso in [!DNL Experience Cloud].
 * Dopo 15 minuti di inattività verrai disconnesso. Inoltre, la disconnessione in una località comporta anche la disconnessione da [!DNL Experience Cloud].
 * Alcuni utenti potrebbero avere dei problemi a collegare i loro account di Audience Manager e a [!DNL Experience Cloud].
@@ -633,7 +633,7 @@ Nuove funzioni, problemi noti e correzioni nella [!DNL Adobe Experience Cloud] c
 * I dati condivisi da [!DNL Media Optimizer] non sono correttamente rappresentati in [!DNL Experience Cloud].
 * Adobe [!DNL Media Optimizer] non crea gli utenti in maniera automatica quando l&#39;utente viene creato in [!DNL Experience Cloud].
 * Non è possibile collegare [!DNL Experience Cloud] ad [!DNL Adobe Target] se l&#39;accesso ad [!DNL Adobe Target] può essere utilizzato su più server di [!DNL Target].
-* [!DNL Experience Cloud] L&#39;interfaccia di può subire rallentamenti se usata in parallelo da più utenti.
+* L&#39;interfaccia di [!DNL Experience Cloud] può subire rallentamenti se usata in parallelo da più utenti.
 * Il collegamento [!DNL Search&Promote] non è disponibile dalla pagina [!UICONTROL Organizations &amp; Product Access (Organizzazione e accesso ai prodotti)].
 * Sulle schede di simulazione di [!DNL Adobe Media Optimizer] non viene eseguito il rendering in maniera corretta.
 * I filtri applicati ai report con tendenze [!DNL Analytics] sono applicati alle schede in [!DNL Experience Cloud].
