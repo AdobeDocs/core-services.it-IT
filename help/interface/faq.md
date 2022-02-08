@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: 84d33be461ef26c8aadba8f47bd93875356d3ad4
+source-git-commit: fef91c95f8ce5c8791b345ce64c99cd61a733966
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 100%
+source-wordcount: '776'
+ht-degree: 97%
 
 ---
 
@@ -59,7 +59,7 @@ La funzionalità fornita dall&#39;interfaccia Experience Cloud aggiunge più val
 
 [!DNL Adobe Support] può inviare una richiesta di rappresentazione: riceverai un’e-mail con marchio Adobe (esempio di seguito) in cui ti si richiede l’autorizzazione esplicita. L’accesso è concesso per un periodo limitato. Una volta concesso, puoi revocare l’accesso in qualsiasi momento. Adobe registra tutte le azioni intraprese dai rappresentanti Adobe.
 
-![](/help/interface/admin-getting-started/assets/support-email.png)
+![Adobe di casi di supporto](assets/support-email.png)
 
 ## Che cos’è il _provisioning?_
 
@@ -96,23 +96,11 @@ Consulta [Gestire gli account utente](organizations.md#topic_C31CB834F109465A82E
 
 ## Che cos’è un’organizzazione?
 
-Un’*organizzazione* è l’entità che consente all’amministratore di configurare gruppi e utenti e di controllare il single sign-on in Experience Cloud. L’organizzazione funziona come un’azienda per il log-in che comprende tutti i prodotti e le applicazioni Experience Cloud. Nella maggior parte dei casi, un’organizzazione è il nome dell’azienda. Tuttavia, un’azienda può avere più organizzazioni.
+Un’[organizzazione](organizations.md) è l’entità che consente all’amministratore di configurare gruppi e utenti e di controllare il single sign-on in Experience Cloud. L’organizzazione funziona come un’azienda per il log-in che comprende tutti i prodotti e le applicazioni Experience Cloud. Nella maggior parte dei casi, un’organizzazione è il nome dell’azienda. Tuttavia, un’azienda può avere più organizzazioni.
 
 ## Dove posso trovare l’ID organizzazione IMS?
 
-Consulta [Ricerca dell’ID organizzazione](organizations.md).
-
-L’ID organizzazione viene visualizzato nella pagina di destinazione di Experience Cloud e nella [pagina di destinazione di Admin Console](https://adminconsole.adobe.com).
-
-In alternativa, se sei un amministratore, puoi accedere ad Admin Console ([https://adminconsole.adobe.com](https://adminconsole.adobe.com)) per un’organizzazione specifica e visualizzare il tuo lD organizzazione IMS nell’URL.
-
-Ad esempio, nell’URL seguente:
-
-`https://adminconsole.adobe.com/C538193582390300A495CC9@AdobeOrg/overview`
-
-L’ID è:
-
-`C538193582390300A495CC9@AdobeOrg`
+Vedi [Ricerca dell&#39;ID organizzazione](organizations.md) per i dettagli.
 
 ## Cosa devo fare quando uno dei miei utenti lascia l’azienda?
 
