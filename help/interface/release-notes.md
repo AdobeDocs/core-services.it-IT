@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 786299df8f07c440e278fb1dc187fd1c9ab5db1f
-workflow-type: ht
-source-wordcount: '4525'
-ht-degree: 100%
+source-git-commit: 3fdeeeda77f1c779aff7ecbb3a2b6e8a1ad192d8
+workflow-type: tm+mt
+source-wordcount: '4606'
+ht-degree: 98%
 
 ---
 
@@ -23,6 +23,14 @@ Funzionalità, note sulla versione e problemi noti per l’interfaccia component
 Per un elenco degli aggiornamenti della documentazione, consulta [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
 Per le note sulla versione riguardanti tutte le applicazioni, consulta [Note sulla versione di Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it).
+
+## Febbraio 2022
+
+| Funzione | Descrizione |
+| ------- |-------|
+| Scelte rapide (**[!UICONTROL Recenti]**) aggiunto a [Experience Cloud](https://experience.adobe.com/home) home | Puoi accedere alle scorciatoie per il lavoro più recente su Journey Optimizer ed Experience Platform nella nuova sezione _Recenti_ nella pagina di destinazione. Questo aggiornamento include anche miglioramenti generali del layout e della reattività. |
+| **[!UICONTROL Sandbox]** spostati nella barra dell’intestazione | L’indicatore Sandbox è ora integrato nell’intestazione di tutte le applicazioni dell’interfaccia di Experience Platform. Vedi [Sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=it) in Experience Platform per ulteriori informazioni. |
+
 
 ## Novembre 2021
 
