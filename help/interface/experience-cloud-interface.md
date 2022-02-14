@@ -6,8 +6,8 @@ feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: ht
+source-git-commit: 5281aededf07508cb49ecd4f3017ccec3d4851fb
+workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 100%
 
@@ -78,7 +78,7 @@ Per accedere ai servizi Experience Cloud di tcui disponi, seleziona il selettore
 
 ![Accedere alle applicazioni Experience Cloud](assets/platform-core-services.png)
 
-## Ricerca e supporto in Experience Cloud {#search}
+## Ricerca e supporto in Experience Cloud {#search-support}
 
 La funzione di ricerca di Experience Cloud consente di trovare risorse utili (documentazione, tutorial e corsi) su [Experience League](https://experienceleague.adobe.com/?lang=it#home).
 
