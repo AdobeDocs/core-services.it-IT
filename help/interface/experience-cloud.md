@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 5281aededf07508cb49ecd4f3017ccec3d4851fb
+source-git-commit: a13cc6b69955653f851aa21eb055c5c21b860791
 workflow-type: tm+mt
-source-wordcount: '1354'
-ht-degree: 98%
+source-wordcount: '1541'
+ht-degree: 82%
 
 ---
 
@@ -105,18 +105,59 @@ Il menu [!UICONTROL Aiuto] consente inoltre di accedere a:
 * **[!UICONTROL Stato]:** passa a `https://status.adobe.com/experience_cloud` per controllare lo stato operativo del prodotto e [!UICONTROL gestire gli abbonamenti].
 * **[!UICONTROL Developer Connection]:** naviga in `adobe.io` e accedi alla documentazione per gli sviluppatori.
 
-## Ricerca globale di oggetti ed entità {#globally-search}
+## [!UICONTROL Ricerca unificata] per oggetti ed entità {#globally-search}
 
-La ricerca globale consente di trovare oggetti o entità business ricercabili in modalità semplice, coerente e immediata. Questa ricerca fa emergere gli oggetti utilizzati di recente.
+La [!UICONTROL Ricerca unificata] la ricerca consente di trovare oggetti o entità aziendali ricercabili in un’esperienza semplice, coerente e semplice. Questa ricerca fa emergere gli oggetti utilizzati di recente.
 
 ![Ricerca globale di oggetti ed entità](assets/platform-search.png)
 
->[!NOTE]
->
->La ricerca globale non è disponibile in tutte le applicazioni Experience Cloud, ma verrà aggiunta alle applicazioni pertinenti man mano che vengono indicizzati più contenuti. Disponibilità a luglio 2021:
+### Disponibilità
 
-* Experience Platform
-* Journey Optimizer
+La ricerca unificata viene visualizzata nella parte superiore della pagina (nell’intestazione dell’Experience Cloud) ed è sempre visibile per i prodotti supportati, che al momento sono:
+
+* Experience Platform (AEP)
+* Journey Optimizer (AJO)
+
+Poiché viene indicizzato più contenuto, questa funzione verrà aggiunta alle applicazioni pertinenti.
+
+### Oggetti e campi ricercati
+
+Mentre si digita, i primi risultati corrispondenti degli Oggetti a cui si ha accesso per la visualizzazione.
+
+![Ricerca unificata in Experience Cloud](assets/unified-search-results.png)
+
+Gli oggetti business ricercabili includono:
+
+* Segmenti (Nome, Descrizione)
+* Schema (Nome, Descrizione)
+* Set di dati (Nome, Descrizione)
+* Origini (Nome, Descrizione)
+* Destinazioni (Nome, Descrizione)
+* Query (Nome, Descrizione)
+* Messaggi (Nome, Descrizione)
+* Offerte (Nome, Descrizione)
+* Componenti (Nome, Descrizione)
+* Percorsi (Nome, Descrizione)
+
+Se una parola chiave corrisponde a una pagina di navigazione è possibile ottenere un collegamento di accesso rapido ai set di dati di esempio della pagina di navigazione.
+
+Sono inoltre disponibili gli articoli della guida di Experience League e Communities. Sono supportate le query per lingue naturali.
+
+Ad esempio: _Come creare uno schema_ produce i risultati dell&#39;Experience League in _[!UICONTROL Apprendimento]_:
+
+![Aiuto per la ricerca unificata nell’Experience Cloud](assets/unified-search-learning.png)
+
+Gli algoritmi di ricerca visualizzano per primi i record più rilevanti. L’ordine dei risultati dipende da diversi fattori, quali:
+
+* Autorizzazioni utente per accedere agli oggetti
+* Percentuale corrispondente
+* Corrispondenza esatta
+* La _[!UICONTROL Risultati principali]_ La sezione mostra i primi 30 risultati.
+
+Per perfezionare la ricerca, fai clic su una delle seguenti opzioni:
+
+* **[!UICONTROL Tutto l&#39;apprendimento]**: Apre la ricerca in Experience League
+* **[!UICONTROL Mostra tutto...]**: Consente di perfezionare e filtrare ulteriormente i risultati
 
 ## Profilo utente e preferenze account {#preferences}
 
