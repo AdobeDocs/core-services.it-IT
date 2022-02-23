@@ -12,7 +12,7 @@ exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
 source-git-commit: fef91c95f8ce5c8791b345ce64c99cd61a733966
 workflow-type: tm+mt
 source-wordcount: '972'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Accedi e verifica di essere nell&#39;[organizzazione](organizations.md#topic_C31
 | [Avvia Admin Console](admin-getting-started.md) | Admin Console è la posizione centrale per la gestione degli utenti Adobe e delle autorizzazioni ai prodotti dell&#39;intera l&#39;organizzazione.<br>Puoi accedere ad Admin Console anche mediante un [collegamento diretto](https://adminconsole.adobe.com). |
 | [Gestione degli utenti di Creative Cloud](t-admin-add-cc-user.md) | Experience Cloud Assets consente di collaborare, sincronizzare e condividere cartelle con designer e altri team creativi tramite Creative Cloud. Da qui puoi gestire gli utenti di Creative Cloud che sono stati approvati per collaborare con la tua organizzazione. |
 | [Mappa le suite di rapporti](core-services.md) | (Solo Analytics): i servizi di base di Experience Cloud sono associati a un&#39;organizzazione invece che a una singola suite di rapporti. Per garantire il corretto funzionamento di questi servizi, ogni suite di rapporti di Analytics deve essere mappata su un&#39;organizzazione. (questa attività fa parte di un flusso di lavoro più ampio correlato alla sezione [abilitare Analytics per i servizi di base](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)). |
-| [ID organizzazione](organizations.md) | La *ID organizzazione* si trova nell’URL quando nell’Admin Console. È inoltre possibile visualizzarlo nel [!UICONTROL Debugger dati utente] pop-up (`ctrl+i` o `cmd+i`) da qualsiasi pagina in `https://experience.adobe.com`. L&#39;ID è associato all&#39;azienda con provisioning di Experience Cloud. Questo ID è una stringa alfanumerica composta da 24 caratteri, seguita da (deve includere) @AdobeOrg. |
+| [ID organizzazione](organizations.md) | L’*ID organizzazione* si trova nell’URL in Admin Console. Puoi trovarlo anche nella finestra a comparsa [!UICONTROL Debugger dati utente] (`ctrl+i` o `cmd+i`) da qualsiasi pagina in `https://experience.adobe.com`. L&#39;ID è associato all&#39;azienda con provisioning di Experience Cloud. Questo ID è una stringa alfanumerica composta da 24 caratteri, seguita da (deve includere) @AdobeOrg. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -82,7 +82,7 @@ Puoi modificare i dati personali e specificare un&#39; [organizzazione](admin-ge
 
 Ricevi notifiche (tramite e-mail o nel prodotto) su aggiornamenti di sistema, avvisi di manutenzione, post, menzioni e risorse condivise. Puoi inoltre specificare i prodotti e le soluzioni per cui desideri ricevere notifiche, incluso lo stato di caricamento per Attributi del cliente.
 
-Per passare a Notifiche, seleziona l’icona **[!UICONTROL Notifiche]**![](assets/notifications-icon.png), quindi l’icona **[!UICONTROL Impostazioni]** ![](assets/icon_edit_board.png).
+Per passare a Notifiche, seleziona l’icona **[!UICONTROL Notifiche]** ![](assets/notifications-icon.png), quindi l’icona **[!UICONTROL Impostazioni]** ![](assets/icon_edit_board.png).
 
 Puoi ordinare la visualizzazione delle notifiche in base ai tipi di messaggio che ti interessano e cercare le notifiche. È inoltre possibile:
 

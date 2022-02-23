@@ -12,7 +12,7 @@ exl-id: 062576da-328e-4b46-9e71-5a25733d607a
 source-git-commit: fef91c95f8ce5c8791b345ce64c99cd61a733966
 workflow-type: tm+mt
 source-wordcount: '776'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ La funzionalità fornita dall&#39;interfaccia Experience Cloud aggiunge più val
 
 [!DNL Adobe Support] può inviare una richiesta di rappresentazione: riceverai un’e-mail con marchio Adobe (esempio di seguito) in cui ti si richiede l’autorizzazione esplicita. L’accesso è concesso per un periodo limitato. Una volta concesso, puoi revocare l’accesso in qualsiasi momento. Adobe registra tutte le azioni intraprese dai rappresentanti Adobe.
 
-![Adobe di casi di supporto](assets/support-email.png)
+![Caso di supporto Adobe](assets/support-email.png)
 
 ## Che cos’è il _provisioning?_
 
@@ -100,7 +100,7 @@ Un’[organizzazione](organizations.md) è l’entità che consente all’ammini
 
 ## Dove posso trovare l’ID organizzazione IMS?
 
-Vedi [Ricerca dell&#39;ID organizzazione](organizations.md) per i dettagli.
+Per informazioni, consulta [Trovare l’ID organizzazione](organizations.md).
 
 ## Cosa devo fare quando uno dei miei utenti lascia l’azienda?
 

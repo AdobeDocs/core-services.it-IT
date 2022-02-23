@@ -12,7 +12,7 @@ exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
 source-git-commit: fef91c95f8ce5c8791b345ce64c99cd61a733966
 workflow-type: tm+mt
 source-wordcount: '550'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -32,17 +32,17 @@ Ad esempio, per un’organizzazione con Federated ID e il dominio `adobecustomer
 
 ![Risultato del passaggio](assets/organization-switch.png)
 
-## Trova l&#39;ID organizzazione {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
+## Trovare l’ID organizzazione {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
 
 Potrebbe essere necessario individuare l’ID organizzazione a scopo di assistenza. Puoi verificare di essere nell’organizzazione corretta o cambiare organizzazione utilizzando il menu **[!UICONTROL Organizzazione]**.
 
 L’ID organizzazione è l’ID associato all’azienda con provisioning di Experience Cloud. Questo ID è una stringa alfanumerica composta da 24 caratteri, seguita da (deve includere) `@AdobeOrg`.
 
-Puoi visualizzare l&#39;ID organizzazione insieme ad altre informazioni sull&#39;account utilizzando una scelta rapida da tastiera **Ctrl+i** da qualsiasi pagina in `https://experience.adobe.com`, quindi fai clic su **[!UICONTROL Organizzazioni assegnate]** nella finestra di dialogo.
+Per trovare l’ID organizzazione e altre informazioni sull’account, utilizza la scelta rapida da tastiera **Ctrl+i** da qualsiasi pagina in `https://experience.adobe.com`, quindi fai clic sulla scheda **[!UICONTROL Organizzazioni assegnate]** nella finestra di dialogo.
 
-![ID organizzazione assegnato](assets/assigned-organization.png)
+![ID delle organizzazioni assegnate](assets/assigned-organization.png)
 
-In alternativa, gli amministratori possono accedere all’Admin Console (passa a [https://adminconsole.adobe.com](https://adminconsole.adobe.com)) e visualizza l’ID organizzazione IMS nell’URL.
+In alternativa, gli amministratori possono accedere ad Admin Console (da [https://adminconsole.adobe.com](https://adminconsole.adobe.com)) e visualizzare l’ID organizzazione IMS nell’URL.
 
 Ad esempio, nell’URL seguente:
 

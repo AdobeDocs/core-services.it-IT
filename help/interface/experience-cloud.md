@@ -11,7 +11,7 @@ exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: cef76ac81d70488ef166fbca9a5a691fb1331a0b
 workflow-type: tm+mt
 source-wordcount: '1540'
-ht-degree: 81%
+ht-degree: 82%
 
 ---
 
@@ -35,7 +35,7 @@ Accedi e verifica di essere nell&#39;[organizzazione](organizations.md) corretta
 1. Passa ad [Adobe Experience Cloud](https://experience.adobe.com).
 1. Digita il tuo indirizzo e-mail Adobe, quindi seleziona **[!UICONTROL Continua]**.
 
-   Amministratori, consulta [Experience Cloud di autenticazione utente](admin-getting-started.md#migration) per importanti aggiornamenti ai tipi di identità (Business ID).
+   Se sei un Amministratore, consulta [Autenticazione utente di Experience Cloud](admin-getting-started.md#migration) per importanti aggiornamenti ai tipi di identità (Business ID).
 
 1. Seleziona un account.
 1. Digita la tua password.
