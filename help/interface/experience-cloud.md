@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: cef76ac81d70488ef166fbca9a5a691fb1331a0b
+source-git-commit: ae43fd46ec2e525656994b8d2d843d095cfe2daf
 workflow-type: tm+mt
-source-wordcount: '1540'
-ht-degree: 82%
+source-wordcount: '1285'
+ht-degree: 97%
 
 ---
 
@@ -104,60 +104,6 @@ Il menu [!UICONTROL Aiuto] consente inoltre di accedere a:
 * **[!UICONTROL Feedback]:** invia feedback sulla tua esperienza nell’uso di Experience Cloud. Il tuo feedback viene utilizzato per migliorare i prodotti e i servizi di Adobe.
 * **[!UICONTROL Stato]:** passa a `https://status.adobe.com/experience_cloud` per controllare lo stato operativo del prodotto e [!UICONTROL gestire gli abbonamenti].
 * **[!UICONTROL Developer Connection]:** naviga in `adobe.io` e accedi alla documentazione per gli sviluppatori.
-
-## [!UICONTROL Ricerca unificata] per oggetti ed entità {#globally-search}
-
-La [!UICONTROL Ricerca unificata] la ricerca consente di trovare oggetti o entità aziendali ricercabili in un’esperienza semplice, coerente e semplice. Questa ricerca fa emergere gli oggetti utilizzati di recente.
-
-![Ricerca globale di oggetti ed entità](assets/platform-search.png)
-
-### Disponibilità
-
-La ricerca unificata viene visualizzata nella parte superiore della pagina (nell’intestazione dell’Experience Cloud) ed è sempre visibile per i prodotti supportati, che al momento sono:
-
-* Experience Platform (AEP)
-* Journey Optimizer (AJO)
-
-Poiché è stato indicizzato più contenuto, questa funzione viene aggiunta alle applicazioni pertinenti.
-
-### Oggetti e campi ricercati
-
-Mentre si digita, i primi risultati corrispondenti degli Oggetti a cui si ha accesso per la visualizzazione.
-
-![Ricerca unificata in Experience Cloud](assets/unified-search-results.png)
-
-Gli oggetti business ricercabili includono:
-
-* Segmenti (Nome, Descrizione)
-* Schema (Nome, Descrizione)
-* Set di dati (Nome, Descrizione)
-* Origini (Nome, Descrizione)
-* Destinazioni (Nome, Descrizione)
-* Query (Nome, Descrizione)
-* Messaggi (Nome, Descrizione)
-* Offerte (Nome, Descrizione)
-* Componenti (Nome, Descrizione)
-* Percorsi (Nome, Descrizione)
-
-Se una parola chiave corrisponde a una pagina di navigazione, puoi ottenere un collegamento di accesso rapido ai set di dati di esempio della pagina di navigazione.
-
-Sono inoltre disponibili gli articoli della guida di Experience League e Communities. Sono supportate le query per lingue naturali.
-
-Ad esempio: _Come creare uno schema_ produce i risultati dell&#39;Experience League in _[!UICONTROL Apprendimento]_:
-
-![Aiuto per la ricerca unificata nell’Experience Cloud](assets/unified-search-learning.png)
-
-Gli algoritmi di ricerca visualizzano per primi i record più rilevanti. L’ordine dei risultati dipende da diversi fattori, quali:
-
-* Autorizzazioni utente per accedere agli oggetti
-* Percentuale corrispondente
-* Corrispondenza esatta
-* La _[!UICONTROL Risultati principali]_ La sezione mostra i primi 30 risultati.
-
-Per perfezionare la ricerca, fai clic su una delle seguenti opzioni:
-
-* **[!UICONTROL Tutto l&#39;apprendimento]**: Apre la ricerca in Experience League.
-* **[!UICONTROL Mostra tutto...]**: Consente di perfezionare e filtrare ulteriormente i risultati.
 
 ## Profilo utente e preferenze account {#preferences}
 

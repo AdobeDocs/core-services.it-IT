@@ -4,10 +4,10 @@ user-guide-title: 'Componenti dell’interfaccia centrale di Experience Cloud '
 breadcrumb-title: Componenti dell’interfaccia centrale di Experience Cloud
 user-guide-description: Scopri l’interfaccia di Experience Cloud, configura le preferenze, cerca informazioni e oggetti business. Accedi alla documentazione su gestione di utenti e prodotti, Attributi del cliente, Libreria tipi di pubblico, cookie e Experience Cloud Assets.
 index: true
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '344'
-ht-degree: 100%
+source-git-commit: ce728958df73605700a11c7aa2b95479a5632f9e
+workflow-type: tm+mt
+source-wordcount: '349'
+ht-degree: 98%
 
 ---
 
@@ -17,6 +17,7 @@ ht-degree: 100%
 + [Guida dei componenti dell’interfaccia centrale di Experience Cloud](experience-cloud.md)
 + Servizi Experience Cloud {#services}
    + [Servizi Experience Cloud](core-services-landing.md)
+   + [Ricerca unificata in Experience Cloud](search-experience-cloud.md)
    + [Abilitare l’implementazione dei servizi tra più applicazioni](core-services.md)
    + Libreria di tipi di pubblico di Experience Cloud {#audiences}
       + [Tipi di pubblico di Experience Cloud](audience-library.md)
