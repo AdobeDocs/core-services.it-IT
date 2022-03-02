@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: f03a0702b1f95dd8dfafbe84afc85e48f2aa9e5c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4606'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -28,8 +28,8 @@ Per le note sulla versione riguardanti tutte le applicazioni, consulta [Note sul
 
 | Funzione | Descrizione |
 | ------- |-------|
-| Scelte rapide (**[!UICONTROL Recenti]**) aggiunto a [Experience Cloud](https://experience.adobe.com/home) home | Puoi accedere alle scorciatoie per il lavoro più recente su Journey Optimizer ed Experience Platform nella nuova sezione _Recenti_ nella pagina di destinazione. Questo aggiornamento include anche miglioramenti generali del layout e della reattività. |
-| **[!UICONTROL Sandbox]** spostati nella barra dell’intestazione | L’indicatore Sandbox è ora integrato nell’intestazione di tutte le applicazioni dell’interfaccia di Experience Platform. Vedi [Sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=it) in Experience Platform per ulteriori informazioni. |
+| Scelte rapide (**[!UICONTROL Recenti]**) aggiunte alla pagina home di [Experience Cloud](https://experience.adobe.com/home?lang=it) | Puoi accedere alle scelte rapide per il lavoro più recente su Journey Optimizer ed Experience Platform nella nuova intestazione _Recenti_ nella pagina di destinazione. Questo aggiornamento include anche miglioramenti generali del layout e della reattività. |
+| **[!UICONTROL Sandbox]** spostati nella barra dell’intestazione | L’indicatore Sandbox è ora integrato nell’intestazione di tutte le applicazioni dell’interfaccia di Experience Platform. Per ulteriori informazioni, consulta [Sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=it) in Experience Platform. |
 
 ## Novembre 2021
 
