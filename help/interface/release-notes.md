@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: f03a0702b1f95dd8dfafbe84afc85e48f2aa9e5c
-workflow-type: ht
-source-wordcount: '4606'
-ht-degree: 100%
+source-git-commit: e2d1c99e191a14622126d868fce45c5ce88e571f
+workflow-type: tm+mt
+source-wordcount: '4640'
+ht-degree: 99%
 
 ---
 
@@ -23,6 +23,12 @@ Funzionalità, note sulla versione e problemi noti per l’interfaccia component
 Per un elenco degli aggiornamenti della documentazione, consulta [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
 Per le note sulla versione riguardanti tutte le applicazioni, consulta [Note sulla versione di Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it).
+
+## Marzo - 2022
+
+| Funzione | Descrizione |
+| ------- |-------|
+| Accesso [!UICONTROL Recenti] in Experience Platform e Journey Optimizer tramite la barra di ricerca | Gli utenti possono ora accedere agli oggetti a cui è stato effettuato l’accesso di recente da ogni pagina di AEP e AJO tramite la barra di ricerca unificata. |
 
 ## Febbraio 2022
 
