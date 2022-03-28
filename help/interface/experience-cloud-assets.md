@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '356'
-ht-degree: 100%
+source-git-commit: 77e99651b49fa411a9af941bbf73b746e05a3609
+workflow-type: tm+mt
+source-wordcount: '383'
+ht-degree: 92%
 
 ---
 
@@ -54,6 +54,8 @@ Passa a una risorsa (o una directory di risorse), quindi seleziona **[!UICONTROL
 La barra degli strumenti consente di accedere rapidamente a funzioni quali: Cerca, Timeline, Rappresentazioni, Modifica, Annota e Scarica.
 
 ![Accedere alla barra degli strumenti](assets/asset-tools.png)
+
+! Per eliminare le risorse utilizzate o in uso in Target, devi rimuovere tutti gli utilizzi di tali risorse.
 
 ## Modificare le risorse {#section_CD3C55A9D4574455B94D0955391C8FEC}
 
