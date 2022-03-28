@@ -8,16 +8,16 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
-source-git-commit: 77e99651b49fa411a9af941bbf73b746e05a3609
+source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 92%
+source-wordcount: '363'
+ht-degree: 95%
 
 ---
 
 # Panoramica di Experience Cloud Assets
 
-Experience Cloud Assets fornisce un archivio unico e centralizzato di risorse pronte per le attività di marketing da condividere tra le diverse applicazioni. Una risorsa è un documento, un’immagine, un video o un file audio (o parte di essi) che può avere più rappresentazioni e risorse secondarie (ad esempio, livelli in un file [!DNL Photoshop], slide in un file [!DNL PowerPoint], pagine in un PDF e file in un file ZIP).
+Experience Cloud Assets fornisce un archivio unico e centralizzato di risorse pronte per le attività di marketing da condividere tra le diverse applicazioni. Una risorsa è un documento, un’immagine, un video o dell’audio digitale (o parte di essi) che può avere più rappresentazioni e risorse secondarie (ad esempio, livelli in un file [!DNL Photoshop], slide in un file [!DNL PowerPoint], pagine in un file PDF e file in un file ZIP).
 
 I servizi Assets includono:
 
@@ -26,10 +26,9 @@ I servizi Assets includono:
 
 L’utilizzo di Assets migliora la coerenza e la conformità al marchio, velocizzando il time-to-market. Puoi semplificare i flussi di lavoro nelle applicazioni:
 
-* **[!DNL Social]**: pubblicazione su canali social, Facebook, Twitter, LinkedIn, Google+.
-* **[!DNL Target]**: creazione di esperienze per A/B e test multivariati.
-* **[!DNL Media Optimizer]**: sviluppo di unità tra diversi canali e campagne.
-* **[!DNL Campaign]**: posizionamento di risorse nelle newsletter e campagne via e-mail.
+* **[!DNL Adobe Target]**: creazione di esperienze per A/B e test multivariati.
+* **[!DNL Ad Cloud]**: sviluppo di unità tra diversi canali e campagne.
+* **[!DNL Adobe Campaign]**: posizionamento di risorse nelle newsletter e campagne via e-mail.
 
 In [!UICONTROL Experience Cloud Assets] puoi eseguire le seguenti operazioni:
 
@@ -55,7 +54,9 @@ La barra degli strumenti consente di accedere rapidamente a funzioni quali: Cerc
 
 ![Accedere alla barra degli strumenti](assets/asset-tools.png)
 
-! Per eliminare le risorse utilizzate o in uso in Target, devi rimuovere tutti gli utilizzi di tali risorse.
+>[!NOTE]
+>
+>Le risorse devono essere rimosse dalle attività di Adobe Target prima di poterle eliminare correttamente [!DNL Target].
 
 ## Modificare le risorse {#section_CD3C55A9D4574455B94D0955391C8FEC}
 

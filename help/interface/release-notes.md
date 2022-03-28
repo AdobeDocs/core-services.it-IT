@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: e2d1c99e191a14622126d868fce45c5ce88e571f
+source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
 workflow-type: tm+mt
 source-wordcount: '4640'
 ht-degree: 99%
@@ -294,7 +294,7 @@ Nessuna informazione disponibile.
 
 **Correzioni**
 
-* È stato risolto un problema che impediva il Single Sign-On tra [!DNL Experience Cloud] e [!DNL Media Optimizer].
+* È stato risolto un problema che impediva il Single Sign-On tra [!DNL Experience Cloud] e [!DNL Advertising Cloud].
 
 **Problemi noti**
 
@@ -386,7 +386,7 @@ Nuove funzioni, problemi noti e correzioni nella collaborazione [!DNL Adobe Expe
 * Gli utenti non riescono a condividere file di PowerPoint sulle bacheche.
 * Le modifiche effettuate al gruppo e all&#39;adesione in Gestione utente hanno effetto solamente all&#39;accesso successivo.
 * Alcuni utenti potrebbero rilevare dei problemi durante il caricamento di file di grosse dimensioni sulle risorse di Experience Cloud.
-* Gli utenti potrebbero perdere collegamenti sulle schede Experience Cloud da Media Optimizer.
+* Gli utenti potrebbero perdere collegamenti sulle schede di Experience Cloud da Advertising Cloud.
 * Alcuni utenti amministratori potrebbero rilevare dei problemi durante il collegamento degli account dopo l&#39;accettazione di un invito a iscriversi a Experience Cloud.
 * L&#39;interfaccia di Experience Cloud può diminuire le prestazioni se usata in parallelo da più utenti.
 * Alcuni utenti possono eliminare una vecchia risorsa invece di ricevere una notifica di errore.
@@ -595,7 +595,7 @@ Nuove funzioni, problemi noti e correzioni nella [!DNL Adobe Experience Cloud] c
 **Correzioni**
 
 * [!DNL Experience Cloud] non si collegava ad [!DNL Adobe Target]. Questo problema si verificava se l&#39;accesso ad [!DNL Adobe Target] poteva essere usato su più server di [!DNL Target].
-* [!DNL Adobe Media Optimizer] non creava gli utenti in maniera automatica quando l&#39;utente veniva creato in [!DNL Experience Cloud].
+* [!DNL Adobe Advertising Cloud] non creava gli utenti in maniera automatica quando l&#39;utente veniva creato in [!DNL Experience Cloud].
 * Le opzioni in caselle combinate utilizzate per aggiungere nuovi utenti scomparivano temporaneamente durante la digitazione.
 * Non era possibile selezionare il collegamento Commenti nella vista a schede delle risorse.
 * Dopo l&#39;aggiunta di un tag personalizzato a una risorsa, nessun&#39;altra modifica ai metadati era persistente.
@@ -643,12 +643,12 @@ Nuove funzioni, problemi noti e correzioni nella [!DNL Adobe Experience Cloud] c
 * Non è possibile selezionare il collegamento Commenti nella vista a schede delle risorse.
 * Le opzioni in caselle combinate utilizzate per aggiungere nuovi utenti scompaiono temporaneamente durante la digitazione.
 * L&#39;accesso a [!DNL Experience Cloud] dura più di un secondo.
-* I dati condivisi da [!DNL Media Optimizer] non sono correttamente rappresentati in [!DNL Experience Cloud].
-* Adobe [!DNL Media Optimizer] non crea gli utenti in maniera automatica quando l&#39;utente viene creato in [!DNL Experience Cloud].
+* I dati condivisi da [!DNL Advertising Cloud] non sono correttamente rappresentati in [!DNL Experience Cloud].
+* Adobe [!DNL Advertising Cloud] non crea gli utenti in maniera automatica quando l&#39;utente viene creato in [!DNL Experience Cloud].
 * Non è possibile collegare [!DNL Experience Cloud] ad [!DNL Adobe Target] se l&#39;accesso ad [!DNL Adobe Target] può essere utilizzato su più server di [!DNL Target].
 * L&#39;interfaccia di [!DNL Experience Cloud] può subire rallentamenti se usata in parallelo da più utenti.
 * Il collegamento [!DNL Search&Promote] non è disponibile dalla pagina [!UICONTROL Organizations &amp; Product Access (Organizzazione e accesso ai prodotti)].
-* Sulle schede di simulazione di [!DNL Adobe Media Optimizer] non viene eseguito il rendering in maniera corretta.
+* Sulle schede di simulazione di [!DNL Adobe Advertising Cloud] non viene eseguito il rendering in maniera corretta.
 * I filtri applicati ai report con tendenze [!DNL Analytics] sono applicati alle schede in [!DNL Experience Cloud].
 * I filtri applicati ai report con tendenze Analytics sono applicati alle schede in Experience Cloud.
 * Non è possibile caricare su una bacheca alcun file Excel o CSV.
@@ -664,7 +664,7 @@ La versione 14.3.1 è una versione di manutenzione che si concentra sulla veloci
 **Correzioni**
 
 * È stata aggiunta la possibilità di rimuovere l&#39;immagine avatar.
-* È stato risolto un problema che impediva lo scollegamento dagli account di [!DNL Adobe Media Optimizer].
+* È stato risolto un problema che impediva lo scollegamento dagli account di [!DNL Adobe Advertising Cloud].
 
 **Problemi noti**
 
@@ -678,16 +678,16 @@ La versione 14.3.1 è una versione di manutenzione che si concentra sulla veloci
 * Non è possibile collegare [!DNL Adobe Target] Experience Cloud ad [!DNL Adobe Target] se l&#39;accesso ad può essere utilizzato su più server di Target.
 * L&#39;accesso a Experience Cloud dura più di un secondo.
 * Dopo l&#39;aggiunta di un tag personalizzato a una risorsa, nessun&#39;altra modifica ai metadati è persistente.
-* [!DNL Adobe Media Optimizer] non crea gli utenti in maniera automatica quando l&#39;utente viene creato in Experience Cloud.
+* [!DNL Adobe Advertising Cloud] non crea gli utenti in maniera automatica quando l&#39;utente viene creato in Experience Cloud.
 * Le opzioni in caselle combinate utilizzate per aggiungere nuovi utenti scompaiono temporaneamente durante la digitazione.
-* I dati condivisi da [!DNL Media Optimizer] non sono correttamente rappresentati in Experience Cloud.
+* I dati condivisi da [!DNL Advertising Cloud] non sono correttamente rappresentati in Experience Cloud.
 * La condivisione di immagini di Flickr non viene eseguita correttamente.
 * I filtri applicati ai report con tendenze [!DNL Analytics] sono applicati alle schede in Experience Cloud.
 * Le modifiche apportate al gruppo e all&#39;adesione nella gestione utente hanno effetto solamente all&#39;accesso successivo.
 * Il collegamento [!DNL Search&Promote] non è disponibile da [!UICONTROL Organizations &amp; Product Access (Organizzazione e accesso ai prodotti)].
 * Gli utenti devono aggiornare la bacheca per far scomparire dalla vista le schede eliminate.
 * Non è possibile caricare su una bacheca alcun file Excel o CSV.
-* Sulle schede di simulazione di [!DNL Adobe Media Optimizer] non viene eseguito il rendering in maniera corretta.
+* Sulle schede di simulazione di [!DNL Adobe Advertising Cloud] non viene eseguito il rendering in maniera corretta.
 * Non è possibile effettuare il rendering su una scheda di alcuni file PNG.
 * Non è possibile inviare feedback beta.
 
