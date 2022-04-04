@@ -12,7 +12,7 @@ exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
 workflow-type: tm+mt
 source-wordcount: '4640'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -386,7 +386,7 @@ Nuove funzioni, problemi noti e correzioni nella collaborazione [!DNL Adobe Expe
 * Gli utenti non riescono a condividere file di PowerPoint sulle bacheche.
 * Le modifiche effettuate al gruppo e all&#39;adesione in Gestione utente hanno effetto solamente all&#39;accesso successivo.
 * Alcuni utenti potrebbero rilevare dei problemi durante il caricamento di file di grosse dimensioni sulle risorse di Experience Cloud.
-* Gli utenti potrebbero perdere collegamenti sulle schede di Experience Cloud da Advertising Cloud.
+* Gli utenti potrebbero perdere collegamenti sulle schede Experience Cloud da Advertising Cloud.
 * Alcuni utenti amministratori potrebbero rilevare dei problemi durante il collegamento degli account dopo l&#39;accettazione di un invito a iscriversi a Experience Cloud.
 * L&#39;interfaccia di Experience Cloud può diminuire le prestazioni se usata in parallelo da più utenti.
 * Alcuni utenti possono eliminare una vecchia risorsa invece di ricevere una notifica di errore.
