@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
+source-git-commit: 23eee50163d309384378d9621a00d6286ad06b7b
 workflow-type: tm+mt
-source-wordcount: '4640'
-ht-degree: 100%
+source-wordcount: '4676'
+ht-degree: 99%
 
 ---
 
@@ -23,6 +23,14 @@ Funzionalità, note sulla versione e problemi noti per l’interfaccia component
 Per un elenco degli aggiornamenti della documentazione, consulta [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
 Per le note sulla versione riguardanti tutte le applicazioni, consulta [Note sulla versione di Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it).
+
+## Aprile 2022
+
+| Funzione | Descrizione |
+| ------- |-------|
+| Ricerca nella lingua naturale | Puoi trovare risposte immediate a tutte le tue domande di aiuto tramite un’unica interfaccia tramite Unified Search. Questa funzione è sempre disponibile su ogni pagina di [!DNL Experience Platform] e [!DNL Journey Optimizer]. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Marzo 2022
 
