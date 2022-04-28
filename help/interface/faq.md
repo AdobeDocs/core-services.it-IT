@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: fef91c95f8ce5c8791b345ce64c99cd61a733966
+source-git-commit: 55c81003b94b7e033cddb6854b5c1f1c1ffa199c
 workflow-type: tm+mt
 source-wordcount: '776'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -100,7 +100,7 @@ Un’[organizzazione](organizations.md) è l’entità che consente all’ammini
 
 ## Dove posso trovare l’ID organizzazione IMS?
 
-Per informazioni, consulta [Trovare l’ID organizzazione](organizations.md).
+Vedi [Visualizza l&#39;ID organizzazione](organizations.md) per i dettagli.
 
 ## Cosa devo fare quando uno dei miei utenti lascia l’azienda?
 

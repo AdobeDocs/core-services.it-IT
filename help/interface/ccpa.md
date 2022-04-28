@@ -1,15 +1,15 @@
 ---
 title: 'Supporto per gli attributi del cliente per il California Consumer Privacy Act (accordo sulla privacy dei consumatori della California) '
 description: Scopri il supporto relativo agli attributi del cliente per il California Consumer Privacy Act (legge sulla privacy dei consumatori della California)
-feature: Attributi del cliente
-topic: Amministrazione
+feature: Customer Attributes
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 320defc7-2cd5-4481-955d-77cf6fbfef6d
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '437'
-ht-degree: 100%
+source-git-commit: 55c81003b94b7e033cddb6854b5c1f1c1ffa199c
+workflow-type: tm+mt
+source-wordcount: '418'
+ht-degree: 90%
 
 ---
 
@@ -37,11 +37,11 @@ Per richiedere l’accesso e l’eliminazione dei dati per [!UICONTROL Attributi
 
 1. Identificare quanto segue:
 
-   * ID organizzazione IMS
+   * [ID organizzazione](#organizations.md)
    * ID alias dell&#39;origine dati CRS su cui desideri agire
    * ID CRM del profilo su cui desideri agire
 
-   Un ID organizzazione IMS è una stringa alfanumerica composta da 24 caratteri, con l&#39;aggiunta di @AdobeOrg. Se il team marketing o l&#39;amministratore di sistema Adobe interno non conosce l&#39;ID organizzazione IMS dell&#39;azienda, contatta l&#39;Assistenza clienti Adobe all&#39;indirizzo gdprsupport@adobe.com. Per inviare richieste all’API per la privacy è necessario l’ID organizzazione IMS.
+   Le [ID organizzazione](#organizations.md) è una stringa alfanumerica composta da 24 caratteri aggiunta con @AdobeOrg. Per inviare richieste all’API Privacy è necessario l’ID organizzazione. Contatta l’Assistenza clienti Adobe all’indirizzo `gdprsupport@adobe.com` se non è possibile individuare l&#39;ID.
 
 1. In [!UICONTROL Privacy Service], puoi inviare le richieste di accesso ed eliminazione agli attributi del cliente e controllare lo stato delle richieste esistenti.
 
@@ -50,7 +50,7 @@ Per richiedere l’accesso e l’eliminazione dei dati per [!UICONTROL Attributi
 &quot;company context&quot; (contesto dell&#39;azienda):
 
 * &quot;namespace&quot;: **imsOrgID**
-* &quot;value&quot;: &lt;*valore ID organizzazione IMS*>
+* &quot;value&quot;: &lt;*valore ID organizzazione*>
 
 &quot;users&quot; (utenti):
 
