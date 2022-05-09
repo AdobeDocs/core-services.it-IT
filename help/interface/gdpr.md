@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
 source-git-commit: 55c81003b94b7e033cddb6854b5c1f1c1ffa199c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '416'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Experience Cloud agisce come responsabile del trattamento per tutti i dati
 
 In questo documento viene descritto come gli [!UICONTROL attributi del cliente] supportano i diritti all&#39;accesso e all&#39;eliminazione dei dati degli interessati ai sensi del RGPD tramite l&#39;API Adobe Experience Platform Privacy Service e l&#39;interfaccia utente di Privacy Service.
 
-Per maggiori informazioni sul significato del RGPD per la tua attività, consulta [RGPD e aziende](https://business.adobe.com/privacy/general-data-protection-regulation.html).
+Per maggiori informazioni sul significato del RGPD per la tua attività, consulta [RGPD e aziende](https://business.adobe.com/it/privacy/general-data-protection-regulation.html).
 
 ## Configurazione necessaria per inviare richieste per gli [!UICONTROL attributi del cliente]
 
@@ -39,7 +39,7 @@ Per richiedere l’accesso e l’eliminazione dei dati per [!UICONTROL Attributi
    * ID alias dell&#39;origine dati CRS su cui desideri agire
    * ID CRM del profilo su cui desideri agire
 
-   Le [ID organizzazione](#organizations.md) è una stringa alfanumerica composta da 24 caratteri aggiunta con @AdobeOrg. Per inviare richieste all’API Privacy è necessario l’ID organizzazione. Contatta l’Assistenza clienti Adobe all’indirizzo `gdprsupport@adobe.com` se non è possibile individuare l&#39;ID.
+   Il tuo [ID organizzazione](#organizations.md) è una stringa alfanumerica composta da 24 caratteri a cui segue @AdobeOrg. Per inviare richieste all’API per la privacy è necessario l’ID organizzazione. Se non ti è possibile individuare l’ID, contatta l’Assistenza clienti Adobe all’indirizzo `gdprsupport@adobe.com`.
 
 1. In [!UICONTROL Privacy Service], puoi inviare le richieste di accesso ed eliminazione agli attributi del cliente e controllare lo stato delle richieste esistenti.
 
