@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 23eee50163d309384378d9621a00d6286ad06b7b
-workflow-type: ht
-source-wordcount: '4676'
-ht-degree: 100%
+source-git-commit: 761a40f8beb1f9bc3ed74c0ae6c89eca2f6479bd
+workflow-type: tm+mt
+source-wordcount: '4750'
+ht-degree: 98%
 
 ---
 
@@ -24,11 +24,21 @@ Per un elenco degli aggiornamenti della documentazione, consulta [Experience Clo
 
 Per le note sulla versione riguardanti tutte le applicazioni, consulta [Note sulla versione di Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it).
 
+## Luglio 2022
+
+Rilascio pianificato: **11 luglio 2022**
+
+| Funzione | Descrizione |
+| ------- | ------- |
+| Home unificata - Widget di accesso rapido | **Spostarsi più velocemente:** Ora puoi personalizzare ulteriormente la tua esperienza a casa e decidere quali applicazioni sono a portata di mano. Utilizza la nuova funzione di fissaggio per selezionare le applicazioni che appaiono davanti e al centro sul tuo [!UICONTROL Accesso rapido]. <br>**Resta informato con la filatura intelligente:** Le nuove applicazioni sono ora più facili da trovare. Le nuove applicazioni assegnate presentano un _Nuovo_ badge e pin automatico a [!UICONTROL Accesso rapido]. |
+
+{style=&quot;table-layout:auto&quot;}
+
 ## Aprile 2022
 
 | Funzione | Descrizione |
 | ------- |-------|
-| Ricerca in linguaggio naturale | Puoi trovare risposte immediate a tutte le tue domande di aiuto da un’unica interfaccia tramite Ricerca unificata. Questa funzione è sempre disponibile su ogni pagina di [!DNL Experience Platform] e [!DNL Journey Optimizer]. |
+| Ricerca nella lingua naturale | Puoi trovare risposte immediate a tutte le tue domande di aiuto da un’unica interfaccia tramite Ricerca unificata. Questa funzione è sempre disponibile su ogni pagina di [!DNL Experience Platform] e [!DNL Journey Optimizer]. |
 
 {style=&quot;table-layout:auto&quot;}
 
