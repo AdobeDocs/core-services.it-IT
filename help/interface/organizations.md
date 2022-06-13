@@ -1,5 +1,5 @@
 ---
-description: Informazioni sulle organizzazioni e sul collegamento di account delle soluzioni a Experience Cloud.
+description: Scopri di più sulle organizzazioni (ID organizzazione IMS) e sul collegamento di account della soluzione ad Experience Cloud.
 keywords: Servizi Adobe Experience Cloud
 solution: Experience Cloud
 title: 'Organizzazioni e collegamento di account '
@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: 55c81003b94b7e033cddb6854b5c1f1c1ffa199c
+source-git-commit: 953b5c7c058e2641bc3bcfb66a968146ea617404
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 85%
+source-wordcount: '580'
+ht-degree: 78%
 
 ---
 
@@ -22,7 +22,7 @@ Scopri come gestire le organizzazioni e passare dall’una all’altra in Experi
 
 ## Identificazione della tua organizzazione {#concept_384D169B0B724B799D573B8ECB5C39BF}
 
-Un’*organizzazione* è l&#39;entità che consente all’amministratore di configurare gruppi e utenti e di controllare il single sign-on in Experience Cloud. L’organizzazione funziona come un’azienda per il log-in che comprende tutti i prodotti e le applicazioni Experience Cloud. Nella maggior parte dei casi, un’organizzazione è il nome dell’azienda. Tuttavia, un’azienda può avere più organizzazioni.
+Un *organizzazione* (ID organizzazione IMS) è l’entità che consente all’amministratore di configurare gruppi e utenti e di controllare il single sign-on nell’Experience Cloud. L’organizzazione funziona come un’azienda per il log-in che comprende tutti i prodotti e le applicazioni Experience Cloud. Nella maggior parte dei casi, un’organizzazione è il nome dell’azienda. Tuttavia, un’azienda può avere più organizzazioni.
 
 Per verificare di aver eseguito l’accesso all’organizzazione giusta, fai clic sull’avatar del tuo profilo per visualizzarne il nome. Se ha accesso a più organizzazioni, puoi anche vedere le altre e passare a un’altra organizzazione direttamente dalla barra dell’intestazione.
 
@@ -32,7 +32,7 @@ Ad esempio, per un’organizzazione con Federated ID e il dominio `adobecustomer
 
 ![Risultato del passaggio](assets/organization-switch.png)
 
-## Visualizza l&#39;ID organizzazione {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
+## Visualizza l’ID organizzazione IMS {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
 
 Potrebbe essere necessario individuare l&#39;ID organizzazione assegnato a scopo di assistenza. Puoi verificare di essere nell’organizzazione corretta o cambiare organizzazione utilizzando il menu **[!UICONTROL Organizzazione]**.
 
@@ -40,7 +40,7 @@ L’ID organizzazione è l’ID associato all’azienda con provisioning di Expe
 
 Puoi visualizzare l&#39;ID organizzazione insieme ad altre informazioni sull&#39;account utilizzando una scelta rapida da tastiera **Ctrl+i** da qualsiasi pagina in `https://experience.adobe.com`.
 
-**Per visualizzare l&#39;ID organizzazione**
+**Per visualizzare l’ID organizzazione IMS**
 
 1. In [Experience Cloud](https://experience.adobe.com.), premere **Ctrl+i** sulla tastiera.
 
