@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: 761a40f8beb1f9bc3ed74c0ae6c89eca2f6479bd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4750'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Rilascio pianificato: **11 luglio 2022**
 
 | Funzione | Descrizione |
 | ------- | ------- |
-| Home unificata - Widget di accesso rapido | **Spostarsi più velocemente:** Ora puoi personalizzare ulteriormente la tua esperienza a casa e decidere quali applicazioni sono a portata di mano. Utilizza la nuova funzione di fissaggio per selezionare le applicazioni che appaiono davanti e al centro sul tuo [!UICONTROL Accesso rapido]. <br>**Resta informato con la filatura intelligente:** Le nuove applicazioni sono ora più facili da trovare. Le nuove applicazioni assegnate presentano un _Nuovo_ badge e pin automatico a [!UICONTROL Accesso rapido]. |
+| Pagina Home unificata - Widget di accesso rapido | **Spostarsi più velocemente:** ora puoi personalizzare ulteriormente la tua esperienza della pagina Home e decidere quali applicazioni avere a portata di mano. Utilizza la nuova funzione di fissaggio per selezionare le applicazioni da mostrare in primo piano e al centro in [!UICONTROL Accesso rapido]. <br>**Resta informato con il fissaggio intelligente:** le nuove applicazioni ora sono più facili da trovare. Le nuove applicazioni assegnate presentano un badge _Nuovo_ e vengono fissate automaticamente in [!UICONTROL Accesso rapido]. |
 
 {style=&quot;table-layout:auto&quot;}
 
