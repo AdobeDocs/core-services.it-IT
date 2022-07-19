@@ -6,10 +6,10 @@ feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 5281aededf07508cb49ecd4f3017ccec3d4851fb
-workflow-type: ht
-source-wordcount: '733'
-ht-degree: 100%
+source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
+workflow-type: tm+mt
+source-wordcount: '734'
+ht-degree: 94%
 
 ---
 
@@ -66,7 +66,7 @@ Accedi e verifica di essere nell&#39;[organizzazione](organizations.md) corretta
 
    Per verificare di aver eseguito l’accesso all’[organizzazione](organizations.md) giusta, fai clic sull’avatar del tuo profilo per visualizzarne il nome. Se ha accesso a più organizzazioni, puoi anche vedere le altre e passare a un’altra organizzazione direttamente dalla barra dell’intestazione.
 
-   Se la tua organizzazione usa Federated ID, Experience Cloud ti consente di usare l’accesso Single Sign-On (SSO) della tua organizzazione, senza inserire indirizzo e-mail e password. Per utilizzare questa funzione, aggiungi `#/sso:@domain` all’URL di Experience Cloud (`https://experience.adobe.com`).
+   Se l’organizzazione utilizza Federated ID, Experience Cloud consente di accedere con il single sign-on dell’organizzazione senza dover immettere l’indirizzo e-mail e la password. Aggiungi `#/sso:@domain` all&#39;URL di Experience Cloud (`https://experience.adobe.com`) per eseguire questa attività.
 
    Ad esempio, per un’organizzazione con Federated ID e il dominio `adobecustomer.com`, imposta il link dell’URL su `https://experience.adobe.com/#/sso:@adobecustomer.com`. Puoi anche passare direttamente a una specifica applicazione salvando come segnalibro o preferito l’URL seguito dal percorso dell’applicazione. Ad esempio, per Adobe Analytics: `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`.
 

@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: c6884ade4a793f1cedbc5d497cb9c8ea798a7408
+source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 80%
+source-wordcount: '574'
+ht-degree: 72%
 
 ---
 
@@ -26,7 +26,7 @@ Un *organizzazione* (ID organizzazione) è l’entità che consente all’ammini
 
 Per verificare di aver eseguito l’accesso all’organizzazione giusta, fai clic sull’avatar del tuo profilo per visualizzarne il nome. Se ha accesso a più organizzazioni, puoi anche vedere le altre e passare a un’altra organizzazione direttamente dalla barra dell’intestazione.
 
-Se la tua organizzazione usa Federated ID, Experience Cloud ti consente di usare l’accesso Single Sign-On (SSO) della tua organizzazione, senza inserire indirizzo e-mail e password. Per utilizzare questa funzione, aggiungi `#/sso:@domain` all’URL di Experience Cloud (`https://experience.adobe.com`).
+Se l’organizzazione utilizza Federated ID, Experience Cloud consente di accedere con il single sign-on dell’organizzazione senza dover immettere l’indirizzo e-mail e la password. Aggiungi `#/sso:@domain` all&#39;URL di Experience Cloud (`https://experience.adobe.com`) per eseguire questa attività.
 
 Ad esempio, per un’organizzazione con Federated ID e il dominio `adobecustomer.com`, imposta il link dell’URL su `https://experience.adobe.com/#/sso:@adobecustomer.com`. Puoi anche passare direttamente a una specifica applicazione salvando come segnalibro o preferito l’URL seguito dal percorso dell’applicazione. Ad esempio, per Adobe Analytics: `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`.
 
@@ -34,7 +34,7 @@ Ad esempio, per un’organizzazione con Federated ID e il dominio `adobecustomer
 
 ## Visualizza l&#39;ID organizzazione {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
 
-Potrebbe essere necessario individuare l&#39;ID organizzazione assegnato a scopo di assistenza. Puoi verificare di essere nell’organizzazione corretta o cambiare organizzazione utilizzando il menu **[!UICONTROL Organizzazione]**.
+Puoi individuare l’ID organizzazione assegnato a scopo di assistenza. Puoi verificare di essere nell’organizzazione corretta o cambiare organizzazione utilizzando il menu **[!UICONTROL Organizzazione]**.
 
 L’ID organizzazione è l’ID associato all’azienda con provisioning di Experience Cloud. Questo ID è una stringa alfanumerica composta da 24 caratteri, seguita da (deve includere) `@AdobeOrg`.
 
@@ -60,7 +60,7 @@ Puoi visualizzare l&#39;ID organizzazione insieme ad altre informazioni sull&#39
 
 ## Collegamento di un account applicazione a un Adobe ID {#task_FD389E78640848919E247AC5E95B8369}
 
-In genere, gli amministratori di Experience Cloud concedono l’accesso ad applicazioni e servizi. In rare circostanze, potrebbe essere necessario collegare le credenziali dell’applicazione a un Adobe ID.
+In genere, gli amministratori di Experience Cloud concedono l’accesso ad applicazioni e servizi. In rare circostanze, puoi collegare le credenziali dell’applicazione a un Adobe ID.
 
 1. Segui i passaggi contenuti nell&#39;e-mail di invito a Experience Cloud.
 1. Accedi utilizzando il tuo Adobe ID o Enterprise ID.

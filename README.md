@@ -1,8 +1,8 @@
 ---
-source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
-workflow-type: ht
-source-wordcount: '427'
-ht-degree: 100%
+source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
+workflow-type: tm+mt
+source-wordcount: '426'
+ht-degree: 92%
 
 ---
 # Contribuire agli articoli
@@ -27,7 +27,7 @@ Le correzioni o i chiarimenti minori inviati per la documentazione e gli esempi 
 
 ### Modifiche principali o nuovi articoli dai membri della community
 
-Se fai parte della community di Adobe e desideri creare un nuovo articolo o inviare modifiche importanti, utilizza la scheda Issues (Segnalazioni) nell’archivio Git per inviare una segnalazione e avviare una conversazione con il team addetto alla documentazione. Dopo aver concordato un piano di attività, dovrai collaborare con un dipendente per contribuire alla creazione dei nuovi contenuti proposti tramite una combinazione di lavoro negli archivi pubblico e privato.
+Se fai parte della community di Adobe e desideri creare un nuovo articolo o inviare modifiche importanti, utilizza la scheda Issues (Segnalazioni) nell’archivio Git per inviare una segnalazione e avviare una conversazione con il team addetto alla documentazione. Una volta concordato un piano, puoi lavorare con un dipendente per contribuire a inserire il nuovo contenuto attraverso una combinazione di lavoro negli archivi pubblici e privati.
 
 <!--
 If you submit a pull request with significant changes to documentation and code examples, you'll see a message in the pull request asking you to submit an online contribution license agreement (CLA). We need you to complete the online form before we can review your pull request.
@@ -57,4 +57,4 @@ Tutti gli articoli in questo archivio utilizzano GitHub Flavored Markdown. Se no
 Nell’archivio pubblico, le etichette automatizzate vengono assegnate alle richieste di pull per consentire di gestire il flusso di lavoro di richieste di pull e conoscere lo stato della richiesta di pull:
 
 * **Change sent to author**: l’autore ha ricevuto una notifica della richiesta di pull in sospeso.
-* **Ready-to-merge**: pronta per la revisione da parte del team di revisione delle richieste di pull.
+* **ready-to-merge**: pronta per la revisione da parte del team di revisione delle richieste di pull.

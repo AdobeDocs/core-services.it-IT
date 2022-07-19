@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: 8cb55c6fb6f0acfb8787b0125f7c4a25bcb71e28
-workflow-type: ht
-source-wordcount: '776'
-ht-degree: 100%
+source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
+workflow-type: tm+mt
+source-wordcount: '775'
+ht-degree: 94%
 
 ---
 
@@ -47,13 +47,13 @@ Per ulteriore assistenza, [contatta il supporto Adobe](https://experienceleague.
 
 No. Experience Cloud è incluso senza alcun costo aggiuntivo. Tuttavia, alcuni servizi principali potrebbero avere costi aggiuntivi.
 
-## Perché la mia azienda deve effettuare l’accesso all’interfaccia Experience Cloud?
+## Perché la mia azienda deve effettuare l’accesso tramite l’interfaccia Experience Cloud?
 
 La funzionalità fornita dall&#39;interfaccia Experience Cloud aggiunge più valore alla tua azienda. Sarà anche il percorso standard per accedere alle applicazioni in futuro, sostituendo altri flussi di accesso di singole soluzioni. L’accesso tramite Experience Cloud semplifica una futura transizione.
 
 ## Come posso risolvere i problemi sulla migrazione della mia azienda?
 
-[Contatta il supporto Adobe](https://experienceleague.adobe.com/?support-solution=General&amp;lang=it#support).
+[Contatta il supporto Adobe](https://experienceleague.adobe.com/?support-solution=General#support).
 
 ## In che modo [!DNL Adobe Support] può accedere al mio ambiente cloud Adobe per risolvere un problema?
 
@@ -82,11 +82,11 @@ Provisioning in Experience Cloud significa:
 
 Gli amministratori di Admin Console possono concedere l&#39;accesso agli utenti. Gli utenti ricevono un’e-mail con le istruzioni di accesso.
 
-Potresti aver bisogno di [contattare il supporto Adobe](https://experienceleague.adobe.com/?support-solution=General&amp;lang=it#support) per verificare che la tua azienda disponga del provisioning completo.
+Potrebbe essere necessario [Contatta il supporto Adobe](https://experienceleague.adobe.com/?support-solution=General#support) per verificare che la tua azienda disponga del provisioning completo.
 
 ## Dove va un utente per gestire il collegamento dell’account?
 
-Alcuni utenti potrebbero dover collegare l’account della loro applicazione (Analytics) all’Adobe ID o Enterprise ID.
+Ad alcuni utenti potrebbe essere richiesto di collegare il loro account dell&#39;applicazione (Analytics) all&#39;Adobe ID o all&#39;Enterprise ID.
 
 Consulta [Collegare l’account di un’applicazione a un Adobe ID](organizations.md#task_FD389E78640848919E247AC5E95B8369).
 
