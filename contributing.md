@@ -1,8 +1,8 @@
 ---
 source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '277'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 # Come contribuire
@@ -26,11 +26,11 @@ un consenso sulla direzione del progetto e sulla risoluzione dei problemi all’
 ## Contratto di licenza da collaboratore
 
 Tutti i contributi di terze parti a questo progetto devono essere accompagnati da un Contratto di licenza da collaboratore firmato. Ciò consente ad Adobe di ridistribuire i contributi
-come parte del progetto. [Firma il Contratto di licenza da collaboratore](http://opensource.adobe.com/cla.html). Invia un CLA di Adobe una sola volta, quindi se ne hai già inviato uno in precedenza, puoi iniziare!
+come parte del progetto. [Firma il Contratto di licenza da collaboratore](http://opensource.adobe.com/cla.html). Il contratto Adobe CLA (Contributor License Agreement) deve essere inviato una sola volta; se lo hai già inviato in precedenza, non è necessario inviarlo di nuovo.
 
 ## Revisioni del codice
 
-Tutti gli invii devono essere effettuati sotto forma di richieste pull e devono essere esaminati dai committer del progetto. Per ulteriori informazioni sull’invio di richieste di pull,
+Tutte le richieste devono essere presentate sotto forma di richieste pull e devono essere riviste da chi conferma il progetto. Per ulteriori informazioni sull’invio di richieste di pull,
 consulta la [Documentazione sulle richieste di pull di GitHub](https://help.github.com/it/articles/about-pull-requests/).
 
 <!--
