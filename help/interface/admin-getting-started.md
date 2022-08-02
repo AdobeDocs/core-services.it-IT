@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
 source-git-commit: 271d8496ee617f55741cb2e636eecc869e1ec284
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1896'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -25,50 +25,50 @@ Scopri come accedere ad Admin Console, gestire le autorizzazioni utente e i prof
 
 Puoi visualizzare un elenco ordinabile e filtrabile di tutti gli utenti Experience Cloud e dei relativi dettagli in Admin Tool. Consulta [Visualizzare gli utenti Experience Cloud in Admin Tool](admin-tool-experience-cloud.md).
 
-## Avviso di aggiornamento del provisioning{#provisioning}
+## Avviso di aggiornamento del provisioning {#provisioning}
 
 Aggiornato: **20 luglio 2022**
 
 >[!IMPORTANT]
 >
->Consulta il seguente avviso relativo al provisioning di Experienci Cloud.
+>Consulta il seguente avviso relativo al provisioning di Experience Cloud.
 
-Adobe sta aggiornando il provisioning per fornire a tutti i clienti Experienci Cloud l&#39;accesso alle funzionalità fondamentali che facilitano l&#39;interoperabilità tra alcuni prodotti Experience Cloud. Gli utenti avranno Adobe Experience Platform come nuovo diritto aggiunto alle loro organizzazioni Experienci Cloud, con [!UICONTROL Raccolta dati] come servizio incluso.
+Adobe sta aggiornando il provisioning per fornire a tutti i clienti di Experience Cloud l’accesso alle funzionalità fondamentali che facilitano l’interoperabilità tra alcuni prodotti Experience Cloud. Adobe Experience Platform verrà aggiunto come nuovo diritto alle organizzazioni Experience Cloud, con la funzionalità [!UICONTROL Raccolta dati] inclusa come servizio.
 
-Adobe Experience Platform [!UICONTROL Raccolta dati] include [tag](https://experienceleague.adobe.com/docs/tags.html?lang=en) per una gestione semplificata dei tag universali e offre un&#39;infrastruttura di dati in streaming affidabile, solida e completa. I tag semplificano la raccolta di dati sulla customer experience e semplificano la distribuzione delle esperienze.
+La funzionalità [!UICONTROL Raccolta dati] di Adobe Experience Platform include [tag](https://experienceleague.adobe.com/docs/tags.html?lang=it) per una gestione dei tag semplificata e universale e offre un’infrastruttura di dati in streaming affidabile, solida e completa. I tag semplificano la raccolta di dati sull’esperienza del cliente e agevolano la distribuzione delle esperienze.
 
-**Modifiche all&#39;Admin Console**
+**Modifiche in Admin Console**
 
-Gli amministratori possono visualizzare le modifiche o le aggiunte all’Admin Console come segue:
+Gli amministratori possono trovare le seguenti modifiche o aggiunte in Admin Console:
 
-* La scheda prodotto Adobe Experience Platform nell’Admin Console includerà:
+* La scheda prodotto di Adobe Experience Platform in Admin Console includerà:
 
    * Places
-   * Affidabilità
-   * Namespace Identity
+   * Assurance
+   * Spazio dei nomi identità
    * Sandbox
-   * Modello dati esperienza
+   * Experience Data Model
    * Schemi
    * Stream di dati
    * ID visitatore
 
-   Per le organizzazioni che non utilizzano attualmente Experience Platform, ora visualizzerai la sezione _Adobe Experience Platform_ nell’Admin Console, incluse le funzionalità elencate in precedenza.
+   Le organizzazioni che attualmente non utilizzano Experience Platform troveranno in Admin Console la sezione del prodotto _Adobe Experience Platform_, incluse le funzionalità elencate in precedenza.
 
-   Per le organizzazioni che utilizzano attualmente l&#39;Experience Platform, _Luoghi_ sarà ora consolidata nella scheda Experience Platform.
+   Per le organizzazioni che attualmente utilizzano Experience Platform, _Places_ sarà adesso accorpato nella scheda di Experience Platform.
 
-* La raccolta dati di Adobe Experience Platform (precedentemente Launch) e la privacy continueranno a essere visualizzate come schede di prodotto separate rispetto alle altre funzionalità di Experience Platform.
+* Le funzionalità Raccolta dati (in precedenza Launch) e Privacy di Adobe Experience Platform continueranno a essere disponibili come schede di prodotto distinte rispetto alle altre funzionalità di Experience Platform.
 
-Per maggiori dettagli sulle nuove funzionalità, visita le rispettive pagine all&#39;Experience League:
+Per maggiori dettagli sulle nuove funzionalità, visita le rispettive pagine su Experience League:
 
-* [Raccolta dati](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html)
+* [Raccolta dati](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=it)
 * [Places](https://experienceleague.adobe.com/docs/places/using/home.html?lang=it)
-* [Affidabilità](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html%3Flang%3Dde)
-* [Namespace Identity](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=it)
+* [Assurance](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html%3Flang%3Dde?lang=it)
+* [Spazio dei nomi identità](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=it)
 * [Sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=it)
-* [Modello dati esperienza](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it)
+* [Experience Data Model](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it)
 * [Schemi](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=it)
-* [Datastream](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=en)
-* [ID visitatore](https://experienceleague.adobe.com/docs/core-services/interface/services/core-services.html?lang=en#section_3C9F6DF37C654D939625BB4D485E4354)
+* [Stream di dati](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=it)
+* [ID visitatore](https://experienceleague.adobe.com/docs/core-services/interface/services/core-services.html?lang=it#section_3C9F6DF37C654D939625BB4D485E4354)
 * [Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it)
 
 ## Autenticazione utente di Experience Cloud (migrazione pianificata) {#migration}
@@ -81,7 +81,7 @@ Per informazioni sui tipi di identità, consulta [Tipi di identità in Adobe Adm
 
 Quando è il momento, gli amministratori dell’organizzazione ricevono un’e-mail di notifica 30 giorni prima della migrazione.
 
-* La migrazione sarà programmata tra le ore 10 - 6.00 in base al fuso orario principale dell’organizzazione o al fine settimana.
+* La migrazione sarà programmata tra le ore 22:00 e le 06:00 in base al fuso orario principale dell’organizzazione o nel fine settimana.
 * Durante la migrazione, l’applicazione di Experience Cloud può essere inaccessibile per un massimo di 15 minuti e Admin Console può essere inaccessibile fino a 30 minuti. Per il resto, la migrazione sarà senza soluzione di continuità.
 
 ### Modifiche dopo la migrazione
@@ -128,7 +128,7 @@ Quando inviti un utente in un’organizzazione, puoi concedergli l’accesso a p
 1. Seleziona **[!UICONTROL Nuovo profilo]**.
 1. Configura i dettagli del profilo, quindi seleziona **[!UICONTROL Salva]**.
 
-Per ulteriori informazioni (e per assistenza sulla gestione dei prodotti Creative Cloud e Document Cloud), consulta [Identità](https://helpx.adobe.com/it/enterprise/admin-guide.html/it/enterprise/using/identity.ug.html) nella [Guida utente per l’amministrazione](https://helpx.adobe.com/it/enterprise/admin-guide.html/it/enterprise/using/users.ug.html).
+Per ulteriori informazioni (e per assistenza sulla gestione dei prodotti Creative Cloud e Document Cloud), consulta [Identità](https://helpx.adobe.com/it/enterprise/admin-guide.html/it/enterprise/using/identity.ug.html) nella [Guida utente per l’amministrazione](https://helpx.adobe.com/it/enterprise/using/users.html).
 
 **Argomenti correlati**
 
@@ -196,9 +196,9 @@ In Adobe Target, un’area di lavoro è un profilo di prodotto. Consente a un&#3
 
 Vedi:
 
-* [Autorizzazioni per gli utenti Enterprise](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=en)
-* [Gestire prodotti e profili](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)
-* Video: [Come configurare le aree di lavoro di Adobe Target in Adobe Admin Console](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=en)
+* [Autorizzazioni per gli utenti Enterprise](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=it)
+* [Gestire prodotti e profili](https://helpx.adobe.com/it/enterprise/admin-guide.html/it/enterprise/using/manage-products.ug.html)
+* Video: [Come configurare le aree di lavoro di Adobe Target in Adobe Admin Console](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=it)
 
 ## Gestire profili di prodotto, tenant e gruppi di sicurezza in Campaign {#section_09CDF75366444CF5810CF321B7C712F3}
 
@@ -240,6 +240,6 @@ Consulta [Amministrazione](https://experienceleague.adobe.com/docs/audience-mana
 
 ### Requisiti di soluzioni e prodotti
 
-* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=en)
+* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=it)
 * [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/system-requirements.html?lang=it)
-* [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=en)
+* [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=it)
