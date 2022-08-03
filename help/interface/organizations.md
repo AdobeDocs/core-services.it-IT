@@ -12,7 +12,7 @@ exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
 source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
 workflow-type: tm+mt
 source-wordcount: '574'
-ht-degree: 72%
+ht-degree: 78%
 
 ---
 
@@ -26,7 +26,7 @@ Un *organizzazione* (ID organizzazione) è l’entità che consente all’ammini
 
 Per verificare di aver eseguito l’accesso all’organizzazione giusta, fai clic sull’avatar del tuo profilo per visualizzarne il nome. Se ha accesso a più organizzazioni, puoi anche vedere le altre e passare a un’altra organizzazione direttamente dalla barra dell’intestazione.
 
-Se l’organizzazione utilizza Federated ID, Experience Cloud consente di accedere con il single sign-on dell’organizzazione senza dover immettere l’indirizzo e-mail e la password. Aggiungi `#/sso:@domain` all&#39;URL di Experience Cloud (`https://experience.adobe.com`) per eseguire questa attività.
+Se la tua organizzazione usa Federated ID, Experience Cloud ti consente accedere in modalità single sign-on, senza inserire l’indirizzo e-mail e la password. Aggiungi `#/sso:@domain` all’URL di Experience Cloud (`https://experience.adobe.com`) per eseguire questa attività.
 
 Ad esempio, per un’organizzazione con Federated ID e il dominio `adobecustomer.com`, imposta il link dell’URL su `https://experience.adobe.com/#/sso:@adobecustomer.com`. Puoi anche passare direttamente a una specifica applicazione salvando come segnalibro o preferito l’URL seguito dal percorso dell’applicazione. Ad esempio, per Adobe Analytics: `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`.
 
