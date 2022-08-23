@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '2294'
-ht-degree: 100%
+source-git-commit: 9e700186f7385162e3892b2d42828b29f78ecd9d
+workflow-type: tm+mt
+source-wordcount: '2381'
+ht-degree: 96%
 
 ---
 
@@ -104,7 +104,7 @@ Se non utilizzi [!UICONTROL Experience Platform Launch] o [!UICONTROL Dynamic Ta
 
 ### Analytics &amp; Adobe Target - Sincronizzazione dell&#39;ID cliente {#section_AD473A6A21C1446498E700363F9A8437}
 
-In qualità di parte dell&#39;impostazione del servizio Experience Cloud ID, Adobe consiglia per Analytics e [!DNL Target] la sincronizzazione degli [ID cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=it) con Experience Cloud.
+In qualità di parte dell&#39;impostazione del servizio Experience Cloud ID, Adobe consiglia per Analytics e [!DNL Target] la sincronizzazione degli [ID cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=en) con Experience Cloud.
 
 In Adobe Target, `mbox3rdpartyid` deve ottenere l’ID cliente e inviarlo a [!DNL Target]. Consulta [Uso degli attributi del cliente](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html?lang=it) in [!DNL Target].
 
@@ -116,6 +116,11 @@ Ad esempio, si supponga che Bob sia associato all&#39;ID cliente `52mc210tr42` n
 * Popolare il *`Customer ID (52mc210tr42)`* in una prop o eVar.
 
 L&#39;ID cliente deve essere impostato su ciascuna chiamata al server di [!DNL Analytics] in cui è noto l&#39;ID cliente.
+
+#### Analytics: Sincronizzazione dell&#39;ID cliente con il metodo Data Warehouse backfill
+
+Quando gli attributi del cliente sono diventati disponibili per la prima volta, alcuni clienti non avevano ancora implementato il servizio Experience Cloud ID e non potevano utilizzare facilmente gli attributi del cliente. Per risolvere questo problema, Adobe ha creato un mezzo per eseguire una retrocompilazione delle sincronizzazioni ID utilizzando il data warehouse di Adobe Analytics. Questa funzione è nota come &quot;recupero del data warehouse&quot;. Il backfill del data warehouse ora non è generalmente necessario e di conseguenza non sarà più disponibile a partire da ottobre 2022.
+
 
 ### SDK per dispositivi mobili
 
@@ -143,7 +148,7 @@ Si consiglia di modernizzare l&#39;implementazione di Analytics aggiornando le l
 
 ## Aggiornamento dell&#39;implementazione di Adobe Target {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
-* È consigliabile aggiungere un’[estensione Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html?lang=it) in [!UICONTROL Experience Platform Launch] per rendere automatico il recupero della libreria. Puoi anche impostare l’[estensione del servizio Experience Cloud ID](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=it) per Adobe Target (e altre applicazioni) tramite [!UICONTROL Experience Platform Launch]. **È necessario** l&#39;aggiornamento del [!UICONTROL Servizio Experience Cloud ID] per consentire ad Adobe Target di utilizzare i servizi core.
+* È consigliabile aggiungere un’[estensione Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html?lang=it) in [!UICONTROL Experience Platform Launch] per rendere automatico il recupero della libreria. Puoi anche impostare l’[estensione del servizio Experience Cloud ID](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=en) per Adobe Target (e altre applicazioni) tramite [!UICONTROL Experience Platform Launch]. **È necessario** l&#39;aggiornamento del [!UICONTROL Servizio Experience Cloud ID] per consentire ad Adobe Target di utilizzare i servizi core.
 * Se non utilizzi [!UICONTROL Experience Platform Launch], [aggiorna manualmente la libreria mbox](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html?lang=it).
 * Richiedi l’accesso per utilizzare Adobe Analytics come origine di reporting per [!DNL Adobe Target]. I dati di [!DNL Target] e [!DNL Analytics] sono combinati nella stessa chiamata al server durante l’elaborazione affinché i visitatori siano collegati tra le due applicazioni. Consulta [Implementazione di Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=it).
 
@@ -230,4 +235,4 @@ Se desideri fornire ai visitatori del sito la funzionalità di rinuncia, devi ag
 
 Per le istruzioni, consulta [Adobe Experience Cloud - Implementazione rinunce Adobe](https://experienceleague.adobe.com/docs/analytics/implementation/js/opt-out.html?lang=it).
 
-Per abilitare il tracciamento tra domini, consulta [CNAME raccolta dati e tracciamento tra domini](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=it).
+Per abilitare il tracciamento tra domini, consulta [CNAME raccolta dati e tracciamento tra domini](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=en).

@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '1203'
-ht-degree: 100%
+source-git-commit: cad3e95cc15edc7daa1ac1855c8475a6988e7026
+workflow-type: tm+mt
+source-wordcount: '1218'
+ht-degree: 98%
 
 ---
 
@@ -77,7 +77,7 @@ Lo stesso file visualizzato in un editor di testo:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Colonna ID cliente </p> </td> 
-   <td colname="col2"> <p> La prima colonna deve essere un ID cliente univoco. L'ID usato deve corrispondere all'ID che viene passato al servizio Experience Cloud ID. </p> <p>Per Analytics, l'ID archiviato in una prop o eVar. </p> <p>Per Target, il valore setCustomerID. (Consulta <a href="core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local"> Analytics e Adobe Target: sincronizzazione dell'ID cliente </a>) </p> <p> Questo ID cliente è l’identificatore univoco che il sistema CRM utilizza per ogni persona nel database. Le colonne rimanenti sono attributi provenienti dai dati del sistema CRM. Puoi scegliere quanti attributi caricare. </p> <p>Per le intestazioni delle colonne sono consigliati nomi descrittivi e leggibili, ma non sono obbligatori. Quando convalidi lo schema dopo il caricamento, puoi mappare i nomi descrittivi alle righe e alle colonne caricate. </p> <p> <b>Informazioni sugli ID cliente</b> </p> <p>In genere, un'azienda utilizza un ID cliente proveniente da un sistema di gestione delle relazioni con i clienti (CRM). Tale ID viene impostato usando la chiamata <span class="codeph">setCustomerIDs</span> quando una persona effettua l'accesso. Questo ID viene anche usato come chiave nel file CRM che viene caricato in Experience Cloud. Un <a href="t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local"> ID alias</a> è un nome semplificato per i dati archiviati in Audience Manager, dove vengono archiviati i dati alias. Il sistema invia alias a questo archivio di dati (tramite setCustomerIDs). Il file di gestione delle relazioni con i clienti viene applicato ai dati in tale archivio di dati. </p> <p>Per informazioni su <span class="codeph">setCustomerIDs</span> consulta <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=it" format="https" scope="external">ID cliente e stati di autenticazione</a>. </p> </td> 
+   <td colname="col2"> <p> La prima colonna deve essere un ID cliente univoco. L'ID usato deve corrispondere all'ID che viene passato al servizio Experience Cloud ID. </p> <p>Per Analytics, l'ID archiviato in una prop o eVar. </p> <p>Per Target, il valore setCustomerID. (Consulta <a href="core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local"> Analytics e Adobe Target: sincronizzazione dell'ID cliente </a>) </p> <p> Questo ID cliente è l’identificatore univoco che il sistema CRM utilizza per ogni persona nel database. Le colonne rimanenti sono attributi provenienti dai dati del sistema CRM. Puoi scegliere quanti attributi caricare. </p> <p>Per le intestazioni delle colonne sono consigliati nomi descrittivi e leggibili, ma non sono obbligatori. Quando convalidi lo schema dopo il caricamento, puoi mappare i nomi descrittivi alle righe e alle colonne caricate. </p> <p> <b>Informazioni sugli ID cliente</b> </p> <p>In genere, un'azienda utilizza un ID cliente proveniente da un sistema di gestione delle relazioni con i clienti (CRM). Tale ID viene impostato usando la chiamata <span class="codeph">setCustomerIDs</span> quando una persona effettua l'accesso. Questo ID viene anche usato come chiave nel file CRM che viene caricato in Experience Cloud. Un <a href="t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local"> ID alias</a> è un nome semplificato per i dati archiviati in Audience Manager, dove vengono archiviati i dati alias. Il sistema invia alias a questo archivio di dati (tramite setCustomerIDs). Il file di gestione delle relazioni con i clienti viene applicato ai dati in tale archivio di dati. </p> <p>Per informazioni su <span class="codeph">setCustomerIDs</span> consulta <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=en" format="https" scope="external">ID cliente e stati di autenticazione</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Intestazioni e colonne successive </p> </td> 
@@ -129,7 +129,7 @@ Lo stesso file visualizzato in un editor di testo:
   </tr> 
    <tr> 
    <td colname="col1"> <p>Dati storici </p> </td> 
-   <td colname="col2"> <p> Gli attributi del cliente sono associati al profilo del visitatore sottostante in [!DNL Analytics]. Pertanto, gli [!UICONTROL Attributi del cliente] sono associati al visitatore per l’intero ciclo di vita del suo profilo in [!DNL Analytics]. Questo profilo include il comportamento precedente al primo accesso del cliente. </p> <p> Se utilizzi il metodo di recupero dati Data Warehouse, i dati vengono associati a un valore post_visid_high/low basato sull’ID di Analytics (AID). Se utilizzi il servizio Experience Cloud ID, i dati sono legati a un post_visid_high/low basato sull'Experience Cloud ID (MID). </p> </td> 
+   <td colname="col2"> <p> Gli attributi del cliente sono associati al profilo del visitatore sottostante in [!DNL Analytics]. Pertanto, gli [!UICONTROL Attributi del cliente] sono associati al visitatore per l’intero ciclo di vita del suo profilo in [!DNL Analytics]. Questo profilo include il comportamento precedente al primo accesso del cliente. </p> <p> Se utilizzi il metodo di recupero dati Data Warehouse, i dati vengono associati a un valore post_visid_high/low basato sull’ID di Analytics (AID). Se utilizzi il servizio Experience Cloud ID, i dati sono legati a un post_visid_high/low basato sull'Experience Cloud ID (MID). </p> <p> Il metodo Data Warehouse backfill non sarà più disponibile a partire da ottobre 2022. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Feed di dati </p> </td> 
