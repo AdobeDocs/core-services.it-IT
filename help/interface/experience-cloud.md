@@ -3,15 +3,15 @@ description: Scopri i componenti dell’interfaccia centrale di Experience Cloud
 solution: Experience Cloud
 title: Guida e documentazione dell’interfaccia di Experience Cloud
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-feature: Customer Attributes
+feature: "Customer Attributes"
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
-workflow-type: ht
-source-wordcount: '1275'
-ht-degree: 100%
+source-git-commit: a0fd3904711305148f768be8afb3e9b3395af472
+workflow-type: tm+mt
+source-wordcount: '1283'
+ht-degree: 99%
 
 ---
 
@@ -145,6 +145,7 @@ Experience Cloud usa i seguenti host per fornire l’applicazione e migliorare l
 | Domini di Adobe Experience Cloud | `adobe.com`, `adobe.net`, `adobe.io` |
 | Adobe Identity Management Service (IMS) | `adobelogin.com` |
 | Font di Experience Cloud | `typekit.net` |
+| Raccolta di dati di Adobe (per assistenza e guida del prodotto) | `adobedtm.com` |
 | Gainsight (per l’Aiuto e le guide dei prodotti) | `esp.aptrinsic.com` |
 
 ## Ottenere aiuto per l’amministrazione e i servizi tra diverse applicazioni
@@ -189,7 +190,7 @@ Sfrutta i tutorial e le guide pratiche disponibili in Experience League:
 
 * [Documentazione del prodotto per tutte le applicazioni Experience Cloud](https://experienceleague.adobe.com/docs/home.html?lang=it): cerca aiuto nella sezione Informazioni e supporto di Experience Cloud
 * [Note sulla versione e aggiornamenti dei prodotti](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it): le novità di Experience Cloud, tutti gli aggiornamenti per chi si abbona
-* [Esercitazioni per l&#39;implementazione dei servizi core](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=it): video ed esercitazioni sui servizi core
+* [Esercitazioni per l&#39;implementazione dei servizi core](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en): video ed esercitazioni sui servizi core
 * [Assistenza degli esperti di Experience League](https://experienceleague.adobe.com/?lang=it): ottieni informazioni guidate dagli esperti e dalla community
 * [Formazione e training](https://helpx.adobe.com/it/learning.html?promoid=KAUDK): interagisci con Adobe per trarre il massimo dai nostri prodotti.
 * [Blog sull&#39;esperienza dei clienti](https://blog.adobe.com/it/topics/digital-transformation): leggi il blog Experience Cloud
