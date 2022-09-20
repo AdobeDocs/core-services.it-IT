@@ -2,17 +2,17 @@
 description: Scopri come creare un’origine di attributi cliente e caricarla in Adobe Experience Cloud.
 keywords: Attributi del cliente;servizi core
 solution: Experience Cloud
-title: 'Creare un’origine di attributi cliente e caricare il file di dati '
+title: Creare un’origine di attributi cliente e caricare il file di dati
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: ht
-source-wordcount: '1169'
-ht-degree: 100%
+source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
+workflow-type: tm+mt
+source-wordcount: '1171'
+ht-degree: 99%
 
 ---
 
@@ -67,7 +67,7 @@ Segui questi passaggi nella pagina Crea nuova origine attributo del cliente in E
 >
 >Quando crei, modifichi o elimini origini di attributi del cliente, si verifica un ritardo di circa un’ora prima dell’effettiva sincronizzazione degli ID con la nuova origine dati. Devi disporre di diritti di amministratore in Audience Manager per creare o modificare origini degli attributi del cliente. Contatta l&#39;Assistenza clienti o la consulenza di Audience Manager per ottenere i diritti di amministratore.
 
-1. In [!DNL Experience Cloud] seleziona l’icona Menu ![](assets/menu-icon.png).
+1. In [!DNL Experience Cloud], seleziona Menu  ![menu](assets/menu-icon.png) icona.
 1. In **[!DNL Experience Platform]**, seleziona **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**.
 
    La pagina [!UICONTROL Attributi del cliente] è il luogo in cui puoi gestire e modificare l&#39;origine dati degli attributi esistenti.
@@ -120,7 +120,7 @@ Segui questi passaggi nella pagina Crea nuova origine attributo del cliente in E
 
       **Grafico caricamento del file**
 
-      ![](assets/file_upload_attributes.png)
+      ![attributes](assets/file_upload_attributes.png)
 
    * **[!UICONTROL ID cliente univoco:]** mostra quanti ID univoci hai caricato in questa origine attributo.
 

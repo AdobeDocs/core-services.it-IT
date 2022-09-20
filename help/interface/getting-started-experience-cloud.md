@@ -2,17 +2,17 @@
 description: Scopri come accedere ad Adobe Experience Cloud, gestire le password e le notifiche e specificare una pagina di destinazione predefinita.
 keywords: servizi core, accesso a Experience Cloud
 solution: Experience Cloud
-title: 'Accesso e gestione delle impostazioni del profilo Experience Cloud '
+title: Accesso e gestione delle impostazioni del profilo Experience Cloud
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
-source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
-workflow-type: ht
-source-wordcount: '972'
-ht-degree: 100%
+source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
+workflow-type: tm+mt
+source-wordcount: '977'
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,7 @@ L’accesso a Experience Cloud (anziché a una singola applicazione) consente di
 
 Accedi e verifica di essere nell&#39;[organizzazione](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) corretta.
 
-1. Seleziona il menu di Experience Cloud (![](assets/menu-icon.png)) e poi **[!UICONTROL Amministrazione]**.
+1. Seleziona il menu Experience Cloud ( ![preferenze](assets/menu-icon.png)), quindi seleziona **[!UICONTROL Amministrazione]**.
 
    Se il collegamento **[!UICONTROL Amministrazione]** non compare, significa che non sei un amministratore Experience Cloud per [l’organizzazione](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) visualizzata. Per assistenza su come diventare amministratore, contatta l&#39;Assistenza clienti o un amministratore Experience Cloud della tua azienda.
 1. Seleziona **[!UICONTROL Amministrazione]**.
@@ -60,9 +60,9 @@ Aiuto per utenti non amministrativi che accedono a Experience Cloud.
 
    Il tuo amministratore Experience Cloud può aiutarti a determinare il tipo di account (Adobe ID o Enterprise ID).
 
-1. Nella pagina di destinazione, seleziona l’icona del selettore ![](assets/menu-icon.png) per accedere al menu a discesa.
+1. Nella pagina di destinazione, seleziona l’icona del selettore  ![menu](assets/menu-icon.png) per accedere al menu a discesa.
 
-   ![](assets/experience-cloud-core-services.png)
+   ![menu](assets/experience-cloud-core-services.png)
 
    Le applicazioni e i servizi visualizzati in questo menu dipendono dai privilegi dell’applicazione definiti dall’[amministratore](admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909).
 
@@ -82,7 +82,7 @@ Puoi modificare i dati personali e specificare un&#39; [organizzazione](admin-ge
 
 Ricevi notifiche (tramite e-mail o nel prodotto) su aggiornamenti di sistema, avvisi di manutenzione, post, menzioni e risorse condivise. Puoi inoltre specificare i prodotti e le soluzioni per cui desideri ricevere notifiche, incluso lo stato di caricamento per Attributi del cliente.
 
-Per passare a Notifiche, seleziona l’icona **[!UICONTROL Notifiche]** ![](assets/notifications-icon.png), quindi l’icona **[!UICONTROL Impostazioni]** ![](assets/icon_edit_board.png).
+Per passare a Notifiche, seleziona la **[!UICONTROL Notifiche]** icona  ![Notifiche](assets/notifications-icon.png), quindi seleziona la **[!UICONTROL Impostazioni]** icona  ![modifica](assets/icon_edit_board.png).
 
 Puoi ordinare la visualizzazione delle notifiche in base ai tipi di messaggio che ti interessano e cercare le notifiche. È inoltre possibile:
 

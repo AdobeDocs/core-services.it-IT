@@ -2,17 +2,17 @@
 description: Scopri come usare le regole per attributi per creare un pubblico, o audience, e definire un pubblico composito in Adobe Experience Cloud.
 keywords: servizi di base
 solution: Experience Cloud
-title: 'Creazione di un pubblico '
+title: Creazione di un pubblico
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
 feature: Audience Library
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: ht
-source-wordcount: '508'
-ht-degree: 100%
+source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
+workflow-type: tm+mt
+source-wordcount: '509'
+ht-degree: 99%
 
 ---
 
@@ -46,7 +46,7 @@ L’esempio seguente mostra come creare le regole per un pubblico composito. Que
 **Creare un’audience**
 
 1. In [!DNL Experience Cloud], nella sezione[!DNL Experience Platform], seleziona **[!UICONTROL Persone]** > **[!UICONTROL Libreria pubblico].**
-1. Nella pagina [!UICONTROL Tipi di pubblico] seleziona **[!UICONTROL Nuovo]**. ![](assets/add_icon_small.png)
+1. Nella pagina [!UICONTROL Tipi di pubblico] seleziona **[!UICONTROL Nuovo]**. ![add](assets/add_icon_small.png)
 
    ![Risultato passaggio](assets/audience_create_new.png)
 
