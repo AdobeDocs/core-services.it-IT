@@ -1,16 +1,15 @@
 ---
-description: 'Scopri come condividere cartelle e risorse tra Experience Cloud e Creative Cloud. '
-keywords: condivisione di risorse;Creative Cloud;servizi principali
+description: Scopri come condividere cartelle e risorse tra Experience Cloud e Creative Cloud.
 solution: Experience Cloud
-title: 'Condivisione di cartelle e risorse Experience Cloud con Creative Cloud '
+title: Condivisione di cartelle e risorse Experience Cloud con Creative Cloud
 feature: Assets
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 41290ea3-86ce-4e9d-8c3c-bbe30c337c4c
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '178'
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+workflow-type: tm+mt
+source-wordcount: '172'
 ht-degree: 100%
 
 ---

@@ -1,17 +1,16 @@
 ---
 description: Scopri i tipi di file consentiti e i limiti di dimensione per la condivisione di risorse tra Adobe Experience Cloud e Creative Cloud.
-keywords: condivisione di risorse;Creative Cloud;servizi principali
 solution: Experience Cloud
-title: 'Requisiti dei file per la condivisione delle risorse '
+title: Requisiti dei file per la condivisione delle risorse
 uuid: 1621accf-c407-437b-ae12-61f13cc338d0
-feature: Risorse
-topic: Amministrazione
+feature: Assets
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 61bc8f52-a77e-4e85-939b-6f29963334a1
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '130'
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+workflow-type: tm+mt
+source-wordcount: '122'
 ht-degree: 100%
 
 ---
@@ -33,4 +32,4 @@ I limiti di dimensione dei file dipendono dal browser e possono variare da un br
 | Internet Explorer 6 | 2 GB | 2 GB  4 GB per trasferimenti a blocchi o con chiusura della connessione. |
 | Internet Explorer 7 | 2 GB | 4 GB |
 | Internet Explorer 8 | 2 GB | 17,592 GB |
-| Internet Explorer da 9 a 11 | 4 GB | 17,592 GB |
+| Internet Explorer da 9 a 11 | 4 GB | 17.592 GB |

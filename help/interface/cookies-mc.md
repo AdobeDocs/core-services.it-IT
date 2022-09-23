@@ -1,17 +1,16 @@
 ---
 description: Scopri come il servizio ID viene memorizzato e utilizzato nelle applicazioni di Experience Cloud.
-keywords: cookie;privacy
 solution: Experience Cloud,Analytics,Target
-title: 'Cookie di Experience Cloud '
+title: Cookie di Experience Cloud
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
-feature: Cookie
-topic: Amministrazione
+feature: Cookies
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: bd9bea58-9987-40d6-84e0-da185388bbbb
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '349'
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+workflow-type: tm+mt
+source-wordcount: '345'
 ht-degree: 100%
 
 ---

@@ -1,18 +1,17 @@
 ---
-description: “Funzioni più recenti, note sulla versione e problemi noti per i servizi Experience Cloud, come Attributi del cliente, Audiences e gestione degli utenti.”
-keywords: servizi di base
+description: Scopri le funzioni, le note sulla versione e i problemi noti per i servizi di Experience Cloud quali Attributi del cliente, Tipi di pubblico e gestione degli utenti.
 solution: Experience Cloud
-title: 'Note sulla versione cumulative '
+title: Note sulla versione cumulative
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 271d8496ee617f55741cb2e636eecc869e1ec284
-workflow-type: ht
-source-wordcount: '4767'
-ht-degree: 100%
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+workflow-type: tm+mt
+source-wordcount: '4768'
+ht-degree: 99%
 
 ---
 
@@ -126,7 +125,7 @@ La funzione Ricerca unificata è stata aggiornata per renderla disponibile anche
 
 | Funzione | Descrizione |
 | -----------| ---------- |
-| Admin Tool - visualizza dettagli utente | Gli amministratori possono visualizzare un elenco ordinabile e filtrabile di tutti gli utenti Experience Cloud e dei relativi dettagli nel nuovo Admin Tool. I dettagli degli utenti includono l’accesso ai prodotti, i ruoli e le informazioni sull’ultimo accesso. Consulta la guida [Admin Tool di Experience Cloud](admin-tool-experience-cloud.md) per ulteriori dettagli. |
+| Admin Tool - visualizza dettagli utente | Gli amministratori possono visualizzare un elenco ordinabile e filtrabile di tutti gli utenti Experience Cloud e dei relativi dettagli nel nuovo Admin Tool. I dettagli dell’utente includono l’accesso ai prodotti, i ruoli e le informazioni sull’ultimo accesso. Per ulteriori informazioni, consulta la guida [Admin Tool di Experience Cloud](admin-tool-experience-cloud.md). |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -150,7 +149,7 @@ La funzione Ricerca unificata è stata aggiornata per renderla disponibile anche
 
 * Lo switcher dell’app è stato aggiornato per includere la suite di applicazioni Marketo in Experience Cloud e gli aggiornamenti di branding in Experience Platform. (MCUI-6529)
 * La pagina Home di Experience Cloud è stata aggiornata per includere i link di navigazione per le pagine Feed e Amministrazione. (MCUI-6682)
-* È stato risolto un problema nella definizione [!UICONTROL Trigger] per l&#39;uso corretto della clausola “like”. (MCUI-6611)
+* È stato risolto un problema in [!UICONTROL Trigger] definizione per l&#39;uso corretto della clausola &quot;like&quot;. (MCUI-6611)
 * Sono stati introdotti miglioramenti relativi agli attributi del cliente per migliorare la registrazione nel servizio di abbonamento. (MCUI-6519)
 
 ## Rilascio 19.1.1 - 17 gennaio 2019

@@ -1,18 +1,17 @@
 ---
-description: Considerazioni e best practice sui dati di identificazione personale (PII) caricati e utilizzati in Experience Cloud.
-keywords: Attributi del cliente;servizi core
+description: Scopri le considerazioni e le best practice relative alle informazioni personali (PII) caricate e utilizzate in Experience Cloud.
 solution: Experience Cloud
-title: 'Considerazioni sulla privacy per Attributi del cliente '
+title: Considerazioni sulla privacy per Attributi del cliente
 uuid: 5666dc4e-55fa-4196-9985-cf530cfb9247
-feature: Attributi del cliente
-topic: Amministrazione
+feature: Customer Attributes
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 27c026ff-198b-4f49-9718-f25f77a9e716
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '518'
-ht-degree: 100%
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+workflow-type: tm+mt
+source-wordcount: '513'
+ht-degree: 96%
 
 ---
 

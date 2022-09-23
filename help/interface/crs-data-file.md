@@ -1,17 +1,16 @@
 ---
 description: Scopri i requisiti dei file di dati e le diverse origini dei dati per caricare Attributi del cliente in Experience Cloud.
-keywords: Attributi del cliente;servizi core
 solution: Experience Cloud
-title: 'Scopri come usare file e sorgenti dati per Attributi del cliente '
+title: Scopri come usare file e sorgenti dati per Attributi del cliente
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
-source-git-commit: cad3e95cc15edc7daa1ac1855c8475a6988e7026
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '1218'
+source-wordcount: '1214'
 ht-degree: 98%
 
 ---
@@ -150,7 +149,7 @@ Imposta due ID cliente corrispondenti alle origini dati appropriate:
 
 ```
 Visitor.setCustomerIDs({ 
-     "ds_id1”:"123456", 
+     "ds_id1":"123456", 
      "ds_id2":"123456" 
 });
 ```

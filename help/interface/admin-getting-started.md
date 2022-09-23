@@ -1,6 +1,6 @@
 ---
 title: Gestione di utenti e prodotti
-description: Scopri come accedere ad Admin Console e gestire le autorizzazioni utente e i profili prodotto di Experience Cloud. Scopri come delegare le autorizzazioni di amministratore agli utenti di Experience Cloud, e i browser supportati da Experience Cloud.
+description: Accedi all’Admin Console e gestisci le autorizzazioni utente e i prodotti di Experience Cloud (profili prodotto). Scopri come delegare le autorizzazioni di amministratore agli utenti di Experience Cloud, e i browser supportati da Experience Cloud.
 solution: Admin
 index: true
 feature: Admin Console
@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: 7bbb6c4ec77fa73db8640358504504bc7df36465
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '1894'
-ht-degree: 99%
+source-wordcount: '1891'
+ht-degree: 98%
 
 ---
 

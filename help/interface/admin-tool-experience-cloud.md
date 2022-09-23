@@ -1,24 +1,23 @@
 ---
 description: Scopri lo strumento di amministrazione di Experience Cloud. Visualizza un elenco ordinabile e filtrabile di tutti gli utenti e i criteri di Experience Cloud.
-keywords: servizi di base
 application: Experience Cloud
-title: 'Visualizzare gli utenti e i dettagli utente di Experience Cloud '
+title: Visualizzare gli utenti e i dettagli utente di Experience Cloud
 index: true
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '1270'
-ht-degree: 100%
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+workflow-type: tm+mt
+source-wordcount: '1268'
+ht-degree: 94%
 
 ---
 
 # Visualizzare gli utenti e i criteri di Experience Cloud con Admin Tool
 
-Gli amministratori possono visualizzare un elenco ordinabile e filtrabile di tutti gli utenti e i criteri Experience Cloud, con i relativi dettagli, in Admin Tool. I dettagli degli utenti includono l’accesso ai prodotti, i ruoli e le informazioni sull’ultimo accesso. I dettagli dei criteri includono l’elenco di utenti, gruppi, sviluppatori, integrazioni e amministratori di un criterio (profilo di prodotto), nonché informazioni dettagliate sulle autorizzazioni e sulle risorse per il criterio.
+Gli amministratori possono visualizzare un elenco ordinabile e filtrabile di tutti gli utenti e i criteri Experience Cloud, con i relativi dettagli, in Admin Tool. I dettagli dell’utente includono l’accesso ai prodotti, i ruoli e le informazioni sull’ultimo accesso. I dettagli dei criteri includono l’elenco di utenti, gruppi, sviluppatori, integrazioni e amministratori di un criterio (profilo di prodotto), nonché informazioni dettagliate sulle autorizzazioni e sulle risorse per il criterio.
 
 >[!NOTE]
 >
@@ -46,7 +45,7 @@ In questa pagina viene visualizzato l’elenco completo degli utenti con accesso
 | [!UICONTROL E-mail] | L’indirizzo e-mail associato all’utente. Puoi ordinare questa colonna da A a Z e da Z ad A. |
 | [!UICONTROL ID Type (Tipo di ID)] | Il tipo di identità per l’account dell’utente. È possibile applicare un filtro per visualizzare tipi di ID specifici. Per ulteriori informazioni, consulta [Manage identity types (Gestisci tipi di identità)](https://helpx.adobe.com/it/enterprise/using/identity.html). |
 | [!UICONTROL Soluzioni] | Riepilogo delle applicazioni Experience Cloud a cui l’utente può accedere. Per limitare l’elenco di utenti con accesso specifico all’applicazione puoi applicare i filtri. |
-| [!UICONTROL Last Login (Ultimo accesso)] | Ora e data dell’accesso utente più recente a Experience Cloud. Questa colonna può essere ordinata in base a date ascendenti o discendenti. <br> **Importante:** a partire dal 13 gennaio 2020, gli ultimi dati di accesso dell’utente saranno conservati per 365 giorni. Queste informazioni si propongono di mostrare l’attuale attività all’interno di Experience Cloud e non costituiscono un consiglio a intervenire sugli account inattivi prima del 13 gennaio 2020. |
+| [!UICONTROL Last Login (Ultimo accesso)] | Ora e data dell’accesso utente più recente a Experience Cloud. Questa colonna può essere ordinata in base a date ascendenti o discendenti. <br> **Importante:** A partire dal 13 gennaio 2020, gli ultimi dati di accesso dell’utente saranno conservati per 365 giorni. Queste informazioni si propongono di mostrare l’attuale attività all’interno di Experience Cloud e non costituiscono un consiglio a intervenire sugli account inattivi prima del 13 gennaio 2020. |
 
 ## Personalizzare la vista elenco degli utenti
 
@@ -68,7 +67,7 @@ Per visualizzare i dettagli di un utente, nella pagina [!UICONTROL Utenti] selez
 
 ![Visualizzare i dettagli utente in Admin Console](assets/admin-tool-user-details.png)
 
-La visualizzazione dettagliata di ciascun utente mostra dettagli importanti sull’accesso all’applicazione da parte dell’utente, sui ruoli di amministratore e di prodotto, oltre alle informazioni sull’ultimo accesso.
+Una visualizzazione dettagliata di ciascun utente mostra dettagli importanti sull&#39;accesso all&#39;applicazione dell&#39;utente, sui ruoli di amministratore e di prodotto e sulle informazioni sull&#39;ultimo accesso.
 
 ## Sezione Informazioni
 
@@ -78,7 +77,7 @@ In questa sezione viene visualizzato un riepilogo dell’account utente, il qual
 * Nome
 * E-mail
 * Nome utente (gli account Federated ID possono presentare nomi utente diversi dall’indirizzo e-mail)
-* [Tipo ID](https://helpx.adobe.com/it/enterprise/using/identity.html)
+* [Tipo ID](https://helpx.adobe.com/enterprise/using/identity.html)
 * Paese
 * Ultimo accesso
 
