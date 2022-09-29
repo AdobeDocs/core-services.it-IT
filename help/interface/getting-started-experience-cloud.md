@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
 source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '970'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ L’accesso a Experience Cloud (anziché a una singola applicazione) consente di
 
 Accedi e verifica di essere nell&#39;[organizzazione](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) corretta.
 
-1. Seleziona il menu Experience Cloud ( ![preferenze](assets/menu-icon.png)), quindi seleziona **[!UICONTROL Amministrazione]**.
+1. Seleziona il menu di Experience Cloud ( ![Preferenze](assets/menu-icon.png)), quindi seleziona **[!UICONTROL Amministrazione]**.
 
    Se il collegamento **[!UICONTROL Amministrazione]** non compare, significa che non sei un amministratore Experience Cloud per [l’organizzazione](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) visualizzata. Per assistenza su come diventare amministratore, contatta l&#39;Assistenza clienti o un amministratore Experience Cloud della tua azienda.
 1. Seleziona **[!UICONTROL Amministrazione]**.
@@ -59,7 +59,7 @@ Aiuto per utenti non amministrativi che accedono a Experience Cloud.
 
    Il tuo amministratore Experience Cloud può aiutarti a determinare il tipo di account (Adobe ID o Enterprise ID).
 
-1. Nella pagina di destinazione, seleziona l’icona del selettore  ![menu](assets/menu-icon.png) per accedere al menu a discesa.
+1. Nella pagina di destinazione, seleziona l’icona del selettore ![menu](assets/menu-icon.png) per accedere al menu a discesa.
 
    ![menu](assets/experience-cloud-core-services.png)
 
@@ -81,7 +81,7 @@ Puoi modificare i dati personali e specificare un&#39; [organizzazione](admin-ge
 
 Ricevi notifiche (tramite e-mail o nel prodotto) su aggiornamenti di sistema, avvisi di manutenzione, post, menzioni e risorse condivise. Puoi inoltre specificare i prodotti e le soluzioni per cui desideri ricevere notifiche, incluso lo stato di caricamento per Attributi del cliente.
 
-Per passare a Notifiche, seleziona la **[!UICONTROL Notifiche]** icona  ![Notifiche](assets/notifications-icon.png), quindi seleziona la **[!UICONTROL Impostazioni]** icona  ![modifica](assets/icon_edit_board.png).
+Per passare a Notifiche, seleziona l’icona **[!UICONTROL Notifiche]** ![notifiche](assets/notifications-icon.png), quindi l’icona **[!UICONTROL Impostazioni]** ![modifica](assets/icon_edit_board.png).
 
 Puoi ordinare la visualizzazione delle notifiche in base ai tipi di messaggio che ti interessano e cercare le notifiche. È inoltre possibile:
 
