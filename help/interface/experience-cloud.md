@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1285'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Accedi e verifica di essere nell&#39;[organizzazione](organizations.md) corretta
 
 Dopo aver effettuato l’accesso ad Experience Cloud, è possibile accedere rapidamente a tutte le applicazioni, i servizi e le organizzazioni dall’lintestazione unificata.
 
-Per accedere alle applicazioni e ai servizi di Experience Cloud forniti all’interno della tua organizzazione, vai al selettore delle applicazioni ![menu](assets/menu-icon.png).
+Per accedere alle applicazioni e ai servizi Experience Cloud per i quali disponi dei diritti di accesso nella tua organizzazione, passa al selettore delle applicazioni ![menu](assets/menu-icon.png).
 
 ![Accedere alle applicazioni Experience Cloud](assets/platform-core-services.png)
 
@@ -114,7 +114,7 @@ Le preferenze di Experience Cloud includono notifiche, abbonamenti e avvisi. Nel
 * Uscire
 * Configurare preferenze, notifiche e abbonamenti dell’account
 
-Per gestire le preferenze, seleziona **[!UICONTROL Preferenze]** dal menu account ![preferenze](assets/preferences-icon-sm.png).
+Per gestire le preferenze, seleziona **[!UICONTROL Preferenze]** nel menu dell’account ![preferenze](assets/preferences-icon-sm.png).
 
 ![Profilo utente e preferenze account](assets/preferences-page.png)
 
@@ -138,7 +138,7 @@ Seleziona **[!UICONTROL Notifiche]** per ricevere avvisi sugli aggiornamenti ril
 
 ## Domini di Experience Cloud {#domains}
 
-Experience Cloud usa i seguenti host per fornire l’applicazione e migliorare le prestazioni e l’esperienza di utilizzo del prodotto. Adobe consiglia di aggiungere questi domini all’elenco Consentiti del firewall, per un’esperienza ottimale. Specifiche applicazioni Experience Cloud, ad esempio Adobe Analytics, potrebbero utilizzare domini aggiuntivi. Per informazioni, consulta la documentazione delle singole applicazioni.
+Experience Cloud usa i seguenti host per fornire l’applicazione e migliorare le prestazioni e l’esperienza di utilizzo del prodotto. Per un’esperienza ottimale, Adobe consiglia di aggiungere questi domini all’elenco Consentiti del tuo firewall. Specifiche applicazioni Experience Cloud, ad esempio Adobe Analytics, potrebbero utilizzare domini aggiuntivi. Per informazioni, consulta la documentazione delle singole applicazioni.
 
 | Tecnologia | Domini |
 |--- |--- |
@@ -190,7 +190,7 @@ Sfrutta i tutorial e le guide pratiche disponibili in Experience League:
 
 * [Documentazione del prodotto per tutte le applicazioni Experience Cloud](https://experienceleague.adobe.com/docs/home.html?lang=it): cerca aiuto nella sezione Informazioni e supporto di Experience Cloud
 * [Note sulla versione e aggiornamenti dei prodotti](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it): le novità di Experience Cloud, tutti gli aggiornamenti per chi si abbona
-* [Esercitazioni per l&#39;implementazione dei servizi core](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en): video ed esercitazioni sui servizi core
+* [Esercitazioni per l&#39;implementazione dei servizi core](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=it): video ed esercitazioni sui servizi core
 * [Assistenza degli esperti di Experience League](https://experienceleague.adobe.com/?lang=it): ottieni informazioni guidate dagli esperti e dalla community
 * [Formazione e training](https://helpx.adobe.com/it/learning.html?promoid=KAUDK): interagisci con Adobe per trarre il massimo dai nostri prodotti.
 * [Blog sull&#39;esperienza dei clienti](https://blog.adobe.com/it/topics/digital-transformation): leggi il blog Experience Cloud
