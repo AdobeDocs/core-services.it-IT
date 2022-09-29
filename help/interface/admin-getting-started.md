@@ -11,7 +11,7 @@ exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
 source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
 source-wordcount: '1891'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -81,7 +81,7 @@ Per informazioni sui tipi di identità, consulta [Tipi di identità in Adobe Adm
 
 Quando è il momento, gli amministratori dell’organizzazione ricevono un’e-mail di notifica 30 giorni prima della migrazione.
 
-* La migrazione sarà programmata tra le ore 10 - 6.00 in base al fuso orario principale dell&#39;organizzazione o al fine settimana.
+* La migrazione sarà programmata tra le ore 22:00 e le 06:00 in base al fuso orario principale dell’organizzazione o nel fine settimana.
 * Durante la migrazione, l’applicazione di Experience Cloud può essere inaccessibile per un massimo di 15 minuti e Admin Console può essere inaccessibile fino a 30 minuti. Per il resto, la migrazione sarà senza soluzione di continuità.
 
 ### Modifiche dopo la migrazione

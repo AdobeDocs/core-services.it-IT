@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1285'
 ht-degree: 100%
 
@@ -190,7 +190,7 @@ Sfrutta i tutorial e le guide pratiche disponibili in Experience League:
 
 * [Documentazione del prodotto per tutte le applicazioni Experience Cloud](https://experienceleague.adobe.com/docs/home.html?lang=it): cerca aiuto nella sezione Informazioni e supporto di Experience Cloud
 * [Note sulla versione e aggiornamenti dei prodotti](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it): le novità di Experience Cloud, tutti gli aggiornamenti per chi si abbona
-* [Esercitazioni per l&#39;implementazione dei servizi core](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=it): video ed esercitazioni sui servizi core
+* [Esercitazioni per l&#39;implementazione dei servizi core](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en): video ed esercitazioni sui servizi core
 * [Assistenza degli esperti di Experience League](https://experienceleague.adobe.com/?lang=it): ottieni informazioni guidate dagli esperti e dalla community
 * [Formazione e training](https://helpx.adobe.com/it/learning.html?promoid=KAUDK): interagisci con Adobe per trarre il massimo dai nostri prodotti.
 * [Blog sull&#39;esperienza dei clienti](https://blog.adobe.com/it/topics/digital-transformation): leggi il blog Experience Cloud
