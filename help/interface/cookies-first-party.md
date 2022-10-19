@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: f5cead10ecfeefeb560e92881524650e55bd938d
+source-git-commit: 86e1ed26209244fd9c8c228c812b744e18e4b8fc
 workflow-type: tm+mt
-source-wordcount: '1636'
-ht-degree: 78%
+source-wordcount: '1622'
+ht-degree: 79%
 
 ---
 
@@ -72,7 +72,8 @@ Per implementare un nuovo certificato SSL di prima parte per la raccolta dati di
 
 Trenta giorni prima della scadenza del certificato di prima parte, l’Adobe verifica se il CNAME è ancora valido e in uso. In questo caso, Adobe presuppone che si desideri continuare a utilizzare il servizio e rinnova automaticamente il certificato per suo conto.
 
-Al momento, se il CNAME è stato rimosso e non è più valido, Adobe non rinnova il certificato e la voce nel nostro sistema viene contrassegnata per la rimozione. Se il CNAME è stato rimosso, l’Adobe sa che il tracciamento non si verifica utilizzando tale URL e che è quindi sicuro da rimuovere.
+>[!NOTE]
+> Se il CNAME è stato rimosso e/o non è più valido (non esegue la mappatura sul nome host SSL dell’Adobe fornito), Adobe non può rinnovare il certificato e la voce nel nostro sistema viene contrassegnata per la rimozione senza ulteriori comunicazioni.
 
 ### Domande frequenti
 
