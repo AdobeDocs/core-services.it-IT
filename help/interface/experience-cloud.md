@@ -11,7 +11,7 @@ exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: 0de9f9d62dcb3e6c32e841de1663704475805315
 workflow-type: tm+mt
 source-wordcount: '1337'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -123,8 +123,8 @@ Nelle [!UICONTROL preferenze di Experience Cloud], è possibile configurare le s
 | Funzione | Descrizione |
 |--- |--- |
 | [Organizzazione](organizations.md) predefinita | Seleziona l’organizzazione da visualizzare all’avvio di Experience Cloud. |
-| [!UICONTROL Raccolta dati di prodotto] | Seleziona quali Adobi di tecnologie possono utilizzare per raccogliere i dati sull’utilizzo dei prodotti Adobe. |
-| [!UICONTROL Raccomandazioni e promozioni per l’apprendimento personalizzato] | Seleziona dove desideri ricevere aiuto personalizzato per i tuoi prodotti di Adobe. Questa guida è disponibile tramite e-mail, prodotto interno e Experience League Communities. [Ulteriori informazioni.](personalized-learning-preferences.md) |
+| [!UICONTROL Raccolta dati sui prodotto] | Seleziona le tecnologie che Adobe può utilizzare per raccogliere i dati sul modo in cui utilizzi i suoi prodotti. |
+| [!UICONTROL Promozioni e consigli personalizzati per l’apprendimento] | Scegli dove desideri ricevere informazioni personalizzate sui tuoi prodotti Adobe. Puoi riceverle tramite e-mail, nel prodotto stesso e nelle community Experience League. [Ulteriori informazioni.](personalized-learning-preferences.md) |
 | [!UICONTROL Abbonamenti] | Seleziona i prodotti e le categorie a cui desideri abbonarti. Notifiche nel riquadro a comparsa [!UICONTROL Notifiche] e via e-mail. |
 | [!UICONTROL Priorità] | Seleziona le categorie a cui vuoi assegnare la priorità alta. Queste categorie sono contrassegnate con il tag Alta e possono essere configurate per la distribuzione come avvisi. |
 | [!UICONTROL Avvisi] | Seleziona le notifiche per le quali desideri visualizzare gli avvisi nel browser. Gli avvisi vengono visualizzati per alcuni secondi nell’angolo in alto a destra della finestra. |
