@@ -4,10 +4,10 @@ solution: Experience Cloud
 title: Preferenze di apprendimento personalizzato in Experience Cloud
 feature: Customer Attributes
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
-source-git-commit: d4cbde45df379d2e90b401f4ebc097a5d587d389
+source-git-commit: 77dbd73a741396b638958042d8ef7278be044581
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 91%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ Puoi scegliere se consentirci di fornirti contenuti utili personalizzati in base
 * Funzioni che probabilmente userai
 * E altro ancora!
 
-[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="200"}
+[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
 
 
 Puoi aggiornare le tue selezioni in qualsiasi momento dalle [Impostazioni preferenze utente](https://experience.adobe.com/preferences/).
@@ -37,8 +37,6 @@ Puoi aggiornare le tue selezioni in qualsiasi momento dalle [Impostazioni prefer
 <tbody>
   <tr>
     <td colspan="3">Potrai ricevere best practice, suggerimenti, procedure guidate e altri contenuti mirati in base al modo in cui utilizzi i prodotti Adobe, in ciascuno di questi tre modi:</td>
-    <td></td>
-    <td></td>
   </tr>
   <tr>
     <td>Nei prodotti Adobe<br></td>
@@ -51,7 +49,7 @@ Puoi aggiornare le tue selezioni in qualsiasi momento dalle [Impostazioni prefer
   </tr>
   <tr>
     <td>Nelle e-mail inviate da Adobe</td>
-    <td>Visualizzazione di contenuti di apprendimento relativi al lavoro svolto nei prodotti</td>
+    <td>Contenuti di apprendimento relativi al modo in cui utilizzi i prodotti.</td>
   </tr>
   <tr>
     <td>Nelle community Experience League..</td>
@@ -72,8 +70,6 @@ Puoi aggiornare le tue selezioni in qualsiasi momento dalle [Impostazioni prefer
 <tbody>
   <tr>
     <td colspan="3">Ricevi opportunità su misura per eventi di apprendimento, sessioni di ricerca e integrazioni basate sul tuo lavoro in ciascuno di questi tre modi...</td>
-    <td></td>
-    <td></td>
   </tr>
   <tr>
     <td>Nei prodotti Adobe<br></td>
@@ -97,6 +93,9 @@ Puoi aggiornare le tue selezioni in qualsiasi momento dalle [Impostazioni prefer
 </table>
 
 
+[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
+
+
 ## Guarda alcuni esempi di informazioni di apprendimento personalizzate.
 
 
@@ -111,3 +110,5 @@ Puoi aggiornare le tue selezioni in qualsiasi momento dalle [Impostazioni prefer
 ### Nelle community Experience League
 
 ![](assets/personalized-learning-communities.png){width="800"}
+
+[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
