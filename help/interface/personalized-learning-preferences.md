@@ -4,7 +4,7 @@ solution: Experience Cloud
 title: Preferenze di apprendimento personalizzato in Experience Cloud
 feature: Customer Attributes
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
-source-git-commit: 7d115f64105cf24faaa467ab542362663b6e4602
+source-git-commit: 1efadba40356a3bbd87f7150ebe0c417bc2af1c8
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 94%
@@ -20,7 +20,7 @@ Puoi scegliere se consentirci di fornirti contenuti utili personalizzati in base
 * Funzioni che probabilmente userai
 * E altro ancora!
 
-[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
+[![](assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
 
 
 Puoi aggiornare le tue selezioni in qualsiasi momento dalle [Impostazioni preferenze utente](https://experience.adobe.com/preferences/).
@@ -85,8 +85,7 @@ Ricevi opportunità su misura per eventi di apprendimento, sessioni di ricerca e
 </table>
 
 
-[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
-
+[![](assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
 
 
 
@@ -110,4 +109,6 @@ Ricevi opportunità su misura per eventi di apprendimento, sessioni di ricerca e
 
 ![](assets/personalized-learning-communities.png){width="800"}
 
-[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
+
+
+[![](assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
