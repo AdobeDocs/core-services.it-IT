@@ -5,8 +5,8 @@ title: Preferenze di apprendimento personalizzato in Experience Cloud
 feature: Customer Attributes
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
 source-git-commit: 1efadba40356a3bbd87f7150ebe0c417bc2af1c8
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '390'
 ht-degree: 100%
 
 ---
