@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 86e1ed26209244fd9c8c228c812b744e18e4b8fc
+source-git-commit: 0e4bf07a15c4601b3e6278a57880920710a69a79
 workflow-type: tm+mt
 source-wordcount: '1622'
 ht-degree: 79%
@@ -55,7 +55,7 @@ Per implementare un nuovo certificato SSL di prima parte per la raccolta dati di
 
    Quando viene ricevuto il ticket, un rappresentante dell’assistenza clienti ti fornirà un record CNAME. Questi record devono essere configurati sul server DNS della tua azienda per consentire ad Adobe di acquistare il certificato per conto tuo. Il CNAME ha un aspetto simile a quanto segue:
 
-   **Protetto**: ad esempio, il nome host `smetrics.example.com` punta a: `example.com.adobedc.net`.
+   **Protetto**: ad esempio, il nome host `smetrics.example.com` punta a: `[random-10-character-string].data.adobedc.net`.
 
    >[!NOTE]
    > In passato, Adobe consigliava ai clienti di impostare due CNAME, uno per HTTPS e uno per HTTP. Poiché è buona prassi crittografare il traffico e la maggior parte dei browser scoraggia fortemente HTTP, si sconsiglia più di impostare un CNAME per HTTP. È ora considerata una best practice per impostare `trackingServer` e `trackingServerSecure` con lo stesso CNAME. Ad esempio, entrambi `trackingServer` e `trackingServerSecure` è impostato su `smetrics.example.com`. HTTP è consentito solo per i nomi host di terze parti.
@@ -94,12 +94,12 @@ Il team che gestisce la rete della tua organizzazione deve configurare i server 
 Lo specialista FPC ti fornisce il nome host configurato e il CNAME a cui deve puntare. Esempio:
 
 * **Nome host SSL**: `smetrics.mysite.com`
-* **CNAME SSL**: `mysite.com.adobedc.net`
+* **CNAME SSL**: `[random-10-character-string].data.adobedc.net`
 
 >[!NOTE]
 > Se utilizzi ancora un CNAME non protetto, si presenterà come il seguente:
 > * **Nome host non SSL**: `metrics.mysite.com`
-> * **CNAME non SSL**: `mysite.com.adobedc.net`
+> * **CNAME non SSL**: `[random-10-character-string].data.adobedc.net`
 
 
 Fintanto che il codice di implementazione non viene modificato, questo passaggio non influisce sulla raccolta dei dati e può essere eseguito in qualsiasi momento dopo l’aggiornamento del codice di implementazione.
