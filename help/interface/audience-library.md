@@ -60,7 +60,7 @@ La tabella seguente descrive come vengono utilizzati i tipi di pubblico nelle ap
 | Aiuto con | Risorsa |
 |--- |--- |
 | Non riesci a trovare Pubblico? | Verifica di avere il provisioning. Consulta [Guida introduttiva: abilitare le applicazioni per i servizi principali](core-services.md).<br>Fai clic [qui](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES) per richiedere l’accesso ai servizi per profili e tipi di pubblico (modulo di provisioning integrazioni). |
-| Casi di utilizzo | Per maggiori informazioni sull’applicazione da utilizzare, consulta la sezione sulle [opzioni di creazione del pubblico](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=en) nella Knowledge Base. |
+| Casi di utilizzo | Per maggiori informazioni sull’applicazione da utilizzare, consulta la sezione sulle [opzioni di creazione del pubblico](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=it) nella Knowledge Base. |
 | Forum | Il [forum di Audiences](https://experienceleaguecommunities.adobe.com/t5/Adobe-Experience-Cloud-Audiences/ct-p/experience-cloud-audiences-community) è un’ulteriore risorsa utile quando si lavora sui tipi di pubblico. |
 
 {style=&quot;table-layout:auto&quot;}
