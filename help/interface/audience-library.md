@@ -11,7 +11,7 @@ level: Experienced
 exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '824'
 ht-degree: 100%
 
 ---
@@ -49,7 +49,7 @@ La tabella seguente descrive come vengono utilizzati i tipi di pubblico nelle ap
 | Campaign | <ul><li>Importa i tipi di pubblico condivisi da diverse applicazioni Adobe Experience Cloud in Adobe Campaign.</li><li>Esporta gli elenchi dei destinatari sotto forma di tipi di pubblico condivisi. I tipi di pubblico condivisi possono essere utilizzati nelle diverse applicazioni Adobe Experience Cloud che utilizzi.</li></ul> |
 | Advertising Cloud | Utilizza il pubblico come target. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!IMPORTANT]
 >
@@ -63,7 +63,7 @@ La tabella seguente descrive come vengono utilizzati i tipi di pubblico nelle ap
 | Casi di utilizzo | Per maggiori informazioni sull’applicazione da utilizzare, consulta la sezione sulle [opzioni di creazione del pubblico](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=it) nella Knowledge Base. |
 | Forum | Il [forum di Audiences](https://experienceleaguecommunities.adobe.com/t5/Adobe-Experience-Cloud-Audiences/ct-p/experience-cloud-audiences-community) è un’ulteriore risorsa utile quando si lavora sui tipi di pubblico. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Elementi dell&#39;interfaccia libreria di tipi di pubblico {#section_D04ACEF61CEF4B189AE6BA9F40D0DBF4}
 
@@ -82,4 +82,4 @@ La tabella seguente descrive come vengono utilizzati i tipi di pubblico nelle ap
 | Dimensione attuali | Dimensione attuale del pubblico. |
 | Attivo | Lo stato attivo del segmento. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
