@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
-source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
+source-git-commit: e71461000e352d4a8acba413e0db6180a37395ff
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '358'
 ht-degree: 95%
 
 ---
@@ -40,7 +40,6 @@ In [!UICONTROL Experience Cloud Assets] puoi eseguire le seguenti operazioni:
 * [Visualizzare risorse a tutto schermo e usare lo zoom](experience-cloud-assets.md#section_A9F50D7D6BE341A2AB8244A4E42A4EF7)
 * [Visualizzare le proprietà della risorsa](experience-cloud-assets.md#section_FED28711DAB14E1BBEEA7CA890EE9573)
 * [Eseguire rapporti sull’utilizzo](experience-cloud-assets.md#section_15D782FFB8D74CF4A735116CC03AD902)
-* [Condivisione di risorse con Experience Manager](experience-cloud-assets.md#section_45C1B72F4D274F54BC6CCB64D2580AC5)
 
 ## Passare a Experience Cloud Assets {#section_3657039DD3524F2AA88753BFF4781125}
 
