@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: 3ef59cfa7ea4c1a27776153d847b0ba20e8fc6b4
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '735'
 ht-degree: 100%
 
 ---
@@ -42,7 +42,7 @@ Ulteriori informazioni sui [cookie di prime parti](cookies-first-party.md) sono 
 | Posizione | Solo clienti CNAME. Non applicabile in caso di terze parti. Il cookie è memorizzato nel tuo dominio, lo stesso utilizzato dal CNAME e dalla richiesta di immagine Analytics. |
 | Dimensione | 45 byte |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Nome cookie: s_cc {#section-03aa90aa7e36427b8cb12dc4a0f0291e}
 
@@ -54,7 +54,7 @@ Ulteriori informazioni sui [cookie di prime parti](cookies-first-party.md) sono 
 | Posizione | Il cookie viene memorizzato nel dominio della pagina. |
 | Dimensione | 4 byte |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Nome cookie: s_sq {#section-8abfff3a302d494f81a3cfb91e3b09ff}
 
@@ -66,7 +66,7 @@ Ulteriori informazioni sui [cookie di prime parti](cookies-first-party.md) sono 
 | Posizione | Il cookie viene memorizzato nel dominio della pagina. |
 | Dimensione | Varia a seconda della dimensione dell’URL della pagina, ma in genere è compresa tra 100 e 200 byte |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Nome cookie: s_vi {#section-5d50a078de444d12b7d927d68ff3b679}
 
@@ -78,7 +78,7 @@ Ulteriori informazioni sui [cookie di prime parti](cookies-first-party.md) sono 
 | Posizione | Questo cookie viene memorizzato nel dominio della richiesta di immagine, in genere 2o7.net o omtrdc.net se utilizzi cookie di terze parti o il tuo dominio se utilizzi cookie di prime parti |
 | Dimensione | 44 byte |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
@@ -94,7 +94,7 @@ Ulteriori informazioni sui [cookie di prime parti](cookies-first-party.md) sono 
 | Posizione | Questo cookie viene memorizzato nel dominio come cookie di prime parti |
 | Dimensione | 33 byte |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Flag dei cookie
 
@@ -108,7 +108,7 @@ Nella tabella seguente sono descritti i flag per i cookie di Analytics:
 | s_cc (Javascript) | No | No | Non impostato |
 | s_sq (Javascript) | No | No | Non impostato |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
@@ -116,6 +116,8 @@ Nella tabella seguente sono descritti i flag per i cookie di Analytics:
 
 ## Cookie impostati da plug-in {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
-Puoi impostare altri cookie in base all’utilizzo dei plug-in di Analytics. Questi cookie sono snippet di codice che il client può usare in diverse circostanze. Queste circostanze includono: recupero dei valori dall’URL; concatenazione di valori da passare ad Analytics; acquisizione dell’abbandono del modulo e così via. Per informazioni specifiche sui cookie impostati da ciascun plug-in, contatta l’Assistenza clienti. Un esempio può essere il cookie [!DNL s_vh] usato con i plug-in *Imposta una volta per* e *Imposta e ottieni ultimo valore*.
+{{plug-in}}
+
+Puoi impostare altri cookie in base all’utilizzo dei plug-in di Analytics. Questi cookie sono snippet di codice che il client può usare in diverse circostanze. Queste circostanze includono: recupero dei valori dall’URL; concatenazione di valori da passare ad Analytics; acquisizione dell’abbandono del modulo e così via. Un esempio può essere il cookie [!DNL s_vh] usato con i plug-in *Imposta una volta per* e *Imposta e ottieni ultimo valore*.
 
 Le variabili di conversione (eVarX) trasmesse in una richiesta di immagine senza JavaScript, come il codice inserito all’interno di un’e-mail, vengono attribuite correttamente solo se il client e-mail e il browser web condividono lo stesso spazio di cookie.
