@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: 657d7e665ac3d20b80bdb26db0e3e62e421218bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1347'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 97%
 Dall’area dell’intestazione di Experience Cloud, è possibile:
 
 * Accedere alle applicazioni e ai servizi
-* Dal menu Aiuto, cerca la documentazione del prodotto, i tutorial e i post della community. Visualizza i risultati in Experience League.
-* Eseguire una ricerca globale degli oggetti business utilizzando una ricerca globale (solo per utenti Experienci Platform) nel campo Ricerca.
+* Dal menu Aiuto, cercare la documentazione del prodotto, i tutorial e i post della community. Visualizzare i risultati in Experience League.
+* Eseguire ricerche globali sugli oggetti business utilizzando la ricerca globale (solo per gli utenti di Experience Platform) nel campo Ricerca.
 * Gestire le preferenze dell’account (avvisi, notifiche e abbonamenti)
 
 ## Accedere a Experience Cloud {#signin}
