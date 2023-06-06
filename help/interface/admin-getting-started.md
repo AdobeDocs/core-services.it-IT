@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: df7afcd805a342876a5dd0ac77d141e7d1105b77
 workflow-type: tm+mt
-source-wordcount: '1891'
-ht-degree: 100%
+source-wordcount: '1863'
+ht-degree: 98%
 
 ---
 
@@ -128,11 +128,11 @@ Quando inviti un utente in un’organizzazione, puoi concedergli l’accesso a p
 1. Seleziona **[!UICONTROL Nuovo profilo]**.
 1. Configura i dettagli del profilo, quindi seleziona **[!UICONTROL Salva]**.
 
-Per ulteriori informazioni (e per assistenza sulla gestione dei prodotti Creative Cloud e Document Cloud), consulta [Identità](https://helpx.adobe.com/it/enterprise/admin-guide.html/it/enterprise/using/identity.ug.html) nella [Guida utente per l’amministrazione](https://helpx.adobe.com/it/enterprise/using/users.html).
+Per ulteriori informazioni (e per assistenza sulla gestione dei prodotti Creative Cloud e Document Cloud), consulta [Identità](https://helpx.adobe.com/it/enterprise/using/identity.html) nella [Guida utente per l’amministrazione](https://helpx.adobe.com/it/enterprise/using/users.html).
 
 **Argomenti correlati**
 
-* [Gestire prodotti e profili](https://helpx.adobe.com/it/enterprise/admin-guide.html/it/enterprise/using/manage-products.ug.html) nella Guida utente per l’amministrazione.
+* [Gestire prodotti e profili](https://helpx.adobe.com/it/enterprise/using/manage-products.html) nella Guida utente per l’amministrazione.
 * [Autorizzazioni di utenti Enterprise](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=it) nella guida di Adobe Target per maggiori informazioni
 * Video: [Come configurare le aree di lavoro di Adobe Target in Adobe Admin Console](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=it)
 
@@ -188,7 +188,7 @@ Dopo la migrazione, gli utenti potranno accedere con il proprio Adobe ID (o Ente
 **Argomenti correlati**
 
 * [Analytics in Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=it)
-* [Migrazione degli ID utente di Analytics](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=it)
+* [Migrazione degli ID utente di Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/migrate-users/c-migration-tool.html?lang=en)
 
 ## Gestire Adobe Target: profili di prodotto e aree di lavoro {#section_3860AF177C9E4C7E9C390D36A414F353}
 
@@ -197,7 +197,7 @@ In Adobe Target, un’area di lavoro è un profilo di prodotto. Consente a un&#3
 Vedi:
 
 * [Autorizzazioni per gli utenti Enterprise](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=it)
-* [Gestire prodotti e profili](https://helpx.adobe.com/it/enterprise/admin-guide.html/it/enterprise/using/manage-products.ug.html)
+* [Gestire prodotti e profili](https://helpx.adobe.com/it/enterprise/using/manage-products.html)
 * Video: [Come configurare le aree di lavoro di Adobe Target in Adobe Admin Console](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=it)
 
 ## Gestire profili di prodotto, tenant e gruppi di sicurezza in Campaign {#section_09CDF75366444CF5810CF321B7C712F3}
@@ -220,7 +220,7 @@ Per informazioni sulle autorizzazioni degli utenti in Admin Console e sulla conf
 
 In Adobe [!UICONTROL Admin Console] i clienti Adobe Enterprise sono rappresentati come “organizzazioni”. I clienti Experience Manager possono utilizzare Adobe [!UICONTROL Admin Console] per gestire le adesioni ai prodotti e l’autenticazione IMS per Experience Manager as a [!UICONTROL Cloud Service].
 
-Consulta [Supporto IMS per Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/ims-support.html?lang=it).
+Consulta [Supporto IMS per Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/security/ims-support.html?lang=it).
 
 ## Audience Manager {#section_C31E3FA8A1E14463B1B3E07235F1983C}
 
@@ -236,10 +236,9 @@ Consulta [Amministrazione](https://experienceleague.adobe.com/docs/audience-mana
 * [!DNL Safari]
 * [!DNL Opera]
 
-**Nota:** sebbene l’interfaccia di Experience Cloud supporti questi browser, le singole applicazioni non supportano tutti i browser. (per esempio, [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=it) non supporta [!DNL Opera] e [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=it) non supporta [!DNL Safari]).
+**Nota:** sebbene l’interfaccia di Experience Cloud supporti questi browser, le singole applicazioni non supportano tutti i browser. (per esempio, [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/sys-reqs.html?lang=en) non supporta [!DNL Opera] e [!DNL Adobe Target] non supporta [!DNL Safari]).
 
 ### Requisiti di soluzioni e prodotti
 
-* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=it)
+* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/sys-reqs.html?lang=en)
 * [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/system-requirements.html?lang=it)
-* [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=it)
