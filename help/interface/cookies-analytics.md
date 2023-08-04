@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-source-git-commit: 3ef59cfa7ea4c1a27776153d847b0ba20e8fc6b4
+source-git-commit: 8f500c7efc0bba2239d81eb9be64916d60d2ea3d
 workflow-type: tm+mt
 source-wordcount: '735'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -60,7 +60,7 @@ Ulteriori informazioni sui [cookie di prime parti](cookies-first-party.md) sono 
 
 | Attributo | Descrizione |
 |--- |--- |
-| Informazioni memorizzate | Questo cookie viene impostato e letto dal codice JavaScript quando sono abilitate le funzionalità SelectMap e Activity Map; contiene informazioni sul collegamento selezionato in precedenza dall’utente. |
+| Informazioni memorizzate | Questo cookie viene impostato e letto dal codice JavaScript quando sono abilitate le funzionalità ClickMap o Activity Map; contiene informazioni sul collegamento precedente selezionato dall’utente |
 | Scadenza | Questo è un cookie di sessione e scade quando il browser viene chiuso |
 | Utilizzo | Un solo cookie per tutti gli account |
 | Posizione | Il cookie viene memorizzato nel dominio della pagina. |
