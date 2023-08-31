@@ -1,26 +1,26 @@
 ---
-description: Scopri i cookie Adobe Ad Cloud per la mappatura degli eventi di coinvolgimento e di conversione e, potenzialmente, come utilizzare tali informazioni per ottimizzare le offerte di annunci.
-title: 'Cookie di Advertising Cloud  '
+description: Scopri alcuni cookie di Adobe Advertising per la mappatura degli eventi di coinvolgimento e di conversione e, potenzialmente, come utilizzare tali informazioni per ottimizzare le offerte di annunci.
+title: Cookie Adobi Advertising
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
 feature: Cookies
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6818edea-31b1-49fc-bca2-32828c7ca78d
-source-git-commit: 854a2b298db4fab3339e2b2ea03701dc6511af8d
-workflow-type: ht
-source-wordcount: '569'
-ht-degree: 100%
+source-git-commit: 5d0e02713ec4b233e06ecd3ac0234d1526b947f1
+workflow-type: tm+mt
+source-wordcount: '554'
+ht-degree: 75%
 
 ---
 
-# Cookie di Advertising Cloud {#advertising-cloud-cookies}
+# Cookie Adobi Advertising{#advertising-cloud-cookies}
 
-Advertising Cloud utilizza i cookie per mappare gli eventi di coinvolgimento pubblicitario e, potenzialmente, per ottimizzare le offerte pubblicitarie.
+Adobi Advertising (precedentemente Adobe Advertising Cloud) utilizza i cookie per mappare gli eventi di coinvolgimento pubblicitario su eventi di conversione e, potenzialmente, per ottimizzare le offerte pubblicitarie.
 
 >[!NOTE]
 >
->Il tag JavaScript beta di Advertising Cloud che utilizza il [servizio Adobe Experience Cloud ID (ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=it) crea [cookie s_ecid di prime parti di Experience Cloud](cookies-first-party.md), non i cookie di Advertising Cloud.
+>Il tag JavaScript di Adobe Advertising beta che utilizza [Servizio Adobe Experience Cloud ID (ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=it) crea [cookie s_ecid di Experience Cloud di prime parti](cookies-first-party.md), non cookie di Adobe Advertising.
 
 ## Nome cookie: _lcc
 
@@ -67,7 +67,7 @@ Advertising Cloud utilizza i cookie per mappare gli eventi di coinvolgimento pub
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Informazioni memorizzate </p> </td> 
-   <td colname="col2"> <p>ID codificati e timestamp del coinvolgimento degli annunci utilizzando il tracciamento DSP di Advertising Cloud </p> </td> 
+   <td colname="col2"> <p>ID codificati e timestamp del coinvolgimento degli annunci tramite il tracciamento degli Adobi Advertising DSP </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Scadenza </p> </td> 
@@ -104,11 +104,11 @@ Advertising Cloud utilizza i cookie per mappare gli eventi di coinvolgimento pub
   </tr> 
   <tr> 
    <td colname="col1"> <p>Scadenza </p> </td> 
-   <td colname="col2"> <p>I cookie impostati il 24 febbraio 2021 o prima scadono dopo 730 giorni. I cookie impostati a partire dal 25 febbraio 2021 scadono dopo 364 giorni.</p> </td> 
+   <td colname="col2"> <p>1 anno</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Utilizzo </p> </td> 
-   <td colname="col2"> <p>Un cookie di prime parti che associa l’ID surfista a segmenti e conversioni rilevanti </p> <p> Le informazioni relative all’ultima visita vengono utilizzate per ottimizzare i tempi di caricamento delle pagine evitando inutili richieste ai server Adobe. </p> <p>Le informazioni sull’ultimo clic di ricerca consentono di determinare se un evento di conversione è il risultato di un clic o di una visualizzazione view-through (conversione derivante da impressioni, ma nessun clic). </p> </td> 
+   <td colname="col2"> <p>Un cookie di prime parti che associa l’ID surfista a segmenti e conversioni rilevanti </p> <p> Le informazioni sull’ultima visita vengono utilizzate per ottimizzare i tempi di caricamento delle pagine evitando inutili richieste a [!DNL Adobe] server. </p> <p>Le informazioni sull’ultimo clic di ricerca consentono di determinare se un evento di conversione è il risultato di un clic o di una visualizzazione view-through (conversione derivante da impressioni, ma nessun clic). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Posizione </p> </td> 
@@ -121,7 +121,7 @@ Advertising Cloud utilizza i cookie per mappare gli eventi di coinvolgimento pub
  </tbody> 
 </table>
 
-## Nome cookie: ev_sync_*
+## Nome cookie: ev_sync_&#42;
 
 (ev_sync_ax, ev_sync_bk, ev_sync_dd, ev_sync_fs, ev_sync_ix, ev_sync_nx, ev_sync_ox, ev_sync_pm, ev_sync_rc, ev_sync_tm, ev_sync_yh)
 
@@ -143,7 +143,7 @@ Advertising Cloud utilizza i cookie per mappare gli eventi di coinvolgimento pub
   </tr> 
   <tr> 
    <td colname="col1"> <p>Utilizzo </p> </td> 
-   <td colname="col2"> <p>Cookie di terze parti specifico per uno scambio di annunci che sincronizza l’ID surfista di Advertising Cloud con lo scambio di annunci partner. Viene creato per i nuovi surfisti e invia una richiesta di sincronizzazione quando è scaduto. </p> </td> 
+   <td colname="col2"> <p>Cookie di terze parti specifico per uno scambio di annunci che sincronizza l’ID surfista Adobe Advertising con lo scambio di annunci partner. Viene creato per i nuovi surfisti e invia una richiesta di sincronizzazione quando è scaduto. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Posizione </p> </td> 
@@ -172,7 +172,7 @@ Advertising Cloud utilizza i cookie per mappare gli eventi di coinvolgimento pub
   </tr> 
   <tr> 
    <td colname="col1"> <p>Scadenza </p> </td> 
-   <td colname="col2"> <p>2 anni </p> </td> 
+   <td colname="col2"> <p>1 anno </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Utilizzo </p> </td> 
@@ -234,7 +234,7 @@ Advertising Cloud utilizza i cookie per mappare gli eventi di coinvolgimento pub
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Informazioni memorizzate </p> </td> 
-   <td colname="col2"> <p>ID DSP (Demand Side Platform) di Advertising Cloud </p> </td> 
+   <td colname="col2"> <p>ID Adobe Advertising DSP (Demand Side Platform) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Scadenza </p> </td> 
