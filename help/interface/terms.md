@@ -2,14 +2,15 @@
 description: Scopri i termini usati in Adobe Experience Cloud e le differenze rispetto a Creative Cloud.
 solution: Experience Cloud
 title: Terminologia
-feature: Customer Attributes
+feature-set: Experience Cloud Services
+feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 3799f806-2794-43ab-9e70-06ee693871e7
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: ad67ac4d64a181ba642f9314a2dc40df279c505f
 workflow-type: ht
-source-wordcount: '1445'
+source-wordcount: '1442'
 ht-degree: 100%
 
 ---
@@ -21,7 +22,7 @@ Un riferimento terminologico per i nuovi utenti di Experience Cloud, per compren
 | Termine | Creative Cloud | Experience Cloud |
 |--- |----- |---- |
 | Risorsa | In Creative Cloud, una risorsa è in genere un file di immagine.<br>Le risorse possono essere livelli in un file Photoshop, slide in file PowerPoint, pagine in un file PDF e file in un file ZIP. | In Experience Cloud una risorsa è un documento digitale, immagine, video o file audio, che può avere diverse rappresentazioni e risorse secondarie. Gli esempi includono:<ul><li>File</li><li>Documento</li><li>Immagine</li><li>Video</li><li>Clip audio</li><li>Presentazione</li><li>Modello immagini</li><li>Modello video</li></ul> |
-| Attributo |  | Cosa hanno in comune le persone che si qualificano per un [segmento](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=it). È simile a una [caratteristica](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-glossary.html?lang=it) in Audience Manager. |
+| Attributo | | Cosa hanno in comune le persone che si qualificano per un [segmento](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=it). È simile a una [caratteristica](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-glossary.html?lang=it) in Audience Manager. |
 | Tipi di pubblico | In Creative Cloud, un pubblico può essere la persona che visualizza un video. | In Experience Cloud, i tipi di pubblico sono categorie di persone che è possibile targetizzare nelle attività di campagna.<br>L&#39;appartenenza in un pubblico si può determinare in base a una serie di regole, sul contesto del visitatore o sulla base di un elenco fisso. Ad esempio, un elenco di destinatari e-mail o membri in un gruppo di Facebook.<br>In [Experience Cloud Audiences](audience-library.md) la creazione e la gestione dei tipi di pubblico è simile alla creazione e all’utilizzo di segmenti, con l’aggiunta della possibilità di condividerli in Experience Cloud.<br>**Adobe Target**<br> In precedenza i tipi di pubblico venivano chiamati segmenti in Adobe Target.<br>**Adobe Analytics**<br> In Analytics i tipi di pubblico possono essere paragonati ai visitatori di un sito web. Puoi creare segmenti di pubblico e pubblicare il pubblico in Experience Cloud. |
 | Campagne | In Creative Cloud, si può immaginare una campagna come una campagna di marketing in cui vengono utilizzate risorse immagini di Creative Cloud. | In Experience Cloud, le campagne determinano il contenuto da mostrare al pubblico. Inoltre, determinano dove (posizione) e quando viene visualizzato il contenuto. Una campagna ha un obiettivo specifico che viene tracciato dalle metriche.<br>Per avviare una campagna devi far corrispondere il contesto del visitatore con le regole impostate nella campagna e la consegna di contenuto in base ai limiti tecnici del canale della posizione.<br>In Adobe Target, i termini campagna e attività sono sinonimi. |
 | Channel | In Creative Cloud, i canali possono essere, ad esempio, immagini in scala di grigi in cui sono memorizzati diversi tipi di informazioni. Essi sono canali di informazioni e canali di colore. | In Experience Cloud, un canale è un attributo di una posizione, o un&#39;attività in una campagna.<br>In Analytics, i canali di marketing vengono comunemente utilizzati per fornire approfondimenti su come i visitatori trovano il tuo sito, come tramite le campagne e-mail.<br>Gli esempi includono:<ul><li>E-mail</li><li>Annunci visualizzati</li><li>Social Network</li><li>Ricerca pagata</li><li>Ricerca naturale</li><li>Domini di riferimento</li></ul> |
@@ -46,4 +47,4 @@ Un riferimento terminologico per i nuovi utenti di Experience Cloud, per compren
 | Soluzione | Nessun uso speciale. | In Experience Cloud, le applicazioni sono prodotti come Adobe Analytics, Adobe Social, Adobe Target e così via. |
 | Caratteristica | N/D | Una coppia chiave-valore, ad esempio: color=blue. In Audience Manager, [le caratteristiche](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/traits-overview.html?lang=it) vengono utilizzate per creare i segmenti. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
