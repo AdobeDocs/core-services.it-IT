@@ -1,15 +1,15 @@
 ---
 description: Scopri la gestione di prodotti e utenti Adobe Experience Cloud, People (tipi di pubblico e attributi del cliente), Journey Orchestration, Offerte, Places, Experience Platform Launch e Mobile Services.
 solution: Experience Cloud
-title: 'Panoramica dei servizi Experience Cloud '
-feature: Customer Attributes
+title: Panoramica dei servizi Experience Cloud
+feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: 74d13f4467efeedb1098b627c912f8193d8ebb22
+source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '361'
 ht-degree: 96%
 
 ---
@@ -37,8 +37,8 @@ Il presente Aiuto descrive i seguenti prodotti e servizi:
 | [Amministrazione](admin-getting-started.md) | Scopri come accedere ad Admin Console e gestire le autorizzazioni degli utenti e i profili di prodotto di Experience Cloud e il supporto del browser. |
 | [Cookie](cookies-privacy.md) | Garantire la privacy dei clienti e la sicurezza dei dati sono le principali priorità di Adobe. Adobe partecipa a più organizzazioni sulla privacy e collabora con le autorità di regolamentazione della privacy e i principi di autoregolamentazione. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
->La documentazione del prodotto per Experience Platform si trova [qui](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=it). Documentazione tecnica per [!UICONTROL Experience Platform] gli sviluppatori si trovano in [Sviluppatore Adobe](https://developer.adobe.com/apis).
+>La documentazione del prodotto per Experience Platform si trova [qui](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=it). Documentazione tecnica per [!UICONTROL Experience Platform] sviluppatori si trova su [Adobe Developer](https://developer.adobe.com/apis).

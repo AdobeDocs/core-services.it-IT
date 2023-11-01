@@ -1,17 +1,16 @@
 ---
 description: Scopri come implementare il recupero preventivo del DNS per ridurre i tempi di caricamento delle pagine con diversi servizi e applicazioni in Experience Cloud.
 solution: Experience Cloud
-title: 'Utilizzo del recupero preventivo del DNS con diverse applicazioni e servizi '
+title: Utilizzo del recupero preventivo del DNS con diverse applicazioni e servizi
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
-feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: caf2ff76-2076-436d-a5a7-aff531464480
-source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
+source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
 workflow-type: tm+mt
 source-wordcount: '379'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -25,7 +24,7 @@ I browser utilizzano il recupero preventivo del DNS per risolvere automaticament
 
 ## Recupero preventivo del DNS e applicazioni Adobe Experience Cloud {#section_202A07F9F79F4ABDA44B98BA1DDCD516}
 
-Il recupero preventivo del DNS funziona automaticamente con i collegamenti statici integrati in una pagina. Ciò significa anche che il recupero preventivo del DNS non funziona con applicazioni e servizi diversi da [!UICONTROL Experience Cloud] per i seguenti motivi:
+Il recupero preventivo del DNS funziona automaticamente con i collegamenti statici integrati in una pagina. Ciò significa anche che il recupero preventivo del DNS non funziona con diversi [!UICONTROL Experience Cloud] applicazioni e servizi perché:
 
 * Ogni applicazione o servizio Experience Cloud genera le chiamate DNS in modo dinamico durante il caricamento della pagina.
 * Il browser non può risolvere i nomi di dominio con indirizzi IP prima che vengano effettuate tali chiamate.
@@ -38,7 +37,7 @@ Gli esempi seguenti mostrano come eseguire chiamate di recupero preventivo del D
 
 * **Analytics:** `<link rel="dns-prefetch" href="//insert tracking server name here">`.
 
-   Aggiungi un tag separato per ogni nome DNS se utilizzi server di registrazione non sicuri e sicuri.
+  Aggiungi un tag separato per ogni nome DNS se utilizzi server di registrazione non sicuri e sicuri.
 
 * **Audience Manager:** `<link rel="dns-prefetch" href="//dpm.demdex.net">`
 
@@ -56,4 +55,3 @@ Gli esempi seguenti mostrano come eseguire chiamate di recupero preventivo del D
 >[!MORELIKETHIS]
 >
 >* [Recupero preventivo del DNS](https://www.chromium.org/developers/design-documents/dns-prefetching)
-
