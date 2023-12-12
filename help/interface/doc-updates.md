@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
+source-git-commit: 8b32f5d688309c01acc5f0618d119f56d339a9e5
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 95%
+source-wordcount: '524'
+ht-degree: 98%
 
 ---
 
@@ -44,8 +44,6 @@ Sono state aggiornate le [domande frequenti sull’amministrazione](faq.md) con 
 | ------- | ------- |
 | Ricerca unificata | La ricerca unificata continua ad aggiungere tipi di oggetti all’indice di ricerca. In questo aggiornamento, la ricerca globale ora cerca tra il contenuto di Experience League e i seguenti tipi di oggetti Journey Optimizer: <ul><li>Set di dati</li><li>Destinazioni</li><li>Query</li><li>Schemi</li><li>Segmenti</li><li>Origini</li><li>Offerte</li><li>Componenti</li><li>Messaggi</li><li>Percorsi</li></ul> |
 | Consenso dei dati di utilizzo del prodotto | Dopo l’accesso iniziale, ti viene chiesto di inviare preferenze su come Adobe può fornire contenuti utili e personalizzati, come tutorial, guide, suggerimenti rapidi, raccomandazioni, video di apprendimento e altro ancora, in base ai dati di utilizzo del prodotto di Experience Cloud. Questa richiesta include anche un aggiornamento delle tue preferenze per la raccolta e l’utilizzo di questi dati in <https://experience.adobe.com/preferences>. |
-| Navigazione di Experience Cloud [!UICONTROL Triggers] | [Experience Cloud Triggers](https://experienceleague.adobe.com/docs/core-services/interface/services/activation/triggers.html?lang=it) è disponibile per la navigazione diretta dallo switcher dell’applicazione nell’intestazione per gli utenti con provisioning. |
-| **Avviso:** aggiornamento programmato della navigazione nell’interfaccia | Nel novembre 2021, il _[!UICONTROL Vai a Raccolta dati]_ la funzione di navigazione verrà rimossa da <https://experience.adobe.com/implement>. |
 
 **Aggiornato: 24/08/2021**
 
@@ -109,10 +107,6 @@ Guida rivista secondo la versione più recente.
 **Aggiornato: 15/03/2017**
 
 Aggiornata la definizione dei dati grezzi di Analytics in [Creazione di un pubblico](t-audience-create.md#task_37F407F58BF9459493BB8E968CDFE737).
-
-**Aggiornato: 23/02/2017**
-
-Aggiunti [Attivatori Experience Cloud Triggers](triggers.md#concept_887B30241B3E4DB0A2553B2996E2D4FB).
 
 **Aggiornato: 01/02/2017**
 
