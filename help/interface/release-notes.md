@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
+source-git-commit: e67941f98156aebaef9035d1d6aa76cb7d17dcbe
 workflow-type: tm+mt
-source-wordcount: '4770'
+source-wordcount: '4743'
 ht-degree: 100%
 
 ---
@@ -99,8 +99,6 @@ Data di rilascio prevista: **11 luglio 2022**
 | ------- | ------- |
 | Ricerca unificata | La ricerca unificata continua ad aggiungere tipi di oggetti all’indice di ricerca. In questo aggiornamento, la ricerca globale ora cerca tra il contenuto di Experience League e i seguenti tipi di oggetti Journey Optimizer: <ul><li>Set di dati</li><li>Destinazioni</li><li>Query</li><li>Schemi</li><li>Segmenti</li><li>Origini</li><li>Offerte</li><li>Componenti</li><li>Messaggi</li><li>Percorsi</li></ul> |
 | Consenso dei dati di utilizzo del prodotto | Dopo l’accesso iniziale, ti viene chiesto di inviare preferenze su come Adobe può fornire contenuti utili e personalizzati, come tutorial, guide, suggerimenti rapidi, raccomandazioni, video di apprendimento e altro ancora, in base ai dati di utilizzo del prodotto di Experience Cloud. Questa richiesta include anche un aggiornamento delle tue preferenze per la raccolta e l’utilizzo di questi dati in <https://experience.adobe.com/preferences>. |
-| Navigazione di Experience Cloud [!UICONTROL Triggers] | [Experience Cloud Triggers](https://experienceleague.adobe.com/docs/core-services/interface/services/activation/triggers.html?lang=it) è disponibile per la navigazione diretta dallo switcher dell’applicazione nell’intestazione per gli utenti con provisioning. |
-| **Avviso:** aggiornamento programmato della navigazione nell’interfaccia | A novembre 2021, la funzione di navigazione _[!UICONTROL Vai al Launch/Raccolta dati]_ verrà rimossa da <https://experience.adobe.com/implement>. |
 
 {style="table-layout:auto"}
 
@@ -235,10 +233,6 @@ La funzione Ricerca unificata è stata aggiornata per renderla disponibile anche
 **Correzioni**
 
 * È stato risolto un problema che impediva il collegamento e SSO per Analytics. Questo problema mostrava il messaggio “Notice: The error message: ERROR IMS SSO Failed: Unable to find linked company” (“Avviso: messaggio di errore: ERROR IMS SSO: Impossibile trovare la società collegata”).
-
-**Problema noto**
-
-Se accedi a Dynamic Tag Management tramite l&#39;interfaccia **[!UICONTROL Experience Cloud]** > **[!UICONTROL Activation]**, ma l&#39;account di Dynamic Tag Management non è collegato a Experience Cloud (Adobe ID), non potrai accedere al servizio. Per evitare questo problema, accedi direttamente a `dtm.adobe.com` aprendo una nuova scheda del browser.
 
 ## Rilascio 16.1 - 21 gennaio 2016 {#section_33B3F7DF6CA347E3AA93801BAC6232CE}
 
@@ -382,11 +376,7 @@ Nessuna informazione disponibile.
    <td colname="col1"> <p>Mappatura uno-a-molti </p> </td> 
    <td colname="col2"> <p>Quando si collegano account dell’applicazione in Experience Cloud, se si dispone di più applicazioni e organizzazioni, ora è possibile effettuare la mappatura di più prodotti e servizi a un’unica organizzazione. </p> </td> 
   </tr> 
-  <tr> 
-   <td colname="col1"> <p>Activation </p> </td> 
-   <td colname="col2"> <p> <a href="activation.md#concept_EE756B6B0A0643DAB8CA3A00E665406C" format="dita" scope="local">Activation</a> ora viene visualizzato nella barra di navigazione a sinistra in <span class="keyword">Experience Cloud</span>. <span class="wintitle"> Activation</span> è un servizio di<span class="keyword"> Experience Cloud</span> attualmente integrato con la tecnologia Dynamic Tag Management ed effettua il reindirizzamento al momento del clic. </p> </td> 
-  </tr> 
-  <tr> 
+    <tr> 
    <td colname="col1"> <p>Aggiornamenti della documentazione - Servizi principali </p> </td> 
    <td colname="col2"> <p>È stato aggiunto l’argomento <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">Abilitare le applicazioni per i servizi principali</a> per aiutarti nell’implementazione dei servizi principali. </p> </td> 
   </tr> 
