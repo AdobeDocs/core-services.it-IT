@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
+source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 98%
+source-wordcount: '572'
+ht-degree: 95%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 98%
 
 Informazioni sugli aggiornamenti della documentazione prodotto di Experience Cloud.
 
-**Aggiornato il 28/2/2022**
+**Aggiornato il 28/02/2022**
 
 È stata aggiunta una pagina per [Ricerca unificata](search-experience-cloud.md)
 
@@ -45,7 +45,7 @@ Sono state aggiornate le [domande frequenti sull’amministrazione](faq.md) con 
 | Ricerca unificata | La ricerca unificata continua ad aggiungere tipi di oggetti all’indice di ricerca. In questo aggiornamento, la ricerca globale ora cerca tra il contenuto di Experience League e i seguenti tipi di oggetti Journey Optimizer: <ul><li>Set di dati</li><li>Destinazioni</li><li>Query</li><li>Schemi</li><li>Segmenti</li><li>Origini</li><li>Offerte</li><li>Componenti</li><li>Messaggi</li><li>Percorsi</li></ul> |
 | Consenso dei dati di utilizzo del prodotto | Dopo l’accesso iniziale, ti viene chiesto di inviare preferenze su come Adobe può fornire contenuti utili e personalizzati, come tutorial, guide, suggerimenti rapidi, raccomandazioni, video di apprendimento e altro ancora, in base ai dati di utilizzo del prodotto di Experience Cloud. Questa richiesta include anche un aggiornamento delle tue preferenze per la raccolta e l’utilizzo di questi dati in <https://experience.adobe.com/preferences>. |
 | Navigazione di Experience Cloud [!UICONTROL Triggers] | [Experience Cloud Triggers](https://experienceleague.adobe.com/docs/core-services/interface/services/activation/triggers.html?lang=it) è disponibile per la navigazione diretta dallo switcher dell’applicazione nell’intestazione per gli utenti con provisioning. |
-| **Avviso:** aggiornamento programmato della navigazione nell’interfaccia | A novembre 2021, la funzione di navigazione _[!UICONTROL Vai al Launch/Raccolta dati]_ verrà rimossa da <https://experience.adobe.com/implement>. |
+| **Avviso:** aggiornamento programmato della navigazione nell’interfaccia | Nel novembre 2021, il _[!UICONTROL Vai a Raccolta dati]_ la funzione di navigazione verrà rimossa da <https://experience.adobe.com/implement>. |
 
 **Aggiornato: 24/08/2021**
 

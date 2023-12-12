@@ -1,5 +1,5 @@
 ---
-description: Crea un'origine attributo del cliente e caricala in Adobe Experience Cloud.
+description: Crea un’origine di attributi cliente e caricala in Adobe Experience Cloud.
 solution: Experience Cloud
 title: Creare un’origine di attributi cliente e caricare il file di dati
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
 workflow-type: tm+mt
-source-wordcount: '1164'
-ht-degree: 98%
+source-wordcount: '1125'
+ht-degree: 94%
 
 ---
 
@@ -26,7 +26,7 @@ Creazione dell’origine di attributi cliente (file CSV e FIN) e caricamento dei
 1. [Creazione di un file di dati](t-crs-usecase.md#task_B5FB8C0649374C7A94C45DCF2878EA1A)
 1. [Creare un’origine di attributi e caricare il file di dati](t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8)
 1. [Convalida dello schema](t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8)
-1. [Configurazione delle sottoscrizioni e attivazione dell’origine degli attributi](t-crs-usecase.md#task_1ACA21198F0E46A897A320C244DFF6EA)
+1. [Configurazione delle sottoscrizioni e attivazione dell&#39;origine attributo](t-crs-usecase.md#task_1ACA21198F0E46A897A320C244DFF6EA)
 
 Dopo l&#39;attivazione dell&#39;origine dati puoi:
 
@@ -66,7 +66,7 @@ Segui questi passaggi nella pagina Crea nuova origine attributo del cliente in E
 >
 >Quando crei, modifichi o elimini origini di attributi del cliente, si verifica un ritardo di circa un’ora prima dell’effettiva sincronizzazione degli ID con la nuova origine dati. Devi disporre di diritti di amministratore in Audience Manager per creare o modificare origini degli attributi del cliente. Contatta l&#39;Assistenza clienti o la consulenza di Audience Manager per ottenere i diritti di amministratore.
 
-1. In [!DNL Experience Cloud], seleziona Menu  ![menu](assets/menu-icon.png) icona.
+1. In [!DNL Experience Cloud], seleziona il Menu  ![menu](assets/menu-icon.png) icona.
 1. In **[!DNL Experience Platform]**, seleziona **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**.
 
    La pagina [!UICONTROL Attributi del cliente] è il luogo in cui puoi gestire e modificare l&#39;origine dati degli attributi esistenti.
@@ -81,52 +81,52 @@ Segui questi passaggi nella pagina Crea nuova origine attributo del cliente in E
 
    * **[!UICONTROL Descrizione:]** (facoltativo) una descrizione per la sorgente attributi dei dati.
 
-   * **[!UICONTROL ID alias:]** rappresenta un’origine dei dati di ttributi del cliente come specificato nel sistema CRM. [!UICONTROL Alias ID] è un ID univoco utilizzato nel codice di origine degli attributi del cliente. L&#39;ID deve essere univoco, in lettere minuscole e non deve comprendere spazi. Il valore immesso nel campo [!UICONTROL Alias ID] per l’origine degli attributi del cliente in Experience Cloud deve corrispondere ai valori ricevuti dall’implementazione (tramite Data Collection (Launch), Dynamic Tag Management o JavaScript dell’SDK Mobile).
+   * **[!UICONTROL ID alias:]** rappresenta un’origine dei dati di ttributi del cliente come specificato nel sistema CRM. [!UICONTROL Alias ID] è un ID univoco utilizzato nel codice di origine degli attributi del cliente. L&#39;ID deve essere univoco, in lettere minuscole e non deve comprendere spazi. Il valore immesso nel [!UICONTROL ID alias] Il campo per un’origine di attributi cliente in Experience Cloud deve corrispondere ai valori ricevuti dall’implementazione (tramite Raccolta dati di Platform o JavaScript dell’SDK Mobile).
 
-      L&#39;ID alias corrisponde ad alcune aree in cui puoi impostare valori ID cliente aggiuntivi. Esempio:
+     L&#39;ID alias corrisponde ad alcune aree in cui puoi impostare valori ID cliente aggiuntivi. Esempio:
 
       * **Dynamic Tag Management:** l&#39;ID alias corrisponde al valore del *Codice di integrazione* in [!UICONTROL Impostazioni cliente], nello strumento del [servizio Experience Cloud ID](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=it).
 
       * **API visitatore:** l&#39;ID alias corrisponde agli [ID cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=it) aggiuntivi che puoi associare a ogni visitatore.
 
-         Ad esempio, *“crm_ id”* in:
+        Ad esempio, *“crm_ id”* in:
 
-         ```
-         "crm_id":"67312378756723456"
-         ```
+        ```
+        "crm_id":"67312378756723456"
+        ```
 
       * **iOS:** l&#39;ID alias corrisponde a *“idType”* in [visitorSyncIdentifiers:identifiers](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=it).
 
-         Esempio:
+        Esempio:
 
-         `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
+        `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
       * **Android™:** l’ID alias corrisponde a *“idType”* in [syncIdentifiers](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=it).
 
-         Esempio:
+        Esempio:
 
-         `identifiers.put(`**`"idType"`**`, "idValue");`
+        `identifiers.put(`**`"idType"`**`, "idValue");`
 
-         Consulta [Utilizzo di più origini dati](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB) per ulteriori informazioni sull&#39;elaborazione dei dati in merito al campo ID alias e agli ID cliente.
+        Consulta [Utilizzo di più origini dati](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB) per ulteriori informazioni sull&#39;elaborazione dei dati in merito al campo ID alias e agli ID cliente.
+
    * **[!UICONTROL Caricamento file:]** puoi trascinare il file di dati `.csv` o caricare i dati tramite FTP. (Con un FTP serve anche un file `.fin`.) Consulta [Caricamento dei dati tramite FTP](t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B).
 
-      >[!IMPORTANT]
-      >
-      >Esistono dei requisiti del file di dati specifici. Consulta [Requisiti dei file di dati](crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) per ulteriori informazioni.
+     >[!IMPORTANT]
+     >
+     >Esistono dei requisiti del file di dati specifici. Consulta [Requisiti dei file di dati](crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) per ulteriori informazioni.
 
 
-      Dopo aver caricato il file, i dati della tabella vengono visualizzati nell&#39;intestazione [!UICONTROL Caricamento file] di questa pagina. È possibile convalidare lo schema, configurare sottoscrizioni o impostare l&#39;FTP.
+     Dopo aver caricato il file, i dati della tabella vengono visualizzati nell&#39;intestazione [!UICONTROL Caricamento file] di questa pagina. È possibile convalidare lo schema, configurare sottoscrizioni o impostare l&#39;FTP.
 
-      **Grafico caricamento del file**
+     **Grafico caricamento del file**
 
-      ![attributes](assets/file_upload_attributes.png)
+     ![attributi](assets/file_upload_attributes.png)
 
    * **[!UICONTROL ID cliente univoco:]** mostra quanti ID univoci hai caricato in questa origine attributo.
 
    * **[!UICONTROL ID forniti dal cliente come alias degli ID visitatore di Experience Cloud:]** mostra quanti ID sono impostati come alias degli ID visitatore di Experience Cloud.
 
    * **[!UICONTROL ID forniti dal cliente con soglia degli alias elevata:]** visualizza il numero di ID forniti dal cliente con 500 o più ID visitatore di Experience Cloud con alias. Questi ID forniti dal cliente non rappresentano individui ma accessi condivisi. Il sistema distribuisce gli attributi associati a questi ID ai 500 ID visitatore di Experience Cloud con alias più recenti, fino a raggiungere la soglia di 10.000. Quindi, il sistema invalida l&#39;ID fornito dal cliente e non distribuisce più attributi associati.
-
 
 ## Convalida dello schema {#task_404AAC411B0D4E129AB3AC8B7BE85859}
 
