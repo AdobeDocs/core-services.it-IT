@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 92d03444472fc7dddbe955d386452291ed1ca2d8
+source-git-commit: cef927ad0f9f875841d2acf670950de0a766df7e
 workflow-type: tm+mt
-source-wordcount: '1616'
-ht-degree: 79%
+source-wordcount: '1594'
+ht-degree: 72%
 
 ---
 
@@ -25,7 +25,7 @@ Molti browser e applicazioni antispyware sono progettati per rifiutare ed elimin
 * Il [servizio Experience Platform Identity (servizio ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=it) imposterà automaticamente i cookie di prime parti indipendentemente dal fatto che il dominio di raccolta corrisponda o meno al dominio del sito. Se non corrispondono, il servizio Identity utilizza JavaScript per impostare i cookie nel dominio del sito.
 * Se utilizzi gli [identificatori precedenti di Analytics ](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html?lang=it) (o cookie `s_vi`), dipenderà da come hai configurato il server di raccolta dati. Se il server di raccolta dati corrisponde al dominio del sito, i cookie verranno impostati come cookie di prime parti. Se il server di raccolta non corrisponde al dominio attuale, verranno impostati come cookie di terze parti. In questo caso, se i cookie di terze parti sono bloccati, Analytics imposterà un [ID di fallback (s_fid)](cookies-analytics.md) di prime parti invece del cookie standard “s_vi”.
 
-Se desideri che il server di raccolta corrisponda al dominio del sito, puoi utilizzare un’implementazione CNAME che consente l’inoltro da un dominio personalizzato specificato nell’implementazione CNAME ai server di raccolta Adobe. Ciò comporta modifiche alle impostazioni DNS della tua azienda per configurare un alias CNAME che punti a un dominio ospitato da Adobe. Sebbene diversi prodotti Adobe supportino l’uso di un CNAME, in tutti i casi questo viene utilizzato per creare un endpoint di prima parte affidabile per un cliente specifico e rimane di proprietà di tale cliente. Se controlli più domini, è possibile utilizzare un singolo endpoint CNAME per monitorare gli utenti nei vari domini; tuttavia, nei casi in cui il sito non corrisponde ai cookie del dominio CNAME, verrà impostato come di terze parti.
+Se desideri che il server di raccolta corrisponda al dominio del sito, puoi utilizzare un’implementazione CNAME che consente l’inoltro da un dominio personalizzato specificato nell’implementazione CNAME ai server di raccolta Adobe. Ciò comporta modifiche alle impostazioni DNS della tua azienda per configurare un alias CNAME che punti a un dominio ospitato da Adobe. Sebbene diversi prodotti Adobe supportino l’uso di un CNAME, in tutti i casi questo viene utilizzato per creare un endpoint di prima parte affidabile per un cliente specifico e rimane di proprietà di tale cliente. Se controlli più domini, è possibile utilizzare un singolo endpoint CNAME per monitorare gli utenti nei loro domini, ma nei casi in cui il sito non corrisponde ai cookie del dominio CNAME vengono impostati come di terze parti.
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ Se desideri stabilire un CNAME per la raccolta dati e se il tuo sito dispone di 
 
 Spesso il processo di rilascio del certificato SSL crea confusione e richiede tempo. Di conseguenza, Adobe ha stabilito una partnership con DigiCert, un’autorità di certificazione (CA) leader del settore, e ha sviluppato un processo integrato per automatizzare l’acquisto e la gestione di tali certificati.
 
-Con la tua autorizzazione, collaboriamo con la nostra CA per rilasciare, distribuire e gestire un nuovo certificato SSL SHA-2 per tuo conto. Adobe continua a gestire questo certificato e fa in modo che, in caso di scadenza, revoca o problemi di sicurezza imprevisti, la raccolta sicura delle organizzazioni non venga compromessa.
+Con la tua autorizzazione, collaboriamo con una CA per rilasciare, distribuire e gestire un nuovo certificato SSL SHA-2 per tuo conto. Adobe continua a gestire questo certificato e fa in modo che, in caso di scadenza, revoca o problemi di sicurezza imprevisti, la raccolta sicura delle organizzazioni non venga compromessa.
 
 ## Programma di certificazione gestito da Adobe
 
@@ -47,13 +47,13 @@ Il programma Adobe Managed Certificate consente di implementare un nuovo certifi
 
 Per implementare un nuovo certificato SSL di prima parte per la raccolta dati di prima parte:
 
-1. Compila il [modulo di richiesta per dominio di prima parte](/help/interface/cookies/assets/First_Part_Domain_Request_Form.xlsx) e apri un ticket presso l’Assistenza clienti per richiedere la configurazione della raccolta dati di prima parte nel programma gestito da Adobe.
+1. Compila il [Modulo di richiesta per dominio di prima parte](/help/interface/cookies/assets/First_Part_Domain_Request_Form.xlsx) e apri un ticket con l’Assistenza clienti per richiedere la configurazione della raccolta dati di prime parti nel programma gestito da Adobe.
 
    Ogni campo è descritto all’interno del documento con esempi.
 
 1. Crea record CNAME (consulta le istruzioni riportate di seguito).
 
-   Quando viene ricevuto il ticket, un rappresentante dell’assistenza clienti ti fornirà un record CNAME. Questi record devono essere configurati sul server DNS della tua azienda per consentire ad Adobe di acquistare il certificato per conto tuo. Il CNAME ha un aspetto simile a quanto segue:
+   Quando ricevi il ticket, un rappresentante dell’assistenza clienti ti fornirà un record CNAME. Questi record devono essere configurati sul server DNS della tua azienda per consentire ad Adobe di acquistare il certificato per conto tuo. Il CNAME ha un aspetto simile a quanto segue:
 
    **Protetto**: ad esempio, il nome host `smetrics.example.com` punta a: `[random-10-character-string].data.adobedc.net`.
 
