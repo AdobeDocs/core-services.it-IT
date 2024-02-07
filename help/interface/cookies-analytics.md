@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-source-git-commit: 8f500c7efc0bba2239d81eb9be64916d60d2ea3d
+source-git-commit: a20d51e6e7d5ec72d59e06e6a4951778a5828d9a
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 95%
+source-wordcount: '722'
+ht-degree: 92%
 
 ---
 
@@ -23,7 +23,6 @@ In particolare, Analytics utilizza i cookie per definire in modo anonimo nuovi v
 
 * [Nome cookie: s_ecid](cookies-mc.md#section-32fd753c3fa54452acd62b021434919a)
 * [Nome cookie: AMCV_###@AdobeOrg](cookies-mc.md#section-a12aa2a9296940ae82d8921b381b8fb0)
-* [Nome cookie: s_cc](cookies-analytics.md#section-03aa90aa7e36427b8cb12dc4a0f0291e)
 * [Nome cookie: s_cc](cookies-analytics.md#section-03aa90aa7e36427b8cb12dc4a0f0291e)
 * [Nome cookie: s_sq](cookies-analytics.md#section-8abfff3a302d494f81a3cfb91e3b09ff)
 * [Nome cookie: s_vi](cookies-analytics.md#section-5d50a078de444d12b7d927d68ff3b679)
@@ -90,7 +89,7 @@ Ulteriori informazioni sui [cookie di prime parti](cookies-first-party.md) sono 
 |--- |--- |
 | Informazioni memorizzate | ID visitatore univoco/timestamp di fallback. |
 | Scadenza | 2 anni |
-| Utilizzo | Questo cookie viene usato per identificare un visitatore univoco. Se il cookie standard `s_vi` non è disponibile a causa di restrizioni relative ai cookie di terze parti. Non viene utilizzato per le implementazioni che utilizzano cookie di prime parti |
+| Utilizzo | Questo cookie viene utilizzato per identificare un visitatore univoco se lo standard  `s_vi` cookie non è disponibile a causa di restrizioni relative ai cookie di terze parti. Non viene utilizzato per le implementazioni che utilizzano cookie di prime parti |
 | Posizione | Questo cookie viene memorizzato nel dominio come cookie di prime parti |
 | Dimensione | 33 byte |
 
