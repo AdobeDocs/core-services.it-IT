@@ -1,16 +1,16 @@
 ---
 description: Scopri come mappare una o più suite di rapporti per un’organizzazione in Experience Cloud.
-title: 'Mappatura di suite di rapporti per un’organizzazione '
+title: Mappatura di suite di rapporti per un’organizzazione
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 4e9f0f7a-8e16-4473-af4a-3e74ad50c044
-source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: ht
-source-wordcount: '1131'
-ht-degree: 100%
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
+workflow-type: tm+mt
+source-wordcount: '1118'
+ht-degree: 89%
 
 ---
 
@@ -89,19 +89,19 @@ I punti seguenti elencano le azioni di mappatura che questo utente può e non pu
 
 ## Domande frequenti {#section_099E485805994C929FF9C9F75219BEE1}
 
-### Perché non visualizzo tutte le mie suite di rapporti?
+### Perché non vedo tutte le mie suite di rapporti?
 
-Alcune suite di rapporti potrebbero essere visibili in una società di accesso diversa. Puoi cambiare la società di accesso corrente utilizzando il menu a discesa nella parte superiore dello schermo.
+Alcune suite di rapporti potrebbero essere visibili in una società di accesso diversa. Puoi cambiare la società di accesso corrente utilizzando il menu a discesa nella parte superiore della schermata.
 
 ### Cosa succede se non riconosco alcune delle organizzazioni elencate nel menu a discesa per una delle mie suite di rapporti?
 
-L’elenco ti mostra tutte le *possibili* organizzazioni su cui le tue suite di rapporti possono essere mappate, anche se non possiedi l’autorizzazione per farlo. Se non sai se la suite di rapporti deve essere mappata su una delle suite di rapporti elencate in grigio (diabilitate), rivolgiti a un amministratore di Experience Cloud nella tua organizzazione per determinare la scelta migliore.
+L&#39;elenco mostra tutte le *possibile* organizzazioni su cui la suite di rapporti può essere mappata, anche se non disponi dell’autorizzazione per mappare tutte queste suite di rapporti. Se non sai se la suite di rapporti deve essere mappata su una delle suite di rapporti elencate in grigio (diabilitate), rivolgiti a un amministratore di Experience Cloud nella tua organizzazione per determinare la scelta migliore.
 
-### Cosa vuol dire se non riconosco alcune delle società di accesso elencate per una suite di rapporti nella colonna “Visibile alle società di accesso”?
+### Cosa succede se non riconosco alcune delle società di accesso elencate per una suite di rapporti nella colonna &quot;Visibile alle società di accesso&quot;?
 
 A un certo punto questa suite di rapporti è stata condivisa con un’altra società di accesso che potrebbe far parte di un’organizzazione Experience Cloud diversa.
 
-### Cos’è questo errore di “Possibile conflitto” sulla suite di rapporti generato da un’altra organizzazione? Perché è importante?
+### Cos’è questo errore di &quot;Possibile conflitto&quot; sulla suite di rapporti generato da un’altra organizzazione? Perché è importante?
 
 Si tratta di una notifica per aiutarti a prendere una decisione informata sulla mappatura della suite di rapporti. Desideriamo informarti che la suite di rapporti è stata creata originariamente in un’organizzazione diversa nel caso tale organizzazione possa essere più appropriata per questa suite di rapporti.
 
@@ -113,6 +113,6 @@ Le suite di rapporti mappate saranno visualizzate in un formato non modificabile
 
 Puoi trovare il nome della tua organizzazione in [Impostazioni organizzazioni e account](organizations.md).
 
-### Visualizzo una data nella colonna “Data di mappatura”. Chi ha eseguito la mappatura?
+### Visualizzo una data nella colonna &quot;Data di mappatura&quot;. Chi ha eseguito la mappatura?
 
-Puoi consultare il registro modifiche suite di rapporti nell&#39;interfaccia di Analytics per controllare l&#39;ID utente che ha apportato la modifica. Cerca l’evento “Suite associata all’organizzazione IMS”.
+Puoi consultare il registro modifiche suite di rapporti nell&#39;interfaccia di Analytics per controllare l&#39;ID utente che ha apportato la modifica. Cerca l’evento &quot;Suite associata all’organizzazione IMS&quot;.

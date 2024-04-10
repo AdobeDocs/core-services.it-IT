@@ -7,18 +7,18 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 100%
+source-wordcount: '252'
+ht-degree: 77%
 
 ---
 
 # Facoltativo - Caricamento del file di dati tramite FTP
 
-Se non effettui il caricamento trascinando la selezione, puoi caricare i dati di attributo del cliente in Experience Cloud tramite FTP.
+Se non effettui il caricamento trascinando la selezione, puoi caricare i dati di Attributi del cliente ad Experience Cloud tramite FTP.
 
-Puoi caricare i dati dopo aver creato un’origine attributo del cliente e un account FTP in Experience Cloud. Puoi creare un account FTP per ogni sorgente attributo. I file caricati vengono memorizzati nella cartella root di tale account. I dati devono essere in formato `.csv`, con un secondo file `.fin` che indica il completamento del caricamento.
+Puoi caricare i dati dopo aver creato un’origine di attributi cliente e un account FTP in Experience Cloud. Puoi creare un account FTP per ogni sorgente attributo. I file caricati vengono memorizzati nella cartella root di tale account. I dati devono essere in formato `.csv`, con un secondo file `.fin` che indica il completamento del caricamento.
 
 >[!IMPORTANT]
 >

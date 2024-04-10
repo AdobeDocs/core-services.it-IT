@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '2191'
-ht-degree: 89%
+source-wordcount: '2181'
+ht-degree: 83%
 
 ---
 
@@ -21,7 +21,7 @@ Se hai implementato Experience Cloud di recente utilizzando i tag Experienci Pla
 
 I clienti esistenti possono modernizzare l’esecuzione delle applicazioni e implementare Experience Cloud. In questo modo puoi sfruttare le funzioni Attributi del cliente e tipi di pubblico in Adobe Analytics, Audience Manager e Adobe Target. A tal fine, effettuerai le seguenti operazioni:
 
-1. [Partecipazione a Experience Cloud per diventare un amministratore](#section_2423F0BD3DF642658103310EE5EA6154)
+1. [Partecipa all’Experience Cloud e diventa amministratore](#section_2423F0BD3DF642658103310EE5EA6154)
 1. [Implementa il servizio Experience Cloud ID](#section_3C9F6DF37C654D939625BB4D485E4354)
 1. [Mappatura di suite di rapporti per un&#39;organizzazione Experience Cloud](#section_7B08516B01BA421681DF03D0E86CE3BA)
 1. [Aggiornamento del codice AppMeasurement di Analytics](#section_1798D9D0F05C47E29816AC4EEB9A0913)
@@ -32,7 +32,7 @@ I clienti esistenti possono modernizzare l’esecuzione delle applicazioni e imp
 
 ## Partecipazione a Experience Cloud per diventare un amministratore {#section_2423F0BD3DF642658103310EE5EA6154}
 
-Come partecipare a Experience Cloud:
+Cosa devi fare per partecipare a Experience Cloud:
 
 1. Verifica di disporre degli SKU Adobe Analytics o Adobe Target appropriati.
 
@@ -46,7 +46,7 @@ Come partecipare a Experience Cloud:
 1. Modernizza la tua implementazione ed effettua il provisioning di un amministratore.
 
    * Segui i passaggi indicati in [Implementazione del [!UICONTROL Servizio Experience Cloud ID]](core-services.md#section_3C9F6DF37C654D939625BB4D485E4354).
-   * Contatta il tuo Account Manager e avvia il processo di provisioning per Experience Cloud.
+   * Contatta il tuo Account Manager e avvia il provisioning, ad Experience Cloud.
 
 1. Gestisci utenti e prodotti in [!UICONTROL Admin Console].
 
@@ -60,7 +60,7 @@ Per assistenza, consulta [Amministrazione di utenti e prodotti Experience Cloud]
 
 ### Accesso utente
 
-Per accedere a Experience Cloud, i tuoi utenti devono:
+Per accedere a Experience Cloud, gli utenti devono:
 
 * Disporre di un Adobe ID (o Enterprise ID per un&#39;azienda).
 * Accedi da [experience.adobe.com](https://experience.adobe.com).
@@ -73,13 +73,13 @@ Probabilmente alcuni dei tuoi utenti sono già membri di gruppi di applicazioni,
 
 Quando mappi questi gruppi ai gruppi aziendali Experience Cloud, gli utenti devono collegare manualmente le credenziali del propio account applicazione al rispettivo Adobe ID.
 
-Consulta [Collegare gli account in Experience Cloud](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)
+Consulta [Collega account in Experience Cloud](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)
 
 >[!NOTE]
 >
 >Dopo aver mappato gruppi aziendali e di applicazioni, i nuovi utenti sono automaticamente collegati. Le credenziali della soluzione vengono create e collegate automaticamente al relativo Adobe ID.
 
-Le sezioni seguenti descrivono come poter modernizzare l&#39;implementazione. La modernizzazione dell&#39;implementazione abilita i servizi core in Experience Cloud.
+Le sezioni seguenti descrivono come poter modernizzare l&#39;implementazione. La modernizzazione dell’implementazione abilita i servizi core in Experience Cloud.
 
 ## Implementa il [!UICONTROL servizio Experience Cloud ID] {#section_3C9F6DF37C654D939625BB4D485E4354}
 
@@ -107,7 +107,7 @@ In qualità di parte dell&#39;impostazione del servizio Experience Cloud ID, Ado
 
 In Adobe Target, `mbox3rdpartyid` deve ottenere l’ID cliente e inviarlo a [!DNL Target]. Consulta [Uso degli attributi del cliente](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html?lang=it) in [!DNL Target].
 
-Quando un visitatore si autentica sul tuo sito web, o in generale si identifica, l’implementazione deve esporne l’ID cliente del sistema CRM nella pagina o nell’applicazione. Puoi quindi utilizzare la funzionalità appropriata per sincronizzare l&#39;ID cliente a Experience Cloud. La sincronizzazione archivia l&#39;ID cliente CRM del visitatore in Experience Cloud e attiva gli attributi del cliente per l&#39;utilizzo in Experience Cloud.
+Quando un visitatore si autentica sul tuo sito web, o in generale si identifica, l’implementazione deve esporne l’ID cliente del sistema CRM nella pagina o nell’applicazione. Puoi quindi utilizzare la chiamata di funzione appropriata per sincronizzare l&#39;ID cliente con Experience Cloud. Questa sincronizzazione memorizza l’ID cliente CRM del visitatore in Experience Cloud e attiva gli attributi del cliente per l’utilizzo in Experience Cloud.
 
 Ad esempio, si supponga che Bob sia associato all&#39;ID cliente `52mc210tr42` nel sistema CRM in uso. Quando Bob si autentica sul sito Web, devi esporre tale ID sulla pagina e utilizzarlo per sincronizzarlo in uno dei due modi:
 
@@ -202,7 +202,7 @@ Utilizza le seguenti funzionalità.
 
 ### [!UICONTROL Persone] > [!UICONTROL Attributi del cliente]
 
-Se acquisisci dati del cliente di livello Enterprise in un database di gestione delle relazioni con i clienti (CRM), puoi caricare tali dati in un’origine dati di attributi cliente in Experience Cloud. Una volta caricati, puoi usare i dati in [!DNL Adobe Analytics] e [!DNL Adobe Target].
+Se acquisisci dati del cliente di livello Enterprise in un database CRM (Customer Relationship Management), puoi caricare tali dati in un’origine dati di attributi cliente in Experience Cloud. Una volta caricati, puoi usare i dati in [!DNL Adobe Analytics] e [!DNL Adobe Target].
 
 Consulta [Attributi del cliente](attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)
 

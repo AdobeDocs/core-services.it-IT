@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
-source-git-commit: 700a3e3382abba69f7760916637583b8381af8f8
+source-git-commit: 56936fd32f7208fb2a0c4a2abc67d48f30dd788c
 workflow-type: tm+mt
-source-wordcount: '923'
-ht-degree: 84%
+source-wordcount: '913'
+ht-degree: 78%
 
 ---
 
@@ -25,11 +25,11 @@ Guida: [abilitare le applicazioni all&#39;utilizzo dei servizi di Platform](core
 
 Descrive come:
 
-* Effettuare il provisioning della tua azienda in Experience Cloud.
+* Effettua il provisioning della tua azienda in Experience Cloud.
 * Diventare un amministratore.
 * [Implementare il servizio Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it).
 * Modernizzare [!DNL Analytics] e [!DNL Target] implementazioni tramite [!UICONTROL Raccolta dati di Platform].
-* Inizia a utilizzare i servizi Experience Cloud come [!UICONTROL Attributi del cliente] e [!UICONTROL Tipi di pubblico].
+* Inizia a utilizzare i servizi Experience Cloud come [[!DNL Customer Attributes]](attributes.md) e [[!DNL Audience Library]](audience-library.md).
 
 Soluzioni o servizi:
 
@@ -40,7 +40,7 @@ Soluzioni o servizi:
 
 ## Servizio Experience Cloud ID {#section_6ECCCFA2D84D4D4F88C879C799CA9D78}
 
-Il servizio ID fornisce un ID universale e costante che identifica i visitatori in tutte le applicazioni Experience Cloud. Può sostituire il codice di generazione ID per servizi come Analytics, Audience Manager, Adobe Target, video heartbeat e altre applicazioni o prodotti di Experience Cloud.
+Il servizio ID fornisce un ID universale e costante che identifica i visitatori in tutte le applicazioni di Experience Cloud. Può sostituire il codice di generazione ID per servizi come Analytics, Audience Manager, Adobe Target, video heartbeat e altre applicazioni o prodotti di Experience Cloud.
 
 Consulta la sezione [Servizio Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it)
 
@@ -53,7 +53,7 @@ Consulta la sezione [Servizio Experience Cloud ID](https://experienceleague.adob
 
 Aiuto: [Audiences](audience-library.md#topic_679810123CAA4E0CA4FA3417FB0100C7)
 
-Creazione e gestione di tipi di pubblico nell’Experience Cloud [!UICONTROL Libreria tipi di pubblico]. Puoi creare o derivare tipi di pubblico da diverse fonti, come ad esempio:
+Creazione e gestione di tipi di pubblico in Experience Cloud [!UICONTROL Libreria tipi di pubblico]. Puoi creare o derivare tipi di pubblico da diverse fonti, come ad esempio:
 
 * Fonti nuove create in [!DNL Experience Cloud].
 * Da segmenti di [!DNL Analytics] pubblicati in [!DNL Experience Cloud].
@@ -69,7 +69,7 @@ Creazione e gestione di tipi di pubblico nell’Experience Cloud [!UICONTROL Lib
 
 Aiuto: [Attributi del cliente](attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)
 
-Se acquisisci dati del cliente di livello Enterprise in un database di gestione delle relazioni con i clienti (CRM), puoi caricare tali dati in un’origine dati di attributi cliente in Experience Cloud. Una volta caricati, puoi utilizzarli in [!DNL Adobe Analytics] e [!DNL Adobe Target].
+Se acquisisci dati del cliente di livello Enterprise in un database CRM (Customer Relationship Management), puoi caricare tali dati in un’origine dati di attributi cliente in Experience Cloud. Una volta caricati, puoi utilizzarli in [!DNL Adobe Analytics] e [!DNL Adobe Target].
 
 **Soluzioni o servizi applicabili**
 

@@ -1,21 +1,21 @@
 ---
-title: 'Supporto per gli attributi del cliente per il regolamento generale sulla protezione dei dati '
+title: "[!DNL Customer Attributes] Supporto per il regolamento generale sulla protezione dei dati"
 description: Scopri come sono supportati gli attributi cliente per il Regolamento generale sulla protezione dei dati
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
-source-git-commit: 55c81003b94b7e033cddb6854b5c1f1c1ffa199c
-workflow-type: ht
-source-wordcount: '416'
-ht-degree: 100%
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
+workflow-type: tm+mt
+source-wordcount: '394'
+ht-degree: 77%
 
 ---
 
-# Supporto per gli attributi del cliente per il regolamento generale sulla protezione dei dati
+# [!DNL Customer Attributes] Supporto per il regolamento generale sulla protezione dei dati
 
-Questa pagina descrive come la funzione [!UICONTROL Attributi del cliente] supporta il regolamento generale sulla protezione dei dati (RGPD).
+Questa pagina descrive come [!DNL Customer Attributes] supporta il Regolamento generale sulla protezione dei dati (RGPD).
 
 >[!IMPORTANT]
 >
@@ -25,13 +25,13 @@ Il [regolamento generale sulla protezione dei dati](https://business.adobe.com/i
 
 Adobe Experience Cloud agisce come responsabile del trattamento per tutti i dati personali che riceve e archivia per conto dei propri clienti. In qualità di titolare del trattamento dei dati, puoi determinare i dati personali che Adobe Experience Cloud elabora e archivia per tuo conto.
 
-In questo documento viene descritto come gli [!UICONTROL attributi del cliente] supportano i diritti all&#39;accesso e all&#39;eliminazione dei dati degli interessati ai sensi del RGPD tramite l&#39;API Adobe Experience Platform Privacy Service e l&#39;interfaccia utente di Privacy Service.
+Questo documento descrive come [!DNL Customer Attributes] supporta i diritti all’accesso e all’eliminazione dei dati degli interessati ai sensi del RGPD tramite l’API Adobe Experience Platform Privacy Service e l’interfaccia utente di Privacy Service.
 
 Per maggiori informazioni sul significato del RGPD per la tua attività, consulta [RGPD e aziende](https://business.adobe.com/it/privacy/general-data-protection-regulation.html).
 
-## Configurazione necessaria per inviare richieste per gli [!UICONTROL attributi del cliente]
+## Configurazione necessaria per inviare richieste per [!DNL Customer Attributes]
 
-Per richiedere l’accesso e l’eliminazione dei dati per [!UICONTROL Attributi del cliente], è necessario:
+Per richiedere l&#39;accesso e l&#39;eliminazione dei dati per [!DNL Customer Attributes], è necessario:
 
 1. Identificare quanto segue:
 
@@ -41,9 +41,9 @@ Per richiedere l’accesso e l’eliminazione dei dati per [!UICONTROL Attributi
 
    Il tuo [ID organizzazione](#organizations.md) è una stringa alfanumerica composta da 24 caratteri a cui segue @AdobeOrg. Per inviare richieste all’API per la privacy è necessario l’ID organizzazione. Se non ti è possibile individuare l’ID, contatta l’Assistenza clienti Adobe all’indirizzo `gdprsupport@adobe.com`.
 
-1. In [!UICONTROL Privacy Service], puoi inviare le richieste di accesso ed eliminazione agli attributi del cliente e controllare lo stato delle richieste esistenti.
+1. In entrata [!UICONTROL Privacy Service], puoi inviare le richieste di accesso ed eliminazione a [!DNL Customer Attributes], e controlla lo stato delle richieste esistenti.
 
-## Valori campo obbligatori nelle richieste JSON di [!UICONTROL attributi del cliente]
+## Valori campo obbligatori in [!DNL Customer Attributes] Richieste JSON
 
 &quot;company context&quot; (contesto dell&#39;azienda):
 
@@ -105,8 +105,8 @@ Per richiedere l’accesso e l’eliminazione dei dati per [!UICONTROL Attributi
 ```
 attributes:
 {
-"value”:<*value*>,
-"key”:<*key*>,
-"displayName”:<*displayName*>
+"value":<*value*>,
+"key":<*key*>,
+"displayName":<*displayName*>
 }
 ```

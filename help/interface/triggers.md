@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 97%
+source-wordcount: '677'
+ht-degree: 94%
 
 ---
 
@@ -49,7 +49,7 @@ Crea un trigger e configurane le condizioni. Ad esempio, puoi specificare i crit
 >
 >Esiste attualmente un limite tecnico di 100 trigger.
 
-1. Nell’Experience Cloud, seleziona ![menu](assets/menu-icon.png), quindi seleziona **[!UICONTROL Raccolta dati/Launch]**.
+1. Ad Experience Cloud, seleziona ![menu](assets/menu-icon.png), quindi seleziona **[!UICONTROL Raccolta dati/Launch]**.
 2. Sulla scheda [!UICONTROL Attivatori] seleziona **[!UICONTROL Gestione attivatori]**.
 3. Fai clic su **[!UICONTROL Nuovo attivatore]** e specifica il tipo di trigger:
 
@@ -66,7 +66,7 @@ Crea un trigger e configurane le condizioni. Ad esempio, puoi specificare i crit
    | [!UICONTROL Contenitore] | [!UICONTROL Nei contenitori] vengono impostati e archiviati regole, condizioni o filtri che definiscono un trigger. Se vuoi far verificare gli eventi contemporaneamente, inseriscili nello stesso contenitore. Ciò significa che ogni contenitore elabora indipendentemente a livello di risultato. Ad esempio, in caso di due contenitori uniti dall&#39;operatore AND, le regole saranno idonee quando due risultati soddisfano i requisiti. |
    | Start new session after (Avvia nuova sessione dopo) | Crea un trigger per gli eventi di inizio e fine sessione. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 5. Seleziona **[!UICONTROL Salva]**.
 6. Usa i trigger per la [commercializzazione in tempo reale](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html?lang=it) in [!DNL Adobe Campaign].
@@ -83,6 +83,6 @@ Ad esempio, nella pagina seguente sono illustrate le regole che è possibile uti
 
 #### Trigger referrer
 
-Il trigger seguente si attiva quando viene visualizzato un risultato con il prodotto Stivali da uomo e il referrer Facebook. Per valutare i due criteri (*products* e *referrer*) nello stesso risultato, devono essere aggiunti allo stesso contenitore.
+Il trigger seguente si attiva quando viene visualizzato un risultato con il prodotto Stivali da uomo e il referrer Facebook. Per i due criteri (*products* e *referrer*) da valutare nello stesso hit, devono essere aggiunte allo stesso contenitore.
 
 ![Trigger referrer](assets/fb-boots-promo.png)

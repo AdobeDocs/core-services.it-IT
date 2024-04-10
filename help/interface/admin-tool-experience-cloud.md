@@ -1,23 +1,23 @@
 ---
-description: Scopri lo strumento di amministrazione di Experience Cloud. Visualizza un elenco ordinabile e filtrabile di tutti gli utenti e i criteri di Experience Cloud.
+title: Visualizza utenti e dettagli utente
+description: Scopri Admin Tool in Experience Cloud. Visualizza un elenco ordinabile e filtrabile di tutti gli utenti e i criteri Experience Cloud.
 application: Experience Cloud
-title: Visualizzare gli utenti e i dettagli utente di Experience Cloud
 index: true
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '1268'
-ht-degree: 94%
+source-wordcount: '1270'
+ht-degree: 83%
 
 ---
 
-# Visualizzare gli utenti e i criteri di Experience Cloud con Admin Tool
+# Visualizzare Experienci Cloud di utenti e criteri in [!UICONTROL Admin Tool]
 
-Gli amministratori possono visualizzare un elenco ordinabile e filtrabile di tutti gli utenti e i criteri Experience Cloud, con i relativi dettagli, in Admin Tool. I dettagli dell’utente includono l’accesso ai prodotti, i ruoli e le informazioni sull’ultimo accesso. I dettagli dei criteri includono l’elenco di utenti, gruppi, sviluppatori, integrazioni e amministratori di un criterio (profilo di prodotto), nonché informazioni dettagliate sulle autorizzazioni e sulle risorse per il criterio.
+Gli amministratori possono visualizzare un elenco ordinabile e filtrabile di tutti gli utenti e i criteri Experienci Cloud con i dettagli nella sezione [!UICONTROL Admin Tool]. I dettagli utente includono l’accesso ai prodotti, i ruoli e le informazioni sull’ultimo accesso. I dettagli dei criteri includono l’elenco di utenti, gruppi, sviluppatori, integrazioni e amministratori di un criterio (profilo di prodotto), nonché informazioni dettagliate sulle autorizzazioni e sulle risorse per il criterio.
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ Gli amministratori possono visualizzare un elenco ordinabile e filtrabile di tut
 
    ![Accesso ad Admin Console](assets/admin-tool.png)
 
-1. In [!UICONTROL Accesso rapido], seleziona **[!UICONTROL Admin Tool.]**
+1. Sotto [!UICONTROL Accesso rapido], fai clic su **[!UICONTROL Admin Tool]**.
 
    In alternativa, nell’URL della pagina principale puoi sostituire _home_ con _admin_.
 
@@ -45,7 +45,7 @@ In questa pagina viene visualizzato l’elenco completo degli utenti con accesso
 | [!UICONTROL E-mail] | L’indirizzo e-mail associato all’utente. Puoi ordinare questa colonna da A a Z e da Z ad A. |
 | [!UICONTROL ID Type (Tipo di ID)] | Il tipo di identità per l’account dell’utente. È possibile applicare un filtro per visualizzare tipi di ID specifici. Per ulteriori informazioni, consulta [Manage identity types (Gestisci tipi di identità)](https://helpx.adobe.com/it/enterprise/using/identity.html). |
 | [!UICONTROL Soluzioni] | Riepilogo delle applicazioni Experience Cloud a cui l’utente può accedere. Per limitare l’elenco di utenti con accesso specifico all’applicazione puoi applicare i filtri. |
-| [!UICONTROL Last Login (Ultimo accesso)] | Ora e data dell’accesso utente più recente a Experience Cloud. Questa colonna può essere ordinata in base a date ascendenti o discendenti. <br> **Importante:** A partire dal 13 gennaio 2020, gli ultimi dati di accesso dell’utente saranno conservati per 365 giorni. Queste informazioni si propongono di mostrare l’attuale attività all’interno di Experience Cloud e non costituiscono un consiglio a intervenire sugli account inattivi prima del 13 gennaio 2020. |
+| [!UICONTROL Last Login (Ultimo accesso)] | Ora e data dell’accesso utente più recente all’Experience Cloud. Questa colonna può essere ordinata in base a date ascendenti o discendenti. <br> **Importante:** A partire dal 13 gennaio 2020, gli ultimi dati di accesso dell’utente saranno conservati per 365 giorni. Queste informazioni si propongono di mostrare l’attuale attività di accesso in Experience Cloud e non costituiscono un consiglio a intervenire sugli account inattivi prima del 13 gennaio 2020. |
 
 ## Personalizzare la vista elenco degli utenti
 
@@ -67,7 +67,7 @@ Per visualizzare i dettagli di un utente, nella pagina [!UICONTROL Utenti] selez
 
 ![Visualizzare i dettagli utente in Admin Console](assets/admin-tool-user-details.png)
 
-Una visualizzazione dettagliata di ciascun utente mostra dettagli importanti sull&#39;accesso all&#39;applicazione dell&#39;utente, sui ruoli di amministratore e di prodotto e sulle informazioni sull&#39;ultimo accesso.
+La visualizzazione dettagliata di ciascun utente mostra dettagli importanti sull’accesso all’applicazione da parte dell’utente, sui ruoli di amministratore e di prodotto, oltre alle informazioni sull’ultimo accesso.
 
 ## Sezione Informazioni
 
@@ -77,7 +77,7 @@ In questa sezione viene visualizzato un riepilogo dell’account utente, il qual
 * Nome
 * E-mail
 * Nome utente (gli account Federated ID possono presentare nomi utente diversi dall’indirizzo e-mail)
-* [Tipo ID](https://helpx.adobe.com/enterprise/using/identity.html)
+* [Tipo ID](https://helpx.adobe.com/it/enterprise/using/identity.html)
 * Paese
 * Ultimo accesso
 
@@ -116,7 +116,7 @@ In questa pagina viene visualizzato l’elenco completo dei criteri di Experienc
 È possibile eseguire ricerche nonché ordinare e filtrare viste personalizzate dell’elenco dei criteri.
 
 * Puoi cercare i profili di prodotto per nome. Le ricerche corrispondono alla stringa di testo digitata.
-* Ordina le colonne in base ai valori crescenti o decrescenti. Questo vale per le colonne [!UICONTROL Profilo prodotto], [!UICONTROL Prodotto], [!UICONTROL Istanza], [!UICONTROL Numero di utenti] e [!UICONTROL Numero di sviluppatori].
+* Ordina le colonne in base ai valori crescenti o decrescenti. Questo tipo di ordinamento si applica a [!UICONTROL profilo di prodotto,] [!UICONTROL Prodotto,] [!UICONTROL Istanza,] [!UICONTROL Numero di utenti,] e [!UICONTROL Numero di sviluppatori,] Colonne.
 * Per applicare più filtri in modo da elencare i profili di prodotto secondo criteri specifici, seleziona l’icona **[!UICONTROL Filtra per]**. Quando vengono applicate più categorie di filtri, le ricerche contengono i Gruppi `AND` Istanza `AND` Soluzione.
 
 | Elemento | Descrizione |
@@ -163,3 +163,7 @@ Questa sezione presenta un elenco completo di tutti gli utenti, i gruppi di uten
 ## Elenchi dettagliati di autorizzazioni e risorse
 
 Questa sezione presenta un elenco completo delle autorizzazioni e delle risorse disponibili per il profilo di prodotto. Le autorizzazioni e le risorse incluse nel profilo di prodotto sono contrassegnate da un segno di spunta (✔). Gli elenchi di autorizzazioni e risorse sono organizzati in schede e colonne per facilitarne la visualizzazione. Le schede e le colonne presentano l’elenco delle sezioni applicabili al prodotto corrente.
+
+## Informazioni correlate
+
+* [Gestione utenti](https://helpx.adobe.com/it/enterprise/using/users.html) nel [!DNL Admin Console]

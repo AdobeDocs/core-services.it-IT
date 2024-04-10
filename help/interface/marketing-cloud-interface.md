@@ -1,19 +1,19 @@
 ---
-description: Scopri le nuove funzioni e gli aggiornamenti nell’Experience Cloud.
+description: Scopri le nuove funzioni e gli aggiornamenti in Experience Cloud.
 solution: Experience Cloud
-title: Novità in Experience Cloud
+title: Novità di Experience Cloud
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 98%
+source-wordcount: '628'
+ht-degree: 87%
 
 ---
 
 
-# Novità in Experience Cloud
+# Novità di Experience Cloud
 
-Una panoramica delle nuove funzionalità e degli aggiornamenti in Experience Cloud.
+Panoramica delle nuove funzioni e degli aggiornamenti di Experience Cloud.
 
 ## Agosto 2018 {#section_7388CDAB723B49809AABEFEE85CF6378}
 
@@ -48,9 +48,9 @@ Nuove funzioni e correzioni nell’interfaccia di [!DNL Adobe Experience Cloud].
 
 | Funzione | Descrizione |
 |--- |--- |
-| Nuova pagina di destinazione dell’amministrazione | Quando accedi a Experience Cloud e apri la pagina Amministrazione, adesso è disponibile una nuova interfaccia intuitiva che consente di passare rapidamente alle applicazioni e ai servizi principali di Experience Cloud. |
+| Nuova pagina di destinazione dell’amministrazione | Quando accedi ad Experience Cloud e apri la pagina Amministrazione, è disponibile una nuova interfaccia intuitiva che consente di accedere rapidamente alle applicazioni e ai servizi principali di Experience Cloud. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 **Correzioni**
 
@@ -71,16 +71,16 @@ Molte delle notifiche di manutenzione su interventi pianificati di manutenzione/
 | Notifiche - Notifiche di manutenzione | Nelle impostazioni di notifica puoi abilitare quelle relative alla manutenzione di prodotti e applicazioni. |
 | Admin Console per soluzioni Experience Cloud | I nuovi clienti Experience Cloud possono iniziare a utilizzare Admin Console, che offre una posizione centrale per la gestione delle autorizzazioni Adobe nell’intera l’organizzazione.<br>La migrazione ad Admin Console per la gestione degli utenti procederà a ondate. Quando sarà il momento di effettuare la migrazione, Adobe contatterà gli amministratori di sistema.<br>Per gli amministratori di Analytics: consulta la sezione [Migrazione di Analytics](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=it). |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 22 maggio 2017 {#section_242FE649FA1B4BFA88EC6E353D175ACC}
 
 | Funzione | Descrizione |
 |--- |--- |
-| Mappatura in batch di suite di rapporti | In Amministrazione > Mappatura suite di rapporti ora puoi selezionare più suite di rapporti, quindi mapparle su un&#39;organizzazione. (in precedenza era necessario mapparle singolarmente).  <br>[La mappatura delle suite di rapporti](core-services.md) su un’unica organizzazione consente di abilitare funzioni e servizi tra più applicazioni in Experience Cloud. |
+| Mappatura in batch di suite di rapporti | In Amministrazione > Mappatura suite di rapporti ora puoi selezionare più suite di rapporti, quindi mapparle su un&#39;organizzazione. (in precedenza era necessario mapparle singolarmente).  <br>[Mappatura delle suite di rapporti](core-services.md) in un’unica organizzazione consente di abilitare funzioni e servizi tra più applicazioni in Experience Cloud. |
 | Aggiornamenti relativi al pubblico di Experience Cloud | **Applicazione di suite di rapporti**<br> Ora puoi applicare una suite di rapporti a tutte le tue [regole per il pubblico](t-audience-create.md). In precedenza, era necessario indicare una suite di rapporti per ciascuna definizione di regola. <br>**Prop e variabili**<br> Ora è possibile includere le proprietà di Analytics e le variabili predefinite (oltre a eVar ed eventi) per il pubblico in tempo reale. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 8 novembre 2016, 16.11.1 {#section_7065A9BCCDF544C2BB37E9A7D661EA6A}
 
@@ -88,7 +88,7 @@ Molte delle notifiche di manutenzione su interventi pianificati di manutenzione/
 |--- |--- |
 | Aggiornamento di Profilo e password | Gli utenti non possono più modificare le informazioni del profilo utente IMS in Dati personali nella sezione Modifica profilo > Profilo e password, bensì vengono reindirizzati a `accounts.adobe.com`. Questo aggiornamento vale per tutti i tipi di identità (Adobe ID, Enterprise e Federated). |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 **Correzioni**
 

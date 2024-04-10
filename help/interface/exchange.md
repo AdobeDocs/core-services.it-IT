@@ -7,10 +7,10 @@ feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 100%
+source-wordcount: '128'
+ht-degree: 96%
 
 ---
 
@@ -27,11 +27,11 @@ Exchange Marketplace è un&#39;unica destinazione in cui è possibile eseguire r
 
 * Gli amministratori possono configurare le applicazioni scaricate.
 
-* Recensisci i prodotti inviati dagli sviluppatori, sfoglia le applicazioni e commenta o dai un voto a ciascuna applicazione.
+* Recensisci i prodotti inviati dagli sviluppatori, sfoglia le applicazioni e commenta o valuta ciascuna applicazione.
 
 * Boccia o approva le applicazioni.
 
-* Pubblica in Experience Cloud.
+* Pubblica nell’Experience Cloud.
 
 * Effettua ricerche e filtra per categoria, azienda, tipo, utente e altro.
 

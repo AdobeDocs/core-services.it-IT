@@ -8,16 +8,16 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
-workflow-type: ht
-source-wordcount: '727'
-ht-degree: 100%
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
+workflow-type: tm+mt
+source-wordcount: '719'
+ht-degree: 84%
 
 ---
 
 # Domande frequenti su Experience Cloud
 
-Scopri quali sono i browser supportati e le risposte alle domande più frequenti per gli amministratori del Experience Cloud.
+Scopri il supporto del browser e le domande e risposte comuni per gli amministratori, in questo Experience Cloud.
 
 ## Quali browser sono supportati in Experience Cloud?
 
@@ -31,7 +31,7 @@ Scopri quali sono i browser supportati e le risposte alle domande più frequenti
 
 Se non è stato effettuato il provisioning della tua implementazione per i servizi principali, consulta [Abilitare le applicazioni per i servizi principali](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C), in cui si descrivono i seguenti temi:
 
-1. [Partecipazione a Experience Cloud per diventare un amministratore](core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
+1. [Partecipa all’Experience Cloud e diventa amministratore](core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
 1. [Implementa il servizio Experience Cloud ID tramite Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=it).
 1. [Mappare le suite di rapporti per un’organizzazione Experience Cloud](core-services.md#concept_apg_zq2_rw)
 1. [Modernizzare il codice AppMeasurement di Analytics (solo per Analytics)](core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
@@ -65,7 +65,7 @@ La funzionalità fornita dall’interfaccia di Experience Cloud aggiunge più va
 Provisioning in Experience Cloud significa:
 
 * Gli utenti possono effettuare l’accesso a [!DNL Experience Cloud] e alle soluzioni di collegamento.
-* Possono iniziare a utilizzare le funzionalità disponibili in Experience Cloud, ad esempio People.
+* Possono iniziare a utilizzare le funzioni disponibili in Experience Cloud, ad esempio Persone.
 * Puoi prepararti a ritirare il processo di accesso specifico per le singole applicazioni.
 * Puoi mantenere il controllo dell’accesso alle applicazioni.
 
@@ -95,7 +95,7 @@ Consulta [Gestire gli account utente](organizations.md#topic_C31CB834F109465A82E
 
 ## Che cos’è un’organizzazione?
 
-Un’[organizzazione](organizations.md) è l’entità che consente all’amministratore di configurare gruppi e utenti e di controllare il single sign-on in Experience Cloud. L’organizzazione funziona come un’azienda per il log-in che comprende tutti i prodotti e le applicazioni Experience Cloud. Nella maggior parte dei casi, un’organizzazione è il nome dell’azienda. Tuttavia, un’azienda può avere più organizzazioni.
+Un [organizzazione](organizations.md) è l&#39;entità che consente all&#39;amministratore di configurare gruppi e utenti e di controllare l&#39;Experience Cloud del single sign-on. L’organizzazione funziona come un’azienda di accesso per tutti i prodotti e le applicazioni di Experience Cloud. Nella maggior parte dei casi, un’organizzazione è il nome dell’azienda. Tuttavia, un’azienda può avere più organizzazioni.
 
 ## Dove posso trovare l’ID organizzazione IMS?
 
@@ -103,7 +103,7 @@ Per informazioni, consulta [Visualizzare l’ID organizzazione](organizations.md
 
 ## Cosa devo fare quando uno dei miei utenti lascia l’azienda?
 
-È necessario rimuoverne l’accesso dall’applicazione. Essi non potranno accedere al prodotto da Experience Cloud o mediante accesso diretto. Devi rimuoverli anche a livello di Experience Cloud.
+È necessario rimuoverne l’accesso dall’applicazione. Non potranno accedere al prodotto da Experience Cloud o tramite l’accesso diretto. Devi rimuoverli anche a livello di Experience Cloud.
 
 ## Che cos’è un Adobe ID?
 

@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
-source-git-commit: e71461000e352d4a8acba413e0db6180a37395ff
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -55,7 +55,7 @@ La barra degli strumenti consente di accedere rapidamente a funzioni quali: Cerc
 
 >[!NOTE]
 >
->Le risorse devono essere rimosse dalle attività di Adobe Target prima di poterle eliminare correttamente [!DNL Target].
+>È necessario rimuovere le risorse dalle attività di Adobe Target prima di eliminarle correttamente da [!DNL Target].
 
 ## Modificare le risorse {#section_CD3C55A9D4574455B94D0955391C8FEC}
 

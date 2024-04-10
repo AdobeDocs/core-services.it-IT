@@ -1,17 +1,17 @@
 ---
 description: Scopri come usare le regole per attributi per creare un pubblico, o audience, e definire un pubblico composito in Adobe Experience Cloud.
 solution: Experience Cloud
-title: Creazione di un pubblico
+title: Creare un pubblico
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
 feature: Audience Library
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 99%
+source-wordcount: '510'
+ht-degree: 94%
 
 ---
 
@@ -40,12 +40,12 @@ L’esempio seguente mostra come creare le regole per un pubblico composito. Que
 * Sezione Home &amp; Garden (Casa e giardino) derivata dai dati di pagina o dai dati di analisi non elaborati.
 * Utenti Chrome e Safari derivati da un segmento [!DNL Adobe Analytics] [pubblicato](audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A) in [!DNL Experience Cloud].
 
-   ![Creare le regole per un pubblico composito](assets/audience_create.png)
+  ![Creare le regole per un pubblico composito](assets/audience_create.png)
 
 **Creare un’audience**
 
 1. In [!DNL Experience Cloud], nella sezione[!DNL Experience Platform], seleziona **[!UICONTROL Persone]** > **[!UICONTROL Libreria pubblico].**
-1. Nella pagina [!UICONTROL Tipi di pubblico] seleziona **[!UICONTROL Nuovo]**. ![add](assets/add_icon_small.png)
+1. Il giorno [!UICONTROL Tipi di pubblico] pagina, seleziona **[!UICONTROL Nuovo]**. ![aggiungi](assets/add_icon_small.png)
 
    ![Risultato passaggio](assets/audience_create_new.png)
 
@@ -55,7 +55,7 @@ L’esempio seguente mostra come creare le regole per un pubblico composito. Que
    * **[!UICONTROL Dati Real-Time Analytics]** (o dati non elaborati): si tratta di dati di attributi derivati da richieste di immagini di Real-Time Analytics e includono dati come eVar ed eventi. Quando utilizzi questa origine di attributi, devi selezionare una suite di rapporti e definire la dimensione o l’evento da includere. Questa selezione di suite di rapporti fornisce la struttura delle variabili utilizzata dalla suite di rapporti.
    >[!NOTE]
    >
-   >A causa della memorizzazione nella cache, sono necessarie 12 ore prima che l’eliminazione delle suite di rapporti di Analytics possa essere visibile in Experience Cloud.
+   >A causa della memorizzazione nella cache, sono necessarie 12 ore prima che l’eliminazione delle suite di rapporti di Analytics possa essere visibile, in Experience Cloud.
 
    * **[!UICONTROL Experience Cloud:]** dati attributo derivati dalle sorgenti di [!DNL Experience Cloud]. Ad esempio, potrebbe trattarsi dei dati dei segmenti di pubblico che hai creato in [!DNL Analytics] o dei dati di [!DNL Audience Manager].
 
