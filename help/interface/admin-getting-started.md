@@ -1,6 +1,6 @@
 ---
-title: Gestione di utenti e prodotti
-description: Accedi all’Admin Console e gestisci le autorizzazioni utente e i prodotti Experience Cloud (profili prodotto). Scopri come delegare le autorizzazioni di amministratore agli utenti di Experience Cloud, e i browser supportati da Experience Cloud.
+title: Gestire utenti e prodotti
+description: Accedi a Admin Console e gestisci le autorizzazioni utente e i prodotti di Experience Cloud (profili di prodotto). Scopri come delegare le autorizzazioni di amministratore agli utenti di Experience Cloud, e i browser supportati da Experience Cloud.
 solution: Admin
 index: true
 feature: Admin Console
@@ -11,7 +11,7 @@ exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
 source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
 source-wordcount: '1582'
-ht-degree: 74%
+ht-degree: 81%
 
 ---
 
@@ -35,13 +35,13 @@ Aggiornato: **20 luglio 2022**
 
 Adobe sta aggiornando il provisioning per fornire a tutti i clienti di Experience Cloud l’accesso alle funzionalità fondamentali che facilitano l’interoperabilità tra alcuni prodotti Experience Cloud. Adobe Experience Platform verrà aggiunto come nuovo diritto alle organizzazioni Experience Cloud, con la funzionalità [!UICONTROL Raccolta dati] inclusa come servizio.
 
-La funzionalità [!UICONTROL Raccolta dati] di Adobe Experience Platform include [tag](https://experienceleague.adobe.com/en/docs/tags) per una gestione dei tag semplificata e universale e offre un’infrastruttura di dati in streaming affidabile, solida e completa. I tag semplificano la raccolta di dati sull’esperienza del cliente e agevolano la distribuzione delle esperienze.
+La funzionalità [!UICONTROL Raccolta dati] di Adobe Experience Platform include [tag](https://experienceleague.adobe.com/it/docs/tags) per una gestione dei tag semplificata e universale e offre un’infrastruttura di dati in streaming affidabile, solida e completa. I tag semplificano la raccolta di dati sull’esperienza del cliente e velocizzano la distribuzione delle esperienze.
 
 **Modifiche al[!DNL Admin Console]**
 
 Gli amministratori possono visualizzare modifiche o aggiunte al [!DNL Admin Console] come segue:
 
-* La scheda prodotto di Adobe Experience Platform nell’Admin Console include:
+* La scheda prodotto di Adobe Experience Platform in Admin Console includerà:
 
    * Places
    * Assurance
@@ -61,7 +61,7 @@ Gli amministratori possono visualizzare modifiche o aggiunte al [!DNL Admin Cons
 Per maggiori dettagli sulle nuove funzionalità, visita le rispettive pagine su Experience League:
 
 * [Raccolta dati](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html?lang=it)
-* [Places](https://experienceleague.adobe.com/en/docs/places/using/home)
+* [Places](https://experienceleague.adobe.com/it/docs/places/using/home)
 * [Assurance](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html?lang=it)
 * [Spazio dei nomi identità](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=it)
 * [Sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=it)
@@ -104,13 +104,13 @@ L’esperienza di accesso non cambia con questo aggiornamento:
 
 1. Ciascuna opzione porta a una pagina di destinazione esistente.
 
-1. A ciascun piano aziendale è associato un profilo di Adobe che consente di organizzare le risorse create da ulteriori offerte Adobe Cloud (Creative Cloud e Document Cloud).
+1. A ciascun piano Business è associato un profilo Adobe che consente di organizzare le risorse create da altre soluzioni Adobe Cloud (Creative Cloud e Document Cloud).
 
 Per ulteriori informazioni, consulta [Introduzione ai profili Adobe](https://helpx.adobe.com/it/enterprise/kb/introducing-adobe-profiles.html).
 
 ## Che cos’è un profilo di prodotto? {#section_AB50558124D541CF80A0D3D76D35A4BF}
 
-_[!UICONTROL Profili di prodotto]_ sono gruppi di prodotti e servizi che puoi assegnare agli utenti. In Experience Cloud, le autorizzazioni si basano sul profilo di un prodotto, non sull’utente. (Tuttavia, puoi delegare i diritti amministrativi a utenti specifici.)
+I _[!UICONTROL Profili di prodotto]_ sono gruppi di prodotti e servizi che puoi assegnare agli utenti. In Experience Cloud, le autorizzazioni si basano sul profilo di un prodotto, non sull’utente. (Tuttavia, puoi delegare i diritti amministrativi a utenti specifici.)
 
 In Analytics, ad esempio, puoi configurare una raccolta di strumenti di reporting, quali Analysis Workspace e Report Builder, insieme a suite di rapporti, metriche e dimensioni. Per assegnare le autorizzazioni per un prodotto puoi aggiungerlo al profilo.
 
@@ -211,7 +211,7 @@ Consulta [Gestione di gruppi e utenti](https://experienceleague.adobe.com/docs/c
 
 ## Raccolta dati di Adobe Experience Platform {#section_F2DA6778DD2D48AA8F794041971EE6B1}
 
-La [!UICONTROL Raccolta dati] di Experience Platform (Launch) viene visualizzata sulla pagina[!UICONTROL Prodotti] in [!UICONTROL Admin Console]. Puoi includere altre applicazioni e servizi in un profilo di prodotto Data Collection.
+La [!UICONTROL Raccolta dati] di Experience Platform (Launch) viene visualizzata sulla pagina[!UICONTROL Prodotti] in [!UICONTROL Admin Console]. Puoi includere altre applicazioni e servizi in un profilo di prodotto Raccolta dati.
 
 Invita gli utenti in [!UICONTROL Platform Launch] e assegna ruoli utente e autorizzazioni.
 
