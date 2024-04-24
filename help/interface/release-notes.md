@@ -1,7 +1,7 @@
 ---
-description: Experience Cloud Scopri le funzioni più recenti, le note sulla versione e i problemi noti per servizi come Attributi del cliente, Audiences e gestione degli utenti.
+description: Scopri le funzioni più recenti, le note sulla versione e i problemi noti di servizi Experience Cloud come Attributi del cliente, Tipi di pubblico e gestione degli utenti.
 solution: Experience Cloud
-title: Note cumulative sulla versione per l’interfaccia Experience Cloud
+title: Note sulla versione cumulativa per l’interfaccia Experience Cloud
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 feature-set: Experience Cloud
 feature: Release Notes
@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4735'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -259,7 +259,7 @@ La funzione Ricerca unificata è stata aggiornata per renderla disponibile anche
 
 **Problemi noti**
 
-* Gli utenti non sono in grado di accedere al Report Builder se effettuano un&#39;autenticazione unica (SSO) in Analytics tramite Experience Cloud. Questo problema non interessa i clienti che utilizzano le credenziali legacy di Analytics.
+* Gli utenti non sono in grado di accedere a Report Builder se effettuano un’autenticazione unica (SSO) in Analytics tramite Experience Cloud. Questo problema non interessa i clienti che utilizzano le credenziali legacy di Analytics.
 * Errore noto con la funzione &quot;Link to Report&quot; (Collega a report) in Analytics. Gli utenti che accedono ad Analytics tramite Experience Cloud vengono indirizzati a una pagina non SSO per Analytics quando tentano di condividere un rapporto.
 
 ## Rilascio 15.9 - 10 settembre 2015 {#section_BCCE3E7DF62A4FF5A57B9C8FE2A5F37B}
@@ -279,7 +279,7 @@ La funzione Ricerca unificata è stata aggiornata per renderla disponibile anche
 
 **Problema noto**
 
-Un problema noto crea la duplicazione di account automaticamente generati in Audience Manager e li collega automaticamente a un&#39;identità Experience Cloud del cliente. Il problema si verifica quando si tenta di passare ad Audience Manager prima di collegare i propri account. Adobe consiglia di collegare gli account Audienci Manager a Experience Cloud prima di passare a Audienci Manager. (MAC-25640)
+Un problema noto crea la duplicazione di account automaticamente generati in Audience Manager e li collega automaticamente a un&#39;identità Experience Cloud del cliente. Il problema si verifica quando si tenta di passare ad Audience Manager prima di collegare i propri account. Adobe consiglia di collegare gli account Audience Manager a Experience Cloud prima di spostarsi su Audience Manager. (MAC-25640)
 
 ## Rilascio 15.6.1 - 11 giugno 2015 {#section_AD2019F8D2F84C9EB2B0533FAACF7043}
 
@@ -338,7 +338,7 @@ Nessuna informazione disponibile.
 
 **Problemi noti**
 
-* Il collegamento e lo scollegamento dell’organizzazione Dynamic Tag Management con Experience Cloud non funziona per le nuove organizzazioni Experience Cloud create. Stiamo cercando di risolvere questo problema per ripristinare la funzionalità con la versione di maggio. Se rilevi dei problemi durante l’accesso single sign-on in Dynamic Tag Management tramite Experience Cloud, utilizza l’accesso precedente all’indirizzo [!DNL dtm.adobe.com].
+* Il collegamento e lo scollegamento dell’organizzazione Dynamic Tag Management con Experience Cloud non funziona per le nuove organizzazioni Experience Cloud create dall’utente. Stiamo cercando di risolvere questo problema per ripristinare la funzionalità con la versione di maggio. Se rilevi dei problemi durante l’accesso in modalità single sign-on in Dynamic Tag Management tramite Experience Cloud, utilizza l’accesso precedente all’indirizzo [!DNL dtm.adobe.com].
 * Un problema noto impedisce la condivisione di audience da suite di rapporti che non sono di proprietà dall&#39;account Analytics collegato. Stiamo cercando di risolvere il problema
 
 ## Rilascio 15.3.2 - 19 marzo 2015 {#section_07760FD9CA43497FA8BDCCA990A24BFD}
@@ -353,7 +353,7 @@ Nessuna informazione disponibile.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Attributi del cliente </p> </td> 
-   <td colname="col2"> <p>Se acquisisci dati del cliente di livello Enterprise in un database CRM (Customer Relationship Management), puoi caricare tali dati in un’origine dati di attributi cliente in Experience Cloud. Dopo il caricamento dei dati, puoi effettuare i rapporti <span class="uicontrol">Visitor Profile (Profilo visitatore)</span> &gt; <span class="uicontrol">Attributi del cliente</span> in Analytics. </p> <p>Inoltre, puoi utilizzare i dati caricati come segmento del pubblico in <span class="keyword">Adobe Target</span>. </p> <p>Consulta la documentazione del prodotto relativa agli <a href="attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local"> Attributi del cliente</a>. </p> <p> Per informazioni sulla modernizzazione delle applicazioni per i servizi principali, consulta <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">Abilitare le applicazioni per i servizi principali</a>. </p> </td> 
+   <td colname="col2"> <p>Se acquisisci dati del cliente di livello Enterprise in un database per la gestione delle relazioni con i clienti (CRM), puoi caricare tali dati in un’origine dati di Attributi del cliente in Experience Cloud. Dopo il caricamento dei dati, puoi effettuare i rapporti <span class="uicontrol">Visitor Profile (Profilo visitatore)</span> &gt; <span class="uicontrol">Attributi del cliente</span> in Analytics. </p> <p>Inoltre, puoi utilizzare i dati caricati come segmento del pubblico in <span class="keyword">Adobe Target</span>. </p> <p>Consulta la documentazione del prodotto relativa agli <a href="attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local"> Attributi del cliente</a>. </p> <p> Per informazioni sulla modernizzazione delle applicazioni per i servizi principali, consulta <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">Abilitare le applicazioni per i servizi principali</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -374,7 +374,7 @@ Nessuna informazione disponibile.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mappatura uno-a-molti </p> </td> 
-   <td colname="col2"> <p>Quando si collegano account dell’applicazione in Experience Cloud, se si dispone di più applicazioni e organizzazioni, ora è possibile mappare più prodotti e servizi a una singola organizzazione. </p> </td> 
+   <td colname="col2"> <p>Quando si collegano account dell’applicazione in Experience Cloud, se si dispone di più applicazioni e organizzazioni, ora è possibile effettuare la mappatura di più prodotti e servizi a un’unica organizzazione. </p> </td> 
   </tr> 
     <tr> 
    <td colname="col1"> <p>Aggiornamenti della documentazione - Servizi principali </p> </td> 
@@ -423,7 +423,7 @@ Nuove funzioni, problemi noti e correzioni nella collaborazione [!DNL Adobe Expe
 * Le modifiche effettuate al gruppo e all&#39;adesione in Gestione utente hanno effetto solamente all&#39;accesso successivo.
 * Alcuni utenti potrebbero rilevare dei problemi durante il caricamento di file di grosse dimensioni sulle risorse di Experience Cloud.
 * Gli utenti potrebbero perdere collegamenti sulle schede Experience Cloud da Advertising Cloud.
-* Alcuni utenti amministratori potrebbero rilevare dei problemi durante il collegamento degli account dopo l’accettazione di un invito a partecipare all’Experience Cloud.
+* Alcuni utenti amministratori potrebbero rilevare dei problemi durante il collegamento degli account dopo l’accettazione di un invito a iscriversi a Experience Cloud.
 * L&#39;interfaccia di Experience Cloud può diminuire le prestazioni se usata in parallelo da più utenti.
 * Alcuni utenti possono eliminare una vecchia risorsa invece di ricevere una notifica di errore.
 * Alcuni utenti potrebbero rilevare dei problemi durante l&#39;accesso in due browser contemporaneamente con lo stesso Adobe ID.
@@ -588,7 +588,7 @@ Nuove funzioni, problemi noti e correzioni nella [!DNL Adobe Experience Cloud] c
 * Il collegamento [!DNL Search&Promote] non è disponibile dalla pagina [!UICONTROL Organizations &amp; Product Access (Organizzazione e accesso ai prodotti)].
 * I filtri applicati ai report con tendenze [!DNL Analytics] sono applicati alle schede in [!DNL Experience Cloud].
 * Alcuni utenti non possono collegare il loro account di Gestione dell&#39;audience all&#39;account di [!DNL Experience Cloud].
-* Dopo 15 minuti di inattività verrai disconnesso. La disconnessione in una località comporta anche la disconnessione da Experience Cloud.
+* Dopo 15 minuti di inattività verrai disconnesso. Inoltre, la disconnessione in una località comporta anche la disconnessione da Experience Cloud.
 * Alcuni utenti di Exchange potrebbero trovare nei commenti i propri nomi come una lunga stringa ID invece dei loro nomi.
 
 **Correzioni**

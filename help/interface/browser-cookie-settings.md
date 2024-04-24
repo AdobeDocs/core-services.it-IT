@@ -1,7 +1,7 @@
 ---
 description: Scopri come abilitare le impostazioni della privacy per i cookie del browser. Puoi rimuovere gli utenti che hanno bloccato tutti i cookie su browser desktop e mobili.
 solution: Experience Cloud, Analytics, Target
-title: Impostazioni privacy per i cookie del browser
+title: Impostazioni della privacy per i cookie del browser
 uuid: f6a56e8b-b021-49db-8eb4-6c14af0c7243
 feature: Cookies
 topic: Administration
@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: 5d852e0e-4004-4f94-a6f7-3a14a96cd42f
 source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '293'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

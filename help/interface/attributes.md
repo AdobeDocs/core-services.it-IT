@@ -1,6 +1,6 @@
 ---
 title: "[!DNL Customer Attributes]"
-description: Informazioni su [!DNL Customer Attributes] in Experience Cloud. Scopri come caricare i dati degli attributi cliente da utilizzare in Adobe Analytics e Adobe Target.
+description: Scopri  [!DNL Customer Attributes]  in Experience Cloud. Scopri come caricare i dati degli attributi del cliente da utilizzare in Adobe Analytics e Adobe Target.
 solution: Experience Cloud,Target,Analytics
 feature: Customer Attributes
 role: Admin
@@ -8,33 +8,33 @@ topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
 source-git-commit: 06c51428244c67fdb871d4039888aa2517048d2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '442'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
-# [!DNL Customer Attributes] nell’Experience Cloud
+# [!DNL Customer Attributes] in Experience Cloud
 
-[!DNL Customer Attributes] in Experience Cloud consente di caricare i dati aziendali acquisiti da un database di gestione delle relazioni con i clienti (CRM). Puoi caricare i dati in un’origine dati di attributi cliente in Experience Cloud, quindi utilizzarli in [!DNL Adobe Analytics] e [!DNL Adobe Target].
+[!DNL Customer Attributes] in Experience Cloud consente di caricare i dati aziendali acquisiti da un database di gestione delle relazioni con i clienti (CRM). Puoi caricare i dati in un’origine dati di attributi del cliente in Experience Cloud, quindi utilizzarli in [!DNL Adobe Analytics] e [!DNL Adobe Target].
 
-## Individua il [!DNL Customer Attributes] funzionalità
+## Individua la funzione [!DNL Customer Attributes].
 
 1. Accedere a Experience Cloud.
 
-1. Accedi a **[!DNL Experience Platform]** > **[!UICONTROL Persone]** > **[!UICONTROL Attributi del cliente]**.
+1. Passa a **[!DNL Experience Platform]** > **[!UICONTROL Persone]** > **[!UICONTROL Attributi del cliente]**
 
-![Panoramica degli attributi del cliente](assets/custom_reports.png)
+![Panoramica degli Attributi del cliente](assets/custom_reports.png)
 
-## Prerequisiti per il caricamento [!DNL Customer Attributes] {#section_BD38693AFBF34926BA28E964963B4EA0}
+## Prerequisiti per il caricamento di [!DNL Customer Attributes] {#section_BD38693AFBF34926BA28E964963B4EA0}
 
 * **Abilitazione della soluzione:** [abilita le soluzioni per i servizi Experience Platform](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C).
 
 * **Iscrizione al gruppo:** per caricare dati di Attributi del cliente, gli utenti devono essere membri del [gruppo Attributi del cliente](admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9). Devi anche appartenere a un gruppo Adobe Analytics o Adobe Target.
 
-  Per sapere se l&#39;azienda ha accesso a Attributi del cliente, l&#39;amministratore [!DNL Experience Cloud] deve effettuare l&#39;accesso a [Experience Cloud](https://experience.adobe.com). Vai a **[!UICONTROL Amministrazione]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Prodotti]**. Se *[!DNL Customer Attributes]* viene visualizzato come uno dei [!UICONTROL profili di prodotto], sei pronto per iniziare.
+  Per sapere se l&#39;azienda ha accesso a Attributi del cliente, l&#39;amministratore [!DNL Experience Cloud] deve effettuare l&#39;accesso a [Experience Cloud](https://experience.adobe.com). Vai a **[!UICONTROL Amministrazione]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Prodotti]**. Se *[!DNL Customer Attributes]* viene visualizzato come uno dei [!UICONTROL Profili di prodotto], puoi iniziare.
 
-  Utenti aggiunti a [!DNL Customer Attributes] vedi la [!UICONTROL Attributi del cliente] voce di menu sul lato sinistro dell&#39;interfaccia Experience Cloud.
+  Gli utenti che vengono aggiunti a [!DNL Customer Attributes] troveranno la voce di menu [!UICONTROL Attributi del cliente] sul lato sinistro dell’interfaccia di Experience Cloud.
 
 * Per Attributi del cliente è necessaria qualsiasi versione **Adobe Target** di `at.js` o la versione 5.8 di `mbox.js` o successive.
 
@@ -54,7 +54,7 @@ Consulta [Caricamento dei dati degli attributi del cliente](t-crs-usecase.md#tas
 
 ## Esempi di Attributi del cliente in Analytics e Target {#section_4E77650F6CEE4C4ABCD0B3221A5AE5D9}
 
-Una volta che i dati sono presenti in Experience Cloud, puoi personalizzarli e condividerli con soluzioni per reporting, segmentazione, attività e campagne.
+Quando i dati si trovano in Experience Cloud, puoi personalizzarli e condividerli con soluzioni per reporting, segmentazioni, attività e campagne.
 
 Esempio:
 
