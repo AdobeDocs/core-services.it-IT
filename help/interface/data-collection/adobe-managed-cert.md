@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 2691f0dc91e48a8f817467e334d9028f2e506e70
+source-git-commit: 028b11dfbcfc0c5c9f6fd1c69350574f81f2846b
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '929'
 ht-degree: 5%
 
 ---
@@ -155,7 +155,7 @@ I seguenti client non sono in grado di connettersi con la protezione crittografa
 
 +++Quali tipi di certificati HTTPS sono supportati?
 
-Adobe supporta sia i tipi di certificato RSA che ECC per soddisfare le diverse esigenze dei clienti. I certificati RSA sono più ampiamente supportati per i client, ma i certificati ECC utilizzano una minore elaborazione sia sul lato server che su quello client. Ad Adobe, vengono forniti i certificati gestiti RSA e ECC. Per i certificati gestiti dal cliente, è consigliabile utilizzare sia RSA che ECC. I client moderni supportano sia RSA che ECC. I client seguenti in genere supportano solo i certificati RSA:
+Adobe supporta sia i tipi di certificato RSA che ECC per soddisfare le diverse esigenze dei clienti. I certificati RSA sono più ampiamente supportati per i client, ma i certificati ECC utilizzano una minore elaborazione sia sul lato server che su quello client. Ad Adobe, vengono forniti i certificati gestiti RSA e ECC. Per i certificati gestiti dal cliente, è necessario RSA e si consiglia ECC. I client moderni supportano sia RSA che ECC. I client seguenti in genere supportano solo i certificati RSA:
 
 * Windows Vista e versioni precedenti (ultimo aggiornamento: 2012)
 * Windows Phone 8.0 e versioni precedenti (ultimo aggiornamento: 2014)
