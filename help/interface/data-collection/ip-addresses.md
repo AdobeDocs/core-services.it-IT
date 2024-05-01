@@ -1,15 +1,15 @@
 ---
-title: Indirizzi IP Adobe Experience Cloud
+title: Indirizzi IP utilizzati da Adobe Experience Cloud
 description: Se il firewall dell’organizzazione blocca gli indirizzi IP provenienti da Adobe, utilizza questo elenco per aggiornare le impostazioni del firewall.
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: 2691f0dc91e48a8f817467e334d9028f2e506e70
+source-git-commit: df91266d6a15c74e3f110050338498062cc34058
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 6%
+source-wordcount: '373'
+ht-degree: 5%
 
 ---
 
-# Domini e indirizzi IP di Adobe Experience Cloud
+# Indirizzi IP utilizzati da Adobe Experience Cloud
 
 Alcune configurazioni del firewall bloccano gli indirizzi IP provenienti dai server di raccolta dati di Adobe o dai server responsabili dell’accesso ai dati. Puoi utilizzare questo elenco di intervalli per modificare le impostazioni del firewall dell’organizzazione per consentire l’accesso e l’invio di dati dall’interno dell’organizzazione. Questa pagina include sia i sistemi in entrata (come la raccolta dati) che i sistemi in uscita (come i feed di dati in Adobe Analytics) utilizzati da Adobe.
 
@@ -17,10 +17,9 @@ Alcune configurazioni del firewall bloccano gli indirizzi IP provenienti dai ser
 >
 >Adobe fa del suo meglio per mantenere aggiornato questo documento, ma non può garantire che l’elenco degli intervalli IP rimanga lo stesso. Tra i possibili cambiamenti vi sono la crescita e l&#39;espansione dell&#39;attività, un registro Internet richiede modifiche allo spazio di indirizzi IP di Adobe o un provider di servizi Internet smette di funzionare.
 
-Oltre ai blocchi di indirizzi IP elencati di seguito, i singoli prodotti Adobe Experience Cloud dispongono di domini propri che utilizzano:
+Oltre ai blocchi di indirizzi IP elencati di seguito, i singoli prodotti Adobe Experience Cloud dispongono di indirizzi IP propri che utilizzano:
 
-* [Adobe Experience Cloud](domains.md)
-* Adobe Analytics
+* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/ip-addresses)
 * Customer Journey Analytics
 
 ## Tutti i blocchi di indirizzi IP di Adobe
