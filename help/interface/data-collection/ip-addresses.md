@@ -2,9 +2,9 @@
 title: Indirizzi IP utilizzati da Adobe Experience Cloud
 description: Se il firewall dell’organizzazione blocca gli indirizzi IP provenienti da Adobe, utilizza questo elenco per aggiornare le impostazioni del firewall.
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: df91266d6a15c74e3f110050338498062cc34058
+source-git-commit: db363c7f35dbd475548af5cbae2977ebf7a9c672
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '374'
 ht-degree: 5%
 
 ---
@@ -20,7 +20,7 @@ Alcune configurazioni del firewall bloccano gli indirizzi IP provenienti dai ser
 Oltre ai blocchi di indirizzi IP elencati di seguito, i singoli prodotti Adobe Experience Cloud dispongono di indirizzi IP propri che utilizzano:
 
 * [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/ip-addresses)
-* Customer Journey Analytics
+* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/ip-addresses)
 
 ## Tutti i blocchi di indirizzi IP di Adobe
 
