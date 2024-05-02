@@ -1,8 +1,7 @@
 ---
 title: Indirizzi IP utilizzati da Adobe Experience Cloud
 description: Se il firewall dell’organizzazione blocca gli indirizzi IP provenienti da Adobe, utilizza questo elenco per aggiornare le impostazioni del firewall.
-exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: db363c7f35dbd475548af5cbae2977ebf7a9c672
+source-git-commit: 6ef38a303e19f5b18be9e61819d3aff03faeedd4
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 5%
