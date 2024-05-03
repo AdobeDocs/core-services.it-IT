@@ -8,7 +8,7 @@ index: true
 source-git-commit: 32096aec3acd8dd628123c63b3e047fc0e9f10bd
 workflow-type: tm+mt
 source-wordcount: '227'
-ht-degree: 78%
+ht-degree: 92%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 78%
       + [Caricare una risorsa in una cartella condivisa](services/assets/upload.md)
       + [Requisiti del file risorsa per la condivisione](services/assets/file-reqs.md)
       + [Comportamento delle cartelle condivise](services/assets/behavior.md)
-   + Libreria tipi di pubblico {#audiences}
+   + Libreria del pubblico {#audiences}
       + [Panoramica](services/audiences/overview.md)
       + [Creazione di un pubblico](services/audiences/create.md)
    + [Exchange](services/exchange.md)
@@ -57,18 +57,18 @@ ht-degree: 78%
    + [Integrazioni](administration/integrations.md)
 
 + Raccolta dati {#data-collection}
-   + [programma di certificazione gestito da Adobe](data-collection/adobe-managed-cert.md)
+   + [Programma di certificazione gestito da Adobe](data-collection/adobe-managed-cert.md)
    + [Indirizzi IP](data-collection/ip-addresses.md)
    + [Domini](data-collection/domains.md)
    + Cookie {#cookies}
       + [Panoramica sui cookie](data-collection/cookies/overview.md)
-      + [Cookie pubblicitari](data-collection/cookies/advertising.md)
+      + [Cookie di Advertising](data-collection/cookies/advertising.md)
       + [Cookie di Analytics](data-collection/cookies/analytics.md)
       + [Cookie di Audience Manager](data-collection/cookies/audience-manager.md)
-      + [Cookie di Experience Cloud ](data-collection/cookies/experience-cloud.md)
+      + [Cookie di Experience Cloud](data-collection/cookies/experience-cloud.md)
       + [Cookie di Target](data-collection/cookies/target.md)
-      + [Cookie dell’SDK web](data-collection/cookies/web-sdk.md)
-   + [Raccolta di dati regionali](data-collection/rdc.md)
+      + [Guida di Web SDK](data-collection/cookies/web-sdk.md)
+   + [Raccolta di dati per area geografica](data-collection/rdc.md)
    + [Utilizzare il recupero preventivo del DNS](data-collection/dns-prefetch.md)
 
 + Altre risorse {#more-resources}
