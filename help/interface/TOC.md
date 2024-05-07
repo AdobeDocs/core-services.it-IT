@@ -6,9 +6,9 @@ title: Guida all’amministrazione e all’interfaccia di Experience Cloud
 description: Scopri l’interfaccia di Experience Cloud e le preferenze dell’account utente. Scopri come cercare oggetti aziendali e gestire utenti e prodotti. Configura gli attributi del cliente, la libreria Pubblico, i cookie e condividi risorse di Experience Cloud.
 index: true
 source-git-commit: 32096aec3acd8dd628123c63b3e047fc0e9f10bd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '227'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 92%
       + [Panoramica](services/assets/experience-cloud-assets.md)
       + [Condividere cartelle e risorse con Creative Cloud](services/assets/creative-cloud.md)
       + [Gestione degli utenti di Creative Cloud](services/assets/manage-cc-users.md)
-      + [Condividere una cartella di risorse](services/assets/share.md)
+      + [Condividere una cartella delle risorse](services/assets/share.md)
       + [Caricare una risorsa in una cartella condivisa](services/assets/upload.md)
       + [Requisiti del file risorsa per la condivisione](services/assets/file-reqs.md)
       + [Comportamento delle cartelle condivise](services/assets/behavior.md)
@@ -52,7 +52,7 @@ ht-degree: 92%
    + [Apprendimento personalizzato](features/personalized-learning.md)
 
 + Amministrazione {#administration}
-   + [Visualizza dettagli utente (Admin Tool)](administration/admin-tool-experience-cloud.md)
+   + [Visualizzare i dettagli dell’utente (Admin Tool)](administration/admin-tool-experience-cloud.md)
    + [Organizzazioni e collegamento di account](administration/organizations.md)
    + [Integrazioni](administration/integrations.md)
 
