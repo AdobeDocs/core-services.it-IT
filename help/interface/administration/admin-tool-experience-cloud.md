@@ -1,6 +1,6 @@
 ---
 title: Visualizza utenti e dettagli utente
-description: Scopri Admin Tool in Experience Cloud. Visualizza un elenco ordinabile e filtrabile di tutti gli utenti e i criteri Experience Cloud.
+description: Scopri lo strumento di amministrazione Admin Tool in Experience Cloud. Visualizza un elenco ordinabile e filtrabile di tutti gli utenti e i criteri di Experience Cloud.
 application: Experience Cloud
 index: true
 feature: Admin Console
@@ -11,7 +11,7 @@ exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
 source-git-commit: 66f78a04674a82335f5df20c4c15d983b6ebdc66
 workflow-type: tm+mt
 source-wordcount: '1260'
-ht-degree: 83%
+ht-degree: 85%
 
 ---
 
