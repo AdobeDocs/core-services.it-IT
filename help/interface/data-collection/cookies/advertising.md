@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6818edea-31b1-49fc-bca2-32828c7ca78d
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: 4d2dc1e6126e26f61475efbd33efe98bd47153d5
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 13%
@@ -16,7 +16,7 @@ ht-degree: 13%
 
 # Cookie di Adobe Advertising
 
-Adobi Advertising (precedentemente Adobe Advertising Cloud) utilizza i cookie per mappare gli eventi di coinvolgimento pubblicitario su eventi di conversione e, potenzialmente, per ottimizzare le offerte pubblicitarie.
+Adobe Advertising (precedentemente Adobe Advertising Cloud) utilizza i cookie per mappare gli eventi di coinvolgimento pubblicitario su eventi di conversione e, potenzialmente, per ottimizzare le offerte pubblicitarie.
 
 >[!NOTE]
 >
@@ -26,11 +26,11 @@ Adobi Advertising (precedentemente Adobe Advertising Cloud) utilizza i cookie pe
 | --- | --- | --- | --- | --- |
 | **`_lcc`** | 15 minuti | 52 byte | `everesttech.net` | Memorizza ID e timestamp dei clic di visualizzazione. Determina se un evento di clic su un annuncio visualizzato si applica a un hit di Adobe Analytics. |
 | **`_tmae`** | 1 anno | 1 KB | `everesttech.net` | Memorizza ID codificati e marche temporali per il coinvolgimento degli annunci utilizzando il tracciamento DSP. Include il coinvolgimento degli utenti con gli annunci, come ad esempio l’ultimo annuncio visto |
+| **`_tmid`** | 1 anno | ~ 20 byte | `everesttech.net` | Memorizza l’ID del Demand Side Platform DSP (Adobe Advertising). Corrisponde all&#39;ID visitatore in `everest_g_v2` cookie. |
 | **`adcloud`** | 1 anno | 50-150 byte | Prime parti | I timestamp dell’ultima visita del visitatore al sito web e l’ultimo clic di ricerca del visitatore. Memorizza anche `ef_id` creato quando il visitatore ha fatto clic su un annuncio. Associa l’ID visitatore ai segmenti di pubblico e alle conversioni rilevanti. Consente di ottimizzare i tempi di caricamento delle pagine evitando inutili richieste di Adobe. |
 | **`ev_sync_*`** |  | 8 byte | `everesttech.net` | Data in cui viene eseguita la sincronizzazione in `yyymmdd` formato. Sincronizza l’ID visitatore dell’Adobe Advertising con lo scambio di annunci partner. Viene creato per i nuovi visitatori e invia una richiesta di sincronizzazione quando è scaduto. Include i cookie `ev_sync_ax`, `ev_sync_bk`, `ev_sync_dd`, `ev_sync_fs`, `ev_sync_ix`, `ev_sync_nx`, `ev_sync_ox`, `ev_sync_pm`, `ev_sync_rc`, `ev_sync_tm`, e `ev_sync_yh`. |
 | **`everest_g_v2`** | 1 anno | ~ 27 byte | `everesttech.net` | Memorizza il browser e l’ID visitatore. Creato quando un utente fa clic inizialmente su un annuncio. Utilizzato per mappare i clic correnti e successivi con altri eventi sul sito web. |
 | **`everest_session_v2`** | Session | ~ 16 byte | `everesttech.net` | Memorizza l&#39;ID sessione corrente. |
-| **`ev_tm`** | 2 anni | ~ 20 byte | `everesttech.net` | Memorizza l’ID del Demand Side Platform DSP (Adobi Advertising). Corrisponde all&#39;ID visitatore in `everest_g_v2` cookie. |
 | **`id_adcloud`** | 91 giorni | 16 byte | Prime parti | Memorizza l&#39;ID visitatore. |
 
 {style="table-layout:auto"}
