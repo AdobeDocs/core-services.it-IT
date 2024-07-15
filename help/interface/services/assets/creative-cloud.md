@@ -1,7 +1,7 @@
 ---
 description: Scopri come condividere cartelle e risorse tra Experience Cloud e Creative Cloud.
 solution: Experience Cloud
-title: Condividere cartelle di Experienci Cloud e risorse con Creative Cloud
+title: Condivisione di cartelle di Experienci Cloud e Assets con Creative Cloud
 feature: Assets
 topic: Administration
 role: Admin
@@ -26,7 +26,7 @@ Condividi cartelle e risorse tra Experience Cloud e Creative Cloud. Collabora, c
 * Maggiore sicurezza aziendale
 * Semplificazione di condivisione, salvataggio e invio di file tra creativi ed esperti marketing
 
-Prima che gli utenti Creative Cloud possano accedere alle risorse, devono essere inseriti nella whitelist in Experience Cloud. Consulta [Gestire gli utenti Creative Cloud](manage-cc-users.md).
+Prima che gli utenti Creative Cloud possano accedere alle risorse, devono essere inseriti nella whitelist in Experience Cloud. Vedi [Gestione degli utenti Creative Cloud](manage-cc-users.md).
 
 ## Informazioni sulla condivisione di risorse con Adobe Target {#section_B7CD64CAB35D43A4B12957B304072DC9}
 

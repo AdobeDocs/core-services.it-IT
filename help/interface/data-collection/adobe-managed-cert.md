@@ -1,7 +1,7 @@
 ---
 description: Scopri come impostare certificati protetti da utilizzare con i cookie di prime parti di Adobe Experience Cloud.
 solution: Experience Cloud,Analytics
-title: programma di certificazione gestito da Adobe
+title: Programma di certificazione gestito da Adobe
 index: y
 snippet: y
 feature: Cookies
@@ -12,11 +12,11 @@ exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
 source-git-commit: 028b11dfbcfc0c5c9f6fd1c69350574f81f2846b
 workflow-type: tm+mt
 source-wordcount: '929'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
-# programma di certificazione gestito da Adobe
+# Programma di certificazione gestito da Adobe
 
 Il programma di certificazione gestito da Adobe è il processo consigliato per la configurazione dei certificati di prime parti necessari per un’implementazione CNAME. Una volta configurato, il programma è completamente automatizzato. I certificati vengono rinnovati in modo tempestivo, in modo da non influire sulla raccolta dei dati a causa di certificati scaduti. Il programma è gratuito per i primi 100 CNAME.
 
@@ -26,7 +26,7 @@ Se attualmente gestisci i tuoi certificati, sei responsabile dell’acquisto, de
 
 Per implementare un nuovo certificato per la raccolta dati di prime parti, effettua le seguenti operazioni:
 
-1. Scarica e compila il [Modulo di richiesta per dominio di prima parte](cookies/assets/First_Party_Domain_Request_Form.xlsx)
+1. Scarica e compila il [modulo di richiesta per dominio di prime parti](cookies/assets/First_Party_Domain_Request_Form.xlsx)
 
 1. Apri un ticket con l’Assistenza clienti Adobe per richiedere la configurazione della raccolta dati di prime parti nel programma di certificazione gestito da Adobe.
 
@@ -44,13 +44,13 @@ Puoi utilizzare qualsiasi browser per verificare che un certificato sia installa
 
 `data.example.com/_check`
 
-Se tutto funziona, il browser mostra `SUCCESS`. Se il certificato non è installato correttamente, viene visualizzato un avviso di protezione.
+Se tutto funziona, nel browser viene visualizzato `SUCCESS`. Se il certificato non è installato correttamente, viene visualizzato un avviso di protezione.
 
 +++
 
 +++**Riga di comando (`curl`)**
 
-La maggior parte dei sistemi operativi moderni dispone già di [`curl`](https://curl.se) installato.
+Nella maggior parte dei sistemi operativi moderni è già installato [`curl`](https://curl.se).
 
 Digitare quanto segue nella riga di comando:
 
@@ -62,7 +62,7 @@ Se tutto funziona correttamente, la console restituisce `SUCCESS`.
 
 >[!TIP]
 >
->È possibile utilizzare `-k` contrassegno per disattivare l&#39;avviso di protezione per facilitare la risoluzione dei problemi.
+>È possibile utilizzare il flag `-k` per disabilitare l&#39;avviso di protezione per facilitare la risoluzione dei problemi.
 
 +++
 
@@ -94,8 +94,8 @@ Aliases: smetrics.example.com
 
 Dopo aver verificato il corretto funzionamento del certificato, puoi aggiornare l’implementazione di Adobe in modo da utilizzare questi valori.
 
-* Per le implementazioni di AppMeasurement di Adobe Analytics, aggiorna il [`trackingServer`](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/config-vars/trackingserver) variabile di configurazione. Se disponi di un’implementazione esistente, consulta [Migrazione dei visitatori](https://experienceleague.adobe.com/en/docs/analytics/technotes/visitor-migration) per ulteriori passaggi su come evitare che i visitatori esistenti vengano conteggiati come nuovi visitatori.
-* Per le implementazioni dell’SDK per web, aggiorna il [`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain) proprietà all&#39;interno del [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) comando.
+* Per le implementazioni Adobe Analytics AppMeasurement, aggiornare la variabile di configurazione [`trackingServer`](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/config-vars/trackingserver). Se hai un&#39;implementazione esistente, consulta [Migrazione visitatori](https://experienceleague.adobe.com/en/docs/analytics/technotes/visitor-migration) per ulteriori passaggi su come evitare che i visitatori esistenti vengano conteggiati come nuovi visitatori.
+* Per le implementazioni Web SDK, aggiornare la proprietà [`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain) all&#39;interno del comando [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview).
 
 ## Manutenzione e rinnovi
 
@@ -139,12 +139,12 @@ No. Adobe offre questo servizio a tutti i clienti Adobe Experience Cloud senza c
 
 +++Quali livelli di protezione crittografata offre Adobe?
 
-Adobe offre due livelli di protezione crittografata per soddisfare le diverse esigenze dei clienti in materia di sicurezza nella raccolta dati di prime parti. Questi livelli determinano gli algoritmi di crittografia supportati per le connessioni HTTPS con i server Adobe. Adobe rivede e aggiorna regolarmente il set di algoritmi supportati in base alle procedure di sicurezza correnti. Se desideri modificare le impostazioni di protezione crittografata, contatta l’Assistenza clienti.
+Adobe offre due livelli di sicurezza crittografati per soddisfare le diverse esigenze dei clienti in materia di sicurezza nella raccolta dati di prime parti. Questi livelli determinano gli algoritmi di crittografia supportati per le connessioni HTTPS con i server Adobe. Adobe rivede e aggiorna regolarmente il set di algoritmi supportati in base alle procedure di sicurezza correnti. Se desideri modificare le impostazioni di protezione crittografata, contatta l’Assistenza clienti.
 
 * **Standard** richiede la crittografia TLS 1.2 o successiva e almeno a 128 bit. È progettato per garantire la massima compatibilità con i dispositivi, mantenendo al contempo la crittografia sicura.
-* **Alta** Il livello di sicurezza con crittografia richiede TLS 1.2 o versione successiva e rimuove il supporto per le crittografie più deboli. È progettato per i clienti che desiderano la crittografia più potente e non si preoccupano del supporto di dispositivi meno recenti.
+* Il livello di protezione crittografata **Elevato** richiede TLS 1.2 o versione successiva e rimuove il supporto per le crittografie più deboli. È progettato per i clienti che desiderano la crittografia più potente e non si preoccupano del supporto di dispositivi meno recenti.
 
-I seguenti client non sono in grado di connettersi con la protezione crittografata impostata su **Alta**:
+I seguenti client non sono in grado di connettersi con la protezione crittografata impostata su **Elevata**:
 
 * Windows 8.1 e versioni precedenti (ultimo aggiornamento: 2018)
 * Windows Phone 8.1 e versioni precedenti (ultimo aggiornamento: 2016)

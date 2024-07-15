@@ -52,7 +52,7 @@ Condividi una cartella di risorse Experience Cloud con utenti Creative Cloud.
 
 Quando hai rimosso tutti gli utenti di Creative Cloud, la cartella non è più condivisa e gli utenti di Creative Cloud non possono più accedervi.
 
-Altri modi per utilizzare una risorsa condivisa includono il caricamento o lo scambio di risorse in [Libreria offerte](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) in Adobe Target per le immagini nelle attività.
+Altri modi per utilizzare una risorsa condivisa includono il caricamento o lo scambio di risorse nella [Libreria offerte](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) in Adobe Target per le immagini nelle attività.
 
 Dopo aver condiviso una cartella su Creative Cloud, il logo Creative Cloud viene visualizzato sulla cartella.
 

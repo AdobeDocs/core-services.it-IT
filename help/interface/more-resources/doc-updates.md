@@ -20,7 +20,7 @@ Informazioni sugli aggiornamenti della documentazione di Experience Cloud.
 
 **26 aprile 2024**
 
-Aggiornamento completo dell’architettura della documentazione. Aggiunto anche [Indirizzi IP Adobe Experience Cloud](../data-collection/ip-addresses.md) e [Raccolta di dati regionali](../data-collection/rdc.md).
+Aggiornamento completo dell’architettura della documentazione. Sono stati aggiunti anche [indirizzi IP Adobe Experience Cloud](../data-collection/ip-addresses.md) e [Raccolta dati regionali](../data-collection/rdc.md).
 
 **9 aprile 2024**
 
@@ -65,7 +65,7 @@ Aggiornamento di [Cookie di prime parti](../data-collection/adobe-managed-cert.m
 
 Struttura della guida riorganizzata, sommario.
 
-**1° giugno 2021**
+**1 giugno 2021**
 
 Aggiornamento della [pagina di destinazione](../experience-cloud.md) con la nuova guida su accesso a Experience Cloud, ricerca globale, preferenze e notifiche.
 
@@ -126,7 +126,7 @@ Aggiunto [Experience Cloud Assets](../services/assets/experience-cloud-assets.md
 
 **15 gennaio 2015**
 
-È stata aggiunta la possibilità per gli utenti di Experience Cloud di condividere cartelle su Creative Cloud e sincronizzare risorse e commenti fra i due servizi. Consulta [Condivisione di risorse](../services/assets/creative-cloud.md).
+È stata aggiunta la possibilità per gli utenti di Experience Cloud di condividere cartelle su Creative Cloud e sincronizzare risorse e commenti fra i due servizi. Vedi [Condivisione risorse](../services/assets/creative-cloud.md).
 
 **17 luglio 2014**
 
@@ -134,4 +134,4 @@ Aggiunte le [Domande frequenti su Experience Cloud](faq.md) per amministratori.
 
 **22 maggio 2014**
 
-È stata aggiunta la documentazione per [Tipi di pubblico](../services/audiences/overview.md)
+Aggiunta documentazione per [Tipi di pubblico](../services/audiences/overview.md)

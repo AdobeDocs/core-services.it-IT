@@ -20,7 +20,7 @@ ht-degree: 96%
 
 Funzionalità, note sulla versione e problemi noti per l’interfaccia componenti centrale di Experience Cloud.
 
-Per un elenco degli aggiornamenti della documentazione, consulta [Aggiornamenti alla documentazione](doc-updates.md).
+Per un elenco degli aggiornamenti della documentazione, consulta [Aggiornamenti della documentazione](doc-updates.md).
 
 Per le note sulla versione riguardanti tutte le applicazioni, consulta [Note sulla versione di Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it).
 
@@ -191,7 +191,7 @@ La funzione Ricerca unificata è stata aggiornata per renderla disponibile anche
 
 * È stata implementata una funzionalità back-end per controllare la condivisione delle risorse tra Experience Cloud-to-AEM e Experience Cloud-to-Creative Cloud. (CORE-14386)
 * È stato risolto un problema che impediva il provisioning di nuovi tenant in alcuni ambienti. (CORE-15509)
-* È stato risolto un problema che reindirizzava gli utenti a `experiencecloud.adobe.com` utilizzo `http` invece di `https`. (CORE-15587)
+* È stato risolto un problema che reindirizzava gli utenti a `experiencecloud.adobe.com` utilizzando `http` invece di `https`. (CORE-15587)
 * È stato risolto un problema che bloccava le notifiche per alcuni nuovi tenant. (CORE-15240)
 
 ## Giugno 2018
@@ -232,7 +232,7 @@ La funzione Ricerca unificata è stata aggiornata per renderla disponibile anche
 
 | Funzione | Descrizione |
 |--- |--- |
-| Mappatura in batch di suite di rapporti | In Amministrazione > Mappatura suite di rapporti ora puoi selezionare più suite di rapporti, quindi mapparle su un&#39;organizzazione. (in precedenza era necessario mapparle singolarmente).  <br>La mappatura delle suite di rapporti su un’unica organizzazione consente di abilitare funzioni e servizi tra più applicazioni in Experience Cloud. |
+| Mappatura in batch di suite di rapporti | In Amministrazione > Mappatura suite di rapporti ora puoi selezionare più suite di rapporti, quindi mapparle su un&#39;organizzazione. (in precedenza era necessario mapparle singolarmente).  <br>La mappatura delle suite di rapporti su un&#39;unica organizzazione consente di abilitare funzioni e servizi tra più applicazioni in Experience Cloud. |
 | Aggiornamenti relativi al pubblico di Experience Cloud | **Applicazione di suite di rapporti**<br> Ora puoi applicare una suite di rapporti a tutte le tue [regole per il pubblico](../services/audiences/create.md). In precedenza, era necessario indicare una suite di rapporti per ciascuna definizione di regola. <br>**Prop e variabili**<br> Ora è possibile includere le proprietà di Analytics e le variabili predefinite (oltre a eVar ed eventi) per il pubblico in tempo reale. |
 
 {style="table-layout:auto"}
@@ -343,7 +343,7 @@ La funzione Ricerca unificata è stata aggiornata per renderla disponibile anche
 * È stato risolto un problema che impediva al pubblico di eseguire condivisioni da Analytics se si utilizzava il servizio ID visitatore. (MAC-25788, MAC-25747)
 * È stato aggiunto il supporto di caratteri multibyte in Attributi del cliente. (MAC-25552)
 
-**Problema noto**: un problema noto crea la duplicazione di account generati automaticamente in Audienci Manager e li collega automaticamente all’identità Experience Cloud di un utente. Il problema si verifica quando si tenta di passare ad Audience Manager prima di collegare i propri account. Adobe consiglia di collegare gli account Audience Manager a Experience Cloud prima di spostarsi su Audience Manager. (MAC-25640)
+**Problema noto**: un problema noto causa la creazione di duplicati di account generati automaticamente in Audience Manager e il loro collegamento automatico all&#39;identità Experience Cloud di un utente. Il problema si verifica quando si tenta di passare ad Audience Manager prima di collegare i propri account. Adobe consiglia di collegare gli account Audience Manager a Experience Cloud prima di spostarsi su Audience Manager. (MAC-25640)
 
 ## Maggio 2015
 
@@ -368,7 +368,7 @@ La funzione Ricerca unificata è stata aggiornata per renderla disponibile anche
 </table>
 
 * È stato risolto un problema che impediva ad alcuni utenti di sincronizzare gli attributi del cliente.
-* È stato risolto un problema che impediva alla pagina [Documentazione sul prodotto Adobe Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=it) di essere visualizzata in giapponese.
+* È stato risolto un problema che impediva alla pagina [Documentazione sul prodotto Adobe Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) di essere visualizzata in giapponese.
 * È stato risolto un problema che impediva l&#39;utilizzo di testo in giapponese nei commenti tra [!DNL Creative Cloud] e [!DNL Experience Cloud].
 
 ## Aprile 2015

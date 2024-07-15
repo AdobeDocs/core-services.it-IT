@@ -38,7 +38,9 @@ Mentre si digita, compaiono i primi risultati corrispondenti degli Oggetti a cui
 
 I nostri algoritmi mostrano per primi i record più rilevanti. L’ordine dei risultati dipende da diversi fattori, quali:
 
-Autorizzazioni di oggetto e funzionalità Percentuale di corrispondenza Indica se esiste una corrispondenza esatta
+Autorizzazioni relative a funzionalità e oggetti
+Percentuale corrispondente
+Se esiste una corrispondenza esatta
 
 ![Ricerca unificata in Experience Cloud](../assets/unified-search-results.png)
 
@@ -85,10 +87,10 @@ In Ricerca unificata sono disponibili le seguenti funzioni.
 | Tolleranza agli errori di battitura | La ricerca unificata offre una solida tolleranza agli errori di battitura utilizzando algoritmi avanzati. Questi algoritmi calcolano le modifiche e forniscono risultati appropriati. |
 | Evidenziazione | La risposta di ricerca evidenzia la parola chiave corrispondente dalla query di ricerca in modo da poter trovare facilmente la sezione e le parole corrispondenti alla query. L&#39;evidenziazione funziona anche per le parole errate. |
 | Snippet | Nella risposta di ricerca, puoi visualizzare uno snippet del risultato. I frammenti restituiscono le parole corrispondenti e alcuni contenuti attorno alle parole chiave corrispondenti. |
-| Parole non consentite | Alcune parole comunemente utilizzate in inglese sono definite come _parole non significative_. Se le parole non significative sono incluse nella query di ricerca, viene assegnato loro un peso inferiore. <br>Le parole non significative includono: _a, an e sono, come, at, be, ma, per, se, in, into, is, no, no, di, su, o, tale, il, loro, allora, là, questi, loro, questo, a, era, volontà, con_. <br>Le parole non consentite non sono supportate in altre lingue globali. |
+| Parole non consentite | Alcune parole comunemente usate in inglese sono definite come _parole non consentite_. Se le parole non significative sono incluse nella query di ricerca, viene assegnato loro un peso inferiore. <br>Le parole non consentite includono: _a, an, and, are, as, at, be, but, by, for, if, in, is, it, no, not, on, or, such, the, then, then, there, these, they, to, was, will, with_. <br>Le parole non sono supportate in altre lingue globali. |
 | Query in linguaggio naturale | Quando si cerca un Experience League della Guida o una discussione da Community di, è possibile digitare la domanda utilizzando il linguaggio naturale e ottenere la risposta. Esempio di ricerca: &quot;Come si crea uno schema?&quot; |
 | Ricerca esatta tra virgolette | È possibile eseguire una ricerca esatta utilizzando le virgolette nella query. Non viene eseguita alcuna correzione degli errori di battitura nelle query di corrispondenza esatte. Ad esempio: &quot;Percorso Luma 2022&quot;. |
-| Filtri | Puoi applicare filtri come _Tipo di oggetto_ e altri filtri specifici dell&#39;oggetto nella finestra a comparsa dei risultati di ricerca completa. Quando si preme Invio dopo aver digitato la query di ricerca, viene visualizzato un pop-up a pagina intera che include i filtri. |
+| Filtri | È possibile applicare filtri come _Tipo di oggetto_ e altri filtri specifici dell&#39;oggetto nel popup dei risultati di ricerca completi. Quando si preme Invio dopo aver digitato la query di ricerca, viene visualizzato un pop-up a pagina intera che include i filtri. |
 
 {style="table-layout:auto"}
 

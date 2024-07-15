@@ -83,6 +83,6 @@ Ad esempio, nella pagina seguente sono illustrate le regole che è possibile uti
 
 #### Trigger referrer
 
-Il trigger seguente si attiva quando viene visualizzato un risultato con il prodotto Stivali da uomo e il referrer Facebook. Per i due criteri (*products* e *referrer*) da valutare nello stesso hit, devono essere aggiunte allo stesso contenitore.
+Il trigger seguente si attiva quando viene visualizzato un risultato con il prodotto Stivali da uomo e il referrer Facebook. Affinché i due criteri (*prodotti* e *referrer*) vengano valutati nello stesso hit, è necessario aggiungerli allo stesso contenitore.
 
 ![Trigger referrer](../assets/fb-boots-promo.png)

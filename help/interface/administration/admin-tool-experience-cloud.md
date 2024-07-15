@@ -15,15 +15,15 @@ ht-degree: 85%
 
 ---
 
-# Visualizzare Experienci Cloud di utenti e criteri in [!UICONTROL Admin Tool]
+# Visualizza Experienci Cloud di utenti e criteri in [!UICONTROL Admin Tool]
 
-Gli amministratori possono visualizzare un elenco ordinabile e filtrabile di tutti gli utenti e i criteri Experienci Cloud con i dettagli nella sezione [!UICONTROL Admin Tool]. I dettagli utente includono l’accesso ai prodotti, i ruoli e le informazioni sull’ultimo accesso. I dettagli dei criteri includono l’elenco di utenti, gruppi, sviluppatori, integrazioni e amministratori di un criterio (profilo di prodotto), nonché informazioni dettagliate sulle autorizzazioni e sulle risorse per il criterio.
+Gli amministratori possono visualizzare un elenco ordinabile e filtrabile di tutti gli utenti e i criteri Experienci Cloud con dettagli in [!UICONTROL Admin Tool]. I dettagli utente includono l’accesso ai prodotti, i ruoli e le informazioni sull’ultimo accesso. I dettagli dei criteri includono l’elenco di utenti, gruppi, sviluppatori, integrazioni e amministratori di un criterio (profilo di prodotto), nonché informazioni dettagliate sulle autorizzazioni e sulle risorse per il criterio.
 
 1. Accedere a `https://experience.adobe.com/.`
 
    ![Accesso ad Admin Console](../assets/admin-tool.png)
 
-1. Sotto [!UICONTROL Accesso rapido], fai clic su **[!UICONTROL Admin Tool]**.
+1. In [!UICONTROL Accesso rapido], fai clic su **[!UICONTROL Admin Tool]**.
 
    In alternativa, nell’URL della pagina principale puoi sostituire _home_ con _admin_.
 
@@ -41,7 +41,7 @@ In questa pagina viene visualizzato l’elenco completo degli utenti con accesso
 | [!UICONTROL E-mail] | L’indirizzo e-mail associato all’utente. Puoi ordinare questa colonna da A a Z e da Z ad A. |
 | [!UICONTROL ID Type (Tipo di ID)] | Il tipo di identità per l’account dell’utente. È possibile applicare un filtro per visualizzare tipi di ID specifici. Per ulteriori informazioni, consulta [Manage identity types (Gestisci tipi di identità)](https://helpx.adobe.com/it/enterprise/using/identity.html). |
 | [!UICONTROL Soluzioni] | Riepilogo delle applicazioni Experience Cloud a cui l’utente può accedere. Per limitare l’elenco di utenti con accesso specifico all’applicazione puoi applicare i filtri. |
-| [!UICONTROL Last Login (Ultimo accesso)] | Ora e data dell’accesso utente più recente all’Experience Cloud. Questa colonna può essere ordinata in base a date ascendenti o discendenti. <br> **Importante:** A partire dal 13 gennaio 2020, gli ultimi dati di accesso dell’utente saranno conservati per 365 giorni. Queste informazioni si propongono di mostrare l’attuale attività di accesso in Experience Cloud e non costituiscono un consiglio a intervenire sugli account inattivi prima del 13 gennaio 2020. |
+| [!UICONTROL Last Login (Ultimo accesso)] | Ora e data dell’accesso utente più recente all’Experience Cloud. Questa colonna può essere ordinata in base a date ascendenti o discendenti. <br> **Importante:** a partire dal 13 gennaio 2020 gli ultimi dati di accesso dell&#39;utente verranno conservati per 365 giorni. Queste informazioni si propongono di mostrare l’attuale attività di accesso in Experience Cloud e non costituiscono un consiglio a intervenire sugli account inattivi prima del 13 gennaio 2020. |
 
 ## Personalizzare la vista elenco degli utenti
 
@@ -112,7 +112,7 @@ In questa pagina viene visualizzato l’elenco completo dei criteri di Experienc
 È possibile eseguire ricerche nonché ordinare e filtrare viste personalizzate dell’elenco dei criteri.
 
 * Puoi cercare i profili di prodotto per nome. Le ricerche corrispondono alla stringa di testo digitata.
-* Ordina le colonne in base ai valori crescenti o decrescenti. Questo tipo di ordinamento si applica a [!UICONTROL profilo di prodotto,] [!UICONTROL Prodotto,] [!UICONTROL Istanza,] [!UICONTROL Numero di utenti,] e [!UICONTROL Numero di sviluppatori,] Colonne.
+* Ordina le colonne in base ai valori crescenti o decrescenti. Questo ordinamento si applica a [!UICONTROL profilo prodotto,] [!UICONTROL Prodotto,] [!UICONTROL Istanza,] [!UICONTROL Numero di utenti,] e [!UICONTROL Numero di sviluppatori,] Colonne.
 * Per applicare più filtri in modo da elencare i profili di prodotto secondo criteri specifici, seleziona l’icona **[!UICONTROL Filtra per]**. Quando vengono applicate più categorie di filtri, le ricerche contengono i Gruppi `AND` Istanza `AND` Soluzione.
 
 | Elemento | Descrizione |
@@ -162,4 +162,4 @@ Questa sezione presenta un elenco completo delle autorizzazioni e delle risorse 
 
 ## Informazioni correlate
 
-* [Gestione utenti](https://helpx.adobe.com/it/enterprise/using/users.html) nel [!DNL Admin Console]
+* [Gestione utenti](https://helpx.adobe.com/it/enterprise/using/users.html) in [!DNL Admin Console]

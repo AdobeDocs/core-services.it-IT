@@ -17,11 +17,11 @@ ht-degree: 64%
 
 # Organizzazioni in Experience Cloud
 
-Un *organizzazione* (ID organizzazione) è l&#39;entità che consente all&#39;amministratore di configurare gruppi e utenti e di controllare, ad Experience Cloud, il single sign-on.
+Un&#39;organizzazione *organizzazione* (ID organizzazione) è l&#39;entità che consente all&#39;amministratore di configurare gruppi e utenti e di controllare il single sign-on in Experience Cloud.
 
 L’organizzazione funziona come un’azienda che può effettuare un log-in che comprende tutti i prodotti e le applicazioni Experience Cloud. Nella maggior parte dei casi, un’organizzazione è il nome dell’azienda. Tuttavia, un’azienda può avere più organizzazioni.
 
-![Experience Cloud organizzazioni](../assets/organizations-menu.png)
+![Organizzazioni Experienci Cloud](../assets/organizations-menu.png)
 
 Per verificare di aver effettuato l’accesso all’organizzazione corretta, fai clic sull’avatar del tuo profilo per visualizzarne il nome. Se hai accesso a più organizzazioni, puoi anche visualizzare e passare a un’altra organizzazione nella barra dell’intestazione.
 
@@ -37,17 +37,17 @@ Puoi individuare l’ID organizzazione assegnato a scopo di supporto. Puoi verif
 
 L’ID organizzazione è l’ID associato all’azienda con provisioning di Experience Cloud. Questo ID è una stringa alfanumerica composta da 24 caratteri, seguita da (deve includere) `@AdobeOrg`.
 
-Puoi visualizzare l’ID organizzazione, insieme ad altre informazioni sull’account, utilizzando la scelta rapida da tastiera **Ctrl+i** da qualsiasi pagina in `https://experience.adobe.com`.
+Per visualizzare l&#39;ID organizzazione e altre informazioni sull&#39;account, utilizzare la scelta rapida da tastiera **Ctrl+i** da qualsiasi pagina in `https://experience.adobe.com`.
 
-**Per visualizzare l’ID organizzazione**
+**Per visualizzare l&#39;ID organizzazione**
 
-1. In entrata [Experience Cloud](https://experience.adobe.com), premere **Ctrl+i** sulla tastiera.
+1. In [Experience Cloud](https://experience.adobe.com), premi **Ctrl+i** sulla tastiera.
 
    ![ID delle organizzazioni assegnate](../assets/assigned-organization.png)
 
-1. Sotto **[!UICONTROL Informazioni utente]**, cerca **[!UICONTROL ID organizzazione corrente]** e puoi individuare l’ID organizzazione.
+1. In **[!UICONTROL Informazioni utente]**, cerca **[!UICONTROL ID organizzazione corrente]** ed è possibile individuare l&#39;ID organizzazione.
 
-   In alternativa, gli amministratori possono accedere all’Admin Console (passare a [https://adminconsole.adobe.com](https://adminconsole.adobe.com)) e visualizzare l’ID organizzazione nell’URL.
+   In alternativa, gli amministratori possono accedere all&#39;Admin Console (passare a [https://adminconsole.adobe.com](https://adminconsole.adobe.com)) e visualizzare l&#39;ID organizzazione nell&#39;URL.
 
    Ad esempio, nell’URL seguente:
 
@@ -87,7 +87,7 @@ Nel tuo profilo, seleziona **[!UICONTROL Modifica profilo]**.
 
 ![Modifica profilo](../assets/edit-profile.png)
 
-Sotto **[!UICONTROL Organizzazione e pagina di destinazione predefinite]**, puoi personalizzare la tua esperienza di accesso.
+In **[!UICONTROL Organizzazione e pagina di destinazione predefinite]** puoi personalizzare la tua esperienza di accesso.
 
 ![Organizzazione e pagina di destinazione predefinite](../assets/default-organization.png)
 

@@ -6,7 +6,8 @@ feature: Account Preferences,Notifications,Alerts
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: a4e0461791cd676365857c2dd4ef28c0e40c3430
+exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
+source-git-commit: b4d7cc357393798f2265e09885dd4ea2f80ab31e
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 72%
@@ -32,9 +33,9 @@ Nelle [!UICONTROL preferenze di Experience Cloud], è possibile configurare le s
 |--- |--- |
 | [Organizzazione](../administration/organizations.md) predefinita | Seleziona l’organizzazione da visualizzare all’avvio di Experience Cloud. |
 | [!UICONTROL Raccolta dati sui prodotto] | Seleziona le tecnologie che Adobe può utilizzare per raccogliere i dati sul modo in cui utilizzi i suoi prodotti. |
-| [!UICONTROL Promozioni e consigli personalizzati per l’apprendimento] | Seleziona il punto in cui desideri ricevere [aiuto personalizzato](personalized-learning.md) per i prodotti di Adobe. Questa guida è disponibile tramite e-mail, nel prodotto e nelle community di Experienci League. |
-| [!UICONTROL Abbonamenti] | Seleziona i prodotti e le categorie a cui desideri abbonarti. Notifiche in [!UICONTROL Notifiche] popover e nell’e-mail. |
-| [!UICONTROL Priorità] | Seleziona le categorie a cui vuoi assegnare la priorità alta. Queste categorie sono contrassegnate con un simbolo [!UICONTROL Alta] e possono essere configurati per la consegna come avvisi. |
+| [!UICONTROL Promozioni e consigli personalizzati per l’apprendimento] | Seleziona il punto in cui desideri ricevere [aiuto personalizzato](personalized-learning.md) per i tuoi prodotti di Adobe. Questa guida è disponibile tramite e-mail, nel prodotto e nelle community di Experienci League. |
+| [!UICONTROL Abbonamenti] | Seleziona i prodotti e le categorie a cui desideri abbonarti. Notifiche nel popover [!UICONTROL Notifiche] e nell&#39;e-mail. |
+| [!UICONTROL Priorità] | Seleziona le categorie a cui vuoi assegnare la priorità alta. Queste categorie sono contrassegnate con un tag [!UICONTROL Elevato] e possono essere configurate per la consegna come avvisi. |
 | [!UICONTROL Avvisi] | Seleziona le notifiche per le quali desideri visualizzare gli avvisi nel browser. Gli avvisi vengono visualizzati per alcuni secondi nell’angolo in alto a destra della finestra. |
 | E-mail | Specifica la frequenza con cui desideri ricevere le e-mail di notifica: Non inviata, Immediata, Giornaliera o Settimanale. |
 

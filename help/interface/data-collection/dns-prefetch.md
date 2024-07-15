@@ -10,7 +10,7 @@ exl-id: caf2ff76-2076-436d-a5a7-aff531464480
 source-git-commit: 9ee4d9b0e670dec35cda530892c49e36bf7cc107
 workflow-type: tm+mt
 source-wordcount: '346'
-ht-degree: 90%
+ht-degree: 92%
 
 ---
 
@@ -24,7 +24,7 @@ I browser utilizzano il recupero preventivo del DNS per risolvere automaticament
 
 ## Recupero preventivo del DNS e applicazioni Adobe Experience Cloud
 
-Il recupero preventivo del DNS funziona automaticamente con i collegamenti statici integrati in una pagina. Ciò significa anche che il recupero preventivo del DNS non funziona con diversi [!UICONTROL Experience Cloud] applicazioni e servizi perché:
+Il recupero preventivo del DNS funziona automaticamente con i collegamenti statici integrati in una pagina. Ciò significa anche che il recupero preventivo del DNS non funziona con applicazioni e servizi [!UICONTROL Experience Cloud] diversi per i seguenti motivi:
 
 * Ogni applicazione o servizio Experience Cloud genera le chiamate DNS in modo dinamico durante il caricamento della pagina.
 * Il browser non può risolvere i nomi di dominio con indirizzi IP prima che vengano effettuate tali chiamate.
@@ -52,4 +52,4 @@ Gli esempi seguenti mostrano come eseguire chiamate di recupero preventivo del D
 
 >[!MORELIKETHIS]
 >
->* [Preacquisizione DNS](https://www.chromium.org/developers/design-documents/dns-prefetching) sul cromo
+>* [Recupero preventivo del DNS](https://www.chromium.org/developers/design-documents/dns-prefetching) in Chromium

@@ -1,7 +1,7 @@
 ---
 description: Crea un’origine di attributi cliente e caricala in Adobe Experience Cloud.
 solution: Experience Cloud
-title: Creare un’origine di attributi cliente e caricare il file di dati
+title: Creazione di un Source di attributi cliente e caricamento del file di dati
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 feature: Customer Attributes
 topic: Administration
@@ -25,7 +25,7 @@ Creazione dell’origine di attributi cliente (file CSV e FIN) e caricamento dei
 
 >[!IMPORTANT]
 >
->Per accedere a questa funzione, gli utenti devono essere assegnati al profilo di prodotto Attributi cliente (Attributi cliente - Accesso predefinito). Vai a **[!UICONTROL Amministrazione]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Prodotti]**. Se *Attributi del cliente* viene visualizzato come uno dei [!UICONTROL profili di prodotto], sei pronto per iniziare. Gli utenti che vengono aggiunti al gruppo Attributi del cliente visualizzeranno il menu [!UICONTROL Attributi del cliente] sul lato sinistro dell’interfaccia di Experience Cloud.
+>Per accedere a questa funzione, gli utenti devono essere assegnati al profilo di prodotto Attributi cliente (Attributi cliente - Accesso predefinito). Vai a **[!UICONTROL Amministrazione]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Prodotti]**. Se *Attributi del cliente* viene visualizzato come uno dei [!UICONTROL profili di prodotto], puoi iniziare. Gli utenti che vengono aggiunti al gruppo Attributi del cliente visualizzeranno il menu [!UICONTROL Attributi del cliente] sul lato sinistro dell’interfaccia di Experience Cloud.
 >
 >Per utilizzare la funzione Attributi del cliente, gli utenti devono appartenere anche a gruppi a livello di applicazione (Analytics o [!DNL Target]).
 
@@ -48,13 +48,13 @@ Questi dati sono dati aziendali dei clienti provenienti dal tuo sistema CRM. Pos
 
 ## Creare un’origine di attributi e caricare il file di dati {#task_09DAC0F2B76141E491721C1E679AABC8}
 
-Segui questi passaggi nella pagina Crea nuova origine attributo del cliente in Experience Cloud.
+Segui questi passaggi nella pagina Crea nuovo Source di attributi del cliente in Experience Cloud.
 
 >[!IMPORTANT]
 >
 >Quando crei, modifichi o elimini origini di attributi del cliente, si verifica un ritardo di circa un’ora prima dell’effettiva sincronizzazione degli ID con la nuova origine dati. Devi disporre di diritti di amministratore in Audience Manager per creare o modificare origini degli attributi del cliente. Contatta l&#39;Assistenza clienti o la consulenza di Audience Manager per ottenere i diritti di amministratore.
 
-1. In [!DNL Experience Cloud], seleziona il Menu  ![menu](assets/menu-icon.png) icona.
+1. In [!DNL Experience Cloud], selezionare l&#39;icona Menu ![menu](assets/menu-icon.png).
 1. In **[!DNL Experience Platform]**, seleziona **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**.
 
    La pagina [!UICONTROL Attributi del cliente] è il luogo in cui puoi gestire e modificare l&#39;origine dati degli attributi esistenti.
@@ -71,13 +71,13 @@ Segui questi passaggi nella pagina Crea nuova origine attributo del cliente in E
 
    * **[!UICONTROL Descrizione:]** (facoltativo) una descrizione per la sorgente attributi dei dati.
 
-   * **[!UICONTROL ID alias:]** rappresenta un’origine dei dati di ttributi del cliente come specificato nel sistema CRM. [!UICONTROL Alias ID] è un ID univoco utilizzato nel codice di origine degli attributi del cliente. L&#39;ID deve essere univoco, in lettere minuscole e non deve comprendere spazi. Il valore immesso nel [!UICONTROL ID alias] Il campo per un’origine di attributi cliente in Experience Cloud deve corrispondere ai valori ricevuti dall’implementazione (tramite Raccolta dati di Platform o JavaScript dell’SDK Mobile).
+   * **[!UICONTROL ID alias:]** rappresenta un’origine dei dati di ttributi del cliente come specificato nel sistema CRM. [!UICONTROL Alias ID] è un ID univoco utilizzato nel codice di origine degli attributi del cliente. L&#39;ID deve essere univoco, in lettere minuscole e non deve comprendere spazi. Il valore immesso nel campo [!UICONTROL Alias ID] per un&#39;origine di attributi cliente in Experience Cloud deve corrispondere ai valori ricevuti dall&#39;implementazione (tramite Raccolta dati di Platform o JavaScript dell&#39;SDK Mobile).
 
      L&#39;ID alias corrisponde ad alcune aree in cui puoi impostare valori ID cliente aggiuntivi. Esempio:
 
       * **Dynamic Tag Management:** l&#39;ID alias corrisponde al valore del *Codice di integrazione* in [!UICONTROL Impostazioni cliente], nello strumento del [servizio Experience Cloud ID](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=it).
 
-      * **API visitatore:** l&#39;ID alias corrisponde agli [ID cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=it) aggiuntivi che puoi associare a ogni visitatore.
+      * **API visitatore:** l&#39;ID alias corrisponde agli [ID cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) aggiuntivi che puoi associare a ogni visitatore.
 
         Ad esempio, *“crm_ id”* in:
 
@@ -141,7 +141,7 @@ Consulta [Configurazione delle sottoscrizioni](subscription.md).
 
 **Per attivare un&#39;origine attributo**
 
-Il giorno [!UICONTROL Crea nuova o Modifica origine attributo del cliente] pagina, individua la [!UICONTROL Attiva] , quindi seleziona **[!UICONTROL Attivo]**.
+Nella pagina [!UICONTROL Crea nuovo o modifica attributo del cliente Source], individua l&#39;intestazione [!UICONTROL Attiva], quindi seleziona **[!UICONTROL Attivo]**.
 
 ![Risultato del passaggio](assets/activate_attribute_source.png)
 
@@ -153,7 +153,7 @@ L’esempio seguente mostra un segmento di [!DNL Analytics] basato sugli attribu
 
 ![Segmento di Analytics basato sugli attributi caricati](assets/08_crs_usecase.png)
 
-Quando pubblichi un segmento in Experience Cloud, questo diventa disponibile in Experience Cloud Audiences e Audienci Manager.
+Quando pubblichi un segmento in Experience Cloud, questo diventa disponibile in Experience Cloud Audiences e Audience Manager.
 
 ## Utilizzo degli Attributi del cliente in Adobe Target {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
@@ -161,4 +161,4 @@ In [!DNL Target] puoi selezionare un attributo del cliente dalla sezione [!UICON
 
 ![Utilizzo degli Attributi del cliente in Adobe Target](assets/crs-add-attribute-target.png)
 
-Consulta [Creazione di un nuovo pubblico](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=it) nella guida di [!DNL Target].
+Consulta [Creazione di un nuovo pubblico](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html) nella guida di [!DNL Target].

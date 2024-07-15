@@ -15,7 +15,7 @@ ht-degree: 82%
 
 # Supporto per gli attributi del cliente per il California Consumer Privacy Act (accordo sulla privacy dei consumatori della California)
 
-Questa pagina descrive [!UICONTROL Attributi del cliente]Supporto per il California Consumer Privacy Act (CCPA).
+Questa pagina descrive il supporto per [!UICONTROL Attributi del cliente]&#39; per il California Consumer Privacy Act (CCPA).
 
 >[!IMPORTANT]
 >

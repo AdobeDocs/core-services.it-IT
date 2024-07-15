@@ -185,13 +185,13 @@ Utilizza le seguenti funzionalità.
 
 Se acquisisci dati del cliente di livello Enterprise in un database per la gestione delle relazioni con i clienti (CRM), puoi caricare tali dati in un’origine dati di Attributi del cliente in Experience Cloud. Una volta caricati, puoi usare i dati in [!DNL Adobe Analytics] e [!DNL Adobe Target].
 
-Consulta [Attributi del cliente](customer-attributes/attributes.md) per ulteriori informazioni.
+Per ulteriori informazioni, consulta [Attributi del cliente](customer-attributes/attributes.md).
 
 ### [!UICONTROL Persone] > [!UICONTROL Libreria Audience]
 
 [!UICONTROL Audiences] di Experience Cloud è l&#39;interfaccia che consente di creare tipi di pubblico, o audience, combinare quelli esistenti per creare un pubblico composito e visualizzare quelli condivisi.
 
-Consulta [Tipi di pubblico](audiences/overview.md) per ulteriori informazioni.
+Per ulteriori informazioni, consulta [Tipi di pubblico](audiences/overview.md).
 
 ## Archivio dei dati e informativa sulla privacy
 

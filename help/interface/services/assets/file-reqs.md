@@ -1,5 +1,5 @@
 ---
-title: Requisiti dei file per la condivisione delle risorse
+title: Requisiti dei file per la condivisione di Assets
 description: Scopri i tipi di file consentiti e i limiti di dimensione per la condivisione di risorse tra Adobe Experience Cloud e Creative Cloud.
 solution: Experience Cloud
 uuid: 1621accf-c407-437b-ae12-61f13cc338d0
