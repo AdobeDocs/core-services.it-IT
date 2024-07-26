@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: b4d7cc357393798f2265e09885dd4ea2f80ab31e
+source-git-commit: 2d65d40c462bd031939c0a8efc1631540dd96ec1
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 72%
+source-wordcount: '366'
+ht-degree: 79%
 
 ---
 
@@ -46,3 +46,20 @@ Nelle [!UICONTROL preferenze di Experience Cloud], è possibile configurare le s
 Seleziona **[!UICONTROL Notifiche]** per ricevere avvisi sugli aggiornamenti rilevanti e fruibili, inclusi rilasci di prodotto, avvisi di manutenzione, elementi condivisi e richieste di approvazione.
 
 ![Notifiche e annunci](../assets/notifications-menu-small.png)
+
+## Supporto delle lingue in Experience Cloud {#languages}
+
+Experience Cloud supporta le lingue preferite per ciascun utente, impostate nelle preferenze del proprio account utente Adobe. Sono supportate le seguenti lingue:
+
+* Cinese
+* Inglese
+* Francese
+* Tedesco
+* Italiano
+* Giapponese
+* Coreano
+* Portoghese
+* Spagnolo
+* Taiwanese
+
+Tutti i team delle applicazioni sono orientati al supporto globale delle lingue; tuttavia, non tutte le applicazioni sono disponibili in tutte le lingue sopraelencate. Se la tua lingua principale non è supportata in un’applicazione Experience Cloud, puoi impostare una lingua secondaria che, all’occorrenza, verrà usata per impostazione predefinita. Puoi impostare queste opzioni nelle [preferenze utente di Experience Cloud](https://experience.adobe.com/preferences).
