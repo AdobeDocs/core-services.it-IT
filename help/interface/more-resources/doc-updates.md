@@ -1,5 +1,5 @@
 ---
-description: Informazioni sugli aggiornamenti dell’aiuto di Adobe Experience Cloud.
+description: Informazioni sugli aggiornamenti dell’Aiuto di Experience Cloud.
 solution: Experience Cloud
 title: Aggiornamenti alla documentazione
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 66f78a04674a82335f5df20c4c15d983b6ebdc66
+source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 78%
+source-wordcount: '545'
+ht-degree: 77%
 
 ---
 

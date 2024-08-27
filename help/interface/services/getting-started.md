@@ -1,21 +1,21 @@
 ---
 description: Abilita le applicazioni Adobe Analytics e Adobe Target per i servizi tra più applicazioni. Scopri come iniziare a utilizzare i servizi Experience Cloud.
 solution: Experience Cloud
-title: Guida introduttiva ai servizi Experience Cloud
+title: Introduzione ai servizi Experience Cloud
 index: true
 feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: cdb969ba98f023162297efbd1be320b509c74c32
+source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
 workflow-type: tm+mt
 source-wordcount: '1970'
 ht-degree: 98%
 
 ---
 
-# Guida introduttiva ai servizi Experience Cloud
+# Introduzione ai servizi Experience Cloud
 
 Se hai implementato Experience Cloud di recente utilizzando i tag di Experience Platform, disponi già della configurazione per Attributi del cliente e per Tipi di pubblico di Experience Cloud. Inoltre puoi gestire utenti e prodotti in Admin Console.
 

@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: 99b611d1418174ce27fe6a7b231f84bab9e12468
+source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 81%
@@ -39,14 +39,40 @@ Nelle [!UICONTROL preferenze di Experience Cloud], è possibile configurare le s
 | [!UICONTROL Avvisi] | Seleziona le notifiche per le quali desideri visualizzare gli avvisi nel browser. Gli avvisi vengono visualizzati per alcuni secondi nell’angolo in alto a destra della finestra. |
 | E-mail | Specifica la frequenza con cui desideri ricevere le e-mail di notifica: Non inviata, Immediata, Giornaliera o Settimanale. |
 
-{style="table-layout:auto"}
-
-## Notifiche e annunci {#notifications}
+## [!UICONTROL Notifiche] e [!UICONTROL Annunci] {#notifications}
 
 Seleziona **[!UICONTROL Notifiche]** per ricevere avvisi sugli aggiornamenti rilevanti e fruibili, inclusi rilasci di prodotto, avvisi di manutenzione, elementi condivisi e richieste di approvazione.
 
 ![Notifiche e annunci](../assets/notifications-menu-small.png)
 
+<!-- ## [!DNL Slack] notifications
+
+Releasing: **September 2, 2024**
+
+You can configure your account preferences to send Experience Cloud notifications to Slack.
+
+**Prerequisites**
+
+* You must have an Experience Cloud account
+* You must have a [!DNL Slack] account
+* You must be a part of at least one [!DNL Slack] workspace
+
+### To configure Slack notifications
+
+1. Sign in to Experience Cloud.
+
+1. Click your account icon, then click **[!UICONTROL Preferences]**.
+
+1. Under [!DNL Slack], click **[!UICONTROL Add to Slack]**.
+
+1. When [!DNL Slack] opens, click **[!UICONTROL Allow]**.
+
+1. In Experience Cloud Preferences, navigate to **[!UICONTROL Notifications]**.
+
+   [Slack notifications](../assets/slack.png)
+
+1. Enable [!DNL Slack] notifications for your desired products and categories.
+ -->
 ## Supporto dei browser in Experience Cloud {#browser}
 
 Per prestazioni ottimali, Experience Cloud è stato ottimizzato per i browser più diffusi, comprese l’ultima versione e le due versioni precedenti.
