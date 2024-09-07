@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: 2e2e26e262a7e56ddaaf8b4bfa453b041c832548
+source-git-commit: b79d6c6fb7bb165fdd5d47061da16f65f6fc7579
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 21%
@@ -91,7 +91,7 @@ Puoi configurare le preferenze del tuo account per inviare notifiche Experience 
 
 ### Richiedi autorizzazione in Slack {#slack-troubleshoot}
 
-Se [!DNL Slack] non è installato, viene visualizzato un messaggio di _richiesta di installazione_ all&#39;apertura dello Slack dopo aver fatto clic su **[!UICONTROL Aggiungi allo Slack]**.
+Se [!DNL Slack] non è installato, viene visualizzato un messaggio di _[!UICONTROL richiesta di installazione]_ all&#39;apertura dello Slack dopo aver fatto clic su **[!UICONTROL Aggiungi allo Slack]**.
 
 ![Integrazione Slack richieste](../assets/slack-request.png)
 
