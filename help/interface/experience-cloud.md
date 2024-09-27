@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
-workflow-type: ht
-source-wordcount: '714'
-ht-degree: 100%
+source-git-commit: cd5d4978f2dcaf79030022cbc0fe67c4c8099775
+workflow-type: tm+mt
+source-wordcount: '544'
+ht-degree: 85%
 
 ---
 
@@ -22,10 +22,10 @@ ht-degree: 100%
 
 Dall’area dell’intestazione di Experience Cloud, è possibile:
 
-* Accedere alle applicazioni e ai servizi
+* Accedi a tutte le applicazioni e i servizi Experience Cloud
 * Dal menu Aiuto, cercare la documentazione del prodotto, i tutorial e i post della community. Visualizzare i risultati in Experience League.
 * Eseguire ricerche globali sugli oggetti business utilizzando la ricerca globale (solo per gli utenti di Experience Platform) nel campo Ricerca.
-* Gestire le preferenze dell’account (avvisi, notifiche e abbonamenti)
+* Gestisci le [preferenze](features/account-preferences.md) del tuo account (avvisi, notifiche e abbonamenti)
 
 ## Accedere a Experience Cloud {#signin}
 
@@ -68,35 +68,21 @@ Il menu [!UICONTROL Aiuto] consente inoltre di accedere a:
 * **[!UICONTROL Stato]:** passa a `https://status.adobe.com/experience_cloud` per controllare lo stato operativo del prodotto e [!UICONTROL gestire gli abbonamenti].
 * **[!UICONTROL Developer Connection]:** naviga in `adobe.io` e accedi alla documentazione per gli sviluppatori.
 
-## Profilo utente e preferenze account {#preferences}
+## Gestione del profilo utente
 
-Le preferenze di Experience Cloud includono notifiche, abbonamenti e avvisi. Nel menu delle preferenze dell’account puoi effettuare le seguenti operazioni:
+Nel menu del profilo utente puoi effettuare le seguenti operazioni:
 
 * Specificare un tema scuro (non tutte le applicazioni supportano questo tema)
-* Cercare le [organizzazioni](administration/organizations.md)
+* Gestire le [preferenze](features/account-preferences.md) di Experience Cloud
+* Seleziona o cerca un&#39;organizzazione [Organizzazione](administration/organizations.md)
+* Visualizza [!UICONTROL Note legali]
 * Uscire
 * Configurare preferenze, notifiche e abbonamenti dell’account
 
-Per gestire le preferenze, seleziona **[!UICONTROL Preferenze]** nel menu dell’account ![preferenze](assets/preferences-icon-sm.png).
+## Visualizzare notifiche e annunci interni al prodotto {#notifications}
 
-![Profilo utente e preferenze account](assets/preferences-page.png)
-
-Nelle [!UICONTROL preferenze di Experience Cloud], è possibile configurare le seguenti funzioni:
-
-| Funzione | Descrizione |
-|--- |--- |
-| [Organizzazione](administration/organizations.md) predefinita | Seleziona l’organizzazione da visualizzare all’avvio di Experience Cloud. |
-| [!UICONTROL Raccolta dati sui prodotto] | Seleziona le tecnologie che Adobe può utilizzare per raccogliere i dati sul modo in cui utilizzi i suoi prodotti. |
-| [!UICONTROL Promozioni e consigli personalizzati per l’apprendimento] | Scegli dove desideri ricevere informazioni personalizzate sui tuoi prodotti Adobe. Puoi riceverle tramite e-mail, nel prodotto stesso e nelle community Experience League. [Ulteriori informazioni.](features/personalized-learning.md) |
-| [!UICONTROL Abbonamenti] | Seleziona i prodotti e le categorie a cui desideri abbonarti. Notifiche nel riquadro a comparsa [!UICONTROL Notifiche] e via e-mail. |
-| [!UICONTROL Priorità] | Seleziona le categorie a cui vuoi assegnare la priorità alta. Queste categorie sono contrassegnate con il tag Alta e possono essere configurate per la distribuzione come avvisi. |
-| [!UICONTROL Avvisi] | Seleziona le notifiche per le quali desideri visualizzare gli avvisi nel browser. Gli avvisi vengono visualizzati per alcuni secondi nell’angolo in alto a destra della finestra. |
-| E-mail | Specifica la frequenza con cui desideri ricevere le e-mail di notifica: Non inviata, Immediata, Giornaliera o Settimanale. |
-
-{style="table-layout:auto"}
-
-## Notifiche e annunci {#notifications}
-
-Seleziona **[!UICONTROL Notifiche]** per ricevere avvisi sugli aggiornamenti rilevanti e fruibili, inclusi rilasci di prodotto, avvisi di manutenzione, elementi condivisi e richieste di approvazione.
+Fai clic sull’icona a forma di campana per visualizzare notifiche e annunci. Gli annunci possono essere aggiornamenti rilevanti e fruibili, inclusi rilasci di prodotto, avvisi di manutenzione, elementi condivisi e richieste di approvazione.
 
 ![Notifiche e annunci](assets/notifications-menu-small.png)
+
+Per gestire notifiche e avvisi, vedere [Preferenze account e notifiche](features/account-preferences.md)

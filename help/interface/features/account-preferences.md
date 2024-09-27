@@ -7,40 +7,26 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: 0b2cae6b7aec7e91ac4b46de4d844dd2269095a9
+source-git-commit: cd5d4978f2dcaf79030022cbc0fe67c4c8099775
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 21%
+source-wordcount: '632'
+ht-degree: 8%
 
 ---
 
 # Preferenze e notifiche dell’account {#preferences}
 
-L&#39;Experience Cloud [preferenze](https://experience.adobe.com/preferences) include notifiche (in-app, e-mail e [!DNL Slack]), abbonamenti e avvisi.
+Per trovare le preferenze di Experience Cloud, fai clic sull&#39;icona **[!UICONTROL Account utente]** ![Preferenze](../assets/preferences-icon-sm.png), quindi fai clic su **[!UICONTROL Preferenze]**.
 
-Nelle preferenze, puoi effettuare le seguenti operazioni:
-
-* Cercare le [organizzazioni](../administration/organizations.md)
-* Specifica un tema scuro (non tutte le applicazioni supportano questo tema).
-* Configura le preferenze, le notifiche e gli abbonamenti dell’account per gli utenti.
-* Disconnettiti da Experience Cloud.
-
-## Gestione preferenze
-
-Per gestire le preferenze, seleziona **[!UICONTROL Preferenze]** nel menu dell’account ![preferenze](../assets/preferences-icon-sm.png).
-
-Nelle [!UICONTROL preferenze di Experience Cloud], è possibile configurare le seguenti funzioni:
+Nella pagina [!UICONTROL Preferenze di Experience Cloud] è possibile gestire le seguenti funzionalità dell&#39;account:
 
 | Funzione | Descrizione |
 |--- |--- |
-| [Organizzazione](../administration/organizations.md) predefinita | Seleziona l’organizzazione da visualizzare all’avvio di Experience Cloud. |
+| Profilo | Aggiorna il [profilo account Adobe](https://account.adobe.com/profile). <p>La foto del tuo profilo e il tuo nome vengono visualizzati quando accedi a Adobe.com, prodotti e servizi di Adobe e su siti rivolti al pubblico come [!DNL Behance]. |
+| Generale | Seleziona un&#39;organizzazione [organizzazione](../administration/organizations.md).<p>Questa organizzazione è quella predefinita utilizzata quando accedi ad Experience Cloud. |
 | [!UICONTROL Raccolta dati sui prodotto] | Seleziona le tecnologie che Adobe può utilizzare per raccogliere i dati sul modo in cui utilizzi i suoi prodotti. |
-| [Notifiche](#notifications-and-announcements) | Abilita [!UICONTROL notifiche in-app], [!UICONTROL e-mail] o [Slack](#slack-notifications). |
+| Notifiche | Configura come e quando desideri ricevere [notifiche](#subscribe-to-notifications-in-experience-cloud) per il prodotto e avvisi: <ul><li>Seleziona i prodotti ai quali desideri abbonarti per ricevere gli avvisi</li><li>Configura il tipo di notifica ([!UICONTROL in-app], [!UICONTROL e-mail] o [Slack](#slack-notifications))</li><li>Specifica la frequenza con cui desideri ricevere le e-mail di notifica: Non inviata, Immediata, Giornaliera o Settimanale.</li><li>Determinare la priorità dell&#39;avviso. Gli avvisi in-app vengono visualizzati nell’angolo in alto a destra della finestra per alcuni secondi. In alternativa, è possibile specificare se gli avvisi devono essere visualizzati fino a quando non vengono ignorati.</li></ul> |
 | [!UICONTROL Promozioni e consigli personalizzati per l’apprendimento] | Seleziona il punto in cui desideri ricevere [aiuto personalizzato](personalized-learning.md) per i tuoi prodotti di Adobe. Questa guida è disponibile tramite e-mail, nel prodotto e nelle community di Experienci League. |
-| [!UICONTROL Abbonamenti] | Seleziona i prodotti e le categorie a cui desideri abbonarti. Notifiche nel popover [!UICONTROL Notifiche] e nell&#39;e-mail. |
-| [!UICONTROL Priorità] | Seleziona le categorie a cui vuoi assegnare la priorità alta. Queste categorie sono contrassegnate con un tag [!UICONTROL Elevato] e possono essere configurate per la consegna come avvisi. |
-| [!UICONTROL Avvisi] | Seleziona le notifiche per le quali desideri visualizzare gli avvisi nel browser. Gli avvisi vengono visualizzati per alcuni secondi nell’angolo in alto a destra della finestra. |
-| E-mail | Specifica la frequenza con cui desideri ricevere le e-mail di notifica: Non inviata, Immediata, Giornaliera o Settimanale. |
 
 ## Abbonati alle notifiche in Experience Cloud {#notifications}
 
