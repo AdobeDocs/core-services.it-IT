@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: cd5d4978f2dcaf79030022cbc0fe67c4c8099775
+source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 85%
+source-wordcount: '508'
+ht-degree: 77%
 
 ---
 
@@ -41,7 +41,7 @@ Accedi e verifica di essere nell&#39;[organizzazione](administration/organizatio
 
    **Verifica l’organizzazione**
 
-   Per verificare di aver eseguito l’accesso all’[organizzazione](administration/organizations.md) giusta, fai clic sull’avatar del tuo profilo per visualizzarne il nome. Se ha accesso a più organizzazioni, puoi anche vedere le altre e passare a un’altra organizzazione direttamente dalla barra dell’intestazione.
+   L&#39;[organizzazione](administration/organizations.md) viene visualizzata nell&#39;intestazione dell&#39;interfaccia.
 
    Se la tua organizzazione usa Federated ID, Experience Cloud ti consente accedere in modalità single sign-on, senza inserire l’indirizzo e-mail e la password. Aggiungi `#/sso:@domain` all’URL di Experience Cloud (`https://experience.adobe.com`) per eseguire questa attività.
 
@@ -57,7 +57,7 @@ Per accedere alle applicazioni e ai servizi Experience Cloud per i quali disponi
 
 ## Ottenere assistenza e supporto {#support}
 
-Dall’icona Aiuto (![risorsa](assets/help-icon.png)) nell’intestazione puoi accedere ai contenuti di apprendimento e alla guida, compresi i contenuti dell’Aiuto (documentazione, tutorial e corsi) disponibili in [Experience League](https://experienceleague.adobe.com/?lang=it#home), nonché risorse aggiuntive per le singole applicazioni. Puoi anche inviare feedback aperti e creare ticket di supporto con priorità.
+Accedi all&#39;apprendimento e alla guida utilizzando il **[!UICONTROL Centro assistenza]** (![risorsa](assets/help-icon.png)) nell&#39;intestazione, incluso il contenuto della guida (documentazione, tutorial e corsi) in [Experience League](https://experienceleague.adobe.com/?lang=it#home), nonché risorse aggiuntive per le singole applicazioni. Puoi anche inviare feedback aperti e creare ticket di supporto con priorità.
 
 ![Ottenere assistenza e supporto](assets/search-menu.png)
 
@@ -70,7 +70,7 @@ Il menu [!UICONTROL Aiuto] consente inoltre di accedere a:
 
 ## Gestione del profilo utente
 
-Nel menu del profilo utente puoi effettuare le seguenti operazioni:
+Nel menu [!UICONTROL Profilo] puoi:
 
 * Specificare un tema scuro (non tutte le applicazioni supportano questo tema)
 * Gestire le [preferenze](features/account-preferences.md) di Experience Cloud
