@@ -10,7 +10,7 @@ exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
 workflow-type: tm+mt
 source-wordcount: '508'
-ht-degree: 77%
+ht-degree: 91%
 
 ---
 
@@ -25,7 +25,7 @@ Dall’area dell’intestazione di Experience Cloud, è possibile:
 * Accedi a tutte le applicazioni e i servizi Experience Cloud
 * Dal menu Aiuto, cercare la documentazione del prodotto, i tutorial e i post della community. Visualizzare i risultati in Experience League.
 * Eseguire ricerche globali sugli oggetti business utilizzando la ricerca globale (solo per gli utenti di Experience Platform) nel campo Ricerca.
-* Gestisci le [preferenze](features/account-preferences.md) del tuo account (avvisi, notifiche e abbonamenti)
+* Gestire le [preferenze](features/account-preferences.md) dell’account (avvisi, notifiche e abbonamenti)
 
 ## Accedere a Experience Cloud {#signin}
 
@@ -74,14 +74,14 @@ Nel menu [!UICONTROL Profilo] puoi:
 
 * Specificare un tema scuro (non tutte le applicazioni supportano questo tema)
 * Gestire le [preferenze](features/account-preferences.md) di Experience Cloud
-* Seleziona o cerca un&#39;organizzazione [Organizzazione](administration/organizations.md)
-* Visualizza [!UICONTROL Note legali]
+* Selezionare o cercare un’[Organizzazione](administration/organizations.md)
+* Visualizzare [!UICONTROL Note legali]
 * Uscire
 * Configurare preferenze, notifiche e abbonamenti dell’account
 
 ## Visualizzare notifiche e annunci interni al prodotto {#notifications}
 
-Fai clic sull’icona a forma di campana per visualizzare notifiche e annunci. Gli annunci possono essere aggiornamenti rilevanti e fruibili, inclusi rilasci di prodotto, avvisi di manutenzione, elementi condivisi e richieste di approvazione.
+Fai clic sull’icona a forma di campana per visualizzare notifiche e annunci. Gli annunci possono riferirsi ad aggiornamenti rilevanti e fruibili, inclusi rilasci di prodotto, avvisi di manutenzione, elementi condivisi e richieste di approvazione.
 
 ![Notifiche e annunci](assets/notifications-menu-small.png)
 
