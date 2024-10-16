@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 27d656b3cfe614f0a5b47d8987343a4c36d9ed33
+source-git-commit: f21e82e53a835d723bfd070cd99157c60c5f3eb7
 workflow-type: tm+mt
-source-wordcount: '5104'
-ht-degree: 96%
+source-wordcount: '5162'
+ht-degree: 95%
 
 ---
 
@@ -24,7 +24,13 @@ Per un elenco degli aggiornamenti della documentazione, consulta [Aggiornamenti 
 
 Per le note sulla versione riguardanti tutte le applicazioni, consulta [Note sulla versione di Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it).
 
-## 10 settembre 2024
+## giovedì 2 ottobre 2024
+
+| Funzione | Descrizione |
+| -----------| ---------- |
+| Home personalizzabile | Nella pagina di destinazione di Experience Cloud, fai clic su **[!UICONTROL Modifica]**. La modalità [!UICONTROL Modifica] ti consente di personalizzare la home page dell&#39;Experience Cloud con l&#39;accesso a una libreria di widget e sfondi personalizzati. La modalità [!UICONTROL Modifica] offre controlli semplici e intuitivi per spostare, ridimensionare e gestire i widget, incluse azioni in blocco e regolazioni del layout, offrendo un&#39;esperienza più estetica e personalizzata. |
+
+## mercoledì 10 settembre 2024
 
 | Funzione | Descrizione |
 | -----------| ---------- |
