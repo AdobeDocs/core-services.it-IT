@@ -1,6 +1,6 @@
 ---
 description: Scopri come funzionano i cookie di Adobe Analytics in Adobe Experience Cloud.
-solution: Experience Cloud,Analytics,Target
+solution: Analytics
 title: Cookie di Adobe Analytics
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
 feature: Cookies
@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
+source-git-commit: 5905644c2de154da77f33ae486818b5bede418df
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 16%
@@ -26,7 +26,7 @@ Analytics utilizza i cookie per definire nuovi visitatori in modo anonimo, aiuta
 | **`s_ecid`** | 2 anni | 45 byte | Prime parti | Memorizza l&#39;identificatore Experience Cloud ID (ECID) o MID. Impostato dalla risposta HTTP. Il MID è archiviato nel formato `s_ecid=MCMID`. Impostato dopo che il client ha impostato il cookie AMCV. Consente il tracciamento ID persistente di prime parti e viene utilizzato come ID di riferimento se il cookie AMCV scade. Questo cookie non è applicabile alle implementazioni di cookie di terze parti. `SameSite` è impostato su &quot;Lax&quot;. |
 | **`s_cc`** | Session | 4 byte | Prime parti | Determina se i cookie sono abilitati. Impostato da JavaScript. |
 | **`s_sq`** | Session | 100-200 byte | Prime parti | Utilizzato dall’Activity Map. Contiene informazioni sul collegamento precedente su cui il visitatore ha fatto clic. Impostato da JavaScript. |
-| **`s_vi`** | 2 anni | 44 byte | Prime parti o `*.omtrdc.net` (terze parti) | Memorizza un ID visitatore univoco e una marca temporale. Impostato dalla risposta HTTP. Ogni ID visitatore è associato a un profilo visitatore sui server Adobe. I profili dei visitatori vengono eliminati dopo 1 anno di inattività, indipendentemente dalla scadenza del cookie ID visitatore. Il flag `Secure` è impostato quando `SameSite` è &quot;None&quot; e la connessione è HTTPS. `SameSite` è &quot;Lax&quot; per impostazione predefinita per i cookie di prime parti. `SameSite` è &quot;None&quot; quando si utilizzano cookie di terze parti, ad esempio in `omtrdc.net` o `2o7.net`. Impostare `SameSite` su &quot;None&quot; quando si utilizza un singolo CNAME per tenere traccia di più domini o proprietà. |
+| **`s_vi`** | 2 anni | 44 byte | Prime parti o `*.omtrdc.net` (terze parti) | Memorizza un ID visitatore univoco e una marca temporale. Impostato dalla risposta HTTP. Ogni ID visitatore è associato a un profilo visitatore sui server di Adobe. I profili dei visitatori vengono eliminati dopo 1 anno di inattività, indipendentemente dalla scadenza del cookie ID visitatore. Il flag `Secure` è impostato quando `SameSite` è &quot;None&quot; e la connessione è HTTPS. `SameSite` è &quot;Lax&quot; per impostazione predefinita per i cookie di prime parti. `SameSite` è &quot;None&quot; quando si utilizzano cookie di terze parti, ad esempio in `omtrdc.net` o `2o7.net`. Impostare `SameSite` su &quot;None&quot; quando si utilizza un singolo CNAME per tenere traccia di più domini o proprietà. |
 | **`s_fid`** | 2 anni | 33 byte | Prime parti | Memorizza l’ID visitatore univoco e la marca temporale di fallback. Impostato da JavaScript se il cookie standard `s_vi` non può essere impostato a causa di restrizioni dei cookie di terze parti. Non utilizzato per le implementazioni di cookie di prime parti. |
 | **`s_ac`** | Immediato | 1 byte | Prime parti | Consente di determinare il dominio corretto per impostare i cookie AppMeasurement. Contiene il valore statico `"1"`. Una volta impostato, il cookie viene eliminato immediatamente. |
 
