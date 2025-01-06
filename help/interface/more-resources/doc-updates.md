@@ -1,5 +1,5 @@
 ---
-description: Informazioni sugli aggiornamenti dell’Aiuto di Experience Cloud.
+description: Scopri dove si verificano gli aggiornamenti della documentazione per i componenti dell’interfaccia comune di Experience Cloud.
 solution: Experience Cloud
 title: Aggiornamenti della documentazione
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
@@ -7,16 +7,20 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 468375c0435e5cffc92db5b737eb55fa92454b99
+source-git-commit: 855853be8397350bb93f3c9cf02bb73f5e75326f
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 75%
+source-wordcount: '580'
+ht-degree: 72%
 
 ---
 
-# Aggiornamenti documentazione - Experience Cloud
+# Aggiornamenti alla documentazione per Experience Cloud
 
-Informazioni sugli aggiornamenti della documentazione di Experience Cloud.
+Scopri dove si verificano gli aggiornamenti alla documentazione per l’interfaccia centrale e l’amministrazione di Experience Cloud.
+
+**Novembre 2024**
+
+Aggiornamenti a [Dati sull&#39;utilizzo del prodotto](../features/account-preferences.md) e [Apprendimento personalizzato](../features/personalized-learning.md).
 
 **Settembre 2024**
 

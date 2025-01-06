@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: f21e82e53a835d723bfd070cd99157c60c5f3eb7
+source-git-commit: eddbda54bc3f1cbbc98d7a993d0b477e05c5b01c
 workflow-type: tm+mt
-source-wordcount: '5162'
-ht-degree: 95%
+source-wordcount: '5209'
+ht-degree: 94%
 
 ---
 
@@ -24,11 +24,15 @@ Per un elenco degli aggiornamenti della documentazione, consulta [Aggiornamenti 
 
 Per le note sulla versione riguardanti tutte le applicazioni, consulta [Note sulla versione di Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it).
 
-## giovedì 2 ottobre 2024
+## Novembre 2024
+
+Per semplificare il controllo delle preferenze di dati di utilizzo dei prodotti Experience Cloud, è stata semplificata la pagina delle preferenze di Experience Cloud, in cui sono rimosse le opzioni duplicate. Con questa semplificazione, le preferenze utente correnti sono state mantenute e i clienti possono aggiornare le proprie preferenze in qualsiasi momento in [Preferenze di Experience Cloud](https://experience.adobe.com/preferences).
+
+## 2 ottobre 2024
 
 | Funzione | Descrizione |
 | -----------| ---------- |
-| Home personalizzabile | Nella pagina di destinazione di Experience Cloud, fai clic su **[!UICONTROL Modifica]**. La modalità [!UICONTROL Modifica] ti consente di personalizzare la home page dell&#39;Experience Cloud con l&#39;accesso a una libreria di widget e sfondi personalizzati. La modalità [!UICONTROL Modifica] offre controlli semplici e intuitivi per spostare, ridimensionare e gestire i widget, incluse azioni in blocco e regolazioni del layout, offrendo un&#39;esperienza più estetica e personalizzata. |
+| Pagina Home personalizzabile | Nella pagina di destinazione di Experience Cloud, fai clic su **[!UICONTROL Modifica]**. La modalità [!UICONTROL Modifica] ti consente di personalizzare la pagina Home di Experience Cloud con l’accesso a una libreria di widget e sfondi personalizzati. La modalità [!UICONTROL Modifica] offre controlli semplici e intuitivi per spostare, ridimensionare e gestire i widget, incluse azioni in blocco e regolazioni del layout, offrendo un&#39;esperienza più estetica e personalizzata. |
 
 ## mercoledì 10 settembre 2024
 
@@ -244,8 +248,8 @@ La funzione Ricerca unificata è stata aggiornata per renderla disponibile anche
 
 | Funzione | Descrizione |
 |--- |--- |
-| Mappatura in batch di suite di rapporti | In Amministrazione > Mappatura suite di rapporti ora puoi selezionare più suite di rapporti, quindi mapparle su un&#39;organizzazione. (in precedenza era necessario mapparle singolarmente).  <br>La mappatura delle suite di rapporti su un&#39;unica organizzazione consente di abilitare funzioni e servizi tra più applicazioni in Experience Cloud. |
-| Aggiornamenti relativi al pubblico di Experience Cloud | **Applicazione di suite di rapporti**<br> Ora puoi applicare una suite di rapporti a tutte le tue [regole per il pubblico](../services/audiences/create.md). In precedenza, era necessario indicare una suite di rapporti per ciascuna definizione di regola. <br>**Prop e variabili**<br> Ora è possibile includere le proprietà di Analytics e le variabili predefinite (oltre a eVar ed eventi) per il pubblico in tempo reale. |
+| Mappatura in batch di suite di rapporti | In Amministrazione > Mappatura suite di rapporti ora puoi selezionare più suite di rapporti, quindi mapparle su un&#39;organizzazione. In precedenza era necessario mapparle singolarmente. <br>La mappatura delle suite di rapporti su un&#39;unica organizzazione consente di abilitare funzioni e servizi tra più applicazioni in Experience Cloud. |
+| Aggiornamenti relativi al pubblico di Experience Cloud | **Applicazione di suite di rapporti**<br> Ora puoi applicare una suite di rapporti a tutte le tue [regole per il pubblico](../services/audiences/create.md). In precedenza era necessario specificare una suite di rapporti in ogni definizione di regola. <br>**Proprietà e variabili**<br> Ora è possibile includere le proprietà di Analytics e le variabili predefinite (oltre a eVar ed eventi) per il pubblico in tempo reale. |
 
 {style="table-layout:auto"}
 
