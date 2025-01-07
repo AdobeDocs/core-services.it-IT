@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: eddbda54bc3f1cbbc98d7a993d0b477e05c5b01c
+source-git-commit: 6d6631c466ce28662f130cdd0fc2f9d6ba2d07b3
 workflow-type: tm+mt
-source-wordcount: '5209'
-ht-degree: 94%
+source-wordcount: '5286'
+ht-degree: 93%
 
 ---
 
@@ -24,9 +24,12 @@ Per un elenco degli aggiornamenti della documentazione, consulta [Aggiornamenti 
 
 Per le note sulla versione riguardanti tutte le applicazioni, consulta [Note sulla versione di Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it).
 
-## Novembre 2024
+## Gennaio 2025
 
-Per semplificare il controllo delle preferenze di dati di utilizzo dei prodotti Experience Cloud, è stata semplificata la pagina delle preferenze di Experience Cloud, in cui sono rimosse le opzioni duplicate. Con questa semplificazione, le preferenze utente correnti sono state mantenute e i clienti possono aggiornare le proprie preferenze in qualsiasi momento in [Preferenze di Experience Cloud](https://experience.adobe.com/preferences).
+| Data | Funzione | Descrizione |
+| -----------| -----------| ---------- |
+| Gennaio 9 | Dati di utilizzo del prodotto | Per semplificare il controllo delle preferenze dei dati di utilizzo dei prodotti Experience Cloud, è stata semplificata la pagina di Experience Cloud [Preferenze](../features/account-preferences.md#product-usage-data) per rimuovere le opzioni duplicate. Con questa semplificazione, le preferenze utente correnti sono state mantenute e puoi aggiornare le tue preferenze in qualsiasi momento in [Preferenze di Experience Cloud](https://experience.adobe.com/preferences). |
+| 30 gennaio (data di rilascio pianificata) | Spettro 2 | Il frame dell’applicazione di Experience Cloud, che include la barra di intestazione e il componente a cui si accede dalla barra di intestazione, nonché la barra di navigazione a sinistra per alcune applicazioni, verrà aggiornato a Spectrum 2, il più recente sistema di progettazione di Adobe. Questo design aggiornato include un&#39;iconografia aggiornata, ma le stesse funzionalità. Tuttavia, diversi elementi nell’intestazione vengono riposizionati per allinearli ad altri Adobe e applicazioni. |
 
 ## 2 ottobre 2024
 
