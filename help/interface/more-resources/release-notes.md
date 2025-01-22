@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: df8f418907c3b7044b70547ee1b7c5117d1cf8a6
+source-git-commit: dce1fe82a93cca78ea4ee2fa504947fcffb8a2c8
 workflow-type: tm+mt
 source-wordcount: '5286'
 ht-degree: 93%
@@ -29,7 +29,7 @@ Per le note sulla versione riguardanti tutte le applicazioni, consulta [Note sul
 | Data | Funzione | Descrizione |
 | -----------| -----------| ---------- |
 | Gennaio 9 | Dati di utilizzo del prodotto | Per semplificare il controllo delle preferenze dei dati di utilizzo dei prodotti Experience Cloud, è stata semplificata la pagina di Experience Cloud [Preferenze](../features/account-preferences.md#product-usage-data) per rimuovere le opzioni duplicate. Con questa semplificazione, le preferenze utente correnti sono state mantenute e puoi aggiornare le tue preferenze in qualsiasi momento in [Preferenze di Experience Cloud](https://experience.adobe.com/preferences). |
-| 30 gennaio (data di rilascio pianificata) | Spettro 2 | Il frame dell’applicazione di Experience Cloud, che include la barra di intestazione e i componenti a cui si accede dalla barra di intestazione, nonché la barra di navigazione a sinistra per alcune applicazioni, verrà aggiornato a Spectrum 2, il più recente sistema di progettazione di Adobe. Questo design aggiornato include un&#39;iconografia aggiornata, ma le stesse funzionalità. Tuttavia, diversi elementi nell’intestazione vengono riposizionati per allinearli ad altri Adobe e applicazioni. |
+| 5 febbraio (data di rilascio pianificata) | Spettro 2 | Il frame dell’applicazione di Experience Cloud, che include la barra di intestazione e i componenti a cui si accede dalla barra di intestazione, nonché la barra di navigazione a sinistra per alcune applicazioni, verrà aggiornato a Spectrum 2, il più recente sistema di progettazione di Adobe. Questo design aggiornato include un&#39;iconografia aggiornata, ma le stesse funzionalità. Tuttavia, diversi elementi nell’intestazione vengono riposizionati per allinearli ad altri Adobe e applicazioni. |
 
 ## 2 ottobre 2024
 
