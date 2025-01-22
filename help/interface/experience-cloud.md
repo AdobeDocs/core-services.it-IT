@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
+source-git-commit: b122f71a8bffeaaeb20c974c618bacc5a40c2cd9
 workflow-type: ht
 source-wordcount: '508'
 ht-degree: 100%
@@ -51,7 +51,7 @@ Accedi e verifica di essere nell&#39;[organizzazione](administration/organizatio
 
 Dopo aver effettuato l’accesso ad Experience Cloud, è possibile accedere rapidamente a tutte le applicazioni, i servizi e le organizzazioni dall’lintestazione unificata.
 
-Per accedere alle applicazioni e ai servizi Experience Cloud per i quali disponi dei diritti di accesso nella tua organizzazione, passa al selettore delle applicazioni ![menu](assets/menu-icon.png).
+Per accedere alle applicazioni e ai servizi Experience Cloud per i quali disponi dei diritti di accesso nella tua organizzazione, passa al selettore delle applicazioni ![menu](assets/apps-icon.png).
 
 ![Accedere alle applicazioni Experience Cloud](assets/platform-core-services.png)
 
