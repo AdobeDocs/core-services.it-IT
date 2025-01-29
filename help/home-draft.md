@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 5df8104d3d148cc7bda823b27bf96429ddb6018d
+source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
 source-wordcount: '790'
-ht-degree: 80%
+ht-degree: 94%
 
 ---
 
@@ -25,14 +25,14 @@ Dall’area dell’intestazione di Experience Cloud, è possibile:
 * Accedi a tutte le applicazioni e i servizi Experience Cloud
 * Dal menu Aiuto, cercare la documentazione del prodotto, i tutorial e i post della community. Visualizzare i risultati in Experience League.
 * Eseguire ricerche globali sugli oggetti business utilizzando la ricerca globale (solo per gli utenti di Experience Platform) nel campo Ricerca.
-* Gestisci le [preferenze](features/account-preferences.md) del tuo account (avvisi, notifiche e abbonamenti)
+* Gestire le [preferenze](features/account-preferences.md) dell’account (avvisi, notifiche e abbonamenti)
 
 ## Accedere a Experience Cloud {#signin}
 
 Accedi e verifica di essere nell&#39;[organizzazione](administration/organizations.md) corretta.
 
 1. Passa ad [Adobe Experience Cloud](https://experience.adobe.com).
-1. Digita il tuo indirizzo e-mail Adobe, quindi seleziona **[!UICONTROL Continua]**.
+1. Digita il tuo indirizzo e-mail di Adobe, quindi fai clic su **[!UICONTROL Continua]**.
 1. Seleziona un account.
 1. Digita la tua password.
 1. Verifica di essere nell’organizzazione giusta.
@@ -41,7 +41,7 @@ Accedi e verifica di essere nell&#39;[organizzazione](administration/organizatio
 
    **Verifica l’organizzazione**
 
-   L&#39;[organizzazione](administration/organizations.md) viene visualizzata nell&#39;intestazione dell&#39;interfaccia.
+   L’[organizzazione](administration/organizations.md) viene visualizzata nell’intestazione dell’interfaccia.
 
    Se la tua organizzazione usa Federated ID, Experience Cloud ti consente accedere in modalità single sign-on, senza inserire l’indirizzo e-mail e la password. Aggiungi `#/sso:@domain` all’URL di Experience Cloud (`https://experience.adobe.com`) per eseguire questa attività.
 
@@ -57,7 +57,7 @@ Per accedere alle applicazioni e ai servizi Experience Cloud per i quali disponi
 
 ## Ottenere assistenza e supporto {#support}
 
-Accedi all&#39;apprendimento e alla guida utilizzando il **[!UICONTROL Centro assistenza]** (![risorsa](assets/help-icon.png)) nell&#39;intestazione, incluso il contenuto della guida (documentazione, tutorial e corsi) in [Experience League](https://experienceleague.adobe.com/?lang=it#home), nonché risorse aggiuntive per le singole applicazioni. Puoi anche inviare feedback aperti e creare ticket di supporto con priorità.
+Accedi ai contenuti di apprendimento e alla guida utilizzando il **[!UICONTROL Centro assistenza]** (![risorsa](assets/help-icon.png)) nell’intestazione, dove sono inclusi contenuti guida (documentazione, tutorial e corsi) su [Experience League](https://experienceleague.adobe.com/?lang=it#home), nonché le risorse aggiuntive per le singole applicazioni. Puoi anche inviare feedback aperti e creare ticket di supporto con priorità.
 
 ![Ottenere assistenza e supporto](assets/search-menu.png)
 
@@ -70,18 +70,18 @@ Il menu [!UICONTROL Aiuto] consente inoltre di accedere a:
 
 ## Gestione del profilo utente
 
-Nel menu [!UICONTROL Profilo] puoi:
+Nel menu [!UICONTROL Profilo] è possibile:
 
 * Specificare un tema scuro (non tutte le applicazioni supportano questo tema)
 * Gestire le [preferenze](features/account-preferences.md) di Experience Cloud
-* Seleziona o cerca un&#39;organizzazione [Organizzazione](administration/organizations.md)
-* Visualizza [!UICONTROL Note legali]
+* Selezionare o cercare un’[Organizzazione](administration/organizations.md)
+* Visualizzare [!UICONTROL Note legali]
 * Uscire
 * Configurare preferenze, notifiche e abbonamenti dell’account
 
 ## Visualizzare notifiche e annunci interni al prodotto {#notifications}
 
-Fai clic sull’icona a forma di campana per visualizzare notifiche e annunci. Gli annunci possono essere aggiornamenti rilevanti e fruibili, inclusi rilasci di prodotto, avvisi di manutenzione, elementi condivisi e richieste di approvazione.
+Fai clic sull’icona a forma di campana per visualizzare notifiche e annunci. Gli annunci possono riferirsi ad aggiornamenti rilevanti e fruibili, inclusi rilasci di prodotto, avvisi di manutenzione, elementi condivisi e richieste di approvazione.
 
 ![Notifiche e annunci](assets/notifications-menu-small.png)
 
@@ -181,7 +181,7 @@ Alcune importanti modifiche al servizio Android Firebase Cloud Messaging (FCM) v
     <td>
       <img src="assets/do-not-localize/icon-dev.svg" width="35px">
     <br/>
-      <strong>Risorse per sviluppatori</strong><br/><a href="dev/datamodel.md">Modello dati di Campaign v8</a> - <a href="dev/schemas.md">Schemi</a> - <a href="dev/api.md">API</a>
+      <strong>Risorse per sviluppatori</strong><br/><a href="dev/datamodel.md">Modello dati Campaign v8</a> - <a href="dev/schemas.md">Schemi</a> - <a href="dev/api.md">API</a>
     </td>
   </tr>
 </table>

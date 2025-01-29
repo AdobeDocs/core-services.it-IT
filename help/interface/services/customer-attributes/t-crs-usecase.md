@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 65d77199580a85e3be3e82c06cb215f980d159fd
+source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
 source-wordcount: '1102'
 ht-degree: 77%
@@ -55,13 +55,13 @@ Segui questi passaggi nella pagina Crea nuovo Source di attributi del cliente in
 >Quando crei, modifichi o elimini origini di attributi del cliente, si verifica un ritardo di circa un’ora prima dell’effettiva sincronizzazione degli ID con la nuova origine dati. Devi disporre di diritti di amministratore in Audience Manager per creare o modificare origini degli attributi del cliente. Contatta l&#39;Assistenza clienti o la consulenza di Audience Manager per ottenere i diritti di amministratore.
 
 1. In [!DNL Experience Cloud], selezionare l&#39;icona Menu ![menu](assets/menu-icon.png).
-1. In **[!DNL Experience Platform]**, seleziona **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**.
+1. In **[!DNL Experience Platform]**, fai clic su **[!UICONTROL Persone]** > **[!UICONTROL Attributi del cliente]**.
 
    La pagina [!UICONTROL Attributi del cliente] è il luogo in cui puoi gestire e modificare l&#39;origine dati degli attributi esistenti.
 
    ![Risultato passaggio](assets/03_crs_usecase.png)
 
-1. Seleziona **[!UICONTROL Nuovo]**.
+1. Fai clic su **[!UICONTROL Nuovo]**.
 
    ![Risultato passaggio](assets/04_crs_usecase.png)
 
@@ -71,7 +71,7 @@ Segui questi passaggi nella pagina Crea nuovo Source di attributi del cliente in
 
    * **[!UICONTROL Descrizione:]** (facoltativo) una descrizione per la sorgente attributi dei dati.
 
-   * **[!UICONTROL ID alias:]** rappresenta un’origine dei dati di ttributi del cliente come specificato nel sistema CRM. [!UICONTROL Alias ID] è un ID univoco utilizzato nel codice [!UICONTROL Source] dell&#39;attributo del cliente. L&#39;ID deve essere univoco, in lettere minuscole e non deve comprendere spazi. Il valore immesso nel campo [!UICONTROL Alias ID] per un&#39;origine di attributi cliente in Experience Cloud deve corrispondere ai valori ricevuti dall&#39;implementazione (tramite Raccolta dati di Platform o JavaScript dell&#39;SDK Mobile).
+   * **[!UICONTROL ID alias:]** rappresenta un’origine dei dati di ttributi del cliente come specificato nel sistema CRM. [!UICONTROL Alias ID] è un ID univoco utilizzato nel codice [!UICONTROL Source] dell&#39;attributo del cliente. L&#39;ID deve essere univoco, in lettere minuscole e non deve comprendere spazi. Il valore immesso nel campo [!UICONTROL ID alias] per un&#39;origine di attributi cliente in Experience Cloud deve corrispondere ai valori ricevuti dall&#39;implementazione (tramite Raccolta dati di Platform o JavaScript del SDK mobile).
 
      >[!IMPORTANT]
      >
@@ -144,7 +144,7 @@ Consulta [Configurazione delle sottoscrizioni](subscription.md).
 
 **Per attivare un&#39;origine attributo**
 
-Nella pagina [!UICONTROL Crea nuovo o modifica attributo del cliente Source], individua l&#39;intestazione [!UICONTROL Attiva], quindi seleziona **[!UICONTROL Attivo]**.
+Nella pagina [!UICONTROL Crea nuovo o modifica attributo del cliente Source], individua l&#39;intestazione [!UICONTROL Attiva], quindi fai clic su **[!UICONTROL Attivo]**.
 
 ![Risultato del passaggio](assets/activate_attribute_source.png)
 

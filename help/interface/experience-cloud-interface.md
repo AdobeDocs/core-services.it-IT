@@ -6,7 +6,7 @@ feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
+source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 91%
@@ -59,7 +59,7 @@ Tutti i team delle applicazioni sono orientati al supporto globale delle lingue;
 Accedi e verifica di essere nell&#39;[organizzazione](organizations.md) corretta.
 
 1. Passa ad [Adobe Experience Cloud](https://experience.adobe.com).
-1. Seleziona **[!UICONTROL Accedi con Adobe ID]**.
+1. Fai clic su **[!UICONTROL Accedi con Adobe ID]**.
 1. Verifica di essere nell’organizzazione giusta.
 
    ![Verifica l’organizzazione](assets/organizations-menu.png)
@@ -74,7 +74,7 @@ Accedi e verifica di essere nell&#39;[organizzazione](organizations.md) corretta
 
 Dopo aver effettuato l’accesso ad Experience Cloud, è possibile accedere rapidamente a tutte le applicazioni, i servizi e le organizzazioni dall’lintestazione unificata.
 
-Seleziona il selettore di applicazioni ![menu](assets/menu-icon.png) per accedere ai servizi di Experience Cloud di tua proprietà.
+Fai clic sul selettore delle applicazioni ![menu](assets/menu-icon.png) per accedere ai servizi Experience Cloud di tua proprietà.
 
 ![Accedere alle applicazioni Experience Cloud](assets/platform-core-services.png)
 
@@ -104,7 +104,7 @@ Nel menu delle preferenze dell’account puoi effettuare le seguenti operazioni:
 
 Le preferenze di Experience Cloud includono notifiche, abbonamenti e avvisi.
 
-Seleziona **[!UICONTROL Preferenze]** dal menu dell&#39;account ![preferenze](assets/preferences-icon-sm.png) per gestire le preferenze.
+* Fai clic su **[!UICONTROL Preferenze]** nel menu dell&#39;account ![preferenze](assets/preferences-icon-sm.png) per gestire le preferenze.
 
 ![Gestire Experience Cloud](assets/preferences-page.png)
 
@@ -122,7 +122,7 @@ Nelle [!UICONTROL preferenze di Experience Cloud], è possibile configurare le s
 
 ## Notifiche e annunci {#notifications}
 
-Seleziona **[!UICONTROL Notifiche]** per visualizzare le notifiche che ti interessano e gli annunci di Adobe.
+Fai clic su **[!UICONTROL Notifiche]** per visualizzare le notifiche che ti interessano e gli annunci di Adobe.
 
 ![Notifiche e annunci](assets/notifications-menu-small.png)
 

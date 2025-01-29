@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
-source-git-commit: 66f78a04674a82335f5df20c4c15d983b6ebdc66
+source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 85%
+source-wordcount: '1258'
+ht-degree: 82%
 
 ---
 
@@ -37,7 +37,7 @@ In questa pagina viene visualizzato l’elenco completo degli utenti con accesso
 
 | Elemento | Descrizione |
 |---|---|
-| [!UICONTROL Nome] | Il nome e il cognome dell’utente. Puoi ordinare questa colonna da A a Z e da Z ad A. Per visualizzare ulteriori dettagli su un utente, selezionane il nome. |
+| [!UICONTROL Nome] | Il nome e il cognome dell’utente. Puoi ordinare questa colonna da A a Z e da Z ad A. Fai clic sul nome di un utente per visualizzare ulteriori dettagli sull’utente. |
 | [!UICONTROL E-mail] | L’indirizzo e-mail associato all’utente. Puoi ordinare questa colonna da A a Z e da Z ad A. |
 | [!UICONTROL ID Type (Tipo di ID)] | Il tipo di identità per l’account dell’utente. È possibile applicare un filtro per visualizzare tipi di ID specifici. Per ulteriori informazioni, consulta [Manage identity types (Gestisci tipi di identità)](https://helpx.adobe.com/it/enterprise/using/identity.html). |
 | [!UICONTROL Soluzioni] | Riepilogo delle applicazioni Experience Cloud a cui l’utente può accedere. Per limitare l’elenco di utenti con accesso specifico all’applicazione puoi applicare i filtri. |
@@ -49,7 +49,7 @@ Puoi eseguire ricerche, oltre a ordinare o filtrare le viste personalizzate dell
 
 * Puoi cercare gli utenti per nome o e-mail. Le ricerche corrispondono alla stringa di testo digitata.
 * Ordina le colonne in base ai valori crescenti o decrescenti. L’operazione può essere eseguita nelle colonne [!UICONTROL Nome], [!UICONTROL E-mail] e [!UICONTROL Ultimo accesso].
-* Per applicare all’elenco degli utenti più filtri con criteri specifici, seleziona l’icona **[!UICONTROL Filtra per]**. Quando vengono applicate più categorie di filtro, le ricerche contengono la soluzione `AND` ID TYPE `AND` del dominio e-mail.
+* Per applicare più filtri all&#39;elenco degli utenti con criteri specifici, fare clic su **[!UICONTROL Filtra per]**. Quando vengono applicate più categorie di filtro, le ricerche contengono la soluzione `AND` ID TYPE `AND` del dominio e-mail.
 
 | Elemento | Descrizione |
 |---------|----------|
@@ -59,7 +59,7 @@ Puoi eseguire ricerche, oltre a ordinare o filtrare le viste personalizzate dell
 
 ## Visualizzare i dettagli degli utenti
 
-Per visualizzare i dettagli di un utente, nella pagina [!UICONTROL Utenti] seleziona l’indirizzo e-mail dell’utente in questione.
+Per visualizzare i dettagli di un utente, nella pagina [!UICONTROL Utenti], seleziona l’e-mail dell’utente in questione.
 
 ![Visualizzare i dettagli utente in Admin Console](../assets/admin-tool-user-details.png)
 
@@ -113,7 +113,7 @@ In questa pagina viene visualizzato l’elenco completo dei criteri di Experienc
 
 * Puoi cercare i profili di prodotto per nome. Le ricerche corrispondono alla stringa di testo digitata.
 * Ordina le colonne in base ai valori crescenti o decrescenti. Questo ordinamento si applica a [!UICONTROL profilo prodotto,] [!UICONTROL Prodotto,] [!UICONTROL Istanza,] [!UICONTROL Numero di utenti,] e [!UICONTROL Numero di sviluppatori,] Colonne.
-* Per applicare più filtri in modo da elencare i profili di prodotto secondo criteri specifici, seleziona l’icona **[!UICONTROL Filtra per]**. Quando vengono applicate più categorie di filtri, le ricerche contengono i Gruppi `AND` Istanza `AND` Soluzione.
+* Per applicare più filtri in modo da elencare i profili di prodotto con caratteristiche specifiche, fai clic sull’icona **[!UICONTROL Filtra per]**. Quando vengono applicate più categorie di filtri, le ricerche contengono i Gruppi `AND` Istanza `AND` Soluzione.
 
 | Elemento | Descrizione |
 |---------|----------|
