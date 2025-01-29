@@ -7,8 +7,8 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: e06568253b81742912b99bdf6e94c282abe2d429
-workflow-type: tm+mt
+source-git-commit: 7bb32ff62b11cdc3fa5df9d14a9481d5ada657ab
+workflow-type: ht
 source-wordcount: '508'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 [Experience Cloud](https://experience.adobe.com) è un insieme integrato di applicazioni, prodotti e servizi Adobe per il marketing digitale. L’interfaccia intuitiva consente di accedere rapidamente alle applicazioni cloud, alle funzionalità dei prodotto e ai servizi.
 
-![Experience Cloud](assets/landing.png){width="100" zoomable="yes"}
+![Experience Cloud](assets/landing.png)
 
 Dall’area dell’intestazione di Experience Cloud, è possibile:
 
@@ -37,7 +37,7 @@ Accedi e verifica di essere nell&#39;[organizzazione](administration/organizatio
 1. Digita la tua password.
 1. Verifica di essere nell’organizzazione giusta.
 
-   ![Verifica di essere nell’organizzazione corretta](assets/organizations-menu.png){width="100" zoomable="yes"}
+   ![Verifica di essere nell’organizzazione corretta](assets/organizations-menu.png)
 
    **Verifica l’organizzazione**
 
@@ -53,13 +53,13 @@ Dopo aver effettuato l’accesso ad Experience Cloud, è possibile accedere rapi
 
 Per accedere alle applicazioni e ai servizi Experience Cloud per i quali disponi dei diritti di accesso nella tua organizzazione, passa al selettore delle applicazioni ![menu](assets/apps-icon.png).
 
-![Accedere alle applicazioni Experience Cloud](assets/platform-core-services.png){width="100" zoomable="yes"}
+![Accedere alle applicazioni Experience Cloud](assets/platform-core-services.png)
 
 ## Ottenere assistenza e supporto {#support}
 
 Accedi ai contenuti di apprendimento e alla guida utilizzando il **[!UICONTROL Centro assistenza]** (![risorsa](assets/help-icon.png)) nell’intestazione, dove sono inclusi contenuti guida (documentazione, tutorial e corsi) su [Experience League](https://experienceleague.adobe.com/?lang=it#home), nonché le risorse aggiuntive per le singole applicazioni. Puoi anche inviare feedback aperti e creare ticket di supporto con priorità.
 
-![Ottenere assistenza e supporto](assets/search-menu.png){width="100" zoomable="yes"}
+![Ottenere assistenza e supporto](assets/search-menu.png)
 
 Il menu [!UICONTROL Aiuto] consente inoltre di accedere a:
 
@@ -83,6 +83,6 @@ Nel menu [!UICONTROL Profilo] è possibile:
 
 Fai clic sull’icona a forma di campana per visualizzare notifiche e annunci. Gli annunci possono riferirsi ad aggiornamenti rilevanti e fruibili, inclusi rilasci di prodotto, avvisi di manutenzione, elementi condivisi e richieste di approvazione.
 
-![Notifiche e annunci](assets/notifications-menu-small.png){width="100" zoomable="yes"}
+![Notifiche e annunci](assets/notifications-menu-small.png)
 
 Per gestire notifiche e avvisi, vedere [Preferenze account e notifiche](features/account-preferences.md)
