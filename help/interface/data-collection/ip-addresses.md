@@ -2,20 +2,20 @@
 title: Indirizzi IP utilizzati da Experience Cloud
 description: Se il firewall dell’organizzazione blocca gli indirizzi IP provenienti da Adobe, utilizza questo elenco per aggiornare le impostazioni del firewall.
 exl-id: 1fca8d3b-ae8b-4095-96ef-d165f912b4c6
-source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
+source-git-commit: faa9b8067a85f86cc0b559bdeeaed80df2339c7d
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 5%
+source-wordcount: '374'
+ht-degree: 11%
 
 ---
 
 # Indirizzi IP utilizzati da Experience Cloud
 
-Alcune configurazioni del firewall bloccano gli indirizzi IP provenienti dai server di raccolta dati di Adobe o dai server responsabili dell’accesso ai dati. Puoi utilizzare questo elenco di intervalli per modificare le impostazioni del firewall dell’organizzazione per consentire l’accesso e l’invio di dati dall’interno dell’organizzazione. Questa pagina include sia i sistemi in entrata (come la raccolta dati) che i sistemi in uscita (come i feed di dati in Adobe Analytics) utilizzati da Adobe.
+Alcune configurazioni del firewall bloccano gli indirizzi IP provenienti dai server di raccolta dati o dai server responsabili dell’accesso ai dati di Adobe. Puoi utilizzare questo elenco di intervalli per modificare le impostazioni del firewall dell’organizzazione per consentire l’accesso e l’invio di dati dall’interno dell’organizzazione. Questa pagina include sia i sistemi in entrata (come la raccolta dati) che i sistemi in uscita (come i feed di dati in Adobe Analytics) utilizzati da Adobe.
 
 >[!IMPORTANT]
 >
->Adobe fa del suo meglio per mantenere aggiornato questo documento, ma non può garantire che l’elenco degli intervalli IP rimanga lo stesso. Tra i possibili cambiamenti vi sono la crescita e l&#39;espansione dell&#39;attività, un registro Internet richiede modifiche allo spazio di indirizzi IP di Adobe o un provider di servizi Internet smette di funzionare.
+>Adobe fa del suo meglio per mantenere aggiornato questo documento, ma non può garantire che l’elenco degli intervalli IP rimanga lo stesso. Tra i possibili cambiamenti vi sono la crescita e l&#39;espansione dell&#39;attività, un registro Internet richiede modifiche allo spazio di indirizzi IP di Adobe o un provider di servizi Internet cessa di funzionare.
 
 Oltre ai blocchi di indirizzi IP elencati di seguito, i singoli prodotti Adobe Experience Cloud dispongono di indirizzi IP propri che utilizzano:
 
@@ -25,7 +25,7 @@ Oltre ai blocchi di indirizzi IP elencati di seguito, i singoli prodotti Adobe E
 
 ## Tutti i blocchi di indirizzi IP di Adobe
 
-La tabella seguente descrive tutti gli indirizzi IP di proprietà dell’Adobe. Questa tabella include tutti gli uffici dipendenti Adobe e i data center gestiti da Adobe a livello globale. Non sono inclusi i servizi ospitati su cloud pubblici.
+La tabella seguente descrive tutti gli indirizzi IP di proprietà di Adobe. Questa tabella include tutti gli uffici dipendenti Adobe e i data center gestiti da Adobe a livello globale. Non sono inclusi i servizi ospitati su cloud pubblici.
 
 | Blocco IP (notazione CIDR) |
 | --- |
@@ -78,6 +78,7 @@ Tutti gli intervalli IP in questa sezione sono inclusi nella tabella precedente.
 | Singapore | `172.82.240.88/29` |
 | Virginia | `63.140.38.0/23` |
 | Virginia | `63.140.54.0/24` |
+| Virginia | `67.202.5.244` |
 
 {style="table-layout:auto"}
 
