@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: c82821c4-aa5d-48ae-8bef-5937fede8db2
-source-git-commit: 91f06f12c9c9ec8df19f513f2a09de0b871137cb
+source-git-commit: 4b9318849f76941cb59ab5e9ca08045705c8ec46
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 4%
@@ -41,7 +41,7 @@ Di seguito sono elencate le risorse necessarie per iniziare a utilizzare Admin C
 
 | Collegamento Aiuto | Descrizione |
 | ------- | ------- |
-| [Configura identità e Single Sign-On](https://helpx.adobe.com/it/enterprise/using/set-up-identity.html) | **[!UICONTROL Admin Console]** > **[!UICONTROL Impostazioni]** <br>Scopri come impostare gli account degli utenti con diversi tipi di ID con o senza Single Sign-On (SSO). Configura SSO per il software Adobe, configura le impostazioni SAML e segui le domande e gli errori più comuni. |
+| [Configura identità e Single Sign-On](https://helpx.adobe.com/it/enterprise/using/set-up-identity.html) | **[!UICONTROL Admin Console]** > **[!UICONTROL Impostazioni]** <br> Scopri come impostare gli account degli utenti con diversi tipi di ID con o senza Single Sign-On (SSO). Configura SSO per il software Adobe, configura le impostazioni SAML e segui le domande e gli errori più comuni. |
 | [Imposta organizzazione tramite trust tra directory](https://helpx.adobe.com/enterprise/using/directory-trust.html) | Autentica gli utenti in base a un dominio già richiesto da un’altra organizzazione. Per informazioni su come trovare e cambiare organizzazioni, vedere [Organizzazioni in Experience Cloud](organizations.md). |
 | [Impostazioni di autenticazione (enterprise)](https://helpx.adobe.com/enterprise/using/authentication-settings.html) | Admin Console supporta diversi livelli e criteri di protezione tramite password per garantire la sicurezza. È possibile specificare di utilizzare un livello di protezione tramite password da applicare a tutti gli utenti dell&#39;organizzazione. |
 | [Contatti per privacy e sicurezza](https://helpx.adobe.com/enterprise/using/security-contacts.html) | Proteggi i dati della tua organizzazione e quelli degli utenti. Se si verifica un incidente di sicurezza che coinvolge le nostre soluzioni software, le notifiche vengono inviate ai responsabili della conformità appropriati. Le aziende dispongono di personale il cui ruolo è specifico per la protezione dei dati, l&#39;integrità e altre questioni relative alla conformità. Pertanto, le informazioni di contatto per tale personale sono essenziali per contribuire a garantire una notifica rapida in caso di incidente di sicurezza. |
