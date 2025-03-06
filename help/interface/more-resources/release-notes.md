@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: f563e49a1650dd82a219b3fbaf931afb9373a1f4
+source-git-commit: c9226cb71fdda9a04c4b8d3d25f348746af62865
 workflow-type: tm+mt
-source-wordcount: '1235'
+source-wordcount: '1232'
 ht-degree: 88%
 
 ---
@@ -28,7 +28,7 @@ Per le note sulla versione riguardanti tutte le applicazioni, consulta [Note sul
 
 | Data | Aggiornamento | Descrizione |
 | -----------| -----------| ---------- |
-| venerdì 6 marzo 2025 | Opzioni del menu di scelta rapida | Experience Cloud: correzione dei frame delle schede di navigazione delle intestazioni per consentire le funzioni del menu a discesa del browser mediante clic con il pulsante destro del mouse. Questo risolve un problema introdotto nella versione di febbraio del sistema di progettazione Spectrum 2. |
+| venerdì 6 marzo 2025 | Correzione delle opzioni del menu di scelta rapida | Le schede di navigazione dell’intestazione di Experience Cloud ora consentono le funzioni del menu a discesa del browser, accessibili mediante clic con il pulsante destro del mouse. Questo risolve un problema introdotto nella versione di febbraio del sistema di progettazione Spectrum 2. |
 
 ## Febbraio 2025
 
