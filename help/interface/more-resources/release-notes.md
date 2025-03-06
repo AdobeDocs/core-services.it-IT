@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: b44a57082f65be8f9957d48ee50adcc1b6f72ce5
+source-git-commit: f563e49a1650dd82a219b3fbaf931afb9373a1f4
 workflow-type: tm+mt
-source-wordcount: '1200'
-ht-degree: 90%
+source-wordcount: '1235'
+ht-degree: 88%
 
 ---
 
@@ -24,11 +24,17 @@ Per un elenco degli aggiornamenti della documentazione, consulta [Aggiornamenti 
 
 Per le note sulla versione riguardanti tutte le applicazioni, consulta [Note sulla versione di Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it).
 
+## Marzo 2025
+
+| Data | Aggiornamento | Descrizione |
+| -----------| -----------| ---------- |
+| venerdì 6 marzo 2025 | Opzioni del menu di scelta rapida | Experience Cloud: correzione dei frame delle schede di navigazione delle intestazioni per consentire le funzioni del menu a discesa del browser mediante clic con il pulsante destro del mouse. Questo risolve un problema introdotto nella versione di febbraio del sistema di progettazione Spectrum 2. |
+
 ## Febbraio 2025
 
 | Data | Funzione | Descrizione |
 | -----------| -----------| ---------- |
-| 13 febbraio (data di rilascio pianificata) | Spectrum 2 | Il frame dell’applicazione Experience Cloud, che include la barra di intestazione e i componenti a cui si accede dalla barra di intestazione, nonché la barra di navigazione a sinistra per alcune applicazioni, verrà aggiornato a Spectrum 2, il più recente sistema di progettazione di Adobe. Questo design aggiornato include un&#39;iconografia aggiornata, ma le stesse funzionalità. Tuttavia, diversi elementi nell’intestazione vengono riposizionati per allinearli ad altri siti e applicazioni di Adobe. |
+| 13 febbraio | Spectrum 2 | Il frame dell’applicazione Experience Cloud, che include la barra di intestazione e i componenti a cui si accede dalla barra di intestazione, nonché la barra di navigazione a sinistra per alcune applicazioni, verrà aggiornato a Spectrum 2, il più recente sistema di progettazione di Adobe. Questo design aggiornato include un&#39;iconografia aggiornata, ma le stesse funzionalità. Tuttavia, diversi elementi nell’intestazione vengono riposizionati per allinearli ad altri siti e applicazioni di Adobe. |
 
 ## Gennaio 2025
 
