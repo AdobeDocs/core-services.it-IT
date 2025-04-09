@@ -8,7 +8,7 @@ index: true
 source-git-commit: 34b02683979c36728cddf8cf6d152d84c910f735
 workflow-type: tm+mt
 source-wordcount: '234'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 97%
       + [Caricare una risorsa in una cartella condivisa](services/assets/upload.md)
       + [Requisiti del file risorsa per la condivisione](services/assets/file-reqs.md)
       + [Comportamento delle cartelle condivise](services/assets/behavior.md)
-   + Libreria del pubblico {#audiences}
+   + Libreria pubblico {#audiences}
       + [Panoramica](services/audiences/overview.md)
       + [Creazione di un pubblico](services/audiences/create.md)
    + [Exchange](services/exchange.md)
