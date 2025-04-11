@@ -10,10 +10,10 @@ hide: false
 hidefromtoc: true
 index: n
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: 3f1065affe2665bb0867de02e4aef4c755c5f201
+source-git-commit: 4d784762d7d533b672e0cfa6944a3f26ebca0eaa
 workflow-type: tm+mt
-source-wordcount: '1808'
-ht-degree: 4%
+source-wordcount: '1994'
+ht-degree: 5%
 
 ---
 
@@ -44,9 +44,10 @@ Tutte le risposte relative alla conoscenza del prodotto sono verificabili e cita
 >Versione sottotitolo (solo un inizio)...
 
 
-* [GenStudio for Performance Marketing](#gspm)
-* [Experience Manager Sites (Cloud Service)](#aem-sites)
-* Altri contenuti in arrivo...
+* [Adobe GenStudio for Performance Marketing](#gspm)
+* [Adobe Experience Manager Sites (Cloud Service)](#aem-sites)
+* [Adobe Journey Optimizer](#journey-optimizer)
+* [ADOBE JOURNEY OPTIMIZER PRIME e ULTIMATE](#ajo-prime-ultimate)
 
 ### GenStudio for Performance Marketing {#gspm}
 
@@ -84,7 +85,7 @@ Vedi [Genera immagine](https://experienceleague.adobe.com/en/docs/experience-man
 
 **Compatibilità con Adobe Firefly:** Sì
 
-## Adobe Journey Optimizer
+## Journey Optimizer {#journey-optimizer}
 
 Journey Optimizer utilizza [Assistente AI](https://experienceleague.adobe.com/it/docs/experience-platform/ai-assistant/home) con due classi di domande:
 
@@ -104,7 +105,31 @@ Per ulteriori informazioni, consulta [Utilizzare l&#39;Assistente AI](https://ex
 
 **Compatibilità con Adobe Firefly:** No
 
+## JOURNEY OPTIMIZER PRIME e ULTIMATE {#ajo-prime-ultimate}
 
+Journey Optimizer Prime e Ultimate utilizzano [AI Assistant per Content Accelerator](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative) per portare suggerimenti proattivi di varianti di contenuto per testo e immagini.
+
+Questa funzione è disponibile per i canali e-mail, push, web e SMS. Fornisce la generazione di testo e immagini basati su prompt.
+
+**E-mail** - genera un&#39;e-mail completa, solo testo o solo immagine. [Ulteriori informazioni...](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/generative-email)
+
+**Notifica push** - Genera una notifica push completa, solo testo o solo immagine. [Ulteriori informazioni...](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/generative-push)
+
+**SMS** - Genera un SMS completo o solo testo. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/generative-sms)
+
+**Pagina Web** - Genera immagini di pagine Web o testo di pagine Web. [Ulteriori informazioni...](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/generative-web)
+
+**Contenuto** - Genera contenuti per varie campagne di messaggistica. [Ulteriori informazioni...](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/generative-experimentation)
+
+**Nota:** l&#39;output di Content Accelerator in AJO Prime e Ultimate è indennizzato.
+
+**Compatibilità con Adobe Firefly:** Sì
+
+## Journey Optimizer B2B Edition {#ajo-b2b}
+
+Utilizza [Assistente AI](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/ai-assistant) per i prompt di informazioni sul prodotto.
+
+**Conoscenza del prodotto** - Esegue query sugli archivi dati di Adobe (ad esempio la documentazione del prodotto di Experience League) per il prodotto insight. Questo output è indipendente dal cliente. | <ul><li>**Input:** Come si invia un&#39;e-mail in un percorso di account?</li><li>**Output:** la conoscenza del prodotto viene richiamata da Experience League (documentazione pubblica). [Ulteriori informazioni...](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/ai-assistant)</li></ul>   | No   |
 
 ## Applicazioni Experience Cloud che utilizzano IA
 
