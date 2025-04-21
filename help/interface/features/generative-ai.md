@@ -10,10 +10,10 @@ hide: false
 hidefromtoc: true
 index: n
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: d54af09033b1a0727e9b7aa3dbf4a9be6003a8ea
+source-git-commit: 4c0e9ef974ab31a7d82a61c3a69f7d76389774f9
 workflow-type: tm+mt
-source-wordcount: '1371'
-ht-degree: 3%
+source-wordcount: '1314'
+ht-degree: 4%
 
 ---
 
@@ -77,7 +77,7 @@ Dopo aver creato le varianti, puoi utilizzare il contenuto del sito web e misura
 
 ### Campi di input e output
 
-**Input:** I campi di input includono:
+I campi di input includono:
 
 * Numero di varianti da generare
 * Audience Source
@@ -85,9 +85,9 @@ Dopo aver creato le varianti, puoi utilizzare il contenuto del sito web e misura
 * Contesto aggiuntivo
 * Richieste guidate dal cliente
 
-**Output:** Contenuto generato/Copia di mercato. Puoi anche generare immagini in Adobe Express utilizzando le funzionalità di intelligenza artificiale generative di Firefly.
+Il risultato è contenuto generato o copia di mercato.
 
-Per ulteriori informazioni, consulta [Genera immagine](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations#generate-image).
+Puoi anche generare immagini in Adobe Express utilizzando le funzionalità di intelligenza artificiale generative di Firefly. [Ulteriori informazioni...](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations#generate-image)
 
 **Compatibile con Adobe Firefly:** Sì
 
@@ -145,7 +145,7 @@ Campaign Managed Cloud Services utilizza l&#39;[Assistente IA per l&#39;accelera
 
 ## Assistente AI in Customer Journey Analytics {#cja}
 
-Customer Journey Analytics utilizza l&#39;[Assistente AI](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/ai-assistant) per aiutarti a scoprire le conoscenze e le informazioni sul prodotto da Experience League.
+Customer Journey Analytics utilizza l&#39;[Assistente AI](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant) per aiutarti a scoprire le conoscenze e le informazioni sul prodotto da Experience League.
 
 **Esempio di prompt:** Come si crea una metrica calcolata?
 
@@ -173,7 +173,7 @@ Ad esempio:
 
 * Input: _Quanti set di dati sono disponibili?_
 
-* Risposta: _L&#39;output di Operational Insights dipende dai metadati estratti dagli oggetti business del cliente (attributi, tipi di pubblico, flussi di dati, set di dati, destinazioni, schemi e origini) e include un collegamento a una pagina dell&#39;interfaccia utente specifica contenente i dati interrogati._
+* Risposta: l’output di Operational Insights dipende dai metadati estratti dagli oggetti business del cliente (Attributi, Tipi di pubblico, Flussi di dati, Set di dati, Destinazioni, Schemi e Origini) e include un collegamento a una pagina dell’interfaccia utente specifica contenente i dati oggetto di query.
 
 Per altri esempi, vedi le tabelle di input _Conoscenza del prodotto_ e _Informazioni operative_ in [Assistente IA in Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/ai-assistant/home)
 
@@ -181,12 +181,22 @@ Per altri esempi, vedi le tabelle di input _Conoscenza del prodotto_ e _Informaz
 
 ## Dynamic Chat in Marketo {#marketo}
 
-[Dynamic Chat](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/dynamic-chat-overview) crea conversazioni basate sull&#39;intelligenza artificiale con domande e risposte personalizzate e preapprovate, nonché riepilogo delle conversazioni |<ul><li> **Genera domande:** Fornisci gli URL da cui il contenuto viene estratto e utilizzato per generare domande/risposte. </li><li> **Riepilogo conversazioni:** genera un riepilogo di una conversazione chat. </li></ul> [Ulteriori informazioni...](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/response-library)  | No |
+Le funzionalità generative basate sull’intelligenza artificiale di Adobe Dynamic Chat consentono di ottimizzare la produttività per gli agenti di vendita, ottenere informazioni sulle intenzioni dei visitatori del sito web e rispondere alle domande dei visitatori in modo sicuro. Puoi pre-approvare le domande, le risposte e il riepilogo della conversazione. [Ulteriori informazioni...](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/overview)
+
+**Compatibile con Firefly:** No
 
 ## Assistente AI in Workfront {#workfront}
 
-L&#39;[Assistente AI](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview) in Workfront ti aiuta a svolgere il tuo lavoro offrendo informazioni e suggerimenti in-app in una conversazione in lingua naturale. L’Assistente AI offre le seguenti funzionalità: riepiloga progetti/attività/problemi/documenti, fornisce istruzioni o informazioni di riferimento ricavate dalla documentazione di Workfront su Experience League, genera o perfeziona formule per i campi personalizzati calcolati.  | <ul><li>**Riepiloga input progetto:** Riepiloga il progetto </li><li> **Riepiloga output progetto:** Restituisce brevi descrizioni dello scopo e dello stato del progetto, fornisce esempi di attività completate e ancora in sospeso e fornisce ulteriori dettagli e note.</li><li> **Generare/Perfezionare l&#39;input della formula:** &quot;Riscrivere la formula per rimuovere l&#39;errore di espressione non valida.&quot; </li><li> **Genera/Perfeziona output formula:** Formula generata o raffinata. </li></ul>**Nota:** la generazione della formula rivista da parte dell&#39;Assistente IA potrebbe richiedere alcuni minuti, a seconda delle dimensioni e della complessità della formula. | No  |
+L’Assistente AI in Workfront ti aiuta a svolgere il tuo lavoro offrendo informazioni e suggerimenti in-app. Puoi eseguire le seguenti operazioni:
 
+* Ottenere riepiloghi di alcuni oggetti, fornendo una visualizzazione di alto livello dell&#39;intento o dei dettagli dell&#39;oggetto.
+* Fai domande e lascia che [!DNL AI Assistant] trovi le risposte su Experience League.
+* Ottieni formule generate in base alle tue richieste. Puoi anche risolvere gli errori nelle espressioni personalizzate non valide nei campi calcolati.
+* Individuare progetti, attività e problemi.
+
+[Ulteriori informazioni...](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview)
+
+**Compatibile con Firefly:** No
 
 <!-- ## Experience Cloud applications that use AI
 
