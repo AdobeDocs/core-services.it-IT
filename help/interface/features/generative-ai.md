@@ -1,15 +1,15 @@
 ---
 title: IA nelle applicazioni Experience Cloud
-description: Scopri in che modo le applicazioni Experience Cloud utilizzano IA generativa e l’Assistente AI.
+description: Scopri l’intelligenza artificiale generativa e come le applicazioni Experience Cloud utilizzano genAI e AI Assistant.
 solution: Experience Cloud
 feature: AI Assistant, Generative AI
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: 7060cc75e06a00dd06475958f94b03ceaf39ae62
+source-git-commit: aad561869cdfa7ddbc66b296d0a46c8f49f83d94
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1313'
 ht-degree: 4%
 
 ---
@@ -34,6 +34,16 @@ Se sei un nuovo utente di Experience Cloud, puoi utilizzare l’intelligenza art
 
 Le risposte di Experience League relative alla conoscenza del prodotto sono verificabili e citate insieme ai collegamenti. Scopri i tipi di [prompt basati su obiettivi](https://experienceleague.adobe.com/it/docs/experience-platform/ai-assistant/home) per ottenere il massimo dall&#39;Assistente IA.
 
+<!-- **Your data remains yours**
+
+In AI Assistant, security is the priority:
+
+* Customer data is not used to train language models.
+* AI Assistant looks at only the documents that you tell it to. You are in control.
+* Your people can use AI Assistant only on documents they can access.
+* It's audit-ready: Responses are attributable to source documents.
+* Enterprise controls are in place to manage who has AI access in the company. -->
+
 ## Applicazioni con funzioni che supportano l’intelligenza artificiale
 
 * [GenStudio for Performance Marketing](#gspm)
@@ -52,7 +62,7 @@ Le risposte di Experience League relative alla conoscenza del prodotto sono veri
 
 ### GenStudio for Performance Marketing {#gspm}
 
-[GenStudio for Performance Marketing](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/home) non è una funzionalità ma una piattaforma generativa basata sull&#39;intelligenza artificiale. Le sue funzionalità di intelligenza artificiale generative trasformano il modo in cui i contenuti di marketing vengono creati, revisionati, condivisi e analizzati.
+[GenStudio for Performance Marketing](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/home) è una piattaforma generativa basata sull&#39;intelligenza artificiale con funzionalità in grado di trasformare il modo in cui i contenuti di marketing vengono creati, revisionati, condivisi e analizzati.
 
 Nella home di [Create](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/overview) puoi creare esperienze on-brand dalle prestazioni elevate. Genera contenuto per:
 
