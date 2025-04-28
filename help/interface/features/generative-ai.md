@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: 835bcd684384d1c8809fba062c9e9d8edd4de535
+source-git-commit: c97ace2c192517a49a01c4247d9f6b4220e0514d
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1103'
 ht-degree: 3%
 
 ---
@@ -136,7 +136,13 @@ Compatibilità con Adobe Firefly: **No**
 
 ## [!DNL Customer Journey Analytics] {#cja-captions}
 
-I sottotitoli intelligenti in [!DNL Customer Journey Analytics] forniscono informazioni sul linguaggio naturale per le visualizzazioni di Workspace più utilizzate. I sottotitoli intelligenti sono ideali per gli analisti che hanno bisogno di narrazioni e contesto da condividere con altri utenti. Gli utenti aziendali possono utilizzarlo per scoprire rapidamente soluzioni di alto livello.
+È possibile utilizzare _Didascalie intelligenti_ in [!DNL Customer Journey Analytics] per ottenere informazioni sul linguaggio naturale per le visualizzazioni di Workspace più utilizzate. I sottotitoli intelligenti sono ideali per gli analisti che hanno bisogno di narrazioni e contesto da condividere con altri utenti. Gli utenti aziendali possono utilizzarlo per scoprire rapidamente soluzioni di alto livello.
+
+Ad esempio:
+
+* **Input:** In CJA, esegui una visualizzazione supportata (inclusi grafico a linee, ad area, a barre, Flusso o Abbandono), quindi fai clic su **[!UICONTROL Didascalie intelligenti]**.
+
+* **Output:** Visualizza didascalie generate automaticamente in linguaggio naturale che mostrano il contesto e le principali operazioni da eseguire. Puoi quindi eseguire azioni sui dati generati, ad esempio rivederli, copiarli e condividerli con la tua organizzazione. [Scopri come](https://video.tv.adobe.com/v/3420131/?quality=12&learn=on#_blank)
 
 [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)
 
