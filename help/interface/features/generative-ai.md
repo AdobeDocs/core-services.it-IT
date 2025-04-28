@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: cadc0d7eaaa9acb868f96561c2a562d9d29fc9ac
+source-git-commit: 0e9f35807a856e87923b2ba48f37365870cbd339
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1174'
 ht-degree: 3%
 
 ---
@@ -36,15 +36,16 @@ L’intelligenza artificiale generativa è un tipo di intelligenza artificiale c
 
 [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/landing)
 
-**I tuoi dati rimangono tuoi**
+<!-- **Your data remains yours**
 
-Nell’Assistente AI, la sicurezza è la priorità:
+In AI Assistant, security is the priority:
 
-* I dati dei clienti non vengono utilizzati per addestrare i modelli di lingua.
-* L&#39;Assistente AI esamina solo i documenti a cui viene comunicato. Tu hai il controllo.
-* Le persone possono utilizzare l&#39;Assistente AI solo sui documenti a cui possono accedere.
-* È pronto per l’audit: le risposte sono attribuibili ai documenti di origine.
-* Sono presenti controlli aziendali per gestire chi dispone dell’accesso ai nell’azienda.
+* Customer data is not used to train language models.
+* AI Assistant looks at only the documents that you tell it to. You are in control.
+* Your people can use AI Assistant only on documents they can access.
+* It's audit-ready: Responses are attributable to source documents.
+* Enterprise controls are in place to manage who has AI access in the company.
+ -->
 
 ## Disponibilità di IA nei prodotti Experience Cloud
 
