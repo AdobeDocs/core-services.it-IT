@@ -53,6 +53,7 @@ L’esempio seguente mostra come creare le regole per un pubblico composito. Que
 1. In [!UICONTROL Regole], seleziona un&#39;origine attributo:
 
    * **[!UICONTROL Dati Real-Time Analytics]** (o dati non elaborati): si tratta di dati di attributi derivati da richieste di immagini di Real-Time Analytics e includono dati come eVar ed eventi. Quando utilizzi questa origine di attributi, devi selezionare una suite di rapporti e definire la dimensione o l’evento da includere. Questa selezione di suite di rapporti fornisce la struttura delle variabili utilizzata dalla suite di rapporti.
+
    >[!NOTE]
    >
    >A causa della memorizzazione nella cache, sono necessarie 12 ore prima che l’eliminazione delle suite di rapporti di Analytics possa essere visibile, in Experience Cloud.
