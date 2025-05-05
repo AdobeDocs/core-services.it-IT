@@ -34,4 +34,4 @@ Analytics utilizza i cookie per definire nuovi visitatori in modo anonimo, aiuta
 
 ## Cookie impostati da plug-in
 
-Alcune implementazioni fanno uso di plug-in, che sono snippet di codice che forniscono funzionalità aggiuntive per Analytics. Questi plug-in possono impostare cookie non elencati sopra. Per un elenco dei plug-in disponibili e dei cookie impostati, vedere [Panoramica dei plug-in di Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/plugins/impl-plugins).
+Alcune implementazioni fanno uso di plug-in, che sono snippet di codice che forniscono funzionalità aggiuntive per Analytics. Questi plug-in possono impostare cookie non elencati sopra. Per un elenco dei plug-in disponibili e dei cookie impostati, vedere [Panoramica dei plug-in di Analytics](https://experienceleague.adobe.com/it/docs/analytics/implementation/vars/plugins/impl-plugins).

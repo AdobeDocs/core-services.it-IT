@@ -100,5 +100,5 @@ Assistenza per problemi derivanti dal collegamento dell’account.
 
 In genere, il collegamento dell’account ha esito negativo perché l’Adobe ID è collegato a un utente precedente. Quando non è possibile eseguire il collegamento, prova le seguenti operazioni:
 
-* [Contatta l’Assistenza Adobe](https://experienceleague.adobe.com/?support-solution=General&amp;lang=it#support).
+* [Contatta l’Assistenza Adobe](https://experienceleague.adobe.com/it?support-solution=General&amp;lang=it#support).
 * Durante la risoluzione del problema, accedi all’applicazione con la procedura standard.

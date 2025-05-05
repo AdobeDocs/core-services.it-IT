@@ -81,7 +81,7 @@ Segui questi passaggi nella pagina Crea nuovo Source di attributi del cliente in
 
       * **Tag:** L&#39;ID alias corrisponde al valore *Integration Code* in [!UICONTROL Impostazioni cliente], nello strumento [Servizio ID Experience Cloud](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=it).
 
-      * **API visitatore:** l&#39;ID alias corrisponde agli [ID cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) aggiuntivi che puoi associare a ogni visitatore.
+      * **API visitatore:** l&#39;ID alias corrisponde agli [ID cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=it) aggiuntivi che puoi associare a ogni visitatore.
 
         Ad esempio, *“crm_ id”* in:
 
@@ -164,4 +164,4 @@ In [!DNL Target] puoi selezionare un attributo del cliente dalla sezione [!UICON
 
 ![Utilizzo degli Attributi del cliente in Adobe Target](assets/crs-add-attribute-target.png)
 
-Consulta [Creazione di un nuovo pubblico](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html) nella guida di [!DNL Target].
+Consulta [Creazione di un nuovo pubblico](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=it) nella guida di [!DNL Target].
