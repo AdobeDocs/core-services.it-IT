@@ -5,10 +5,10 @@ breadcrumb-title: Interfaccia e amministrazione di Experience Cloud
 title: Interfaccia e amministrazione di Experience Cloud
 description: Scopri l’interfaccia di Experience Cloud, i cookie e le preferenze dell’account utente. Gestisci i prodotti e configura il servizio per le persone, inclusi gli attributi del cliente e la libreria Pubblico. Condividi le risorse di Experience Cloud.
 index: true
-source-git-commit: 34b02683979c36728cddf8cf6d152d84c910f735
-workflow-type: ht
-source-wordcount: '243'
-ht-degree: 100%
+source-git-commit: 82153937f2fbc9b14d76d9ba52b77c41f0a138db
+workflow-type: tm+mt
+source-wordcount: '236'
+ht-degree: 98%
 
 ---
 
@@ -17,10 +17,10 @@ ht-degree: 100%
 
 + [Interfaccia e amministrazione di Experience Cloud](experience-cloud.md)
 
-+ Servizi {#services} {#services}
++ Servizi {#services}
    + [Panoramica](services/overview.md)
    + [Introduzione](services/getting-started.md)
-   + Risorse {#assets} {#assets}
+   + Risorse {#assets}
       + [Panoramica](services/assets/experience-cloud-assets.md)
       + [Condividere cartelle e risorse con Creative Cloud](services/assets/creative-cloud.md)
       + [Gestione degli utenti di Creative Cloud](services/assets/manage-cc-users.md)
@@ -28,11 +28,11 @@ ht-degree: 100%
       + [Caricare una risorsa in una cartella condivisa](services/assets/upload.md)
       + [Requisiti del file risorsa per la condivisione](services/assets/file-reqs.md)
       + [Comportamento delle cartelle condivise](services/assets/behavior.md)
-   + Libreria Pubblico {#audiences} {#audiences}
+   + Libreria pubblico {#audiences}
       + [Panoramica](services/audiences/overview.md)
       + [Creazione di un pubblico](services/audiences/create.md)
    + [Exchange](services/exchange.md)
-   + Attributi del cliente {#customer-attributes} {#customer-attributes}
+   + Attributi cliente {#customer-attributes}
       + [Panoramica](services/customer-attributes/attributes.md)
       + [Domande frequenti su Attributi del cliente](services/customer-attributes/faq-crs.md)
       + [Informazioni su file di dati e origini dati per Attributi del cliente](services/customer-attributes/crs-data-file.md)
@@ -46,24 +46,24 @@ ht-degree: 100%
       + [Considerazioni sulla privacy per Attributi del cliente](services/customer-attributes/privacy-mac.md)
    + [Trigger](services/triggers.md)
 
-+ Funzioni {#features} {#features}
++ Funzioni {#features}
    + [Preferenze e notifiche dell’account](features/account-preferences.md)
    + [IA nelle applicazioni Experience Cloud](features/generative-ai.md)
    + [Ricerca unificata](features/search.md)
    + [Apprendimento personalizzato](features/personalized-learning.md)
    + [Supporto di browser e lingue](browser-language.md)
 
-+ Amministrazione {#administration} {#administration}
++ Amministrazione {#administration}
    + [Gestione degli utenti e licenze dei prodotti](administration/admin-console.md)
    + [Visualizzare i dettagli dell’utente (Admin Tool)](administration/admin-tool-experience-cloud.md)
    + [Organizzazioni e collegamento di account](administration/organizations.md)
    + [Integrazioni di Experience Cloud](administration/integrations.md)
 
-+ Raccolta dati {#data-collection} {#data-collection}
++ Raccolta dati {#data-collection}
    + [Programma di certificazione gestito da Adobe](data-collection/adobe-managed-cert.md)
    + [Indirizzi IP](data-collection/ip-addresses.md)
    + [Domini](data-collection/domains.md)
-   + Cookie {#cookies} {#cookies}
+   + Cookie {#cookies}
       + [Panoramica sui cookie](data-collection/cookies/overview.md)
       + [Cookie di Advertising](data-collection/cookies/advertising.md)
       + [Cookie di Analytics](data-collection/cookies/analytics.md)
@@ -74,7 +74,7 @@ ht-degree: 100%
    + [Raccolta di dati per area geografica](data-collection/rdc.md)
    + [Utilizzare il recupero preventivo del DNS](data-collection/dns-prefetch.md)
 
-+ Altre risorse {#more-resources} {#more-resources}
++ Note sulla versione e risorse {#more-resources}
    + [Note sulla versione](more-resources/release-notes.md)
    + [Aggiornamenti alla documentazione](more-resources/doc-updates.md)
    + [Domande frequenti](more-resources/faq.md)
