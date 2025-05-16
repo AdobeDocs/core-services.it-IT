@@ -6,9 +6,9 @@ title: Interfaccia e amministrazione di Experience Cloud
 description: Scopri l’interfaccia di Experience Cloud, i cookie e le preferenze dell’account utente. Gestisci i prodotti e configura il servizio per le persone, inclusi gli attributi del cliente e la libreria Pubblico. Condividi le risorse di Experience Cloud.
 index: true
 source-git-commit: 82153937f2fbc9b14d76d9ba52b77c41f0a138db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '236'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
