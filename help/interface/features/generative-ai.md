@@ -34,9 +34,9 @@ Questo tipo di IA è in contrasto con [IA agente](agentic-ai.md) (framework agen
 
 * **Conoscenza del prodotto:** La conoscenza del prodotto si riferisce a concetti e argomenti basati sulla documentazione di Experience League. Scopri come creare [prompt basati su obiettivi](https://experienceleague.adobe.com/it/docs/experience-platform/ai-assistant/home) efficaci per ottenere il massimo da [!UICONTROL Assistente IA]. Tutte le risposte di Experience League sono verificabili e citate con collegamenti.
 
-* **Informazioni operative:** [Informazioni operative](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/questions#objects-questions) si riferiscono a risposte generate sui tuoi oggetti metadati (attributi, tipi di pubblico, flussi di dati, set di dati e così via). Con [!UICONTROL Assistente AI], puoi eseguire in secondi ciò che altrimenti potrebbe richiedere ore o giorni.
+* **Informazioni operative:** [Informazioni operative](https://experienceleague.adobe.com/it/docs/experience-platform/ai-assistant/questions#objects-questions) si riferiscono a risposte generate sui tuoi oggetti metadati (attributi, tipi di pubblico, flussi di dati, set di dati e così via). Con [!UICONTROL Assistente AI], puoi eseguire in secondi ciò che altrimenti potrebbe richiedere ore o giorni.
 
-[Informazioni sull&#39;Assistente AI](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/landing)
+[Informazioni sull&#39;Assistente AI](https://experienceleague.adobe.com/it/docs/experience-platform/ai-assistant/landing)
 
 ## Disponibilità di IA nei prodotti Experience Cloud
 
@@ -45,17 +45,17 @@ Di seguito è riportato un elenco delle applicazioni Experience Cloud che utiliz
 | **Nome prodotto** | **IA generativa** | **Assistente IA** | **Compatibilità Firefly** |
 |------------------|-------------------------|------------------|---------------------------|
 | [Adobe GenStudio for Performance Marketing](#gspm) | Sì.  <br> consente ai team di marketing e creativi di creare contenuti personalizzati per il brand. | Non applicabile | Sì |
-| [Adobe Experience Manager Sites](#aem) | Sì.  <br> Disponibile in [Genera varianti](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor?lang=en) per creare varianti di contenuto in base all&#39;input. | Non applicabile | Sì |
+| [Adobe Experience Manager Sites](#aem) | Sì.  <br> Disponibile in [Genera varianti](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor?lang=en) per creare varianti di contenuto in base all&#39;input. | Non applicabile | Sì |
 | [Sites Optimizer](#aem) | Sì.  <br> consente di analizzare e migliorare le prestazioni e l&#39;efficacia delle esperienze Web. | Non applicabile | No |
-| [Adobe Experience Manager Assets](#aem) | Sì.  <br> Disponibile in [Content Hub](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview?lang=en) e [Tag avanzati](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/smart-tags?lang=en#ai-smart-tags) generati da IA. | Non applicabile | Sì |
+| [Adobe Experience Manager Assets](#aem) | Sì.  <br> Disponibile in [Content Hub](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview?lang=en) e [Tag avanzati](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/manage/smart-tags?lang=en#ai-smart-tags) generati da IA. | Non applicabile | Sì |
 | [Adobe Journey Optimizer](#journey-optimizer) | Non applicabile | Sì.  <br> Disponibile per informazioni sul prodotto e sul funzionamento. | No |
-| | | AJO Prime e Ultimate offrono [Generazione di contenuti](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative?lang=en) per portare suggerimenti di varianti di contenuti proattivi per testo e immagini. | Sì |
+| | | AJO Prime e Ultimate offrono [Generazione di contenuti](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative?lang=en) per portare suggerimenti di varianti di contenuti proattivi per testo e immagini. | Sì |
 | [[!DNL Adobe Journey Optimizer] B2B edition](#ajo-b2b) | Non applicabile | Sì.  <br>Disponibile per informazioni sul prodotto. | No |
 | [[!DNL Campaign] Servizi cloud gestiti](#campaign-cs) | Non applicabile | Sì.  <br>Utilizza IA Assistant per Content Accelerator per generare automaticamente contenuti personalizzati, coinvolgenti ed efficaci in base agli obiettivi di marketing su canali quali e-mail, SMS e push | Sì |
-| [[!DNL Customer Journey Analytics]](#cja) | Sì.  GenAI <br> utilizzato in:<ul><li> [Didascalie intelligenti](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions?lang=en): per approfondimenti sulle visualizzazioni di Workspace più utilizzate.</li><li>[Content Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/report/report?lang=en#template): per assegnare automaticamente i metadati delle risorse.</li></ul> | Sì.  <br>L&#39;Assistente AI può aiutarti con:<ul><li>[Conoscenza del prodotto](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant?lang=en) (Experience League)</li><li>[Agente di supporto del prodotto](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/new-features/customer-support?lang=en) </li><li>[Data Insights Agent](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai)</li></ul> | No |
+| [[!DNL Customer Journey Analytics]](#cja) | Sì.  GenAI <br> utilizzato in:<ul><li> [Didascalie intelligenti](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions?lang=en): per approfondimenti sulle visualizzazioni di Workspace più utilizzate.</li><li>[Content Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/content-analytics/report/report?lang=en#template): per assegnare automaticamente i metadati delle risorse.</li></ul> | Sì.  <br>L&#39;Assistente AI può aiutarti con:<ul><li>[Conoscenza del prodotto](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant?lang=en) (Experience League)</li><li>[Agente di supporto del prodotto](https://experienceleague.adobe.com/it/docs/experience-platform/ai-assistant/new-features/customer-support?lang=en) </li><li>[Data Insights Agent](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai)</li></ul> | No |
 | [[!DNL Real-Time CDP]](#rtcdp) | Non applicabile | Sì.  <br>Conoscenza del prodotto da Experience League. Offre inoltre informazioni operative (in versione beta). | No |
-| [[!DNL Marketo]](#marketo) | Sì.  <br>Disponibile in [Dynamic Chat](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/overview?lang=en) e [Webinar interattivi](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/events/interactive-webinars/gen-ai?lang=en). | Non applicabile | No |
-| [[!DNL Workfront]](#workfront) | Sì.  <br> informazioni e suggerimenti in-app. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview?lang=en) | Non applicabile | Sì |
+| [[!DNL Marketo]](#marketo) | Sì.  <br>Disponibile in [Dynamic Chat](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/overview?lang=en) e [Webinar interattivi](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/demand-generation/events/interactive-webinars/gen-ai?lang=en). | Non applicabile | No |
+| [[!DNL Workfront]](#workfront) | Sì.  <br> informazioni e suggerimenti in-app. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/workfront/using/basics/ai-assistant/ai-assistant-overview?lang=en) | Non applicabile | Sì |
 
 ## Esempi di utilizzo di GenAI in Experience Cloud {#products}
 
@@ -101,11 +101,11 @@ I campi di input includono:
 
 Il risultato è contenuto generato o copia di mercato.
 
-[Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor)
+[Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor)
 
 ### Sites Optimizer {#sites-optimizer}
 
-AEM Sites Optimizer utilizza l’intelligenza artificiale generativa per analizzare e migliorare le prestazioni e l’efficacia delle esperienze web. Queste informazioni sono raggruppate in aree di opportunità chiave: Coinvolgimento, Acquisizione del traffico, Posizione di sicurezza e Integrità del sito. Ogni categoria evidenzia modi specifici per migliorare il sito, aumentando l’interazione con i visitatori, migliorando la reperibilità, rafforzando la sicurezza o mantenendo la stabilità del sito. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-manager-sites-optimizer/content/opportunity-types/overview)
+AEM Sites Optimizer utilizza l’intelligenza artificiale generativa per analizzare e migliorare le prestazioni e l’efficacia delle esperienze web. Queste informazioni sono raggruppate in aree di opportunità chiave: Coinvolgimento, Acquisizione del traffico, Posizione di sicurezza e Integrità del sito. Ogni categoria evidenzia modi specifici per migliorare il sito, aumentando l’interazione con i visitatori, migliorando la reperibilità, rafforzando la sicurezza o mantenendo la stabilità del sito. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-manager-sites-optimizer/content/opportunity-types/overview)
 
 ### Experience Manager Assets {#aem-assets}
 
@@ -115,17 +115,17 @@ In AEM Assets, puoi utilizzare l&#39;intelligenza artificiale generativa in **Co
 
 [!UICONTROL Content Hub] è disponibile come parte di [!DNL Experience Manager Assets as a Cloud Service] per la democratizzazione dell&#39;accesso ai contenuti del brand per le organizzazioni e i loro partner commerciali. Si concentra sulla distribuzione delle risorse per l’attivazione su larga scala e la creazione di varianti di contenuti sul brand per una maggiore agilità di marketing.
 
-In Content Hub, puoi creare contenuti con Adobe Express (se disponi di adesioni Adobe Express). Puoi modificare i contenuti esistenti con strumenti semplici, produrre varianti on-brand con modelli ed elementi brand e creare contenuti con le funzionalità GenAI più recenti da [!DNL Adobe Firefly]. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview)
+In Content Hub, puoi creare contenuti con Adobe Express (se disponi di adesioni Adobe Express). Puoi modificare i contenuti esistenti con strumenti semplici, produrre varianti on-brand con modelli ed elementi brand e creare contenuti con le funzionalità GenAI più recenti da [!DNL Adobe Firefly]. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview)
 
 **Tag avanzati**
 
 Invece di fare affidamento sull’input manuale, l’intelligenza artificiale può assegnare automaticamente tag descrittivi alle risorse digitali. Questi tag generati dall’intelligenza artificiale migliorano la qualità dei metadati, rendendo le risorse più facili da cercare, classificare e consigliare.
 
-Ad esempio, se la risorsa è un’immagine, l’intelligenza artificiale può identificare oggetti, scene, emozioni o anche i loghi del brand. Può generare tag rilevanti come _tramonto_, _spiaggia_, _vacanza_ o _sorriso_. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/smart-tags#ai-smart-tags)
+Ad esempio, se la risorsa è un’immagine, l’intelligenza artificiale può identificare oggetti, scene, emozioni o anche i loghi del brand. Può generare tag rilevanti come _tramonto_, _spiaggia_, _vacanza_ o _sorriso_. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/manage/smart-tags#ai-smart-tags)
 
 ## Adobe [!DNL Journey Optimizer] {#journey-optimizer}
 
-In [!DNL Journey Optimizer] (AJO) è possibile utilizzare [Assistente AI](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-assistant) per acquisire _conoscenze sul prodotto_ e _informazioni operative_ (beta).
+In [!DNL Journey Optimizer] (AJO) è possibile utilizzare [Assistente AI](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/get-started/ai-assistant) per acquisire _conoscenze sul prodotto_ e _informazioni operative_ (beta).
 
 ### Esempi di utilizzo dell’Assistente IA in AJO
 
@@ -141,15 +141,15 @@ Di seguito è riportato un esempio di input per approfondimenti operativi:
 
   Per l’output, l’Assistente AI esegue una query in un archivio dati specifico del cliente. L&#39;archivio dati contiene dati operativi centralizzati di circa [!UICONTROL Percorsi]. Questa funzione è indipendente dal cliente e richiama i metadati solo dagli oggetti business. Non accede ai dati all’interno della sandbox.
 
-[Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-assistant)
+[Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/get-started/ai-assistant)
 
 ### Assistente AI per la generazione di contenuti (AJO Prime e Ultimate) {#ajo-prime}
 
-In AJO _Prime_ e _Ultimate_, puoi utilizzare la [generazione di contenuti](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative) per la generazione di contenuti per portare suggerimenti di varianti di contenuti proattivi per testo e immagini.
+In AJO _Prime_ e _Ultimate_, puoi utilizzare la [generazione di contenuti](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative) per la generazione di contenuti per portare suggerimenti di varianti di contenuti proattivi per testo e immagini.
 
 Questa funzione è disponibile per e-mail, notifiche push, pagine web, contenuti e canali SMS. Fornisce la generazione di testo e immagini basati su prompt. L’output della generazione di contenuti in AJO Prime e Ultimate è indennizzato.
 
-[Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative)
+[Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative)
 
 ## [!DNL Journey Optimizer B2B Edition] {#ajo-b2b}
 
@@ -161,7 +161,7 @@ Esempio di input:
 
   L’output della conoscenza del prodotto viene estratto da Experience League.
 
-[Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview)
+[Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview)
 
 ## [!DNL Campaign] servizi cloud gestiti {#campaign-cs}
 
@@ -169,15 +169,15 @@ Campaign Managed Cloud Services utilizza [!UICONTROL L&#39;Assistente AI] per la
 
 **Nota:** l&#39;output della generazione di contenuti in Campaign Managed Cloud Services è indennizzato.
 
-[Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-gs)
+[Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/campaign-web/v8/content/ai-assistant/generative-gs)
 
 ## [!DNL Customer Journey Analytics] {#cja}
 
 Customer Journey Analytics consente di utilizzare l’assistente AI o AI generativo nei seguenti modi:
 
-* [Assistente AI](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant) per informazioni sul prodotto.
-* [Didascalie intelligenti](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions) per fornire informazioni chiave per le visualizzazioni di Workspace più utilizzate nel linguaggio naturale.
-* [Content Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/report/report#template) per assegnare automaticamente ogni metadati di risorsa.
+* [Assistente AI](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant) per informazioni sul prodotto.
+* [Didascalie intelligenti](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions) per fornire informazioni chiave per le visualizzazioni di Workspace più utilizzate nel linguaggio naturale.
+* [Content Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/content-analytics/report/report#template) per assegnare automaticamente ogni metadati di risorsa.
 
 **Assistente IA**
 
@@ -187,7 +187,7 @@ Scopri le nozioni di prodotto di Experience League. Se sei un nuovo utente, scop
 
 Gli utenti esperti ottengono casi d’uso avanzati o apprendono strategie per eseguire attività a ritmo veloce. È possibile comprendere rapidamente i concetti, risolvere i problemi o cercare informazioni.
 
-[Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant)
+[Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant)
 
 **Didascalie intelligenti**
 
@@ -199,13 +199,13 @@ Ad esempio:
 
 * **Output:** Visualizza didascalie generate automaticamente in linguaggio naturale che mostrano il contesto e le principali operazioni da eseguire. Puoi quindi eseguire azioni sui dati generati, ad esempio rivederli, copiarli e condividerli con la tua organizzazione. [Scopri come](https://video.tv.adobe.com/v/3420131/?quality=12&learn=on#_blank)
 
-[Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)
+[Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)
 
 **Content Analytics**
 
 Content Analytics utilizza l’intelligenza artificiale e GenAI per assegnare automaticamente ogni metadati di risorse, come soggetti, scene, colori di primo piano e così via. Un attributo è un tag di metadati assegnato dall’intelligenza artificiale che descrive cosa c’è in una risorsa o in un’esperienza.
 
-Ad esempio: il primo piano `color: red` è un attributo assegnato automaticamente. Le visualizzazioni consentono di identificare gli attributi delle risorse che contribuiscono maggiormente alla conversione. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/report/report#template)
+Ad esempio: il primo piano `color: red` è un attributo assegnato automaticamente. Le visualizzazioni consentono di identificare gli attributi delle risorse che contribuiscono maggiormente alla conversione. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/analytics-platform/using/content-analytics/report/report#template)
 
 ## [!DNL Real-Time CDP] {#rtcdp}
 
@@ -228,13 +228,13 @@ Genera automaticamente capitoli e riepiloghi per i webinar registrati, rendendol
 * Contenuto modificabile - Modificare capitoli e riepiloghi generati
 * Integrazione semplificata: è possibile aggiungere capitoli e riepiloghi alle pagine di destinazione copiando il codice HTML nell’editor di pagine web desiderato
 
-[Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/events/interactive-webinars/gen-ai)
+[Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/demand-generation/events/interactive-webinars/gen-ai)
 
 **Dynamic Chat**
 
 Le funzionalità generative basate sull’intelligenza artificiale di Adobe Dynamic Chat consentono di ottimizzare la produttività per gli agenti di vendita, ottenere informazioni sulle intenzioni dei visitatori del sito web e rispondere alle domande dei visitatori in modo sicuro. Puoi pre-approvare le domande, le risposte e il riepilogo della conversazione. Dynamic Chat include sia una versione gratuita che una versione premium.
 
-[Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/overview)
+[Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/overview)
 
 ## [!DNL Workfront] {#workfront}
 
@@ -245,7 +245,7 @@ Le funzionalità generative basate sull’intelligenza artificiale di Adobe Dyna
 * Ottieni formule generate in base alle tue richieste. Puoi anche risolvere gli errori nelle espressioni personalizzate non valide nei campi calcolati.
 * Individuare progetti, attività e problemi.
 
-[Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview)
+[Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/workfront/using/basics/ai-assistant/ai-assistant-overview)
 
 ## Risorse aggiuntive
 
