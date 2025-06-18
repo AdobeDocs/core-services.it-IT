@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: e0b8281058b44012bdd7befa6ce26355a35bcf11
+source-git-commit: 361175f290d73f1637673420700874a2415e3fca
 workflow-type: tm+mt
 source-wordcount: '605'
-ht-degree: 69%
+ht-degree: 68%
 
 ---
 
@@ -108,11 +108,11 @@ Aggiunta la sezione [Visualizza i dettagli utente di Experience Cloud (Admin Too
 
 **Aggiornato: 05/09/2018**
 
-Aggiunta di informazioni su come eliminare un attributo cliente. Consulta [(Facoltativo) Aggiornare lo schema (eliminare gli attributi)](../services/customer-attributes/t-crs-usecase.md).
+Sono state aggiunte informazioni su come eliminare un attributo cliente. Consulta [(Facoltativo) Aggiornare lo schema (eliminare gli attributi)](../services/customer-attributes/t-crs-usecase.md).
 
 **8 giugno 2018**
 
-Aggiornate le [Informazioni su file di dati e origini dati per Attributi del cliente](../services/customer-attributes/crs-data-file.md) con informazioni sul caricamento di file multipli.
+[Informazioni sui file di dati e le origini dati per gli attributi del cliente](../services/customer-attributes/crs-data-file.md) è stato aggiornato con informazioni sul caricamento di più file.
 
 **6 giugno 2018**
 

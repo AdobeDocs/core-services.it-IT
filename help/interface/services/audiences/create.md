@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
+source-git-commit: 361175f290d73f1637673420700874a2415e3fca
 workflow-type: tm+mt
 source-wordcount: '510'
-ht-degree: 94%
+ht-degree: 92%
 
 ---
 
@@ -53,12 +53,11 @@ L’esempio seguente mostra come creare le regole per un pubblico composito. Que
 1. In [!UICONTROL Regole], seleziona un&#39;origine attributo:
 
    * **[!UICONTROL Dati Real-Time Analytics]** (o dati non elaborati): si tratta di dati di attributi derivati da richieste di immagini di Real-Time Analytics e includono dati come eVar ed eventi. Quando utilizzi questa origine di attributi, devi selezionare una suite di rapporti e definire la dimensione o l’evento da includere. Questa selezione di suite di rapporti fornisce la struttura delle variabili utilizzata dalla suite di rapporti.
-
    >[!NOTE]
    >
-   >A causa della memorizzazione nella cache, sono necessarie 12 ore prima che l’eliminazione delle suite di rapporti di Analytics possa essere visibile, in Experience Cloud.
+   >A causa della memorizzazione nella cache, sono necessarie 12 ore prima che l’eliminazione delle suite di rapporti di Analytics possa essere visibile in Experience Cloud.
 
-   * **[!UICONTROL Experience Cloud:]** dati attributo derivati dalle sorgenti di [!DNL Experience Cloud]. Ad esempio, potrebbe trattarsi dei dati dei segmenti di pubblico che hai creato in [!DNL Analytics] o dei dati di [!DNL Audience Manager].
+   * **[!UICONTROL Dati attributo Experience Cloud:]** derivati dalle origini [!DNL Experience Cloud]. Ad esempio, potrebbe trattarsi dei dati dei segmenti di pubblico che hai creato in [!DNL Analytics] o dei dati di [!DNL Audience Manager].
 
 1. Definisci le regole del pubblico, quindi fai clic su **[!UICONTROL Salva].**
 

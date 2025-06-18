@@ -3,12 +3,12 @@ role: User,Admin
 user-guide-title: Interfaccia e amministrazione di Experience Cloud
 breadcrumb-title: Interfaccia e amministrazione di Experience Cloud
 title: Interfaccia e amministrazione di Experience Cloud
-description: Scopri l’interfaccia di Experience Cloud, i cookie e le preferenze dell’account utente. Gestisci i prodotti e configura il servizio per le persone, inclusi gli attributi del cliente e la libreria Pubblico. Condividi le risorse di Experience Cloud.
+description: Scopri l’interfaccia di Experience Cloud, i cookie e le preferenze dell’account utente. Gestisci i prodotti e configura il servizio People, inclusi gli attributi del cliente e la libreria Pubblico. Condividi le risorse di Experience Cloud.
 index: true
-source-git-commit: 1a6acca32b4975f8e35f7d2630f976b8b36fb043
+source-git-commit: cee634cd4f64bac4e06d25e1872a0f84772c46ed
 workflow-type: tm+mt
 source-wordcount: '235'
-ht-degree: 98%
+ht-degree: 88%
 
 ---
 
@@ -34,16 +34,16 @@ ht-degree: 98%
    + [Exchange](services/exchange.md)
    + Attributi cliente {#customer-attributes}
       + [Panoramica](services/customer-attributes/attributes.md)
-      + [Domande frequenti su Attributi del cliente](services/customer-attributes/faq-crs.md)
-      + [Informazioni su file di dati e origini dati per Attributi del cliente](services/customer-attributes/crs-data-file.md)
-      + [Creare un’origine di attributi cliente e caricare il file di dati](services/customer-attributes/t-crs-usecase.md)
+      + [Domande frequenti sugli attributi del cliente](services/customer-attributes/faq-crs.md)
+      + [Informazioni sui file di dati e le origini dati per gli attributi del cliente](services/customer-attributes/crs-data-file.md)
+      + [Creazione di una sorgente attributo cliente e caricamento del file di dati](services/customer-attributes/t-crs-usecase.md)
       + [Facoltativo - Caricamento del file di dati tramite FTP](services/customer-attributes/t-upload-attributes-ftp.md)
       + [Convalida dello schema](services/customer-attributes/validate-schema.md)
       + [Configurazione delle sottoscrizioni](services/customer-attributes/subscription.md)
       + [Aggiornamento dello schema](services/customer-attributes/t-update-schema.md)
       + [Supporto per il regolamento generale sulla protezione dei dati](services/customer-attributes/gdpr.md)
       + [Supporto per il California Consumer Privacy Act](services/customer-attributes/ccpa.md)
-      + [Considerazioni sulla privacy per Attributi del cliente](services/customer-attributes/privacy-mac.md)
+      + [Considerazioni sulla privacy per gli attributi del cliente](services/customer-attributes/privacy-mac.md)
    + [Trigger](services/triggers.md)
 
 + Funzioni {#features}

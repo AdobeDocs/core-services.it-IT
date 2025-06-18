@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
+source-git-commit: 74c584e657e02fdebcaa52cffb6778f8ce5f350c
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 67%
+source-wordcount: '697'
+ht-degree: 65%
 
 ---
 
@@ -21,7 +21,7 @@ Scopri quali sono i browser supportati e le risposte alle domande più frequenti
 
 +++Quali browser sono supportati in Experience Cloud?
 
-L’Adobe supporta la versione corrente e quella precedente dei seguenti browser:
+Adobe supporta la versione corrente e le due versioni precedenti dei seguenti browser:
 
 * Microsoft® Edge
 * Google Chrome
@@ -64,13 +64,13 @@ No. Il Adobe Experience Cloud è incluso senza alcun costo aggiuntivo. Tuttavia,
 
 +++Perché la mia azienda deve effettuare l&#39;accesso tramite l&#39;interfaccia Experience Cloud?
 
-La funzionalità fornita dall’interfaccia di Experience Cloud aggiunge più valore alla tua azienda. Sarà anche il percorso standard per accedere alle applicazioni in futuro, sostituendo altri flussi di accesso di singole soluzioni. L’accesso tramite Experience Cloud semplifica una futura transizione.
+La funzionalità fornita dall’interfaccia Experience Cloud aggiunge più valore alla tua azienda. Sarà anche il percorso standard per accedere alle applicazioni in futuro, sostituendo altri flussi di accesso di singole soluzioni. L’accesso tramite Experience Cloud semplifica una futura transizione.
 
 +++
 
 +++In che modo Adobe può accedere al mio ambiente cloud Adobe per risolvere un problema?
 
-L’Assistenza clienti Adobe può inviare una richiesta di rappresentazione: riceverai un’e-mail con marchio Adobe (esempio di seguito) in cui ti si richiede l’autorizzazione esplicita. L’accesso è concesso per un periodo limitato. Una volta concesso, puoi revocare l’accesso in qualsiasi momento. Adobe registra tutte le azioni intraprese dai rappresentanti Adobe.
+L’Assistenza clienti di Adobe può inviare una richiesta di rappresentazione: riceverai un’e-mail con marchio Adobe (esempio di seguito) in cui ti si richiede l’autorizzazione esplicita. L’accesso è concesso per un periodo limitato. Una volta concesso, puoi revocare l’accesso in qualsiasi momento. Adobe registra tutte le azioni intraprese dai rappresentanti Adobe.
 
 ![Caso di supporto Adobe](../assets/support-email.png)
 
@@ -80,8 +80,8 @@ L’Assistenza clienti Adobe può inviare una richiesta di rappresentazione: ric
 
 Provisioning in Experience Cloud significa:
 
-* Gli utenti possono effettuare l’accesso all’Experience Cloud e alle applicazioni di collegamento.
-* Possono iniziare a utilizzare le funzionalità disponibili in Experience Cloud, ad esempio Persone.
+* Gli utenti possono effettuare l’accesso a Experience Cloud e alle applicazioni di collegamento.
+* Possono iniziare a utilizzare le funzioni disponibili tramite Experience Cloud.
 * Puoi prepararti a ritirare il processo di accesso specifico per le singole applicazioni.
 * Puoi mantenere il controllo dell’accesso alle applicazioni.
 
@@ -99,15 +99,15 @@ Provisioning in Experience Cloud significa:
 
 * La gestione di prodotti e adesioni utente viene eseguita in [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (collegamento prodotto).
 
-* **Importante:** gli amministratori di Analytics devono consultare [Gestire gli utenti di Analytics in Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=it) per informazioni sulla migrazione degli ID utente dagli strumenti di amministrazione di Analytics ad Admin Console.
+* **Importante:** gli amministratori di Analytics devono consultare [Gestire gli utenti di Analytics in Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html) per informazioni sulla migrazione degli ID utente dagli strumenti di amministrazione di Analytics ad Admin Console.
 
 +++
 
-+++Cosa posso fare se qualcuno non riesce ad accedere a Experience Cloud?
++++Cosa posso fare se qualcuno non riesce ad accedere ad Experience Cloud?
 
 Gli amministratori di Admin Console possono concedere l&#39;accesso agli utenti. Gli utenti ricevono un’e-mail con le istruzioni di accesso.
 
-Potresti aver bisogno di [contattare il supporto Adobe](https://experienceleague.adobe.com/it?support-solution=General&amp;lang=it#support) per verificare che sia stato eseguito il provisioning completo per la tua azienda.
+Potresti aver bisogno di [contattare il supporto Adobe](https://experienceleague.adobe.com/?support-solution=General&lang=it#support) per verificare che sia stato eseguito il provisioning completo per la tua azienda.
 
 +++
 
