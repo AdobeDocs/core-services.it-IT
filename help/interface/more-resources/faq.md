@@ -99,7 +99,7 @@ Provisioning in Experience Cloud significa:
 
 * La gestione di prodotti e adesioni utente viene eseguita in [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (collegamento prodotto).
 
-* **Importante:** gli amministratori di Analytics devono consultare [Gestire gli utenti di Analytics in Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html) per informazioni sulla migrazione degli ID utente dagli strumenti di amministrazione di Analytics ad Admin Console.
+* **Importante:** gli amministratori di Analytics devono consultare [Gestire gli utenti di Analytics in Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=it) per informazioni sulla migrazione degli ID utente dagli strumenti di amministrazione di Analytics ad Admin Console.
 
 +++
 
@@ -107,7 +107,7 @@ Provisioning in Experience Cloud significa:
 
 Gli amministratori di Admin Console possono concedere l&#39;accesso agli utenti. Gli utenti ricevono un’e-mail con le istruzioni di accesso.
 
-Potresti aver bisogno di [contattare il supporto Adobe](https://experienceleague.adobe.com/?support-solution=General&lang=it#support) per verificare che sia stato eseguito il provisioning completo per la tua azienda.
+Potresti aver bisogno di [contattare il supporto Adobe](https://experienceleague.adobe.com/it?support-solution=General&lang=it#support) per verificare che sia stato eseguito il provisioning completo per la tua azienda.
 
 +++
 
