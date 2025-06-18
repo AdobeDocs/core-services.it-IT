@@ -215,8 +215,7 @@ Per gestire notifiche e avvisi, vedere [Preferenze account e notifiche](features
 Scopri gli ultimi miglioramenti dei componenti dell’interfaccia centrale di Experience Cloud.
 
 >[!BEGINTABS]
-
->Integrazione di [!TAB Slack con Experience Cloud]
+>[!TAB Integrazione di  Slack con Experience Cloud]
 
 Puoi configurare le preferenze del tuo account per inviare notifiche Experience Cloud a un canale [!DNL Slack].
 
