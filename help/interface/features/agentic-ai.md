@@ -7,7 +7,7 @@ feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
 exl-id: c1a8f9a7-4752-4040-b5f0-dc775417f536
-source-git-commit: 14faf5e31a389b68611218d7adfa90df407ce811
+source-git-commit: 9f6d71d38f8613f5423b869214bf7357cef1e7fa
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 1%
@@ -16,11 +16,9 @@ ht-degree: 1%
 
 # IA per l’agente nei prodotti Experience Cloud
 
-Il framework agentic di Adobe amplia la capacità dei team con l’intelligenza artificiale per fornire esperienze più veloci e di maggiore impatto.
+Il framework agentic di Adobe amplia la capacità dei team con l’intelligenza artificiale per fornire esperienze più veloci e di maggiore impatto. In Experience Cloud sono disponibili le seguenti funzioni di IA per l’agente:
 
-In Experience Cloud sono disponibili le seguenti funzioni di IA per l’agente:
-
-* [L&#39;agente del supporto tecnico](https://experienceleague.adobe.com/it/docs/experience-platform/ai-assistant/new-features/customer-support) è una funzionalità self-service di debug e risoluzione dei problemi di [!UICONTROL Assistente AI] utilizzabile per le funzionalità e le applicazioni di Experience Platform. Risolvi i problemi di supporto senza uscire dai flussi di lavoro, crea ticket di assistenza clienti e tieni traccia dell’avanzamento del caso tramite l’Assistente AI.
-* [Data Insights Agent](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) è accessibile dall&#39;Assistente IA in Customer Journey Analytics. Si tratta di un agente di conversazione di intelligenza artificiale generativo che risponde in modo rapido ed efficiente alle domande sui tuoi dati. Crea visualizzazioni rilevanti in Analysis Workspace utilizzando i componenti della visualizzazione dati e utilizzando i dati effettivi.
+* [L&#39;agente del supporto tecnico](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/new-features/customer-support) è una funzionalità self-service di debug e risoluzione dei problemi di [!UICONTROL Assistente AI] utilizzabile per le funzionalità e le applicazioni di Experience Platform. Risolvi i problemi di supporto senza uscire dai flussi di lavoro, crea ticket di assistenza clienti e tieni traccia dell’avanzamento del caso tramite l’Assistente AI.
+* [Data Insights Agent](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) è accessibile dall&#39;Assistente IA in Customer Journey Analytics. Si tratta di un agente di conversazione di intelligenza artificiale generativo che risponde in modo rapido ed efficiente alle domande sui tuoi dati. Crea visualizzazioni rilevanti in Analysis Workspace utilizzando i componenti della visualizzazione dati e utilizzando i dati effettivi.
 
 [!BADGE Ulteriori informazioni]{type=Informative url="https://business.adobe.com/products/experience-platform/agent-orchestrator.html" tooltip="Vai a Business.adobe.com"}
