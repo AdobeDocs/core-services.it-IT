@@ -36,7 +36,7 @@ ht-degree: 78%
 
 * Per gli attributi del cliente, è necessario disporre di **Adobe Target** `at.js` (qualsiasi versione) o `mbox.js` versione 58 o successive.
 
-  Consulta [Come distribuire at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=it).
+  Consulta [Come distribuire at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html).
 
 ## Cosa sono i dati cliente Enterprise? {#enterprise_data}
 
