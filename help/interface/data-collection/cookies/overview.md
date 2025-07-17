@@ -22,7 +22,7 @@ Adobe Experience Cloud utilizza i cookie per tenere traccia delle informazioni c
 
 Alcuni browser e strumenti antispyware bloccano i cookie di terze parti. Adobe dispone di modi per garantire che i cookie continuino a funzionare anche se i cookie sono bloccati. Il funzionamento dipende dall&#39;utilizzo del servizio Experience Platform Identity (ECID) o dei cookie Analytics precedenti (come il cookie `s_vi`):
 
-* [Servizio Experience Cloud Identity](https://experienceleague.adobe.com/en/docs/id-service/using/intro/overview): il servizio ECID imposta sempre i cookie di prime parti, indipendentemente dal fatto che il dominio di raccolta corrisponda al dominio del sito. Utilizza JavaScript per inserire il cookie nel dominio del sito.
+* [Servizio Experience Cloud Identity](https://experienceleague.adobe.com/it/docs/id-service/using/intro/overview): il servizio ECID imposta sempre i cookie di prime parti, indipendentemente dal fatto che il dominio di raccolta corrisponda al dominio del sito. Utilizza JavaScript per inserire il cookie nel dominio del sito.
 
 * [Identificatori legacy di Analytics](analytics.md) (ad esempio il cookie `s_vi`): se i cookie sono di prima parte o di terze parti dipende dalla configurazione:
 
