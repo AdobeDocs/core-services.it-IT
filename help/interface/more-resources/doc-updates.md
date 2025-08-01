@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 361175f290d73f1637673420700874a2415e3fca
+source-git-commit: 6caf1edc5cead3e937f919ac2bb6c829a758d8fd
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '614'
 ht-degree: 68%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 68%
 # Aggiornamenti alla documentazione per Experience Cloud
 
 Scopri dove si verificano gli aggiornamenti alla documentazione per l’interfaccia centrale e l’amministrazione di Experience Cloud.
+
+**Agosto 2025**
+
+Sono state aggiunte informazioni sul [ripristino dell&#39;Adobe ID](../features/account-preferences.md).
 
 **Febbraio 2025**
 
@@ -89,7 +93,7 @@ Aggiornamento della sezione [Visualizzare i dettagli degli utenti Experience Clo
 
 **19 maggio 2020**
 
-Documentazione di Offer Management dichiarata obsoleta.
+Documentazione su Gestione delle offerte dichiarata obsoleta.
 
 **15 maggio 2020**
 
