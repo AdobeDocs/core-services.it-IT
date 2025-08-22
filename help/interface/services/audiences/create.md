@@ -97,4 +97,4 @@ La regola risultante è un pubblico definito composto dagli utenti di Chrome e S
 
 Al termine della raccolta dei dati per il periodo specificato, i cerchi si combinano per mostrare un pubblico definito.
 
-Una volta salvato, il pubblico è disponibile per altre applicazioni Experience Cloud. Ad esempio, puoi includere un pubblico condiviso in una [attività](https://experienceleague.adobe.com/en/docs/target/using/activities/activities) di Adobe Target.
+Una volta salvato, il pubblico è disponibile per altre applicazioni Experience Cloud. Ad esempio, puoi includere un pubblico condiviso in una [attività](https://experienceleague.adobe.com/it/docs/target/using/activities/activities) di Adobe Target.
