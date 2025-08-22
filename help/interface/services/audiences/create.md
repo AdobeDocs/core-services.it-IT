@@ -1,23 +1,23 @@
 ---
-description: Scopri come usare le regole per attributi per creare un pubblico, o audience, e definire un pubblico composito in Adobe Experience Cloud.
+title: Creare un pubblico nella libreria Pubblico
+description: Scopri come utilizzare le regole per attributi per creare un pubblico condivisibile in Libreria tipi di pubblico. Scopri come configurare una regola e definire un pubblico composito.
 solution: Experience Cloud
-title: Creare un pubblico
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
 feature: Audience Library
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: 361175f290d73f1637673420700874a2415e3fca
+source-git-commit: 3043cd913d5165c58fb84f3342b05a00a690d6a6
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 92%
+source-wordcount: '534'
+ht-degree: 66%
 
 ---
 
 # Creazione di un pubblico
 
-Scopri come usare le regole per attributi per creare un pubblico, o audience, e definire un pubblico composito in Experience Cloud.
+In [!UICONTROL Libreria tipi di pubblico] è possibile utilizzare le regole degli attributi per creare un pubblico e definire un pubblico composito per la condivisione nelle applicazioni Experience Cloud.
 
 Questo articolo ti aiuta a capire come:
 
@@ -44,21 +44,22 @@ L’esempio seguente mostra come creare le regole per un pubblico composito. Que
 
 **Creare un’audience**
 
-1. In [!DNL Experience Cloud], nella sezione [!DNL Experience Platform], fai clic su **[!UICONTROL Persone]** > **[!UICONTROL Libreria pubblico].**
-1. Nella pagina [!UICONTROL Tipi di pubblico], fai clic su **[!UICONTROL Nuovo]**. ![aggiungi](assets/add_icon_small.png)
+1. Fai clic su [!DNL Experience Cloud] app (![Icona app](assets/apps-icon.png)), quindi fai clic su **[!UICONTROL Persone]** > **[!UICONTROL Libreria pubblico].**
 
-   ![Risultato passaggio](assets/audience_create_new.png)
+1. Nella pagina [!UICONTROL Tipi di pubblico], fai clic su **[!UICONTROL Nuovo]**. ![Nuovo pubblico](assets/add_icon_small.png)
 
-1. Nella pagina [!UICONTROL Crea nuovo pubblico] specifica un titolo e una descrizione.
-1. In [!UICONTROL Regole], seleziona un&#39;origine attributo:
+   ![Creazione di un pubblico](assets/audience_create_new.png)
 
-   * **[!UICONTROL Dati Real-Time Analytics]** (o dati non elaborati): si tratta di dati di attributi derivati da richieste di immagini di Real-Time Analytics e includono dati come eVar ed eventi. Quando utilizzi questa origine di attributi, devi selezionare una suite di rapporti e definire la dimensione o l’evento da includere. Questa selezione di suite di rapporti fornisce la struttura delle variabili utilizzata dalla suite di rapporti.
+1. Nella pagina [!UICONTROL Crea nuovo pubblico], completa i campi **[!UICONTROL Titolo]** e **[!UICONTROL Descrizione]**.
+1. In [!UICONTROL Regole], seleziona una suite di rapporti di riferimento, quindi un&#39;origine attributo:
+
+   * **[!UICONTROL Dati Real-Time Analytics:]** (o dati non elaborati) Si tratta di dati attributo derivati da richieste di immagini Real-Time Analytics. Include eVar ed eventi. Quando utilizzi questa origine di attributi, devi selezionare una suite di rapporti e definire la dimensione o l’evento da includere. Questa selezione di suite di rapporti fornisce la struttura delle variabili utilizzata dalla suite di rapporti.
 
    >[!NOTE]
    >
    >A causa della memorizzazione nella cache, sono necessarie 12 ore prima che l’eliminazione delle suite di rapporti di Analytics possa essere visibile in Experience Cloud.
 
-   * **[!UICONTROL Dati attributo Experience Cloud:]** derivati dalle origini [!DNL Experience Cloud]. Ad esempio, potrebbe trattarsi dei dati dei segmenti di pubblico che hai creato in [!DNL Analytics] o dei dati di [!DNL Audience Manager].
+   * **[!UICONTROL Dati attributo Experience Cloud:]** derivati da [!DNL Experience Cloud] origini. Ad esempio, potrebbe trattarsi dei dati dei segmenti di pubblico che hai creato in [!DNL Analytics] o dei dati di [!DNL Audience Manager].
 
 1. Definisci le regole del pubblico, quindi fai clic su **[!UICONTROL Salva].**
 
@@ -94,4 +95,4 @@ La regola risultante è un pubblico definito composto dagli utenti di Chrome e S
 
 Al termine della raccolta dei dati per il periodo specificato, i cerchi si combinano per mostrare un pubblico definito.
 
-Dopo il salvataggio, il pubblico è disponibile per altre applicazioni. Ad esempio, puoi includere un pubblico condiviso in un’attività di Adobe Target.
+Una volta salvato, il pubblico è disponibile per altre applicazioni Experience Cloud. Ad esempio, puoi includere un pubblico condiviso in una [attività](https://experienceleague.adobe.com/en/docs/target/using/activities/activities) di Adobe Target.
