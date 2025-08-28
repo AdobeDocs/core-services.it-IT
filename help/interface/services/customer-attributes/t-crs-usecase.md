@@ -37,7 +37,7 @@ In [!DNL Experience Cloud], fare clic su **[!UICONTROL App]** ![menu](assets/men
 
 * Per gli attributi del cliente, è necessario disporre di **Adobe Target** `at.js` (qualsiasi versione) o `mbox.js` versione 58 o successive.
 
-  Consulta [Come distribuire at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html).
+  Consulta [Come distribuire at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=it).
 
 ## Creazione di un file di dati {#create-data}
 
@@ -88,7 +88,7 @@ Eseguire la procedura seguente nella pagina [!UICONTROL Crea attributo cliente S
 
       * **Tag:** l&#39;ID alias corrisponde al valore *Integration Code* in [!UICONTROL Impostazioni cliente], nello strumento [Servizio Experience Cloud ID](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=it).
 
-      * **API visitatore:** l&#39;ID alias corrisponde agli ulteriori [ID cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) che è possibile associare a ogni visitatore.
+      * **API visitatore:** l&#39;ID alias corrisponde agli ulteriori [ID cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=it) che è possibile associare a ogni visitatore.
 
         Ad esempio, *“crm_ id”* in:
 
@@ -110,7 +110,7 @@ Eseguire la procedura seguente nella pagina [!UICONTROL Crea attributo cliente S
 
         Consulta [Utilizzo di più origini dati](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB) per ulteriori informazioni sull&#39;elaborazione dei dati relativi al campo ID alias e agli ID cliente.
 
-   * **[!UICONTROL Codice spazio dei nomi:]** Utilizzare questo valore per identificare l&#39;origine attributo del cliente quando si utilizza [IdentityMap](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview) come parte di un&#39;implementazione di AEP WebSDK.
+   * **[!UICONTROL Codice spazio dei nomi:]** Utilizzare questo valore per identificare l&#39;origine attributo del cliente quando si utilizza [IdentityMap](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/identity/overview) come parte di un&#39;implementazione di AEP WebSDK.
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
@@ -178,4 +178,4 @@ In [!DNL Target], puoi selezionare un attributo del cliente dalla sezione [!UICO
 
 ![Utilizzo degli Attributi del cliente in Adobe Target](assets/crs-add-attribute-target.png)
 
-Consulta [Creare un pubblico](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html) nella guida di [!DNL Target].
+Consulta [Creare un pubblico](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=it) nella guida di [!DNL Target].
