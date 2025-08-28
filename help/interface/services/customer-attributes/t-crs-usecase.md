@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
+source-git-commit: bd718358c6db1ea4a6150d019773072418b629f9
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 48%
+source-wordcount: '1132'
+ht-degree: 50%
 
 ---
 
@@ -19,17 +19,25 @@ ht-degree: 48%
 
 Creare l&#39;origine attributo del cliente (`.csv` e `.fin` file) e caricare i dati. Puoi attivare l&#39;origine dati quando lo desideri. Dopo che l&#39;origine dati è attiva, condividere i dati attributo in [!DNL Analytics] e [!DNL Target].
 
-**Flusso di lavoro attributi cliente**
+**[!DNL Customer Attributes]flusso di lavoro**
 
 ![flusso di lavoro attributi cliente](assets/crs.png)
 
-## Prerequisiti
+## Individua [!DNL Customer Attributes]
 
-**Accesso al prodotto:** Per accedere a [!DNL Customer Attributes], gli utenti devono essere assegnati al profilo di prodotto Attributi del cliente (**[!UICONTROL Attributi del cliente - Accesso predefinito]**) in Admin Console (`adminconsole.adobe.com`).
+In [!DNL Experience Cloud], fare clic su **[!UICONTROL App]** ![menu](assets/menu-icon.png) > **[!DNL Customer Attributes]**.
 
-Passa a **[!UICONTROL Admin Console]** > **[!UICONTROL Prodotti]**. Se *Attributi del cliente* viene visualizzato come uno dei prodotti (un [!UICONTROL Profilo di prodotto]), puoi iniziare. Gli utenti che vengono aggiunti al profilo di prodotto Attributi del cliente visualizzano **[!DNL Customer Attributes]** nel selettore **[!UICONTROL App]**. (![flusso di lavoro attributi cliente](assets/menu-icon.png))
+## Prerequisiti per l&#39;utilizzo di [!DNL Customer Attributes] {#prerequisites}
 
-**Gruppi di applicazioni:** Per utilizzare la funzionalità **[!DNL Customer Attributes]**, gli utenti devono appartenere anche a gruppi a livello di applicazione (Adobe [!DNL Analytics] o [!DNL Adobe Target]).
+* **Appartenenza al gruppo:** Per caricare i dati, gli utenti devono essere membri del gruppo [!DNL Customer Attributes]. Devi anche appartenere a un gruppo Adobe Analytics o Adobe Target.
+
+  Per verificare se la società ha accesso agli attributi del cliente, l&#39;amministratore di [!DNL Experience Cloud] deve effettuare l&#39;accesso a [Experience Cloud](https://experience.adobe.com). Passa a **[!UICONTROL Admin Console]** > **[!UICONTROL Prodotti]**. Se *[!DNL Customer Attributes]* viene visualizzato come uno dei [!UICONTROL Profili di prodotto], puoi iniziare.
+
+  Gli utenti aggiunti a [!DNL Customer Attributes] visualizzano la voce di menu [!DNL Customer Attributes] sul lato sinistro dell&#39;interfaccia di Experience Cloud.
+
+* Per gli attributi del cliente, è necessario disporre di **Adobe Target** `at.js` (qualsiasi versione) o `mbox.js` versione 58 o successive.
+
+  Consulta [Come distribuire at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html).
 
 ## Creazione di un file di dati {#create-data}
 
@@ -50,7 +58,7 @@ Questi dati sono dati aziendali dei clienti provenienti dal tuo sistema CRM. Pos
 
 ## Creare un’origine di attributi e caricare il file di dati {#create-source}
 
-Segui questi passaggi nella pagina Crea nuova origine attributo del cliente in Experience Cloud.
+Eseguire la procedura seguente nella pagina [!UICONTROL Crea attributo cliente Source] in Experience Cloud.
 
 >[!IMPORTANT]
 >
@@ -80,7 +88,7 @@ Segui questi passaggi nella pagina Crea nuova origine attributo del cliente in E
 
       * **Tag:** l&#39;ID alias corrisponde al valore *Integration Code* in [!UICONTROL Impostazioni cliente], nello strumento [Servizio Experience Cloud ID](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=it).
 
-      * **API visitatore:** l&#39;ID alias corrisponde agli ulteriori [ID cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=it) che è possibile associare a ogni visitatore.
+      * **API visitatore:** l&#39;ID alias corrisponde agli ulteriori [ID cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) che è possibile associare a ogni visitatore.
 
         Ad esempio, *“crm_ id”* in:
 
@@ -102,7 +110,7 @@ Segui questi passaggi nella pagina Crea nuova origine attributo del cliente in E
 
         Consulta [Utilizzo di più origini dati](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB) per ulteriori informazioni sull&#39;elaborazione dei dati relativi al campo ID alias e agli ID cliente.
 
-   * **[!UICONTROL Codice spazio dei nomi:]** Utilizzare questo valore per identificare l&#39;origine attributo del cliente quando si utilizza [IdentityMap](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/identity/overview) come parte di un&#39;implementazione di AEP WebSDK.
+   * **[!UICONTROL Codice spazio dei nomi:]** Utilizzare questo valore per identificare l&#39;origine attributo del cliente quando si utilizza [IdentityMap](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview) come parte di un&#39;implementazione di AEP WebSDK.
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
@@ -154,7 +162,7 @@ La configurazione di una sottoscrizione imposta il flusso di dati tra Experience
 
 Consulta [Configurare le sottoscrizioni e attivare l&#39;origine dati](subscription.md).
 
-## Uso degli attributi del cliente in Adobe Analytics {#task_7EB0680540CE4B65911B2C779210915D}
+## Usa i dati di [!DNL Customer Attributes] in Adobe Analytics {#task_7EB0680540CE4B65911B2C779210915D}
 
 Con i dati ora disponibili in applicazioni come Adobe Analytics, puoi creare rapporti sui dati, analizzarli e intraprendere azioni appropriate nelle campagne di marketing.
 
@@ -164,10 +172,10 @@ L’esempio seguente mostra un segmento di [!DNL Analytics] basato sugli attribu
 
 Quando pubblichi un segmento in Experience Cloud, diventa disponibile in Experience Cloud Audiences e Audience Manager.
 
-## Uso degli attributi del cliente in Adobe Target {#task_FC5F9D9059114027B62DB9B1C7D9E257}
+## Usa i dati di [!DNL Customer Attributes] in Adobe Target {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
 In [!DNL Target], puoi selezionare un attributo del cliente dalla sezione [!UICONTROL Profilo visitatore] al momento della creazione di un pubblico. Tutti gli attributi del cliente hanno il prefisso `crs.` nell&#39;elenco. Per creare dei tipi di pubblico, combina questi attributi con altri attributi di dati.
 
-![Uso degli attributi del cliente in Adobe Target](assets/crs-add-attribute-target.png)
+![Utilizzo degli Attributi del cliente in Adobe Target](assets/crs-add-attribute-target.png)
 
-Consulta [Creazione di un nuovo pubblico](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=it) nella guida di [!DNL Target].
+Consulta [Creare un pubblico](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html) nella guida di [!DNL Target].
