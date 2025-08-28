@@ -1,28 +1,28 @@
 ---
-description: Scopri come configurare le sottoscrizioni di attributi cliente per Analytics e Target e attivare un’origine dati.
+description: Scopri come configurare le sottoscrizioni in [!DNL Customer Attributes] per Analytics e Target e attivare un'origine dati.
 solution: Experience Cloud
-title: Configurare gli abbonamenti
+title: Come configurare le sottoscrizioni in [!DNL Customer Attributes]
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: cfa2aa5c-337f-401e-80eb-cbe36cb1d41e
-source-git-commit: fc60b49af0839769fdd8d18fd61863c8b28bbd57
+source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 65%
+source-wordcount: '428'
+ht-degree: 61%
 
 ---
 
 # Configurare le sottoscrizioni e attivare l’origine dati
 
-Le sottoscrizioni consentono il flusso di dati degli attributi del cliente tra Experience Cloud e le applicazioni ([!DNL Analytics] e [!DNL Target]).
+Le sottoscrizioni di [!DNL Customer Attributes] consentono il flusso di dati degli attributi del cliente tra Experience Cloud e le applicazioni ([!DNL Analytics] e [!DNL Target]).
 
-Ad esempio, una sottoscrizione Adobe Analytics abilita i dati degli attributi nei rapporti. Se utilizzi Adobe Target, puoi caricare gli attributi del cliente per il targeting e la segmentazione.
+Ad esempio, una sottoscrizione Adobe Analytics abilita i dati degli attributi nei rapporti. Se utilizzi [!DNL Adobe Target], puoi caricare gli attributi del cliente per il targeting e la segmentazione.
 
 **Per configurare le sottoscrizioni e attivare l&#39;origine dati**
 
-1. Individuare l&#39;origine attributo del cliente per la modifica:
+1. Individua l&#39;origine dati in [!DNL Customer Attributes] per la modifica:
 
    In [!DNL Experience Cloud], fare clic su **[!UICONTROL App]** ![menu](assets/menu-icon.png) > **[!DNL Customer Attributes]**.
 
