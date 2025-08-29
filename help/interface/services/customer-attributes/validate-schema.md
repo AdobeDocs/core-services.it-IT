@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
-source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
+source-git-commit: d2244e249c7af27bc1b4fc7bfe628bc25b37f4d4
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 49%
@@ -32,11 +32,11 @@ Uno schema viene creato in base a queste impostazioni. Lo schema viene utilizzat
 
 1. Nella pagina [!UICONTROL Caricamento file e convalida schema], fai clic su **[!UICONTROL Azioni]** > **[!UICONTROL Visualizza/Modifica schema]**
 
-   ![Modificare uno schema](assets/view_edit_schema.png)
+   ![Modificare uno schema](assets/actions.png)
 
    Nella pagina [!UICONTROL Modifica schema], ogni riga dello schema rappresenta una colonna del file CSV caricato.
 
-   ![Modifica pagina schema in Experience Cloud](assets/edit-schema.png)
+   ![Modifica pagina schema in Experience Cloud](assets/schema-edit.png)
 
 **Azioni**
 
