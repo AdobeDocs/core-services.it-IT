@@ -8,20 +8,18 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
+source-git-commit: 0de22f02b4063a54d0b09b6abc1aa16221f42f4b
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 94%
+source-wordcount: '675'
+ht-degree: 89%
 
 ---
 
 # Experience Cloud Triggers
 
-[!UICONTROL Triggers] in Experience Cloud consente di identificare, definire e monitorare i comportamenti chiave dei consumatori, per poi generare comunicazioni tra le diverse soluzioni in modo da coinvolgere nuovamente i visitatori.
+[!UICONTROL Triggers] in Experience Cloud consente di identificare, definire e monitorare i comportamenti chiave dei consumatori, per poi generare comunicazioni tra le diverse applicazioni in modo da coinvolgere nuovamente i visitatori. Puoi utilizzare i trigger nelle decisioni in tempo reale e nella personalizzazione.
 
-## Panoramica di Triggers {#topic_4F21FCE9A64E46E8B6D51F494FA652A7}
-
-Puoi utilizzare i trigger nelle decisioni in tempo reale e nella personalizzazione. Esempio:
+Esempio:
 
 * Configura il remarketing rapido di carrelli abbandonati o di carrelli abbandonati con i prodotti rimossi
 * Applicazioni e moduli incompleti
@@ -31,9 +29,9 @@ Puoi utilizzare i trigger nelle decisioni in tempo reale e nella personalizzazio
 
 >[!NOTE]
 >
->Ulteriori informazioni sull’utilizzo di [!UICONTROL Triggers] sono disponibili in [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=it).
+>Ulteriori informazioni sull’utilizzo di [!UICONTROL Triggers] sono disponibili in [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html).
 
-### Tipi di Triggers
+## Tipi di trigger
 
 In genere, un trigger può richiedere dai 15 ai 90 minuti per avviare una campagna di marketing. Questo varia a seconda dell’implementazione della raccolta di dati, del caricamento sulla pipeline, della configurazione personalizzata del trigger definito e del flusso di lavoro in Adobe Campaign.
 
@@ -49,7 +47,7 @@ Crea un trigger e configurane le condizioni. Ad esempio, puoi specificare i crit
 >
 >Esiste attualmente un limite tecnico di 100 trigger.
 
-1. In Experience Cloud, fai clic su ![menu](../assets/menu-icon.png), quindi su **[!UICONTROL Raccolta dati/Launch]**.
+1. In Experience Cloud, fai clic su ![menu](../assets/menu-icon.png), quindi fai clic su **[!UICONTROL Raccolta dati/Launch]**.
 2. Individua la scheda [!UICONTROL Triggers], quindi fai clic su **[!UICONTROL Gestione attivatori]**.
 3. Fai clic su **[!UICONTROL Nuovo trigger]** e specifica il tipo di trigger:
 
@@ -71,17 +69,17 @@ Crea un trigger e configurane le condizioni. Ad esempio, puoi specificare i crit
 5. Fai clic su **[!UICONTROL Salva]**.
 6. Usa i trigger per la [commercializzazione in tempo reale](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html?lang=it) in [!DNL Adobe Campaign].
 
-### Esempio di trigger
+## Esempio di trigger
 
 Esempi di Experience Cloud Triggers:
 
-#### Trigger di abbandono del carrello
+### Trigger di abbandono del carrello
 
 Ad esempio, nella pagina seguente sono illustrate le regole che è possibile utilizzare per un attivatore di [!UICONTROL abbandono del carrello], in base ai prodotti visualizzati durante una visita.
 
 ![Trigger di abbandono del carrello](../assets/abandonment-trigger.png)
 
-#### Trigger referrer
+### Trigger referrer
 
 Il trigger seguente si attiva quando viene visualizzato un risultato con il prodotto Stivali da uomo e il referrer Facebook. Affinché i due criteri (*prodotti* e *referrer*) vengano valutati nello stesso hit, è necessario aggiungerli allo stesso contenitore.
 
