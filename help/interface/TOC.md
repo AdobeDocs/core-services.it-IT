@@ -5,10 +5,10 @@ breadcrumb-title: Interfaccia e amministrazione di Experience Cloud
 title: Interfaccia e amministrazione di Experience Cloud
 description: Scopri l’interfaccia di Experience Cloud, i cookie e le preferenze dell’account utente. Gestisci i prodotti e configura il servizio per le persone, inclusi gli attributi cliente e la Libreria Pubblico. Condividi le risorse di Experience Cloud.
 index: true
-source-git-commit: 751ac6de0df2956fc91aa8a19a1fc54c1a7c29b1
+source-git-commit: 51f87269d7d475b958b3b853484d94073bd64d3e
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 100%
+source-wordcount: '205'
+ht-degree: 88%
 
 ---
 
@@ -33,16 +33,16 @@ ht-degree: 100%
    + [Exchange](services/exchange.md)
    + Attributi cliente {#customer-attributes}
       + [Panoramica](services/customer-attributes/attributes.md)
-      + [Domande frequenti su Attributi cliente](services/customer-attributes/faq-crs.md)
-      + [Informazioni sui file di dati e le origini dati per gli attributi cliente](services/customer-attributes/crs-data-file.md)
-      + [Creazione di una sorgente attributo cliente e caricamento del file di dati](services/customer-attributes/t-crs-usecase.md)
-      + [Facoltativo - Caricamento del file di dati tramite FTP](services/customer-attributes/t-upload-attributes-ftp.md)
+      + [Domande frequenti](services/customer-attributes/faq-crs.md)
+      + [Informazioni su file di dati e origini dati](services/customer-attributes/crs-data-file.md)
+      + [Creare e caricare il file di dati](services/customer-attributes/t-crs-usecase.md)
+      + [Facoltativo - Caricamento tramite FTP](services/customer-attributes/t-upload-attributes-ftp.md)
       + [Convalida dello schema](services/customer-attributes/validate-schema.md)
       + [Configurare le sottoscrizioni e attivare l’origine dati](services/customer-attributes/subscription.md)
       + [Aggiornamento dello schema](services/customer-attributes/t-update-schema.md)
-      + [Supporto per il regolamento generale sulla protezione dei dati](services/customer-attributes/gdpr.md)
-      + [Supporto per il California Consumer Privacy Act](services/customer-attributes/ccpa.md)
-      + [Considerazioni sulla privacy per Attributi cliente](services/customer-attributes/privacy-mac.md)
+      + [Supporto per il RGPD](services/customer-attributes/gdpr.md)
+      + [Supporto per CCPA](services/customer-attributes/ccpa.md)
+      + [Considerazioni sulla privacy](services/customer-attributes/privacy-mac.md)
    + [Trigger](services/triggers.md)
 
 + Funzioni {#features}
@@ -56,7 +56,7 @@ ht-degree: 100%
 + Amministrazione {#administration}
    + [Gestione degli utenti e licenze dei prodotti](administration/admin-console.md)
    + [Visualizzare i dettagli dell’utente (Admin Tool)](administration/admin-tool-experience-cloud.md)
-   + [Organizzazioni e collegamento di account](administration/organizations.md)
+   + [Organizzazioni](administration/organizations.md)
    + [Integrazioni di Experience Cloud](administration/integrations.md)
 
 + Raccolta dati {#data-collection}

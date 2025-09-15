@@ -1,16 +1,16 @@
 ---
 description: Scopri gli strumenti amministrativi per la gestione degli utenti approvati di Creative Cloud in Experience Cloud.
 solution: Experience Cloud
-title: Gestisci utenti Creative Cloud
+title: Gestire gli utenti di Creative Cloud in Experience Cloud
 feature: Assets
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: f94e8b8f-d666-4aa1-a3b7-246026035b78
-source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
+source-git-commit: 51f87269d7d475b958b3b853484d94073bd64d3e
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 73%
+source-wordcount: '122'
+ht-degree: 71%
 
 ---
 
@@ -22,7 +22,7 @@ Experience Cloud fornisce strumenti amministrativi per la gestione degli utenti 
 >
 >Devi essere un amministratore per effettuare questa procedura.
 
-1. In Experience Cloud, fare clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Gestisci i collaboratori Creative Cloud]**.
+1. In Experience Cloud, fai clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Gestisci collaboratori Creative Cloud]**.
 1. Fai clic su **[!UICONTROL Condivisione di risorse di Creative Cloud]**.
 1. Fare clic su **[!UICONTROL Aggiungi nuovo utente]**.  ![aggiungi nuovo utente](../../assets/mac_add_icon.png)
 1. Immetti indirizzo e-mail, nome visualizzato, titolo e facoltativamente aggiungi un avatar.
