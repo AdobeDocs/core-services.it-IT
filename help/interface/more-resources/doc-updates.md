@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 6caf1edc5cead3e937f919ac2bb6c829a758d8fd
+source-git-commit: 85a5c5c33a8eb5f34f174cf5aa1da56e8e2e5065
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 68%
@@ -144,7 +144,7 @@ Aggiunto [Experience Cloud Assets](../services/assets/experience-cloud-assets.md
 
 **15 gennaio 2015**
 
-È stata aggiunta la possibilità per gli utenti di Experience Cloud di condividere cartelle su Creative Cloud e sincronizzare risorse e commenti fra i due servizi. Vedi [Condivisione risorse](../services/assets/creative-cloud.md).
+È stata aggiunta la possibilità per gli utenti di Experience Cloud di condividere cartelle su Creative Cloud e sincronizzare risorse e commenti fra i due servizi. Vedi [Condivisione risorse](../services/assets/share.md).
 
 **17 luglio 2014**
 

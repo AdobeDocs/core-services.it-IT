@@ -1,23 +1,35 @@
 ---
-description: Come condividere una cartella di risorse Experience Cloud con utenti Creative Cloud.
+description: Scopri come condividere una cartella di risorse di Experience Cloud con gli utenti di Creative Cloud.
 solution: Experience Cloud
-title: Condivisione di una cartella di risorse di Experience Cloud
+title: Condividere una cartella di risorse di Experience Cloud
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
 feature: Assets
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 32f4723e-0e66-46b6-b0c2-ae47b9a06a87
-source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
+source-git-commit: 751ac6de0df2956fc91aa8a19a1fc54c1a7c29b1
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 70%
+source-wordcount: '436'
+ht-degree: 66%
 
 ---
 
 # Condivisione di una cartella di risorse Experience Cloud
 
-Condividi una cartella di risorse Experience Cloud con utenti Creative Cloud.
+Condividi cartelle e risorse tra Experience Cloud e Creative Cloud. Collabora, commenta risorse condivise e utilizzale in applicazioni Experience Cloud come Adobe Target. La cartella condivisa deve provenire da Experience Cloud.
+
+**Vantaggi della condivisione**
+
+* Semplificazione dei flussi di lavoro di produzione creativa nelle fasi di revisione, approvazione e pubblicazione
+* Risparmio di tempo nell’elaborazione di file e versioni in più posizioni
+* Maggiore efficienza nel tracciamento e nella gestione delle risorse creative
+* Maggiore sicurezza aziendale
+* Semplificazione di condivisione, salvataggio e invio di file tra creativi ed esperti marketing
+
+Prima che gli utenti di Creative Cloud possano accedere alle risorse, devono essere inseriti nell’elenco Consentiti in Experience Cloud. Vedi [Gestione degli utenti di Creative Cloud](manage-cc-users.md).
+
+**Per condividere una cartella di risorse di Experience Cloud**
 
 1. In una cartella di risorse, fai clic su **[!UICONTROL Condividi su Creative Cloud]**.
 
@@ -38,21 +50,21 @@ Condividi una cartella di risorse Experience Cloud con utenti Creative Cloud.
    ![Visualizza sul Web](../../assets/creative_cloud_open_folder.png)
 1. Continua con l’aggiunta di commenti sulla risorsa condivisa:
 
-   In Creative Cloud, puoi selezionare un&#39;immagine, quindi fare clic su **[!UICONTROL Attività]** per aggiungere un commento all&#39;immagine. I commenti vengono sincronizzati sulle risorse in [!DNL Creative Cloud] e [!DNL Experience Cloud].
+   In Creative Cloud puoi effettuare la selezione in un&#39;immagine, quindi fare clic su **[!UICONTROL Attività]** per aggiungere un commento all&#39;immagine. I commenti vengono sincronizzati sulle risorse in [!DNL Creative Cloud] e [!DNL Experience Cloud].
 
    ![Aggiungi un commento all’immagine](../../assets/asset_comment_cc.png)
 
-   Ad Experience Cloud, per aggiungere un commento a un’immagine, selezionala, quindi seleziona l’icona della cronologia. I commenti vengono sincronizzati sulle risorse in Creative Cloud ed Experience Cloud.
+   In Experience Cloud, seleziona un’immagine, quindi seleziona l’icona della cronologia per aggiungere un commento all’immagine. I commenti vengono sincronizzati sulle risorse in Creative Cloud ed Experience Cloud.
 
    ![Aggiungi un commento all’immagine](../../assets/asset_comment_mac.png)
 
 1. Per annullare la condivisione di una cartella, fai clic su **[!UICONTROL Condividi con Creative Cloud]** (come [Passaggio 3](share.md)), rimuovi gli utenti selezionando X, quindi fai clic su **[!UICONTROL Condividi]**.
 
-![Annullare la condivisione di una cartella](../../assets/asset_remove_user.png)
+   ![Annullare la condivisione di una cartella](../../assets/asset_remove_user.png)
 
-Quando hai rimosso tutti gli utenti di Creative Cloud, la cartella non è più condivisa e gli utenti di Creative Cloud non possono più accedervi.
+   Quando hai rimosso tutti gli utenti di Creative Cloud, la cartella non è più condivisa e gli utenti di Creative Cloud non possono più accedervi.
 
-Altri modi per utilizzare una risorsa condivisa includono il caricamento o lo scambio di risorse nella [Libreria offerte](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=it) in Adobe Target per le immagini nelle attività.
+Altri modi per utilizzare una risorsa condivisa includono il caricamento o lo scambio di risorse nella [Libreria offerte](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) in Adobe Target per le immagini nelle attività.
 
 Dopo aver condiviso una cartella su Creative Cloud, il logo Creative Cloud viene visualizzato sulla cartella.
 
@@ -63,3 +75,9 @@ Argomenti correlati:
 * [Aiuto di Creative Cloud - Gestione e sincronizzazione dei file](https://helpx.adobe.com/it/creative-cloud/help/sync-creative-cloud-files.html)
 * [Aiuto di Creative Cloud - Collaborazione con altri](https://helpx.adobe.com/it/creative-cloud/help/collaboration.html)
 * [Aiuto di Creative Cloud - Domande frequenti sulla collaborazione](https://helpx.adobe.com/it/creative-cloud/help/collaboration-faq.html)
+
+## Informazioni sulla condivisione di risorse con Adobe Target {#section_B7CD64CAB35D43A4B12957B304072DC9}
+
+Quando crei attività in [!DNL Adobe Target], puoi utilizzare una risorsa di immagine condivisa quando scambi immagini nella [!UICONTROL Libreria offerte].
+
+Consulta [Libreria offerte](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) nella Guida di [!DNL Target].
