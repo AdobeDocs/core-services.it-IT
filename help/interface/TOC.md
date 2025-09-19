@@ -6,9 +6,9 @@ title: Interfaccia e amministrazione di Experience Cloud
 description: Scopri l’interfaccia di Experience Cloud, i cookie e le preferenze dell’account utente. Gestisci i prodotti e configura il servizio per le persone, inclusi gli attributi cliente e la Libreria Pubblico. Condividi le risorse di Experience Cloud.
 index: true
 source-git-commit: 51f87269d7d475b958b3b853484d94073bd64d3e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '205'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -36,11 +36,11 @@ ht-degree: 88%
       + [Domande frequenti](services/customer-attributes/faq-crs.md)
       + [Informazioni su file di dati e origini dati](services/customer-attributes/crs-data-file.md)
       + [Creare e caricare il file di dati](services/customer-attributes/t-crs-usecase.md)
-      + [Facoltativo - Caricamento tramite FTP](services/customer-attributes/t-upload-attributes-ftp.md)
-      + [Convalida dello schema](services/customer-attributes/validate-schema.md)
+      + [Facoltativo - Caricare tramite FTP](services/customer-attributes/t-upload-attributes-ftp.md)
+      + [Convalidare lo schema](services/customer-attributes/validate-schema.md)
       + [Configurare le sottoscrizioni e attivare l’origine dati](services/customer-attributes/subscription.md)
-      + [Aggiornamento dello schema](services/customer-attributes/t-update-schema.md)
-      + [Supporto per il RGPD](services/customer-attributes/gdpr.md)
+      + [Aggiornare lo schema](services/customer-attributes/t-update-schema.md)
+      + [Supporto per il GDPR](services/customer-attributes/gdpr.md)
       + [Supporto per CCPA](services/customer-attributes/ccpa.md)
       + [Considerazioni sulla privacy](services/customer-attributes/privacy-mac.md)
    + [Trigger](services/triggers.md)
