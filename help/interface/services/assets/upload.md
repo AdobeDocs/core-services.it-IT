@@ -15,7 +15,7 @@ ht-degree: 70%
 
 # Caricare una risorsa in una cartella condivisa
 
-Puoi caricare una risorsa tramite Creative Cloud Desktop o il browser Creative Cloud.
+Puoi caricare una risorsa tramite il desktop Creative Cloud o il browser Creative Cloud.
 
 ## Caricamento di una risorsa in una cartella condivisa dal browser di Creative Cloud
 

@@ -31,7 +31,7 @@ Exchange Marketplace è un&#39;unica destinazione in cui è possibile eseguire r
 
 * Boccia o approva le applicazioni.
 
-* Publish in Experience Cloud.
+* Pubblica in Experience Cloud.
 
 * Effettua ricerche e filtra per categoria, azienda, tipo, utente e altro.
 

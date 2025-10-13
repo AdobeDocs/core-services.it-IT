@@ -1,5 +1,5 @@
 ---
-description: Ricevi assistenza e promozioni personalizzate tramite e-mail, nei tuoi prodotti di Experience Cloud e all’interno delle community di Experienci League in base ai tuoi dati di utilizzo.
+description: Ricevi assistenza e promozioni personalizzate tramite e-mail, nei tuoi prodotti Experience Cloud e nelle community Experience League in base ai tuoi dati di utilizzo.
 solution: Experience Cloud
 title: Preferenze di apprendimento personalizzato in Experience Cloud
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f

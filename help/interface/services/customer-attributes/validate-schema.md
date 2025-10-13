@@ -14,7 +14,7 @@ ht-degree: 49%
 
 ---
 
-# Convalida dello schema
+# Convalidare lo schema
 
 Il processo di convalida consente di mappare i nomi visualizzati e le descrizioni agli attributi caricati (stringhe, interi, numeri e così via).
 

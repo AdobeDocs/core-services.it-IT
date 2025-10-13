@@ -11,7 +11,7 @@ exl-id: 062576da-328e-4b46-9e71-5a25733d607a
 source-git-commit: 74c584e657e02fdebcaa52cffb6778f8ce5f350c
 workflow-type: tm+mt
 source-wordcount: '697'
-ht-degree: 65%
+ht-degree: 76%
 
 ---
 
@@ -37,7 +37,7 @@ Adobe supporta la versione corrente e le due versioni precedenti dei seguenti br
 
 +++
 
-+++Lingue supportate
++++Quali lingue sono supportate?
 
 Experience Cloud supporta le lingue preferite per ciascun utente, impostate nelle preferenze del proprio account utente Adobe. Sono supportate le seguenti lingue:
 
@@ -62,7 +62,7 @@ No. Il Adobe Experience Cloud è incluso senza alcun costo aggiuntivo. Tuttavia,
 
 +++
 
-+++Perché la mia azienda deve effettuare l&#39;accesso tramite l&#39;interfaccia Experience Cloud?
++++Perché la mia società deve effettuare l’accesso tramite l’interfaccia di Experience Cloud?
 
 La funzionalità fornita dall’interfaccia Experience Cloud aggiunge più valore alla tua azienda. Sarà anche il percorso standard per accedere alle applicazioni in futuro, sostituendo altri flussi di accesso di singole soluzioni. L’accesso tramite Experience Cloud semplifica una futura transizione.
 
@@ -76,7 +76,7 @@ L’Assistenza clienti di Adobe può inviare una richiesta di rappresentazione: 
 
 +++
 
-+++Che cos&#39;è il &quot;provisioning&quot;?
++++Che cos’è il &quot;provisioning&quot;?
 
 Provisioning in Experience Cloud significa:
 
@@ -99,7 +99,7 @@ Provisioning in Experience Cloud significa:
 
 * La gestione di prodotti e adesioni utente viene eseguita in [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (collegamento prodotto).
 
-* **Importante:** gli amministratori di Analytics devono consultare [Gestire gli utenti di Analytics in Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=it) per informazioni sulla migrazione degli ID utente dagli strumenti di amministrazione di Analytics ad Admin Console.
+* **Importante:** gli amministratori di Analytics devono consultare [Gestire gli utenti di Analytics in Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html) per informazioni sulla migrazione degli ID utente dagli strumenti di amministrazione di Analytics ad Admin Console.
 
 +++
 
@@ -107,11 +107,11 @@ Provisioning in Experience Cloud significa:
 
 Gli amministratori di Admin Console possono concedere l&#39;accesso agli utenti. Gli utenti ricevono un’e-mail con le istruzioni di accesso.
 
-Potresti aver bisogno di [contattare il supporto Adobe](https://experienceleague.adobe.com/it?support-solution=General&lang=it#support) per verificare che sia stato eseguito il provisioning completo per la tua azienda.
+Potresti aver bisogno di [contattare il supporto Adobe](https://experienceleague.adobe.com/?support-solution=General&lang=it#support) per verificare che sia stato eseguito il provisioning completo per la tua azienda.
 
 +++
 
-+++Dove va un utente per gestire il collegamento dell’account?
++++Dove è possibile gestire il collegamento dell’account?
 
 Alcuni utenti potrebbero dover collegare l’account della loro applicazione (Analytics) all’Adobe ID o Enterprise ID.
 
@@ -137,19 +137,19 @@ Per informazioni, consulta [Visualizzare l’ID organizzazione](../administratio
 
 +++
 
-+++Cosa devo fare quando uno degli utenti lascia la mia azienda?
++++Cosa devo fare quando uno dei miei utenti lascia l’azienda?
 
 È necessario rimuoverne l’accesso dall’applicazione. Essi non potranno accedere al prodotto da Experience Cloud o mediante login diretto. Devi rimuoverli anche a livello di Experience Cloud.
 
 +++
 
-+++Cos’è un Adobe ID?
++++Che cos’è un Adobe ID?
 
 Consulta [Tipi di identità](https://helpx.adobe.com/it/enterprise/using/identity.html).
 
 +++
 
-+++Posso collegare account dell&#39;applicazione per i miei utenti?
++++Posso collegare gli account applicazione per i miei utenti?
 
 No. Gli utenti devono collegare le applicazioni con i propri nomi utente e password.
 

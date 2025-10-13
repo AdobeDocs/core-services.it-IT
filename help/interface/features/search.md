@@ -1,7 +1,7 @@
 ---
 description: Scopri la funzione di ricerca unificata per alcune applicazioni in Experience Cloud.
 solution: Experience Cloud
-title: Experience Cloud di ricerca unificata
+title: Ricerca unificata Experience Cloud
 index: true
 feature: Central Interface Components
 topic: Administration
@@ -17,13 +17,13 @@ ht-degree: 28%
 
 # [!UICONTROL Ricerca unificata] di oggetti ed entità {#globally-search}
 
-La [!UICONTROL Ricerca unificata] consente di cercare oggetti o entità business ricercabili in modalità semplice, coerente e immediata. Questa ricerca fa emergere anche gli oggetti utilizzati di recente.
+La [!UICONTROL Ricerca unificata] consente di trovare oggetti o entità business ricercabili in modo coerente e immediato con un semplice clic. Questa ricerca fa emergere anche gli oggetti utilizzati di recente.
 
 ![Ricerca globale di oggetti ed entità](../assets/platform-search.png)
 
 ## Accesso alla ricerca unificata
 
-La Ricerca unificata è disponibile in ogni pagina dell’intestazione dell’Experience Cloud nella parte superiore della pagina. È inoltre possibile utilizzare la scelta rapida da tastiera `command /` o `ctrl /` per accedere alla ricerca.
+La ricerca unificata è disponibile in ogni pagina dell’intestazione Experience Cloud nella parte superiore della pagina. È inoltre possibile utilizzare la scelta rapida da tastiera `command /` o `ctrl /` per accedere alla ricerca.
 
 Questa funzione è disponibile solo per i prodotti supportati che al momento sono:
 
@@ -88,7 +88,7 @@ In Ricerca unificata sono disponibili le seguenti funzioni.
 | Evidenziazione | La risposta di ricerca evidenzia la parola chiave corrispondente dalla query di ricerca in modo da poter trovare facilmente la sezione e le parole corrispondenti alla query. L&#39;evidenziazione funziona anche per le parole errate. |
 | Snippet | Nella risposta di ricerca, puoi visualizzare uno snippet del risultato. I frammenti restituiscono le parole corrispondenti e alcuni contenuti attorno alle parole chiave corrispondenti. |
 | Parole non consentite | Alcune parole comunemente usate in inglese sono definite come _parole non consentite_. Se le parole non significative sono incluse nella query di ricerca, viene assegnato loro un peso inferiore. <br>Le parole non consentite includono: _a, an, and, are, as, at, be, but, by, for, if, in, is, it, no, not, on, or, such, the, then, then, there, these, they, to, was, will, with_. <br>Le parole non sono supportate in altre lingue globali. |
-| Query in linguaggio naturale | Quando si cerca un Experience League della Guida o una discussione da Community di, è possibile digitare la domanda utilizzando il linguaggio naturale e ottenere la risposta. Esempio di ricerca: &quot;Come si crea uno schema?&quot; |
+| Query in linguaggio naturale | Quando si cerca un articolo della guida o una discussione da Experience League Communities, è possibile digitare la domanda utilizzando il linguaggio naturale e ottenere la risposta. Esempio di ricerca: &quot;Come si crea uno schema?&quot; |
 | Ricerca esatta tra virgolette | È possibile eseguire una ricerca esatta utilizzando le virgolette nella query. Non viene eseguita alcuna correzione degli errori di battitura nelle query di corrispondenza esatte. Ad esempio: &quot;Percorso Luma 2022&quot;. |
 | Filtri | È possibile applicare filtri come _Tipo di oggetto_ e altri filtri specifici dell&#39;oggetto nel popup dei risultati di ricerca completi. Quando si preme Invio dopo aver digitato la query di ricerca, viene visualizzato un pop-up a pagina intera che include i filtri. |
 

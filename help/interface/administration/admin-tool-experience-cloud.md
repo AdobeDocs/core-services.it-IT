@@ -10,14 +10,14 @@ level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
 source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
-source-wordcount: '1258'
-ht-degree: 82%
+source-wordcount: '1257'
+ht-degree: 80%
 
 ---
 
-# Visualizza Experienci Cloud di utenti e criteri in [!UICONTROL Admin Tool]
+# Visualizza gli utenti e i criteri di Experience Cloud in [!UICONTROL Admin Tool]
 
-Gli amministratori possono visualizzare un elenco ordinabile e filtrabile di tutti gli utenti e i criteri Experienci Cloud con dettagli in [!UICONTROL Admin Tool]. I dettagli utente includono l’accesso ai prodotti, i ruoli e le informazioni sull’ultimo accesso. I dettagli dei criteri includono l’elenco di utenti, gruppi, sviluppatori, integrazioni e amministratori di un criterio (profilo di prodotto), nonché informazioni dettagliate sulle autorizzazioni e sulle risorse per il criterio.
+Gli amministratori possono visualizzare un elenco ordinabile e filtrabile di tutti gli utenti e i criteri di Experience Cloud con dettagli in [!UICONTROL Admin Tool]. I dettagli utente includono l’accesso ai prodotti, i ruoli e le informazioni sull’ultimo accesso. I dettagli dei criteri includono l’elenco di utenti, gruppi, sviluppatori, integrazioni e amministratori di un criterio (profilo di prodotto), nonché informazioni dettagliate sulle autorizzazioni e sulle risorse per il criterio.
 
 1. Accedere a `https://experience.adobe.com/.`
 
@@ -41,7 +41,7 @@ In questa pagina viene visualizzato l’elenco completo degli utenti con accesso
 | [!UICONTROL E-mail] | L’indirizzo e-mail associato all’utente. Puoi ordinare questa colonna da A a Z e da Z ad A. |
 | [!UICONTROL ID Type (Tipo di ID)] | Il tipo di identità per l’account dell’utente. È possibile applicare un filtro per visualizzare tipi di ID specifici. Per ulteriori informazioni, consulta [Manage identity types (Gestisci tipi di identità)](https://helpx.adobe.com/it/enterprise/using/identity.html). |
 | [!UICONTROL Soluzioni] | Riepilogo delle applicazioni Experience Cloud a cui l’utente può accedere. Per limitare l’elenco di utenti con accesso specifico all’applicazione puoi applicare i filtri. |
-| [!UICONTROL Last Login (Ultimo accesso)] | Ora e data dell’accesso utente più recente all’Experience Cloud. Questa colonna può essere ordinata in base a date ascendenti o discendenti. <br> **Importante:** a partire dal 13 gennaio 2020 gli ultimi dati di accesso dell&#39;utente verranno conservati per 365 giorni. Queste informazioni si propongono di mostrare l’attuale attività di accesso in Experience Cloud e non costituiscono un consiglio a intervenire sugli account inattivi prima del 13 gennaio 2020. |
+| [!UICONTROL Last Login (Ultimo accesso)] | Ora e data dell’accesso utente più recente ad Experience Cloud. Questa colonna può essere ordinata in base a date ascendenti o discendenti. <br> **Importante:** a partire dal 13 gennaio 2020 gli ultimi dati di accesso dell&#39;utente verranno conservati per 365 giorni. Queste informazioni si propongono di mostrare l’attuale attività di accesso in Experience Cloud e non costituiscono un consiglio a intervenire sugli account inattivi prima del 13 gennaio 2020. |
 
 ## Personalizzare la vista elenco degli utenti
 
@@ -59,7 +59,7 @@ Puoi eseguire ricerche, oltre a ordinare o filtrare le viste personalizzate dell
 
 ## Visualizzare i dettagli degli utenti
 
-Per visualizzare i dettagli di un utente, nella pagina [!UICONTROL Utenti], seleziona l’e-mail dell’utente in questione.
+Per visualizzare i dettagli di un utente, nella pagina [!UICONTROL Utenti], fai clic sull’e-mail dell’utente in questione.
 
 ![Visualizzare i dettagli utente in Admin Console](../assets/admin-tool-user-details.png)
 
@@ -83,7 +83,7 @@ In questa sezione viene visualizzato un riepilogo delle applicazioni Experience 
 
 ## Elenco dettagliato di accesso al prodotto
 
-In questa sezione viene visualizzato un elenco completo di tutti i profili di prodotto dell’utente in questione.
+In questa sezione viene visualizzato un elenco completo di tutti i profili di prodotto in cui è incluso l’utente in questione.
 
 | Elemento | Descrizione |
 |---------|----------|
@@ -158,7 +158,7 @@ Questa sezione presenta un elenco completo di tutti gli utenti, i gruppi di uten
 
 ## Elenchi dettagliati di autorizzazioni e risorse
 
-Questa sezione presenta un elenco completo delle autorizzazioni e delle risorse disponibili per il profilo di prodotto. Le autorizzazioni e le risorse incluse nel profilo di prodotto sono contrassegnate da un segno di spunta (✔). Gli elenchi di autorizzazioni e risorse sono organizzati in schede e colonne per facilitarne la visualizzazione. Le schede e le colonne presentano l’elenco delle sezioni applicabili al prodotto corrente.
+Questa sezione presenta un elenco completo delle autorizzazioni e delle risorse disponibili per il profilo di prodotto. Le autorizzazioni e le risorse incluse nel profilo di prodotto sono state contrassegnate con &quot;✔&quot;. Gli elenchi di autorizzazioni e risorse sono organizzati in schede e colonne per facilitarne la visualizzazione. Le schede e le colonne presentano l’elenco delle sezioni applicabili al prodotto corrente.
 
 ## Informazioni correlate
 

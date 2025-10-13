@@ -41,7 +41,7 @@ Gli esempi seguenti mostrano come eseguire chiamate di recupero preventivo del D
 
 * **Audience Manager:** `<link rel="dns-prefetch" href="//dpm.demdex.net">`
 
-* **Servizio ID Experience Cloud:** `<link rel="dns-prefetch" href="//fast.examplepartnerid.demdex.net">`
+* **Servizio Experience Cloud ID:** `<link rel="dns-prefetch" href="//fast.examplepartnerid.demdex.net">`
 
 * **Advertising Cloud:**
 

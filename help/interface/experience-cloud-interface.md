@@ -18,7 +18,7 @@ ht-degree: 91%
 I componenti dell’interfaccia centrale di Experience Cloud includono funzioni che consentono di:
 
 * Accedere e utilizzare applicazioni e servizi
-* Trovare informazioni sul prodotto e oggetti aziendali tramite una ricerca globale
+* Trovare informazioni sul prodotto e oggetti di business tramite una ricerca globale
 * Gestire le preferenze dell’account (avvisi, notifiche e abbonamenti)
 
 ## Supporto dei browser in Experience Cloud {#browser}
@@ -80,7 +80,7 @@ Fai clic sul selettore delle applicazioni ![menu](assets/menu-icon.png) per acce
 
 ## Ricerca e supporto in Experience Cloud {#search-support}
 
-La funzione di ricerca di Experience Cloud consente di trovare risorse utili (documentazione, tutorial e corsi) su [Experience League](https://experienceleague.adobe.com/it?lang=it#home).
+La funzione di ricerca di Experience Cloud consente di trovare risorse utili (documentazione, tutorial e corsi) su [Experience League](https://experienceleague.adobe.com/?lang=it#home).
 
 ![Ricerca e supporto in Experience Cloud](assets/search-menu.png)
 
