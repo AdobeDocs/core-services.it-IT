@@ -18,7 +18,7 @@ ht-degree: 7%
 
 Adobe Experience Platform [Agent Orchestrator](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/home) e gli agenti della piattaforma abilitano le funzionalità degli agenti nelle nostre soluzioni. Puoi accedere alle funzionalità di AEP Agent Orchestrator e degli agenti AEP tramite:
 
-* [ [!DNL Experience Cloud] app esistenti](#existing-apps)
+* [&#x200B; [!DNL Experience Cloud] app esistenti](#existing-apps)
 * [AI-First [!DNL Experience Cloud] apps](#ai-first-apps)
 
 ## [!DNL Experience Cloud] app esistenti {#existing-apps}
