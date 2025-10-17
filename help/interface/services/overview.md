@@ -7,14 +7,14 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: af3665a14001fbca14afcf906aa35e6c06b6229f
+source-git-commit: 2cc76688e37afa0a0f68e3066fede18b8d3918e6
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 79%
 
 ---
 
-# Servizi Experience Cloud {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
+# Servizi Experience Cloud
 
 Questa documentazione tratta le funzioni dell’intestazione unificata di Experience Cloud, ad esempio il servizio [!DNL People] ([!DNL Audience Library] e [!DNL Customer Attributes]), la gestione di utenti e prodotti per Experience Cloud, cookie, preferenze dell’account, notifiche e così via.
 

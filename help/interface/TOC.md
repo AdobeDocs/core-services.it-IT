@@ -5,7 +5,7 @@ breadcrumb-title: Interfaccia e amministrazione di Experience Cloud
 title: Interfaccia e amministrazione di Experience Cloud
 description: Scopri l’interfaccia di Experience Cloud, i cookie e le preferenze dell’account utente. Gestisci i prodotti e configura il servizio per le persone, inclusi gli attributi cliente e la Libreria Pubblico. Condividi le risorse di Experience Cloud.
 index: true
-source-git-commit: 51f87269d7d475b958b3b853484d94073bd64d3e
+source-git-commit: 2cc76688e37afa0a0f68e3066fede18b8d3918e6
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 100%
@@ -16,7 +16,6 @@ ht-degree: 100%
 # Interfaccia e amministrazione di Experience Cloud {#interface}
 
 + [Interfaccia e amministrazione di Experience Cloud](experience-cloud.md)
-
 + Servizi {#services}
    + [Panoramica](services/overview.md)
    + [Introduzione](services/getting-started.md)
@@ -44,7 +43,6 @@ ht-degree: 100%
       + [Supporto per CCPA](services/customer-attributes/ccpa.md)
       + [Considerazioni sulla privacy](services/customer-attributes/privacy-mac.md)
    + [Trigger](services/triggers.md)
-
 + Funzioni {#features}
    + [Preferenze e notifiche dell’account](features/account-preferences.md)
    + [IA generativa](features/generative-ai.md)
@@ -52,13 +50,11 @@ ht-degree: 100%
    + [Ricerca unificata](features/search.md)
    + [Apprendimento personalizzato](features/personalized-learning.md)
    + [Supporto di browser e lingue](browser-language.md)
-
 + Amministrazione {#administration}
    + [Gestione degli utenti e licenze dei prodotti](administration/admin-console.md)
    + [Visualizzare i dettagli dell’utente (Admin Tool)](administration/admin-tool-experience-cloud.md)
    + [Organizzazioni](administration/organizations.md)
    + [Integrazioni di Experience Cloud](administration/integrations.md)
-
 + Raccolta dati {#data-collection}
    + [Programma di certificazione gestito da Adobe](data-collection/adobe-managed-cert.md)
    + [Indirizzi IP](data-collection/ip-addresses.md)
@@ -73,10 +69,8 @@ ht-degree: 100%
       + [Guida di Web SDK](data-collection/cookies/web-sdk.md)
    + [Raccolta di dati per area geografica](data-collection/rdc.md)
    + [Utilizzare il recupero preventivo del DNS](data-collection/dns-prefetch.md)
-
 + Note sulla versione e risorse {#more-resources}
    + [Note sulla versione](more-resources/release-notes.md)
    + [Aggiornamenti alla documentazione](more-resources/doc-updates.md)
    + [Domande frequenti](more-resources/faq.md)
    + [Terminologia](more-resources/terms.md)
-
