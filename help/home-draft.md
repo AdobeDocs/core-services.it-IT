@@ -7,141 +7,141 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 361175f290d73f1637673420700874a2415e3fca
+source-git-commit: 04cc3e5baa55cbb61ee121810f647268a4ec46bf
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 81%
+source-wordcount: '101'
+ht-degree: 88%
 
 ---
 
 # Panoramica sull’interfaccia centrale di Experience Cloud
 
 [Experience Cloud](https://experience.adobe.com) è un insieme integrato di applicazioni, prodotti e servizi Adobe per il marketing digitale. L’interfaccia intuitiva consente di accedere rapidamente alle applicazioni cloud, alle funzionalità dei prodotto e ai servizi.
-
+<!--
 ![Experience Cloud](assets/landing.png)
 
-Dall’area dell’intestazione di Experience Cloud, è possibile:
+From Experience Cloud's header, you can:
 
-* Accedi a tutte le applicazioni e i servizi Experience Cloud
-* Dal menu Aiuto, cercare la documentazione del prodotto, i tutorial e i post della community. Visualizzare i risultati in Experience League.
-* Eseguire ricerche globali sugli oggetti business utilizzando la ricerca globale (solo per gli utenti di Experience Platform) nel campo Ricerca.
-* Gestire le [preferenze](features/account-preferences.md) dell’account (avvisi, notifiche e abbonamenti)
+* Access all your Experience Cloud applications and services
+* From the Help menu, search for product documentation, tutorials, and community posts. View results in Experience League.
+* Globally search business objects using a global search (Experience Platform users only) in the Search field.
+* Manage your account [preferences](features/account-preferences.md) (alerts, notifications, and subscriptions)
 
 
-Estratto da GSPM:
+Pulled from GSPM:
 
-## Esplora le funzionalità
+## Explore capabilities
 
 <table style="table-layout:fixed">
 <tr style="border: 0;">
    <td valign="top">
       <a href="../user-guide/effective-prompts.md">
-      <img alt="Cursore a destra" src="../assets/icons/icon-chevronRight.svg" width="35">
+      <img alt="Right chevron" src="../assets/icons/icon-chevronRight.svg" width="35">
       </a>
       <div>
          <a href="../user-guide/effective-prompts.md">
-         <strong>Scrivi Prompt Effettivi</strong>
+         <strong>Write Effective Prompts</strong>
          </a>
       </div>
       <p>
-         <em>Creare prompt descrittivi che generano esperienze digitali nel marchio.</em>
+         <em>Craft descriptive prompts that generate on-brand digital experiences.</em>
       </p>
    </td>
    <td valign="top">
       <a href="../user-guide/create/overview.md">
-      <img alt="Pennello" src="../assets/icons/icon-create.svg" width="35">
+      <img alt="Paintbrush" src="../assets/icons/icon-create.svg" width="35">
       </a>
       <div>
          <a href="../user-guide/create/overview.md">
-         <strong>Crea esperienze</strong>
+         <strong>Create Experiences</strong>
          </a>
       </div>
       <p>
-         <em>Creazione di e-mail performanti, on-brand e annunci Meta.</em>
+         <em>Create performant, on-brand emails and Meta ads.</em>
       </p>
    </td>
    <td valign="top">
       <a href="../user-guide/approvals/overview.md">
-      <img alt="Segno Di Spunta" src="../assets/icons/icon-checkmarkCircle.svg" width="35">
+      <img alt="Checkmark" src="../assets/icons/icon-checkmarkCircle.svg" width="35">
       </a>
       <div>
          <a href="../user-guide/approvals/overview.md">
-         <strong>Rivedi e approva</strong>
+         <strong>Review & Approve</strong>
          </a>
       </div>
       <p>
-         <em>Organizza la revisione e l'approvazione semplificate delle risorse di marketing.</em>
+         <em>Orchestrate the streamlined review and approval of marketing assets.</em>
       </p>
    </td>
    <td valign="top">
       <a href="../user-guide/content/overview.md">
-      <img alt="Griglia" src="../assets/icons/icon-images.svg" width="35">
+      <img alt="Grid" src="../assets/icons/icon-images.svg" width="35">
       </a>
       <div>
          <a href="../user-guide/content/overview.md">
-         <strong>Gestione contenuto</strong>
+         <strong>Manage Content</strong>
          </a>
       </div>
       <p>
-         <em>Trova, gestisci e ridefinisci i contenuti mantenendo le linee guida del brand.</em>
+         <em>Find, manage, and repurpose content while maintaining brand guidelines.</em>
       </p>
    </td>
    <td valign="top">
       <a href="../user-guide/insights/overview.md">
-      <img alt="Grafico" src="../assets/icons/icon-dataAnalytics.svg" width="35">
+      <img alt="Chart" src="../assets/icons/icon-dataAnalytics.svg" width="35">
       </a>
       <div>
          <a href="../user-guide/insights/overview.md">
-         <strong>Visualizza approfondimenti</strong>
+         <strong>View Insights</strong>
          </a>
       </div>
       <p>
-         <em>Analizzare l'efficacia dei contenuti dei canali multimediali a pagamento.</em>
+         <em>Analyze the content effectiveness of paid media channels.</em>
       </p>
    </td>
 </tr>
 </table>
 
-## Scopri come
+## Learn how to
 
 <table style="table-layout:fixed">
 <td valign="top">
    <div>
       <a href="/help/user-guide/guidelines/add-guidelines.md">
-      <img alt="Aggiungi linee guida" src="../assets/card-guidelines.png">
-      <strong>Aggiungi linee guida</strong>
+      <img alt="Add guidelines" src="../assets/card-guidelines.png">
+      <strong>Add guidelines</strong>
       </a>
    </div>
    <p>
-      <em>Scopri come aggiungere linee guida - Marchi, prodotti e utenti tipo - a GenStudio for Performance Marketing.</em>
+      <em>Learn how to add guidelines—Brands, Products, and Personas—to GenStudio for Performance Marketing.</em>
    </p>
 </td>
 <td valign="top">
    <div>
       <a href="/help/user-guide/create/create-email-experience.md">
-      <img alt="Idee, libri, matita, computer" src="../assets/card-create-assets.png">
-      <strong>Creare un'esperienza e-mail</strong>
+      <img alt="Ideas, books, pencil, computer" src="../assets/card-create-assets.png">
+      <strong>Create an email experience</strong>
       </a>
    </div>
    <p>
-      <em>Scopri come creare un'esperienza e-mail nel brand.</em>
+      <em>Learn how to create an on-brand email experience.</em>
    </p>
 </td>
 <td valign="top">
    <div>
       <a href="/help/user-guide/create/create-meta-ad.md">
-      <img alt="Persone che spostano file in una cartella" src="../assets/card-manage-content.png">
-      <strong>Creare un'esperienza annuncio Meta</strong>
+      <img alt="People moving files into a folder" src="../assets/card-manage-content.png">
+      <strong>Create a Meta ad experience</strong>
       </a>
    </div>
    <p>
-      <em>Scopri come creare un'esperienza Meta ad allineata al brand.</em>
+      <em>Learn how to create a brand-aligned Meta ad experience.</em>
    </p>
 </td>
 </table>
 
 
-(Fine del GSPM)
+(End of GSPM)
 
 
 
@@ -149,115 +149,116 @@ Estratto da GSPM:
 
 
 
-## Accedere a Experience Cloud {#signin}
+## Sign in to Experience Cloud {#signin}
 
-Accedi e verifica di essere nell&#39;[organizzazione](administration/organizations.md) corretta.
+Sign in and verify that you are in the right [organization](administration/organizations.md).
 
-1. Passa ad [Adobe Experience Cloud](https://experience.adobe.com).
-1. Digita il tuo indirizzo e-mail Adobe, quindi fai clic su **[!UICONTROL Continua]**.
-1. Seleziona un account.
-1. Digita la tua password.
-1. Verifica di essere nell’organizzazione giusta.
+1. Navigate to [Adobe Experience Cloud](https://experience.adobe.com).
+1. Type your Adobe email address, then click **[!UICONTROL Continue]**.
+1. Select an account. 
+1. Type your password.
+1. Verify that you are in the right organization.
 
-   ![Verifica di essere nell’organizzazione corretta](assets/organizations-menu.png)
+    ![Verify that you are in the right organization](assets/organizations-menu.png)
 
-   **Verifica l’organizzazione**
+    **Verify your organization**
 
-   L’[organizzazione](administration/organizations.md) viene visualizzata nell’intestazione dell’interfaccia.
+    The [organization](administration/organizations.md) is displayed in the interface header.
 
-   Se la tua organizzazione usa Federated ID, Experience Cloud ti consente accedere in modalità single sign-on, senza inserire l’indirizzo e-mail e la password. Aggiungi `#/sso:@domain` all’URL di Experience Cloud (`https://experience.adobe.com`) per eseguire questa attività.
+    If your organization uses Federated IDs, Experience Cloud allows you to sign in with your organization's single sign-on without being required to enter your email address and password. Add `#/sso:@domain` to the Experience Cloud URL (`https://experience.adobe.com`) to accomplish this task.
+    
+    For example, for an organization with Federated IDs and the domain `adobecustomer.com`, set your URL link to `https://experience.adobe.com/#/sso:@adobecustomer.com`. You can also go directly to a specific application by bookmarking this URL, appended with the application path. (For example, for Adobe Analytics, `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`.)
 
-   Ad esempio, per un’organizzazione con Federated ID e il dominio `adobecustomer.com`, imposta il link dell’URL su `https://experience.adobe.com/#/sso:@adobecustomer.com`. Puoi anche passare direttamente a una specifica applicazione salvando come segnalibro o preferito l’URL seguito dal percorso dell’applicazione. Ad esempio, per Adobe Analytics: `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`.
+## Access Experience Cloud applications {#navigation}
 
-## Accedere alle applicazioni di Experience Cloud {#navigation}
+After signing in to Experience Cloud, you can quickly access all your applications, services, and organizations from the unified header.
 
-Dopo aver effettuato l’accesso ad Experience Cloud, è possibile accedere rapidamente a tutte le applicazioni, i servizi e le organizzazioni dall’lintestazione unificata.
+To access Experience Cloud applications and services provisioned for you within your organization, go the application selector ![menu](assets/menu-icon.png).
 
-Per accedere alle applicazioni e ai servizi Experience Cloud per i quali disponi dei diritti di accesso nella tua organizzazione, passa al selettore delle applicazioni ![menu](assets/menu-icon.png).
+![Access Experience Cloud applications](assets/platform-core-services.png)
 
-![Accedere alle applicazioni Experience Cloud](assets/platform-core-services.png)
+## Get help and support {#support}
 
-## Ottenere assistenza e supporto {#support}
+Access learning and help using the **[!UICONTROL Help center]** (![asset](assets/help-icon.png)) in the header, including help content (documentation, tutorials, and courses) on [Experience League](https://experienceleague.adobe.com/#home), as well as additional resources for individual applications. You can also submit open-ended feedback and create prioritized support tickets.
 
-Accedi ai contenuti di apprendimento e alla guida utilizzando il **[!UICONTROL Centro assistenza]** (![risorsa](assets/help-icon.png)) nell’intestazione, dove sono inclusi contenuti guida (documentazione, tutorial e corsi) su [Experience League](https://experienceleague.adobe.com/it?lang=it#home), nonché le risorse aggiuntive per le singole applicazioni. Puoi anche inviare feedback aperti e creare ticket di supporto con priorità.
+![Get help and support](assets/search-menu.png)
 
-![Ottenere assistenza e supporto](assets/search-menu.png)
+The [!UICONTROL Help] menu also gives you access to:
 
-Il menu [!UICONTROL Aiuto] consente inoltre di accedere a:
+* **[!UICONTROL Support]:** Create a support ticket or contact [!UICONTROL Support] using Twitter.
+* **[!UICONTROL Feedback]:** Share feedback about your Experience Cloud experience. Your feedback is used to improve Adobe's products and services.
+* **[!UICONTROL Status]:** Navigate to `https://status.adobe.com/experience_cloud` and check product operational status and [!UICONTROL Manage Subscriptions].
+* **[!UICONTROL Developer Connection]:** Navigation to `adobe.io` and find developer documentation.
 
-* **[!UICONTROL Supporto]:** crea un ticket di supporto o contatta il [!UICONTROL Supporto] tramite Twitter.
-* **[!UICONTROL Feedback]:** invia feedback sulla tua esperienza nell’uso di Experience Cloud. Il tuo feedback viene utilizzato per migliorare i prodotti e i servizi di Adobe.
-* **[!UICONTROL Stato]:** passa a `https://status.adobe.com/experience_cloud` per controllare lo stato operativo del prodotto e [!UICONTROL gestire gli abbonamenti].
-* **[!UICONTROL Developer Connection]:** naviga in `adobe.io` e accedi alla documentazione per gli sviluppatori.
+## Manage your user profile
 
-## Gestione del profilo utente
+In the [!UICONTROL Profile] menu, you can:
 
-Nel menu [!UICONTROL Profilo] è possibile:
+* Specify a dark theme (not all applications support this theme)
+* Manage Experience Cloud [Preferences](features/account-preferences.md)
+* Select or search for an [Organization](administration/organizations.md)
+* View [!UICONTROL Legal Notices]
+* Sign out
+* Configure account preferences, notifications, and subscriptions
 
-* Specificare un tema scuro (non tutte le applicazioni supportano questo tema)
-* Gestire le [preferenze](features/account-preferences.md) di Experience Cloud
-* Selezionare o cercare un’[Organizzazione](administration/organizations.md)
-* Visualizzare [!UICONTROL Note legali]
-* Uscire
-* Configurare preferenze, notifiche e abbonamenti dell’account
+## View in-product notifications and announcements {#notifications}
 
-## Visualizzare notifiche e annunci interni al prodotto {#notifications}
+Click the bell icon to view notifications and announcements. Announcements can be relevant and actionable updates, including product releases, maintenance notices, shared items, and approval requests.
 
-Fai clic sull’icona a forma di campana per visualizzare notifiche e annunci. Gli annunci possono riferirsi ad aggiornamenti rilevanti e fruibili, inclusi rilasci di prodotto, avvisi di manutenzione, elementi condivisi e richieste di approvazione.
+![Notifications and Announcements](assets/notifications-menu-small.png)
 
-![Notifiche e annunci](assets/notifications-menu-small.png)
-
-Per gestire notifiche e avvisi, vedere [Preferenze account e notifiche](features/account-preferences.md)
+To manage notifications and alerts, see [Account preferences and notifications](features/account-preferences.md)
 
 
-## Novità
+## What's New
 
-Scopri gli ultimi miglioramenti dei componenti dell’interfaccia centrale di Experience Cloud.
+Learn about the latest enhancements to Experience Cloud central interface components.
 
 >[!BEGINTABS]
->[!TAB Integrazione di  Slack con Experience Cloud]
 
-Puoi configurare le preferenze del tuo account per inviare notifiche Experience Cloud a un canale [!DNL Slack].
+>[!TAB Slack integration with Experience Cloud]
 
-[!BADGE Beta]{type=Informative url="https://experienceleague.adobe.com/it/docs/core-services/interface/features/account-preferences#notifications" tooltip="Informazioni su Slack"}
+You can configure your account preferences to send Experience Cloud notifications to a [!DNL Slack] channel. 
 
-
->[!TAB Nuova interfaccia utente di Campaign Web]
-
-Scopri la nuova interfaccia utente di Adobe Campaign. Più moderna, intuitiva e dinamica.
-
-[![immagine](assets/do-not-localize/learn-more-button.svg)](start/campaign-ui.md#ac-web-ui)
+[!BADGE Beta]{type=Informative url="https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#notifications" tooltip="Learn about Slack"}
 
 
->[!TAB Prossime modifiche del canale di notifica push]
+>[!TAB New Campaign Web User Interface] 
 
-Alcune importanti modifiche al servizio Android Firebase Cloud Messaging (FCM) verranno rilasciate nel 2024 e potranno influenzare la tua implementazione di Adobe Campaign. Per supportare questa modifica, potrebbe essere necessario aggiornare la configurazione dei servizi di abbonamento per i messaggi push Android. Puoi già verificare e intervenire.
+Experience the new Adobe Campaign User Interface. More modern, intuitive and dynamic!
 
-[![immagine](assets/do-not-localize/learn-more-button.svg)](../technotes/upgrades/push-technote.md)
+[![image](assets/do-not-localize/learn-more-button.svg)](start/campaign-ui.md#ac-web-ui)
+
+
+>[!TAB Push channel upcoming changes] 
+
+Some important changes to the Android Firebase Cloud Messaging (FCM) service will be released in 2024, and may impact your Adobe Campaign implementation. Your subscription services configuration for Android push messages may need to be updated to support this change. You can already check and take action.
+
+[![image](assets/do-not-localize/learn-more-button.svg)](../technotes/upgrades/push-technote.md)
 
 
 
 >[!ENDTABS]
 
-## Inizia con le nozioni di base
+## Start with the basics
 
 <table style="table-layout:fixed">
   <tr style="border: 0;">
     <td>
     <a href="start/whats-new.md"><img src="assets/do-not-localize/start-capabilities.png"></a>
-    <div><strong>Funzionalità principali</strong><br/>: scopri le funzionalità chiave di Adobe Campaign v8 per la gestione delle campagne cross-channel.</div>
+    <div><strong>Key capabilities</strong><br/>Explore Adobe Campaign v8's key capabilities for cross-channel campaign management.</div>
     </td>
     <td>
     <a href="start/connect.md"><img src="assets/do-not-localize/start-connect.jpeg"></a>
-    <div><strong>Connessione a Campaign v8</strong><br/>: scopri come connetterti ad Adobe Campaign v8 e avviare il percorso di gestione delle campagne installando e configurando la console client.</div><br/>
+    <div><strong>Connect to Campaign v8</strong><br/>Learn how to connect to Adobe Campaign v8 and kickstart your campaign management journey by installing and configuring the client console.</div><br/>
     </td>
     <td>
     <a href="start/create-message.md"><img src="assets/do-not-localize/start-send.jpeg"></a>
-    <div><strong>Inviare messaggi</strong><br/>: scopri come inviare messaggi attraverso vari canali come ad esempio e-mail, SMS e notifiche push.
+    <div><strong>Send messages</strong><br/>Learn how to send messages across various channels such as email, SMS, push notifications among others.
     </div></td>
     <td>
     <a href="audiences/create-profiles.md"><img src="assets/do-not-localize/start-profiles.png"></a>
-    <div><strong>Importare i profili</strong><br/>: esplora con facilità la creazione dei profili nel database di Adobe Campaign v8. Aggiungi profili manualmente o tramite importazioni, perfezionando i dati dei clienti e personalizzando le campagne in modo semplice.</div>
+    <div><strong>Import profiles</strong><br/>Explore profile creation in the Adobe Campaign v8 database with ease. Add profiles manually or through imports, refining customer data and customizing campaigns effortlessly.</div>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -268,45 +269,45 @@ Alcune importanti modifiche al servizio Android Firebase Cloud Messaging (FCM) v
     </tr>
 </table>
 
-## Esplora la documentazione
+## Explore the documentation
 
 <table style="table-layout:auto">
   <tr style="border: 0;">
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>Introduzione</strong><br/><a href="start/campaign-ui.md">Interfaccia utente</a> - <a href="start/ac-components.md">Componenti e processi</a> - <a href="start/v7-to-v8.md">Da Classic v7 a v8</a> - <a href="start/campaign-faq.md">Domande frequenti</a>
+      <strong>Get started</strong><br/><a href="start/campaign-ui.md">User interface</a> - <a href="start/ac-components.md">Components & processes</a> - <a href="start/v7-to-v8.md">From Classic v7 to v8</a> - <a href="start/campaign-faq.md">FAQ</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
     <br/>
-      <strong>Esperienza cliente</strong><br/> <a href="../automation/workflow/about-workflows.md" target="_blank">Automatizza con i flussi di lavoro</a> - <a href="../automation/campaigns/set-up-campaigns.md" target="_blank">Orchestrazione della campagna</a> - <a href="interaction/interaction.md">Gestione delle decisioni</a> - <a href="send/personalize.md">Personalizzazione</a>
+      <strong>Customer's experience</strong><br/><a href="../automation/workflow/about-workflows.md" target="_blank">Automate with workflows</a> - <a href="../automation/campaigns/set-up-campaigns.md" target="_blank">Campaign orchestration</a> - <a href="interaction/interaction.md">Decision management</a> - <a href="send/personalize.md">Personalization</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-send.svg" width="35px">
     <br/>
-      <strong>Inviare messaggi</strong><br/><a href="start/create-message.md">Introduzione</a> - <a href="send/preview-and-proof.md">Anteprima e bozze</a> - <a href="send/predictive.md">Ottimizzazione del tempo di invio</a> - <a href="reporting/gs-reporting.md">Reporting e analisi</a>
+      <strong>Send messages</strong><br/><a href="start/create-message.md">Get started</a> - <a href="send/preview-and-proof.md">Preview & proofs</a> - <a href="send/predictive.md">Send-time optimization</a> - <a href="reporting/gs-reporting.md">Reporting & analytics</a>
     </td>
   </tr>
   <tr style="border: 0;">
     <td>
       <img src="assets/do-not-localize/icon_profile-audience.svg" width="35px">
     <br/>
-      <strong>Profili e tipi di pubblico</strong><br/> <a href="audiences/create-profiles.md">Aggiungere profili</a> - <a href="audiences/create-audiences.md">Creare tipi di pubblico</a> - <a href="start/subscriptions.md">Gestiire gli abbonamenti</a> - <a href="start/privacy.md">Privacy</a>
+      <strong>Profiles & audiences</strong><br/><a href="audiences/create-profiles.md">Add profiles</a> - <a href="audiences/create-audiences.md">Create audiences</a> - <a href="start/subscriptions.md">Manage subscriptions</a> - <a href="start/privacy.md">Privacy</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-configure.svg" width="35px">
     <br/>
-      <strong>Architettura e configurazione</strong><br/><a href="architecture/architecture.md">Architettura</a> - <a href="start/implement.md">Implementazione di Campaign v8</a> - <a href="connect/integration.md">Connessione con altre soluzioni</a> - <a href="start/gs-permissions.md">Utenti e autorizzazioni</a>
+      <strong>Architecture & configuration</strong><br/><a href="architecture/architecture.md">Architecture</a> - <a href="start/implement.md">Campaign v8 implementation</a> - <a href="connect/integration.md">Connect with other solutions</a> - <a href="start/gs-permissions.md">Users & permissions</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-dev.svg" width="35px">
     <br/>
-      <strong>Risorse per sviluppatori</strong><br/><a href="dev/datamodel.md">Modello dati Campaign v8</a> - <a href="dev/schemas.md">Schemi</a> - <a href="dev/api.md">API</a>
+      <strong>Developer resources</strong><br/><a href="dev/datamodel.md">Campaign v8 data model</a> - <a href="dev/schemas.md">Schemas</a> - <a href="dev/api.md">APIs</a>
     </td>
   </tr>
-</table>
-
+</table> 
+-->
 ## Risorse aggiuntive
 
 [Descrizione del prodotto Adobe Campaign v8](https://helpx.adobe.com/it/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Documentazione dell’interfaccia utente di Adobe Campaign Web](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=it){target="_blank"} - [Tutorial](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=it){target="_blank"} - [[!DNL Adobe Campaign] Guida all’automazione](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=it){target="_blank"} - [Pannello di controllo per Campaign v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=it){target="_blank"}
