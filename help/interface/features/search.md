@@ -8,16 +8,16 @@ topic: Administration
 role: Admin
 level: Beginner
 exl-id: 70586f18-6f84-4308-bab3-1da7fab823d6
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 28%
+source-wordcount: '644'
+ht-degree: 19%
 
 ---
 
-# [!UICONTROL Ricerca unificata] di oggetti ed entità {#globally-search}
+# [!UICONTROL Unified Search] per oggetti ed entità
 
-La [!UICONTROL Ricerca unificata] consente di trovare oggetti o entità business ricercabili in modo coerente e immediato con un semplice clic. Questa ricerca fa emergere anche gli oggetti utilizzati di recente.
+La ricerca di [!UICONTROL Unified Search] consente di trovare oggetti o entità business ricercabili in modalità semplice, coerente e immediata. Questa ricerca fa emergere anche gli oggetti utilizzati di recente.
 
 ![Ricerca globale di oggetti ed entità](../assets/platform-search.png)
 
@@ -61,7 +61,7 @@ Se una parola chiave corrisponde a una pagina di navigazione, puoi ottenere un c
 
 Sono inoltre disponibili gli articoli della guida di Experience League e le community. Sono supportate le query per lingue naturali.
 
-Ad esempio: _Come creare uno schema_ produce i risultati di Experience League in _[!UICONTROL Apprendimento]_:
+Ad esempio, _Come creare uno schema_ produce i risultati di Experience League in _[!UICONTROL Learning]_:
 
 ![Aiuto per la ricerca unificata in Experience Cloud](../assets/unified-search-learning.png)
 
@@ -70,12 +70,12 @@ Gli algoritmi di ricerca visualizzano per primi i record più rilevanti. L’ord
 * Autorizzazioni utente per accedere agli oggetti
 * Percentuale corrispondente
 * Corrispondenze esatte
-* La sezione _[!UICONTROL Risultati principali]_ mostra i primi 30 risultati.
+* La sezione _[!UICONTROL Top Results]_mostra i primi 30 risultati.
 
 Per perfezionare la ricerca, fai clic su una delle seguenti opzioni:
 
-* **[!UICONTROL Tutto l’apprendimento]**: apre la ricerca in Experience League.
-* **[!UICONTROL Mostra tutto...]**: consente di perfezionare e filtrare ulteriormente i risultati.
+* **[!UICONTROL All Learning]**: apre la ricerca in Experience League.
+* **[!UICONTROL Show all...]**: consente di perfezionare e filtrare ulteriormente i risultati.
 
 ## Funzioni di ricerca unificata
 

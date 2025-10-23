@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
-source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
+source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
 workflow-type: tm+mt
 source-wordcount: '1150'
 ht-degree: 62%
@@ -22,7 +22,7 @@ Devi poter accedere ai dati del sistema CRM, o simili, della tua azienda. I dati
 
 [!DNL Customer Attributes] è progettato per gestire alcuni file al giorno. Per evitare che numerosi file di piccole dimensioni possano ritardare l’elaborazione, i file inviati entro 30 minuti da un batch precedente della stessa organizzazione vengono indirizzati a una coda di priorità inferiore.
 
-## Tipi di file consentiti e requisiti per la denominazione {#section_6F64FA02ACCC4215B0862CB6A1821FBF}
+## Tipi di file consentiti e requisiti per la denominazione
 
 | Tipo di file | Descrizione |
 |--- |--- |
@@ -31,7 +31,7 @@ Devi poter accedere ai dati del sistema CRM, o simili, della tua azienda. I dati
 | `.gz` o `.zip` | `.gz` (gzip) o `.zip` - per file compressi. Un file `.zip` non può contenere più di un file nell&#39;archivio. Requisiti di denominazione: il nome di `.zip` o `.gz` deve corrispondere al nome del file `.csv`. Ad esempio, se il file `.csv` è `crm_small.csv`, il file `.zip` deve essere `crm_small.csv.zip`. Il file `.fin` deve corrispondere a `.csv`. |
 
 
-## Requisiti per i file di dati degli attributi {#section_169FBF5B7BBA47CE825B7A330CF3FE98}
+## Requisiti per i file di dati degli attributi
 
 **Esempio di CSV**
 
@@ -59,7 +59,7 @@ Lo stesso file visualizzato in un editor di testo:
   </tr> 
   <tr> 
    <td colname="col1"> <p>colonna ID cliente </p> </td> 
-   <td colname="col2"> <p> La prima colonna deve essere un ID cliente univoco. L'ID usato deve corrispondere all'ID che viene passato al servizio Experience Cloud ID. </p> <p>Per Analytics, l'ID archiviato in una prop o eVar. </p> <p>Per Target, il valore setcustomerID. </p> <p> Questo ID cliente è l’identificatore univoco che il sistema CRM utilizza per ogni persona nel database. Le colonne rimanenti sono attributi provenienti dai dati del sistema CRM. Puoi scegliere quanti attributi caricare. </p> <p>Per le intestazioni delle colonne sono consigliati nomi descrittivi e leggibili, ma non sono obbligatori. Quando convalidi lo schema dopo il caricamento, puoi mappare i nomi descrittivi alle righe e alle colonne caricate. </p> <p> <b>Informazioni sugli ID cliente</b> </p> <p>In genere, un'azienda utilizza un ID cliente proveniente da un sistema di gestione delle relazioni con i clienti (CRM). Questo ID viene impostato utilizzando la chiamata <span class="codeph"> setcustomerIDs </span> quando una persona effettua l'accesso. Questo ID viene utilizzato anche come chiave nel file CRM che viene caricato in Experience Cloud. Un ID alias <a href="t-crs-usecase.md" format="dita" scope="local"> di </a> è un nome descrittivo per un archivio dati in Audience Manager, dove vengono memorizzati i dati alias. Il sistema invia alias a questo archivio dati (tramite setcustomerID). Il file di gestione delle relazioni con i clienti viene applicato ai dati in tale archivio di dati. </p> <p>Per <span class="codeph"> informazioni setcustomerID </span>, vedi <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=it" format="https" scope="external"> ID cliente e stati di autenticazione </a>. </p> </td> 
+   <td colname="col2"> <p> La prima colonna deve essere un ID cliente univoco. L'ID usato deve corrispondere all'ID che viene passato al servizio Experience Cloud ID. </p> <p>Per Analytics, l'ID archiviato in una prop o eVar. </p> <p>Per Target, il valore setcustomerID. </p> <p> Questo ID cliente è l’identificatore univoco che il sistema CRM utilizza per ogni persona nel database. Le colonne rimanenti sono attributi provenienti dai dati del sistema CRM. Puoi scegliere quanti attributi caricare. </p> <p>Per le intestazioni delle colonne sono consigliati nomi descrittivi e leggibili, ma non sono obbligatori. Quando convalidi lo schema dopo il caricamento, puoi mappare i nomi descrittivi alle righe e alle colonne caricate. </p> <p> <b>Informazioni sugli ID cliente</b> </p> <p>In genere, un'azienda utilizza un ID cliente proveniente da un sistema di gestione delle relazioni con i clienti (CRM). Questo ID viene impostato utilizzando la chiamata <span class="codeph"> setcustomerIDs </span> quando una persona effettua l'accesso. Questo ID viene utilizzato anche come chiave nel file CRM che viene caricato in Experience Cloud. Un ID alias <a href="t-crs-usecase.md" format="dita" scope="local"> di </a> è un nome descrittivo per un archivio dati in Audience Manager, dove vengono memorizzati i dati alias. Il sistema invia alias a questo archivio dati (tramite setcustomerID). Il file di gestione delle relazioni con i clienti viene applicato ai dati in tale archivio di dati. </p> <p>Per <span class="codeph"> informazioni setcustomerID </span>, vedi <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html" format="https" scope="external"> ID cliente e stati di autenticazione </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Intestazioni e colonne successive </p> </td> 
@@ -120,7 +120,7 @@ Lo stesso file visualizzato in un editor di testo:
  </tbody> 
 </table>
 
-## Utilizzo di più origini dati {#multiple}
+## Utilizzo di più origini dati
 
 Quando crei, modifichi o elimini sorgenti di attributi del cliente, si verifica un ritardo di circa un&#39;ora prima della effettiva sincronizzazione degli ID con la nuova sorgente dati.
 
@@ -137,7 +137,7 @@ Visitor.setcustomerIDs({
 });
 ```
 
-(Vedi [ID cliente e stati di autenticazione](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=it) per ulteriori informazioni.)
+(Vedi [ID cliente e stati di autenticazione](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) per ulteriori informazioni.)
 
 In **[!DNL Experience Cloud]** > **[!DNL Customer Attributes]**:
 

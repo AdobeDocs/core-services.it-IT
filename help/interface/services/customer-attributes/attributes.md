@@ -7,22 +7,22 @@ role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: bd718358c6db1ea4a6150d019773072418b629f9
+source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 80%
+source-wordcount: '304'
+ht-degree: 81%
 
 ---
 
 # [!DNL Customer Attributes] in Experience Cloud
 
-**[!UICONTROL App]** ![menu](assets/menu-icon.png) > **[!DNL Customer Attributes]**
+**[!UICONTROL Apps]** ![menu](assets/menu-icon.png) > **[!DNL Customer Attributes]**
 
 [!DNL Customer Attributes] in Experience Cloud consente di caricare i dati aziendali acquisiti da un database di gestione delle relazioni con i clienti (CRM). È possibile [caricare i dati](t-crs-usecase.md) in un&#39;origine dati [!DNL Customer Attributes] in Experience Cloud, quindi utilizzare i dati in [!DNL Adobe Analytics] e [!DNL Adobe Target].
 
 ![Panoramica degli attributi del cliente](assets/custom_reports.png)
 
-## Cosa sono i dati cliente Enterprise? {#enterprise_data}
+## Cosa sono i dati cliente Enterprise?
 
 I dati Enterprise risiedono in altri sistemi. Possono risultare complessi e diversi a seconda delle persone. Questi dati includono informazioni come iscrizioni, livello di fedeltà, età, genere, prodotti posseduti, interessi e lifetime value.
 
@@ -30,11 +30,11 @@ L&#39;immagine seguente è un esempio di un file di dati che mostra i dati dell&
 
 ![Cosa sono i dati cliente Enterprise?](assets/01_crs_usecase.png)
 
-Dopo aver creato il file di dati, puoi caricarlo nell&#39;origine attributi del cliente che hai creato in **[!UICONTROL Experience Cloud]** > **[!UICONTROL Attributi del cliente]**.
+Dopo aver creato il file di dati, è possibile caricarlo nell&#39;origine attributi cliente creata in **[!UICONTROL Experience Cloud]** > **[!UICONTROL Customer attributes]**.
 
 Consulta [Caricare i dati degli attributi del cliente](t-crs-usecase.md) per conoscere questo flusso di lavoro.
 
-## Esempi di attributi del cliente in Analytics e Target {#examples}
+## Esempi di attributi del cliente in Analytics e Target
 
 Quando i dati si trovano in Experience Cloud, puoi personalizzarli e condividerli con soluzioni per reporting, segmentazioni, attività e campagne.
 

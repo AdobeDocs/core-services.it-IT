@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: f83ddfe82a55c6b88cf35a14b030d9b82c17f16d
+source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '572'
 ht-degree: 50%
 
 ---
@@ -23,7 +23,7 @@ L’organizzazione funziona come un’azienda che può effettuare un log-in che 
 
 ![Organizzazioni Experience Cloud](../assets/organizations-menu.png)
 
-Per verificare di aver effettuato l&#39;accesso all&#39;organizzazione corretta, fare clic su **[!UICONTROL Profilo]** per visualizzare il nome dell&#39;organizzazione predefinita. Se hai accesso a più organizzazioni, puoi anche visualizzare e passare a un’altra organizzazione nella barra dell’intestazione.
+Per verificare di aver effettuato l&#39;accesso all&#39;organizzazione corretta, fare clic su **[!UICONTROL Profile]** per visualizzare il nome dell&#39;organizzazione predefinita. Se hai accesso a più organizzazioni, puoi anche visualizzare e passare a un’altra organizzazione nella barra dell’intestazione.
 
 >[!NOTE]
 >
@@ -35,9 +35,9 @@ Se la tua organizzazione usa Federated ID, Experience Cloud ti consente accedere
 
 Ad esempio, per un’organizzazione con Federated ID e il dominio `adobecustomer.com`, imposta il link dell’URL su `https://experience.adobe.com/#/sso:@adobecustomer.com`. Puoi anche passare direttamente a una specifica applicazione salvando come segnalibro o preferito l’URL seguito dal percorso dell’applicazione. Ad esempio, per Adobe Analytics: `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`.
 
-## Visualizza l&#39;ID organizzazione {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
+## Visualizza l&#39;ID organizzazione
 
-Puoi individuare l’ID organizzazione assegnato a scopo di supporto. Puoi verificare di essere nell&#39;organizzazione corretta o cambiare organizzazione utilizzando il selettore **[!UICONTROL Organizzazione]** nell&#39;intestazione.
+Puoi individuare l’ID organizzazione assegnato a scopo di supporto. Puoi verificare di essere nell&#39;organizzazione corretta o cambiare organizzazione utilizzando il selettore **[!UICONTROL Organization]** nell&#39;intestazione.
 
 L’ID organizzazione è l’ID associato all’azienda con provisioning di Experience Cloud. Questo ID è una stringa alfanumerica composta da 24 caratteri, seguita da (deve includere) `@AdobeOrg`.
 
@@ -49,7 +49,7 @@ Per visualizzare l&#39;ID organizzazione e altre informazioni sull&#39;account, 
 
    ![ID delle organizzazioni assegnate](../assets/assigned-organization.png)
 
-1. In **[!UICONTROL Informazioni utente]**, cerca **[!UICONTROL ID organizzazione corrente]** ed è possibile individuare l&#39;ID organizzazione.
+1. In **[!UICONTROL User Information]**, cerca **[!UICONTROL Current Org ID]** e puoi individuare l&#39;ID organizzazione.
 
    In alternativa, gli amministratori possono accedere ad Admin Console (passare a [https://adminconsole.adobe.com](https://adminconsole.adobe.com)) e visualizzare l&#39;ID organizzazione nell&#39;URL.
 
@@ -61,7 +61,7 @@ Per visualizzare l&#39;ID organizzazione e altre informazioni sull&#39;account, 
 
    `C538193582390300A495CC9@AdobeOrg`
 
-## Collegamento di un account applicazione a un Adobe ID {#task_FD389E78640848919E247AC5E95B8369}
+## Collegamento di un account applicazione a un Adobe ID
 
 In genere, gli amministratori di Experience Cloud concedono l’accesso ad applicazioni e servizi. In rare circostanze, è possibile collegare le credenziali dell’applicazione a un Adobe ID.
 
@@ -69,7 +69,7 @@ In genere, gli amministratori di Experience Cloud concedono l’accesso ad appli
 
 1. Accedi utilizzando il tuo Adobe ID o Enterprise ID.
 
-1. Fare clic sul **[!UICONTROL selettore applicazioni]**. ( ![menu](../assets/apps-icon.png)).
+1. Fare clic su **[!UICONTROL Application selector]**. ( ![menu](../assets/apps-icon.png)).
 
    ![Collegare un account applicazione a un Adobe ID](../assets/solutions-active.png)
 
@@ -81,24 +81,24 @@ In genere, gli amministratori di Experience Cloud concedono l’accesso ad appli
 
    Questo tipo di messaggio mostra se fai parte del gruppo appropriato (e disponi dell’autorizzazione per l’applicazione) ma non hai ancora collegato le credenziali del tuo account al tuo Adobe ID.
 
-1. Fai clic su **[!UICONTROL Collega account]**, quindi immetti le tue credenziali.
+1. Fare clic su **[!UICONTROL Link Account]**, quindi fornire le credenziali.
 
-## Specificare un&#39;organizzazione predefinita {#concept_6A191B42A9874A9780882903BA18F071}
+## Specificare un&#39;organizzazione predefinita
 
 È possibile specificare un&#39;organizzazione predefinita da utilizzare al momento dell&#39;accesso.
 
-1. Nell&#39;intestazione fare clic su **[!UICONTROL Profilo]**, quindi su Preferenze.
+1. Nell&#39;intestazione fare clic su **[!UICONTROL Profile]**, quindi su Preferenze.
 
-1. In [!UICONTROL Generale], selezionare un&#39;organizzazione predefinita.
+1. In [!UICONTROL General], selezionare un&#39;organizzazione predefinita.
 
 
 ![Modifica profilo](../assets/edit-profile.png)
 
-## Risoluzione dei problemi di collegamento dell&#39;account {#concept_DFCB29A3B4834FC59AA29E0BBA301584}
+## Risoluzione dei problemi di collegamento dell&#39;account
 
 Assistenza per problemi derivanti dal collegamento dell’account.
 
 In genere, il collegamento dell’account ha esito negativo perché l’Adobe ID è collegato a un utente precedente. Quando non è possibile eseguire il collegamento, prova le seguenti operazioni:
 
-* [Contatta l’Assistenza Adobe](https://experienceleague.adobe.com/it?support-solution=General&lang=it#support).
+* [Contatta l’Assistenza Adobe](https://experienceleague.adobe.com/?support-solution=General&lang=it#support).
 * Durante la risoluzione del problema, accedi all’applicazione con la procedura standard.

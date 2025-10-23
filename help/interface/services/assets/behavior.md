@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 5ddcb2f0-b491-466d-b357-aeacbfcf0b8e
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
 workflow-type: tm+mt
 source-wordcount: '627'
 ht-degree: 96%
@@ -24,7 +24,7 @@ Regole per il comportamento delle cartelle condivise in caso di spostamento, eli
 >
 >Le cartelle e le risorse condivise di Experience Cloud si riflettono sul desktop di Creative Cloud in una relazione 1:1. Se un utente di Experience Cloud modifica una cartella (elimina, aggiunge o rimuove condivisioni) l&#39;azione si riflette sul desktop e sul Web di Creative Cloud. Di conseguenza, se una cartella non è più condivisa, la cartella e le relative risorse vengono eliminate dal computer locale. Una volta rimossa la condivisione, la cartella e il suo contenuto vengono spostati nel cestino del computer locale, dal quale è possibile ripristinarli manualmente in locale.
 
-## Cartella non condivisa in una cartella condivisa {#section_A9BAC1A244A246A984AC62660E61E0C0}
+## Cartella non condivisa in una cartella condivisa
 
 Sposti una cartella non condivisa in una cartella condivisa:
 
@@ -32,7 +32,7 @@ Sposti una cartella non condivisa in una cartella condivisa:
 
 **Risultato**: entrambe le cartelle vengono condivise.
 
-## Cartella condivisa in una cartella non condivisa {#section_8BA83001DCEC4CF084B980C4A660F59A}
+## Cartella condivisa in una cartella non condivisa
 
 Sposti una cartella condivisa in una cartella non condivisa.
 
@@ -40,7 +40,7 @@ Sposti una cartella condivisa in una cartella non condivisa.
 
 **Risultato**: la cartella non condivisa rimane non condivisa. La cartella condivisa rimane condivisa.
 
-## Contenuto di una cartella non condivisa in una cartella condivisa {#section_2941ED0DC52E4573AC1AB4C22313DD8E}
+## Contenuto di una cartella non condivisa in una cartella condivisa
 
 Sposti il contenuto di una cartella non condivisa in una cartella condivisa.
 
@@ -48,7 +48,7 @@ Sposti il contenuto di una cartella non condivisa in una cartella condivisa.
 
 **Risultato:** il contenuto ora è condiviso e tutti i collaboratori possono visualizzarlo. Lo spazio di archiviazione usato aumenta in base alla dimensione del contenuto.
 
-## Contenuto condiviso archiviato ed eliminato {#section_5210D5F4943A44D0BA675D8EB4EAE20F}
+## Contenuto condiviso archiviato ed eliminato
 
 Archivi o elimini il contenuto di una cartella condivisa.
 
@@ -56,7 +56,7 @@ Archivi o elimini il contenuto di una cartella condivisa.
 
 **Risultato:** il contenuto viene archiviato per il proprietario della cartella. I collaboratori che non possiedono il contenuto non potranno più accedervi.
 
-## Contenuto di proprietà condiviso in una cartella non condivisa {#section_3810A364B67E4B8C9CA244BC52BF91BB}
+## Contenuto di proprietà condiviso in una cartella non condivisa
 
 Sposti il contenuto da una cartella condivisa di tua proprietà a una cartella non condivisa.
 
@@ -64,7 +64,7 @@ Sposti il contenuto da una cartella condivisa di tua proprietà a una cartella n
 
 **Risultato:** il contenuto non è più condiviso. I collaboratori della cartella condivisa non hanno più accesso al contenuto.
 
-## Contenuto non di proprietà in una cartella non condivisa {#section_310766EBF0DC4C0BB4AB3E8A4DAEBE07}
+## Contenuto non di proprietà in una cartella non condivisa
 
 Sposti il contenuto da una cartella condivisa di proprietà di un altro utente a una cartella non condivisa.
 
@@ -74,7 +74,7 @@ Sposti il contenuto da una cartella condivisa di proprietà di un altro utente a
 
 I proprietari e gli editor possono spostare contenuti di cui non sono proprietari; gli utenti con sole autorizzazioni di visualizzazione non possono effettuare tali spostamenti. Se i proprietari e gli editor spostano i contenuti, questi non saranno disponibili in una cartella condivisa per alcun utente.
 
-## Cartella di proprietà archiviata o eliminata {#section_B314B13512A5409C87C49DFDB7602E14}
+## Cartella di proprietà archiviata o eliminata
 
 Archivi (via web) o elimini (via desktop) una cartella condivisa di tua proprietà.
 
@@ -82,7 +82,7 @@ Archivi (via web) o elimini (via desktop) una cartella condivisa di tua propriet
 
 **Risultato:** la cartella non è più condivisa e viene quindi archiviata. I collaboratori non hanno più accesso alla cartella.
 
-## Cartella condivisa in un’altra cartella condivisa {#section_0A3F203D048D4D1586E9850DC92C51E9}
+## Cartella condivisa in un’altra cartella condivisa
 
 Sposti una cartella condivisa di tua proprietà in un’altra cartella condivisa, che sia di tua proprietà o meno.
 
@@ -90,7 +90,7 @@ Sposti una cartella condivisa di tua proprietà in un’altra cartella condivisa
 
 **Risultato:** quando la cartella viene spostata nella seconda cartella, viene condivisa con i nuovi collaboratori.
 
-## Contenuto condiviso in un’altra cartella condivisa {#section_69F6C312792A4CD2831BD14A340F850E}
+## Contenuto condiviso in un’altra cartella condivisa
 
 Sposti il contenuto da una cartella condivisa a un’altra cartella condivisa.
 
@@ -98,7 +98,7 @@ Sposti il contenuto da una cartella condivisa a un’altra cartella condivisa.
 
 **Risultato:** il contenuto viene visualizzato nella seconda cartella e ora è condiviso con i nuovi collaboratori. Il contenuto viene rimosso dalla prima cartella e il proprietario lo visualizza come archiviato; gli altri collaboratori non possono più accedervi.
 
-## Contenuto ripristinato dall’archivio {#section_DEA990B3581741F89FBB81D18C2AB449}
+## Contenuto ripristinato dall’archivio
 
 Ripristini il contenuto da un archivio che apparteneva a una cartella condivisa. Il contenuto era di tua proprietà al momento dell’archiviazione.
 

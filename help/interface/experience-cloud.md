@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: ab65ddb3bf6887db4fa0b2ffbbef89fc198b191a
+source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 100%
+source-wordcount: '494'
+ht-degree: 84%
 
 ---
 
@@ -27,12 +27,12 @@ Dall’area dell’intestazione di Experience Cloud, è possibile:
 * Eseguire ricerche globali sugli oggetti business utilizzando la ricerca globale (solo per gli utenti di Experience Platform) nel campo Ricerca.
 * Gestire le [preferenze](features/account-preferences.md) dell’account (avvisi, notifiche e abbonamenti)
 
-## Accedere a Experience Cloud {#signin}
+## Accedere a Experience Cloud
 
 Accedi e verifica di essere nell&#39;[organizzazione](administration/organizations.md) corretta.
 
 1. Passa ad [Adobe Experience Cloud](https://experience.adobe.com).
-1. Digita il tuo indirizzo e-mail Adobe, quindi fai clic su **[!UICONTROL Continua]**.
+1. Digita il tuo indirizzo e-mail Adobe, quindi fai clic su **[!UICONTROL Continue]**.
 1. Fai clic su un account.
 1. Digita la tua password.
 1. Verifica di essere nell’organizzazione giusta.
@@ -47,7 +47,7 @@ Accedi e verifica di essere nell&#39;[organizzazione](administration/organizatio
 
    Ad esempio, per un’organizzazione con Federated ID e il dominio `adobecustomer.com`, imposta il link dell’URL su `https://experience.adobe.com/#/sso:@adobecustomer.com`. Puoi anche passare direttamente a una specifica applicazione salvando come segnalibro o preferito l’URL seguito dal percorso dell’applicazione. Ad esempio, per Adobe Analytics: `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`.
 
-## Accedere alle applicazioni di Experience Cloud {#navigation}
+## Accedere alle applicazioni di Experience Cloud
 
 Dopo aver effettuato l’accesso ad Experience Cloud, è possibile accedere rapidamente a tutte le applicazioni, i servizi e le organizzazioni dall’lintestazione unificata.
 
@@ -55,31 +55,31 @@ Per accedere alle applicazioni e ai servizi Experience Cloud per i quali disponi
 
 ![Accedere alle applicazioni Experience Cloud](assets/platform-core-services.png)
 
-## Ottenere assistenza e supporto {#support}
+## Ottenere assistenza e supporto
 
-Accedi ai contenuti di apprendimento e alla guida utilizzando il **[!UICONTROL Centro assistenza]** (![risorsa](assets/help-icon.png)) nell’intestazione, dove sono inclusi contenuti guida (documentazione, tutorial e corsi) su [Experience League](https://experienceleague.adobe.com/it?lang=it#home), nonché le risorse aggiuntive per le singole applicazioni. Puoi anche inviare feedback aperti e creare ticket di supporto con priorità.
+Accedi all&#39;apprendimento e alla guida utilizzando la **[!UICONTROL Help center]** (![risorsa](assets/help-icon.png)) nell&#39;intestazione, incluso il contenuto della guida (documentazione, tutorial e corsi) in [Experience League](https://experienceleague.adobe.com/?lang=it#home), nonché risorse aggiuntive per le singole applicazioni. Puoi anche inviare feedback aperti e creare ticket di supporto con priorità.
 
 ![Ottenere assistenza e supporto](assets/search-menu.png)
 
-Il menu [!UICONTROL Aiuto] consente inoltre di accedere a:
+Il menu [!UICONTROL Help] consente inoltre di accedere a:
 
-* **[!UICONTROL Supporto]:** crea un ticket di supporto o contatta il [!UICONTROL Supporto] tramite Twitter.
-* **[!UICONTROL Feedback]:** invia feedback sulla tua esperienza nell’uso di Experience Cloud. Il tuo feedback viene utilizzato per migliorare i prodotti e i servizi di Adobe.
-* **[!UICONTROL Stato]:** passa a `https://status.adobe.com/experience_cloud` per controllare lo stato operativo del prodotto e [!UICONTROL gestire gli abbonamenti].
-* **[!UICONTROL Developer Connection]:** naviga in `adobe.io` e accedi alla documentazione per gli sviluppatori.
+* **[!UICONTROL Support]:** Crea un ticket di supporto o contatta [!UICONTROL Support] tramite Twitter.
+* **[!UICONTROL Feedback]:** Condividi feedback sulla tua esperienza con Experience Cloud. Il tuo feedback viene utilizzato per migliorare i prodotti e i servizi di Adobe.
+* **[!UICONTROL Status]:** Passare a `https://status.adobe.com/experience_cloud` e verificare lo stato operativo del prodotto e [!UICONTROL Manage Subscriptions].
+* **[!UICONTROL Developer Connection]:** Navigazione a `adobe.io` e ricerca documentazione per sviluppatori.
 
 ## Gestione del profilo utente
 
-Nel menu [!UICONTROL Profilo] è possibile:
+Nel menu [!UICONTROL Profile] è possibile:
 
 * Specificare un tema scuro (non tutte le applicazioni supportano questo tema)
 * Gestire le [preferenze](features/account-preferences.md) di Experience Cloud
 * Selezionare o cercare un’[Organizzazione](administration/organizations.md)
-* Visualizzare [!UICONTROL Note legali]
+* Visualizza [!UICONTROL Legal Notices]
 * Uscire
 * Configurare preferenze, notifiche e abbonamenti dell’account
 
-## Visualizzare notifiche e annunci interni al prodotto {#notifications}
+## Visualizzare notifiche e annunci interni al prodotto
 
 Fai clic sull’icona a forma di campana per visualizzare notifiche e annunci. Gli annunci possono riferirsi ad aggiornamenti rilevanti e fruibili, inclusi rilasci di prodotto, avvisi di manutenzione, elementi condivisi e richieste di approvazione.
 

@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
-source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
+source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 100%
+source-wordcount: '316'
+ht-degree: 86%
 
 ---
 
@@ -31,13 +31,13 @@ L’utilizzo di Assets migliora la coerenza e la conformità al marchio, velociz
 * **[!DNL Adobe Campaign]**: posizionamento di risorse nelle newsletter e campagne via e-mail.
 
 
-## Passare a Experience Cloud Assets {#section_3657039DD3524F2AA88753BFF4781125}
+## Passare a Experience Cloud Assets
 
 ![Passare a Experience Cloud Assets](../../assets/asset-nav.png)
 
-## Accedere alla barra degli strumenti {#section_EC2E401D225148818F3753248556BE6B}
+## Accedere alla barra degli strumenti
 
-Passa a una risorsa (o una directory di risorse), quindi fai clic su **[!UICONTROL Seleziona]**.
+Passare a una risorsa (o una directory di risorse), quindi fare clic su **[!UICONTROL Select]**.
 
 La barra degli strumenti consente di accedere rapidamente a funzioni quali: Cerca, Timeline, Rappresentazioni, Modifica, Annota e Scarica.
 
@@ -47,7 +47,7 @@ La barra degli strumenti consente di accedere rapidamente a funzioni quali: Cerc
 >
 >È necessario rimuovere le risorse dalle attività di Adobe Target prima di eliminarle correttamente da [!DNL Target].
 
-## Modificare le risorse {#section_CD3C55A9D4574455B94D0955391C8FEC}
+## Modificare le risorse
 
 La modifica di una risorsa abilita funzionalità quali:
 
@@ -57,36 +57,36 @@ La modifica di una risorsa abilita funzionalità quali:
 
 ![Modificare le risorse](../../assets/asset-edit.png)
 
-## Cercare risorse {#section_50FE049010B446FC9640AA6A30E5A730}
+## Cercare risorse
 
 Puoi cercare per parola chiave, tipo di file, dimensione, ultima modifica, stato di pubblicazione, orientamento e stile.
 
 ![Cercare le risorse](../../assets/asset-search.png)
 
-## Annotare le risorse {#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A}
+## Annotare le risorse
 
-Fai clic su **[!UICONTROL Annota]** disegnando dei cerchi o delle frecce su un’immagine e annota la risorsa per la revisione da parte di colleghi.
+Fare clic su **[!UICONTROL Annotate]** disegnando dei cerchi o delle frecce su un&#39;immagine e annotare la risorsa per la revisione da parte di colleghi.
 
 ![Annotare le risorse](../../assets/assets-annotate.png)
 
-## Visualizzare risorse a tutto schermo e usare lo zoom {#section_A9F50D7D6BE341A2AB8244A4E42A4EF7}
+## Visualizzare risorse a tutto schermo e usare lo zoom
 
-Fai clic su **[!UICONTROL Viste]** > **[!UICONTROL Immagine]** per visualizzare l’immagine della risorsa completa e abilitare lo zoom.
+Fai clic su **[!UICONTROL Views]** > **[!UICONTROL Image]** per visualizzare l&#39;immagine della risorsa completa e abilitare lo zoom.
 
 ![Visualizzare le risorse a schermo intero](../../assets/asset-zoom.png)
 
-## Visualizzare le proprietà della risorsa {#section_FED28711DAB14E1BBEEA7CA890EE9573}
+## Visualizzare le proprietà della risorsa
 
 Scegli tra la vista della scheda con proprietà, la vista dell&#39;elenco e la vista della colonna per trovare più facilmente le risorse.
 
-Fai clic su **[!UICONTROL Viste]** > **[!UICONTROL Proprietà]** per visualizzare le proprietà di una risorsa:
+Fai clic su **[!UICONTROL Views]** > **[!UICONTROL Properties]** per visualizzare le proprietà di una risorsa:
 
 ![Visualizzare le proprietà della risorsa](../../assets/asset-properties.png)
 
-## Eseguire rapporti sull’utilizzo {#section_15D782FFB8D74CF4A735116CC03AD902}
+## Eseguire rapporti sull’utilizzo
 
 Visualizza il numero di utenti, l&#39;archiviazione usata e le risorse totali.
 
-Fai clic su **[!UICONTROL Strumenti]** > **[!UICONTROL Report]** > **[!UICONTROL Report d’utilizzo]**
+Fai clic su **[!UICONTROL Tools]** > **[!UICONTROL Reports]** > **[!UICONTROL Usage Report]**
 
 ![Eseguire rapporti sull’utilizzo](../../assets/assets-usage-report.png)

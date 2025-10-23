@@ -7,29 +7,29 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: eddbda54bc3f1cbbc98d7a993d0b477e05c5b01c
+source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 5%
+source-wordcount: '788'
+ht-degree: 6%
 
 ---
 
-# Preferenze e notifiche dell’account {#preferences}
+# Preferenze e notifiche dell’account
 
-Per trovare le preferenze di Experience Cloud, fai clic su **[!UICONTROL Profilo]** ![Preferenze](../assets/preferences-icon-sm.png) nell&#39;intestazione, quindi su **[!UICONTROL Preferenze]**.
+Per trovare le preferenze di Experience Cloud, fai clic su **[!UICONTROL Profile]** ![preferenze](../assets/preferences-icon-sm.png) nell&#39;intestazione, quindi su **[!UICONTROL Preferences]**.
 
 ![preferenze](../assets/preferences-navigation.png){width="100" zoomable="yes"}
 
-Nella pagina [!UICONTROL Preferenze Experience Cloud] puoi gestire le seguenti funzionalità dell&#39;account:
+Nella pagina [!UICONTROL Experience Cloud preferences] è possibile gestire le seguenti funzionalità dell&#39;account:
 
 | Funzione | Descrizione |
 |--- |--- |
-| [!UICONTROL Profilo] | Aggiorna il tuo [profilo account Adobe](https://account.adobe.com/profile). <p>La foto del tuo profilo e il tuo nome vengono visualizzati quando accedi a Adobe.com, prodotti e servizi Adobe e su siti pubblici come [!DNL Behance]. |
-| [!UICONTROL Generale] | Seleziona un&#39;organizzazione [organizzazione](../administration/organizations.md).<p>Questa organizzazione è quella predefinita utilizzata quando accedi ad Experience Cloud. |
-| [!UICONTROL Dati sull&#39;utilizzo del prodotto] | Puoi controllare quali dati di utilizzo del prodotto vengono condivisi con Adobe quando utilizzi le applicazioni Experience Cloud. Si tratta di dati sul modo in cui utilizzi i nostri prodotti, non il contenuto o i dati della tua organizzazione. Adobe utilizza queste informazioni per migliorare i nostri prodotti, fornirti supporto avanzato all’interno del prodotto e personalizzare la tua esperienza e le tue comunicazioni da noi. <p>Per ulteriori informazioni, consulta [Dati sull&#39;utilizzo del prodotto](#product-usage-data) (in questa pagina). |
-| [!UICONTROL Notifiche] | Configura come e quando desideri ricevere [notifiche](#subscribe-to-notifications-in-experience-cloud) per il prodotto e avvisi: <ul><li>Seleziona i prodotti ai quali desideri abbonarti per ricevere gli avvisi</li><li>Configura il tipo di notifica ([!UICONTROL in-app], [!UICONTROL e-mail] o [Slack](#slack-notifications))</li><li>Specifica la frequenza con cui desideri ricevere le e-mail di notifica: Non inviata, Immediata, Giornaliera o Settimanale.</li><li>Determinare la priorità dell&#39;avviso. Gli avvisi in-app vengono visualizzati nell’angolo in alto a destra della finestra per alcuni secondi. In alternativa, è possibile specificare se gli avvisi devono essere visualizzati fino a quando non vengono ignorati.</li></ul> |
+| [!UICONTROL Profile] | Aggiorna il tuo [profilo account Adobe](https://account.adobe.com/profile). <p>La foto del tuo profilo e il tuo nome vengono visualizzati quando accedi a Adobe.com, prodotti e servizi Adobe e su siti pubblici come [!DNL Behance]. |
+| [!UICONTROL General] | Seleziona un&#39;organizzazione [organizzazione](../administration/organizations.md).<p>Questa organizzazione è quella predefinita utilizzata quando accedi ad Experience Cloud. |
+| [!UICONTROL Product usage data] | Puoi controllare quali dati di utilizzo del prodotto vengono condivisi con Adobe quando utilizzi le applicazioni Experience Cloud. Si tratta di dati sul modo in cui utilizzi i nostri prodotti, non il contenuto o i dati della tua organizzazione. Adobe utilizza queste informazioni per migliorare i nostri prodotti, fornirti supporto avanzato all’interno del prodotto e personalizzare la tua esperienza e le tue comunicazioni da noi. <p>Per ulteriori informazioni, consulta [Dati sull&#39;utilizzo del prodotto](#product-usage-data) (in questa pagina). |
+| [!UICONTROL Notifications] | Configura come e quando desideri ricevere [notifiche](#subscribe-to-notifications-in-experience-cloud) per il prodotto e avvisi: <ul><li>Seleziona i prodotti ai quali desideri abbonarti per ricevere gli avvisi</li><li>Configura il tipo di notifica ([!UICONTROL in-app], [!UICONTROL email] o [Slack](#slack-notifications))</li><li>Specifica la frequenza con cui desideri ricevere le e-mail di notifica: Non inviata, Immediata, Giornaliera o Settimanale.</li><li>Determinare la priorità dell&#39;avviso. Gli avvisi in-app vengono visualizzati nell’angolo in alto a destra della finestra per alcuni secondi. In alternativa, è possibile specificare se gli avvisi devono essere visualizzati fino a quando non vengono ignorati.</li></ul> |
 
-## [!UICONTROL Dati sull&#39;utilizzo del prodotto] {#product-usage-data}
+## [!UICONTROL Product usage data]
 
 I dati di utilizzo del prodotto che scegli di condividere con Adobe includono i seguenti tipi di informazioni su come utilizzi e interagisci con le applicazioni Adobe:
 
@@ -42,9 +42,9 @@ I dati di utilizzo del prodotto che scegli di condividere con Adobe includono i 
 
 Adobe utilizza queste informazioni per migliorare i nostri prodotti, fornirti supporto sia all’interno del prodotto che tramite l’assistenza clienti, e per personalizzare la tua esperienza e le tue comunicazioni da noi. Ulteriori informazioni su [esperienze personalizzate](personalized-learning.md).
 
-## Abbonati alle notifiche in Experience Cloud {#notifications}
+## Abbonati alle notifiche in Experience Cloud
 
-Puoi selezionare i prodotti e le categorie a cui desideri abbonarti. Le notifiche vengono visualizzate nel popover [!UICONTROL Notifiche] (in-app), nell&#39;e-mail o in [Slack](#slack-notifications) (a seconda degli abbonamenti).
+Puoi selezionare i prodotti e le categorie a cui desideri abbonarti. Le notifiche vengono visualizzate nel popover [!UICONTROL Notifications] (in-app), nell&#39;e-mail o in [Slack](#slack-notifications) (a seconda degli abbonamenti).
 
 Le notifiche e-mail e Slack sono utili nelle situazioni in cui non hai effettuato l’accesso ad Experience Cloud.
 
@@ -52,11 +52,11 @@ Le notifiche e-mail e Slack sono utili nelle situazioni in cui non hai effettuat
 
 1. Passa a [preferenze](https://experience.adobe.com/preferences) di Experience Cloud.
 
-1. In **[!UICONTROL Notifiche]**, abilita **[!UICONTROL In-app]** o **[!UICONTROL E-mail]**.
+1. In **[!UICONTROL Notifications]**, abilitare **[!UICONTROL In-app]** o **[!UICONTROL Email]**.
 
    Le modifiche alle notifiche vengono salvate automaticamente.
 
-### Iscriviti a [!DNL Slack] notifiche {#slack}
+### Iscriviti a [!DNL Slack] notifiche
 
 Puoi configurare le preferenze del tuo account per inviare notifiche Experience Cloud a un canale [!DNL Slack].
 
@@ -70,35 +70,35 @@ Puoi configurare le preferenze del tuo account per inviare notifiche Experience 
 
 1. Passa a [Preferenze](https://experience.adobe.com/preferences) di Experience Cloud.
 
-1. Individua [!DNL Slack], quindi fai clic su **[!UICONTROL Aggiungi a Slack]**.
+1. Individuare [!DNL Slack], quindi fare clic su **[!UICONTROL Add to Slack]**.
 
    ![Aggiungi a Slack](../assets/add-to-slack.png)
 
    Se [!DNL Slack] è installato, l&#39;applicazione viene aperta e viene visualizzato un messaggio di richiesta di autorizzazione. Se Slack non è installato, è necessario [richiedere l&#39;autorizzazione](#slack-troubleshoot).
 
-1. Fare clic su **[!UICONTROL Consenti]**.
+1. Fai clic su **[!UICONTROL Allow]**.
 
-1. In **[!UICONTROL Notifiche]**, abilita [!DNL Slack] notifiche per i prodotti e le categorie desiderati.
+1. In **[!UICONTROL Notifications]**, abilita [!DNL Slack] notifiche per i prodotti e le categorie desiderati.
 
    ![Notifiche Slack](../assets/slack.png)
 
    Gli aggiornamenti alle notifiche vengono salvati automaticamente.
 
-### Richiedi autorizzazione in [!DNL Slack] (risoluzione dei problemi) {#slack-troubleshoot}
+### Richiedi autorizzazione in [!DNL Slack] (risoluzione dei problemi)
 
-Se [!DNL Slack] non è installato, viene visualizzato un messaggio di _[!UICONTROL richiesta di installazione]_ all&#39;apertura di Slack dopo aver fatto clic su **[!UICONTROL Aggiungi a Slack]**. Ad esempio:
+Se [!DNL Slack] non è installato, dopo aver fatto clic su _[!UICONTROL Request to install]_viene visualizzato un messaggio di **[!UICONTROL Add to Slack]**all&#39;apertura di Slack. Ad esempio:
 
 ![Richiedi integrazione Slack](../assets/slack-workspace.png)
 
 **Per richiedere le autorizzazioni in Slack**
 
-1. In [!DNL Slack], seleziona l&#39;area di lavoro dal menu **[!UICONTROL Workspace]** (angolo superiore destro).
+1. In [!DNL Slack], selezionare l&#39;area di lavoro dal menu **[!UICONTROL Workspace]** (angolo in alto a destra).
 
-1. Per richiedere l&#39;approvazione dell&#39;applicazione per il gestore dell&#39;area di lavoro [!DNL Slack], fare clic su **[!UICONTROL Invia]**.
+1. Per richiedere l&#39;approvazione dell&#39;applicazione per il gestore dell&#39;area di lavoro [!DNL Slack], fare clic su **[!UICONTROL Submit]**.
 
 1. Riceverai una notifica in [!DNL Slack] dopo l&#39;approvazione della richiesta di applicazione.
 
-1. Dopo aver ricevuto l&#39;approvazione di [!DNL Slack], torna ad Experience Cloud **[!UICONTROL Notifiche]** e segui la procedura per [iscriverti a Slack](#slack-notifications) (come descritto sopra).
+1. Dopo aver ricevuto l&#39;approvazione di [!DNL Slack], torna ad Experience Cloud **[!UICONTROL Notifications]** e segui la procedura per [iscriverti a Slack](#slack-notifications) (come descritto in precedenza).
 
 ### Elementi visualizzati in [!DNL Slack]
 
@@ -109,12 +109,12 @@ Dopo aver integrato correttamente [!DNL Slack], le notifiche di [!DNL Slack] vis
 * Un collegamento per visualizzare tutte le notifiche su Experience Cloud.
 * Un collegamento per gestire le preferenze di notifica su Experience Cloud.
 
-## Visualizza [!UICONTROL notifiche] e annunci in Experience Cloud {#view-notifications}
+## Visualizza [!UICONTROL notifications] e annunci in Experience Cloud
 
 Nell&#39;intestazione [!DNL Experience Cloud] puoi visualizzare le notifiche alle quali hai [effettuato l&#39;abbonamento](#notifications), nonché gli annunci.
 
 1. Fai clic sull’icona a forma di campana nell’intestazione. ![Notifiche e annunci](../assets/bell-icon.png)
 
-1. Fai clic su **[!UICONTROL Notifiche]** o **[!UICONTROL Annunci]**.
+1. Fai clic su **[!UICONTROL Notifications]** o **[!UICONTROL Announcements]**.
 
    In questa posizione puoi ricevere informazioni importanti sui prodotti, sulla collaborazione con altri utenti e su altri aggiornamenti rilevanti. Gli aggiornamenti includono versioni di prodotto, avvisi di manutenzione, elementi condivisi e richieste di approvazione.

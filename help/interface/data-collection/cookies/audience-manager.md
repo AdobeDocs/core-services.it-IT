@@ -9,14 +9,14 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: ab6de845-99ea-4cd8-b7cd-012fb641403f
-source-git-commit: 361175f290d73f1637673420700874a2415e3fca
+source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 98%
 
 ---
 
-# Cookie di Audience Manager{#audience-manager-cookies}
+# Cookie di Audience Manager
 
 Audience Manager si avvale di alcuni cookie semplici per eseguire funzioni diverse, come l’assegnazione di ID, la registrazione delle chiamate dati, il tracciamento degli errori e test per verificare se è possibile impostare i cookie. Questa sezione elenca e descrive i vari cookie impostati da Audience Manager.
 
@@ -36,7 +36,7 @@ Audience Manager si avvale di alcuni cookie semplici per eseguire funzioni diver
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Contenuto</b> </p> </td> 
-   <td colname="col2"> <p>Il cookie <span class="wintitle"> demdex </span> contiene un ID utente univoco (UUID) come mostrato nell’esempio di seguito: </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p>Vedi anche <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=it" format="https" scope="external">Indice degli ID in Audience Manager</a>. </p> </td> 
+   <td colname="col2"> <p>Il cookie <span class="wintitle"> demdex </span> contiene un ID utente univoco (UUID) come mostrato nell’esempio di seguito: </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p>Vedi anche <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html" format="https" scope="external">Indice degli ID in Audience Manager</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Altri attributi</b> </p> </td> 
@@ -129,7 +129,7 @@ La tabella seguente elenca e definisce gli elementi di un cookie `dextp` in base
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Finalità</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager </span> imposta questo cookie in caso di errore durante l’invio di dati a una <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html?lang=it" format="https" scope="external">destinazione</a>. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager </span> imposta questo cookie in caso di errore durante l’invio di dati a una <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html" format="https" scope="external">destinazione</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Contenuto</b> </p> </td> 
