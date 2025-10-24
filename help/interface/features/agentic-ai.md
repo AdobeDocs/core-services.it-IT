@@ -18,7 +18,7 @@ ht-degree: 7%
 
 Adobe [!DNL Experience Platform] [Agent Orchestrator](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/home) è la tecnologia centrale per la creazione e il coordinamento di agenti di intelligenza artificiale esperti in Adobe [!DNL Experience Cloud]. Puoi accedere alle funzionalità di AEP Agent Orchestrator e degli agenti AEP tramite:
 
-* [ [!DNL Experience Cloud] app esistenti](#existing-apps)
+* [&#x200B; [!DNL Experience Cloud] app esistenti](#existing-apps)
 * [AI-First [!DNL Experience Cloud] apps](#ai-first-apps)
 
 ## [!DNL Experience Cloud] app esistenti
