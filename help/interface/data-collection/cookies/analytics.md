@@ -30,7 +30,7 @@ Analytics utilizza i cookie per definire nuovi visitatori in modo anonimo, aiuta
 | **`s_fid`** | 2 anni | 33 byte | Prime parti | Memorizza l’ID visitatore univoco e la marca temporale di fallback. Impostato da JavaScript se il cookie standard `s_vi` non può essere impostato a causa di restrizioni dei cookie di terze parti. Non utilizzato per le implementazioni di cookie di prime parti. |
 | **`s_ac`** | Immediato | 1 byte | Prime parti | Consente di determinare il dominio corretto per impostare i cookie di AppMeasurement. Contiene il valore statico `"1"`. Una volta impostato, il cookie viene eliminato immediatamente. |
 
-Consulta [Identificazione dei visitatori in Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/overview) per ulteriori informazioni su come Adobe Analytics identifica i visitatori utilizzando i cookie.
+Consulta [Identificazione dei visitatori in Adobe Analytics](https://experienceleague.adobe.com/it/docs/analytics/implementation/id/overview) per ulteriori informazioni su come Adobe Analytics identifica i visitatori utilizzando i cookie.
 
 ## Cookie impostati da plug-in
 
