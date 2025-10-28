@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
+source-git-commit: d1d4fe5c9fafb03e407ab220d9b39be4ffc71ea4
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '188'
 ht-degree: 67%
 
 ---
@@ -27,10 +27,10 @@ Il presente Aiuto descrive i seguenti prodotti e servizi:
 
 | Servizi core | Descrizione |
 |--- |--- |
-| [Componenti dell’interfaccia centrale](../experience-cloud.md) | Accedi alle preferenze dell’account, alla guida del prodotto e ad applicazioni e servizi. |
-| [Libreria pubblico](audiences/overview.md) | I tipi di pubblico sono raccolte di visitatori (un elenco di ID visitatore). Con [!DNL Audience Library] di Adobe puoi gestire come tradurre i dati sui visitatori in segmentazione del pubblico. |
-| [Attributi del cliente](customer-attributes/attributes.md) | Crea casi di utilizzo di orchestrazione in tempo reale sulla base dei dati contestuali memorizzati negli eventi o nelle origini dati. [!UICONTROL Journey Orchestration] è un servizio applicativo integrato all’interno di Experience Platform. |
-| [Assets](assets/experience-cloud-assets.md) | Experience Cloud Assets fornisce un archivio unico e centralizzato di risorse pronte per le attività di marketing da condividere tra le diverse applicazioni. |
+| [Componenti dell’interfaccia centrale](https://experienceleague.adobe.com/it/docs/core-services/interface/experience-cloud) | Accedi alle preferenze dell’account, alla guida del prodotto e ad applicazioni e servizi. |
+| [Libreria pubblico](https://experienceleague.adobe.com/en/docs/core-services/interface/services/audiences/overview) | I tipi di pubblico sono raccolte di visitatori (un elenco di ID visitatore). Con [!DNL Audience Library] di Adobe puoi gestire come tradurre i dati sui visitatori in segmentazione del pubblico. |
+| [Attributi del cliente](https://experienceleague.adobe.com/en/docs/core-services/interface/services/customer-attributes/attributes) | Crea casi di utilizzo di orchestrazione in tempo reale sulla base dei dati contestuali memorizzati negli eventi o nelle origini dati. [!UICONTROL Journey Orchestration] è un servizio applicativo integrato all’interno di Experience Platform. |
+| [Assets](https://experienceleague.adobe.com/en/docs/core-services/interface/services/assets/experience-cloud-assets) | Experience Cloud Assets fornisce un archivio unico e centralizzato di risorse pronte per le attività di marketing da condividere tra le diverse applicazioni. |
 
 {style="table-layout:auto"}
 
