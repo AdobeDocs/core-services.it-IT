@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 32f4723e-0e66-46b6-b0c2-ae47b9a06a87
-source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
+source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 50%
@@ -64,7 +64,7 @@ Prima che gli utenti di Creative Cloud possano accedere alle risorse, devono ess
 
    Quando hai rimosso tutti gli utenti di Creative Cloud, la cartella non è più condivisa e gli utenti di Creative Cloud non possono più accedervi.
 
-Altri modi per utilizzare una risorsa condivisa includono il caricamento o lo scambio di risorse nella [Libreria offerte](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=it) in Adobe Target per le immagini nelle attività.
+Altri modi per utilizzare una risorsa condivisa includono il caricamento o lo scambio di risorse nella [Libreria offerte](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) in Adobe Target per le immagini nelle attività.
 
 Dopo aver condiviso una cartella su Creative Cloud, il logo Creative Cloud viene visualizzato sulla cartella.
 
@@ -80,4 +80,4 @@ Argomenti correlati:
 
 Quando crei attività in [!DNL Adobe Target], puoi utilizzare una risorsa di immagine condivisa quando scambi immagini in [!UICONTROL Offers Library].
 
-Consulta [Libreria offerte](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=it) nella Guida di [!DNL Target].
+Consulta [Libreria offerte](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) nella Guida di [!DNL Target].

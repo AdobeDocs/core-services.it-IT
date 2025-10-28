@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
-source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
+source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 67%
+source-wordcount: '363'
+ht-degree: 63%
 
 ---
 
@@ -27,7 +27,7 @@ Puoi caricare i dati dopo aver creato un&#39;origine attributo del cliente e un 
 È possibile caricare i file sul sito FTP degli attributi del cliente tramite FTP o SFTP:
 
 * È necessario un client che supporti le connessioni SFTP.
-* Puoi connetterti con SFTP utilizzando nome utente/password o senza utilizzare alcuna password, come descritto [qui](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html?lang=it).
+* Puoi connetterti con SFTP utilizzando nome utente/password o senza utilizzare alcuna password, come descritto [qui](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html).
 
 **Per caricare il file di dati tramite FTP**
 
@@ -35,7 +35,7 @@ Puoi caricare i dati dopo aver creato un&#39;origine attributo del cliente e un 
 
    Verifica di aver effettuato l’accesso al tuo sito FTP su `ftp.adobe.com/<sftpname>`.
 
-1. Fai clic su **[!UICONTROL Azioni]** > **[!UICONTROL Caricamento file]**.
+1. Fare clic su **[!UICONTROL Actions]** > **[!UICONTROL File Upload]**.
 
 1. Carica un file `.fin` in modo che possa essere recuperato.
 
@@ -49,7 +49,7 @@ Puoi caricare i dati dopo aver creato un&#39;origine attributo del cliente e un 
 
 Imposta un account FTP per origine attributo.
 
-Nella pagina [!UICONTROL Caricamento file e convalida schema], fare clic su **[!UICONTROL Configurazione FTP]**.
+Nella pagina [!UICONTROL File Upload and Schema Validation], fare clic su **[!UICONTROL FTP Setup]**.
 
 ![Modificare uno schema](assets/ftp-account.png)
 
@@ -57,9 +57,9 @@ I file caricati vengono memorizzati nella cartella root di tale account. I dati 
 
 I nomi applicati a stringhe, interi e numeri vengono utilizzati per creare metriche di [!DNL Analytics].
 
-* **[!UICONTROL attributo:]** dati attributo letti dal file `.csv` caricato.
+* **[!UICONTROL attribute:]** dati attributo letti dal file `.csv` caricato.
 
-* **[!UICONTROL Tipo:]** il tipo di dati, ad esempio:
+* **[!UICONTROL Type:]** Il tipo di dati, ad esempio:
 
    * **Stringa:** una sequenza di caratteri.
 
@@ -67,6 +67,6 @@ I nomi applicati a stringhe, interi e numeri vengono utilizzati per creare metri
 
    * **Numeri:** possono contenere fino a due posizioni decimali.
 
-* **[!UICONTROL Nome visualizzato:]** un nome descrittivo per l&#39;attributo. Ad esempio, puoi rinominare l&#39;attributo *customer age* in *customer Since*.
+* **[!UICONTROL Display Name:]** Nome descrittivo per l&#39;attributo. Ad esempio, puoi rinominare l&#39;attributo *customer age* in *customer Since*.
 
-* **[!UICONTROL Descrizione:]** una descrizione dell&#39;attributo.
+* **[!UICONTROL Description:]** Una descrizione dell&#39;attributo.

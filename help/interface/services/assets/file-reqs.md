@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 61bc8f52-a77e-4e85-939b-6f29963334a1
-source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
+source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 95%
@@ -33,3 +33,4 @@ I limiti di dimensione dei file dipendono dal browser e possono variare da un br
 | Internet Explorer 7 | 2 GB | 4 GB |
 | Internet Explorer 8 | 2 GB | 17,592 GB |
 | Internet Explorer da 9 a 11 | 4 GB | 17,592 GB |
+

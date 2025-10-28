@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
-source-git-commit: d2244e249c7af27bc1b4fc7bfe628bc25b37f4d4
+source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 49%
+source-wordcount: '310'
+ht-degree: 37%
 
 ---
 
@@ -28,28 +28,29 @@ Uno schema viene creato in base a queste impostazioni. Lo schema viene utilizzat
 
 1. In [!DNL Customer Attributes], fare clic sull&#39;origine attributo da modificare.
 
-1. In **[!UICONTROL Modifica attributo cliente Source]**, fare clic su **[!UICONTROL Caricamento file]**.
+1. In **[!UICONTROL Edit Customer Attribute Source]**, fare clic su **[!UICONTROL File Upload]**.
 
-1. Nella pagina [!UICONTROL Caricamento file e convalida schema], fai clic su **[!UICONTROL Azioni]** > **[!UICONTROL Visualizza/Modifica schema]**
+1. Nella pagina [!UICONTROL File Upload and Schema Validation], fare clic su **[!UICONTROL Actions]** > **[!UICONTROL View/Edit Schema]**
 
    ![Modificare uno schema](assets/actions.png)
 
-   Nella pagina [!UICONTROL Modifica schema], ogni riga dello schema rappresenta una colonna del file CSV caricato.
+   Nella pagina [!UICONTROL Edit Schema], ogni riga dello schema rappresenta una colonna del file CSV caricato.
 
    ![Modifica pagina schema in Experience Cloud](assets/schema-edit.png)
 
 **Azioni**
 
-* **[!UICONTROL Aggiungi dati:]** consente di caricare nuovi dati dell&#39;attributo in questa origine dati.
+* **[!UICONTROL Add Data:]** Carica nuovi dati attributo in questa origine dati.
 
-* **[!UICONTROL Visualizza/Modifica schema:]** consente di mappare i nomi visualizzati ai dati attributo come descritto nel passaggio successivo.
+* **[!UICONTROL View/Edit Schema:]** Mappare i nomi visualizzati ai dati attributo come descritto nel passaggio successivo.
 
-* **[!UICONTROL Configurazione FTP:]** Crea il tuo account FTP per [caricare i tuoi dati tramite FTP](t-upload-attributes-ftp.md) (facoltativo).
+* **[!UICONTROL FTP Setup:]** Crea il tuo account FTP per [caricare i tuoi dati tramite FTP](t-upload-attributes-ftp.md) (facoltativo).
 
-* **[!UICONTROL Ricerca ID:]** Immetti un ID cliente (CID) da `.csv` per cercare informazioni di Experience Cloud per l&#39;ID. Questa funzionalità è utile per risolvere i problemi relativi alla mancata visualizzazione dei dati attributo di un visitatore:
+* **[!UICONTROL ID Lookup:]** Immetti un ID cliente (CID) da `.csv` per cercare informazioni di Experience Cloud per l&#39;ID. Questa funzionalità è utile per risolvere i problemi relativi alla mancata visualizzazione dei dati attributo di un visitatore:
 
-   * **[!UICONTROL ECID (Experience Cloud ID):]** indica se stai utilizzando il servizio Experience Cloud ID più recente. Se ti trovi nel servizio MCID ma non è elencato alcun ID, Experience Cloud non ha ricevuto un alias per quel CID. Ciò significa che il visitatore non ha effettuato l&#39;accesso o la tua implementazione non trasmette quell&#39;ID.
+   * **[!UICONTROL ECID (Experience Cloud ID):]** Indica se stai utilizzando il servizio Experience Cloud ID più recente. Se ti trovi nel servizio MCID ma non è elencato alcun ID, Experience Cloud non ha ricevuto un alias per quel CID. Ciò significa che il visitatore non ha effettuato l&#39;accesso o la tua implementazione non trasmette quell&#39;ID.
 
-   * **[!UICONTROL CID (ID cliente):]** gli attributi associati a questo CID. Se stai usando una prop o un&#39;eVar per caricare CID (AVID) e sono visualizzati degli attributi ma nessun AVID, significa che il visitatore non ha effettuato l&#39;accesso al tuo sito.
+   * **[!UICONTROL CID (customer ID):]** Attributi associati a questo CID. Se stai usando una prop o un&#39;eVar per caricare CID (AVID) e sono visualizzati degli attributi ma nessun AVID, significa che il visitatore non ha effettuato l&#39;accesso al tuo sito.
 
-   * **[!UICONTROL AVID (ID visitatore di Analytics):]** mostra se utilizzi una prop o eVar per caricare CID. Se tali ID vengono passati ad Experience Cloud, tutti gli ID visitatore associati al CID inserito vengono visualizzati qui.
+   * **[!UICONTROL AVID (Analytics visitor ID):]** mostra se utilizzi una prop o eVar per caricare CID. Se tali ID vengono passati ad Experience Cloud, tutti gli ID visitatore associati al CID inserito vengono visualizzati qui.
+

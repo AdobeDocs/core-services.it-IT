@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
-source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
+source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 95%
+source-wordcount: '392'
+ht-degree: 91%
 
 ---
 
@@ -41,7 +41,7 @@ Per richiedere l’accesso e l’eliminazione dei dati per [!DNL Customer Attrib
 
    Il tuo [ID organizzazione](../../administration/organizations.md) è una stringa alfanumerica composta da 24 caratteri a cui segue @AdobeOrg. Per inviare richieste all’API per la privacy è necessario l’ID organizzazione. Se non ti è possibile individuare l’ID, contatta l’Assistenza clienti Adobe all’indirizzo `gdprsupport@adobe.com`.
 
-1. In [!UICONTROL Privacy Service], puoi inviare le richieste di accesso e di eliminazione a [!DNL Customer Attributes] e controllare lo stato delle richieste esistenti.
+1. In [!UICONTROL Privacy Service] è possibile inviare le richieste di accesso ed eliminazione a [!DNL Customer Attributes] e controllare lo stato delle richieste esistenti.
 
 ## Valori campo obbligatori nelle richieste JSON di [!DNL Customer Attributes]
 
@@ -103,3 +103,4 @@ attributes:
 "displayName": "<*displayName*>"
 }
 ```
+

@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
+source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 74%
@@ -29,7 +29,7 @@ Esempio:
 
 >[!NOTE]
 >
->Ulteriori informazioni sull&#39;utilizzo di [!UICONTROL Triggers] sono disponibili in [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=it).
+>Ulteriori informazioni sull&#39;utilizzo di [!UICONTROL Triggers] sono disponibili in [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html).
 
 ## Tipi di trigger
 
@@ -48,12 +48,12 @@ Crea un trigger e configurane le condizioni. Ad esempio, puoi specificare i crit
 >Esiste attualmente un limite tecnico di 100 trigger.
 
 1. In Experience Cloud, fai clic su ![menu](../assets/menu-icon.png), quindi su **[!UICONTROL Data Collection/Launch]**.
-2. Sulla scheda [!UICONTROL Triggers], fare clic su **[!UICONTROL Manage Triggers]**.
-3. Fare clic su **[!UICONTROL New Trigger]**, quindi specificare il tipo di trigger:
+1. Sulla scheda [!UICONTROL Triggers], fare clic su **[!UICONTROL Manage Triggers]**.
+1. Fare clic su **[!UICONTROL New Trigger]**, quindi specificare il tipo di trigger:
 
    ![Risultato passaggio](../assets/add-trigger.png)
 
-4. Configura il trigger completando i campi seguenti e trascinando metriche ed elementi dimensione nei contenitori della regola:
+1. Configura il trigger completando i campi seguenti e trascinando metriche ed elementi dimensione nei contenitori della regola:
 
    | Elemento | Descrizione |
    |--- |--- |
@@ -66,8 +66,8 @@ Crea un trigger e configurane le condizioni. Ad esempio, puoi specificare i crit
 
    {style="table-layout:auto"}
 
-5. Fai clic su **[!UICONTROL Save]**.
-6. Usa i trigger per la [commercializzazione in tempo reale](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html?lang=it) in [!DNL Adobe Campaign].
+1. Fai clic su **[!UICONTROL Save]**.
+1. Usa i trigger per la [commercializzazione in tempo reale](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html?lang=it) in [!DNL Adobe Campaign].
 
 ## Esempio di trigger
 
