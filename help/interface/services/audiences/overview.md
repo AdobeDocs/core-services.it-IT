@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
-source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
+source-git-commit: ddb3bc39e3b8d9b96de7602e29b3b7acddd6ed52
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 71%
+source-wordcount: '684'
+ht-degree: 70%
 
 ---
 
@@ -42,7 +42,7 @@ La tabella seguente descrive come vengono utilizzati i tipi di pubblico nelle ap
 | Soluzione | Descrizione |
 |--- |--- |
 | Experience Cloud Audiences | Crea, gestisci e condividi tipi di pubblico in modo nativo mediante la Libreria tipi di pubblico. Puoi eseguire le seguenti operazioni:<ul><li>Utilizza il pubblico in tempo reale utilizzando gli attributi di analisi non elaborati.</li><li>Combina i tipi di pubblico per creare tipi di pubblico compositi, unendo dati storici e in tempo reale.</li><li>Visualizzare graficamente le dimensioni stimate dei tipi di pubblico.</li></ul><br>Per suggerimenti sul tipo di pubblico da creare, consulta: [Opzioni di creazione dei tipi di pubblico](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=it). |
-| Analytics | Durante l’attività di segmentazione, puoi costruire un segmento, combinarlo con una suite di rapporti e quindi pubblicarlo in Experience Cloud. La pubblicazione di un segmento viene mostrata nella pagina [!DNL Audience Library] di Experience Cloud. Per informazioni dettagliate, vedere [Pubblicare segmenti in Experience Cloud](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=it) nella Guida di [!DNL Analytics]. Il pubblico è inoltre disponibile come pubblico di destinazione per un&#39;esperienza di campagna in [!DNL Adobe Target] e in [!DNL Audience Manager]. Dopo aver condiviso un pubblico da [!DNL Adobe Analytics] e averlo selezionato per l&#39;utilizzo in una campagna attiva, i profili visitatore che soddisfano i criteri di definizione del segmento per gli ultimi 90 giorni vengono inviati a [!UICONTROL Audience Services]. Il limite per i tipi di pubblico condivisi è stato aumentato a 75. I tipi di pubblico condivisi con Experience Cloud da [!DNL Analytics] non possono superare i 20 milioni di membri univoci. Inoltre, a causa della memorizzazione nella cache, sono necessarie 12 ore prima che l’eliminazione delle suite di rapporti di Analytics possa essere visibile in Experience Cloud. |
+| Analytics | Durante l’attività di segmentazione, puoi costruire un segmento, combinarlo con una suite di rapporti e quindi pubblicarlo in Experience Cloud. La pubblicazione di un segmento viene mostrata nella pagina [!DNL Audience Library] di Experience Cloud. Per informazioni dettagliate, vedere [Pubblicare segmenti in Experience Cloud](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html) nella Guida di [!DNL Analytics]. Il pubblico è inoltre disponibile come pubblico di destinazione per un&#39;esperienza di campagna in [!DNL Adobe Target] e in [!DNL Audience Manager]. Dopo aver condiviso un pubblico da [!DNL Adobe Analytics] e averlo selezionato per l&#39;utilizzo in una campagna attiva, i profili visitatore che soddisfano i criteri di definizione del segmento per gli ultimi 90 giorni vengono inviati a [!UICONTROL Audience Services]. Il limite per i tipi di pubblico condivisi è stato aumentato a 75. I tipi di pubblico condivisi con Experience Cloud da [!DNL Analytics] non possono superare i 20 milioni di membri univoci. Inoltre, a causa della memorizzazione nella cache, sono necessarie 12 ore prima che l’eliminazione delle suite di rapporti di Analytics possa essere visibile in Experience Cloud. |
 | Mobile Services | Analizzare il traffico mobile utilizzando la visualizzazione sunburst nel rapporto [!UICONTROL Device Types]. |
 | [!DNL Target] | Il [servizio ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it) unisce ID e dati dei visitatori in un singolo profilo actionable da utilizzare nelle applicazioni. La casella di controllo [!UICONTROL Publish to Experience Cloud] nel processo di creazione dei segmenti in Adobe Analytics consente di rendere disponibile il segmento nella libreria dei tipi di pubblico personalizzati di Adobe Target. Un segmento creato in [!DNL Analytics] o [!DNL Audience Manager] può essere utilizzato per attività in [!DNL Target]. Ad esempio, puoi creare campagne sulla base delle metriche di conversione di [!DNL Analytics] e sui segmenti di pubblico creati in [!DNL Analytics]. |
 | [!DNL Audience Manager] | I tipi di pubblico condivisi sono disponibili nella segmentazione di [!DNL Audience Manager]. Tutti i tipi di pubblico di Experience Cloud sono disponibili in formato nativo in [!DNL Audience Manager], che fornisce:<ul><li>Automazione incorporata riguardo il modo in cui vengono condivisi e utilizzati nei flussi di lavoro delle applicazioni</li><li>Destinazioni esterne</li><li>Modellazione lookalike</li></ul> |
@@ -66,10 +66,10 @@ La tabella seguente descrive come vengono utilizzati i tipi di pubblico nelle ap
 
 | Elemento | Descrizione |
 |--- |--- |
-| Nuovo | [Creazione di un pubblico](create.md). |
+| Nuovo | [Creazione di un pubblico](https://experienceleague.adobe.com/en/docs/core-services/interface/services/audiences/create). |
 | Titolo e descrizione | Intestazione della colonna per identificare e descrivere il pubblico. |
 | Autore | La persona che ha creato il segmento di pubblico. |
-| Origine | Identifica la posizione in cui è stato creato il pubblico.<ul><li>**Analytics:** segmento creato in Adobe Analytics e quindi pubblicato in Experience Cloud.</li><li>**Experience Cloud:** un nuovo pubblico [creato in Experience Cloud Audiences](create.md).</li><li>**Audience Manager:** i tipi di pubblico creati da Audience Manager vengono visualizzati automaticamente in Experience Cloud Audiences.</li></ul> |
+| Origine | Identifica la posizione in cui è stato creato il pubblico.<ul><li>**Analytics:** segmento creato in Adobe Analytics e quindi pubblicato in Experience Cloud.</li><li>**Experience Cloud:** un nuovo pubblico [creato in Experience Cloud Audiences](https://experienceleague.adobe.com/en/docs/core-services/interface/services/audiences/create).</li><li>**Audience Manager:** i tipi di pubblico creati da Audience Manager vengono visualizzati automaticamente in Experience Cloud Audiences.</li></ul> |
 | Dimensione attuali | Dimensione attuale del pubblico. |
 | Attivo | Lo stato attivo del segmento. |
 
@@ -77,5 +77,5 @@ La tabella seguente descrive come vengono utilizzati i tipi di pubblico nelle ap
 
 ## Pubblicare tipi di pubblico da Adobe Analytics
 
-Consulta [Pubblicare segmenti in Experience Cloud](https://experienceleague.adobe.com/it/docs/analytics/components/segmentation/segmentation-workflow/seg-publish) nella documentazione di Adobe Analytics per ulteriori informazioni.
+Consulta [Pubblicare segmenti in Experience Cloud](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-publish) nella documentazione di Adobe Analytics per ulteriori informazioni.
 
