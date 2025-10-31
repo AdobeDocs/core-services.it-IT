@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 609eaf1819189cb4eac76b2b58703b246dfb843b
+source-git-commit: 4c37fc3ec156abfd26ac33066795cf043a9eda2d
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 67%
@@ -38,3 +38,4 @@ Il presente Aiuto descrive i seguenti prodotti e servizi:
 >[!NOTE]
 >
 >È disponibile la documentazione del prodotto per [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=it). La documentazione tecnica per gli sviluppatori [!UICONTROL Experience Platform] si trova in [Adobe Developer](https://developer.adobe.com/apis).
+
