@@ -7,16 +7,20 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: c2a40564821b56c9a899186797d84960698f83dc
+source-git-commit: 4530ff3b00c7323a41ec13d57adead95f0418aaa
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 65%
+source-wordcount: '645'
+ht-degree: 64%
 
 ---
 
 # Aggiornamenti alla documentazione per Experience Cloud
 
 Scopri dove si verificano gli aggiornamenti alla documentazione per l’interfaccia centrale e l’amministrazione di Experience Cloud.
+
+**Novembre 2025**
+
+Aggiornamenti a [IA per l&#39;agente in Experience Cloud](../features/agentic-ai.md)
 
 **Ottobre 2025**
 
