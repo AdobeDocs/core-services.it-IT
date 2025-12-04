@@ -70,7 +70,7 @@ Gli algoritmi di ricerca visualizzano per primi i record più rilevanti. L’ord
 * Autorizzazioni utente per accedere agli oggetti
 * Percentuale corrispondente
 * Corrispondenze esatte
-* La sezione _[!UICONTROL Top Results]_mostra i primi 30 risultati.
+* La sezione _[!UICONTROL Top Results]_&#x200B;mostra i primi 30 risultati.
 
 Per perfezionare la ricerca, fai clic su una delle seguenti opzioni:
 

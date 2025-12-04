@@ -86,7 +86,7 @@ Puoi configurare le preferenze del tuo account per inviare notifiche Experience 
 
 ### Richiedi autorizzazione in [!DNL Slack] (risoluzione dei problemi)
 
-Se [!DNL Slack] non è installato, dopo aver fatto clic su _[!UICONTROL Request to install]_viene visualizzato un messaggio di **[!UICONTROL Add to Slack]**all&#39;apertura di Slack. Ad esempio:
+Se [!DNL Slack] non è installato, dopo aver fatto clic su _[!UICONTROL Request to install]_&#x200B;viene visualizzato un messaggio di **[!UICONTROL Add to Slack]**&#x200B;all&#39;apertura di Slack. Ad esempio:
 
 ![Richiedi integrazione Slack](../assets/slack-workspace.png)
 
