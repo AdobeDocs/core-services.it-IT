@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 27c026ff-198b-4f49-9718-f25f77a9e716
-source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 99%
@@ -44,4 +44,3 @@ Poiché la normativa sulla privacy dei consumatori è in continuo mutamento, Ado
 1. Non fare avere sorprese ai consumatori.
 
 Tenendo presenti queste aspettative, Adobe consiglia agli inserzionisti che associano le attività di ricerca ai dati PII di fornire un avviso o una personalizzazioni che indichi che il consumatore è autenticato. Un esempio è includere un saluto all&#39;interno dell&#39;intestazione del sito web. Adobe consiglia inoltre agli inserzionisti di descrivere nell&#39;informativa sulla privacy il tipo di informazioni di navigazione associate ai dati PII e in quali circostanze le informazioni di navigazione sono associate ai dati PII. Infine, Adobe consiglia vivamente agli inserzionisti di esaminare le opzioni di opt-out fornite ai consumatori, per capire se e come sia possibile utilizzare eventuali informazioni di profilo non autenticate in seguito alla rinuncia del comsumatore.
-

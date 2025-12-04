@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
-source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 37%
@@ -53,4 +53,3 @@ Uno schema viene creato in base a queste impostazioni. Lo schema viene utilizzat
    * **[!UICONTROL CID (customer ID):]** Attributi associati a questo CID. Se stai usando una prop o un&#39;eVar per caricare CID (AVID) e sono visualizzati degli attributi ma nessun AVID, significa che il visitatore non ha effettuato l&#39;accesso al tuo sito.
 
    * **[!UICONTROL AVID (Analytics visitor ID):]** mostra se utilizzi una prop o eVar per caricare CID. Se tali ID vengono passati ad Experience Cloud, tutti gli ID visitatore associati al CID inserito vengono visualizzati qui.
-

@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: caf2ff76-2076-436d-a5a7-aff531464480
-source-git-commit: 05c1155bb551568ecbedafb00ea190f00fd52427
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 92%
@@ -53,3 +53,4 @@ Gli esempi seguenti mostrano come eseguire chiamate di recupero preventivo del D
 >[!MORELIKETHIS]
 >
 >* [Recupero preventivo del DNS](https://www.chromium.org/developers/design-documents/dns-prefetching) in Chromium
+

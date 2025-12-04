@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 3%
@@ -91,12 +91,12 @@ Aliases: smetrics.example.com
 
 Dopo aver verificato il corretto funzionamento del certificato, puoi aggiornare l’implementazione di Adobe in modo da utilizzare questi valori.
 
-* **Estensione tag Web SDK**: aggiorna il campo [[!UICONTROL Edge domain]](https://experienceleague.adobe.com/it/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration) durante la configurazione dell&#39;estensione.
-* **Web SDK (lega)**: aggiornare la proprietà [`edgeDomain`](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/commands/configure/edgedomain) nel comando [`configure`](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/commands/configure/overview).
-* **Estensione Adobe Analytics**: aggiorna il campo [[!UICONTROL SSL Tracking Server]](https://experienceleague.adobe.com/it/docs/experience-platform/tags/extensions/client/analytics/overview) durante la configurazione dell&#39;estensione. Assicurati inoltre di aver installato l&#39;estensione tag [Visitor ID Service](https://experienceleague.adobe.com/it/docs/experience-platform/tags/extensions/client/id-service/overview). Per ulteriori informazioni, consulta [Identificazione del visitatore tramite l&#39;estensione tag Analytics](https://experienceleague.adobe.com/it/docs/analytics/implementation/id/analytics-extension).
-* **AppMeasurement**: aggiorna la variabile di configurazione [`trackingServerSecure`](https://experienceleague.adobe.com/it/docs/analytics/implementation/vars/config-vars/trackingserversecure). Assicurati inoltre di avere implementato il [Servizio ID visitatori](https://experienceleague.adobe.com/it/docs/id-service/using/home) tramite `VisitorAPI.js`. Per ulteriori informazioni, consulta [Identificazione del visitatore tramite AppMeasurement](https://experienceleague.adobe.com/it/docs/analytics/implementation/id/analytics-extension).
+* **Estensione tag Web SDK**: aggiorna il campo [[!UICONTROL Edge domain]](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration) durante la configurazione dell&#39;estensione.
+* **Web SDK (lega)**: aggiornare la proprietà [`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain) nel comando [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview).
+* **Estensione Adobe Analytics**: aggiorna il campo [[!UICONTROL SSL Tracking Server]](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/analytics/overview) durante la configurazione dell&#39;estensione. Assicurati inoltre di aver installato l&#39;estensione tag [Visitor ID Service](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/id-service/overview). Per ulteriori informazioni, consulta [Identificazione del visitatore tramite l&#39;estensione tag Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/analytics-extension).
+* **AppMeasurement**: aggiorna la variabile di configurazione [`trackingServerSecure`](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/config-vars/trackingserversecure). Assicurati inoltre di avere implementato il [Servizio ID visitatori](https://experienceleague.adobe.com/en/docs/id-service/using/home) tramite `VisitorAPI.js`. Per ulteriori informazioni, consulta [Identificazione del visitatore tramite AppMeasurement](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/analytics-extension).
 
-Se il sito utilizza più metodi di implementazione e non è possibile aggiornarli tutti contemporaneamente, è consigliabile configurare un periodo di tolleranza. Consulta le [considerazioni sulla migrazione al servizio ID visitatori](https://experienceleague.adobe.com/it/docs/analytics/implementation/id/migration) per ulteriori passaggi su come evitare che i visitatori vengano conteggiati come nuovi visitatori nel tuo sito.
+Se il sito utilizza più metodi di implementazione e non è possibile aggiornarli tutti contemporaneamente, è consigliabile configurare un periodo di tolleranza. Consulta le [considerazioni sulla migrazione al servizio ID visitatori](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/migration) per ulteriori passaggi su come evitare che i visitatori vengano conteggiati come nuovi visitatori nel tuo sito.
 
 ## Manutenzione e rinnovi
 
@@ -170,3 +170,4 @@ Adobe supporta sia i tipi di certificato RSA che ECC per soddisfare le diverse e
 
 Sì.  Tuttavia, se gestisci i certificati, sei responsabile del rinnovo dei certificati e della loro fornitura ad Adobe ogni volta che li rinnovi. Questo processo è meno sicuro e può causare la perdita di dati se l’organizzazione dimentica di rinnovare un certificato in tempo. Adobe consiglia di utilizzare il programma di certificazione gestito anziché gestire autonomamente i certificati, in particolare a causa della riduzione della durata massima dei certificati TLS. Per ulteriori informazioni, vedere [6.3.1 Public Key Archive](https://cabforum.org/working-groups/server/baseline-requirements/requirements/#632-certificate-operational-periods-and-key-pair-usage-periods) in CA/Browser Forum Server Certificate Baseline Requirements.
 +++
+

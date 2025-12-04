@@ -1,13 +1,13 @@
 ---
 description: Scopri dove si verificano gli aggiornamenti della documentazione per i componenti dell’interfaccia comune di Experience Cloud.
 solution: Experience Cloud
-title: Aggiornamenti della documentazione
+title: Aggiornamenti alla documentazione
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 4530ff3b00c7323a41ec13d57adead95f0418aaa
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 64%
@@ -161,3 +161,4 @@ Aggiunte le [Domande frequenti su Experience Cloud](faq.md) per amministratori.
 **22 maggio 2014**
 
 Aggiunta documentazione per [Tipi di pubblico](../services/audiences/overview.md)
+

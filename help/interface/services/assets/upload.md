@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e26fb61f-4a7f-4c02-ba80-87a9c0edea86
-source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 61%
@@ -32,4 +32,3 @@ Per la guida di Creative Cloud, consulta [https://helpx.adobe.com/it/creative-cl
 1. Avvia l&#39;applicazione desktop [!DNL Creative Cloud] e passa a [!UICONTROL **Assets**].
 1. Fare clic su **[!UICONTROL Open Folder].**
 1. Utilizza l’esplorazione file del sistema operativo in uso per selezionare o rimuovere le risorse.
-

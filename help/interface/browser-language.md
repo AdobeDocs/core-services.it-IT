@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: cc44008e-8b8a-4afb-b692-0ef9b87d5b21
-source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 56%
@@ -64,3 +64,4 @@ Inoltre, la formattazione specifica della lingua (ad esempio date, ore, calendar
    Anche se tutti i team delle applicazioni sono impegnati nel supporto globale delle lingue, non tutte le applicazioni sono disponibili in tutte le lingue elencate nell’interfaccia. Se la lingua principale non è supportata in un’applicazione Experience Cloud, puoi impostare una lingua predefinita secondaria, se applicabile.
 
 1. Fai clic su **[!UICONTROL Save]**.
+

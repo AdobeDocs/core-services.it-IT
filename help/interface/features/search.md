@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Beginner
 exl-id: 70586f18-6f84-4308-bab3-1da7fab823d6
-source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 19%
@@ -70,7 +70,7 @@ Gli algoritmi di ricerca visualizzano per primi i record più rilevanti. L’ord
 * Autorizzazioni utente per accedere agli oggetti
 * Percentuale corrispondente
 * Corrispondenze esatte
-* La sezione _[!UICONTROL Top Results]_&#x200B;mostra i primi 30 risultati.
+* La sezione _[!UICONTROL Top Results]_mostra i primi 30 risultati.
 
 Per perfezionare la ricerca, fai clic su una delle seguenti opzioni:
 
@@ -102,3 +102,4 @@ Prova i seguenti suggerimenti:
 * Controllo ortografico
 * Prova a scrivere il termine di ricerca completo
 * Assicurati di disporre delle autorizzazioni per gli oggetti che cerchi
+

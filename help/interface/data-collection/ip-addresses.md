@@ -2,10 +2,10 @@
 title: Indirizzi IP utilizzati da Experience Cloud
 description: Se il firewall dell’organizzazione blocca gli indirizzi IP provenienti da Adobe, utilizza questo elenco per aggiornare le impostazioni del firewall.
 exl-id: 1fca8d3b-ae8b-4095-96ef-d165f912b4c6
-source-git-commit: a18b61cb32286680cb1ab2a296df33509fd95a00
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '378'
-ht-degree: 11%
+ht-degree: 6%
 
 ---
 
@@ -19,10 +19,10 @@ Alcune configurazioni del firewall bloccano gli indirizzi IP provenienti dai ser
 
 Oltre ai blocchi di indirizzi IP elencati di seguito, i singoli prodotti Adobe Experience Cloud dispongono di indirizzi IP propri che utilizzano:
 
-* [Adobe Analytics](https://experienceleague.adobe.com/it/docs/analytics/technotes/ip-addresses)
-* [Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/technotes/ip-addresses)
-* [Marketo Engage](https://experienceleague.adobe.com/it/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
-* [Adobe Workfront](https://experienceleague.adobe.com/it/docs/workfront/using/administration-and-setup/get-started-administration/configure-your-firewall)
+* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/ip-addresses)
+* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/ip-addresses)
+* [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
+* [Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/get-started-administration/configure-your-firewall)
 
 ## Tutti i blocchi di indirizzi IP di Adobe
 
@@ -106,3 +106,4 @@ Adobe Experience Cloud supporta anche IPv6 in capacità limitata. Questi blocchi
 >[!TIP]
 >
 >Le connessioni FTP per le funzioni di esportazione di Adobe Analytics (inclusi Data Warehouse e feed di dati) provengono solo da indirizzi IPv4 nelle posizioni di Londra, Oregon e Singapore.
+

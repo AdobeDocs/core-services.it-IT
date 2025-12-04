@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 14f06dc9-255e-4a6c-adec-471107cf202e
-source-git-commit: d69af76f6deff4f2b73e67ee7b69b9fee1ee3a2e
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 1%
@@ -25,6 +25,7 @@ Adobe Experience Platform Web SDK utilizza i cookie per memorizzare valori speci
 | **kndctr_&lt;ORG_ID>_cluster** | 1800 (30 minuti) | 3-5 byte | Memorizza l’area Edge Network che soddisfa le richieste dell’utente corrente. L’area viene utilizzata nel percorso URL in modo che Edge Network possa indirizzare la richiesta all’area corretta. Se un utente si connette con un indirizzo IP diverso o in una sessione diversa, la richiesta viene nuovamente indirizzata all’area più vicina. |
 | **mbox** | 63072000 (2 anni) | | Presente quando l’impostazione di migrazione di Target è impostata su true. Consente di impostare il cookie [mbox](https://developer.adobe.com/target/implement/client-side/atjs/atjs-cookies/) di destinazione dal Web SDK. |
 | **mboxEdgeCluster** | 1800 (30 minuti) | | Presente quando l’impostazione di migrazione di Target è impostata su true. Consente al Web SDK di comunicare il cluster Edge corretto a `at.js` in modo che i profili di Target possano rimanere sincronizzati mentre gli utenti navigano in un sito. |
-| **AMCV_###@AdobeOrg** | 34128000 (395 giorni) | | Presente quando [`idMigrationEnabled`](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/commands/configure/idmigrationenabled) è abilitato. Questa funzione risulta utile durante la transizione al Web SDK mentre alcune parti del sito utilizzano ancora `visitor.js`. |
+| **AMCV_###@AdobeOrg** | 34128000 (395 giorni) | | Presente quando [`idMigrationEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/idmigrationenabled) è abilitato. Questa funzione risulta utile durante la transizione al Web SDK mentre alcune parti del sito utilizzano ancora `visitor.js`. |
 
 Edge Network imposta tutti i cookie con gli attributi `secure` e `sameSite="none"`. Se al momento sul sito web sono presenti sezioni protette e non protette, l’identificazione dell’utente potrebbe non essere accurata. Quando un utente passa da una sezione protetta del sito a una non protetta, Edge Network genera un nuovo `ECID` con la richiesta.
+

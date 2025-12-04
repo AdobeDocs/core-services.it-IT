@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '788'
 ht-degree: 6%
@@ -86,7 +86,7 @@ Puoi configurare le preferenze del tuo account per inviare notifiche Experience 
 
 ### Richiedi autorizzazione in [!DNL Slack] (risoluzione dei problemi)
 
-Se [!DNL Slack] non è installato, dopo aver fatto clic su _[!UICONTROL Request to install]_&#x200B;viene visualizzato un messaggio di **[!UICONTROL Add to Slack]**&#x200B;all&#39;apertura di Slack. Ad esempio:
+Se [!DNL Slack] non è installato, dopo aver fatto clic su _[!UICONTROL Request to install]_viene visualizzato un messaggio di **[!UICONTROL Add to Slack]**all&#39;apertura di Slack. Ad esempio:
 
 ![Richiedi integrazione Slack](../assets/slack-workspace.png)
 
@@ -118,3 +118,4 @@ Nell&#39;intestazione [!DNL Experience Cloud] puoi visualizzare le notifiche all
 1. Fai clic su **[!UICONTROL Notifications]** o **[!UICONTROL Announcements]**.
 
    In questa posizione puoi ricevere informazioni importanti sui prodotti, sulla collaborazione con altri utenti e su altri aggiornamenti rilevanti. Gli aggiornamenti includono versioni di prodotto, avvisi di manutenzione, elementi condivisi e richieste di approvazione.
+

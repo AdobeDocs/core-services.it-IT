@@ -3,7 +3,7 @@ description: Ricevi assistenza e promozioni personalizzate tramite e-mail, nei t
 solution: Experience Cloud
 title: Preferenze di apprendimento personalizzato in Experience Cloud
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
-source-git-commit: eddbda54bc3f1cbbc98d7a993d0b477e05c5b01c
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 23%
