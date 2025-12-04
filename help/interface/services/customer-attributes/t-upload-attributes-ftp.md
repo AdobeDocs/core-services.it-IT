@@ -27,7 +27,7 @@ Puoi caricare i dati dopo aver creato un&#39;origine attributo del cliente e un 
 È possibile caricare i file sul sito FTP degli attributi del cliente tramite FTP o SFTP:
 
 * È necessario un client che supporti le connessioni SFTP.
-* Puoi connetterti con SFTP utilizzando nome utente/password o senza utilizzare alcuna password, come descritto [qui](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html).
+* Puoi connetterti con SFTP utilizzando nome utente/password o senza utilizzare alcuna password, come descritto [qui](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html?lang=it).
 
 **Per caricare il file di dati tramite FTP**
 
