@@ -5,10 +5,10 @@ breadcrumb-title: Interfaccia e amministrazione di Experience Cloud
 title: Interfaccia e amministrazione di Experience Cloud
 description: Scopri l’interfaccia di Experience Cloud, i cookie e le preferenze dell’account utente. Gestisci i prodotti e configura il servizio per le persone, inclusi gli attributi cliente e la Libreria Pubblico. Condividi le risorse di Experience Cloud.
 index: true
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 96%
+source-wordcount: '198'
+ht-degree: 89%
 
 ---
 
@@ -16,31 +16,28 @@ ht-degree: 96%
 # Interfaccia e amministrazione di Experience Cloud {#interface}
 
 + [Interfaccia e amministrazione di Experience Cloud](experience-cloud.md)
-+ [Pagina principale nascosta](hidden-experience-cloud.md)
 + Servizi {#services}
-   + [Panoramica](services/overview.md)
+   + [Panoramica sui servizi](services/overview.md)
    + [Introduzione](services/getting-started.md)
-   + [Panoramica nascosta](services/hidden-overview.md)
-   + [Introduzione nascosta](services/hidden-getting-started.md)
    + Risorse {#assets}
-      + [Panoramica](services/assets/experience-cloud-assets.md)
+      + [Panoramica di Assets](services/assets/experience-cloud-assets.md)
       + [Gestione degli utenti di Creative Cloud](services/assets/manage-cc-users.md)
-      + [Condividere una cartella delle risorse](services/assets/share.md)
+      + [Condividere cartelle di risorse](services/assets/share.md)
       + [Caricare una risorsa in una cartella condivisa](services/assets/upload.md)
       + [Requisiti del file risorsa per la condivisione](services/assets/file-reqs.md)
       + [Comportamento delle cartelle condivise](services/assets/behavior.md)
    + Libreria pubblico {#audiences}
-      + [Panoramica](services/audiences/overview.md)
+      + [Panoramica sui tipi di pubblico](services/audiences/overview.md)
       + [Creazione di un pubblico](services/audiences/create.md)
-   + [Exchange](services/exchange.md)
-   + Attributi cliente {#customer-attributes}
-      + [Panoramica](services/customer-attributes/attributes.md)
+   + [Adobe Exchange](services/exchange.md)
+   + Attributi del cliente {#customer-attributes}
+      + [Panoramica degli attributi del cliente](services/customer-attributes/attributes.md)
       + [Domande frequenti](services/customer-attributes/faq-crs.md)
-      + [Informazioni su file di dati e origini dati](services/customer-attributes/crs-data-file.md)
-      + [Creare e caricare il file di dati](services/customer-attributes/t-crs-usecase.md)
+      + [File di dati e origini](services/customer-attributes/crs-data-file.md)
+      + [Creare e caricare i dati](services/customer-attributes/t-crs-usecase.md)
       + [Facoltativo - Caricare tramite FTP](services/customer-attributes/t-upload-attributes-ftp.md)
       + [Convalidare lo schema](services/customer-attributes/validate-schema.md)
-      + [Configurare le sottoscrizioni e attivare l’origine dati](services/customer-attributes/subscription.md)
+      + [Configurazione delle sottoscrizioni](services/customer-attributes/subscription.md)
       + [Aggiornare lo schema](services/customer-attributes/t-update-schema.md)
       + [Supporto per il GDPR](services/customer-attributes/gdpr.md)
       + [Supporto per CCPA](services/customer-attributes/ccpa.md)
@@ -51,13 +48,13 @@ ht-degree: 96%
    + [IA generativa](features/generative-ai.md)
    + [IA agentica](features/agentic-ai.md)
    + [Ricerca unificata](features/search.md)
-   + [Apprendimento personalizzato](features/personalized-learning.md)
+   + [Preferenze di apprendimento personalizzate](features/personalized-learning.md)
    + [Supporto di browser e lingue](browser-language.md)
 + Amministrazione {#administration}
-   + [Gestione degli utenti e licenze dei prodotti](administration/admin-console.md)
-   + [Visualizzare i dettagli dell’utente (Admin Tool)](administration/admin-tool-experience-cloud.md)
-   + [Organizzazioni](administration/organizations.md)
-   + [Integrazioni di Experience Cloud](administration/integrations.md)
+   + [Gestione di utenti e prodotti](administration/admin-console.md)
+   + [Admin Tool](administration/admin-tool-experience-cloud.md)
+   + [Organizzazioni e collegamento di account](administration/organizations.md)
+   + [Integrazioni](administration/integrations.md)
 + Raccolta dati {#data-collection}
    + [Programma di certificazione gestito da Adobe](data-collection/adobe-managed-cert.md)
    + [Indirizzi IP](data-collection/ip-addresses.md)

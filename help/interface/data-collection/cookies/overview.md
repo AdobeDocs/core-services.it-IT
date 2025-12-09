@@ -3,14 +3,14 @@ description: Scopri come le soluzioni e i servizi di Adobe Experience Cloud util
 title: Utilizzo dei cookie in Experience Cloud
 uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
 exl-id: 60f1a89e-d989-461b-a6a3-c1df022cd30b
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 10%
+source-wordcount: '600'
+ht-degree: 11%
 
 ---
 
-# Cookie utilizzati in Experience Cloud
+# Utilizzo dei cookie in Experience Cloud
 
 Adobe Experience Cloud utilizza i cookie. Un cookie è una piccola parte di dati che un sito Web invia al browser, che lo memorizza per un uso successivo. I cookie aiutano il sito a ricordare le cose quando visiti di nuovo o passi da una pagina all’altra. I cookie aiutano a tenere traccia delle visite e a distinguere un dispositivo dall’altro.
 
@@ -22,7 +22,7 @@ Adobe Experience Cloud utilizza i cookie per tenere traccia delle informazioni c
 
 Alcuni browser e strumenti antispyware bloccano i cookie di terze parti. Adobe dispone di modi per garantire che i cookie continuino a funzionare anche se i cookie sono bloccati. Il funzionamento dipende dall&#39;utilizzo del servizio Experience Platform Identity (ECID) o dei cookie Analytics precedenti (come il cookie `s_vi`):
 
-* [Servizio Experience Cloud Identity](https://experienceleague.adobe.com/it/docs/id-service/using/intro/overview): il servizio ECID imposta sempre i cookie di prime parti, indipendentemente dal fatto che il dominio di raccolta corrisponda al dominio del sito. Utilizza JavaScript per inserire il cookie nel dominio del sito.
+* [Servizio Experience Cloud Identity](https://experienceleague.adobe.com/en/docs/id-service/using/intro/overview): il servizio ECID imposta sempre i cookie di prime parti, indipendentemente dal fatto che il dominio di raccolta corrisponda al dominio del sito. Utilizza JavaScript per inserire il cookie nel dominio del sito.
 
 * [Identificatori legacy di Analytics](analytics.md) (ad esempio il cookie `s_vi`): se i cookie sono di prima parte o di terze parti dipende dalla configurazione:
 

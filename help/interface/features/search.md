@@ -8,22 +8,22 @@ topic: Administration
 role: Admin
 level: Beginner
 exl-id: 70586f18-6f84-4308-bab3-1da7fab823d6
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 19%
+source-wordcount: '633'
+ht-degree: 18%
 
 ---
 
-# [!UICONTROL Unified Search] per oggetti ed entità
+# [!UICONTROL Unified Search] in Experience Cloud
 
 La ricerca di [!UICONTROL Unified Search] consente di trovare oggetti o entità business ricercabili in modalità semplice, coerente e immediata. Questa ricerca fa emergere anche gli oggetti utilizzati di recente.
 
 ![Ricerca globale di oggetti ed entità](../assets/platform-search.png)
 
-## Accesso alla ricerca unificata
+## Accesso al [!UICONTROL Unified Search]
 
-La ricerca unificata è disponibile in ogni pagina dell’intestazione Experience Cloud nella parte superiore della pagina. È inoltre possibile utilizzare la scelta rapida da tastiera `command /` o `ctrl /` per accedere alla ricerca.
+[!UICONTROL Unified Search] è disponibile in ogni pagina dell&#39;intestazione Experience Cloud nella parte superiore della pagina. È inoltre possibile utilizzare la scelta rapida da tastiera `command /` o `ctrl /` per accedere alla ricerca.
 
 Questa funzione è disponibile solo per i prodotti supportati che al momento sono:
 
@@ -42,7 +42,7 @@ Autorizzazioni relative a funzionalità e oggetti
 Percentuale corrispondente
 Se esiste una corrispondenza esatta
 
-![Ricerca unificata in Experience Cloud](../assets/unified-search-results.png)
+![[!UICONTROL Unified Search] in Experience Cloud](../assets/unified-search-results.png)
 
 Gli oggetti business ricercabili includono:
 
@@ -63,21 +63,21 @@ Sono inoltre disponibili gli articoli della guida di Experience League e le comm
 
 Ad esempio, _Come creare uno schema_ produce i risultati di Experience League in _[!UICONTROL Learning]_:
 
-![Aiuto per la ricerca unificata in Experience Cloud](../assets/unified-search-learning.png)
+![[!UICONTROL Unified Search] nella Guida di Experience Cloud](../assets/unified-search-learning.png)
 
 Gli algoritmi di ricerca visualizzano per primi i record più rilevanti. L’ordine dei risultati dipende da diversi fattori, quali:
 
 * Autorizzazioni utente per accedere agli oggetti
 * Percentuale corrispondente
 * Corrispondenze esatte
-* La sezione _[!UICONTROL Top Results]_&#x200B;mostra i primi 30 risultati.
+* La sezione _[!UICONTROL Top Results]_mostra i primi 30 risultati.
 
 Per perfezionare la ricerca, fai clic su una delle seguenti opzioni:
 
 * **[!UICONTROL All Learning]**: apre la ricerca in Experience League.
 * **[!UICONTROL Show all...]**: consente di perfezionare e filtrare ulteriormente i risultati.
 
-## Funzioni di ricerca unificata
+## Caratteristiche di [!UICONTROL Unified Search]
 
 In Ricerca unificata sono disponibili le seguenti funzioni.
 
@@ -86,7 +86,7 @@ In Ricerca unificata sono disponibili le seguenti funzioni.
 | Supporto linguistico globale | La ricerca globale comprende le query e produce risultati per tedesco, spagnolo, francese, italiano, giapponese, coreano, portoghese e cinese. |
 | Tolleranza agli errori di battitura | La ricerca unificata offre una solida tolleranza agli errori di battitura utilizzando algoritmi avanzati. Questi algoritmi calcolano le modifiche e forniscono risultati appropriati. |
 | Evidenziazione | La risposta di ricerca evidenzia la parola chiave corrispondente dalla query di ricerca in modo da poter trovare facilmente la sezione e le parole corrispondenti alla query. L&#39;evidenziazione funziona anche per le parole errate. |
-| Snippet | Nella risposta di ricerca, puoi visualizzare uno snippet del risultato. I frammenti restituiscono le parole corrispondenti e alcuni contenuti attorno alle parole chiave corrispondenti. |
+| Frammenti | Nella risposta di ricerca, puoi visualizzare uno snippet del risultato. I frammenti restituiscono le parole corrispondenti e alcuni contenuti attorno alle parole chiave corrispondenti. |
 | Parole non consentite | Alcune parole comunemente usate in inglese sono definite come _parole non consentite_. Se le parole non significative sono incluse nella query di ricerca, viene assegnato loro un peso inferiore. <br>Le parole non consentite includono: _a, an, and, are, as, at, be, but, by, for, if, in, is, it, no, not, on, or, such, the, then, then, there, these, they, to, was, will, with_. <br>Le parole non sono supportate in altre lingue globali. |
 | Query in linguaggio naturale | Quando si cerca un articolo della guida o una discussione da Experience League Communities, è possibile digitare la domanda utilizzando il linguaggio naturale e ottenere la risposta. Esempio di ricerca: &quot;Come si crea uno schema?&quot; |
 | Ricerca esatta tra virgolette | È possibile eseguire una ricerca esatta utilizzando le virgolette nella query. Non viene eseguita alcuna correzione degli errori di battitura nelle query di corrispondenza esatte. Ad esempio: &quot;Percorso Luma 2022&quot;. |

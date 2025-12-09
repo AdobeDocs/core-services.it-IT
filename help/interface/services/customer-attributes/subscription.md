@@ -7,14 +7,14 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: cfa2aa5c-337f-401e-80eb-cbe36cb1d41e
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 63%
+source-wordcount: '412'
+ht-degree: 64%
 
 ---
 
-# Configurare le sottoscrizioni e attivare l’origine dati
+# Configurare le sottoscrizioni di attributi cliente
 
 Le sottoscrizioni di [!DNL Customer Attributes] consentono il flusso di dati degli attributi del cliente tra Experience Cloud e le applicazioni ([!DNL Analytics] e [!DNL Target]).
 

@@ -8,14 +8,14 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
-source-git-commit: a43f09e4d4dd198e8b29bd15a8c7dad5d8a3d623
+source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '897'
 ht-degree: 67%
 
 ---
 
-# Panoramica delle integrazioni Experience Cloud
+# Integrazioni di Experience Cloud
 
 Questa pagina descrive diversi modi per iniziare a integrare le applicazioni Experience Cloud. Per ulteriori informazioni, consulta la nostra libreria di [tutorial video sull&#39;integrazione](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=it) su Experience League.
 
@@ -33,7 +33,7 @@ Soluzioni o servizi:
 
 * [[!DNL Experience Platform Data Collection]](https://experienceleague.adobe.com/docs/experience-platform.html?lang=it)
 * [[!DNL Analytics]](https://experienceleague.adobe.com/docs/analytics.html?lang=it)
-* [[!DNL Target]](https://experienceleague.adobe.com/docs/target.html?lang=it)
+* [[!DNL Target]](https://experienceleague.adobe.com/docs/target.html)
 * [Servizio Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it)
 
 ## Servizio Experience Cloud ID
@@ -44,8 +44,8 @@ Consulta la sezione [Servizio Experience Cloud ID](https://experienceleague.adob
 
 **Applicazioni o servizi idonei**
 
-* [Adobe Analytics](https://experienceleague.adobe.com/it/docs/analytics/implementation/id/overview)
-* [Adobe Target](https://experienceleague.adobe.com/it/docs/id-service/using/implementation/setup-target)
+* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/overview)
+* [Adobe Target](https://experienceleague.adobe.com/en/docs/id-service/using/implementation/setup-target)
 
 ## Tipi di pubblico
 
@@ -59,8 +59,8 @@ Creazione e gestione di tipi di pubblico in Experience Cloud [!UICONTROL Audienc
 
 **Soluzioni o servizi applicabili**
 
-* [Attività](https://experienceleague.adobe.com/docs/target/using/activities/activities.html?lang=it) in Adobe Target
-* [Segmentazione](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html?lang=it) in Audience Manager
+* [Attività](https://experienceleague.adobe.com/docs/target/using/activities/activities.html) in Adobe Target
+* [Segmentazione](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) in Audience Manager
 * [Advertising Cloud](https://enterprise.efrontier.com/CMDashboard/?ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D&ticket=JrciD7q2bF1y2mDWFHmEyibmxtHqnZFSOMml-n993zOBc-ovZGNZkX5vgePWqKNMoMmPSqf9PkzFeYF4UN6GqSXDVNDvwgnvv9KT8PvVxk8%3D) (accesso richiesto)
 
 ## Attributi del cliente
@@ -88,7 +88,7 @@ Condividi cartelle e risorse tra Experience Cloud e Creative Cloud. Collabora, c
 
 ## Analytics: Reporting delle AEM Assets in Analytics
 
-Guida: [reporting di AEM Assets in Analytics](https://experienceleague.adobe.com/docs/analytics/integration/aem-assets-reporting.html?lang=it)
+Guida: [reporting di AEM Assets in Analytics](https://experienceleague.adobe.com/docs/analytics/integration/aem-assets-reporting.html)
 
 Consente ad Analytics di raccogliere impression e clic sulle risorse da AEM Asset Insights.
 
@@ -99,15 +99,15 @@ Consente ad Analytics di raccogliere impression e clic sulle risorse da AEM Asse
 
 ## Integrazioni di Audience Manager
 
-[Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implementation-and-integration.html?lang=it)
+[Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implementation-and-integration.html)
 
 Utilizza in Audience Manager i dati dalle applicazioni Experience Cloud o da altri sistemi esterni.
 
 **Applicazioni o servizi idonei**
 
 * [Inoltro lato server di Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=it)
-* [Inviare segmenti Audience Manager ad Analytics](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=it)
-* [Integrazione dei dati di Adobe Target](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-applications/aam-target-integration.html?lang=it)
+* [Inviare segmenti Audience Manager ad Analytics](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)
+* [Integrazione dei dati di Adobe Target](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-applications/aam-target-integration.html)
 
 ## Adobe Target
 
@@ -119,13 +119,13 @@ Integra Adobe Target con Adobe Analytics e altre applicazioni Experience Cloud p
 
 * Attributi del cliente: configura la [sottoscrizione](/help/interface/services/customer-attributes/subscription.md) di Adobe Target per gli attributi del cliente
 * Experience Cloud Audiences: [Libreria di pubblico di Experience Cloud](/help/interface/services/audiences/overview.md)
-* Analytics: [Adobe Analytics come sorgente di reporting per Adobe Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=it)
-* Audience Manager: [Integrazione dei dati di Adobe Target con Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=it)
-* Campaign: [Integrazione di Adobe Target con Campaign](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=it)
+* Analytics: [Adobe Analytics come sorgente di reporting per Adobe Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)
+* Audience Manager: [Integrazione dei dati di Adobe Target con Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
+* Campaign: [Integrazione di Adobe Target con Campaign](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html)
 
 ## Integrazioni di Experience Manager
 
-* Esercitazioni video: [Integrazioni Experience Manager](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/integrations-between-applications/overview.html?lang=it)
+* Esercitazioni video: [Integrazioni Experience Manager](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/integrations-between-applications/overview.html)
 
 * Documentazione del prodotto: [documentazione di Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=it)
 
@@ -145,7 +145,7 @@ Sincronizza le tue risorse in Adobe Experience Manager (AEM) Assets con Adobe Cr
 
 * Guida (accesso richiesto): [integrazione con soluzioni e servizi di Adobe Experience Cloud](https://enterprise.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyhyMKZp71ZLeaANvF-RcNMF7oNuZNABh76cKJLNlJJeJ1hQ5vAW1AO1t1DW8tZWM3lYZ8TSh96YAQISUdtHCCgA%3D&ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D)
 
-* [Documentazione di Adobe Advertising](https://experienceleague.adobe.com/docs/advertising.html?lang=it) su Experience League
+* [Documentazione di Adobe Advertising](https://experienceleague.adobe.com/docs/advertising.html) su Experience League
 
 **Applicazioni o servizi idonei**
 
