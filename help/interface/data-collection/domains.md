@@ -19,9 +19,9 @@ Experience Cloud utilizza i seguenti host per distribuire l’applicazione, migl
 
 Oltre ai domini elencati di seguito, i singoli prodotti Adobe Experience Cloud hanno domini propri che utilizzano:
 
-* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/domains)
-* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/domains)
-* [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo)
+* [Adobe Analytics](https://experienceleague.adobe.com/it/docs/analytics/technotes/domains)
+* [Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/technotes/domains)
+* [Marketo Engage](https://experienceleague.adobe.com/it/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo)
 
 | Tecnologia | Domini |
 | --- | --- |
