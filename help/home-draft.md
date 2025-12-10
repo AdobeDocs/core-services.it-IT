@@ -308,6 +308,7 @@ Some important changes to the Android Firebase Cloud Messaging (FCM) service wil
   </tr>
 </table> 
 -->
+
 ## Risorse aggiuntive
 
 [Descrizione del prodotto Adobe Campaign v8](https://helpx.adobe.com/it/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Documentazione dell’interfaccia utente di Adobe Campaign Web](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=it){target="_blank"} - [Tutorial](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=it){target="_blank"} - [[!DNL Adobe Campaign] Guida all’automazione](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=it){target="_blank"} - [Pannello di controllo per Campaign v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=it){target="_blank"}
