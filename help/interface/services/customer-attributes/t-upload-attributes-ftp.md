@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: b69cb75550232a630996cb521a86414eeb53f73a
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 63%
+source-wordcount: '361'
+ht-degree: 55%
 
 ---
 
@@ -22,12 +22,12 @@ Puoi caricare i dati dopo aver creato un&#39;origine attributo del cliente e un 
 
 >[!IMPORTANT]
 >
->Rivedi [Requisiti del file di dati per il caricamento degli attributi del cliente](crs-data-file.md) prima di caricare il file.
+>Rivedi [Origini e file di dati degli attributi del cliente](crs-data-file.md) prima di caricare il file.
 
 È possibile caricare i file sul sito FTP degli attributi del cliente tramite FTP o SFTP:
 
 * È necessario un client che supporti le connessioni SFTP.
-* Puoi connetterti con SFTP utilizzando nome utente/password o senza utilizzare alcuna password, come descritto [qui](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html?lang=it).
+* Puoi connetterti con SFTP utilizzando nome utente/password o senza utilizzare alcuna password, come descritto [qui](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html).
 
 **Per caricare il file di dati tramite FTP**
 
@@ -43,7 +43,7 @@ Puoi caricare i dati dopo aver creato un&#39;origine attributo del cliente e un 
 
    Se il caricamento ha esito positivo, entrambi i file vengono spostati in una cartella denominata **elaborati**.
 
-   Consulta [Requisiti dei file di dati per il caricamento di attributi del cliente](crs-data-file.md) per importanti informazioni sulla struttura e i nomi dei file.
+   Per informazioni importanti sui nomi e sulla struttura dei file, vedere [File di dati degli attributi del cliente](crs-data-file.md).
 
 ## Configurare un account FTP
 

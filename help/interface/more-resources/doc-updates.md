@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
+source-git-commit: b69cb75550232a630996cb521a86414eeb53f73a
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 65%
@@ -124,7 +124,7 @@ Sono state aggiunte informazioni su come eliminare un attributo cliente. Consult
 
 **8 giugno 2018**
 
-[Informazioni sui file di dati e le origini dati per gli attributi del cliente](../services/customer-attributes/crs-data-file.md) è stato aggiornato con informazioni sul caricamento di più file.
+Aggiornate le [Informazioni su file di dati e origini dati per Attributi del cliente](../services/customer-attributes/crs-data-file.md) con informazioni sul caricamento di file multipli.
 
 **6 giugno 2018**
 

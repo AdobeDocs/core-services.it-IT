@@ -3,12 +3,12 @@ role: User,Admin
 user-guide-title: Interfaccia e amministrazione di Experience Cloud
 breadcrumb-title: Interfaccia e amministrazione di Experience Cloud
 title: Interfaccia e amministrazione di Experience Cloud
-description: Scopri l’interfaccia di Experience Cloud, i cookie e le preferenze dell’account utente. Gestisci i prodotti e configura il servizio per le persone, inclusi gli attributi cliente e la Libreria Pubblico. Condividi le risorse di Experience Cloud.
+description: Scopri l’interfaccia di Experience Cloud, i cookie e le preferenze dell’account utente. Gestisci i prodotti e configura il servizio per le persone, inclusi gli attributi del cliente e la libreria Pubblico. Condividi le risorse di Experience Cloud.
 index: true
-source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
+source-git-commit: b69cb75550232a630996cb521a86414eeb53f73a
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 89%
+source-wordcount: '199'
+ht-degree: 88%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 89%
 # Interfaccia e amministrazione di Experience Cloud {#interface}
 
 + [Interfaccia e amministrazione di Experience Cloud](experience-cloud.md)
-+ Servizi {#services}
-   + [Panoramica sui servizi](services/overview.md)
++ Servizi di interfaccia {#services}
+   + [Panoramica dell’interfaccia](services/overview.md)
    + [Introduzione](services/getting-started.md)
    + Risorse {#assets}
       + [Panoramica di Assets](services/assets/experience-cloud-assets.md)
@@ -30,7 +30,7 @@ ht-degree: 89%
       + [Panoramica sui tipi di pubblico](services/audiences/overview.md)
       + [Creazione di un pubblico](services/audiences/create.md)
    + [Adobe Exchange](services/exchange.md)
-   + Attributi del cliente {#customer-attributes}
+   + Attributi cliente {#customer-attributes}
       + [Panoramica degli attributi del cliente](services/customer-attributes/attributes.md)
       + [Domande frequenti](services/customer-attributes/faq-crs.md)
       + [File di dati e origini](services/customer-attributes/crs-data-file.md)

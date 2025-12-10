@@ -1,5 +1,5 @@
 ---
-description: Scopri i componenti dell’interfaccia centrale di Experience Cloud. Per assistenza sull’amministrazione di utenti e prodotti, consulta Admin Console e abilita le applicazioni per i servizi di Experience Cloud. Ottieni assistenza per Libreria Pubblico, Attributi cliente, Risorse Experience Cloud e altro ancora.
+description: Scopri i componenti dell’interfaccia centrale di Experience Cloud. Per assistenza sull’amministrazione di utenti e prodotti, consulta Admin Console e abilita le applicazioni per i servizi di Experience Cloud. Ottieni assistenza per libreria Pubblico, Attributi del cliente, Risorse Experience Cloud e altro ancora.
 title: Interfaccia e amministrazione di Experience Cloud
 hide: true
 hidefromtoc: true
@@ -7,7 +7,7 @@ feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
-source-git-commit: 25c11da1284bccf033f3bb7adf109be7bdf8d55a
+source-git-commit: 7e6fb9d8e87ec1cbec0b60dd773f157cb52e66ea
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 83%
@@ -59,7 +59,7 @@ Per accedere alle applicazioni e ai servizi Experience Cloud per i quali disponi
 
 ## Ottenere assistenza e supporto {#support}
 
-Accedi all&#39;apprendimento e alla guida utilizzando la **[!UICONTROL Help center]** (![risorsa](assets/help-icon.png)) nell&#39;intestazione, incluso il contenuto della guida (documentazione, tutorial e corsi) in [Experience League](https://experienceleague.adobe.com/it?lang=it#home), nonché risorse aggiuntive per le singole applicazioni. Puoi anche inviare feedback aperti e creare ticket di supporto con priorità.
+Accedi all&#39;apprendimento e alla guida utilizzando la **[!UICONTROL Help center]** (![risorsa](assets/help-icon.png)) nell&#39;intestazione, incluso il contenuto della guida (documentazione, tutorial e corsi) in [Experience League](https://experienceleague.adobe.com/?lang=it#home), nonché risorse aggiuntive per le singole applicazioni. Puoi anche inviare feedback aperti e creare ticket di supporto con priorità.
 
 ![Ottenere assistenza e supporto](assets/search-menu.png)
 
