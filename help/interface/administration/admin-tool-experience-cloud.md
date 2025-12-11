@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
-source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
+source-git-commit: 27b9b789e0d4c448105f5acec3aa05c9404443bf
 workflow-type: tm+mt
-source-wordcount: '1178'
-ht-degree: 76%
+source-wordcount: '1182'
+ht-degree: 75%
 
 ---
 
@@ -31,7 +31,7 @@ Gli amministratori possono visualizzare un elenco ordinabile e filtrabile di tut
 
 ## Pagina Users (Utenti)
 
-In questa pagina viene visualizzato l’elenco completo degli utenti con accesso a Experience Cloud all’interno della tua organizzazione. La pagina offre informazioni in merito alla licenza per l’applicazione e all’ultimo accesso. Puoi inoltre eseguire ricerche, oltre a ordinare e filtrare le viste personalizzate dell’elenco di utenti.
+In questa pagina viene visualizzato l’elenco completo degli utenti con accesso a Experience Cloud all’interno della tua organizzazione. Fornisce informazioni sulla licenza dell’applicazione e sull’ultimo accesso. Puoi inoltre eseguire ricerche, oltre a ordinare e filtrare le viste personalizzate dell’elenco di utenti.
 
 ![Pagina Utenti di Admin Console](../assets/admin-tool-users.png)
 
@@ -41,7 +41,7 @@ In questa pagina viene visualizzato l’elenco completo degli utenti con accesso
 | [!UICONTROL Email] | L’indirizzo e-mail associato all’utente. Puoi ordinare questa colonna da A a Z e da Z ad A. |
 | [!UICONTROL ID Type] | Il tipo di identità per l’account dell’utente. È possibile applicare un filtro per visualizzare tipi di ID specifici. Per ulteriori informazioni, consulta [Manage identity types (Gestisci tipi di identità)](https://helpx.adobe.com/it/enterprise/using/identity.html). |
 | [!UICONTROL Solutions] | Riepilogo delle applicazioni Experience Cloud a cui l’utente può accedere. Per limitare l’elenco di utenti con accesso specifico all’applicazione puoi applicare i filtri. |
-| [!UICONTROL Last Login] | Ora e data dell’accesso utente più recente ad Experience Cloud. Questa colonna può essere ordinata in base a date ascendenti o discendenti. <br> **Importante:** a partire dal 13 gennaio 2020 gli ultimi dati di accesso dell&#39;utente verranno conservati per 365 giorni. Queste informazioni si propongono di mostrare l’attuale attività di accesso in Experience Cloud e non costituiscono un consiglio a intervenire sugli account inattivi prima del 13 gennaio 2020. |
+| [!UICONTROL Last Login] | Ora e data dell’accesso utente più recente ad Experience Cloud. Questa colonna può essere ordinata in base a date ascendenti o discendenti. <br> **Importante:** a partire dal 13 gennaio 2020, gli ultimi dati di accesso dell&#39;utente verranno conservati per 365 giorni. Queste informazioni hanno lo scopo di mostrare l’attuale attività di accesso in Experience Cloud e non un consiglio a intervenire sugli account inattivi prima del 13 gennaio 2020. |
 
 ## Personalizzare la vista elenco degli utenti
 

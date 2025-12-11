@@ -7,10 +7,10 @@ role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: b69cb75550232a630996cb521a86414eeb53f73a
+source-git-commit: 27b9b789e0d4c448105f5acec3aa05c9404443bf
 workflow-type: tm+mt
 source-wordcount: '304'
-ht-degree: 84%
+ht-degree: 63%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 84%
 
 ![Panoramica degli Attributi del cliente](assets/custom_reports.png)
 
-## Cosa sono i dati cliente Enterprise?
+## Informazioni sui dati dei clienti aziendali {#customer-data}
 
-I dati Enterprise risiedono in altri sistemi. Possono risultare complessi e diversi a seconda delle persone. Questi dati includono informazioni come iscrizioni, livello di fedeltà, età, genere, prodotti posseduti, interessi e lifetime value.
+I dati dei clienti aziendali si riferiscono all&#39;insieme di informazioni raccolte a livello di organizzazione su clienti, potenziali clienti e partner. Risiedono in altri sistemi e possono includere informazioni quali appartenenze, livello di fedeltà, età, genere, prodotti posseduti, interessi e lifetime value.
 
-L&#39;immagine seguente è un esempio di un file di dati che mostra i dati dell&#39;utente con sottoscrizione per prodotti, inclusi gli ID membro, i prodotti autorizzati, i prodotti più lanciati e così via.
+L&#39;immagine seguente è un esempio di un _file di dati_ che mostra i dati del sottoscrittore per i prodotti, inclusi gli ID membro, i prodotti autorizzati, i prodotti più lanciati e così via.
 
 ![Cosa sono i dati cliente Enterprise?](assets/01_crs_usecase.png)
 
