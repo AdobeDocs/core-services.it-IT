@@ -54,7 +54,7 @@ Questi dati sono dati aziendali dei clienti provenienti dal tuo sistema CRM. Pos
 
 ## Creare un’origine di attributi e caricare il file di dati
 
-Eseguire questi passaggi sulla pagina _[!UICONTROL Create Customer Attribute Source]_in Experience Cloud.
+Eseguire questi passaggi sulla pagina _[!UICONTROL Create Customer Attribute Source]_&#x200B;in Experience Cloud.
 
 >[!IMPORTANT]
 >
