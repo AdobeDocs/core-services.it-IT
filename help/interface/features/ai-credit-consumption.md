@@ -8,7 +8,7 @@ topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: 6be65dde7c10f5f51786c0ce01e3ec82379c775f
+source-git-commit: 623bb6e240987cb2ff76bce3488b827b901b84db
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 9%
@@ -16,19 +16,19 @@ ht-degree: 9%
 ---
 
 
-## Processi agente e consumo credito IA
+# Processi agente e consumo credito IA
 
-### Processi agente
+## Processi agente
 
 Un **processo agente** è una serie di attività e azioni eseguite da un agente per ottenere un risultato specifico, come indicato dagli input del cliente.
 
 Utilizzando i prompt in linguaggio naturale tramite l’Assistente IA, i clienti possono chiedere agli agenti di eseguire processi specifici. In base a tali input, Agent Orchestrator coordina gli agenti appropriati per eseguire ogni passaggio all’interno delle applicazioni Experience Cloud pertinenti.
 
-### Crediti IA
+## Crediti IA
 
 Un credito **AI** è una metrica basata sull&#39;utilizzo che quantifica l&#39;esecuzione dei processi agente. I crediti AI non si applicano alle applicazioni AI-first.
 
-### Consumo credito IA
+## Consumo credito IA
 
 L’utilizzo del credito IA può variare a seconda della complessità e del valore del processo eseguito:
 
@@ -36,7 +36,7 @@ L’utilizzo del credito IA può variare a seconda della complessità e del valo
 * Le attività complesse (spesso con più passaggi) richiedono più crediti
 * Le attività che comportano ragionamento avanzato, convalida, coordinamento di più agenti o integrazione richiedono più crediti
 
-#### Tassi di consumo credito IA stimati
+### Tassi di consumo credito IA stimati
 
 | Agente | Processo | Applicazioni supportate | Crediti IA stimati |
 |------|-----|------------------------|----------------------|
