@@ -2,21 +2,20 @@
 title: Processi agente e consumo credito IA
 description: Scopri i processi degli agenti e il consumo di crediti AI nelle applicazioni Experience Cloud.
 solution: Experience Cloud
-landing-page-name: ai
-landing-page-breadcrumb-title: AI Documentation
 topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: 6fe1e667484d8f2c9c70ad8dee5e572d065775dd
+source-git-commit: b761697ad1eb14e06ea3f6c868833c4e6c51eac3
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '380'
 ht-degree: 14%
 
 ---
 
-
 # Processi agente e consumo credito IA
+
+Scopri i processi di intelligenza artificiale e il consumo di crediti di intelligenza artificiale nelle applicazioni Experience Cloud.
 
 ## Processi agente
 
@@ -36,9 +35,9 @@ L’utilizzo del credito IA può variare a seconda della complessità e del valo
 * Le attività complesse (spesso con più passaggi) richiedono più crediti
 * Le attività che comportano ragionamento avanzato, convalida, coordinamento di più agenti o integrazione richiedono più crediti
 
-### Tassi di consumo credito IA stimati
+### Tassi di consumo del credito di IA stimati
 
-| Agente | Processo | Applicazioni supportate | Crediti IA stimati |
+| Agente | Processo | Applicazioni supportate | Stima crediti IA |
 |------|-----|------------------------|----------------------|
 | Agente Audience | Ideazione di pubblico/account | <ul><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li></ul> | 50 |
 | Agente Audience | Creazione di un pubblico/account basato sulla conoscenza | <ul><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li></ul> | 150 |
@@ -58,5 +57,6 @@ L’utilizzo del credito IA può variare a seconda della complessità e del valo
 | Brand Experience Agent | Supporto per l’implementazione | <ul><li>Servizi cloud Adobe Experience Manager</li></ul> | 5 |
 | Brand Experience Agent | Modernizzazione del sito | <ul><li>Servizi cloud Adobe Experience Manager</li></ul> | 100 |
 
-**Nota:** il consumo effettivo del credito di IA può variare in base al numero di passaggi eseguiti e di iterazioni per passaggio.
-
+>[!NOTE]
+>
+>Il consumo effettivo di credito IA può variare in base al numero di passaggi eseguiti e di iterazioni per passaggio.
