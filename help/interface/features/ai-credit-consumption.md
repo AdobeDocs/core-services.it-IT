@@ -6,9 +6,9 @@ topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: 608e1685b6ca531da73d2df138b11537097716ce
+source-git-commit: 7eb6c6e463102ca445093c69797619202202b35e
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '405'
 ht-degree: 12%
 
 ---
@@ -59,3 +59,8 @@ L’utilizzo del credito di IA può variare a seconda della complessità e del v
 >[!NOTE]
 >
 >Il consumo effettivo di credito IA può variare in base al numero di passaggi eseguiti e di iterazioni per passaggio.
+
+## Ulteriori informazioni su questo argomento
+
+* [IA per l’agente in Experience Cloud](/help/interface/features/agentic-ai.md)
+* [Versione di prova associata all&#39;utilizzo degli agenti Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
