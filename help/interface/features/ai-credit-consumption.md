@@ -63,4 +63,4 @@ L’utilizzo del credito di IA può variare a seconda della complessità e del v
 ## Ulteriori informazioni su questo argomento
 
 * [IA per l’agente in Experience Cloud](/help/interface/features/agentic-ai.md)
-* [Versione di prova associata all&#39;utilizzo degli agenti Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
+* [Versione di prova associata all&#39;utilizzo degli agenti Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
