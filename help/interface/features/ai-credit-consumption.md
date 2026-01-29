@@ -6,10 +6,12 @@ topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: b761697ad1eb14e06ea3f6c868833c4e6c51eac3
+hidefromtoc: true
+index: false
+source-git-commit: 4f738324ee18bbb63ae8c1d45907ecaf05230b34
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 14%
+source-wordcount: '369'
+ht-degree: 13%
 
 ---
 
@@ -19,17 +21,17 @@ Scopri i processi di intelligenza artificiale e il consumo di crediti di intelli
 
 ## Processi agente
 
-Un **processo agente** è una serie di attività e azioni eseguite da un agente per ottenere un risultato specifico, come indicato dagli input del cliente.
+Un _processo agente_ è una serie di attività e azioni eseguite da un agente per ottenere un risultato specifico, come indicato dagli input del cliente.
 
-Utilizzando i prompt in linguaggio naturale tramite l’Assistente IA, i clienti possono chiedere agli agenti di eseguire processi specifici. In base a tali input, Agent Orchestrator coordina gli agenti appropriati per eseguire ogni passaggio all’interno delle applicazioni Experience Cloud pertinenti.
+Utilizzando i prompt del linguaggio naturale tramite l’Assistente AI, puoi chiedere agli agenti di eseguire lavori specifici. In base a tali input, Agent Orchestrator coordina gli agenti appropriati per eseguire ogni passaggio all’interno delle applicazioni Experience Cloud pertinenti.
 
 ## Crediti IA
 
-Un credito **AI** è una metrica basata sull&#39;utilizzo che quantifica l&#39;esecuzione dei processi agente. I crediti AI non si applicano alle applicazioni AI-first.
+Un credito _AI_ è una metrica basata sull&#39;utilizzo che quantifica l&#39;esecuzione di processi agente. I crediti IA non si applicano alle [applicazioni AI-first](/help/interface/features/agentic-ai.md).
 
 ## Consumo credito IA
 
-L’utilizzo del credito IA può variare a seconda della complessità e del valore del processo eseguito:
+L’utilizzo del credito di IA può variare a seconda della complessità e del valore del processo eseguito:
 
 * Le attività semplici (spesso in un unico passaggio) richiedono meno crediti
 * Le attività complesse (spesso con più passaggi) richiedono più crediti
@@ -45,7 +47,6 @@ L’utilizzo del credito IA può variare a seconda della complessità e del valo
 | Agente Audience | Analisi del pubblico/account | <ul><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li></ul> | 25 |
 | Agente Audience | Ideazione gruppo di acquisto | <ul><li>Adobe Journey Optimizer (B2B)</li></ul> | 25 |
 | Data Insights Agent | Analisi e visualizzazione dei dati | <ul><li>Customer Journey Analytics</li></ul> | 25 |
-| Data Insights Agent | Narrazione e condivisione dei dati | <ul><li>Customer Journey Analytics</li></ul> | 100 |
 | Journey Agent | ideazione percorso | <ul><li>Adobe Journey Optimizer (B2B)</li></ul> | 25 |
 | Journey Agent | Creazione percorso | <ul><li>Adobe Journey Optimizer (B2B, B2C)</li></ul> | 30 |
 | Journey Agent | Analisi del percorso | <ul><li>Adobe Journey Optimizer (B2B, B2C)</li></ul> | 50 |
