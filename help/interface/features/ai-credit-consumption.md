@@ -1,21 +1,21 @@
 ---
 title: Processi agente e consumo credito IA
-description: Scopri i processi degli agenti e il consumo di crediti AI nelle applicazioni Experience Cloud.
+description: Scopri i processi degli agenti e i tassi di consumo di credito AI nelle applicazioni Experience Cloud.
 solution: Experience Cloud
 topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: 3ed72cfa1fd7a6559ac7dd7b31007798c228d53e
+source-git-commit: 608e1685b6ca531da73d2df138b11537097716ce
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 13%
+source-wordcount: '388'
+ht-degree: 12%
 
 ---
 
 # Processi agente e consumo credito IA
 
-Scopri i processi di intelligenza artificiale e il consumo di crediti di intelligenza artificiale nelle applicazioni Experience Cloud.
+Scopri i processi di intelligenza artificiale e il consumo di crediti di intelligenza artificiale nelle applicazioni Experience Cloud. Per informazioni sull&#39;abilitazione delle funzionalità di IA per l&#39;agente nelle applicazioni Experience Cloud esistenti, vedere [IA per l&#39;agente in Experience Cloud](agentic-ai.md#existing-apps).
 
 ## Processi agente
 
