@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: 1586f442699d53e6e926442dfb07d957e5e2708a
+source-git-commit: 404d76931c8d315efba202536f032ddac223c530
 workflow-type: tm+mt
 source-wordcount: '1942'
 ht-degree: 75%
@@ -59,9 +59,9 @@ Requisiti [!DNL Analytics] e [!DNL Adobe Target] per l&#39;utilizzo di Experienc
    * **Adobe Analytics:** Standard o Premium (non lo SKU legacy di [!DNL SiteCatalyst]).
    * **Adobe Target:** Standard o Premium.
 
-   >[!NOTE]
-   >
-   >Ad [!DNL Target] esempio, effettua la migrazione a at.js da `mbox.js`. Consulta [Aggiornamento da at.js 1. x a at.js 2. x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/upgrading-from-atjs-1x-to-atjs-20.html?lang=it).
+     >[!NOTE]
+     >
+     >Ad [!DNL Target] esempio, effettua la migrazione a at.js da `mbox.js`. Consulta [Aggiornamento da at.js 1. x a at.js 2. x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/upgrading-from-atjs-1x-to-atjs-20.html?lang=it).
 
 1. [Gestisci utenti e prodotti](../administration/admin-console.md) in [!UICONTROL Admin Console].
 
