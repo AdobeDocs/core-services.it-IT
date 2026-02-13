@@ -8,9 +8,14 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+TQID: https://experienceleague.adobe.com/H-N88ygcQUcUIej1Kkwlv9UmIe1qPDYwo-qF3TdDqHg
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d253888322194189fea6d492ae19cf248357960
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: 545
 ht-degree: 11%
 
 ---
@@ -30,11 +35,11 @@ Analytics utilizza i cookie per definire nuovi visitatori in modo anonimo, aiuta
 | **`s_fid`** | 2 anni | 33 byte | Prime parti | Memorizza l’ID visitatore univoco e la marca temporale di fallback. Impostato da JavaScript se il cookie standard `s_vi` non può essere impostato a causa di restrizioni dei cookie di terze parti. Non utilizzato per le implementazioni di cookie di prime parti. |
 | **`s_ac`** | Immediato | 1 byte | Prime parti | Consente di determinare il dominio corretto per impostare i cookie di AppMeasurement. Contiene il valore statico `"1"`. Una volta impostato, il cookie viene eliminato immediatamente. |
 
-Consulta [Identificazione dei visitatori in Adobe Analytics](https://experienceleague.adobe.com/it/docs/analytics/implementation/id/overview) per ulteriori informazioni su come Adobe Analytics identifica i visitatori utilizzando i cookie.
+Consulta [Identificazione dei visitatori in Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/overview) per ulteriori informazioni su come Adobe Analytics identifica i visitatori utilizzando i cookie.
 
 ## Cookie impostati da plug-in
 
-Alcune implementazioni fanno uso di plug-in, che sono snippet di codice che forniscono funzionalità aggiuntive per Analytics. Questi plug-in possono impostare cookie non elencati sopra. Per un elenco dei plug-in disponibili e dei cookie impostati, vedere [Panoramica dei plug-in di Analytics](https://experienceleague.adobe.com/it/docs/analytics/implementation/vars/plugins/impl-plugins).
+Alcune implementazioni fanno uso di plug-in, che sono snippet di codice che forniscono funzionalità aggiuntive per Analytics. Questi plug-in possono impostare cookie non elencati sopra. Per un elenco dei plug-in disponibili e dei cookie impostati, vedere [Panoramica dei plug-in di Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/plugins/impl-plugins).
 
 ## Conseguenze dell’eliminazione dei cookie di Analytics
 

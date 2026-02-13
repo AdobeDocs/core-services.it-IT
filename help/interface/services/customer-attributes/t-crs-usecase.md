@@ -8,9 +8,15 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 27b9b789e0d4c448105f5acec3aa05c9404443bf
+TQID: https://experienceleague.adobe.com/tnqjX4iY7OQx4XW9MjHNg8LaXB1Of6MrtLX-7efyz-E
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d253888322194189fea6d492ae19cf248357960
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: 1061
 ht-degree: 47%
 
 ---
@@ -33,7 +39,7 @@ Creare l&#39;origine attributo del cliente (`.csv` e `.fin` file) e caricare i d
 
 * Per Attributi del cliente è necessaria qualsiasi versione **Adobe Target** di `at.js` o la versione 5.8 di `mbox.js` o successive.
 
-  Consulta [Come distribuire at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=it).
+  Consulta [Come distribuire at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html).
 
 ## Creazione di un file di dati
 
@@ -54,7 +60,7 @@ Questi dati sono dati aziendali dei clienti provenienti dal tuo sistema CRM. Pos
 
 ## Creare un’origine di attributi e caricare il file di dati
 
-Eseguire questi passaggi sulla pagina _[!UICONTROL Create Customer Attribute Source]_&#x200B;in Experience Cloud.
+Eseguire questi passaggi sulla pagina _[!UICONTROL Create Customer Attribute Source]_in Experience Cloud.
 
 >[!IMPORTANT]
 >
@@ -84,7 +90,7 @@ Eseguire questi passaggi sulla pagina _[!UICONTROL Create Customer Attribute Sou
 
       * **Tag:** L&#39;ID alias corrisponde al valore *Integration Code* in [!UICONTROL customer Settings], nello strumento [Servizio Experience Cloud ID](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=it).
 
-      * **API visitatore:** l&#39;ID alias corrisponde agli ulteriori [ID cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=it) che è possibile associare a ogni visitatore.
+      * **API visitatore:** l&#39;ID alias corrisponde agli ulteriori [ID cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) che è possibile associare a ogni visitatore.
 
         Ad esempio, *“crm_ id”* in:
 
@@ -94,19 +100,19 @@ Eseguire questi passaggi sulla pagina _[!UICONTROL Create Customer Attribute Sou
 
       * **iOS:** l&#39;ID alias corrisponde a *&quot;idType&quot;* in [visitorSyncIdentifiers:identifiers](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=it).
 
-        Esempio:
+        Ad esempio:
 
         `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
       * **Android™:** l’ID alias corrisponde a *“idType”* in [syncIdentifiers](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=it).
 
-        Esempio:
+        Ad esempio:
 
         `identifiers.put(`**`"idType"`**`, "idValue");`
 
         Consulta [Utilizzo di più origini dati](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB) per ulteriori informazioni sull&#39;elaborazione dei dati relativi al campo ID alias e agli ID cliente.
 
-   * **[!UICONTROL Namespace Code:]** Utilizzare questo valore per identificare l&#39;origine attributo del cliente quando si utilizza [IdentityMap](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/identity/overview) come parte di un&#39;implementazione di AEP WebSDK.
+   * **[!UICONTROL Namespace Code:]** Utilizzare questo valore per identificare l&#39;origine attributo del cliente quando si utilizza [IdentityMap](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview) come parte di un&#39;implementazione di AEP WebSDK.
 
 1. Fai clic su **[!UICONTROL Save]**.
 

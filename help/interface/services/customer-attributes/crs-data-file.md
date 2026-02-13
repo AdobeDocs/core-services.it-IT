@@ -7,9 +7,15 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
-source-git-commit: 27b9b789e0d4c448105f5acec3aa05c9404443bf
+TQID: https://experienceleague.adobe.com/v3ssxsKeUGWeikG4GxFRp8WgRRwCZIOILShX73blwPU
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d253888322194189fea6d492ae19cf248357960
 workflow-type: tm+mt
-source-wordcount: '1149'
+source-wordcount: 1149
 ht-degree: 62%
 
 ---
@@ -58,7 +64,7 @@ Lo stesso file visualizzato in un editor di testo:
   </tr> 
   <tr> 
    <td colname="col1"> <p>colonna ID cliente </p> </td> 
-   <td colname="col2"> <p> La prima colonna deve essere un ID cliente univoco. L'ID usato deve corrispondere all'ID che viene passato al servizio Experience Cloud ID. </p> <p>Per Analytics, l'ID archiviato in una prop o eVar. </p> <p>Per Target, il valore setcustomerID. </p> <p> Questo ID cliente è l’identificatore univoco che il sistema CRM utilizza per ogni persona nel database. Le colonne rimanenti sono attributi provenienti dai dati del sistema CRM. Puoi scegliere quanti attributi caricare. </p> <p>Per le intestazioni delle colonne sono consigliati nomi descrittivi e leggibili, ma non sono obbligatori. Quando convalidi lo schema dopo il caricamento, puoi mappare i nomi descrittivi alle righe e alle colonne caricate. </p> <p> <b>Informazioni sugli ID cliente</b> </p> <p>In genere, un'azienda utilizza un ID cliente proveniente da un sistema di gestione delle relazioni con i clienti (CRM). Questo ID viene impostato utilizzando la chiamata <span class="codeph"> setcustomerIDs </span> quando una persona effettua l'accesso. Questo ID viene utilizzato anche come chiave nel file CRM che viene caricato in Experience Cloud. Un ID alias <a href="t-crs-usecase.md" format="dita" scope="local"> di </a> è un nome descrittivo per un archivio dati in Audience Manager, dove vengono memorizzati i dati alias. Il sistema invia alias a questo archivio dati (tramite setcustomerID). Il file di gestione delle relazioni con i clienti viene applicato ai dati in tale archivio di dati. </p> <p>Per <span class="codeph"> informazioni setcustomerID </span>, vedi <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=it" format="https" scope="external"> ID cliente e stati di autenticazione </a>. </p> </td> 
+   <td colname="col2"> <p> La prima colonna deve essere un ID cliente univoco. L'ID usato deve corrispondere all'ID che viene passato al servizio Experience Cloud ID. </p> <p>Per Analytics, l'ID archiviato in una prop o eVar. </p> <p>Per Target, il valore setcustomerID. </p> <p> Questo ID cliente è l’identificatore univoco che il sistema CRM utilizza per ogni persona nel database. Le colonne rimanenti sono attributi provenienti dai dati del sistema CRM. Puoi scegliere quanti attributi caricare. </p> <p>Per le intestazioni delle colonne sono consigliati nomi descrittivi e leggibili, ma non sono obbligatori. Quando convalidi lo schema dopo il caricamento, puoi mappare i nomi descrittivi alle righe e alle colonne caricate. </p> <p> <b>Informazioni sugli ID cliente</b> </p> <p>In genere, un'azienda utilizza un ID cliente proveniente da un sistema di gestione delle relazioni con i clienti (CRM). Questo ID viene impostato utilizzando la chiamata <span class="codeph"> setcustomerIDs </span> quando una persona effettua l'accesso. Questo ID viene utilizzato anche come chiave nel file CRM che viene caricato in Experience Cloud. Un ID alias <a href="t-crs-usecase.md" format="dita" scope="local"> di </a> è un nome descrittivo per un archivio dati in Audience Manager, dove vengono memorizzati i dati alias. Il sistema invia alias a questo archivio dati (tramite setcustomerID). Il file di gestione delle relazioni con i clienti viene applicato ai dati in tale archivio di dati. </p> <p>Per <span class="codeph"> informazioni setcustomerID </span>, vedi <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html" format="https" scope="external"> ID cliente e stati di autenticazione </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Intestazioni e colonne successive </p> </td> 
@@ -136,7 +142,7 @@ Visitor.setcustomerIDs({
 });
 ```
 
-(Vedi [ID cliente e stati di autenticazione](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=it) per ulteriori informazioni.)
+(Vedi [ID cliente e stati di autenticazione](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) per ulteriori informazioni.)
 
 In **[!DNL Experience Cloud]** > **[!DNL Customer Attributes]**:
 

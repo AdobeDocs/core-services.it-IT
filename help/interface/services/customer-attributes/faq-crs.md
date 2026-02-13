@@ -7,9 +7,15 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6031e544-822b-4843-b3d8-98a36a3c40e8
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+TQID: https://experienceleague.adobe.com/ZAKogDXCbaZHOiyzlgg6Od0pxGwWi2w9yXtPnKWZKUw
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 0d253888322194189fea6d492ae19cf248357960
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: 1044
 ht-degree: 74%
 
 ---
@@ -45,7 +51,7 @@ Assistenza e limitazioni per l’utilizzo di [!DNL Customer Attributes].
 | **Solo per Adobe Target:** è possibile precaricare o caricare dati per clienti che Adobe Target non ha mai visto? | Sì. Quando il visitatore effettua la sua prima richiesta ad Adobe Target, il sistema recupera le informazioni esistenti disponibili dagli [!DNL Customer Attributes] e utilizza tali dati per il targeting. **Nota:** il recupero di tali dati può richiedere fino a 20 minuti dalla prima interazione del visitatore con Adobe Target. |
 | **Solo per Adobe Target:** posso creare un super pubblico combinando i dati degli attributi del cliente con i dati di pubblico condiviso? | No. I dati di pubblico condiviso costituiscono un pubblico completo. |
 | **(solo Adobe Target)** Come si confronta [!DNL Customer Attributes] con l&#39;API di profilo di massa di Adobe Target? | L’API di profilo di massa consente di aggiornare i profili Adobe Target direttamente tramite l’API, sia singolarmente che in massa. La funzionalità è simile agli [!DNL Customer Attributes], ma con le seguenti differenze fondamentali:<ul><li>L’API di profilo è una chiamata API REST e [!DNL Customer Attributes] utilizza FTP.</li><li>L’API di profilo di Adobe Target invia dati solo ad Adobe Target invece che all&#39;intero Experience Cloud.</li><li>[!DNL Customer Attributes] fornisce una semplice interfaccia per creare e gestire questi dati esterni.</li></ul> |
-| **(Solo per Adobe Target)** Il caricamento dei dati dagli [!DNL Customer Attributes] in Adobe Target estende la durata del profilo del visitatore di Adobe Target? | Sì. Consulta [Durata del profilo del visitatore](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/visitor-profile.html?lang=it) nella Guida di Adobe Target. |
+| **(Solo per Adobe Target)** Il caricamento dei dati dagli [!DNL Customer Attributes] in Adobe Target estende la durata del profilo del visitatore di Adobe Target? | Sì. Consulta [Durata del profilo del visitatore](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/visitor-profile.html) nella Guida di Adobe Target. |
 | **(Solo per Adobe Targe)** Posso eseguire il targeting dei dati caricati negli [!DNL Customer Attributes] subito dopo che il visitatore è identificato dall’ID cliente? | Sì.  Nella chiamata del server ad Adobe Target, che include l’ID di terze parti mbox, sono disponibili tutti i dati degli attributi del cliente. |
 | **(solo Adobe Target)** Cosa rappresenta la colonna **[!UICONTROL Sync Status]** per i file caricati nell&#39;origine attributi del cliente? | Puoi visualizzare il numero di record pubblicati e sincronizzati da Adobe Target selezionando l’icona Stato di sincronizzazione in corrispondenza di un file di attributi specifico. `Sync %` è una metrica in tempo reale che specifica la percentuale di profili sincronizzati in Adobe Target.<br> **Nota:** la sincronizzazione degli attributi con Adobe Target potrebbe richiedere fino a 24 ore. |
 | Cosa rappresentano le metriche di caricamento dei file nell’origine [!DNL Customer Attributes]? | Puoi verificare lo stato degli attributi caricati negli [!DNL Customer Attributes] con l’aiuto delle metriche seguenti: <ul><li>Record: numero di record nel file degli attributi.</li><li>**Nuovi record:** numero di nuovi record presenti nel file degli attributi.</li> <li>**Record aggiornati:** numero di record già presenti negli [!DNL Customer Attributes] con valori aggiornati nel file.</li><li>**Tutti i dati (record):** numero totale di record caricati correttamente in [!DNL Customer Attributes].</li></ul> |

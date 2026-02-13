@@ -2,22 +2,28 @@
 description: Abilita le applicazioni Adobe Analytics e Adobe Target per i servizi tra più applicazioni. Scopri come iniziare a utilizzare i servizi Experience Cloud.
 solution: Experience Cloud
 title: Guida introduttiva ai servizi Experience Cloud
-index: true
+index: yes
 feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: 404d76931c8d315efba202536f032ddac223c530
+TQID: https://experienceleague.adobe.com/5SyRdqyQkymJJygKeQ9FXIYoVe70br51DY2VKmqSC0E
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: dab36b01-8bfa-48f3-8392-626455a058e6id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: d27b1945-f442-4607-91bd-537a0b16e687id: eb7e29b9-c5e9-4ed0-8e4b-6465dabb3cb1id: ecb4a972-6786-444c-a014-abc528b9407aid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 0d253888322194189fea6d492ae19cf248357960
 workflow-type: tm+mt
-source-wordcount: '1942'
+source-wordcount: 1942
 ht-degree: 75%
 
 ---
 
 # Introduzione ad Experience Cloud
 
-Se di recente hai implementato Experience Cloud utilizzando [tag Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/tags/home), sei già configurato per [Attributi del cliente](../services/overview.md) e per Experience Cloud [Tipi di pubblico](../services/audiences/overview.md). Puoi anche gestire utenti e prodotti in [Admin Console](../administration/admin-console.md).
+Se di recente hai implementato Experience Cloud utilizzando [tag Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home), sei già configurato per [Attributi del cliente](../services/overview.md) e per Experience Cloud [Tipi di pubblico](../services/audiences/overview.md). Puoi anche gestire utenti e prodotti in [Admin Console](../administration/admin-console.md).
 
 I clienti esistenti possono modernizzare l’esecuzione delle applicazioni e implementare Experience Cloud. In questo modo puoi utilizzare le funzioni Attributi del cliente e Tipi di pubblico in Adobe Analytics, Audience Manager e Adobe Target.
 
@@ -33,7 +39,7 @@ Probabilmente alcuni utenti sono già membri di gruppi di applicazioni, ad esemp
 
 Quando mappi questi gruppi ai gruppi aziendali Experience Cloud, gli utenti devono collegare manualmente le credenziali del propio account applicazione al rispettivo Adobe ID.
 
-Consulta [Collegare glu account in Experience Cloud](https://experienceleague.adobe.com/it/docs/core-services/interface/administration/organizations)
+Consulta [Collegare glu account in Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations)
 
 >[!NOTE]
 >
@@ -71,11 +77,11 @@ Requisiti [!DNL Analytics] e [!DNL Adobe Target] per l&#39;utilizzo di Experienc
 
 [!UICONTROL Experience Cloud ID Service] fornisce un ID comune per l&#39;integrazione tra più applicazioni. Fornisce l&#39;identificazione dei visitatori tra domini, oltre a un percorso per il targeting e la personalizzazione tra dispositivi e browser basati sui dati CRM caricati tramite [!DNL Customer Attributes].
 
-Il metodo più semplice per abilitare i servizi core di Experience Cloud è quello di attivarli automaticamente per Analytics e Adobe Target tramite l&#39;[estensione del servizio Experience Cloud ID](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=it) in [!UICONTROL Experience Platform Launch].
+Il metodo più semplice per abilitare i servizi core di Experience Cloud è quello di attivarli automaticamente per Analytics e Adobe Target tramite l&#39;[estensione del servizio Experience Cloud ID](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html) in [!UICONTROL Experience Platform Launch].
 
 >[!NOTE]
 >
->Per ricevere un aiuto completo sul Servizio Experience Cloud ID (già ID visitatore), consulta [Panoramica sul Servizio Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=it#intro).
+>Per ricevere un aiuto completo sul Servizio Experience Cloud ID (già ID visitatore), consulta [Panoramica sul Servizio Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html#intro).
 
 
 **Non Utilizzo Di [!UICONTROL Experience Platform tags]?**
@@ -84,12 +90,12 @@ Se non utilizzi [!UICONTROL Experience Platform tags], implementa manualmente il
 
 | Attività | Descrizione |
 |--- |--- |
-| [Implementazione del servizio Experience Cloud ID per Analytics](https://experienceleague.adobe.com/it/docs/analytics/implementation/id/overview) | Adobe consiglia inoltre di impostare [ID cliente](https://experienceleague.adobe.com/it/docs/id-service/using/reference/authenticated-state) aggiuntivi. Tali ID sono associati a ciascun visitatore e abilitano le funzionalità attuali e future di base di Experience Cloud. |
-| Aggiorna il file `s_code` esistente alla versione H.27.3 o successiva oppure il file `AppMeasurement.js` esistente alla versione 1.4 o successiva. | Tali file sono disponibili per il download in [Gestore codice](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=it) in Strumenti amministratore di Analytics. Puoi consultare la [Guida all&#39;implementazione JavaScript](https://experienceleague.adobe.com/it/docs/analytics/implementation/js/overview#js) per ulteriori informazioni su `AppMeasurement.js`. |
+| [Implementazione del servizio Experience Cloud ID per Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/overview) | Adobe consiglia inoltre di impostare [ID cliente](https://experienceleague.adobe.com/en/docs/id-service/using/reference/authenticated-state) aggiuntivi. Tali ID sono associati a ciascun visitatore e abilitano le funzionalità attuali e future di base di Experience Cloud. |
+| Aggiorna il file `s_code` esistente alla versione H.27.3 o successiva oppure il file `AppMeasurement.js` esistente alla versione 1.4 o successiva. | Tali file sono disponibili per il download in [Gestore codice](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html) in Strumenti amministratore di Analytics. Puoi consultare la [Guida all&#39;implementazione JavaScript](https://experienceleague.adobe.com/en/docs/analytics/implementation/js/overview#js) per ulteriori informazioni su `AppMeasurement.js`. |
 
 ### Analytics &amp; Adobe Target: sincronizzazione degli ID cliente {#sync-ids}
 
-In qualità di parte dell&#39;impostazione del servizio Experience Cloud ID, Adobe consiglia per Analytics e [!DNL Target] la sincronizzazione degli [ID cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=it) con Experience Cloud.
+In qualità di parte dell&#39;impostazione del servizio Experience Cloud ID, Adobe consiglia per Analytics e [!DNL Target] la sincronizzazione degli [ID cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) con Experience Cloud.
 
 In Adobe Target, `mbox3rdpartyid` deve ottenere l’ID cliente e inviarlo a [!DNL Target]. Consulta [Uso degli attributi del cliente](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html?lang=it) in [!DNL Target].
 
@@ -126,15 +132,15 @@ I servizi di Experience Cloud (come Experience Cloud ID) sono associati a una su
 
 ## Aggiornamento del codice AppMeasurement di Analytics
 
-Se stai utilizzando cookie di terze parti, fai riferimento a [CNAME e servizio Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=it) per informazioni sulla raccolta dei dati CNAME e sul tracciamento tra domini.
+Se stai utilizzando cookie di terze parti, fai riferimento a [CNAME e servizio Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html) per informazioni sulla raccolta dei dati CNAME e sul tracciamento tra domini.
 
-Si consiglia di modernizzare l&#39;implementazione di Analytics aggiornando le librerie JavaScript, incluso l&#39;API visitatore. Un modo semplice per eseguire questa operazione è aggiungere un’[estensione Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=it) nella funzionalità di Raccolta dati di Experience Platform.
+Si consiglia di modernizzare l&#39;implementazione di Analytics aggiornando le librerie JavaScript, incluso l&#39;API visitatore. Un modo semplice per eseguire questa operazione è aggiungere un’[estensione Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html) nella funzionalità di Raccolta dati di Experience Platform.
 
 ## Aggiornamento dell’implementazione di Adobe Target
 
-* È consigliabile aggiungere un&#39;estensione [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html?lang=it) nei tag [!UICONTROL Experience Platform] in modo che il recupero della libreria sia automatico. Puoi anche impostare l&#39;estensione del servizio [Experience Cloud ID](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=it) per Adobe Target (e altre applicazioni) utilizzando i tag [!UICONTROL Experience Platform]. È necessario l&#39;aggiornamento [!UICONTROL Experience Cloud ID Service] di **&#x200B;**&#x200B;affinché Adobe Target possa utilizzare i servizi People.
-* Se non utilizzi i tag [!UICONTROL Experience Platform], [aggiorna manualmente la libreria mbox](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html?lang=it).
-* Richiedi l’accesso per utilizzare Adobe Analytics come origine di reporting per [!DNL Adobe Target]. I dati di [!DNL Target] e [!DNL Analytics] sono combinati nella stessa chiamata al server durante l’elaborazione affinché i visitatori siano collegati tra le due applicazioni. Consulta [Implementazione di Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=it).
+* È consigliabile aggiungere un&#39;estensione [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html) nei tag [!UICONTROL Experience Platform] in modo che il recupero della libreria sia automatico. Puoi anche impostare l&#39;estensione del servizio [Experience Cloud ID](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html) per Adobe Target (e altre applicazioni) utilizzando i tag [!UICONTROL Experience Platform]. È necessario l&#39;aggiornamento [!UICONTROL Experience Cloud ID Service] di **** affinché Adobe Target possa utilizzare i servizi People.
+* Se non utilizzi i tag [!UICONTROL Experience Platform], [aggiorna manualmente la libreria mbox](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html).
+* Richiedi l’accesso per utilizzare Adobe Analytics come origine di reporting per [!DNL Adobe Target]. I dati di [!DNL Target] e [!DNL Analytics] sono combinati nella stessa chiamata al server durante l’elaborazione affinché i visitatori siano collegati tra le due applicazioni. Consulta [Implementazione di Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html).
 
   >[!IMPORTANT]
   >
@@ -187,13 +193,13 @@ Utilizza le seguenti funzionalità.
 
 Se acquisisci dati del cliente di livello Enterprise in un database CRM (Customer Relationship Management), puoi caricare tali dati in un’origine dati di attributi cliente in Experience Cloud. Una volta caricati, puoi usare i dati in [!DNL Adobe Analytics] e [!DNL Adobe Target].
 
-Per ulteriori informazioni, consulta [Attributi del cliente](https://experienceleague.adobe.com/it/docs/core-services/interface/services/customer-attributes/attributes).
+Per ulteriori informazioni, consulta [Attributi del cliente](https://experienceleague.adobe.com/en/docs/core-services/interface/services/customer-attributes/attributes).
 
 ### [!UICONTROL People] > [!UICONTROL Audience Library]
 
 Experience Cloud [!UICONTROL Audiences] è l&#39;interfaccia che consente di creare tipi di pubblico, o audience, combinare quelli esistenti per creare un pubblico composito e visualizzare quelli condivisi.
 
-Per ulteriori informazioni, consulta [Tipi di pubblico](https://experienceleague.adobe.com/it/docs/core-services/interface/services/audiences/overview).
+Per ulteriori informazioni, consulta [Tipi di pubblico](https://experienceleague.adobe.com/en/docs/core-services/interface/services/audiences/overview).
 
 ## Archivio dei dati e informativa sulla privacy
 
