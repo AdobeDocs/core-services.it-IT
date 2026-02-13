@@ -54,7 +54,7 @@ Accedi e verifica di essere nell&#39;[organizzazione](administration/organizatio
 
    Ad esempio, per un’organizzazione con Federated ID e il dominio `example.com`, imposta il link dell’URL su `https://experience.adobe.com/#/sso:@example.com`. Puoi anche passare direttamente a una specifica applicazione salvando come segnalibro o preferito l’URL seguito dal percorso dell’applicazione. Ad esempio, per Adobe Analytics: `https://experience.adobe.com/#/sso:@example.com/analytics`.
 
-   **Nota:** l&#39;amministratore dell&#39;organizzazione può limitare l&#39;accesso ai prodotti Adobe per indirizzo IP. In tal caso, potresti ricevere un errore dopo aver effettuato l’accesso ad Experience Cloud o essere passato a un’organizzazione con questa opzione abilitata. Ulteriori informazioni sono disponibili in [Limitare l&#39;accesso ai prodotti per indirizzi IP](https://helpx.adobe.com/enterprise/using/ip-based-access.html).
+   **Nota:** l&#39;amministratore dell&#39;organizzazione può limitare l&#39;accesso ai prodotti Adobe per indirizzo IP. In tal caso, potresti ricevere un errore dopo aver effettuato l’accesso ad Experience Cloud o essere passato a un’organizzazione con questa opzione abilitata. Ulteriori informazioni sono disponibili in [Limitare l&#39;accesso ai prodotti per indirizzi IP](https://helpx.adobe.com/it/enterprise/using/ip-based-access.html).
 
 
 ## Accedere alle applicazioni di Experience Cloud
@@ -67,7 +67,7 @@ Per accedere alle applicazioni e ai servizi Experience Cloud per i quali disponi
 
 ## Ottenere assistenza e supporto
 
-Accedi all&#39;apprendimento e alla guida utilizzando la **[!UICONTROL Help center]** (![risorsa](assets/help-icon.png)) nell&#39;intestazione, incluso il contenuto della guida (documentazione, tutorial e corsi) in [Experience League](https://experienceleague.adobe.com/?lang=it#home), nonché risorse aggiuntive per le singole applicazioni. Puoi anche inviare feedback aperti e creare ticket di supporto con priorità.
+Accedi all&#39;apprendimento e alla guida utilizzando la **[!UICONTROL Help center]** (![risorsa](assets/help-icon.png)) nell&#39;intestazione, incluso il contenuto della guida (documentazione, tutorial e corsi) in [Experience League](https://experienceleague.adobe.com/it?lang=it#home), nonché risorse aggiuntive per le singole applicazioni. Puoi anche inviare feedback aperti e creare ticket di supporto con priorità.
 
 ![Ottenere assistenza e supporto](assets/search-menu.png)
 
