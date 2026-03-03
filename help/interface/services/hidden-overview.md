@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: b69cb75550232a630996cb521a86414eeb53f73a
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 67%
@@ -29,7 +29,7 @@ Per accedere a questi servizi in Experience Cloud, selezionare **[!UICONTROL App
 Il presente Aiuto descrive i seguenti prodotti e servizi:
 
 | Servizi core | Descrizione |
-|--- |--- |
+| --- | --- |
 | [Componenti dell’interfaccia centrale](../experience-cloud.md) | Accedi alle preferenze dell’account, alla guida del prodotto e ad applicazioni e servizi. |
 | [Libreria pubblico](audiences/overview.md) | I tipi di pubblico sono raccolte di visitatori (un elenco di ID visitatore). Con [!DNL Audience Library] di Adobe puoi gestire come tradurre i dati sui visitatori in segmentazione del pubblico. |
 | [Attributi del cliente](customer-attributes/attributes.md) | Crea casi di utilizzo di orchestrazione in tempo reale sulla base dei dati contestuali memorizzati negli eventi o nelle origini dati. [!UICONTROL Journey Orchestration] è un servizio applicativo integrato all’interno di Experience Platform. |

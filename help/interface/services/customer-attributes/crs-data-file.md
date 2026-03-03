@@ -8,18 +8,12 @@ role: Admin
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
 TQID: https://experienceleague.adobe.com/v3ssxsKeUGWeikG4GxFRp8WgRRwCZIOILShX73blwPU
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 1149
 ht-degree: 62%
@@ -37,7 +31,7 @@ Devi poter accedere ai dati del sistema CRM, o simili, della tua azienda. I dati
 ## Tipi di file consentiti e requisiti per la denominazione
 
 | Tipo di file | Descrizione |
-|--- |--- |
+| --- | --- |
 | `.csv` | Un file di valori separati da virgole (ad esempio un file creato in Excel). Questo file contiene i dati degli attributi del cliente.   Requisiti di denominazione: verifica che le estensioni dei nomi dei file non contengano spazi. |
 | `.fin` | (Obbligatorio) Il file `.fin` informa il sistema che il caricamento dei dati è terminato. Il nome del file `.fin` deve corrispondere al nome del file `.csv`.  Adobe consiglia di creare un file di testo vuoto con estensione `.fin`. Un file vuoto consente di risparmiare spazio e tempo di caricamento. **Nota:** la ridenominazione di un file `.fin` non è consentita dopo il caricamento. Il file `.fin` deve essere caricato separatamente e non può essere un file caricato precedentemente e rinominato. Dopo aver caricato il file `.fin` nell&#39;FTP degli attributi del cliente, il sistema recupera i dati rapidamente (entro un minuto). Questo si differenzia da altri sistemi Adobe basati su FTP, che raccolgono i dati meno frequentemente (circa una volta all&#39;ora). Il file `.fin` non è necessario quando si utilizza il metodo di caricamento di trascinamento della selezione. |
 | `.gz` o `.zip` | `.gz` (gzip) o `.zip` - per file compressi. Un file `.zip` non può contenere più di un file nell&#39;archivio. Requisiti di denominazione: il nome di `.zip` o `.gz` deve corrispondere al nome del file `.csv`. Ad esempio, se il file `.csv` è `crm_small.csv`, il file `.zip` deve essere `crm_small.csv.zip`. Il file `.fin` deve corrispondere a `.csv`. |
@@ -70,7 +64,7 @@ Lo stesso file visualizzato in un editor di testo:
   </tr> 
   <tr> 
    <td colname="col1"> <p>colonna ID cliente </p> </td> 
-   <td colname="col2"> <p> La prima colonna deve essere un ID cliente univoco. L'ID usato deve corrispondere all'ID che viene passato al servizio Experience Cloud ID. </p> <p>Per Analytics, l'ID archiviato in una prop o eVar. </p> <p>Per Target, il valore setcustomerID. </p> <p> Questo ID cliente è l’identificatore univoco che il sistema CRM utilizza per ogni persona nel database. Le colonne rimanenti sono attributi provenienti dai dati del sistema CRM. Puoi scegliere quanti attributi caricare. </p> <p>Per le intestazioni delle colonne sono consigliati nomi descrittivi e leggibili, ma non sono obbligatori. Quando convalidi lo schema dopo il caricamento, puoi mappare i nomi descrittivi alle righe e alle colonne caricate. </p> <p> <b>Informazioni sugli ID cliente</b> </p> <p>In genere, un'azienda utilizza un ID cliente proveniente da un sistema di gestione delle relazioni con i clienti (CRM). Questo ID viene impostato utilizzando la chiamata <span class="codeph"> setcustomerIDs </span> quando una persona effettua l'accesso. Questo ID viene utilizzato anche come chiave nel file CRM che viene caricato in Experience Cloud. Un ID alias <a href="t-crs-usecase.md" format="dita" scope="local"> di </a> è un nome descrittivo per un archivio dati in Audience Manager, dove vengono memorizzati i dati alias. Il sistema invia alias a questo archivio dati (tramite setcustomerID). Il file di gestione delle relazioni con i clienti viene applicato ai dati in tale archivio di dati. </p> <p>Per <span class="codeph"> informazioni setcustomerID </span>, vedi <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=it" format="https" scope="external"> ID cliente e stati di autenticazione </a>. </p> </td> 
+   <td colname="col2"> <p> La prima colonna deve essere un ID cliente univoco. L'ID usato deve corrispondere all'ID che viene passato al servizio Experience Cloud ID. </p> <p>Per Analytics, l'ID archiviato in una prop o eVar. </p> <p>Per Target, il valore setcustomerID. </p> <p> Questo ID cliente è l’identificatore univoco che il sistema CRM utilizza per ogni persona nel database. Le colonne rimanenti sono attributi provenienti dai dati del sistema CRM. Puoi scegliere quanti attributi caricare. </p> <p>Per le intestazioni delle colonne sono consigliati nomi descrittivi e leggibili, ma non sono obbligatori. Quando convalidi lo schema dopo il caricamento, puoi mappare i nomi descrittivi alle righe e alle colonne caricate. </p> <p> <b>Informazioni sugli ID cliente</b> </p> <p>In genere, un'azienda utilizza un ID cliente proveniente da un sistema di gestione delle relazioni con i clienti (CRM). Questo ID viene impostato utilizzando la chiamata <span class="codeph"> setcustomerIDs </span> quando una persona effettua l'accesso. Questo ID viene utilizzato anche come chiave nel file CRM che viene caricato in Experience Cloud. Un ID alias <a href="t-crs-usecase.md" format="dita" scope="local"> di </a> è un nome descrittivo per un archivio dati in Audience Manager, dove vengono memorizzati i dati alias. Il sistema invia alias a questo archivio dati (tramite setcustomerID). Il file di gestione delle relazioni con i clienti viene applicato ai dati in tale archivio di dati. </p> <p>Per <span class="codeph"> informazioni setcustomerID </span>, vedi <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html" format="https" scope="external"> ID cliente e stati di autenticazione </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Intestazioni e colonne successive </p> </td> 
@@ -148,7 +142,7 @@ Visitor.setcustomerIDs({
 });
 ```
 
-(Vedi [ID cliente e stati di autenticazione](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=it) per ulteriori informazioni.)
+(Vedi [ID cliente e stati di autenticazione](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) per ulteriori informazioni.)
 
 In **[!DNL Experience Cloud]** > **[!DNL Customer Attributes]**:
 
