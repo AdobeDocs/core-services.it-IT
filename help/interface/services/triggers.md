@@ -24,7 +24,7 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 646
 ht-degree: 74%
@@ -72,7 +72,7 @@ Crea un trigger e configurane le condizioni. Ad esempio, puoi specificare i crit
 1. Configura il trigger completando i campi seguenti e trascinando metriche ed elementi dimensione nei contenitori della regola:
 
    | Elemento | Descrizione |
-   |--- |--- |
+   | --- | --- |
    | [!UICONTROL Name] | Nome intuitivo per il trigger. |
    | [!UICONTROL Description] | La descrizione di questo attivatore, come utilizzarlo e così via. |
    | [!UICONTROL Report Suite] | La [suite di rapporti](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=it) di Analytics utilizzata per questo trigger. Questa impostazione identifica i dati di reporting da utilizzare. |

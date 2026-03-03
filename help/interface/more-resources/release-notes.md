@@ -27,7 +27,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 1337
 ht-degree: 80%
@@ -117,7 +117,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 ## Aprile 2022
 
 | Funzione | Descrizione |
-| ------- |-------|
+| ------- | -------|
 | Ricerca nella lingua naturale | Puoi trovare risposte immediate a tutte le tue domande di aiuto da un’unica interfaccia tramite Ricerca unificata. Questa funzione è sempre disponibile su ogni pagina di [!DNL Experience Platform] e [!DNL Journey Optimizer]. |
 
 {style="table-layout:auto"}
@@ -125,7 +125,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 ## Marzo 2022
 
 | Funzione | Descrizione |
-| ------- |-------|
+| ------- | -------|
 | Accedi a [!UICONTROL Recents] in Experience Platform e Journey Optimizer tramite la barra di ricerca | Gli utenti possono ora accedere agli oggetti a cui è stato effettuato l’accesso di recente da ogni pagina di AEP e AJO tramite la barra di ricerca unificata. |
 
 {style="table-layout:auto"}
@@ -133,7 +133,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 ## Febbraio 2022
 
 | Funzione | Descrizione |
-| ------- |-------|
+| ------- | -------|
 | Scelte rapide (**[!UICONTROL Recents]**) aggiunte alla [pagina principale di Experience Cloud](https://experience.adobe.com/home) | Puoi accedere alle scelte rapide per il lavoro più recente su Journey Optimizer ed Experience Platform nella nuova intestazione _Recenti_ nella pagina di destinazione. Questo aggiornamento include anche miglioramenti generali del layout e della reattività. |
 | **[!UICONTROL Sandboxes]** spostato nella barra dell&#39;intestazione | L’indicatore Sandbox è ora integrato nell’intestazione di tutte le applicazioni dell’interfaccia di Experience Platform. Per ulteriori informazioni, consulta [Sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=it) in Experience Platform. |
 
@@ -264,7 +264,7 @@ La funzione Ricerca unificata è stata aggiornata per renderla disponibile anche
 ## May 2018
 
 | Feature | Description |
-|--- |--- |
+| --- | --- |
 |New administration landing page|When you sign in to Experience Cloud and navigate to the Administration page, a new intuitive interface is available to help you quickly access your Experience Cloud applications and Core Services.|
 
 {style="table-layout:auto"}
@@ -281,7 +281,7 @@ La funzione Ricerca unificata è stata aggiornata per renderla disponibile anche
 ## August 2017
 
 | Feature | Description |
-|--- |--- |
+| --- | --- |
 |Notifications - Granular settings|You can enable notifications for product and application events and activities, including notifications about [Customer Attributes](../services/customer-attributes/attributes.md) upload activity.|
 |Notifications - Maintenance notifications|In Notification settings, you can enable maintenance notifications for products and applications.|
 |Admin Console for Experience Cloud Solutions|New Experience Cloud customers can begin using the Admin Console, a central location for managing your Adobe entitlements across your entire organization.<br>The migration to the Admin Console for user management will proceed in waves. Adobe contacts you (system administrators) when it is time to migrate.<br>Analytics administrators, see  [Analytics Migration](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=it).|
@@ -291,7 +291,7 @@ La funzione Ricerca unificata è stata aggiornata per renderla disponibile anche
 ## May 2017
 
 | Feature | Description |
-|--- |--- |
+| --- | --- |
 |Bulk Report Suite Mapping|In Administration > Report Suite Mapping, you can now select multiple report suites, then map them to an organization. (Previously, you had to map them individually.)  <br>Mapping report suites to a single organization helps enable cross-application features and services in Experience Cloud.|
 |Updates to Experience Cloud Audiences|**Applying Report Suites**<br>You can now apply a report suite to all your [audience rules](../services/audiences/create.md). (Previously, you had to specify a report suite in each rule definition.) <br>**Props and Variables**<br>You can now include Analytics props and default variables (in addition to eVars and events) in real-time audiences.|
 
@@ -300,7 +300,7 @@ La funzione Ricerca unificata è stata aggiornata per renderla disponibile anche
 ## November 2016
 
 | Feature | Description |
-|--- |--- |
+| --- | --- |
 |Update to Profile & Passwords|Users can no longer edit IMS user profile information under  Personal Details In  Edit Profile >  Profile & Passwords. Instead users are redirected to `accounts.adobe.com`. This update applies to all identity types (Adobe ID, Enterprise, and Federated).|
 
 {style="table-layout:auto"}

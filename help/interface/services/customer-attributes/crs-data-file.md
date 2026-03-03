@@ -19,7 +19,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 1149
 ht-degree: 62%
@@ -37,7 +37,7 @@ Devi poter accedere ai dati del sistema CRM, o simili, della tua azienda. I dati
 ## Tipi di file consentiti e requisiti per la denominazione
 
 | Tipo di file | Descrizione |
-|--- |--- |
+| --- | --- |
 | `.csv` | Un file di valori separati da virgole (ad esempio un file creato in Excel). Questo file contiene i dati degli attributi del cliente.   Requisiti di denominazione: verifica che le estensioni dei nomi dei file non contengano spazi. |
 | `.fin` | (Obbligatorio) Il file `.fin` informa il sistema che il caricamento dei dati è terminato. Il nome del file `.fin` deve corrispondere al nome del file `.csv`.  Adobe consiglia di creare un file di testo vuoto con estensione `.fin`. Un file vuoto consente di risparmiare spazio e tempo di caricamento. **Nota:** la ridenominazione di un file `.fin` non è consentita dopo il caricamento. Il file `.fin` deve essere caricato separatamente e non può essere un file caricato precedentemente e rinominato. Dopo aver caricato il file `.fin` nell&#39;FTP degli attributi del cliente, il sistema recupera i dati rapidamente (entro un minuto). Questo si differenzia da altri sistemi Adobe basati su FTP, che raccolgono i dati meno frequentemente (circa una volta all&#39;ora). Il file `.fin` non è necessario quando si utilizza il metodo di caricamento di trascinamento della selezione. |
 | `.gz` o `.zip` | `.gz` (gzip) o `.zip` - per file compressi. Un file `.zip` non può contenere più di un file nell&#39;archivio. Requisiti di denominazione: il nome di `.zip` o `.gz` deve corrispondere al nome del file `.csv`. Ad esempio, se il file `.csv` è `crm_small.csv`, il file `.zip` deve essere `crm_small.csv.zip`. Il file `.fin` deve corrispondere a `.csv`. |

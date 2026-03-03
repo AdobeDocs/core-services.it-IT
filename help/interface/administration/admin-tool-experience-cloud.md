@@ -15,7 +15,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 1182
 ht-degree: 75%
@@ -43,7 +43,7 @@ In questa pagina viene visualizzato l’elenco completo degli utenti con accesso
 ![Pagina Utenti di Admin Console](../assets/admin-tool-users.png)
 
 | Elemento | Descrizione |
-|---|---|
+| --- | ---|
 | [!UICONTROL Name] | Il nome e il cognome dell’utente. Puoi ordinare questa colonna da A a Z e da Z ad A. Fai clic sul nome di un utente per visualizzare ulteriori dettagli sull’utente. |
 | [!UICONTROL Email] | L’indirizzo e-mail associato all’utente. Puoi ordinare questa colonna da A a Z e da Z ad A. |
 | [!UICONTROL ID Type] | Il tipo di identità per l’account dell’utente. È possibile applicare un filtro per visualizzare tipi di ID specifici. Per ulteriori informazioni, consulta [Manage identity types (Gestisci tipi di identità)](https://helpx.adobe.com/it/enterprise/using/identity.html). |
@@ -59,7 +59,7 @@ Puoi eseguire ricerche, oltre a ordinare o filtrare le viste personalizzate dell
 * Per applicare più filtri agli utenti dell&#39;elenco con criteri specifici, fare clic su **[!UICONTROL Filter By]**. Quando vengono applicate più categorie di filtro, le ricerche contengono la soluzione `AND` ID TYPE `AND` del dominio e-mail.
 
 | Elemento | Descrizione |
-|---------|----------|
+| ---------| ----------|
 | Filtro [!UICONTROL Email Domain] | Per limitare i risultati a uno o più domini, cerca le stringhe di caratteri nella colonna E-mail. Per aggiungere più filtri, premi Invio dopo ciascun termine di ricerca. |
 | Filtro [!UICONTROL ID Type] | Scegli tra i tipi di ID disponibili. È possibile utilizzare più tipi di ID come filtro. |
 | Filtro [!UICONTROL Solution] | Scegli tra le applicazioni disponibili. I filtri per più applicazioni cercano i risultati contenenti Soluzione 1 `OR` Soluzione 2. |
@@ -93,7 +93,7 @@ In questa sezione viene visualizzato un riepilogo delle applicazioni Experience 
 In questa sezione viene visualizzato un elenco completo di tutti i profili di prodotto in cui è incluso l’utente in questione.
 
 | Elemento | Descrizione |
-|---------|----------|
+| ---------| ----------|
 | [!UICONTROL Product] | Il nome associato al profilo di prodotto. |
 | [!UICONTROL Instance] | Il nome dell’istanza (ad esempio società di accesso o tenant) associata al prodotto e al profilo di prodotto. |
 | [!UICONTROL Product profile] | Nome univoco del profilo di prodotto. |
@@ -107,7 +107,7 @@ In questa pagina viene visualizzato l’elenco completo dei criteri di Experienc
 ![Pagina Criteri in Admin Console](../assets/admin-tool-policies.png)
 
 | Elemento | Descrizione |
-|---|---|
+| ---| ---|
 | [!UICONTROL Product rofile] | Nome del profilo di prodotto. È possibile ordinare la colonna dalla A alla Z oppure dalla Z alla A. Per visualizzare ulteriori dettagli sul criterio, seleziona il nome di un profilo di prodotto. |
 | [!UICONTROL Product] | Il prodotto associato al profilo di prodotto. Puoi ordinare questa colonna da A a Z e da Z ad A. |
 | [!UICONTROL Instance] | L’istanza (ad esempio tenant o società di accesso) associata al profilo di prodotto. Per i prodotti che non hanno istanze o tenant univoci, il valore visualizzato è “-”. Puoi ordinare questa colonna da A a Z e da Z ad A. |
@@ -123,7 +123,7 @@ In questa pagina viene visualizzato l’elenco completo dei criteri di Experienc
 * Fai clic sull&#39;icona **[!UICONTROL Filter By]** per applicare più filtri ai profili di prodotto elencati con criteri specifici. Quando vengono applicate più categorie di filtri, le ricerche contengono i Gruppi `AND` Istanza `AND` Soluzione.
 
 | Elemento | Descrizione |
-|---------|----------|
+| ---------| ----------|
 | Filtro [!UICONTROL Instance] | Per limitare i risultati a una o più istanze, cerca le stringhe di caratteri desiderati nella colonna delle istanze. Per aggiungere più filtri, premi Invio dopo ciascun termine di ricerca. |
 | Filtro [!UICONTROL Solution] | Scegli tra le applicazioni disponibili. I filtri per più applicazioni cercano i risultati contenenti Soluzione 1 `OR` Soluzione 2. |
 
@@ -156,7 +156,7 @@ In questa sezione viene visualizzato un riepilogo del profilo di prodotto che in
 Questa sezione presenta un elenco completo di tutti gli utenti, i gruppi di utenti, gli sviluppatori, le integrazioni e gli amministratori assegnati al profilo di prodotto.
 
 | Scheda | Descrizione |
-|---------|----------|
+| ---------| ----------|
 | [!UICONTROL Users] | Elenco di utenti inclusi nel profilo di prodotto. L&#39;associazione del gruppo di utenti viene visualizzata nella colonna [!UICONTROL Assigned by group]. |
 | [!UICONTROL User Groups] | Elenco di gruppi di utenti associati al profilo di prodotto. |
 | [!UICONTROL Developers] | Elenco di sviluppatori associati al profilo di prodotto. |

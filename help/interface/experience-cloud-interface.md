@@ -6,7 +6,7 @@ feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 25c11da1284bccf033f3bb7adf109be7bdf8d55a
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 78%
@@ -111,7 +111,7 @@ Le preferenze di Experience Cloud includono notifiche, abbonamenti e avvisi.
 In [!UICONTROL Experience Cloud preferences] è possibile configurare le seguenti funzionalità:
 
 | Funzione | Descrizione |
-|--- |--- |
+| --- | --- |
 | Organizzazione predefinita | Seleziona l’organizzazione da visualizzare all’avvio di Experience Cloud. |
 | [!UICONTROL Subscriptions] | Seleziona i prodotti e le categorie a cui desideri abbonarti. Notifiche nel riquadro a comparsa [!UICONTROL Notifications] e nell&#39;e-mail. |
 | [!UICONTROL Priority] | Seleziona le categorie a cui vuoi assegnare la priorità alta. Queste categorie sono contrassegnate con il tag Alta e possono essere configurate per la distribuzione come avvisi. |

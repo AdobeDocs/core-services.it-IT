@@ -6,7 +6,7 @@ topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: d4734c4b43defedb20b7eb65556f56987dce02ae
+source-git-commit: d9d9eb0b3bad1abd517e4c6b0bd5ecaa45a7930d
 workflow-type: tm+mt
 source-wordcount: '970'
 ht-degree: 4%
@@ -55,7 +55,7 @@ L’utilizzo del credito di IA può variare a seconda della complessità e del v
 | Agente di supporto prodotto | Creazione e tracciamento dei casi di supporto | <ul><li>Real-Time CDP (edizioni B2B, B2C e B2P)</li>Adobe Journey Optimizer (edizioni B2C e B2B)<li>Customer Journey Analytics (edizioni B2C e B2B)</li><li>Adobe Experience Manager</li></ul> | 10 | <ul><li>_Crea un nuovo ticket di supporto per il processo di segmentazione non riuscito_</li><li>_Qual è lo stato del ticket E-001772068?_</li></ul> |
 | Agente di Content Advisor | Individuazione dei contenuti | <ul><li>Adobe Experience Manager Assets</li></ul> | 5 | <ul><li>_Mostra frammenti di contenuto per la creazione della campagna di offerte WKND._</li><li>_Trova immagini PNG per la creazione di pacchetti di prodotti._</li><li>_Mostra le immagini con tag office nella cartella WKND._</li><li>_Nella cartella WKND sono presenti svg?_</li><li>_Mostra tutti i moduli per la richiesta di prestito._</li><li>_Sto cercando i moduli di onboarding dei dipendenti._</li></ul> |
 | Agente di Content Advisor | <ul><li>Ottimizzazione dei contenuti</li></ul> | <ul><li>Adobe Experience Manager Assets</li></ul> | 10 | <ul><li>_Crea una copia trasformata di 2.000 px come JPEG con qualità dell&#39;80%._</li><li>_Crea una rappresentazione per una storia Instagram._</li><li>_Sovrapponi l&#39;immagine con il 30% di grafica di sconto rispetto al banner promozionale, posizionandola a 100 px dal centro._</li><li>_Cambia il colore di sfondo del file PNG in #ff8932._</li></ul> |
-| Brand Experience Agent | <ul><li>Aggiornamento del contenuto</li><li>Creazione di Forms</li><li>Risoluzione dei problemi relativi alla pipeline</li></ul> | <ul><li>Servizi cloud Adobe Experience Manager</li><li>Adobe Experience Manager Sites</li><li>Adobe Experience Manager Forms</li></ul> | 50 | <ul><li>_Risoluzione dei problemi relativi alla pipeline non riuscita_</li><li>_Elencare le pipeline non riuscite per il programma principale._</li><li>_Analizza la pipeline non riuscita denominata &quot;Pipeline di sviluppo&quot;_</li><li>_Risoluzione dei problemi di esecuzione della pipeline 1234567_</li></ul> |
+| Agente di governance del brand | <ul><li>Aggiornamento del contenuto</li><li>Creazione di Forms</li><li>Risoluzione dei problemi relativi alla pipeline</li></ul> | <ul><li>Servizi cloud Adobe Experience Manager</li><li>Adobe Experience Manager Sites</li><li>Adobe Experience Manager Forms</li></ul> | 50 | <ul><li>_Risoluzione dei problemi relativi alla pipeline non riuscita_</li><li>_Elencare le pipeline non riuscite per il programma principale._</li><li>_Analizza la pipeline non riuscita denominata &quot;Pipeline di sviluppo&quot;_</li><li>_Risoluzione dei problemi di esecuzione della pipeline 1234567_</li></ul> |
 | Brand Experience Agent | Modernizzazione del sito | Servizi cloud Adobe Experience Manager | 100 | <ul><li>_Esegui migrazione pagina`https://wknd-trendsetters.site`_</li></ul> |
 
 >[!NOTE]

@@ -23,7 +23,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 1218
 ht-degree: 96%
@@ -35,7 +35,7 @@ ht-degree: 96%
 Un riferimento terminologico per i nuovi utenti di Experience Cloud, per comprenderne l&#39;utilizzo in Creative Cloud (laddove applicabile).
 
 | Termine | Creative Cloud | Experience Cloud |
-|--- |----- |---- |
+| --- | ----- | ---- |
 | **Risorsa** | In Creative Cloud, una risorsa è in genere un file di immagine.<br>Le risorse possono essere livelli in un file Photoshop, slide in file PowerPoint, pagine in un file PDF e file in un file ZIP. | In Experience Cloud una risorsa è un documento digitale, immagine, video o file audio, che può avere diverse rappresentazioni e risorse secondarie. Gli esempi includono:<ul><li>File</li><li>Documento</li><li>Immagine</li><li>Video</li><li>Clip audio</li><li>Presentazione</li><li>Modello immagini</li><li>Modello video</li></ul> |
 | **Attributo** | | Cosa hanno in comune le persone che si qualificano per un [segmento](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=it). È simile a una [caratteristica](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-glossary.html?lang=it) in Audience Manager. |
 | **Tipi di pubblico** | In Creative Cloud, un pubblico può essere la persona che visualizza un video. | In Experience Cloud, i tipi di pubblico sono categorie di persone che è possibile targetizzare nelle attività della campagna.<br>L&#39;appartenenza a un pubblico può essere determinata in base a una serie di regole, sul contesto del visitatore o sulla base di un elenco fisso. Ad esempio, un elenco di destinatari e-mail o membri in un gruppo di Facebook.<br>In [Experience Cloud Audiences](../services/audiences/overview.md) la creazione e la gestione dei tipi di pubblico è simile alla creazione e all’utilizzo di segmenti, con l’aggiunta della possibilità di condividerli in Experience Cloud.<br>**Adobe Target**<br> In precedenza i tipi di pubblico venivano chiamati segmenti in Adobe Target.<br>**Adobe Analytics**<br> In Analytics i tipi di pubblico possono essere paragonati ai visitatori di un sito web. Puoi creare segmenti di pubblico e quindi pubblicarli in Experience Cloud. |
