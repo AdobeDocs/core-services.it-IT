@@ -6,9 +6,9 @@ topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: 6b2afaab5949f7246825aa3d19180f6de9c10848
+source-git-commit: ae927640b65458cb1c0df1a817207220f7dfe0ec
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1005'
 ht-degree: 4%
 
 ---
@@ -64,5 +64,6 @@ L’utilizzo del credito di IA può variare a seconda della complessità e del v
 
 ## Ulteriori informazioni su questo argomento
 
+* [GenAI in Experience Cloud](/help/interface/features/generative-ai.md)
 * [IA per l’agente in Experience Cloud](/help/interface/features/agentic-ai.md)
-* [Versione di prova associata all&#39;utilizzo degli agenti Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
+* [Versione di prova associata all&#39;utilizzo degli agenti Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
