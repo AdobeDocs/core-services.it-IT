@@ -6,7 +6,7 @@ topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: fb09e31069b1eb9f035c115d89b4cd8b4a090583
+source-git-commit: 6a7cd999ec96967084c67d059cb2efd6a3235235
 workflow-type: tm+mt
 source-wordcount: '1026'
 ht-degree: 4%
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 # Processi dell’agente Adobe Experience Platform e consumo di crediti AI
 
-Ultimo aggiornamento: **giovedì 4 marzo 2026**
+Ultimo aggiornamento: **venerdì 5 marzo 2026**
 
 Scopri i processi di intelligenza artificiale e il consumo di crediti di intelligenza artificiale nelle applicazioni Experience Cloud. Per informazioni sull&#39;abilitazione delle funzionalità di IA per l&#39;agente nelle applicazioni Experience Cloud esistenti, vedere [IA per l&#39;agente in Experience Cloud](agentic-ai.md#existing-apps).
 
@@ -67,4 +67,4 @@ L’utilizzo del credito di IA può variare a seconda della complessità e del v
 
 * [GenAI in Experience Cloud](/help/interface/features/generative-ai.md)
 * [IA per l’agente in Experience Cloud](/help/interface/features/agentic-ai.md)
-* [Versione di prova associata all&#39;utilizzo degli agenti Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
+* [Versione di prova associata all&#39;utilizzo degli agenti Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
