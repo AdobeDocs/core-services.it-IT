@@ -35,7 +35,7 @@ topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
+source-git-commit: 06923be2a98a9301a3d3e16c47c50cd34f7a05e9
 workflow-type: tm+mt
 source-wordcount: 2476
 ht-degree: 8%
@@ -82,7 +82,8 @@ Di seguito è riportata una raccolta di [!DNL Experience Cloud] applicazioni che
 
 ### IA generativa
 
-<!-- | Product | Key AI features | Firefly Compatibility |
+<!--
+| Product | Key AI features | Firefly Compatibility |
 | ----------------| -----------------| ---------|
 | GenStudio for Performance Marketing | Create personalized, on-brand content | Yes |
 | Adobe Experience Manager (AEM CS) | Generate Variations, Sites Optimizer GenAI, Content Hub, Smart Tags | Yes |
@@ -95,7 +96,8 @@ Di seguito è riportata una raccolta di [!DNL Experience Cloud] applicazioni che
 | Customer Journey Analytics | AI Assistant, Intelligent Captions, Content Analytics | No |
 | Real-Time CDP | AI Assistant for product knowledge and operational insights | No |
 | Marketo | Email Designer, Dynamic Chat, Interactive Webinars | Yes |
-| Workfront | AI Assistant for work management and recommendations | Yes | -->
+| Workfront | AI Assistant for work management and recommendations | Yes |
+-->
 
 | **Nome prodotto** | **Funzioni chiave GenAI** | **Compatibilità Firefly** |
 | ------------------| -------------------------| -------------------|
@@ -405,8 +407,10 @@ Marketo si integra con GenStudio for Performance Marketing
 
 +++
 
-<!-- ## More help on this topic
+<!--
+## More help on this topic
 
-* [AI in Experience Cloud](https://experienceleague.adobe.com/en/docs/ai) documentation home -->
+* [AI in Experience Cloud](https://experienceleague.adobe.com/en/docs/ai) documentation home
+-->
 
 **Dichiarazione di non responsabilità:** Le informazioni in questa pagina sono solo a scopo informativo generale. Anche se ci si adopera per garantire che le informazioni rimangano accurate e attuali, le funzioni software e di intelligenza artificiale generativa possono cambiare frequentemente. Di conseguenza, Adobe non garantisce sempre la completezza, l’accuratezza o l’affidabilità delle informazioni. Verifica eventuali dettagli importanti prima di prendere decisioni basate su questo contenuto.
