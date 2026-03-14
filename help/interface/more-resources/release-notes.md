@@ -27,10 +27,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a6211a5d3da519b12bac352dcce532a02d9cbd5e
+source-git-commit: 8d5d002d43b27e80d770f8bf956fdd92db890804
 workflow-type: tm+mt
-source-wordcount: 1337
-ht-degree: 80%
+source-wordcount: 1386
+ht-degree: 78%
 
 ---
 
@@ -76,7 +76,7 @@ Per le note sulla versione riguardanti tutte le applicazioni, consulta [Note sul
 
 | Funzione | Descrizione |
 | -----------| ---------- |
-| Pagina Home personalizzabile | Nella pagina di destinazione di Experience Cloud, fai clic su **[!UICONTROL Edit]**. La modalità [!UICONTROL Edit] consente di personalizzare la home page di Experience Cloud con l&#39;accesso a una libreria di widget e sfondi personalizzati. La modalità [!UICONTROL Edit] offre controlli semplici e intuitivi per spostare, ridimensionare e gestire i widget, incluse azioni in blocco e regolazioni del layout, offrendo un&#39;esperienza più estetica e personalizzata. |
+| Pagina Home personalizzabile | Nella pagina di destinazione di Experience Cloud, fai clic su **[!UICONTROL Edit]**. [!UICONTROL Edit] La modalità ti consente di personalizzare la pagina Home di Experience Cloud con accesso a una libreria di widget e sfondi personalizzati. [!UICONTROL Edit] La modalità offre controlli semplici e intuitivi per spostare, ridimensionare e gestire i widget, comprese azioni in blocco e regolazioni del layout, offrendo un’esperienza più estetica e personalizzata. |
 
 ## mercoledì 10 settembre 2024
 
@@ -112,7 +112,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | Funzione | Descrizione |
 | ------- | ------- |
-| Home unificata, widget di accesso rapido | **Naviga più velocemente:** ora puoi personalizzare ulteriormente la tua esperienza della home e decidere quali applicazioni avere a portata di mano. Utilizza la nuova funzione di fissaggio per selezionare le applicazioni da mostrare in primo piano e al centro in [!UICONTROL Quick Access]. <br>**Tieniti al passo con il blocco intelligente:** le nuove applicazioni sono ora più facili da trovare. Le nuove applicazioni assegnate presentano un badge _New_ e vengono bloccate automaticamente in [!UICONTROL Quick Access]. |
+| Home unificata, widget di accesso rapido | **Naviga più velocemente:** ora puoi personalizzare ulteriormente la tua esperienza della home e decidere quali applicazioni avere a portata di mano. Utilizza la nuova funzione di blocco per selezionare le applicazioni da mostrare in primo piano e al centro in [!UICONTROL Quick Access]. <br>**Rimani informato con il blocco intelligente:** Le nuove applicazioni ora sono più facili da trovare. Le nuove applicazioni assegnate presentano un badge _New_ e vengono bloccate automaticamente in [!UICONTROL Quick Access]. |
 
 {style="table-layout:auto"}
 
@@ -120,7 +120,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | Funzione | Descrizione |
 | ------- | -------|
-| Ricerca nella lingua naturale | Puoi trovare risposte immediate a tutte le tue domande di aiuto da un’unica interfaccia tramite Ricerca unificata. Questa funzione è sempre disponibile su ogni pagina di [!DNL Experience Platform] e [!DNL Journey Optimizer]. |
+| Ricerca nella lingua naturale | Puoi trovare risposte immediate a tutte le tue domande di aiuto grazie un’unica interfaccia tramite Unified Search. Questa funzione è sempre disponibile su ogni pagina di [!DNL Experience Platform] e [!DNL Journey Optimizer]. |
 
 {style="table-layout:auto"}
 
@@ -176,7 +176,7 @@ La funzione Ricerca unificata è stata aggiornata per renderla disponibile anche
 
 | Funzione | Data | Descrizione |
 | ------- | ------- | ------- |
-| Supporto di single sign-on per Adobe Federated ID | 17 giugno 2021 | Se utilizzi Federated ID, puoi accedere ad Experience Cloud senza dover immettere un indirizzo e-mail o una password. Per utilizzare questa funzione, aggiungi `#/sso:@domain` all’URL di Experience Cloud. <br>Ad esempio, se sei il proprietario del dominio `example.com` e vuoi accedere ad Adobe Analytics, l’URL sarà: `https://experience.adobe.com/#/sso:@example.com/analytics`. |
+| Supporto di single sign-on per Adobe Federated ID | 17 giugno 2021 | Se utilizzi Federated ID, puoi accedere ad Experience Cloud senza dover immettere un indirizzo e-mail o una password. Per utilizzare questa funzione, aggiungere `#/sso:@domain` all&#39;URL di Experience Cloud. <br>Si supponga, ad esempio, di essere il proprietario del dominio `example.com` e di voler accedere ad Adobe Analytics. l’URL sarà: `https://experience.adobe.com/#/sso:@example.com/analytics`. |
 | Ricerca in Experience League | 1 giugno 2021 | La ricerca nella documentazione in Experience League è stata migliorata. Passa a [Experience League](https://experienceleague.adobe.com/docs/?lang=it) e utilizza il campo **[!UICONTROL Search]** per individuare tutorial, documentazione, corsi e altro ancora. |
 
 {style="table-layout:auto"}
@@ -185,7 +185,7 @@ La funzione Ricerca unificata è stata aggiornata per renderla disponibile anche
 
 | Funzione | Descrizione |
 | ------- | ------- |
-| Intestazione e navigazione Experience Cloud | Gli aggiornamenti introdotti in Adobe Experience Cloud includono una modifica al tema chiaro per l’intestazione, con la possibilità di tornare facilmente al tema scuro e un collegamento per controllare altre preferenze dall’avatar dell’utente nell’intestazione di Experience Cloud. Anche se non tutte le applicazioni Experience Cloud supportano i temi, questa funzione ne abilita il supporto futuro. |
+| Intestazione e navigazione Experience Cloud | Gli aggiornamenti introdotti in Adobe Experience Cloud includono una modifica al tema chiaro per l’intestazione, con la possibilità di tornare facilmente al tema scuro e un collegamento per controllare altre preferenze dall’avatar dell’utente nell’intestazione di Experience Cloud. Non tutte le applicazioni di Experience Cloud supportano i temi, ma questa funzione sblocca la possibilità di supportarli in futuro. |
 | Ricerca globale in Experience Cloud | Con questa versione, la funzione di ricerca globale di Experience Cloud consente di cercare tra tutti i contenuti (documentazione, corsi e tutorial) di [Experience League](https://experienceleague.adobe.com/it?lang=it#home). Attualmente, la ricerca globale è disponibile solo per gli utenti di Experience Platform. La ricerca globale di [!UICONTROL Platform] consente di cercare qualsiasi oggetto aziendale in Experience Cloud, ad esempio segmenti, set di dati, schemi e altro ancora. |
 | Preferenze lingua di Experience Cloud | Questo aggiornamento include la possibilità di impostare le lingue preferite nelle [Preferenze](https://experience.adobe.com/preferences) di Experience Cloud. |
 
@@ -220,6 +220,7 @@ La funzione Ricerca unificata è stata aggiornata per renderla disponibile anche
 ## Gennaio 2020
 
 * La pagina Feed è stata rimossa a dicembre 2019. Nel prodotto verrà visualizzato un avviso di funzione rimossa. (MCUI-10039)
+
 
 <!--
 ## August 2019
