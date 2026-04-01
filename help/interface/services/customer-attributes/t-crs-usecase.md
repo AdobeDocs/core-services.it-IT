@@ -22,9 +22,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 757f43593466360a1b0e0d6fca725fba4dc8f5d4
 workflow-type: tm+mt
-source-wordcount: 1061
+source-wordcount: 1117
 ht-degree: 47%
 
 ---
@@ -148,7 +148,7 @@ Dopo aver caricato il file, i dati della tabella vengono visualizzati nell&#39;i
 
 * **[!UICONTROL customer-Provided IDs Aliased to Experience Cloud Visitor IDs:]** mostra quanti ID sono impostati come alias degli ID visitatore di Experience Cloud.
 
-* **[!UICONTROL customer-Provided IDs with High Alias Counts:]** Visualizza il numero di ID forniti dal cliente con 500 o più ID visitatore di Experience Cloud con alias. Questi ID forniti dal cliente non rappresentano individui ma accessi condivisi. Il sistema distribuisce gli attributi associati a questi ID ai 500 ID visitatore di Experience Cloud con alias più recenti, fino a raggiungere la soglia di 10.000. Quindi, il sistema invalida l’ID fornito dal cliente e non distribuisce più gli attributi associati. —>
+* **[!UICONTROL customer-Provided IDs with High Alias Counts:]** Visualizza il numero di ID forniti dal cliente con 500 o più ID visitatore di Experience Cloud con alias. Questi ID forniti dal cliente non rappresentano individui ma accessi condivisi. Il sistema distribuisce gli attributi associati a questi ID ai 500 ID visitatore di Experience Cloud con alias più recenti, fino a raggiungere la soglia di 10.000. Quindi, il sistema invalida l’ID fornito dal cliente e non distribuisce più gli attributi associati. -->
 
 ## Convalida dello schema {#validate-schema}
 
