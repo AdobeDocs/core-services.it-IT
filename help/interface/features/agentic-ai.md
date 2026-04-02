@@ -31,16 +31,16 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 11556bf4f161ad26a24c2eae9da2d24a735c6ec7
+source-git-commit: 71cd0926a2f32bf20816b30dcd6c6aa11b095f5a
 workflow-type: tm+mt
-source-wordcount: 1063
+source-wordcount: 1132
 ht-degree: 9%
 
 ---
 
 # IA agente in Adobe Experience Cloud
 
-Aggiornato: **13 marzo 2026**
+Aggiornato: **2 aprile 2026**
 
 Gli agenti Adobe Experience Platform sono basati su [Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/home) per abilitare le funzionalità di IA per gli agenti nelle applicazioni Experience Cloud.
 
@@ -71,7 +71,7 @@ Gli agenti di IA seguono _l&#39;input, la supervisione_ e rispettano i controlli
 
 Nella tabella seguente sono elencati gli agenti Experience Platform disponibili nelle applicazioni Experience Cloud esistenti.
 
-| Nome agente | Funzionalità | Applicazioni supportate |
+| Nome | Funzionalità | Applicazioni supportate |
 | --- | ---------- | ---------- |
 | [Audience Agent](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/audience) | Dai ai tuoi team la possibilità di creare, gestire e ottimizzare i tipi di pubblico utilizzando le indicazioni del linguaggio naturale per commercializzarli in modo più semplice, efficiente e rapido. | <ul><li>Real-Time CDP (edizioni B2B, B2C e B2P)</li><li>Adobe Journey Optimizer (edizioni B2B e B2C)</li></ul> |
 | [Agente di Content Advisor](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/ai-in-aem/agents/content-advisor/overview) | <ul><li>Consente ai team di trovare rapidamente i contenuti più rilevanti all&#39;interno dell&#39;azienda utilizzando il linguaggio naturale, riducendo il tempo impiegato per le ricerche e velocizzando le decisioni e l&#39;esecuzione.</li><li>Semplifica la creazione di varianti di contenuti visivi dalle risorse sorgente utilizzando prompt in linguaggio naturale.</li></ul> | <ul><li>Adobe Experience Manager Assets</li></ul><ul><li>Dynamic Media (Cloud Services)</li></ul> |
@@ -80,6 +80,7 @@ Nella tabella seguente sono elencati gli agenti Experience Platform disponibili 
 | [Agente per la governance dei marchi](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/ai-in-aem/agents/governance/overview) | Garantire l&#39;integrità del brand e la conformità con le regole del brand automatizzate, controlli, autorizzazioni e informazioni per supportare DRM con la governance in tempo reale. | <ul><li>Adobe Experience Manager Assets</li><li>Adobe Experience Manager Sites (politica del marchio)</li></ul> |
 | [Journey Agent](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent) | Consente ai team di creare, analizzare e ottimizzare rapidamente percorsi di clienti multi-touch su larga scala. | <ul><li>Adobe Journey Optimizer (edizioni B2B e B2C)</li></ul> |
 | [Agente di supporto del prodotto](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/product-support) | Risolvi i problemi di supporto senza uscire dai flussi di lavoro, crea ticket di assistenza clienti e tieni traccia dell’avanzamento del caso tramite l’Assistente AI. | <ul><li>Real-Time CDP (edizioni B2B, B2C e B2P)</li><li>Adobe Journey Optimizer (edizioni B2B e B2C)</li><li>Customer Journey Analytics (edizioni B2B e B2C)</li><li>Adobe Experience Manager</li></ul> |
+| [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/ama-ms) | Collega Experience Platform direttamente al Copilot Microsoft 365. È possibile porre domande in linguaggio naturale nelle applicazioni Microsoft 365, ad esempio Team, Word, Powerpoint ed Excel, per recuperare immediatamente informazioni di marketing da Experience Platform senza interrompere il flusso di lavoro. | <ul><li> Informazioni operative su Experience Platform</li><li>Approfondimenti dati Customer Journey Analytics</li><li> Agente Audience</li><li>Journey Agent</li></ul> |
 
 ## Applicazioni AI-first Experience Cloud {#ai-first-apps}
 
