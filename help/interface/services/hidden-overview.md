@@ -8,10 +8,10 @@ role: Admin
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
+source-git-commit: 3571e84cb237a478d8a9bce3485bef0737d4043c
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 67%
+source-wordcount: '195'
+ht-degree: 69%
 
 ---
 
@@ -21,7 +21,7 @@ esempio
 
 Questa documentazione tratta le funzioni dell’intestazione unificata di Experience Cloud, ad esempio il servizio [!DNL People] ([!DNL Audience Library] e [!DNL Customer Attributes]), la gestione di utenti e prodotti per Experience Cloud, cookie, preferenze dell’account, notifiche e così via.
 
-Per accedere a questi servizi in Experience Cloud, selezionare **[!UICONTROL Application Selector]**
+Per accedere a questi servizi in Experience Cloud, seleziona la **[!UICONTROL Application Selector]**
 ![Selettore servizi](../assets/apps-icon.png).
 
 ![Servizi Experience Cloud](../assets/platform-core-services.png)
