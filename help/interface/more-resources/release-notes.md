@@ -27,9 +27,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8d5d002d43b27e80d770f8bf956fdd92db890804
+source-git-commit: 88b0f47bc8270f3dc60d1acea68130baff9d97b4
 workflow-type: tm+mt
-source-wordcount: 1386
+source-wordcount: 1426
 ht-degree: 78%
 
 ---
@@ -42,17 +42,23 @@ Per un elenco degli aggiornamenti della documentazione, consulta [Aggiornamenti 
 
 Per le note sulla versione riguardanti tutte le applicazioni, consulta [Note sulla versione di Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it).
 
+## Aprile 2026
+
+| Data | Aggiornamento | Descrizione |
+| ------- | ------- | ------- |
+| 20 aprile 2026 | Home page aggiornata | Aspetto aggiornato della home page in `https://experience.adobe.com/home`. Con questa versione, tutte le funzionalità rimangono invariate, con l&#39;interfaccia utente aggiornata, il supporto per la _modalità scura_ completa e una migliore accessibilità. |
+
 ## Gennaio 2026
 
 | Data | Aggiornamento | Descrizione | Prodotti interessati |
 | -----------| -----------| ---------- | ---------- |
-| **14 gennaio 2026** | Menu di navigazione a sinistra personalizzabile | Ora puoi personalizzare il menu di navigazione a sinistra di un’applicazione in Experience Cloud. Riordina gli elementi di navigazione e controllane la visibilità per accedere rapidamente alle funzionalità più importanti. Questo aggiornamento consente di semplificare i flussi di lavoro, riduce il carico cognitivo e supporta la piena accessibilità da tastiera. | <ul><li>Experience Platform</li><li>Journey Optimizer</li><li>Journey Optimizer B2B Edition</li><li>Dynamic Chat</li></ul> |
+| 14 gennaio 2026 | Menu di navigazione a sinistra personalizzabile | Ora puoi personalizzare il menu di navigazione a sinistra di un’applicazione in Experience Cloud. Riordina gli elementi di navigazione e controllane la visibilità per accedere rapidamente alle funzionalità più importanti. Questo aggiornamento consente di semplificare i flussi di lavoro, riduce il carico cognitivo e supporta la piena accessibilità da tastiera. | <ul><li>Experience Platform</li><li>Journey Optimizer</li><li>Journey Optimizer B2B Edition</li><li>Dynamic Chat</li></ul> |
 
 ## Settembre 2025
 
 | Data | Aggiornamento | Descrizione |
 | -----------| -----------| ---------- |
-| **25 settembre 2025** | Supporto per gli elenchi di accesso IP | Per le organizzazioni che dispongono di elenchi di accesso IP in Admin Console disponibili e abilitati, Experience Cloud rispetterà tali restrizioni IP per accedere alle applicazioni sul dominio `https://experience.adobe.com`. Questo aggiornamento influisce su tutte le applicazioni web a cui si accede tramite tale dominio e i controlli si verificano al momento dell’accesso e del caricamento di nuove pagine in tale organizzazione. |
+| venerdì 25 settembre 2025 | Supporto per gli elenchi di accesso IP | Per le organizzazioni che dispongono di elenchi di accesso IP in Admin Console disponibili e abilitati, Experience Cloud rispetterà tali restrizioni IP per accedere alle applicazioni sul dominio `https://experience.adobe.com`. Questo aggiornamento influisce su tutte le applicazioni web a cui si accede tramite tale dominio e i controlli si verificano al momento dell’accesso e del caricamento di nuove pagine in tale organizzazione. |
 
 ## Marzo 2025
 
@@ -76,7 +82,7 @@ Per le note sulla versione riguardanti tutte le applicazioni, consulta [Note sul
 
 | Funzione | Descrizione |
 | -----------| ---------- |
-| Pagina Home personalizzabile | Nella pagina di destinazione di Experience Cloud, fai clic su **[!UICONTROL Edit]**. [!UICONTROL Edit] La modalità ti consente di personalizzare la pagina Home di Experience Cloud con accesso a una libreria di widget e sfondi personalizzati. [!UICONTROL Edit] La modalità offre controlli semplici e intuitivi per spostare, ridimensionare e gestire i widget, comprese azioni in blocco e regolazioni del layout, offrendo un’esperienza più estetica e personalizzata. |
+| Pagina Home personalizzabile | Nella pagina di destinazione di Experience Cloud, fai clic su **[!UICONTROL Edit]**. La modalità [!UICONTROL Edit] consente di personalizzare la home page di Experience Cloud con l&#39;accesso a una libreria di widget e sfondi personalizzati. La modalità [!UICONTROL Edit] offre controlli semplici e intuitivi per spostare, ridimensionare e gestire i widget, incluse azioni in blocco e regolazioni del layout, offrendo un&#39;esperienza più estetica e personalizzata. |
 
 ## mercoledì 10 settembre 2024
 
@@ -112,7 +118,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | Funzione | Descrizione |
 | ------- | ------- |
-| Home unificata, widget di accesso rapido | **Naviga più velocemente:** ora puoi personalizzare ulteriormente la tua esperienza della home e decidere quali applicazioni avere a portata di mano. Utilizza la nuova funzione di blocco per selezionare le applicazioni da mostrare in primo piano e al centro in [!UICONTROL Quick Access]. <br>**Rimani informato con il blocco intelligente:** Le nuove applicazioni ora sono più facili da trovare. Le nuove applicazioni assegnate presentano un badge _New_ e vengono bloccate automaticamente in [!UICONTROL Quick Access]. |
+| Home unificata, widget di accesso rapido | **Naviga più velocemente:** ora puoi personalizzare ulteriormente la tua esperienza della home e decidere quali applicazioni avere a portata di mano. Utilizza la nuova funzione di fissaggio per selezionare le applicazioni da mostrare in primo piano e al centro in [!UICONTROL Quick Access]. <br>**Tieniti al passo con il blocco intelligente:** le nuove applicazioni sono ora più facili da trovare. Le nuove applicazioni assegnate presentano un badge _New_ e vengono bloccate automaticamente in [!UICONTROL Quick Access]. |
 
 {style="table-layout:auto"}
 
@@ -176,7 +182,7 @@ La funzione Ricerca unificata è stata aggiornata per renderla disponibile anche
 
 | Funzione | Data | Descrizione |
 | ------- | ------- | ------- |
-| Supporto di single sign-on per Adobe Federated ID | 17 giugno 2021 | Se utilizzi Federated ID, puoi accedere ad Experience Cloud senza dover immettere un indirizzo e-mail o una password. Per utilizzare questa funzione, aggiungere `#/sso:@domain` all&#39;URL di Experience Cloud. <br>Si supponga, ad esempio, di essere il proprietario del dominio `example.com` e di voler accedere ad Adobe Analytics. l’URL sarà: `https://experience.adobe.com/#/sso:@example.com/analytics`. |
+| Supporto di single sign-on per Adobe Federated ID | 17 giugno 2021 | Se utilizzi Federated ID, puoi accedere ad Experience Cloud senza dover immettere un indirizzo e-mail o una password. Per utilizzare questa funzione, aggiungi `#/sso:@domain` all’URL di Experience Cloud. <br>Ad esempio, se sei il proprietario del dominio `example.com` e vuoi accedere ad Adobe Analytics, l’URL sarà: `https://experience.adobe.com/#/sso:@example.com/analytics`. |
 | Ricerca in Experience League | 1 giugno 2021 | La ricerca nella documentazione in Experience League è stata migliorata. Passa a [Experience League](https://experienceleague.adobe.com/docs/?lang=it) e utilizza il campo **[!UICONTROL Search]** per individuare tutorial, documentazione, corsi e altro ancora. |
 
 {style="table-layout:auto"}
