@@ -1,5 +1,5 @@
 ---
-description: Scopri come impostare certificati protetti da utilizzare con i cookie di prime parti di Adobe Experience Cloud.
+description: Scopri come impostare certificati protetti da utilizzare con i cookie di prime parti di Adobe CX Enterprise.
 solution: Experience Cloud,Analytics
 title: Programma di certificazione gestito da Adobe
 index: true
@@ -32,9 +32,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5354e3c8a48184315ca4eaa8c8de1d12493cc227
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 1106
+source-wordcount: 1234
 ht-degree: 3%
 
 ---
@@ -133,7 +133,7 @@ Trenta giorni prima della scadenza del certificato di prima parte, Adobe verific
 
 +++Il processo è sicuro?
 
-Sì.  Il programma di certificazione gestito da Adobe è più sicuro dell’organizzazione che fornisce un certificato ad Adobe. Nessun certificato o chiave privata passa di mano al di fuori di Adobe e dell’autorità di certificazione emittente.
+Sì. Il programma di certificazione gestito da Adobe è più sicuro dell’organizzazione che fornisce un certificato ad Adobe. Nessun certificato o chiave privata passa di mano al di fuori di Adobe e dell’autorità di certificazione emittente.
 
 +++
 
@@ -145,7 +145,7 @@ Il certificato può essere acquistato solo dopo aver puntato il nome host specif
 
 +++Posso richiedere la revoca del certificato?
 
-Sì.  In qualità di proprietario del dominio, hai il diritto di richiedere la revoca del certificato. Per avviare questo processo, contatta l’Assistenza clienti di Adobe.
+Sì. In qualità di proprietario del dominio, hai il diritto di richiedere la revoca del certificato. Per avviare questo processo, contatta l’Assistenza clienti di Adobe.
 
 +++
 
@@ -157,7 +157,7 @@ Adobe collabora con DigiCert per rilasciare un certificato SHA-2.
 
 +++Il programma comporta costi aggiuntivi?
 
-No. Adobe offre questo servizio a tutti i clienti Adobe Experience Cloud senza costi aggiuntivi.
+No. Adobe offre questo servizio a tutti i clienti Adobe CX Enterprise senza costi aggiuntivi.
 
 +++
 
@@ -191,6 +191,6 @@ Adobe supporta sia i tipi di certificato RSA che ECC per soddisfare le diverse e
 
 +++Posso gestire i miei certificati?
 
-Sì.  Tuttavia, se gestisci i certificati, sei responsabile del rinnovo dei certificati e della loro fornitura ad Adobe ogni volta che li rinnovi. Questo processo è meno sicuro e può causare la perdita di dati se l’organizzazione dimentica di rinnovare un certificato in tempo. Adobe consiglia di utilizzare il programma di certificazione gestito anziché gestire autonomamente i certificati, in particolare a causa della riduzione della durata massima dei certificati TLS. Per ulteriori informazioni, vedere [6.3.1 Public Key Archive](https://cabforum.org/working-groups/server/baseline-requirements/requirements/#632-certificate-operational-periods-and-key-pair-usage-periods) in CA/Browser Forum Server Certificate Baseline Requirements.
+Sì. Tuttavia, se gestisci i certificati, sei responsabile del rinnovo dei certificati e della loro fornitura ad Adobe ogni volta che li rinnovi. Questo processo è meno sicuro e può causare la perdita di dati se l’organizzazione dimentica di rinnovare un certificato in tempo. Adobe consiglia di utilizzare il programma di certificazione gestito anziché gestire autonomamente i certificati, in particolare a causa della riduzione della durata massima dei certificati TLS. Per ulteriori informazioni, vedere [6.3.1 Public Key Archive](https://cabforum.org/working-groups/server/baseline-requirements/requirements/#632-certificate-operational-periods-and-key-pair-usage-periods) in CA/Browser Forum Server Certificate Baseline Requirements.
 +++
 

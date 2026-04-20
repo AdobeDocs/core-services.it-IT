@@ -1,6 +1,6 @@
 ---
 title: IA per l’agente nelle applicazioni Experience Cloud
-description: Scopri dove l’IA per l’agente è disponibile nelle applicazioni Experience Cloud.
+description: Scopri dove l’IA per l’agente è disponibile nelle applicazioni CX Enterprise.
 solution: Experience Cloud
 landing-page-name: ai
 landing-page-breadcrumb-title: AI Documentation
@@ -9,33 +9,33 @@ feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
 exl-id: c1a8f9a7-4752-4040-b5f0-dc775417f536
-source-git-commit: da76627141c73cea8cc777b7aca7456af5938d82
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
 source-wordcount: '1131'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
-# IA agente in Adobe Experience Cloud
+# IA agente in Adobe CX Enterprise
 
 Aggiornato: **6 aprile 2026**
 
-Gli agenti Adobe Experience Platform sono basati su [Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/home) per abilitare le funzionalità di IA per gli agenti nelle applicazioni Experience Cloud.
+Gli agenti Adobe Experience Platform sono basati su [Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/home) per abilitare le funzionalità di IA per l&#39;agente nelle applicazioni CX Enterprise.
 
-Questi agenti consentono di automatizzare le attività, fornire informazioni più rapidamente e semplificare i flussi di lavoro. Di conseguenza, i team possono lavorare in modo più efficiente e ottenere più valore da Experience Cloud.
+Questi agenti consentono di automatizzare le attività, fornire informazioni più rapidamente e semplificare i flussi di lavoro. Di conseguenza, i team possono lavorare in modo più efficiente e ottenere più valore da CX Enterprise.
 
-L’accesso agli agenti di intelligenza artificiale in Experience Cloud è disponibile in:
+L’accesso agli agenti di intelligenza artificiale in CX Enterprise è disponibile in:
 
-* [Applicazioni Experience Cloud esistenti](#existing-apps)
-* [Applicazioni AI-first Experience Cloud](#ai-first-apps)
+* [Applicazioni CX Enterprise esistenti](#existing-apps)
+* [Applicazioni AI-first CX Enterprise](#ai-first-apps)
 
-Le sezioni seguenti descrivono questi due modi per abilitare l’IA per l’agente in Experience Cloud.
+Le sezioni seguenti descrivono questi due modi per abilitare l’intelligenza artificiale agente in CX Enterprise.
 
-## Applicazioni Experience Cloud esistenti {#existing-apps}
+## Applicazioni CX Enterprise esistenti {#existing-apps}
 
 Nelle applicazioni esistenti, è possibile utilizzare il linguaggio naturale per istruire gli agenti Adobe Experience Platform tramite l&#39;interfaccia conversazionale [Assistente AI](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/home). L’Assistente AI è disponibile sia nella visualizzazione a schermo intero che nella barra a destra.
 
-Gli agenti possono essere abilitati nelle app Experience Cloud esistenti per i clienti in una delle seguenti categorie:
+Gli agenti possono essere abilitati nelle app CX Enterprise esistenti per i clienti in una delle seguenti categorie:
 
 * Hai acquistato una licenza di Adobe Experience Platform Agents AI Credits
 * Sei incluso in una versione di prova vincolata all’utilizzo (sono forniti crediti IA limitati)
@@ -43,11 +43,11 @@ Gli agenti possono essere abilitati nelle app Experience Cloud esistenti per i c
 
 L&#39;utilizzo di agenti di IA per l&#39;esecuzione di _processi agente_ comporta l&#39;utilizzo di crediti di IA. Ulteriori informazioni sui processi agente e sui crediti IA in _[Processi agente e consumo credito IA](/help/interface/features/ai-credit-consumption.md)_.
 
-Gli agenti di IA seguono _l&#39;input, la supervisione_ e rispettano i controlli di accesso a livello di prodotto. Puoi eseguire processi o accedere solo ai dati che sei autorizzato a utilizzare nell’applicazione Experience Cloud sottostante.
+Gli agenti di IA seguono _l&#39;input, la supervisione_ e rispettano i controlli di accesso a livello di prodotto. È possibile eseguire processi o accedere solo ai dati che si è autorizzati a utilizzare nell&#39;applicazione CX Enterprise sottostante.
 
-### Agenti di intelligenza artificiale nelle app Experience Cloud esistenti {#existing-apps-table}
+### Agenti di intelligenza artificiale nelle app CX Enterprise esistenti {#existing-apps-table}
 
-Nella tabella seguente sono elencati gli agenti Experience Platform disponibili nelle applicazioni Experience Cloud esistenti.
+Nella tabella seguente sono elencati gli agenti Experience Platform disponibili nelle applicazioni CX Enterprise esistenti.
 
 | Nome agente | Funzionalità | Applicazioni supportate |
 |---|----------|----------|
@@ -60,7 +60,7 @@ Nella tabella seguente sono elencati gli agenti Experience Platform disponibili 
 | [Agente di supporto del prodotto](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/product-support) | Risolvi i problemi di supporto senza uscire dai flussi di lavoro, crea ticket di assistenza clienti e tieni traccia dell’avanzamento del caso tramite l’Assistente AI. | <ul><li>Real-Time CDP (edizioni B2B, B2C e B2P)</li><li>Adobe Journey Optimizer (edizioni B2B e B2C)</li><li>Customer Journey Analytics (edizioni B2B e B2C)</li><li>Adobe Experience Manager</li></ul> |
 | [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/ama-ms) | Collega Experience Platform direttamente al Copilot Microsoft 365. È possibile porre domande in linguaggio naturale nelle applicazioni Microsoft 365, ad esempio Team, Word, Powerpoint ed Excel, per recuperare immediatamente informazioni di marketing da Experience Platform senza interrompere il flusso di lavoro. | <ul><li> Adobe Agent Orchestrator con supporto per Audience Agent, Journey Agent, Customer Journey Analytics Data Insights, Experience Platform Operational Insights</li></ul> |
 
-## Applicazioni AI-first Experience Cloud {#ai-first-apps}
+## Applicazioni AI-first CX Enterprise {#ai-first-apps}
 
 Le applicazioni AI-first sono progettate con Al generativo o agente al centro. Utilizzano generative o agentic Al per le attività chiave e le funzioni agentiche sono già incluse nella licenza dell&#39;applicazione Al-first. Di conseguenza, non richiedono la licenza Experience Platform Agent Orchestrator.
 
@@ -76,7 +76,7 @@ Nella tabella seguente sono elencati gli agenti Experience Platform disponibili 
 ## Ulteriori informazioni su questo argomento
 
 * [Processi agente e consumo credito IA](/help/interface/features/ai-credit-consumption.md)
-* [IA nella pagina principale della documentazione di Experience Cloud](https://experienceleague.adobe.com/en/docs/ai)
+* [IA nella home della documentazione di CX Enterprise](https://experienceleague.adobe.com/en/docs/ai)
 * [Panoramica degli agenti in AEM](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/ai-in-aem/agents/overview)
 
 [!BADGE Ulteriori informazioni su Adobe for Business]{type=Informative url="https://business.adobe.com/it/products/experience-platform/agent-orchestrator.html" tooltip="Vai a Business.adobe.com"}

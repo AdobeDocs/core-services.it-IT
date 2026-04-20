@@ -1,6 +1,6 @@
 ---
 title: Browser e lingue supportati
-description: Scopri come sono supportati i browser e le lingue per le applicazioni Experience Cloud. Seleziona una lingua primaria e secondaria nel profilo dell’account.
+description: Scopri il supporto del browser e della lingua per le applicazioni CX Enterprise. Seleziona una lingua primaria e secondaria nel profilo dell’account.
 solution: Experience Cloud
 feature: Account Preferences
 topic: Administration
@@ -21,16 +21,16 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 239
-ht-degree: 55%
+source-wordcount: 242
+ht-degree: 40%
 
 ---
 
-# Supporto di browser e lingue in Experience Cloud
+# Supporto di browser e lingue in CX Enterprise
 
-Per prestazioni ottimali, Experience Cloud è stato ottimizzato per i browser più diffusi, comprese l’ultima versione e le due versioni precedenti.
+Per prestazioni ottimali, CX Enterprise è ottimizzato per i browser più diffusi, inclusa l’ultima versione e le due versioni precedenti.
 
 * Chrome
 * Edge
@@ -42,11 +42,11 @@ Se il tuo browser non è elencato, potrebbe comunque essere supportato, ma si co
 
 >[!NOTE]
 >
->Non tutte le applicazioni in esecuzione nel dominio Experience Cloud supportano tutti i browser. In caso di dubbi, consulta la documentazione delle specifiche applicazioni.
+>Non tutte le applicazioni in esecuzione sul dominio CX Enterprise supportano tutti i browser. In caso di dubbi, consulta la documentazione delle specifiche applicazioni.
 
-## Supporto delle lingue in Experience Cloud
+## Supporto delle lingue in CX Enterprise
 
-L’interfaccia utente di Experience Cloud è disponibile nelle seguenti lingue:
+L’interfaccia utente di CX Enterprise è disponibile nelle seguenti lingue:
 
 * Inglese (Stati Uniti)
 * Francese (Francia)
@@ -69,13 +69,13 @@ Inoltre, la formattazione specifica della lingua (ad esempio date, ore, calendar
 
 **Per specificare una lingua predefinita**
 
-1. In Experience Cloud, fare clic su **[!UICONTROL Profile]** > [Preferenze](https://experience.adobe.com/preferences).
+1. In CX Enterprise, fare clic su **[!UICONTROL Profile]** > [Preferenze](https://experience.adobe.com/preferences).
 
 1. In **[!UICONTROL Profile]** fare clic sul collegamento della lingua.
 
 1. In **[!UICONTROL Select language]**, selezionare una lingua dal menu **[!UICONTROL First language]**.
 
-   Anche se tutti i team delle applicazioni sono impegnati nel supporto globale delle lingue, non tutte le applicazioni sono disponibili in tutte le lingue elencate nell’interfaccia. Se la lingua principale non è supportata in un’applicazione Experience Cloud, puoi impostare una lingua predefinita secondaria, se applicabile.
+   Anche se tutti i team delle applicazioni sono impegnati nel supporto globale delle lingue, non tutte le applicazioni sono disponibili in tutte le lingue elencate nell’interfaccia. Se la lingua principale non è supportata in un&#39;applicazione CX Enterprise, è possibile impostare una lingua predefinita secondaria, se applicabile.
 
 1. Fai clic su **[!UICONTROL Save]**.
 

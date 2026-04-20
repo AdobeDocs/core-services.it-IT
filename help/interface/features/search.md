@@ -1,5 +1,5 @@
 ---
-description: Scopri la funzione di ricerca unificata per alcune applicazioni in Experience Cloud.
+description: Scopri la funzione di ricerca unificata per alcune applicazioni in CX Enterprise.
 solution: Experience Cloud
 title: Ricerca unificata Experience Cloud
 index: true
@@ -22,14 +22,14 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5354e3c8a48184315ca4eaa8c8de1d12493cc227
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 633
+source-wordcount: 639
 ht-degree: 18%
 
 ---
 
-# [!UICONTROL Unified Search] in Experience Cloud
+# [!UICONTROL Unified Search] in CX Enterprise
 
 La ricerca di [!UICONTROL Unified Search] consente di trovare oggetti o entità business ricercabili in modalità semplice, coerente e immediata. Questa ricerca fa emergere anche gli oggetti utilizzati di recente.
 
@@ -37,7 +37,7 @@ La ricerca di [!UICONTROL Unified Search] consente di trovare oggetti o entità 
 
 ## Accesso al [!UICONTROL Unified Search]
 
-[!UICONTROL Unified Search] è disponibile in ogni pagina dell&#39;intestazione Experience Cloud nella parte superiore della pagina. È inoltre possibile utilizzare la scelta rapida da tastiera `command /` o `ctrl /` per accedere alla ricerca.
+[!UICONTROL Unified Search] è disponibile in ogni pagina dell&#39;intestazione CX Enterprise nella parte superiore della pagina. È inoltre possibile utilizzare la scelta rapida da tastiera `command /` o `ctrl /` per accedere alla ricerca.
 
 Questa funzione è disponibile solo per i prodotti supportati che al momento sono:
 
@@ -56,7 +56,7 @@ Autorizzazioni relative a funzionalità e oggetti
 Percentuale corrispondente
 Se esiste una corrispondenza esatta
 
-![[!UICONTROL Unified Search] in Experience Cloud](../assets/unified-search-results.png)
+![[!UICONTROL Unified Search] in CX Enterprise](../assets/unified-search-results.png)
 
 Gli oggetti business ricercabili includono:
 
@@ -77,7 +77,7 @@ Sono inoltre disponibili gli articoli della guida di Experience League e le comm
 
 Ad esempio, _Come creare uno schema_ produce i risultati di Experience League in _[!UICONTROL Learning]_:
 
-![[!UICONTROL Unified Search] nella Guida di Experience Cloud](../assets/unified-search-learning.png)
+![[!UICONTROL Unified Search] nella Guida di CX Enterprise](../assets/unified-search-learning.png)
 
 Gli algoritmi di ricerca visualizzano per primi i record più rilevanti. L’ordine dei risultati dipende da diversi fattori, quali:
 

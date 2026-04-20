@@ -1,5 +1,5 @@
 ---
-description: Scopri i requisiti dei file di dati e le diverse origini dati per caricare i dati in [!DNL Customer Attributes] su Experience Cloud.
+description: Scopri i requisiti dei file di dati e le diverse origini dati per caricare i dati in [!DNL Customer Attributes] su CX Enterprise.
 solution: Experience Cloud
 title: File di dati di attributi cliente e origini dati
 feature: Customer Attributes
@@ -19,18 +19,18 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 1149
-ht-degree: 62%
+source-wordcount: 1182
+ht-degree: 57%
 
 ---
 
 # Origini e file di dati Attributi del cliente
 
-Requisiti dei file di dati e diverse origini dati per caricare i dati degli attributi del cliente in Experience Cloud.
+Requisiti dei file di dati e diverse origini dati per caricare i dati degli attributi del cliente in CX Enterprise.
 
-Devi poter accedere ai dati del sistema CRM, o simili, della tua azienda. I dati caricati in Experience Cloud devono essere un file `.csv`. Se effettui il caricamento mediante FTP o sFTP, puoi caricare anche un file `.fin`.
+Devi poter accedere ai dati del sistema CRM, o simili, della tua azienda. I dati caricati in CX Enterprise devono essere un file `.csv`. Se effettui il caricamento mediante FTP o sFTP, puoi caricare anche un file `.fin`.
 
 [!DNL Customer Attributes] è progettato per gestire alcuni file al giorno. Per evitare che numerosi file di piccole dimensioni possano ritardare l’elaborazione, i file inviati entro 30 minuti da un batch precedente della stessa organizzazione vengono indirizzati a una coda di priorità inferiore.
 
@@ -70,7 +70,7 @@ Lo stesso file visualizzato in un editor di testo:
   </tr> 
   <tr> 
    <td colname="col1"> <p>colonna ID cliente </p> </td> 
-   <td colname="col2"> <p> La prima colonna deve essere un ID cliente univoco. L'ID usato deve corrispondere all'ID che viene passato al servizio Experience Cloud ID. </p> <p>Per Analytics, l'ID archiviato in una prop o eVar. </p> <p>Per Target, il valore setcustomerID. </p> <p> Questo ID cliente è l’identificatore univoco che il sistema CRM utilizza per ogni persona nel database. Le colonne rimanenti sono attributi provenienti dai dati del sistema CRM. Puoi scegliere quanti attributi caricare. </p> <p>Per le intestazioni delle colonne sono consigliati nomi descrittivi e leggibili, ma non sono obbligatori. Quando convalidi lo schema dopo il caricamento, puoi mappare i nomi descrittivi alle righe e alle colonne caricate. </p> <p> <b>Informazioni sugli ID cliente</b> </p> <p>In genere, un'azienda utilizza un ID cliente proveniente da un sistema di gestione delle relazioni con i clienti (CRM). Questo ID viene impostato utilizzando la chiamata <span class="codeph"> setcustomerIDs </span> quando una persona effettua l'accesso. Questo ID viene utilizzato anche come chiave nel file CRM che viene caricato in Experience Cloud. Un ID alias <a href="t-crs-usecase.md" format="dita" scope="local"> di </a> è un nome descrittivo per un archivio dati in Audience Manager, dove vengono memorizzati i dati alias. Il sistema invia alias a questo archivio dati (tramite setcustomerID). Il file di gestione delle relazioni con i clienti viene applicato ai dati in tale archivio di dati. </p> <p>Per <span class="codeph"> informazioni setcustomerID </span>, vedi <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=it" format="https" scope="external"> ID cliente e stati di autenticazione </a>. </p> </td> 
+   <td colname="col2"> <p> La prima colonna deve essere un ID cliente univoco. L'ID utilizzato deve corrispondere all'ID che viene passato al servizio CX Enterprise ID. </p> <p>Per Analytics, l'ID archiviato in una prop o eVar. </p> <p>Per Target, il valore setcustomerID. </p> <p> Questo ID cliente è l’identificatore univoco che il sistema CRM utilizza per ogni persona nel database. Le colonne rimanenti sono attributi provenienti dai dati del sistema CRM. Puoi scegliere quanti attributi caricare. </p> <p>Per le intestazioni delle colonne sono consigliati nomi descrittivi e leggibili, ma non sono obbligatori. Quando convalidi lo schema dopo il caricamento, puoi mappare i nomi descrittivi alle righe e alle colonne caricate. </p> <p> <b>Informazioni sugli ID cliente</b> </p> <p>In genere, un'azienda utilizza un ID cliente proveniente da un sistema di gestione delle relazioni con i clienti (CRM). Questo ID viene impostato utilizzando la chiamata <span class="codeph"> setcustomerIDs </span> quando una persona effettua l'accesso. Questo ID viene utilizzato anche come chiave nel file CRM che viene caricato in CX Enterprise. Un ID alias </a> di <a href="t-crs-usecase.md" format="dita" scope="local"> è un nome descrittivo per un archivio dati in Audience Manager, dove vengono memorizzati i dati alias. Il sistema invia alias a questo archivio dati (tramite setcustomerID). Il file di gestione delle relazioni con i clienti viene applicato ai dati in tale archivio di dati. </p> <p>Per <span class="codeph"> informazioni setcustomerID </span>, vedi <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=it" format="https" scope="external"> ID cliente e stati di autenticazione </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Intestazioni e colonne successive </p> </td> 
@@ -78,7 +78,7 @@ Lo stesso file visualizzato in un editor di testo:
   </tr> 
   <tr> 
    <td colname="col1"> <p>limiti degli attributi </p> </td> 
-   <td colname="col2"> <p>In Experience Cloud è possibile caricare centinaia di <span class="filepath"> colonne .csv </span> nel servizio attributo cliente. Tuttavia, quando configuri le sottoscrizioni e selezioni gli attributi, si applicano i seguenti limiti a seconda delle applicazioni che possiedi: </p> <p> 
+   <td colname="col2"> <p>In CX Enterprise è possibile caricare centinaia di <span class="filepath"> colonne .csv </span> nel servizio attributo cliente. Tuttavia, quando configuri le sottoscrizioni e selezioni gli attributi, si applicano i seguenti limiti a seconda delle applicazioni che possiedi: </p> <p> 
      <ul id="ul_2BB85067918D4BB3B59394F3E3E37A6D"> 
       <li id="li_93703988B9934384B4B94A839D028380"> <b>Analytics Standard</b>: 3 totali </li> 
       <li id="li_D1E5E7BD24C54591B14D15DE97447835"> <b>Analytics Premium</b>: 200 per suite di rapporti </li> 
@@ -122,7 +122,7 @@ Lo stesso file visualizzato in un editor di testo:
   </tr> 
    <tr> 
    <td colname="col1"> <p>Dati storici </p> </td> 
-   <td colname="col2"> <p> Attributi del cliente associati al profilo del visitatore sottostante in [!DNL Analytics]. Di conseguenza, [!DNL Customer Attributes] sono associati al visitatore per l'intera durata del profilo del visitatore in [!DNL Analytics]. Questo profilo include il comportamento precedente al primo accesso del cliente. </p> <p> Se utilizzi il metodo di recupero dati Data Warehouse, i dati vengono associati a un valore post_visid_high/low basato sull’ID di Analytics (AID). Se utilizzi il servizio Experience Cloud ID, i dati sono legati a un post_visid_high/low basato sull'Experience Cloud ID (MID). </p> <p> Il metodo di backfill Data Warehouse non sarà più disponibile a partire da ottobre 2022. </td> 
+   <td colname="col2"> <p> Attributi del cliente associati al profilo del visitatore sottostante in [!DNL Analytics]. Di conseguenza, [!DNL Customer Attributes] sono associati al visitatore per l'intera durata del profilo del visitatore in [!DNL Analytics]. Questo profilo include il comportamento precedente al primo accesso del cliente. </p> <p> Se utilizzi il metodo di recupero dati Data Warehouse, i dati vengono associati a un valore post_visid_high/low basato sull’ID di Analytics (AID). Se utilizzi il servizio CX Enterprise ID, i dati sono legati a un post_visid_high/low basato sull’ID CX Enterprise (MID). </p> <p> Il metodo di backfill Data Warehouse non sarà più disponibile a partire da ottobre 2022. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Feed di dati </p> </td> 
@@ -137,7 +137,7 @@ Quando crei, modifichi o elimini sorgenti di attributi del cliente, si verifica 
 
 L&#39;ID alias per ogni origine di attributi del cliente deve essere univoco. Se hai più sorgenti di dati che utilizzano lo stesso ID, puoi impostarle come segue:
 
-**In VisitorAPI.js o nello strumento Experience Cloud ID in Dynamic Tag Management:**
+**In VisitorAPI.js o nello strumento CX Enterprise ID in Dynamic Tag Management:**
 
 Imposta due ID cliente corrispondenti alle origini dati appropriate:
 
@@ -150,6 +150,6 @@ Visitor.setcustomerIDs({
 
 (Vedi [ID cliente e stati di autenticazione](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=it) per ulteriori informazioni.)
 
-In **[!DNL Experience Cloud]** > **[!DNL Customer Attributes]**:
+In **[!DNL CX Enterprise]** > **[!DNL Customer Attributes]**:
 
 Crea due origini di attributi del cliente utilizzando ID alias univoci corrispondenti agli ID cliente qui sopra. Questo metodo consente di inviare lo stesso ID di riferimento a più origini di attributi del cliente.

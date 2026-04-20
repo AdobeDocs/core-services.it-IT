@@ -1,6 +1,6 @@
 ---
 title: Raccolta di dati regionali
-description: Scopri la raccolta dati regionali in Experience Cloud.
+description: Scopri la raccolta dati regionali in CX Enterprise.
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
 TQID: https://experienceleague.adobe.com/hjHQDRoNOP2e6pKhKHB9DZaII2o8eJVzL5wjRzaMFwM
 product_v2:
@@ -13,16 +13,16 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 294
+source-wordcount: 299
 ht-degree: 0%
 
 ---
 
 # Raccolta di dati regionali
 
-Adobe Experience Cloud utilizza la raccolta dati regionali (Regional Data Collection, RDC) in modo che le interazioni tra i visitatori e Adobe avvengano il più vicino possibile ai visitatori. I dati raccolti localmente in un sito Edge vengono inoltrati in modo sicuro a un sito core per l’elaborazione. Una volta elaborati, i dati sono disponibili per i prodotti e i servizi Adobe Experience Cloud.
+Adobe CX Enterprise utilizza la raccolta dati regionali (Regional Data Collection, RDC) in modo che le interazioni tra i visitatori e Adobe avvengano il più vicino possibile ai visitatori. I dati raccolti localmente in un sito Edge vengono inoltrati in modo sicuro a un sito core per l’elaborazione. Una volta elaborati, i dati sono disponibili per i prodotti e i servizi Adobe CX Enterprise.
 
 Il flusso di lavoro di raccolta dati regionali offre diversi vantaggi:
 
@@ -44,7 +44,7 @@ Attualmente RDC include le seguenti posizioni (soggette a modifica):
 
 {style="table-layout:auto"}
 
-_*China RDC richiede il pacchetto aggiuntivo China Performance Optimization e si applica solo ad Adobe Analytics che utilizza la raccolta dati di AppMeasurement. Altri servizi Experience Cloud e la raccolta dati di SDK Web non sono supportati. Contatta il team del tuo account Adobe per ulteriori informazioni sul pacchetto del componente aggiuntivo di ottimizzazione delle prestazioni per la Cina._
+_*China RDC richiede il pacchetto aggiuntivo China Performance Optimization e si applica solo ad Adobe Analytics che utilizza la raccolta dati di AppMeasurement. Altri servizi CX Enterprise e la raccolta dati di SDK Web non sono supportati. Contatta il team del tuo account Adobe per ulteriori informazioni sul pacchetto del componente aggiuntivo di ottimizzazione delle prestazioni per la Cina._
 
 ## Raccolta di dati di terze parti
 

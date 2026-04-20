@@ -1,6 +1,6 @@
 ---
 title: Visualizza utenti e dettagli utente
-description: Scopri lo strumento di amministrazione Admin Tool in Experience Cloud. Visualizza un elenco ordinabile e filtrabile di tutti gli utenti e i criteri di Experience Cloud.
+description: Scopri Admin Tool in CX Enterprise. Visualizza un elenco ordinabile e filtrabile di tutti gli utenti e i criteri di CX Enterprise.
 application: Experience Cloud
 index: true
 feature: Admin Console
@@ -15,16 +15,16 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5354e3c8a48184315ca4eaa8c8de1d12493cc227
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 1182
-ht-degree: 75%
+source-wordcount: 1198
+ht-degree: 69%
 
 ---
 
-# Experience Cloud [!UICONTROL Admin Tool]
+# CX Enterprise [!UICONTROL Admin Tool]
 
-Gli amministratori possono visualizzare un elenco ordinabile e filtrabile di tutti gli utenti e i criteri di Experience Cloud con i dettagli in [!UICONTROL Admin Tool]. I dettagli utente includono l’accesso ai prodotti, i ruoli e le informazioni sull’ultimo accesso. I dettagli dei criteri includono l’elenco di utenti, gruppi, sviluppatori, integrazioni e amministratori di un criterio (profilo di prodotto), nonché informazioni dettagliate sulle autorizzazioni e sulle risorse per il criterio.
+Gli amministratori possono visualizzare un elenco ordinabile e filtrabile di tutti gli utenti e i criteri di CX Enterprise con i dettagli in [!UICONTROL Admin Tool]. I dettagli utente includono l’accesso ai prodotti, i ruoli e le informazioni sull’ultimo accesso. I dettagli dei criteri includono l’elenco di utenti, gruppi, sviluppatori, integrazioni e amministratori di un criterio (profilo di prodotto), nonché informazioni dettagliate sulle autorizzazioni e sulle risorse per il criterio.
 
 1. Accedere a `https://experience.adobe.com/.`
 
@@ -38,7 +38,7 @@ Gli amministratori possono visualizzare un elenco ordinabile e filtrabile di tut
 
 ## Pagina Users (Utenti)
 
-In questa pagina viene visualizzato l’elenco completo degli utenti con accesso a Experience Cloud all’interno della tua organizzazione. Fornisce informazioni sulla licenza dell’applicazione e sull’ultimo accesso. Puoi inoltre eseguire ricerche, oltre a ordinare e filtrare le viste personalizzate dell’elenco di utenti.
+In questa pagina viene visualizzato l’elenco completo degli utenti con accesso a CX Enterprise dell’organizzazione. Fornisce informazioni sulla licenza dell’applicazione e sull’ultimo accesso. Puoi inoltre eseguire ricerche, oltre a ordinare e filtrare le viste personalizzate dell’elenco di utenti.
 
 ![Pagina Utenti di Admin Console](../assets/admin-tool-users.png)
 
@@ -47,8 +47,8 @@ In questa pagina viene visualizzato l’elenco completo degli utenti con accesso
 | [!UICONTROL Name] | Il nome e il cognome dell’utente. Puoi ordinare questa colonna da A a Z e da Z ad A. Fai clic sul nome di un utente per visualizzare ulteriori dettagli sull’utente. |
 | [!UICONTROL Email] | L’indirizzo e-mail associato all’utente. Puoi ordinare questa colonna da A a Z e da Z ad A. |
 | [!UICONTROL ID Type] | Il tipo di identità per l’account dell’utente. È possibile applicare un filtro per visualizzare tipi di ID specifici. Per ulteriori informazioni, consulta [Manage identity types (Gestisci tipi di identità)](https://helpx.adobe.com/it/enterprise/using/identity.html). |
-| [!UICONTROL Solutions] | Riepilogo delle applicazioni Experience Cloud a cui l’utente può accedere. Per limitare l’elenco di utenti con accesso specifico all’applicazione puoi applicare i filtri. |
-| [!UICONTROL Last Login] | Ora e data dell’accesso utente più recente ad Experience Cloud. Questa colonna può essere ordinata in base a date ascendenti o discendenti. <br> **Importante:** a partire dal 13 gennaio 2020, gli ultimi dati di accesso dell&#39;utente verranno conservati per 365 giorni. Queste informazioni hanno lo scopo di mostrare l’attuale attività di accesso in Experience Cloud e non un consiglio a intervenire sugli account inattivi prima del 13 gennaio 2020. |
+| [!UICONTROL Solutions] | Riepilogo delle applicazioni CX Enterprise a cui l’utente può accedere. Per limitare l’elenco di utenti con accesso specifico all’applicazione puoi applicare i filtri. |
+| [!UICONTROL Last Login] | Ora e data dell’accesso più recente dell’utente a CX Enterprise. Questa colonna può essere ordinata in base a date ascendenti o discendenti. <br> **Importante:** a partire dal 13 gennaio 2020, gli ultimi dati di accesso dell&#39;utente verranno conservati per 365 giorni. Queste informazioni hanno lo scopo di mostrare l’attuale attività di accesso in CX Enterprise e non un consiglio a intervenire sugli account inattivi prima del 13 gennaio 2020. |
 
 ## Personalizzare la vista elenco degli utenti
 
@@ -86,7 +86,7 @@ In questa sezione viene visualizzato un riepilogo dell’account utente, il qual
 
 ## Riepilogo delle soluzioni
 
-In questa sezione viene visualizzato un riepilogo delle applicazioni Experience Cloud a cui l’utente può accedere, comprensivo eventalmente del ruolo di amministrazione del prodotto.
+In questa sezione viene visualizzato un riepilogo delle applicazioni CX Enterprise a cui l&#39;utente può accedere. comprensivo eventalmente del ruolo di amministrazione del prodotto.
 
 ## Elenco dettagliato di accesso al prodotto
 
@@ -102,7 +102,7 @@ In questa sezione viene visualizzato un elenco completo di tutti i profili di pr
 
 ## Pagina Criteri
 
-In questa pagina viene visualizzato l’elenco completo dei criteri di Experience Cloud per l’organizzazione. Fornisce informazioni su prodotti, istanze, utenti e sviluppatori. È inoltre possibile eseguire ricerche nonché ordinare e filtrare viste personalizzate dell’elenco dei criteri.
+In questa pagina viene visualizzato l’elenco completo dei criteri di CX Enterprise dell’organizzazione. Fornisce informazioni su prodotti, istanze, utenti e sviluppatori. È inoltre possibile eseguire ricerche nonché ordinare e filtrare viste personalizzate dell’elenco dei criteri.
 
 ![Pagina Criteri in Admin Console](../assets/admin-tool-policies.png)
 

@@ -1,5 +1,5 @@
 ---
-description: Scopri come il servizio ID viene memorizzato e utilizzato nelle applicazioni di Experience Cloud.
+description: Scopri come il servizio ID viene memorizzato e utilizzato nelle applicazioni CX Enterprise.
 solution: Experience Cloud,Analytics,Target
 title: Cookie di Experience Cloud
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
@@ -22,16 +22,16 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 352
-ht-degree: 88%
+source-wordcount: 370
+ht-degree: 77%
 
 ---
 
-# Cookie di Experience Cloud
+# Cookie di CX Enterprise
 
-Adobe Experience Cloud utilizza i cookie per memorizzare un ID visitatore utilizzato nelle applicazioni Experience Cloud. Questi cookie sono specifici per l&#39;accesso alle applicazioni Adobe Experience Cloud in [experience.adobe.com](https://experience.adobe.com).
+Adobe CX Enterprise utilizza i cookie per memorizzare un ID visitatore utilizzato nelle applicazioni CX Enterprise. Questi cookie sono specifici per l&#39;accesso alle applicazioni Adobe CX Enterprise in [experience.adobe.com](https://experience.adobe.com).
 
 **Nome cookie: s_ecid**
 
@@ -45,7 +45,7 @@ Adobe Experience Cloud utilizza i cookie per memorizzare un ID visitatore utiliz
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Informazioni memorizzate </p> </td> 
-   <td colname="col2"> <p> Contiene una copia dell’Experience Cloud ID (ECID) o del MID. Il MID viene memorizzato in una coppia chiave/valore con sintassi s_ecid=MCMID|&lt;ECID&gt; </p> </td> 
+   <td colname="col2"> <p> Contiene una copia del CX Enterprise ID (ECID) o MID. Il MID viene memorizzato in una coppia chiave/valore con sintassi s_ecid=MCMID|&lt;ECID&gt; </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Scadenza </p> </td> 
@@ -86,7 +86,7 @@ Consulta anche [Cookie e il servizio ID](https://experienceleague.adobe.com/docs
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Informazioni memorizzate </p> </td> 
-   <td colname="col2"> <p> ID visitatore univoci utilizzati dalle soluzioni Experience Cloud. </p> </td> 
+   <td colname="col2"> <p> ID visitatore univoci utilizzati dalle soluzioni CX Enterprise. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Scadenza </p> </td> 

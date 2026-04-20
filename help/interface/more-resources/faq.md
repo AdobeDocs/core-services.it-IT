@@ -1,5 +1,5 @@
 ---
-description: Scopri quali sono i browser supportati e le risposte alle domande più frequenti per gli amministratori di Adobe Experience Cloud.
+description: Scopri come sono supportati i browser e le risposte alle domande più frequenti per gli amministratori di Adobe CX Enterprise.
 solution: Experience Cloud
 title: Domande frequenti su Experience Cloud
 index: true
@@ -22,18 +22,18 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5354e3c8a48184315ca4eaa8c8de1d12493cc227
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 697
-ht-degree: 76%
+source-wordcount: 730
+ht-degree: 47%
 
 ---
 
-# Domande frequenti su Experience Cloud
+# Domande frequenti su CX Enterprise
 
-Scopri quali sono i browser supportati e le risposte alle domande più frequenti per gli amministratori di Experience Cloud.
+Scopri il supporto del browser e le domande e risposte più frequenti per gli amministratori di CX Enterprise.
 
-+++Quali browser sono supportati in Experience Cloud?
++++Quali browser sono supportati in CX Enterprise?
 
 Adobe supporta la versione corrente e le due versioni precedenti dei seguenti browser:
 
@@ -47,13 +47,13 @@ Adobe supporta la versione corrente e le due versioni precedenti dei seguenti br
 
 >[!NOTE]
 >
->Non tutte le applicazioni in esecuzione nel dominio Experience Cloud supportano tutti i browser. In caso di dubbi, consulta la documentazione delle specifiche applicazioni.
+>Non tutte le applicazioni in esecuzione sul dominio CX Enterprise supportano tutti i browser. In caso di dubbi, consulta la documentazione delle specifiche applicazioni.
 
 +++
 
 +++Quali lingue sono supportate?
 
-Experience Cloud supporta le lingue preferite per ciascun utente, impostate nelle preferenze del proprio account utente Adobe. Sono supportate le seguenti lingue:
+CX Enterprise supporta le lingue preferite per ogni utente, impostate nelle preferenze del tuo account utente Adobe. Sono supportate le seguenti lingue:
 
 * Cinese
 * Inglese
@@ -66,19 +66,19 @@ Experience Cloud supporta le lingue preferite per ciascun utente, impostate nell
 * Spagnolo
 * Taiwanese
 
-Anche se i team delle applicazioni sono impegnati nel supporto globale delle lingue, non tutte le applicazioni sono disponibili in tutte le lingue sopra indicate. Se la tua lingua principale non è supportata in un’applicazione Experience Cloud, puoi impostare una lingua secondaria che, all’occorrenza, verrà usata per impostazione predefinita. Puoi impostare queste opzioni nelle [preferenze utente di Experience Cloud](https://experience.adobe.com/preferences).
+Anche se i team delle applicazioni sono impegnati nel supporto globale delle lingue, non tutte le applicazioni sono disponibili in tutte le lingue sopra indicate. Se la lingua principale non è supportata in un&#39;applicazione CX Enterprise, è inoltre possibile impostare una lingua secondaria come predefinita, se applicabile. Questa operazione può essere eseguita in [Preferenze utente di CX Enterprise](https://experience.adobe.com/preferences).
 
 +++
 
-+++Adobe impone costi aggiuntivi alla mia azienda per l’accesso a Adobe Experience Cloud?
++++Adobe impone costi aggiuntivi alla mia azienda per l’accesso a Adobe CX Enterprise?
 
-No. Il Adobe Experience Cloud è incluso senza alcun costo aggiuntivo. Tuttavia, alcuni servizi principali potrebbero avere costi aggiuntivi.
+No. Adobe CX Enterprise è incluso senza alcun costo aggiuntivo. Tuttavia, alcuni servizi principali potrebbero avere costi aggiuntivi.
 
 +++
 
-+++Perché la mia società deve effettuare l’accesso tramite l’interfaccia di Experience Cloud?
++++Perché la mia azienda deve effettuare l&#39;accesso tramite l&#39;interfaccia CX Enterprise?
 
-La funzionalità fornita dall’interfaccia Experience Cloud aggiunge più valore alla tua azienda. Sarà anche il percorso standard per accedere alle applicazioni in futuro, sostituendo altri flussi di accesso di singole soluzioni. L’accesso tramite Experience Cloud semplifica una futura transizione.
+La funzionalità fornita dall’interfaccia di CX Enterprise aggiunge nuovo valore alla tua azienda. Sarà anche il percorso standard per accedere alle applicazioni in futuro, sostituendo altri flussi di accesso di singole soluzioni. L’accesso tramite CX Enterprise semplifica una successiva transizione.
 
 +++
 
@@ -92,10 +92,10 @@ L’Assistenza clienti di Adobe può inviare una richiesta di rappresentazione: 
 
 +++Che cos’è il &quot;provisioning&quot;?
 
-Provisioning in Experience Cloud significa:
+Provisioning in CX Enterprise significa:
 
-* Gli utenti possono effettuare l’accesso a Experience Cloud e alle applicazioni di collegamento.
-* Possono iniziare a utilizzare le funzioni disponibili tramite Experience Cloud.
+* Gli utenti possono effettuare l’accesso a CX Enterprise e alle applicazioni di collegamento.
+* Possono iniziare a utilizzare le funzioni disponibili tramite CX Enterprise.
 * Puoi prepararti a ritirare il processo di accesso specifico per le singole applicazioni.
 * Puoi mantenere il controllo dell’accesso alle applicazioni.
 
@@ -117,7 +117,7 @@ Provisioning in Experience Cloud significa:
 
 +++
 
-+++Cosa posso fare se qualcuno non riesce ad accedere ad Experience Cloud?
++++Cosa posso fare se qualcuno non riesce ad accedere a CX Enterprise?
 
 Gli amministratori di Admin Console possono concedere l&#39;accesso agli utenti. Gli utenti ricevono un’e-mail con le istruzioni di accesso.
 
@@ -141,7 +141,7 @@ Consulta [Gestire gli account utente](../administration/organizations.md).
 
 +++Che cos’è un’organizzazione?
 
-Un’[organizzazione](../administration/organizations.md) è l’entità che consente all’amministratore di configurare gruppi e utenti e di controllare il single sign-on in Experience Cloud. L’organizzazione funziona come un’azienda che può effettuare un log-in che comprende tutti i prodotti e le applicazioni Experience Cloud. Nella maggior parte dei casi, un’organizzazione è il nome dell’azienda. Tuttavia, un’azienda può avere più organizzazioni.
+Un&#39;organizzazione [organizzazione](../administration/organizations.md) è l&#39;entità che consente all&#39;amministratore di configurare gruppi e utenti e di controllare il single sign-on in CX Enterprise. L&#39;organizzazione funziona come un&#39;azienda di accesso per tutti i prodotti e le applicazioni CX Enterprise. Nella maggior parte dei casi, un’organizzazione è il nome dell’azienda. Tuttavia, un’azienda può avere più organizzazioni.
 
 +++
 
@@ -153,7 +153,7 @@ Per informazioni, consulta [Visualizzare l’ID organizzazione](../administratio
 
 +++Cosa devo fare quando uno dei miei utenti lascia l’azienda?
 
-È necessario rimuoverne l’accesso dall’applicazione. Essi non potranno accedere al prodotto da Experience Cloud o mediante login diretto. Devi rimuoverli anche a livello di Experience Cloud.
+È necessario rimuoverne l’accesso dall’applicazione. Non potranno accedere al prodotto da CX Enterprise o tramite l’accesso diretto. È inoltre necessario rimuoverli a livello di CX Enterprise.
 
 +++
 

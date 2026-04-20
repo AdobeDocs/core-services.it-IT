@@ -1,5 +1,5 @@
 ---
-description: Scopri come caricare i dati degli attributi del cliente tramite FTP in Experience Cloud.
+description: Scopri come caricare i dati degli attributi del cliente tramite FTP in CX Enterprise.
 solution: Experience Cloud
 title: Caricare file di dati di attributi cliente tramite FTP
 feature: Customer Attributes
@@ -19,18 +19,18 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 361
-ht-degree: 55%
+source-wordcount: 379
+ht-degree: 53%
 
 ---
 
 # Caricare il file di dati tramite FTP (opzionale)
 
-Se non effettui il caricamento trascinando la selezione, puoi caricare l’attributo del cliente in Experience Cloud tramite FTP.
+Se non effettui il caricamento trascinando la selezione, puoi caricare l’attributo del cliente in CX Enterprise tramite FTP.
 
-Puoi caricare i dati dopo aver creato un&#39;origine attributo del cliente e un account FTP in Experience Cloud. Puoi creare un account FTP per ogni sorgente attributo. I file caricati vengono memorizzati nella cartella root di tale account. I dati devono essere in formato `.csv` e un secondo file `.fin` deve indicare il completamento del caricamento.
+Puoi caricare i dati dopo aver creato un&#39;origine attributo del cliente e un account FTP in CX Enterprise. Puoi creare un account FTP per ogni sorgente attributo. I file caricati vengono memorizzati nella cartella root di tale account. I dati devono essere in formato `.csv` e un secondo file `.fin` deve indicare il completamento del caricamento.
 
 >[!IMPORTANT]
 >

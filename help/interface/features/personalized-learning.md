@@ -1,5 +1,5 @@
 ---
-description: Ricevi assistenza e promozioni personalizzate tramite e-mail, nei tuoi prodotti Experience Cloud e nelle community Experience League in base ai tuoi dati di utilizzo.
+description: Ricevi assistenza e promozioni personalizzate tramite e-mail, nei tuoi prodotti CX Enterprise e nelle community Experience League in base ai tuoi dati di utilizzo.
 solution: Experience Cloud
 title: Preferenze di apprendimento personalizzato in Experience Cloud
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
@@ -16,16 +16,16 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 06923be2a98a9301a3d3e16c47c50cd34f7a05e9
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 103
-ht-degree: 19%
+source-wordcount: 105
+ht-degree: 20%
 
 ---
 
 # Preferenze di apprendimento personalizzate
 
-Adobe offre contenuti utili personalizzati in base al modo in cui utilizzi i prodotti Adobe. I dati di utilizzo del prodotto spiegano come adattare il contesto alle tue esigenze. Puoi dare il consenso o rinunciare alla condivisione dei dati di utilizzo del prodotto nella pagina [Preferenze di Experience Cloud](https://experience.adobe.com/preferences).
+Adobe offre contenuti utili personalizzati in base al modo in cui utilizzi i prodotti Adobe. I dati di utilizzo del prodotto spiegano come adattare il contesto alle tue esigenze. Puoi dare il consenso o rinunciare alla condivisione dei dati di utilizzo del prodotto nella pagina [Preferenze CX Enterprise](https://experience.adobe.com/preferences).
 
 <!--
 ## Personalized training and support recommendations for your Adobe products and services

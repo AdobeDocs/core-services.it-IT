@@ -22,16 +22,16 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: a42153ba5a885509e7735e7407e38586fcabb0ad
 workflow-type: tm+mt
-source-wordcount: 507
-ht-degree: 62%
+source-wordcount: 515
+ht-degree: 60%
 
 ---
 
 # Creazione di un pubblico
 
-In [!UICONTROL Audience Library] è possibile utilizzare le regole degli attributi per creare un pubblico e definire un pubblico composito per la condivisione nelle applicazioni Experience Cloud.
+In [!UICONTROL Audience Library] è possibile utilizzare le regole degli attributi per creare un pubblico e definire un pubblico composito per la condivisione nelle applicazioni CX Enterprise.
 
 Questo articolo ti aiuta a capire come:
 
@@ -52,13 +52,13 @@ Ogni cerchio rappresenta una regola che definisce l’iscrizione al pubblico. I 
 L’esempio seguente mostra come creare le regole per un pubblico composito. Questo pubblico è composto da:
 
 * Sezione Home &amp; Garden (Casa e giardino) derivata dai dati di pagina o dai dati di analisi non elaborati.
-* Utenti Chrome e Safari derivati da un segmento [!DNL Adobe Analytics] [pubblicato](overview.md) in [!DNL Experience Cloud].
+* Utenti Chrome e Safari derivati da un segmento [!DNL Adobe Analytics] [pubblicato](overview.md) in [!DNL CX Enterprise].
 
   ![Creare le regole per un pubblico composito](assets/audience_create.png)
 
 **Creare un pubblico**
 
-1. Fai clic su [!DNL Experience Cloud] app (![icona app](assets/apps-icon.png)), quindi fai clic su **[!UICONTROL People]** > **[!UICONTROL Audience Library].**
+1. Fai clic su [!DNL CX Enterprise] app (![icona app](assets/apps-icon.png)), quindi fai clic su **[!UICONTROL People]** > **[!UICONTROL Audience Library].**
 
 1. Nella pagina [!UICONTROL Audiences], fare clic su **[!UICONTROL New]**. ![Nuovo pubblico](assets/add_icon_small.png)
 
@@ -71,9 +71,9 @@ L’esempio seguente mostra come creare le regole per un pubblico composito. Que
 
      >[!NOTE]
      >
-     >A causa della memorizzazione nella cache, sono necessarie 12 ore prima che l’eliminazione delle suite di rapporti di Analytics possa essere visibile in Experience Cloud.
+     >A causa della memorizzazione nella cache, sono necessarie 12 ore prima che l’eliminazione delle suite di rapporti di Analytics possa essere visibile in CX Enterprise.
 
-   * **[!UICONTROL Experience Cloud:]** dati attributo derivati da [!DNL Experience Cloud] origini. Ad esempio, potrebbe trattarsi dei dati dei segmenti di pubblico che hai creato in [!DNL Analytics] o dei dati di [!DNL Audience Manager].
+   * **[!UICONTROL CX Enterprise:]** dati attributo derivati da [!DNL CX Enterprise] origini. Ad esempio, potrebbe trattarsi dei dati dei segmenti di pubblico che hai creato in [!DNL Analytics] o dei dati di [!DNL Audience Manager].
 
 1. Definisci le regole del pubblico, quindi fai clic su **[!UICONTROL Save].**
 
@@ -93,7 +93,7 @@ In [!UICONTROL Rules], definire le selezioni dell&#39;attributo *`Home & Garden`
 
 *Chrome &amp; Safari Visitors (visitatori di Chrome e Safari)* è un segmento di pubblico condiviso da Analytics:
 
-* Experience Cloud **[!UICONTROL Attribute Source:]**
+* **[!UICONTROL Attribute Source:]** CX Enterprise
 * **[!UICONTROL Dimension:]** visitatori di Chrome e Safari
 
 ![Visitatori Chrome e Safari](assets/chrome_safari.png)
@@ -104,11 +104,11 @@ Per un confronto, potresti aggiungere una regola *OR* per visualizzare tutti i v
 
 La regola risultante è un pubblico definito composto dagli utenti di Chrome e Safari che hanno visitato Home &amp; Garden (Casa e giardino). Il segmento Patio &amp; Furniture (Patio e mobili) fornisce informazioni approfondite su tutti i visitatori che visitano quella sezione del sito.
 
-![Pubblico definito in Experience Cloud](assets/defined_audience.png)
+![Pubblico definito in CX Enterprise](assets/defined_audience.png)
 
 * **Stima storica:** (cerchio punteggiato) rappresenta le regole create basandosi sui dati di [!DNL Analytics].
 * **Pubblico effettivo:** (cerchio continuo) qualsiasi regola creata con 30 giorni di dati provenienti da Audience Manager. Quando i dati di Audience Manager raggiungono i 30 giorni, la linea diventa continua e rappresenta i numeri effettivi.
 
 Al termine della raccolta dei dati per il periodo specificato, i cerchi si combinano per mostrare un pubblico definito.
 
-Una volta salvato, il pubblico è disponibile per altre applicazioni Experience Cloud. Ad esempio, puoi includere un pubblico condiviso in una [attività](https://experienceleague.adobe.com/it/docs/target/using/activities/activities) di Adobe Target.
+Una volta salvato, il pubblico è disponibile per altre applicazioni CX Enterprise. Ad esempio, puoi includere un pubblico condiviso in una [attività](https://experienceleague.adobe.com/it/docs/target/using/activities/activities) di Adobe Target.

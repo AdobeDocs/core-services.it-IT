@@ -1,6 +1,6 @@
 ---
 title: Componenti e servizi dell’interfaccia utente di Experience Cloud
-description: Scopri i componenti dell’interfaccia utente, l’amministrazione di utenti e prodotti in Adobe Admin Console, Libreria tipi di pubblico, Attributi del cliente, Experience Cloud Assets e altro ancora.
+description: Scopri i componenti dell’interfaccia utente, l’amministrazione di utenti e prodotti in Adobe Admin Console, Libreria tipi di pubblico, Attributi del cliente, CX Enterprise Assets e altro ancora.
 cloud: Experience Cloud
 product: experience cloud
 solution: Experience Cloud Services
@@ -13,33 +13,33 @@ getting-started-url: https://helpx.adobe.com/it/experience-cloud-core-services/g
 tutorials-title: Tutorials
 tutorials-url: https://experienceleague.adobe.com/content/help/en/core-services-learn/tutorials/overview.html
 git-repo: https://github.com/AdobeDocs/core-services.it-IT
-source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 100%
+source-wordcount: '200'
+ht-degree: 66%
 
 ---
 
 
 # Metadati per uso interno
 
-Il file metadata.md include metadati a livello di repository che passano attraverso i file TOC.md della guida utente nel repository. Se desideri modificare il contenuto di metadata.md per qualsiasi guida utente, esegui questa operazione in qualsiasi file TOC.md.
+Il file metadata.md include metadati a livello di archivio che vengono trasmessi ai file TOC.md della guida utente presente nell’archivio stesso. Se desideri modificare il contenuto del file metadata.md per qualsiasi Guida utente, effettua questa operazione in qualsiasi file TOC.md.
 
-| metadati | funzione |
+| metadati | cosa fa |
 | --- | --- |
 | solution-title | Utilizzato nell’intestazione dell’articolo come collegamento |
 | solution-hub-url | Apre la pagina dell’hub helpx |
 | solution-icon | Visualizza l’icona della soluzione accanto al titolo della soluzione. Non ancora implementato |
-| getting-started-title | Utilizzato di rado quando le Esercitazioni non sono appropriate |
-| getting-started-url | Collegamento all’aiuto della pagina guida introduttiva |
-| tutorials-title | Utilizzato di rado quando le Esercitazioni non sono appropriate |
-| tutorials-url | Collegamento alle esercitazioni video: esercitazioni helpx o KT |
-| mini-toc-levels | Determina il numero di livelli di intestazione visualizzati nella barra laterale destra. Il valore predefinito è 2 |
-| git-repo | Specifica la posizione del repository collaborativo. Usa il mirror di github.com per i documenti rivolti al pubblico |
+| getting-started-title | Utilizzato di rado quando i tutorial non sono appropriati |
+| getting-started-url | Collegamento alla pagina della Guida introduttiva helpx |
+| tutorials-title | Utilizzato di rado quando i tutorial non sono appropriati |
+| tutorials-url | Collegamento ai tutorial video: tutorial helpx o KT |
+| mini-toc-levels | Determina il numero di livelli dei titoli visualizzati nella barra a destra. il valore predefinito è 2 |
+| git-repo | Specifica la posizione dell&#39;archivio di collaborazione. Utilizza il mirror di github.com per i documenti rivolti al pubblico |
 
 Nel file TOC.md
 
-| metadati | funzione |
+| metadati | cosa fa |
 | --- | --- |
 | user-guide-title | Utilizzato nell’intestazione dell’articolo come collegamento |
 | user-guide-url | Apre la pagina dell’hub helpx |

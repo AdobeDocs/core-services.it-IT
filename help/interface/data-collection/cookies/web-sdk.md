@@ -20,7 +20,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 04b452cb70ff2429b25c617f0bd1f131f9ffcf2a
+source-git-commit: a42153ba5a885509e7735e7407e38586fcabb0ad
 workflow-type: tm+mt
 source-wordcount: 484
 ht-degree: 1%
@@ -43,6 +43,6 @@ Adobe Experience Platform Web SDK utilizza i cookie per memorizzare valori speci
 | **`kndctr_<orgId>_personalization`** | 34128000 (395 giorni) | | Memorizza le informazioni sulla sessione utilizzate da Adobe Target per personalizzare il contenuto. |
 | **`mbox`** | 63072000 (2 anni) | | Presente quando [`targetMigrationEnabled`](https://experienceleague.adobe.com/it/docs/experience-platform/collection/js/commands/configure/targetmigrationenabled) è abilitato. Consente di impostare il cookie [mbox](https://developer.adobe.com/target/implement/client-side/atjs/atjs-cookies/) di destinazione dal Web SDK. |
 | **`mboxEdgeCluster`** | 1800 (30 minuti) | | Presente quando [`targetMigrationEnabled`](https://experienceleague.adobe.com/it/docs/experience-platform/collection/js/commands/configure/targetmigrationenabled) è abilitato. Consente al Web SDK di comunicare il cluster Edge corretto a `at.js` in modo che i profili di Target possano rimanere sincronizzati mentre gli utenti navigano in un sito. |
-| **`s_ecid`** | 63115200 (2 anni) | ~ 45 byte | Contiene una copia dell&#39;Experience Cloud ID (ECID/MID) nel formato `s_ecid=MCMID\|<ECID>`. Funge da backup di prima parte dell’ECID, principalmente per scenari CNAME (prime parti). |
+| **`s_ecid`** | 63115200 (2 anni) | ~ 45 byte | Contiene una copia del CX Enterprise ID (ECID/MID) nel formato `s_ecid=MCMID\|<ECID>`. Funge da backup di prima parte dell’ECID, principalmente per scenari CNAME (prime parti). |
 
 Edge Network imposta tutti i cookie con gli attributi `secure` e `sameSite="none"`. Se al momento sul sito web sono presenti sezioni protette e non protette, l’identificazione dell’utente potrebbe non essere accurata. Quando un utente passa da una sezione protetta del sito a una non protetta, Edge Network genera un nuovo `ECID` con la richiesta.

@@ -1,5 +1,5 @@
 ---
-description: Scopri come condividere una cartella di risorse di Experience Cloud con gli utenti di Creative Cloud.
+description: Scopri come condividere una cartella di risorse CX Enterprise con gli utenti di Creative Cloud.
 solution: Experience Cloud
 title: Condividere una cartella di risorse di Experience Cloud
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
@@ -21,16 +21,16 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 413
-ht-degree: 50%
+source-wordcount: 451
+ht-degree: 38%
 
 ---
 
-# Condivisione di una cartella di risorse Experience Cloud
+# Condividere una cartella di risorse CX Enterprise
 
-Condividi cartelle e risorse tra Experience Cloud e Creative Cloud. Collabora, commenta risorse condivise e utilizzale in applicazioni Experience Cloud come Adobe Target. La cartella condivisa deve provenire da Experience Cloud.
+Condividere cartelle e risorse tra CX Enterprise e Creative Cloud. Collabora, commenta risorse condivise e utilizzale in applicazioni CX Enterprise come Adobe Target. La cartella condivisa deve provenire da CX Enterprise.
 
 **Vantaggi della condivisione**
 
@@ -40,9 +40,9 @@ Condividi cartelle e risorse tra Experience Cloud e Creative Cloud. Collabora, c
 * Maggiore sicurezza aziendale
 * Semplificazione di condivisione, salvataggio e invio di file tra creativi ed esperti marketing
 
-Prima che gli utenti di Creative Cloud possano accedere alle risorse, devono essere inseriti nell’elenco Consentiti in Experience Cloud. Vedi [Gestione degli utenti di Creative Cloud](manage-cc-users.md).
+Prima che gli utenti di Creative Cloud possano accedere alle risorse, devono essere inseriti nell’elenco Consentiti in CX Enterprise. Vedi [Gestione degli utenti di Creative Cloud](manage-cc-users.md).
 
-**Per condividere una cartella di risorse di Experience Cloud**
+**Per condividere una cartella di risorse di CX Enterprise**
 
 1. In una cartella di risorse, fare clic su **[!UICONTROL Share to Creative Cloud]**.
 
@@ -63,11 +63,11 @@ Prima che gli utenti di Creative Cloud possano accedere alle risorse, devono ess
    ![Visualizza sul Web](../../assets/creative_cloud_open_folder.png)
 1. Continua con l’aggiunta di commenti sulla risorsa condivisa:
 
-   In Creative Cloud è possibile selezionare un&#39;immagine, quindi fare clic su **[!UICONTROL Activity]** per aggiungere un commento all&#39;immagine. I commenti vengono sincronizzati sulle risorse in [!DNL Creative Cloud] e [!DNL Experience Cloud].
+   In Creative Cloud è possibile selezionare un&#39;immagine, quindi fare clic su **[!UICONTROL Activity]** per aggiungere un commento all&#39;immagine. I commenti vengono sincronizzati sulle risorse in [!DNL Creative Cloud] e [!DNL CX Enterprise].
 
    ![Aggiungi un commento all’immagine](../../assets/asset_comment_cc.png)
 
-   In Experience Cloud, seleziona un’immagine, quindi seleziona l’icona della cronologia per aggiungere un commento all’immagine. I commenti vengono sincronizzati sulle risorse in Creative Cloud ed Experience Cloud.
+   In CX Enterprise, seleziona un’immagine, quindi seleziona l’icona della cronologia per aggiungere un commento all’immagine. I commenti vengono sincronizzati sulle risorse in Creative Cloud e CX Enterprise.
 
    ![Aggiungi un commento all’immagine](../../assets/asset_comment_mac.png)
 
@@ -85,9 +85,9 @@ Dopo aver condiviso una cartella su Creative Cloud, il logo Creative Cloud viene
 
 Argomenti correlati:
 
-* [Aiuto di Creative Cloud - Gestione e sincronizzazione dei file](https://helpx.adobe.com/it/creative-cloud/help/sync-creative-cloud-files.html)
-* [Aiuto di Creative Cloud - Collaborazione con altri](https://helpx.adobe.com/it/creative-cloud/help/collaboration.html)
-* [Aiuto di Creative Cloud - Domande frequenti sulla collaborazione](https://helpx.adobe.com/it/creative-cloud/help/collaboration-faq.html)
+* [Guida di Creative Cloud: gestire e sincronizzare i file](https://helpx.adobe.com/it/creative-cloud/help/sync-creative-cloud-files.html)
+* [Guida di Creative Cloud: collaborare con altri](https://helpx.adobe.com/it/creative-cloud/help/collaboration.html)
+* [Guida di Creative Cloud - Domande frequenti su Collaboration](https://helpx.adobe.com/it/creative-cloud/help/collaboration-faq.html)
 
 ## Informazioni sulla condivisione di risorse con Adobe Target
 

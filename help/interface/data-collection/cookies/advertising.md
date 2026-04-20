@@ -14,10 +14,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: a42153ba5a885509e7735e7407e38586fcabb0ad
 workflow-type: tm+mt
-source-wordcount: 298
-ht-degree: 12%
+source-wordcount: 309
+ht-degree: 15%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Advertising (precedentemente Adobe Advertising Cloud) utilizza i cookie pe
 
 >[!NOTE]
 >
->Il tag JavaScript beta di Adobe Advertising che utilizza il servizio [Adobe Experience Cloud ID (ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=it) crea cookie [Experience Cloud](experience-cloud.md) `s_ecid` di prime parti, non cookie di Adobe Advertising.
+>Il tag JavaScript beta di Adobe Advertising che utilizza il servizio [Adobe CX Enterprise ID (ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=it) crea cookie [CX Enterprise](experience-cloud.md) `s_ecid` di prime parti, non cookie di Adobe Advertising.
 
 | Nome cookie | Scadenza | Dimensione | Posizione | Descrizione |
 | --- | --- | --- | --- | --- |
