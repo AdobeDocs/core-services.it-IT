@@ -3,20 +3,19 @@ role: User,Admin
 user-guide-title: Interfaccia e amministrazione di Experience Cloud
 breadcrumb-title: Interfaccia e amministrazione di Experience Cloud
 title: Interfaccia e amministrazione di Experience Cloud
-description: Scopri l’interfaccia di Experience Cloud, i cookie e le preferenze dell’account utente. Gestisci i prodotti e configura il servizio per le persone, inclusi gli attributi del cliente e la libreria Pubblico. Condividi le risorse di Experience Cloud.
+description: Scopri l’interfaccia di CX Enterprise, i cookie e le preferenze dell’account. Gestisci i prodotti e configura il servizio per le persone, inclusi gli attributi del cliente e la libreria Pubblico. Condividi CX Enterprise Assets.
 index: true
-source-git-commit: 763b52c8d49073f08c01191634008bdca19746d1
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
 source-wordcount: '211'
-ht-degree: 85%
+ht-degree: 71%
 
 ---
 
+# Interfaccia e amministrazione di CX Enterprise {#interface}
 
-# Interfaccia e amministrazione di Experience Cloud {#interface}
-
-+ [Interfaccia e amministrazione di Experience Cloud](/help/interface/experience-cloud.md)
-+ IA in Experience Cloud {#features}
++ [Interfaccia e amministrazione di CX Enterprise](/help/interface/experience-cloud.md)
++ IA in CX Enterprise {#features}
    + [IA generativa](/help/interface/features/generative-ai.md)
    + [IA agentica](features/agentic-ai.md)
    + {hide-from-toc}[Monitoraggio IA](/help/interface/features/ai-monitoring.md)
@@ -66,7 +65,7 @@ ht-degree: 85%
       + [Cookie di Advertising](/help/interface/data-collection/cookies/advertising.md)
       + [Cookie di Analytics](/help/interface/data-collection/cookies/analytics.md)
       + [Cookie di Audience Manager](/help/interface/data-collection/cookies/audience-manager.md)
-      + [Cookie di Experience Cloud](/help/interface/data-collection/cookies/experience-cloud.md)
+      + [Cookie di CX Enterprise](/help/interface/data-collection/cookies/experience-cloud.md)
       + [Cookie di Target](/help/interface/data-collection/cookies/target.md)
       + [Guida di Web SDK](/help/interface/data-collection/cookies/web-sdk.md)
    + [Raccolta di dati per area geografica](/help/interface/data-collection/rdc.md)
