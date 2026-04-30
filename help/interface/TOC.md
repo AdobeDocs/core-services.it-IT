@@ -1,14 +1,14 @@
 ---
 role: User,Admin
-user-guide-title: Interfaccia e amministrazione di Experience Cloud
-breadcrumb-title: Interfaccia e amministrazione di Experience Cloud
-title: Interfaccia e amministrazione di Experience Cloud
-description: Scopri l’interfaccia di CX Enterprise, i cookie e le preferenze dell’account. Gestisci i prodotti e configura il servizio per le persone, inclusi gli attributi del cliente e la libreria Pubblico. Condividi CX Enterprise Assets.
+user-guide-title: Guida all'amministrazione e all'interfaccia centrale di CX Enterprise
+breadcrumb-title: Interfaccia e amministrazione di CX Enterprise
+title: Guida all'amministrazione e all'interfaccia di CX Enterprise
+description: Informazioni sull'interfaccia e l'amministrazione di CX Enterprise. Sfoglia gli argomenti relativi ad AI, amministrazione, servizi condivisi, raccolta dati, cookie, note sulla versione e domande frequenti.
 index: true
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: d136979999619b0858f1e797a6b71d27799e2e66
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 71%
+source-wordcount: '209'
+ht-degree: 58%
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-description: Scopri i componenti dell’interfaccia centrale per CX Enterprise (precedentemente Experience Cloud). Ottieni aiuto per l’amministrazione di utenti e prodotti e abilita le applicazioni per i servizi di interfaccia condivisa. Ottieni aiuto per Libreria tipi di pubblico, Attributi del cliente, Assets e altro ancora.
+description: Informazioni su CX Enterprise (già Experience Cloud). Include accesso, navigazione, ricerca, preferenze, amministrazione e servizi condivisi come Libreria tipi di pubblico, Attributi del cliente e Assets.
 title: Guida all'amministrazione e all'interfaccia di CX Enterprise
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 feature: Central Interface Components
@@ -14,31 +14,31 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: d136979999619b0858f1e797a6b71d27799e2e66
 workflow-type: tm+mt
-source-wordcount: 553
+source-wordcount: 548
 ht-degree: 45%
 
 ---
 
-# Interfaccia e amministrazione di CX Enterprise
+# Guida all&#39;amministrazione e all&#39;interfaccia di Adobe CX Enterprise
 
-[CX Enterprise](https://experience.adobe.com) (in precedenza _Experience Cloud_) è un insieme integrato di applicazioni, prodotti e servizi Adobe per il marketing digitale. L’interfaccia intuitiva consente di accedere rapidamente alle applicazioni cloud, alle funzionalità dei prodotto e ai servizi.
+[Adobe CX Enterprise](https://experience.adobe.com) (Customer Experience Enterprise) è un insieme integrato di applicazioni, prodotti e servizi Adobe per il marketing digitale. L’interfaccia intuitiva consente di accedere rapidamente alle applicazioni cloud, alle funzionalità dei prodotto e ai servizi.
 
 <!-- ![CX Enterprise](assets/landing.png) -->
 
-Dall’intestazione di CX Enterprise, puoi:
+Dall&#39;intestazione CX Enterprise è possibile effettuare le operazioni riportate di seguito.
 
-* Accedere a tutte le applicazioni e i servizi CX Enterprise
+* Accesso a tutte le applicazioni e i servizi aziendali CX
 * Dal menu Aiuto, cercare la documentazione del prodotto, i tutorial e i post della community. Visualizzare i risultati in Experience League.
 * Eseguire ricerche globali sugli oggetti business utilizzando la ricerca globale (solo per gli utenti di Experience Platform) nel campo Ricerca.
 * Gestire le [preferenze](features/account-preferences.md) dell’account (avvisi, notifiche e abbonamenti)
 
-## Accedere a CX Enterprise
+## Accesso a CX Enterprise
 
 Accedi e verifica di essere nell&#39;[organizzazione](administration/organizations.md) corretta.
 
-1. Passa a [Adobe CX Enterprise](https://experience.adobe.com).
+1. Passare a [Adobe CX Enterprise](https://experience.adobe.com).
 1. Digita il tuo indirizzo e-mail Adobe, quindi fai clic su **[!UICONTROL Continue]**.
 1. Fai clic su un account.
 1. Digita la tua password.
@@ -50,20 +50,20 @@ Accedi e verifica di essere nell&#39;[organizzazione](administration/organizatio
 
    L’[organizzazione](administration/organizations.md) viene visualizzata nell’intestazione dell’interfaccia.
 
-   Se la tua organizzazione utilizza Federated ID, CX Enterprise ti consente di accedere con il Single Sign-On della tua organizzazione senza dover immettere l’indirizzo e-mail e la password. Aggiungi `#/sso:@domain` all&#39;URL di CX Enterprise (`https://experience.adobe.com`) per eseguire questa attività.
+   Se la tua organizzazione utilizza Federated ID, CX Enterprise ti consente di accedere con il Single Sign-On della tua organizzazione senza dover immettere l’indirizzo e-mail e la password. Aggiungere `#/sso:@domain` all&#39;URL aziendale CX (`https://experience.adobe.com`) per eseguire questa attività.
 
    Ad esempio, per un’organizzazione con Federated ID e il dominio `example.com`, imposta il link dell’URL su `https://experience.adobe.com/#/sso:@example.com`. Puoi anche passare direttamente a una specifica applicazione salvando come segnalibro o preferito l’URL seguito dal percorso dell’applicazione. Ad esempio, per Adobe Analytics: `https://experience.adobe.com/#/sso:@example.com/analytics`.
 
-   **Nota:** l&#39;amministratore dell&#39;organizzazione può limitare l&#39;accesso ai prodotti Adobe per indirizzo IP. In tal caso, potresti ricevere un errore dopo aver effettuato l’accesso a CX Enterprise o essere passato a un’organizzazione con questa opzione abilitata. Ulteriori informazioni sono disponibili in [Limitare l&#39;accesso ai prodotti per indirizzi IP](https://helpx.adobe.com/it/enterprise/using/ip-based-access.html).
+   **Nota:** l&#39;amministratore dell&#39;organizzazione può limitare l&#39;accesso ai prodotti Adobe per indirizzo IP. In tal caso, è possibile che venga visualizzato un messaggio di errore dopo aver effettuato l&#39;accesso a CX Enterprise o il passaggio a un&#39;organizzazione con questa opzione abilitata. Ulteriori informazioni sono disponibili in [Limitare l&#39;accesso ai prodotti per indirizzi IP](https://helpx.adobe.com/it/enterprise/using/ip-based-access.html).
 
 
-## Accedere alle applicazioni CX Enterprise
+## Accesso alle applicazioni aziendali CX
 
-Dopo aver effettuato l’accesso a CX Enterprise, puoi accedere rapidamente a tutte le applicazioni, i servizi e le organizzazioni dall’intestazione unificata.
+Dopo aver effettuato l&#39;accesso a CX Enterprise, è possibile accedere rapidamente a tutte le applicazioni, i servizi e le organizzazioni dall&#39;intestazione unificata.
 
 Per accedere alle applicazioni e ai servizi CX Enterprise per i quali disponi dei diritti di accesso nella tua organizzazione, passa al selettore delle applicazioni ![menu](assets/apps-icon.png).
 
-![Accedere alle applicazioni di CX Enterprise](assets/platform-core-services.png)
+![Accedere alle applicazioni CX Enterprise](assets/platform-core-services.png)
 
 ## Ottenere assistenza e supporto
 
@@ -74,7 +74,7 @@ Accedi all&#39;apprendimento e alla guida utilizzando la **[!UICONTROL Help cent
 Il menu [!UICONTROL Help] consente inoltre di accedere a:
 
 * **[!UICONTROL Support]:** Crea un ticket di supporto o contatta [!UICONTROL Support] tramite Twitter.
-* **[!UICONTROL Feedback]:** Condividi feedback sulla tua esperienza con CX Enterprise. Il tuo feedback viene utilizzato per migliorare i prodotti e i servizi di Adobe.
+* **[!UICONTROL Feedback]:** Condividi feedback sulla tua esperienza CX Enterprise. Il tuo feedback viene utilizzato per migliorare i prodotti e i servizi di Adobe.
 * **[!UICONTROL Status]:** Passare a `https://status.adobe.com/it-it/experience_cloud` e verificare lo stato operativo del prodotto e [!UICONTROL Manage Subscriptions].
 * **[!UICONTROL Developer Connection]:** Navigazione a `adobe.io` e ricerca documentazione per sviluppatori.
 
@@ -83,7 +83,7 @@ Il menu [!UICONTROL Help] consente inoltre di accedere a:
 Nel menu [!UICONTROL Profile] è possibile:
 
 * Specificare un tema scuro (non tutte le applicazioni supportano questo tema)
-* Gestisci [Preferenze](features/account-preferences.md) CX Enterprise
+* Gestisci [Preferenze](features/account-preferences.md) di CX Enterprise
 * Selezionare o cercare un’[Organizzazione](administration/organizations.md)
 * Visualizza [!UICONTROL Legal Notices]
 * Uscire
