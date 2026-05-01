@@ -4,18 +4,19 @@ description: Scopri i componenti dell’interfaccia utente, l’amministrazione 
 cloud: Experience Cloud
 product: experience cloud
 solution: Experience Cloud Services
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
 feature-set: Experience Cloud Services,Experience Cloud
 solution-title: Experience Platform
-solution-hub-url: https://helpx.adobe.com/it/support/experience-cloud/core-services.html
+solution-hub-url: https://helpx.adobe.com/support/experience-cloud/core-services.html
 solution-icon: help/interface/assets/experience-cloud-logo-24.png
 getting-started-title: Getting Started
-getting-started-url: https://helpx.adobe.com/it/experience-cloud-core-services/get-started.html
+getting-started-url: https://helpx.adobe.com/experience-cloud-core-services/get-started.html
 tutorials-title: Tutorials
 tutorials-url: https://experienceleague.adobe.com/content/help/en/core-services-learn/tutorials/overview.html
-git-repo: https://github.com/AdobeDocs/core-services.it-IT
-source-git-commit: 904e2603fc9f40bca8317881fc3b0b4e34e04300
+git-repo: https://github.com/AdobeDocs/core-services.en
+source-git-commit: 8fc5cb3ebabcb154aa766ecaec5b3ccc10b5aefc
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: 200
 ht-degree: 66%
 
 ---
