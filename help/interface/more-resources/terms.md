@@ -8,11 +8,20 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 3799f806-2794-43ab-9e70-06ee693871e7
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2:
+  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
+  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 581cd64936e5740d6288564abd25b5dd358f0dc6
 workflow-type: tm+mt
 source-wordcount: 1273
@@ -40,7 +49,7 @@ Un riferimento terminologico per gli utenti di CX Enterprise e il modo in cui ta
 | **Applicazione dell&#39;utilizzo dati** | Nessun uso speciale. | Le politiche, la progettazione del sistema, le pratiche e le procedure emanate e definite da un sistema (applicazioni, app, servizi, SDK, API e così via) per l’uso dei metadati dell’utilizzo dati al fine di consentire un uso dei dati aderente alle politiche aziendali sulla privacy di Adobe, alle considerazioni contrattuali e ai principi generali sulla privacy. |
 | **Dispositivo** | Nessun uso speciale. | Un dispositivo hardware, ad esempio un tablet, un telefono o un desktop, su cui vengono eseguite le applicazioni. |
 | **Device Co-op** | Nessun uso speciale. | Un gruppo di marchi che hanno accettato di condividere dati sui dispositivi utilizzati dai consumatori allo scopo di facilitare l’identificazione di un individuo tra diversi dispositivi, al fine di fornire esperienze più coerenti e significative. |
-| **[!UICONTROL CX Enterprise ID Service](ECID)** | Nessun uso speciale. | L&#39;ID univoco e permanente assegnato a un visitatore del sito. È un&#39;entità specifica che può essere utilizzata da Experience Platform Identity Service. [Altro...](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it) |
+| **[!UICONTROL CX Enterprise ID Service] (ECID)** | Nessun uso speciale. | L&#39;ID univoco e permanente assegnato a un visitatore del sito. È un&#39;entità specifica che può essere utilizzata da Experience Platform Identity Service. [Altro...](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it) |
 | **[!UICONTROL Experience Platform Identity Service]** | Nessun uso speciale. | Il servizio che collega le identità. È il servizio di collegamento dispositivi per la gestione dell&#39;esperienza basata sulle persone. |
 | **Collegamento** | Nessun uso speciale. Il termine “collegamento” si riferisce alla navigazione ipertestuale e il collegamento di elementi come font, proprietà, livelli e così via. | In CX Enterprise, il termine &quot;collegamento&quot; solitamente si riferisce al collegamento di account di diverse applicazioni all&#39;interfaccia.<br>Consulta [Organizzazioni e collegamento di account](../administration/organizations.md).<br>Il termine collegamento si riferisce anche agli URL standard per i rapporti di Analytics inviati ad altri utenti. |
 | **Percorsi** | In Creative Cloud, il termine “posizione” si riferisce alle posizioni dei file o a una posizione su un’immagine o un documento aperto. | In CX Enterprise, le posizioni sono il luogo in cui il pubblico visualizza e interagisce con i contenuti. L&#39;associazione tra le posizioni e il contenuto può essere più o meno statica, o può essere gestita dinamicamente in base alle regole di una campagna. Una posizione appartiene sempre a un canale specifico che determina come si può inviare il contenuto e come è possibile raccogliere metriche.<br>Gli esempi includono:<ul><li>Sites</li><li>Proprietà (Social)</li><li>Inventario visualizzato</li><li>Pagine di destinazione</li><li>Applicazioni mobili</li><li>Slot (video)</li></ul> |
