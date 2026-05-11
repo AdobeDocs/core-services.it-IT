@@ -11,10 +11,22 @@ level: Intermediate
 exl-id: c1a8f9a7-4752-4040-b5f0-dc775417f536
 autotag-review: '2026-05-11T19:53:10.691Z'
 TQID: 'https://experienceleague.adobe.com/ixprWE5CesSO0Mf0qeMLOPIovTdWaVn-wX84PrOlv8M'
-product_v2: id: e1971122-7081-4556-9222-8a31bd71800cid: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: f84b2906-3ce9-4ef0-86f6-cda249273937
-subfeature_v2: id: cda95149-19e1-4cfa-a57e-751283a32378
-topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: e1971122-7081-4556-9222-8a31bd71800c
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
+subfeature_v2:
+  - id: cda95149-19e1-4cfa-a57e-751283a32378
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 5f42cc0a6b93e6c7842eb6104d301b86ac967fc2
 workflow-type: tm+mt
 source-wordcount: 1131
