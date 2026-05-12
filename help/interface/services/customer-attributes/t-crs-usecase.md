@@ -9,20 +9,12 @@ role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
 TQID: https://experienceleague.adobe.com/tnqjX4iY7OQx4XW9MjHNg8LaXB1Of6MrtLX-7efyz-E
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 1118
 ht-degree: 43%
@@ -41,13 +33,13 @@ Creare l&#39;origine attributo del cliente (`.csv` e `.fin` file) e caricare i d
 
 * **Appartenenza al gruppo:** Per caricare i dati, gli utenti devono essere membri del gruppo [!DNL Customer Attributes]. Devi anche appartenere a un gruppo Adobe Analytics o Adobe Target.
 
-  Per verificare se la società ha accesso agli attributi del cliente, l&#39;amministratore di [!DNL CX Enterprise] deve effettuare l&#39;accesso a [CX Enterprise](https://experience.adobe.com). Passa a **[!UICONTROL Admin Console]** > **[!UICONTROL Products]**. Se *[!DNL Customer Attributes]* viene visualizzato come uno dei [!UICONTROL product profiles], è possibile iniziare.
+  Per sapere se la società ha accesso a Attributi del cliente, l&#39;amministratore di [!DNL CX Enterprise] deve effettuare l&#39;accesso a [CX Enterprise](https://experience.adobe.com). Passa a **[!UICONTROL Admin Console]** > **[!UICONTROL Products]**. Se *[!DNL Customer Attributes]* viene visualizzato come uno dei [!UICONTROL product profiles], è possibile iniziare.
 
-  Gli utenti aggiunti a [!DNL Customer Attributes] visualizzano la voce di menu [!DNL Customer Attributes] sul lato sinistro dell&#39;interfaccia di CX Enterprise.
+  Gli utenti aggiunti a [!DNL Customer Attributes] visualizzano la voce di menu [!DNL Customer Attributes] sul lato sinistro dell&#39;interfaccia CX Enterprise.
 
 * Per Attributi del cliente è necessaria qualsiasi versione **Adobe Target** di `at.js` o la versione 5.8 di `mbox.js` o successive.
 
-  Consulta [Come distribuire at.js](https://experienceleague.adobe.com/it/docs/target-dev/developer/client-side/overview).
+  Consulta [Come distribuire at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/overview).
 
 ## Creazione di un file di dati
 
@@ -68,7 +60,7 @@ Questi dati sono dati aziendali dei clienti provenienti dal tuo sistema CRM. Pos
 
 ## Creare un’origine di attributi e caricare il file di dati
 
-Eseguire la procedura seguente nella pagina _[!UICONTROL Create Customer Attribute Source]_&#x200B;di CX Enterprise.
+Eseguire la procedura seguente sulla pagina _[!UICONTROL Create Customer Attribute Source]_di CX Enterprise.
 
 >[!IMPORTANT]
 >
@@ -96,9 +88,9 @@ Eseguire la procedura seguente nella pagina _[!UICONTROL Create Customer Attribu
 
      L’ID alias corrisponde ad alcune aree in cui puoi impostare valori ID cliente aggiuntivi. Ad esempio:
 
-      * **Tag:** L&#39;ID alias corrisponde al valore *Integration Code* in [!UICONTROL customer Settings], nello strumento [Servizio CX Enterprise ID](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=it).
+      * **Tag:** L&#39;ID alias corrisponde al valore *Integration Code* in [!UICONTROL customer Settings], nello strumento [CX Enterprise ID Service](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=it).
 
-      * **API visitatore:** l&#39;ID alias corrisponde agli ulteriori [ID cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=it) che è possibile associare a ogni visitatore.
+      * **API visitatore:** l&#39;ID alias corrisponde agli ulteriori [ID cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) che è possibile associare a ogni visitatore.
 
         Ad esempio, *“crm_ id”* in:
 
@@ -120,7 +112,7 @@ Eseguire la procedura seguente nella pagina _[!UICONTROL Create Customer Attribu
 
         Consulta [Utilizzo di più origini dati](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB) per ulteriori informazioni sull&#39;elaborazione dei dati relativi al campo ID alias e agli ID cliente.
 
-   * **[!UICONTROL Namespace Code:]** Utilizzare questo valore per identificare l&#39;origine attributo del cliente quando si utilizza [IdentityMap](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/identity/overview) come parte di un&#39;implementazione di AEP WebSDK.
+   * **[!UICONTROL Namespace Code:]** Utilizzare questo valore per identificare l&#39;origine attributo del cliente quando si utilizza [IdentityMap](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview) come parte di un&#39;implementazione di AEP WebSDK.
 
 1. Fai clic su **[!UICONTROL Save]**.
 
@@ -146,9 +138,9 @@ Dopo aver caricato il file, i dati della tabella vengono visualizzati nell&#39;i
 
 * **[!UICONTROL Unique customer ID:]** mostra quanti ID univoci hai caricato in questa origine attributo.
 
-* **[!UICONTROL Customer-Provided IDs Aliased to CX Enterprise Visitor IDs:]** mostra quanti ID sono impostati come alias degli ID visitatore di CX Enterprise.
+* **[!UICONTROL Customer-Provided IDs Aliased to CX Enterprise Visitor IDs:]** mostra quanti ID sono stati impostati come alias degli ID visitatore aziendali CX.
 
-* **[!UICONTROL Customer-Provided IDs with High Alias Counts:]** Visualizza il numero di ID forniti dal cliente con 500 o più ID visitatore CX Enterprise con alias. Questi ID forniti dal cliente non rappresentano individui ma accessi condivisi. Il sistema distribuisce gli attributi associati a questi ID ai 500 ID visitatore di CX Enterprise con alias più recenti, fino a raggiungere la soglia di 10.000. Quindi, il sistema invalida l’ID fornito dal cliente e non distribuisce più gli attributi associati.
+* **[!UICONTROL Customer-Provided IDs with High Alias Counts:]** Visualizza il numero di ID forniti dal cliente con 500 o più ID visitatore CX Enterprise con alias. Questi ID forniti dal cliente non rappresentano individui ma accessi condivisi. Il sistema distribuisce gli attributi associati a questi ID ai 500 ID visitatore aziendale CX con alias più recenti, fino a raggiungere la soglia di 10.000. Quindi, il sistema invalida l’ID fornito dal cliente e non distribuisce più gli attributi associati.
 
 ## Convalida dello schema {#validate-schema}
 
@@ -180,7 +172,7 @@ L’esempio seguente mostra un segmento di [!DNL Analytics] basato sugli attribu
 
 ![Segmento di Analytics basato sugli attributi caricati](assets/08_crs_usecase.png)
 
-Quando pubblichi un segmento in CX Enterprise, diventa disponibile in CX Enterprise Audiences e Audience Manager.
+Quando si pubblica un segmento in CX Enterprise, questo diventa disponibile in CX Enterprise Audiences e Audience Manager.
 
 ## Usa i dati di [!DNL Customer Attributes] in Adobe Target
 

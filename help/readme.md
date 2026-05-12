@@ -1,10 +1,10 @@
 ---
 title: Istruzioni
 description: File readme istruzioni
-source-git-commit: 7392d95436664364e32f3e78f2ea3292ce8fb7e9
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 93%
+source-wordcount: '342'
+ht-degree: 92%
 
 ---
 
