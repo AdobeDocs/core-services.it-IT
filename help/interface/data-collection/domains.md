@@ -27,9 +27,9 @@ CX Enterprise utilizza i seguenti host per fornire l&#39;applicazione, migliorar
 
 Oltre ai domini elencati di seguito, i singoli prodotti Adobe CX Enterprise dispongono di domini specifici che utilizzano:
 
-* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/domains)
-* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/domains)
-* [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo)
+* [Adobe Analytics](https://experienceleague.adobe.com/it/docs/analytics/technotes/domains)
+* [Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/technotes/domains)
+* [Marketo Engage](https://experienceleague.adobe.com/it/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo)
 
 | Tecnologia | Domini |
 | --- | --- |
