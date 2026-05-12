@@ -1,6 +1,6 @@
 ---
 title: IA generativa nelle applicazioni Experience Cloud
-description: Ottieni informazioni di alto livello su come sfruttare le funzioni basate sull’intelligenza artificiale nelle applicazioni CX Enterprise.
+description: Ottieni informazioni di alto livello su dove puoi sfruttare le funzionalità basate sull’intelligenza artificiale nelle applicazioni CX Enterprise.
 solution: Experience Cloud
 landing-page-name: ai
 landing-page-breadcrumb-title: AI Documentation
@@ -9,10 +9,12 @@ topic: Artificial Intelligence
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-TQID: https://experienceleague.adobe.com/7mRkCgAhCWLxUZHj6zGC698TZPEPeetFChWoRfx5iac
+autotag-review: '2026-05-11T23:21:25.443Z'
+TQID: 'https://experienceleague.adobe.com/c6o7NcoqRE6juwlyq-SbBk43i9JXNsi6UhXHJOPfPNE'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
 feature_v2:
+  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
 subfeature_v2:
   - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
@@ -28,14 +30,18 @@ topic_v2:
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 24583e75dd85c719b8f9eb14a948f58d714c2aa6
 workflow-type: tm+mt
 source-wordcount: 3165
 ht-degree: 8%
@@ -44,11 +50,11 @@ ht-degree: 8%
 
 # IA generativa in CX Enterprise
 
-L’intelligenza artificiale generativa (genAI) in CX Enterprise consente di automatizzare le attività creative e cognitive e di migliorare la produttività. Questa pagina consente di capire dove le applicazioni CX Enterprise supportano genAI e AI Assistant e fornisce collegamenti per ulteriori informazioni su queste funzioni.
+Generative AI (genAI) in CX Enterprise consente di automatizzare le attività creative e cognitive e di migliorare la produttività. Questa pagina consente di comprendere in che modo le applicazioni CX Enterprise supportano genAI e AI Assistant e fornisce collegamenti per ulteriori informazioni su queste funzioni.
 
 >[!IMPORTANT]
 >
->Prima di utilizzare le funzionalità di intelligenza artificiale generativa di CX Enterprise, è necessario comprendere e seguire le [linee guida per l&#39;utente di Adobe CX Enterprise Generative AI](https://www.adobe.com/it/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
+>Prima di utilizzare le funzionalità di IA generativa di CX Enterprise, è necessario comprendere e seguire le [linee guida utente di IA generativa di Adobe CX Enterprise](https://www.adobe.com/it/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
 
 **Cos&#39;è genAI?**
 
@@ -62,7 +68,7 @@ L’intelligenza artificiale generativa è un tipo di intelligenza artificiale c
 
 **Che cosa è[!UICONTROL AI Assistant]?**
 
-[!UICONTROL AI Assistant] è uno strumento di intelligenza artificiale conversazionale supportato in molte applicazioni CX Enterprise. Utilizzala per acquisire rapidamente _conoscenze sul prodotto_ e _informazioni operative_, a seconda dell&#39;applicazione in uso.
+[!UICONTROL AI Assistant] è uno strumento di intelligenza artificiale conversazionale supportato in molte applicazioni aziendali CX. Utilizzala per acquisire rapidamente _conoscenze sul prodotto_ e _informazioni operative_, a seconda dell&#39;applicazione in uso.
 
 * **Conoscenza del prodotto:** La conoscenza del prodotto si riferisce a concetti e argomenti basati sulla documentazione del prodotto CX Enterprise su Experience League. Utilizza ad esempio [prompt basati su obiettivi](https://experienceleague.adobe.com/it/docs/experience-platform/ai-assistant/home) per scoprire rapidamente Experience Platform. Tutte le risposte di Experience League sono verificabili e citate con collegamenti.
 
@@ -70,7 +76,7 @@ L’intelligenza artificiale generativa è un tipo di intelligenza artificiale c
 
 >[!NOTE]
 >
->Molte applicazioni CX Enterprise utilizzano _Assistente AI_ come nome di funzionalità (come descritto di seguito). Tuttavia, questa funzione richiama le informazioni solo per l’applicazione specifica in uso. Ad esempio, l’Assistente AI in AEM fornisce informazioni pertinenti e utili relative ad AEM.
+>Molte applicazioni CX Enterprise utilizzano _AI Assistant_ come nome di funzione (come descritto di seguito). Tuttavia, questa funzione richiama le informazioni solo per l’applicazione specifica in uso. Ad esempio, l’Assistente AI in AEM fornisce informazioni pertinenti e utili relative ad AEM.
 
 [!BADGE Ulteriori informazioni]{type=Informative url="https://experienceleague.adobe.com/it/docs/experience-platform/ai-assistant/landing" tooltip="Vai a Assistente AI"}
 
@@ -109,7 +115,7 @@ Di seguito è riportata una raccolta di [!DNL CX Enterprise] applicazioni che ut
 | [Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/ai-assistant/landing) | Assistente AI per conoscenze di prodotto e approfondimenti operativi. | No |
 | [Adobe Journey Optimizer](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/get-started/ai-assistant) | Assistente AI per conoscenze di prodotto e approfondimenti operativi. | No |
 | | _AJO Prime_ e _Ultimate_ offrono [Generazione di contenuti](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative?lang=en) per portare suggerimenti di varianti di contenuti proattivi per testo e immagini. | Sì |
-| [Adobe Journey Optimizer B2B Edition](https://experienceleague.adobe.com/it/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview) | Assistente AI per la conoscenza del prodotto. | No |
+| [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/it/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview) | Assistente AI per la conoscenza del prodotto. | No |
 | [[!DNL Campaign] Servizi cloud gestiti](https://experienceleague.adobe.com/it/docs/campaign-web/v8/content/ai-assistant/generative-gs) | Assistente AI per Content Accelerator per generare automaticamente contenuti personalizzati, coinvolgenti ed efficaci in base agli obiettivi di marketing su canali quali e-mail, SMS e push. | Sì |
 | **[!DNL Customer Journey Analytics]** | GenAI viene utilizzato con:<ul><li> [Didascalie intelligenti](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions?lang=en): per approfondimenti sulle visualizzazioni di Workspace più utilizzate.</li><li>[Content Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/content-analytics/report/report?lang=en#template): per assegnare automaticamente i metadati delle risorse.</li></ul> Assistente AI per:<ul><li>[Conoscenza del prodotto](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant?lang=en) </li><li>[Agente di supporto del prodotto](agentic-ai.md) </li><li>[Data Insights Agent](agentic-ai.md)</li></ul> | No |
 | [Real-Time CDP](https://experienceleague.adobe.com/it/docs/experience-platform/ai-assistant/home) | Assistente AI per la conoscenza del prodotto da Experience League. Offre inoltre informazioni operative. | No |
@@ -119,7 +125,7 @@ Di seguito è riportata una raccolta di [!DNL CX Enterprise] applicazioni che ut
 
 **Nota:** [!DNL Experience Platform Agents] sono descritti in [agenti di IA in CX Enterprise](agentic-ai.md).
 
-## Come posso utilizzare l’intelligenza artificiale generativa in CX Enterprise?
+## Come posso utilizzare l&#39;intelligenza artificiale generativa in CX Enterprise?
 
 Nelle sezioni seguenti vengono fornite informazioni più dettagliate su come utilizzare genAI o AI Assistant in applicazioni specifiche. Vengono forniti collegamenti per saperne di più.
 
@@ -273,7 +279,7 @@ Questa funzione è disponibile per e-mail, notifiche push, pagine web, contenuti
 
 +++Dettagli
 
-Journey Optimizer B2B Edition utilizza [!UICONTROL AI Assistant] per aiutarti con la conoscenza del prodotto.
+Journey Optimizer B2B edition utilizza [!UICONTROL AI Assistant] per aiutarti con la conoscenza del prodotto.
 
 Esempio di input:
 
