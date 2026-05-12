@@ -1,6 +1,6 @@
 ---
 title: Informazioni su [!DNL Customer Attributes]
-description: Informazioni su [!DNL Customer Attributes]  in Adobe CX Enterprise. Scopri come caricare i dati degli attributi del cliente da utilizzare in Adobe Analytics e Adobe Target.
+description: Informazioni su  [!DNL Customer Attributes]  in Adobe CX Enterprise. Scopri come caricare i dati degli attributi del cliente da utilizzare in Adobe Analytics e Adobe Target.
 solution: Analytics
 feature: Customer Attributes
 role: Admin
@@ -23,7 +23,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 313
 ht-degree: 47%
@@ -34,7 +34,7 @@ ht-degree: 47%
 
 **[!UICONTROL Apps]** ![menu](assets/menu-icon.png) > **[!DNL Customer Attributes]**
 
-[!DNL Customer Attributes] in Adobe CX Enterprise consente di caricare i dati aziendali acquisiti da un database di gestione delle relazioni con i clienti (CRM). È possibile [caricare i dati](t-crs-usecase.md) in un&#39;origine dati [!DNL Customer Attributes] in CX Enterprise, quindi utilizzare i dati in [!DNL Adobe Analytics] e [!DNL Adobe Target].
+[!DNL Customer Attributes] in Adobe CX Enterprise consente di caricare i dati aziendali acquisiti da un database CRM (Customer Relationship Management). È possibile [caricare i dati](t-crs-usecase.md) in un&#39;origine dati [!DNL Customer Attributes] in CX Enterprise, quindi utilizzare i dati in [!DNL Adobe Analytics] e [!DNL Adobe Target].
 
 ![Panoramica degli Attributi del cliente](assets/custom_reports.png)
 
@@ -52,7 +52,7 @@ Consulta [Caricare i dati degli attributi del cliente](t-crs-usecase.md) per con
 
 ## Esempi di Attributi del cliente in Analytics e Target
 
-Una volta che i dati risiedono in CX Enterprise, puoi personalizzarli e condividerli con soluzioni per reporting, segmentazione, attività e campagne.
+Una volta che i dati risiedono in CX Enterprise, è possibile personalizzarli e condividerli con soluzioni per reporting, segmentazione, attività e campagne.
 
 Ad esempio:
 

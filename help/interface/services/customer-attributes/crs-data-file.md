@@ -1,5 +1,5 @@
 ---
-description: Scopri i requisiti dei file di dati e le diverse origini dati per caricare i dati in [!DNL Customer Attributes] su CX Enterprise.
+description: Scopri i requisiti dei file di dati e le diverse origini dati per caricare i dati in [!DNL Customer Attributes] a CX Enterprise.
 solution: Experience Cloud
 title: File di dati di attributi cliente e origini dati
 feature: Customer Attributes
@@ -19,7 +19,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 1182
 ht-degree: 57%
@@ -28,7 +28,7 @@ ht-degree: 57%
 
 # Origini e file di dati Attributi del cliente
 
-Requisiti dei file di dati e diverse origini dati per caricare i dati degli attributi del cliente in CX Enterprise.
+Requisiti dei file di dati e diverse origini dati per il caricamento dei dati degli attributi del cliente su CX Enterprise.
 
 Devi poter accedere ai dati del sistema CRM, o simili, della tua azienda. I dati caricati in CX Enterprise devono essere un file `.csv`. Se effettui il caricamento mediante FTP o sFTP, puoi caricare anche un file `.fin`.
 
@@ -78,7 +78,7 @@ Lo stesso file visualizzato in un editor di testo:
   </tr> 
   <tr> 
    <td colname="col1"> <p>limiti degli attributi </p> </td> 
-   <td colname="col2"> <p>In CX Enterprise è possibile caricare centinaia di <span class="filepath"> colonne .csv </span> nel servizio attributo cliente. Tuttavia, quando configuri le sottoscrizioni e selezioni gli attributi, si applicano i seguenti limiti a seconda delle applicazioni che possiedi: </p> <p> 
+   <td colname="col2"> <p>È possibile caricare centinaia di <span class="filepath"> colonne .csv </span> nel servizio attributo cliente di CX Enterprise. Tuttavia, quando configuri le sottoscrizioni e selezioni gli attributi, si applicano i seguenti limiti a seconda delle applicazioni che possiedi: </p> <p> 
      <ul id="ul_2BB85067918D4BB3B59394F3E3E37A6D"> 
       <li id="li_93703988B9934384B4B94A839D028380"> <b>Analytics Standard</b>: 3 totali </li> 
       <li id="li_D1E5E7BD24C54591B14D15DE97447835"> <b>Analytics Premium</b>: 200 per suite di rapporti </li> 
@@ -122,7 +122,7 @@ Lo stesso file visualizzato in un editor di testo:
   </tr> 
    <tr> 
    <td colname="col1"> <p>Dati storici </p> </td> 
-   <td colname="col2"> <p> Attributi del cliente associati al profilo del visitatore sottostante in [!DNL Analytics]. Di conseguenza, [!DNL Customer Attributes] sono associati al visitatore per l'intera durata del profilo del visitatore in [!DNL Analytics]. Questo profilo include il comportamento precedente al primo accesso del cliente. </p> <p> Se utilizzi il metodo di recupero dati Data Warehouse, i dati vengono associati a un valore post_visid_high/low basato sull’ID di Analytics (AID). Se utilizzi il servizio CX Enterprise ID, i dati sono legati a un post_visid_high/low basato sull’ID CX Enterprise (MID). </p> <p> Il metodo di backfill Data Warehouse non sarà più disponibile a partire da ottobre 2022. </td> 
+   <td colname="col2"> <p> Attributi del cliente associati al profilo del visitatore sottostante in [!DNL Analytics]. Di conseguenza, [!DNL Customer Attributes] sono associati al visitatore per l'intera durata del profilo del visitatore in [!DNL Analytics]. Questo profilo include il comportamento precedente al primo accesso del cliente. </p> <p> Se utilizzi il metodo di recupero dati Data Warehouse, i dati vengono associati a un valore post_visid_high/low basato sull’ID di Analytics (AID). Se utilizzi il servizio CX Enterprise ID, i dati sono legati a un post_visid_high/low basato su CX Enterprise ID (MID). </p> <p> Il metodo di backfill Data Warehouse non sarà più disponibile a partire da ottobre 2022. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Feed di dati </p> </td> 

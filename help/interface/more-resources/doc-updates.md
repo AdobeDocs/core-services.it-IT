@@ -1,5 +1,5 @@
 ---
-description: Scopri dove si verificano gli aggiornamenti della documentazione per i componenti dell’interfaccia comune di CX Enterprise.
+description: Scopri dove si verificano gli aggiornamenti della documentazione per i componenti di interfaccia comuni di CX Enterprise.
 solution: Experience Cloud
 title: Aggiornamenti alla documentazione
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
@@ -23,7 +23,7 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 656
 ht-degree: 45%
@@ -32,7 +32,7 @@ ht-degree: 45%
 
 # Aggiornamenti alla documentazione
 
-Scopri dove si verificano gli aggiornamenti alla documentazione per l’interfaccia centrale e l’amministrazione di CX Enterprise.
+Scopri dove si verificano gli aggiornamenti della documentazione per l’interfaccia centrale e l’amministrazione di CX Enterprise.
 
 **Marzo 2026**
 
@@ -40,7 +40,7 @@ Aggiunto [Processi di IA e consumo crediti](../features/ai-credit-consumption.md
 
 **Novembre 2025**
 
-Aggiornamenti di [IA per l&#39;agente in CX Enterprise](../features/agentic-ai.md)
+Aggiornamenti di [Agentic AI in CX Enterprise](../features/agentic-ai.md)
 
 **Ottobre 2025**
 
@@ -66,7 +66,7 @@ Aggiornamenti a [Dati sull&#39;utilizzo del prodotto](../features/account-prefer
 
 **26 aprile 2024**
 
-Aggiornamento completo dell’architettura della documentazione. Sono stati aggiunti anche [indirizzi IP Adobe CX Enterprise](../data-collection/ip-addresses.md) e [Raccolta dati regionali](../data-collection/rdc.md).
+Aggiornamento completo dell’architettura della documentazione. Sono stati aggiunti anche [indirizzi IP aziendali di Adobe CX](../data-collection/ip-addresses.md) e [Raccolta dati regionali](../data-collection/rdc.md).
 
 **9 aprile 2024**
 
@@ -88,7 +88,7 @@ Sono state aggiornate le [domande frequenti sull’amministrazione](faq.md) con 
 
 | Funzione | Descrizione |
 | ------- | ------- |
-| Pagina Home | Le informazioni sul piè di pagina della home page di CX Enterprise sono state spostate nella scheda del profilo utente, incluse le Note legali e la selezione della lingua in Preferenze. |
+| Pagina Home | Le informazioni relative al piè di pagina della home page di CX Enterprise sono state spostate nella scheda del profilo utente, incluse le Note legali e la selezione della lingua in Preferenze. |
 | Dashboard AEP | [!DNL Helios Lite] fornisce consigli sui grafici all’interno del flusso di lavoro di creazione dei widget di Experience Platform. Data una selezione dei dati (attualmente selezione di dati con una singola variabile), Helios consiglia una visualizzazione appropriata per accompagnarla. |
 | Dashboard AEP | [!DNL Instory] fornisce narrazioni scritte basate su apprendimento automatico e didascalie per i grafici. Decora grafici nella pagina AEP Dashboards con punti elenco pertinenti che richiamano importanti modifiche e incidenti nei dati grafici. |
 
@@ -97,7 +97,7 @@ Sono state aggiornate le [domande frequenti sull’amministrazione](faq.md) con 
 | Funzione | Descrizione |
 | ------- | ------- |
 | Ricerca unificata | La ricerca unificata continua ad aggiungere tipi di oggetti all’indice di ricerca. In questo aggiornamento, la ricerca globale ora cerca tra il contenuto di Experience League e i seguenti tipi di oggetti Journey Optimizer: <ul><li>Set di dati</li><li>Destinazioni</li><li>Query</li><li>Schemi</li><li>Segmenti</li><li>Origini</li><li>Offerte</li><li>Componenti</li><li>Messaggi</li><li>Percorsi</li></ul> |
-| Consenso dei dati di utilizzo del prodotto | Dopo l’accesso iniziale, ti viene chiesto di inviare preferenze su come Adobe può fornire contenuti utili e personalizzati, come tutorial, guide, suggerimenti rapidi, consigli, video di apprendimento e altro ancora, in base ai dati di utilizzo del prodotto CX Enterprise. Questa richiesta include anche un aggiornamento delle tue preferenze per la raccolta e l’utilizzo di questi dati in <https://experience.adobe.com/preferences>. |
+| Consenso dei dati di utilizzo del prodotto | Dopo l&#39;accesso iniziale, viene richiesto di inviare le preferenze relative al modo in cui Adobe può fornire contenuti utili e personalizzati, come tutorial, guide, suggerimenti rapidi, consigli, video di apprendimento e altro ancora, in base ai dati di utilizzo del prodotto CX Enterprise. Questa richiesta include anche un aggiornamento delle tue preferenze per la raccolta e l’utilizzo di questi dati in <https://experience.adobe.com/preferences>. |
 
 **24 agosto 2021**
 
@@ -117,7 +117,7 @@ Struttura della guida riorganizzata, sommario.
 
 **19 agosto 2020**
 
-Aggiornamento di [Visualizza dettagli utente di CX Enterprise (Admin Tool)](../administration/admin-tool-experience-cloud.md) con informazioni sui criteri.
+Aggiornamento di [Visualizza i dettagli utente di CX Enterprise (Admin Tool)](../administration/admin-tool-experience-cloud.md) con informazioni sui criteri.
 
 **19 maggio 2020**
 
@@ -136,7 +136,7 @@ Aggiornamento di [Convalida dell&#39;inoltro nome host](../data-collection/adobe
 
 **20 febbraio 2020**
 
-Aggiunto [Visualizza dettagli utente di CX Enterprise (Admin Tool)](../administration/admin-tool-experience-cloud.md).
+Aggiunto [Visualizza i dettagli utente di CX Enterprise (Admin Tool)](../administration/admin-tool-experience-cloud.md).
 
 **Aggiornato: 05/09/2018**
 
@@ -164,7 +164,7 @@ Aggiornata la definizione dei dati grezzi di Analytics in [Creazione di un pubbl
 
 **9 maggio 2016**
 
-Aggiunta [Integrazioni CX Enterprise](../administration/integrations.md), una raccolta di documenti dedicati all&#39;integrazione.
+Aggiunta [Integrazioni aziendali CX](../administration/integrations.md), una raccolta di documenti dedicati all&#39;integrazione.
 
 **11 febbraio 2016**
 
@@ -176,7 +176,7 @@ Aggiunto [CX Enterprise Assets](../services/assets/experience-cloud-assets.md).
 
 **17 luglio 2014**
 
-Aggiunta [Domande frequenti su CX Enterprise](faq.md) per amministratori.
+Aggiunta [Domande frequenti su CX Enterprise](faq.md) per gli amministratori.
 
 **22 maggio 2014**
 

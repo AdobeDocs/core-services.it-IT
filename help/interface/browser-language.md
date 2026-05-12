@@ -1,6 +1,6 @@
 ---
 title: Browser e lingue supportati
-description: Scopri il supporto del browser e della lingua per le applicazioni CX Enterprise. Seleziona una lingua primaria e secondaria nel profilo dell’account.
+description: Informazioni sul supporto di browser e lingue per le applicazioni CX Enterprise. Seleziona una lingua primaria e secondaria nel profilo dell’account.
 solution: Experience Cloud
 feature: Account Preferences
 topic: Administration
@@ -21,7 +21,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 242
 ht-degree: 40%
@@ -30,7 +30,7 @@ ht-degree: 40%
 
 # Supporto di browser e lingue in CX Enterprise
 
-Per prestazioni ottimali, CX Enterprise è ottimizzato per i browser più diffusi, inclusa l’ultima versione e le due versioni precedenti.
+Per ottenere prestazioni ottimali, CX Enterprise è ottimizzato per i browser più diffusi, inclusa l&#39;ultima versione e le due versioni precedenti.
 
 * Chrome
 * Edge
@@ -46,7 +46,7 @@ Se il tuo browser non è elencato, potrebbe comunque essere supportato, ma si co
 
 ## Supporto delle lingue in CX Enterprise
 
-L’interfaccia utente di CX Enterprise è disponibile nelle seguenti lingue:
+L&#39;interfaccia utente di CX Enterprise è disponibile nelle seguenti lingue:
 
 * Inglese (Stati Uniti)
 * Francese (Francia)

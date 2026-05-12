@@ -19,7 +19,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 111
 ht-degree: 53%
@@ -28,7 +28,7 @@ ht-degree: 53%
 
 # Gestione degli utenti di Creative Cloud
 
-CX Enterprise fornisce strumenti amministrativi per la gestione degli utenti Creative Cloud approvati. Questi utenti possono essere invitati su base ad hoc per la cartella di una campagna. Solo gli utenti che sono stati aggiunti all’elenco da un amministratore possono essere invitati a una campagna. Gli utenti aggiunti vengono visualizzati nell’elenco di utenti compilato automaticamente in CX Enterprise.
+CX Enterprise fornisce strumenti amministrativi per la gestione degli utenti approvati di Creative Cloud. Questi utenti possono essere invitati su base ad hoc per la cartella di una campagna. Solo gli utenti che sono stati aggiunti all’elenco da un amministratore possono essere invitati a una campagna. Gli utenti aggiunti vengono visualizzati nell&#39;elenco di utenti compilato automaticamente in CX Enterprise.
 
 >[!NOTE]
 >

@@ -22,7 +22,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 370
 ht-degree: 77%
@@ -45,7 +45,7 @@ Adobe CX Enterprise utilizza i cookie per memorizzare un ID visitatore utilizzat
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Informazioni memorizzate </p> </td> 
-   <td colname="col2"> <p> Contiene una copia del CX Enterprise ID (ECID) o MID. Il MID viene memorizzato in una coppia chiave/valore con sintassi s_ecid=MCMID|&lt;ECID&gt; </p> </td> 
+   <td colname="col2"> <p> Contiene una copia di CX Enterprise ID (ECID) o MID. Il MID viene memorizzato in una coppia chiave/valore con sintassi s_ecid=MCMID|&lt;ECID&gt; </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Scadenza </p> </td> 
@@ -86,7 +86,7 @@ Consulta anche [Cookie e il servizio ID](https://experienceleague.adobe.com/docs
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Informazioni memorizzate </p> </td> 
-   <td colname="col2"> <p> ID visitatore univoci utilizzati dalle soluzioni CX Enterprise. </p> </td> 
+   <td colname="col2"> <p> ID visitatore univoci utilizzati dalle soluzioni aziendali CX. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Scadenza </p> </td> 

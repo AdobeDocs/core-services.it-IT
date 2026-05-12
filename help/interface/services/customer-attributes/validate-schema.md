@@ -21,7 +21,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 308
 ht-degree: 43%
@@ -60,10 +60,10 @@ Uno schema viene creato in base a queste impostazioni. Lo schema viene utilizzat
 
 * **[!UICONTROL FTP Setup:]** Crea il tuo account FTP per [caricare i tuoi dati tramite FTP](t-upload-attributes-ftp.md) (facoltativo).
 
-* **[!UICONTROL ID Lookup:]** Immetti un ID cliente (CID) da `.csv` per cercare informazioni di CX Enterprise per l&#39;ID. Questa funzionalità è utile per risolvere i problemi relativi alla mancata visualizzazione dei dati attributo di un visitatore:
+* **[!UICONTROL ID Lookup:]** Immettere un ID cliente (CID) da `.csv` per ricercare le informazioni di CX Enterprise per l&#39;ID. Questa funzionalità è utile per risolvere i problemi relativi alla mancata visualizzazione dei dati attributo di un visitatore:
 
-   * **[!UICONTROL ECID (CX Enterprise ID):]** Indica se stai utilizzando il servizio CX Enterprise ID più recente. Se ti trovi nel servizio MCID ma non è elencato alcun ID, CX Enterprise non ha ricevuto un alias per quel CID. Ciò significa che il visitatore non ha effettuato l&#39;accesso o la tua implementazione non trasmette quell&#39;ID.
+   * **[!UICONTROL ECID (CX Enterprise ID):]** Indica se si sta utilizzando il servizio CX Enterprise ID più recente. Se si utilizza il servizio MCID ma non sono elencati ID, CX Enterprise non ha ricevuto un alias per quel CID. Ciò significa che il visitatore non ha effettuato l&#39;accesso o la tua implementazione non trasmette quell&#39;ID.
 
    * **[!UICONTROL CID (customer ID):]** Attributi associati a questo CID. Se stai usando una prop o un&#39;eVar per caricare CID (AVID) e sono visualizzati degli attributi ma nessun AVID, significa che il visitatore non ha effettuato l&#39;accesso al tuo sito.
 
-   * **[!UICONTROL AVID (Analytics visitor ID):]** mostra se utilizzi una prop o eVar per caricare CID. Se questi ID vengono passati a CX Enterprise, tutti gli ID visitatore associati al CID che hai inserito vengono visualizzati qui.
+   * **[!UICONTROL AVID (Analytics visitor ID):]** mostra se utilizzi una prop o eVar per caricare CID. Se tali ID vengono passati a CX Enterprise, tutti gli ID visitatore associati al CID inserito vengono visualizzati qui.

@@ -1,15 +1,15 @@
 ---
 title: Processi agente e consumo credito IA
-description: Scopri i processi degli agenti e i tassi di consumo di credito AI nelle applicazioni CX Enterprise.
+description: Scopri i processi degli agenti e i tassi di consumo dei crediti IA nelle applicazioni CX Enterprise.
 solution: Experience Cloud
 topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: '1055'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 4%
 
 Aggiornato: **5 marzo 2026**
 
-Scopri i processi di intelligenza artificiale e il consumo di crediti di intelligenza artificiale nelle applicazioni CX Enterprise. Per informazioni sull&#39;abilitazione delle funzionalità di IA per l&#39;agente nelle applicazioni CX Enterprise esistenti, vedere [IA per l&#39;agente in CX Enterprise](agentic-ai.md#existing-apps).
+Scopri i processi di intelligenza artificiale e il consumo di crediti di intelligenza artificiale nelle applicazioni aziendali CX. Per informazioni sull&#39;abilitazione delle funzionalità di IA per l&#39;agente nelle applicazioni CX Enterprise esistenti, vedere [IA per l&#39;agente in CX Enterprise](agentic-ai.md#existing-apps).
 
 ## Processi agente
 
 Un _processo agente_ è una serie di attività e azioni eseguite da un agente per ottenere un risultato specifico, come indicato dagli input del cliente.
 
-Utilizzando i prompt del linguaggio naturale tramite l’Assistente AI, puoi chiedere agli agenti di eseguire lavori specifici. In base a tali input, Agent Orchestrator coordina gli agenti appropriati per eseguire ogni passaggio all’interno delle applicazioni CX Enterprise pertinenti.
+Utilizzando i prompt del linguaggio naturale tramite l’Assistente AI, puoi chiedere agli agenti di eseguire lavori specifici. In base a questi input, Agent Orchestrator coordina gli agenti appropriati per eseguire ogni passaggio all&#39;interno delle applicazioni aziendali CX.
 
 ## Crediti IA
 
@@ -66,5 +66,5 @@ L’utilizzo del credito di IA può variare a seconda della complessità e del v
 ## Ulteriori informazioni su questo argomento
 
 * [GenAI in CX Enterprise](/help/interface/features/generative-ai.md)
-* [IA agente in CX Enterprise](/help/interface/features/agentic-ai.md)
+* [Agentic AI in CX Enterprise](/help/interface/features/agentic-ai.md)
 * [Versione di prova per agenti Adobe Experience Platform associata all&#39;utilizzo](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)

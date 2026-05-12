@@ -14,7 +14,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a42153ba5a885509e7735e7407e38586fcabb0ad
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 407
 ht-degree: 82%
@@ -31,7 +31,7 @@ Questa pagina descrive come [!DNL Customer Attributes] supportino il regolamento
 
 Il [regolamento generale sulla protezione dei dati](https://business.adobe.com/it/privacy/general-data-protection-regulation.html), una legge in vigore dal 25 maggio 2018, conferisce a tutte le persone (soggetti dei dati) all&#39;interno dei confini dell&#39;Unione europea (Ue) il controllo dei loro dati personali. Semplifica inoltre il contesto normativo per le aziende internazionali. La presente legge si applica a tutte le aziende (titolari del trattamento dei dati) che offrono beni o servizi, che controllano il comportamento o raccolgono dati personali da soggetti all’interno dei confini dell’Ue nel momento in cui i loro dati personali vengono trattati, indipendentemente dalla sede del titolare del trattamento.
 
-Adobe CX Enterprise agisce come responsabile del trattamento per tutti i dati personali che riceve e archivia per conto dei propri clienti. In qualità di titolare del trattamento dei dati, l’utente determina i dati personali che Adobe CX Enterprise tratta e archivia per suo conto.
+Adobe CX Enterprise agisce come responsabile del trattamento per tutti i dati personali che riceve e archivia per conto dei propri clienti. In qualità di titolare del trattamento dei dati, l&#39;utente determina i dati personali che Adobe CX Enterprise elabora e archivia per suo conto.
 
 In questo documento viene descritto come [!DNL Customer Attributes] supporti i diritti all’accesso e all’eliminazione dei dati degli interessati ai sensi del GDPR tramite l’API di Privacy Service di Adobe Experience Platform e l’interfaccia utente di Privacy Service.
 

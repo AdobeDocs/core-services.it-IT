@@ -24,14 +24,14 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 697
 ht-degree: 71%
 
 ---
 
-# CX Enterprise Triggers
+# Trigger di CX Enterprise
 
 [!UICONTROL Triggers] in CX Enterprise consente di identificare, definire e monitorare i comportamenti chiave dei consumatori, per poi generare comunicazioni tra le diverse applicazioni in modo da coinvolgere nuovamente i visitatori. Puoi utilizzare i trigger nelle decisioni in tempo reale e nella personalizzazione.
 
@@ -63,7 +63,7 @@ Crea un trigger e configurane le condizioni. Ad esempio, puoi specificare i crit
 >
 >Esiste attualmente un limite tecnico di 100 trigger.
 
-1. In CX Enterprise, fai clic su ![menu](../assets/menu-icon.png), quindi su **[!UICONTROL Data Collection/Launch]**.
+1. In CX Enterprise, fare clic su ![menu](../assets/menu-icon.png), quindi su **[!UICONTROL Data Collection/Launch]**.
 1. Sulla scheda [!UICONTROL Triggers], fare clic su **[!UICONTROL Manage Triggers]**.
 1. Fare clic su **[!UICONTROL New Trigger]**, quindi specificare il tipo di trigger:
 

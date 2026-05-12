@@ -15,7 +15,7 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 624
 ht-degree: 8%
@@ -51,9 +51,9 @@ Ecco una versione semplificata del testo:
 
 ## Cookie e privacy
 
-Adobe prende sul serio la privacy e la sicurezza dei dati. Funziona con organizzazioni per la privacy, enti normativi e programmi come AdChoices per dare alle persone il controllo su come vengono utilizzati i loro dati.
+Adobe prende sul serio la privacy e la sicurezza dei dati. Funziona con organizzazioni che si occupano di privacy, enti normativi e programmi come AdChoices per dare alle persone il controllo su come vengono utilizzati i loro dati.
 
-La maggior parte dei cookie di Adobe CX Enterprise non memorizza informazioni personali. Sono sicure e utilizzate solo dalla tua azienda, per reportistica, contenuti e pubblicità. Adobe non condivide questi dati con altri clienti o terze parti, ad eccezione dei rapporti anonimi a livello di settore (come i rapporti di Digital Marketing Insight).
+La maggior parte dei cookie di Adobe CX Enterprise non archivia dati personali. Sono sicure e utilizzate solo dalla tua azienda, per reportistica, contenuti e pubblicità. Adobe non condivide questi dati con altri clienti o terze parti, ad eccezione dei rapporti anonimi a livello di settore (come i rapporti di Digital Marketing Insight).
 
 Adobe non combina i dati del browser tra diverse aziende. Per proteggere la privacy, alcuni strumenti di Adobe consentono a ogni sito web di utilizzare il proprio set di cookie. Alcuni consentono anche di utilizzare il tuo dominio per i cookie, rendendoli di prima parte e più sicuri.
 

@@ -1,5 +1,5 @@
 ---
-description: Scopri la gestione di utenti e prodotti CX Enterprise, tipi di pubblico, attributi del cliente, Journey Orchestration, offerte, Places, Experience Platform e Mobile Services.
+description: Scopri la gestione di prodotti e utenti CX Enterprise, tipi di pubblico, attributi del cliente, Journey Orchestration, offerte, Places, Experience Platform e Mobile Services.
 solution: Experience Cloud
 title: Panoramica dei servizi Experience Cloud
 feature: Central Interface Components
@@ -23,25 +23,25 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 346
 ht-degree: 36%
 
 ---
 
-# Panoramica dell’interfaccia di CX Enterprise
+# Panoramica dell&#39;interfaccia di CX Enterprise
 
 Le funzionalità dell&#39;interfaccia di CX Enterprise sono talvolta denominate _servizi principali_. Si tratta delle funzionalità di intestazione unificata, incluso il servizio [!DNL People] ([!DNL Audience Library] e [!DNL Customer Attributes]).
 
-Altre funzioni condivise includono l’amministrazione (gestione di utenti e prodotti) per CX Enterprise, cookie, preferenze dell’account, notifiche e così via.
+Altre funzioni condivise includono l&#39;amministrazione (gestione di utenti e prodotti) per CX Enterprise, i cookie, le preferenze dell&#39;account, le notifiche e così via.
 
 Per accedere ai servizi e alle applicazioni condivisi in CX Enterprise, fare clic sul pulsante **[!UICONTROL Application Selector]**
 ![Selettore servizi](../assets/apps-icon.png).
 
 **Selettore applicazioni**
 
-![Servizi CX Enterprise](../assets/platform-core-services.png)
+![Servizi aziendali CX](../assets/platform-core-services.png)
 
 Le pagine Servizi in questa guida descrivono i prodotti e i servizi seguenti:
 

@@ -21,16 +21,16 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 451
 ht-degree: 38%
 
 ---
 
-# Condividere una cartella di risorse CX Enterprise
+# Condivisione di una cartella di risorse CX Enterprise
 
-Condividere cartelle e risorse tra CX Enterprise e Creative Cloud. Collabora, commenta risorse condivise e utilizzale in applicazioni CX Enterprise come Adobe Target. La cartella condivisa deve provenire da CX Enterprise.
+Condivisione di cartelle e risorse tra CX Enterprise e Creative Cloud. Collaborazione, annotazione di risorse condivise e loro utilizzo in applicazioni CX Enterprise come Adobe Target. La cartella condivisa deve provenire da CX Enterprise.
 
 **Vantaggi della condivisione**
 
@@ -40,9 +40,9 @@ Condividere cartelle e risorse tra CX Enterprise e Creative Cloud. Collabora, co
 * Maggiore sicurezza aziendale
 * Semplificazione di condivisione, salvataggio e invio di file tra creativi ed esperti marketing
 
-Prima che gli utenti di Creative Cloud possano accedere alle risorse, devono essere inseriti nell’elenco Consentiti in CX Enterprise. Vedi [Gestione degli utenti di Creative Cloud](manage-cc-users.md).
+Prima di poter accedere alle risorse, gli utenti di Creative Cloud devono essere inseriti nell&#39;elenco Consentiti di CX Enterprise. Vedi [Gestione degli utenti di Creative Cloud](manage-cc-users.md).
 
-**Per condividere una cartella di risorse di CX Enterprise**
+**Per condividere una cartella di risorse CX Enterprise**
 
 1. In una cartella di risorse, fare clic su **[!UICONTROL Share to Creative Cloud]**.
 
@@ -67,7 +67,7 @@ Prima che gli utenti di Creative Cloud possano accedere alle risorse, devono ess
 
    ![Aggiungi un commento all’immagine](../../assets/asset_comment_cc.png)
 
-   In CX Enterprise, seleziona un’immagine, quindi seleziona l’icona della cronologia per aggiungere un commento all’immagine. I commenti vengono sincronizzati sulle risorse in Creative Cloud e CX Enterprise.
+   In CX Enterprise, selezionare un&#39;immagine, quindi selezionare l&#39;icona relativa alla cronologia per aggiungere un commento all&#39;immagine. I commenti vengono sincronizzati sulle risorse in Creative Cloud e CX Enterprise.
 
    ![Aggiungi un commento all’immagine](../../assets/asset_comment_mac.png)
 

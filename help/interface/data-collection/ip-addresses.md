@@ -11,7 +11,7 @@ role_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a42153ba5a885509e7735e7407e38586fcabb0ad
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 426
 ht-degree: 8%
@@ -53,8 +53,8 @@ La tabella seguente descrive tutti gli indirizzi IP di proprietà di Adobe. Ques
 
 Se la tua organizzazione preferisce consentire intervalli di indirizzi IP specifici, puoi fare riferimento alla tabella seguente. Include:
 
-* Server di raccolta dati per tutti i prodotti CX Enterprise
-* Server FTP per tutti i prodotti CX Enterprise
+* Server di raccolta dati per tutti i prodotti aziendali CX
+* Server FTP per tutti i prodotti aziendali CX
 
 Tutti gli intervalli IP in questa sezione sono inclusi nella tabella precedente.
 

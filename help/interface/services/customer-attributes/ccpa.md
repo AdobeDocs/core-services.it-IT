@@ -14,7 +14,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a42153ba5a885509e7735e7407e38586fcabb0ad
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 402
 ht-degree: 52%
@@ -31,9 +31,9 @@ Questa pagina descrive il supporto di [!DNL Customer Attributes] per il Californ
 
 Il CCPA è la nuova legge sulla privacy della California, in vigore dal 1° gennaio 2020. Esso garantisce ai residenti della California nuovi diritti in merito alle loro informazioni personali e impone responsabilità in materia di protezione dei dati a determinate entità che conducono attività commerciali in California. Il CCPA garantisce ai consumatori il diritto di accedere ai propri dati personali e di cancellarli, nonché il diritto di non partecipare a determinate attività che possono essere considerate di &quot;vendita&quot; di informazioni personali a terzi.
 
-In qualità di azienda, puoi determinare i dati personali che Adobe CX Enterprise tratta e archivia per tuo conto.
+In qualità di azienda, è possibile determinare i dati personali che Adobe CX Enterprise elabora e archivia per proprio conto.
 
-In qualità di fornitore di servizi, Adobe CX Enterprise fornisce supporto alla vostra azienda per l&#39;adempimento degli obblighi derivanti dal CCPA applicabili all&#39;uso di prodotti e servizi CX Enterprise. Questo supporto include la gestione delle richieste di accesso e la cancellazione delle informazioni personali.
+In qualità di fornitore di servizi, Adobe CX Enterprise fornisce supporto alla tua azienda per l&#39;adempimento dei suoi obblighi in base al CCPA applicabili all&#39;utilizzo di prodotti e servizi CX Enterprise. Questo supporto include la gestione delle richieste di accesso e la cancellazione delle informazioni personali.
 
 In questo documento viene descritto come [!DNL Customer Attributes] supporta i diritti di accesso e di eliminazione dei dati degli interessati ai sensi del CCPA tramite l&#39;API Adobe Experience Platform Privacy Service e l&#39;interfaccia utente di Privacy Service.
 

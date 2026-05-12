@@ -19,7 +19,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a42153ba5a885509e7735e7407e38586fcabb0ad
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 408
 ht-degree: 47%
@@ -42,7 +42,7 @@ Ad esempio, una sottoscrizione Adobe Analytics abilita i dati degli attributi ne
 
 1. Fai clic su **[!UICONTROL Configure Subscriptions]**.
 
-   ![Configurare le sottoscrizioni in CX Enterprise](assets/configure-subscriptions.png)
+   ![Configurazione delle sottoscrizioni in CX Enterprise](assets/configure-subscriptions.png)
 
 1. Per attivare l&#39;origine attributo del cliente, fare clic su **[!UICONTROL Active]**, quindi su **[!UICONTROL Save]**.
 

@@ -1,5 +1,5 @@
 ---
-description: Scopri come sono supportati i browser e le risposte alle domande più frequenti per gli amministratori di Adobe CX Enterprise.
+description: Scopri il supporto del browser e le risposte alle domande più frequenti per gli amministratori di Adobe CX Enterprise.
 solution: Experience Cloud
 title: Domande frequenti su Experience Cloud
 index: true
@@ -22,7 +22,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 730
 ht-degree: 47%
@@ -53,7 +53,7 @@ Adobe supporta la versione corrente e le due versioni precedenti dei seguenti br
 
 +++Quali lingue sono supportate?
 
-CX Enterprise supporta le lingue preferite per ogni utente, impostate nelle preferenze del tuo account utente Adobe. Sono supportate le seguenti lingue:
+CX Enterprise supporta le lingue preferite per ogni utente, impostate nelle preferenze dell&#39;account utente Adobe. Sono supportate le seguenti lingue:
 
 * Cinese
 * Inglese
@@ -66,19 +66,19 @@ CX Enterprise supporta le lingue preferite per ogni utente, impostate nelle pref
 * Spagnolo
 * Taiwanese
 
-Anche se i team delle applicazioni sono impegnati nel supporto globale delle lingue, non tutte le applicazioni sono disponibili in tutte le lingue sopra indicate. Se la lingua principale non è supportata in un&#39;applicazione CX Enterprise, è inoltre possibile impostare una lingua secondaria come predefinita, se applicabile. Questa operazione può essere eseguita in [Preferenze utente di CX Enterprise](https://experience.adobe.com/preferences).
+Anche se i team delle applicazioni sono impegnati nel supporto globale delle lingue, non tutte le applicazioni sono disponibili in tutte le lingue sopra indicate. Se la lingua principale non è supportata in un&#39;applicazione CX Enterprise, è anche possibile impostare una lingua secondaria come predefinita, se applicabile. Questa operazione può essere eseguita in [Preferenze utente di CX Enterprise](https://experience.adobe.com/preferences).
 
 +++
 
-+++Adobe impone costi aggiuntivi alla mia azienda per l’accesso a Adobe CX Enterprise?
++++Adobe impone costi aggiuntivi alla mia azienda per l&#39;accesso a Adobe CX Enterprise?
 
-No. Adobe CX Enterprise è incluso senza alcun costo aggiuntivo. Tuttavia, alcuni servizi principali potrebbero avere costi aggiuntivi.
+No. Adobe CX Enterprise è incluso senza costi aggiuntivi. Tuttavia, alcuni servizi principali potrebbero avere costi aggiuntivi.
 
 +++
 
 +++Perché la mia azienda deve effettuare l&#39;accesso tramite l&#39;interfaccia CX Enterprise?
 
-La funzionalità fornita dall’interfaccia di CX Enterprise aggiunge nuovo valore alla tua azienda. Sarà anche il percorso standard per accedere alle applicazioni in futuro, sostituendo altri flussi di accesso di singole soluzioni. L’accesso tramite CX Enterprise semplifica una successiva transizione.
+La funzionalità fornita dall&#39;interfaccia di CX Enterprise aggiunge nuovo valore alla vostra azienda. Sarà anche il percorso standard per accedere alle applicazioni in futuro, sostituendo altri flussi di accesso di singole soluzioni. L&#39;accesso tramite CX Enterprise semplifica la successiva transizione.
 
 +++
 
@@ -92,9 +92,9 @@ L’Assistenza clienti di Adobe può inviare una richiesta di rappresentazione: 
 
 +++Che cos’è il &quot;provisioning&quot;?
 
-Provisioning in CX Enterprise significa:
+Il provisioning in CX Enterprise significa:
 
-* Gli utenti possono effettuare l’accesso a CX Enterprise e alle applicazioni di collegamento.
+* Gli utenti possono effettuare l&#39;accesso a CX Enterprise e alle applicazioni di collegamento.
 * Possono iniziare a utilizzare le funzioni disponibili tramite CX Enterprise.
 * Puoi prepararti a ritirare il processo di accesso specifico per le singole applicazioni.
 * Puoi mantenere il controllo dell’accesso alle applicazioni.
@@ -141,7 +141,7 @@ Consulta [Gestire gli account utente](../administration/organizations.md).
 
 +++Che cos’è un’organizzazione?
 
-Un&#39;organizzazione [organizzazione](../administration/organizations.md) è l&#39;entità che consente all&#39;amministratore di configurare gruppi e utenti e di controllare il single sign-on in CX Enterprise. L&#39;organizzazione funziona come un&#39;azienda di accesso per tutti i prodotti e le applicazioni CX Enterprise. Nella maggior parte dei casi, un’organizzazione è il nome dell’azienda. Tuttavia, un’azienda può avere più organizzazioni.
+Un&#39;organizzazione [organizzazione](../administration/organizations.md) è l&#39;entità che consente all&#39;amministratore di configurare gruppi e utenti e di controllare il single sign-on in CX Enterprise. L&#39;organizzazione funziona come una società di accesso che abbraccia tutti i prodotti e le applicazioni aziendali CX. Nella maggior parte dei casi, un’organizzazione è il nome dell’azienda. Tuttavia, un’azienda può avere più organizzazioni.
 
 +++
 
@@ -153,7 +153,7 @@ Per informazioni, consulta [Visualizzare l’ID organizzazione](../administratio
 
 +++Cosa devo fare quando uno dei miei utenti lascia l’azienda?
 
-È necessario rimuoverne l’accesso dall’applicazione. Non potranno accedere al prodotto da CX Enterprise o tramite l’accesso diretto. È inoltre necessario rimuoverli a livello di CX Enterprise.
+È necessario rimuoverne l’accesso dall’applicazione. Non sarà possibile accedere al prodotto da CX Enterprise o mediante l&#39;accesso diretto. È inoltre necessario rimuoverli a livello aziendale CX.
 
 +++
 
