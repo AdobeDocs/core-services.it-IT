@@ -8,11 +8,13 @@ topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-last-update: 2026-05-21T00:00:00Z
+last-update: '2026-05-21T00:00:00.000Z'
 exl-id: c1a8f9a7-4752-4040-b5f0-dc775417f536
-source-git-commit: b739075ef16488793cbf2e1d032c4d7f6917af47
+feature_v2:
+  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
+source-git-commit: 5b2b81c029b81b9f0689a012cb2a9ca8714c0b40
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: 1130
 ht-degree: 10%
 
 ---
