@@ -14,10 +14,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: 25446910430bf15dcfa0fc70e25e0681f9faeb95
 workflow-type: tm+mt
-source-wordcount: 579
-ht-degree: 43%
+source-wordcount: 548
+ht-degree: 45%
 
 ---
 
@@ -97,7 +97,4 @@ Fai clic sull’icona a forma di campana per visualizzare notifiche e annunci. G
 
 Per gestire notifiche e avvisi, vedere [Preferenze account e notifiche](features/account-preferences.md)
 
-## Termini
-
-Adobe utilizza nomi simili nelle app di marketing, Creative Cloud, Experience League e nei siti di supporto. Per un breve confronto tra le modalità di applicazione di tali termini in CX Enterprise e in altre aree, vedere [Terminologia](more-resources/terms.md).
 
