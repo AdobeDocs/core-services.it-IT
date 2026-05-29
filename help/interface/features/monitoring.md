@@ -34,7 +34,7 @@ Gli agenti nell&#39;ambito del monitoraggio dell&#39;utilizzo sono elencati in [
 
 Il dashboard Utilizzo licenze di [!DNL Adobe Experience Platform] mostra i crediti AI concessi in licenza della tua organizzazione e il totale dei crediti AI utilizzati dagli utenti che eseguono [!DNL Experience Platform Agents].
 
-Gli amministratori utilizzano questo dashboard per tenere traccia dell’utilizzo delle licenze in base all’adesione. Per accedere al dashboard, vedi [Dashboard di utilizzo della licenza](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) nella documentazione di [!DNL Experience Platform].
+Gli amministratori utilizzano questo dashboard per tenere traccia dell’utilizzo delle licenze in base all’adesione. Per accedere al dashboard, vedi [Dashboard di utilizzo della licenza](https://experienceleague.adobe.com/it/docs/experience-platform/dashboards/guides/license-usage) nella documentazione di [!DNL Experience Platform].
 
 ## Dashboard di monitoraggio di IA agente
 
@@ -146,4 +146,4 @@ Concedi l&#39;accesso al dashboard in [!DNL Adobe Experience Platform] aggiornan
 
 * [IA agente in Adobe CX Enterprise](agentic-ai.md)
 * [Processi agente e consumo credito IA](ai-credit-consumption.md)
-* [Dashboard utilizzo licenze](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
+* [Dashboard utilizzo licenze](https://experienceleague.adobe.com/it/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
