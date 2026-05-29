@@ -27,10 +27,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: 1706e3f7c2a29cc85299913657fa6c049c3217fa
 workflow-type: tm+mt
-source-wordcount: 1429
-ht-degree: 52%
+source-wordcount: 1501
+ht-degree: 50%
 
 ---
 
@@ -41,6 +41,12 @@ Funzionalità, note sulla versione e problemi noti per i componenti dell&#39;int
 Per un elenco degli aggiornamenti della documentazione, consulta [Aggiornamenti della documentazione](doc-updates.md).
 
 Per le note sulla versione relative a tutte le applicazioni, vedere [Note sulla versione di CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it).
+
+## Giugno 2026
+
+| Data | Aggiornamento | Descrizione |
+| ------- | ------- | ------- |
+| 1 giugno 2026 | Monitoraggio dell’utilizzo di IA per l’agente | CX Enterprise fornisce ora dashboard per monitorare l’utilizzo dell’intelligenza artificiale agente nelle applicazioni esistenti. Tieni traccia dell’adozione, rivedi le conversazioni e i feedback, e gestisci il consumo di crediti AI per gli agenti Experience Platform a cui si accede tramite l’Assistente AI e altre superfici di conversazione. Le viste Panoramica, Utenti, Feedback e Crediti AI aiutano le parti interessate a guidare l’adozione della governance con i dati. Consulta [Monitoraggio dell&#39;utilizzo di IA per l&#39;agente](../features/monitoring.md) per l&#39;accesso e le autorizzazioni al dashboard. |
 
 ## Aprile 2026
 
@@ -218,7 +224,7 @@ La funzione Ricerca unificata è stata aggiornata per renderla disponibile anche
 
 {style="table-layout:auto"}
 
-**Correzioni**
+**Problemi risolti**
 
 * **Attributi del cliente**: l&#39;interfaccia della funzione Attributi del cliente adesso mostra anche gli stati di profili sincronizzati in Target. (MCUI-10231)
 * **Triggers servizio core:** per mancanza di utilizzo, è stato rimosso il punteggio di propensione &quot;Probabilità di tornare tra 30 giorni&quot; durante la creazione di un trigger di tipo Abandonment (Abbandono). (MCUI-10056)
