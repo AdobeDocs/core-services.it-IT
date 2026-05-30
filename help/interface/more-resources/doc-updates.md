@@ -23,9 +23,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 1706e3f7c2a29cc85299913657fa6c049c3217fa
+source-git-commit: f8271b21134641c4576abc8a7e1fb8874ae68350
 workflow-type: tm+mt
-source-wordcount: 788
+source-wordcount: 787
 ht-degree: 37%
 
 ---
@@ -36,7 +36,7 @@ Scopri dove si verificano gli aggiornamenti della documentazione per l’interfa
 
 ## Giugno 2026
 
-* Pubblicato [Monitoraggio dell&#39;utilizzo di IA per l&#39;agente](../features/monitoring.md) con copertura delle dashboard di monitoraggio dell&#39;utilizzo delle licenze e di IA per l&#39;agente, incluse le visualizzazioni Panoramica, Utenti, Feedback e Crediti di IA, Ripetizione conversazione e autorizzazioni per gli utenti di governance.
+* È stato pubblicato [Monitoraggio di IA per l&#39;analisi dell&#39;agente](../features/monitoring.md) con informazioni sulle dashboard di monitoraggio dell&#39;utilizzo delle licenze e di IA per l&#39;analisi dell&#39;agente, incluse le visualizzazioni Panoramica, Utenti, Feedback e Crediti di IA, Ripetizione conversazione e autorizzazioni per gli utenti di governance.
 * Sono state aggiunte le [note sulla versione di giugno 2026](release-notes.md) per il monitoraggio dell’utilizzo di IA per l’agente.
 
 ## Maggio 2026
