@@ -5,10 +5,10 @@ breadcrumb-title: Interfaccia e amministrazione di CX Enterprise
 title: Guida all'amministrazione e all'interfaccia di CX Enterprise
 description: Informazioni sull'interfaccia e l'amministrazione di CX Enterprise. Sfoglia gli argomenti relativi ad AI, amministrazione, servizi condivisi, raccolta dati, cookie, note sulla versione e domande frequenti.
 index: true
-source-git-commit: 25446910430bf15dcfa0fc70e25e0681f9faeb95
+source-git-commit: f8271b21134641c4576abc8a7e1fb8874ae68350
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 61%
+source-wordcount: '210'
+ht-degree: 60%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 61%
 + IA in CX Enterprise {#features}
    + [IA generativa](/help/interface/features/generative-ai.md)
    + [IA agentica](features/agentic-ai.md)
-   + {hide-from-toc}[Monitoraggio](/help/interface/features/monitoring.md)
+   + {hide-from-toc}[Monitoraggio di IA agente](/help/interface/features/monitoring.md)
    + [Processi agente e consumo credito IA](/help/interface/features/ai-credit-consumption.md)
 + Amministrazione {#administration}
    + [Preferenze e notifiche dell’account](/help/interface/features/account-preferences.md)
