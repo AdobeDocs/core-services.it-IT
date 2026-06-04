@@ -17,9 +17,9 @@ subfeature_v2:
   - id: cda95149-19e1-4cfa-a57e-751283a32378
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 755f4b3507fabdb44515e30f469e9b1d4035832c
+source-git-commit: ae47fb846467d50b57764f525a359dfcf78cf597
 workflow-type: tm+mt
-source-wordcount: 868
+source-wordcount: 866
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 2%
 
 Il dashboard di monitoraggio di IA per l’analisi dell’agente offre ai membri del Centro di eccellenza (COE) e ad altre parti interessate alla governance visibilità sull’utilizzo e l’adozione di IA per l’analisi dell’agente. È possibile visualizzare le tendenze per periodi di 7 o 30 giorni per vedere chi utilizza [!DNL AI Assistant] o altre superfici di conversazione (ad esempio [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/ama-ms)) per interagire con [!DNL Experience Platform Agents], le operazioni eseguite in tali interazioni e il valore ricevuto. Insieme, queste visualizzazioni ti aiutano a guidare l’adozione degli agenti con dati anziché presupposti.
 
-Il dashboard di monitoraggio di IA per l’agente include le visualizzazioni seguenti:
+Il dashboard [!UICONTROL Monitoraggio] include le visualizzazioni seguenti:
 
 | Dashboard di | Scopo |
 | --- | --- |
