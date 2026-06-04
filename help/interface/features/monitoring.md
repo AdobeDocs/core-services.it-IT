@@ -17,28 +17,16 @@ subfeature_v2:
   - id: cda95149-19e1-4cfa-a57e-751283a32378
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: c3e850d9398b5439a45fd493036776b729bec7e9
+source-git-commit: 19922aed1ca7f9beb0229cea90e6f68abda0d217
 workflow-type: tm+mt
-source-wordcount: 948
+source-wordcount: 882
 ht-degree: 2%
 
 ---
 
-# Monitoraggio dell’IA agente
+# Dashboard di monitoraggio di IA agente
 
-CX Enterprise fornisce due dashboard per monitorare l&#39;utilizzo di IA per l&#39;agente nelle applicazioni CX Enterprise esistenti. Queste dashboard consentono di comprendere l&#39;adozione, il coinvolgimento, la qualità del feedback e il consumo di credito AI per [!DNL Experience Platform Agents] a cui gli utenti accedono tramite [!DNL AI Assistant] e altre superfici conversazionali.
-
-Gli agenti nell&#39;ambito del monitoraggio dell&#39;utilizzo sono elencati in [Agenti di IA nelle app CX Enterprise esistenti](agentic-ai.md#existing-apps-table) nella [Agentic AI nella documentazione di Adobe CX Enterprise](agentic-ai.md).
-
-## Dashboard utilizzo licenze
-
-Il dashboard Utilizzo licenze di [!DNL Adobe Experience Platform] mostra i crediti AI concessi in licenza della tua organizzazione e il totale dei crediti AI utilizzati dagli utenti che eseguono [!DNL Experience Platform Agents].
-
-Gli amministratori utilizzano questo dashboard per tenere traccia dell’utilizzo delle licenze in base all’adesione. Per accedere al dashboard, vedi [Dashboard di utilizzo della licenza](https://experienceleague.adobe.com/it/docs/experience-platform/dashboards/guides/license-usage) nella documentazione di [!DNL Experience Platform].
-
-## Dashboard di monitoraggio di IA agente
-
-Il dashboard di monitoraggio di IA per l’analisi dell’agente offre ai membri del Centro di eccellenza (COE) e ad altre parti interessate alla governance visibilità sull’utilizzo e l’adozione di IA per l’analisi dell’agente. È possibile visualizzare le tendenze per periodi di 7 o 30 giorni per vedere chi utilizza [!DNL AI Assistant] o altre superfici di conversazione (ad esempio [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/ama-ms)) per interagire con [!DNL Experience Platform Agents], le operazioni eseguite in tali interazioni e il valore ricevuto.
+Il dashboard di monitoraggio di IA per l’analisi dell’agente offre ai membri del Centro di eccellenza (COE) e ad altre parti interessate alla governance visibilità sull’utilizzo e l’adozione di IA per l’analisi dell’agente. È possibile visualizzare le tendenze per periodi di 7 o 30 giorni per vedere chi utilizza [!DNL AI Assistant] o altre superfici di conversazione (ad esempio [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/ama-ms)) per interagire con [!DNL Experience Platform Agents], le operazioni eseguite in tali interazioni e il valore ricevuto. Insieme, queste visualizzazioni ti aiutano a guidare l’adozione degli agenti con dati anziché presupposti.
 
 Il dashboard di monitoraggio di IA per l’agente include le visualizzazioni seguenti:
 
@@ -49,7 +37,43 @@ Il dashboard di monitoraggio di IA per l’agente include le visualizzazioni seg
 | **Feedback** | Segnali sulla qualità della risposta e sulla soddisfazione degli utenti |
 | **Crediti IA** | Andamenti dei consumi di credito e saldo residuo |
 
-Insieme, queste visualizzazioni ti aiutano a guidare l’adozione degli agenti con dati anziché presupposti.
+Gli agenti nell&#39;ambito del monitoraggio dell&#39;utilizzo sono elencati in [Agenti di IA nelle app CX Enterprise esistenti](agentic-ai.md#existing-apps-table) nella [Agentic AI nella documentazione di Adobe CX Enterprise](agentic-ai.md).
+
+[Visualizza il video introduttivo](https://video.tv.adobe.com/v/3491864?learn=on)
+
+## Abilitare le autorizzazioni del dashboard (amministratori) {#permissions}
+
+Concedi l&#39;accesso al dashboard in [!DNL Adobe Experience Platform] aggiornando il profilo o il ruolo di prodotto per ogni utente autorizzato. La funzionalità [!UICONTROL Monitoraggio] viene visualizzata agli utenti della home page di CX Enterprise dopo l&#39;abilitazione delle autorizzazioni.
+
+1. Vai a [!DNL Experience Platform] **Amministrazione** > **Autorizzazioni**.
+
+1. Apri il profilo di prodotto o il ruolo che desideri aggiornare.
+
+   ![Abilita autorizzazioni dashboard](../features/assets/dashboards-permissions.png)
+
+1. In **[!UICONTROL Autorizzazioni dell&#39;Assistente AI]**, fai clic su **[!UICONTROL Aggiungi risorsa]**, quindi abilita **[!UICONTROL Visualizza dashboard di utilizzo dell&#39;Assistente AI]**.
+
+   Questa autorizzazione consente di accedere alle dashboard di monitoraggio dell’utilizzo di IA per l’agente.
+
+1. In **[!UICONTROL Dashboard]** autorizzazioni, configura l&#39;accesso al dashboard in base alle responsabilità di ogni utente.
+
+   ![Abilita autorizzazioni dashboard](../features/assets/dashboards-add-resource.png)
+
+   Autorizzazioni consigliate per gli utenti di governance autorizzati:
+
+   * **[!UICONTROL Visualizza dashboard utilizzo licenze]**
+   * **[!UICONTROL Visualizza dashboard standard]**
+   * **[!UICONTROL Esporta dati dashboard]** (facoltativo, solo per utenti di governance approvati)
+
+   Se necessario, puoi concedere altre autorizzazioni:
+
+   * **[!UICONTROL Gestione dashboard personalizzati]**
+   * **[!UICONTROL Visualizza dashboard personalizzati]**
+   * **[!UICONTROL Gestione dashboard standard]**
+
+1. Per visualizzare le dashboard, tornare alla home di CX Enterprise, quindi fare clic su **[!UICONTROL Monitoraggio]**.
+
+![Dashboard di monitoraggio di IA agente](../features/assets/monitoring.png)
 
 ## Dashboard panoramica
 
@@ -62,12 +86,16 @@ La dashboard Panoramica è il punto centrale per le metriche di adozione e coinv
 * **Numero medio di richieste per conversazione:** Profondità di coinvolgimento per conversazione.
 * **Feedback:** Distribuzione dei commenti degli utenti (solo per [!DNL AI Assistant] interazioni).
 
+[Visualizza video](https://video.tv.adobe.com/v/3491865?learn=on)
+
 ### Ripetizione conversazione
 
 La ripetizione della conversazione mostra singole interazioni, non solo aggregati. Puoi analizzare i pattern in molte conversazioni e passare da tendenze di alto livello a una conversazione specifica.
 
 * **Cronologia richieste e risposte:** La richiesta dell&#39;utente e le risposte inviate.
 * **Segnali di feedback:** Interazioni contrassegnate da pollici in alto o in basso per identificare attriti, blocchi o esigenze di attivazione. Queste informazioni aiutano la tua organizzazione a migliorare la rilevanza dei messaggi immediati e consentono ad Adobe di migliorare la qualità della risposta nel tempo.
+
+[Visualizza video](https://video.tv.adobe.com/v/3491866?learn=on)
 
 ## Dashboard utenti
 
@@ -84,6 +112,8 @@ Il dashboard Utenti mostra come l’adozione e il coinvolgimento degli agenti va
 * **Attività conversazione:** Numero di conversazioni e prompt per utente.
 * **Utenti attivi principali:** Utenti e team altamente coinvolti che hanno adottato l&#39;agente motore.
 
+[Visualizza video](https://video.tv.adobe.com/v/3491868?learn=on)
+
 ## Dashboard feedback
 
 Il dashboard Feedback mostra il feedback degli utenti inviato per le interazioni degli agenti. Puoi vedere quali conversazioni gli utenti hanno contrassegnato in modo positivo o negativo e indagare le interazioni dietro il feedback. Dai riepiloghi dei feedback, approfondisci le singole conversazioni per rivedere prompt, risposte, dettagli dei motivi e note di feedback.
@@ -96,6 +126,8 @@ Il dashboard Feedback mostra il feedback degli utenti inviato per le interazioni
 * **Cronologia richieste e risposte:** i prompt utente e le risposte associate ai feedback inviati.
 * **Dettagli e note del feedback:** Contesto e commenti aggiuntivi degli utenti durante l&#39;invio del feedback.
 
+[Visualizza video](https://video.tv.adobe.com/v/3491878?learn=on)
+
 ## Dashboard crediti IA
 
 Il dashboard Crediti AI mostra come l&#39;utilizzo di [!DNL Experience Platform Agents] da parte dell&#39;organizzazione si traduce nel consumo di crediti AI.
@@ -106,44 +138,11 @@ Il dashboard Crediti AI mostra come l&#39;utilizzo di [!DNL Experience Platform 
 * **Tendenze giornaliere e mensili:** picchi, cali e cambiamenti nei modelli di consumo.
 * **Crediti AI rimanenti:** Saldo rimanente per consentire una pianificazione proattiva ed evitare interruzioni.
 
-## Accesso e governance
-
-Le dashboard di monitoraggio dell’utilizzo dell’intelligenza artificiale agente espongono l’attività dell’Assistente AI, inclusi modelli di utilizzo, approfondimenti a livello di conversazione, segnali di feedback e metriche operative. Alcune di queste informazioni possono includere dati sensibili sul contesto aziendale, sull’attività immediata o sull’interazione dell’utente.
-
-L’accesso è basato su autorizzazioni ed è destinato solo agli amministratori di COE autorizzati e agli utenti di governance approvati. Nella sezione seguente viene descritto come concedere le autorizzazioni del dashboard.
-
-## Abilita autorizzazioni dashboard
-
-Concedi l&#39;accesso al dashboard in [!DNL Adobe Experience Platform] aggiornando il profilo o il ruolo di prodotto per ogni utente autorizzato.
-
-1. Vai a [!DNL Experience Platform] **Amministrazione** > **Autorizzazioni**.
-
-1. Apri il profilo di prodotto o il ruolo che desideri aggiornare.
-
-   ![Abilita autorizzazioni dashboard](../features/assets/dashboards-permissions.png)
-
-1. In **[!UICONTROL AI Assistant]** autorizzazioni, fare clic su **[!UICONTROL Add Resource]**, quindi abilitare **[!UICONTROL View AI Assistant usage dashboard]**.
-
-   Questa autorizzazione consente di accedere alle dashboard di monitoraggio dell’utilizzo di IA per l’agente.
-
-1. Nelle autorizzazioni **[!UICONTROL Dashboards]**, configura l&#39;accesso al dashboard in base alle responsabilità di ogni utente.
-
-   ![Abilita autorizzazioni dashboard](../features/assets/dashboards-add-resource.png)
-
-   Autorizzazioni consigliate per gli utenti di governance autorizzati:
-
-   * **[!UICONTROL View License Usage Dashboard]**
-   * **[!UICONTROL View Standard Dashboards]**
-   * **[!UICONTROL Export Dashboard Data]** (facoltativo, solo per utenti di governance approvati)
-
-   Se necessario, puoi concedere altre autorizzazioni:
-
-   * **[!UICONTROL Manage Custom Dashboards]**
-   * **[!UICONTROL View Custom Dashboards]**
-   * **[!UICONTROL Manage Standard Dashboards]**
+[Visualizza video](https://video.tv.adobe.com/v/3491867?learn=on)
 
 ## Ulteriori informazioni su questo argomento
 
+* [Dashboard utilizzo licenze](https://experienceleague.adobe.com/it/docs/experience-platform/dashboards/guides/license-usage) in [!DNL Experience Platform]
 * [IA agente in Adobe CX Enterprise](agentic-ai.md)
 * [Processi agente e consumo credito IA](ai-credit-consumption.md)
 * [Dashboard utilizzo licenze](https://experienceleague.adobe.com/it/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
