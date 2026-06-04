@@ -8,18 +8,13 @@ role: Admin, User
 level: Intermediate
 autotag-review: '2026-05-27T16:30:16.764Z'
 TQID: 'https://experienceleague.adobe.com/J74yr0gGkFu1bzTmMvhrQ8TNaRX6nRjWY9WAwd3uydk'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-feature_v2:
-  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
-subfeature_v2:
-  - id: cda95149-19e1-4cfa-a57e-751283a32378
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 19922aed1ca7f9beb0229cea90e6f68abda0d217
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: e1971122-7081-4556-9222-8a31bd71800c
+feature_v2: id: f84b2906-3ce9-4ef0-86f6-cda249273937
+subfeature_v2: id: cda95149-19e1-4cfa-a57e-751283a32378
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+source-git-commit: 9c847f904b899fbe1273b91bd776083d0b4a71a1
 workflow-type: tm+mt
-source-wordcount: 882
+source-wordcount: 881
 ht-degree: 2%
 
 ---
@@ -41,7 +36,7 @@ Gli agenti nell&#39;ambito del monitoraggio dell&#39;utilizzo sono elencati in [
 
 [Visualizza il video introduttivo](https://video.tv.adobe.com/v/3491864?learn=on)
 
-## Abilitare le autorizzazioni del dashboard (amministratori) {#permissions}
+## Abilita autorizzazioni dashboard {#permissions}
 
 Concedi l&#39;accesso al dashboard in [!DNL Adobe Experience Platform] aggiornando il profilo o il ruolo di prodotto per ogni utente autorizzato. La funzionalità [!UICONTROL Monitoraggio] viene visualizzata agli utenti della home page di CX Enterprise dopo l&#39;abilitazione delle autorizzazioni.
 
@@ -73,7 +68,7 @@ Concedi l&#39;accesso al dashboard in [!DNL Adobe Experience Platform] aggiornan
 
 1. Per visualizzare le dashboard, tornare alla home di CX Enterprise, quindi fare clic su **[!UICONTROL Monitoraggio]**.
 
-![Dashboard di monitoraggio di IA agente](../features/assets/monitoring.png)
+   ![Dashboard di monitoraggio di IA agente](../features/assets/monitoring.png)
 
 ## Dashboard panoramica
 
@@ -142,7 +137,7 @@ Il dashboard Crediti AI mostra come l&#39;utilizzo di [!DNL Experience Platform 
 
 ## Ulteriori informazioni su questo argomento
 
-* [Dashboard utilizzo licenze](https://experienceleague.adobe.com/it/docs/experience-platform/dashboards/guides/license-usage) in [!DNL Experience Platform]
+* [Dashboard utilizzo licenze](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) in [!DNL Experience Platform]
 * [IA agente in Adobe CX Enterprise](agentic-ai.md)
 * [Processi agente e consumo credito IA](ai-credit-consumption.md)
-* [Dashboard utilizzo licenze](https://experienceleague.adobe.com/it/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
+* [Dashboard utilizzo licenze](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
