@@ -17,9 +17,9 @@ subfeature_v2:
   - id: cda95149-19e1-4cfa-a57e-751283a32378
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 19922aed1ca7f9beb0229cea90e6f68abda0d217
+source-git-commit: 9c847f904b899fbe1273b91bd776083d0b4a71a1
 workflow-type: tm+mt
-source-wordcount: 882
+source-wordcount: 881
 ht-degree: 2%
 
 ---
@@ -41,7 +41,7 @@ Gli agenti nell&#39;ambito del monitoraggio dell&#39;utilizzo sono elencati in [
 
 [Visualizza il video introduttivo](https://video.tv.adobe.com/v/3491864?learn=on)
 
-## Abilitare le autorizzazioni del dashboard (amministratori) {#permissions}
+## Abilita autorizzazioni dashboard {#permissions}
 
 Concedi l&#39;accesso al dashboard in [!DNL Adobe Experience Platform] aggiornando il profilo o il ruolo di prodotto per ogni utente autorizzato. La funzionalità [!UICONTROL Monitoraggio] viene visualizzata agli utenti della home page di CX Enterprise dopo l&#39;abilitazione delle autorizzazioni.
 
@@ -73,7 +73,7 @@ Concedi l&#39;accesso al dashboard in [!DNL Adobe Experience Platform] aggiornan
 
 1. Per visualizzare le dashboard, tornare alla home di CX Enterprise, quindi fare clic su **[!UICONTROL Monitoraggio]**.
 
-![Dashboard di monitoraggio di IA agente](../features/assets/monitoring.png)
+   ![Dashboard di monitoraggio di IA agente](../features/assets/monitoring.png)
 
 ## Dashboard panoramica
 
