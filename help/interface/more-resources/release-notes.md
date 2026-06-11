@@ -27,10 +27,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: cb57ca633a2b72cab93edbbb06cbd3bb7199eec7
+source-git-commit: e934d8cc7aab9e9e5529220a989ef176505b0397
 workflow-type: tm+mt
-source-wordcount: 1500
-ht-degree: 50%
+source-wordcount: 1559
+ht-degree: 54%
 
 ---
 
@@ -46,6 +46,7 @@ Per le note sulla versione relative a tutte le applicazioni, vedere [Note sulla 
 
 | Data | Aggiornamento | Descrizione |
 | ------- | ------- | ------- |
+| 11 giugno 2026 | Collaboratore aziendale CX (disponibilità generale) | CX Enterprise Coworker è un&#39;applicazione di intelligenza artificiale per l&#39;analisi dei clienti che automatizza i flussi di lavoro end-to-end. Rileva i segnali, crea tipi di pubblico e avvia campagne con governance integrata in poche ore. La documentazione sarà presto disponibile. |
 | 1 giugno 2026 | Monitoraggio dell’utilizzo di IA per l’agente | CX Enterprise fornisce ora dashboard per monitorare l’utilizzo dell’intelligenza artificiale agente nelle applicazioni esistenti. Tieni traccia dell’adozione, rivedi le conversazioni e i feedback, e gestisci il consumo di crediti AI per gli agenti Experience Platform a cui si accede tramite l’Assistente AI e altre superfici di conversazione. Le viste Panoramica, Utenti, Feedback e Crediti AI aiutano le parti interessate a guidare l’adozione della governance con i dati. Consulta [Monitoraggio di IA per l&#39;agente](../features/monitoring.md) per l&#39;accesso e le autorizzazioni del dashboard. |
 
 ## Aprile 2026
@@ -88,7 +89,7 @@ Per le note sulla versione relative a tutte le applicazioni, vedere [Note sulla 
 
 | Funzione | Descrizione |
 | -----------| ---------- |
-| Pagina Home personalizzabile | Nella pagina di destinazione di CX Enterprise, fare clic su **[!UICONTROL Edit]**. La modalità [!UICONTROL Edit] consente di personalizzare la home page di CX Enterprise con l&#39;accesso a una libreria di widget e sfondi personalizzati. La modalità [!UICONTROL Edit] offre controlli semplici e intuitivi per spostare, ridimensionare e gestire i widget, incluse azioni in blocco e regolazioni del layout, offrendo un&#39;esperienza più estetica e personalizzata. |
+| Pagina Home personalizzabile | Nella pagina di destinazione di CX Enterprise, fare clic su **[!UICONTROL Modifica]**. La modalità [!UICONTROL Modifica] consente di personalizzare la home page di CX Enterprise con l&#39;accesso a una libreria di widget e sfondi personalizzati. La modalità [!UICONTROL Modifica] offre controlli semplici e intuitivi per spostare, ridimensionare e gestire i widget, incluse azioni in blocco e regolazioni del layout, offrendo un&#39;esperienza più estetica e personalizzata. |
 
 ## mercoledì 10 settembre 2024
 
@@ -118,13 +119,13 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 ## Maggio 2023
 
-* Nel menu [!DNL CX Enterprise] **[!UICONTROL Help]**, la ricerca del contenuto è stata aggiornata per filtrare in base all&#39;applicazione nei risultati della ricerca [Experience League](https://experienceleague.adobe.com/it?lang=it#home).
+* Nel menu [!DNL CX Enterprise] **[!UICONTROL Aiuto]**, la ricerca dei contenuti è stata aggiornata per poter filtrare in base all’applicazione nei risultati di ricerca di [Experience League](https://experienceleague.adobe.com/it?lang=it#home).
 
 ## luglio 2022
 
 | Funzione | Descrizione |
 | ------- | ------- |
-| Home unificata, widget di accesso rapido | **Naviga più velocemente:** ora puoi personalizzare ulteriormente la tua esperienza della home e decidere quali applicazioni avere a portata di mano. Utilizza la nuova funzione di fissaggio per selezionare le applicazioni da mostrare in primo piano e al centro in [!UICONTROL Quick Access]. <br>**Tieniti al passo con il blocco intelligente:** le nuove applicazioni sono ora più facili da trovare. Le nuove applicazioni assegnate presentano un badge _New_ e vengono bloccate automaticamente in [!UICONTROL Quick Access]. |
+| Home unificata, widget di accesso rapido | **Naviga più velocemente:** ora puoi personalizzare ulteriormente la tua esperienza della home e decidere quali applicazioni avere a portata di mano. Utilizza la nuova funzione di blocco per selezionare le applicazioni che appaiono in primo piano e al centro nell’[!UICONTROL Accesso rapido]. <br>**Tieniti al passo con il blocco intelligente:** le nuove applicazioni sono ora più facili da trovare. Le nuove applicazioni assegnate presentano il badge _Nuovo_ e vengono bloccate automaticamente nell’[!UICONTROL Accesso rapido]. |
 
 {style="table-layout:auto"}
 
@@ -140,7 +141,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | Funzione | Descrizione |
 | ------- | -------|
-| Accedi a [!UICONTROL Recents] in Experience Platform e Journey Optimizer tramite la barra di ricerca | Gli utenti possono ora accedere agli oggetti a cui è stato effettuato l’accesso di recente da ogni pagina di AEP e AJO tramite la barra di ricerca unificata. |
+| Accedi a [!UICONTROL Recenti] in Experience Platform e Journey Optimizer tramite la barra di ricerca | Gli utenti possono ora accedere agli oggetti a cui è stato effettuato l’accesso di recente da ogni pagina di AEP e AJO tramite la barra di ricerca unificata. |
 
 {style="table-layout:auto"}
 
@@ -148,8 +149,8 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | Funzione | Descrizione |
 | ------- | -------|
-| Collegamenti (**[!UICONTROL Recents]**) aggiunti alla home di [CX Enterprise](https://experience.adobe.com/home) | Puoi accedere alle scelte rapide per il lavoro più recente su Journey Optimizer ed Experience Platform nella nuova intestazione _Recenti_ nella pagina di destinazione. Questo aggiornamento include anche miglioramenti generali del layout e della reattività. |
-| **[!UICONTROL Sandboxes]** spostato nella barra dell&#39;intestazione | L’indicatore Sandbox è ora integrato nell’intestazione di tutte le applicazioni dell’interfaccia di Experience Platform. Per ulteriori informazioni, consulta [Sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=it) in Experience Platform. |
+| Collegamenti (**[!UICONTROL Recenti]**) aggiunti alla home di [CX Enterprise](https://experience.adobe.com/home) | Puoi accedere alle scelte rapide per il lavoro più recente su Journey Optimizer ed Experience Platform nella nuova intestazione _Recenti_ nella pagina di destinazione. Questo aggiornamento include anche miglioramenti generali del layout e della reattività. |
+| **[!UICONTROL Sandbox]** spostati nella barra dell’intestazione | L’indicatore Sandbox è ora integrato nell’intestazione di tutte le applicazioni dell’interfaccia di Experience Platform. Per ulteriori informazioni, consulta [Sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=it) in Experience Platform. |
 
 {style="table-layout:auto"}
 
@@ -176,7 +177,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | Funzione | Descrizione |
 | ------- | -------|
-| [!UICONTROL Unified Recents] - Supporto esteso per gli oggetti business a cui è stato effettuato l&#39;accesso di recente | [!UICONTROL Unified Recents] è esteso ad altri oggetti business in Journey Optimizer e Experience Platform. I clienti Journey Optimizer possono trovare gli oggetti a cui hanno effettuato l’accesso di recente (messaggi, percorsi, segmenti, schemi, set di dati, origini dati, eventi, azioni, origini e destinazioni) dalla home page di Adobe Journey Optimizer. |
+| [!UICONTROL Recenti unificati]: supporto esteso per gli oggetti di business a cui è stato effettuato l’accesso di recente | [!UICONTROL Recenti unificati] è esteso ad altri oggetti di business in Journey Optimizer ed Experience Platform. I clienti Journey Optimizer possono trovare gli oggetti a cui hanno effettuato l’accesso di recente (messaggi, percorsi, segmenti, schemi, set di dati, origini dati, eventi, azioni, origini e destinazioni) dalla home page di Adobe Journey Optimizer. |
 
 {style="table-layout:auto"}
 
@@ -189,7 +190,7 @@ La funzione Ricerca unificata è stata aggiornata per renderla disponibile anche
 | Funzione | Data | Descrizione |
 | ------- | ------- | ------- |
 | Supporto di single sign-on per Adobe Federated ID | 17 giugno 2021 | Se si utilizzano Federated ID, è possibile accedere a CX Enterprise senza dover immettere un indirizzo e-mail o una password. Per utilizzare questa funzione, aggiungere `#/sso:@domain` all&#39;URL di CX Enterprise. <br>Ad esempio, se sei il proprietario del dominio `example.com` e vuoi accedere ad Adobe Analytics, l’URL sarà: `https://experience.adobe.com/#/sso:@example.com/analytics`. |
-| Ricerca in Experience League | 1 giugno 2021 | La ricerca nella documentazione in Experience League è stata migliorata. Passa a [Experience League](https://experienceleague.adobe.com/docs/?lang=it) e utilizza il campo **[!UICONTROL Search]** per individuare tutorial, documentazione, corsi e altro ancora. |
+| Ricerca in Experience League | 1 giugno 2021 | La ricerca nella documentazione in Experience League è stata migliorata. Passa a [Experience League](https://experienceleague.adobe.com/docs/?lang=it) e utilizza il campo **[!UICONTROL Ricerca]** per individuare tutorial, documentazione, corsi e altro ancora. |
 
 {style="table-layout:auto"}
 
@@ -213,7 +214,7 @@ La funzione Ricerca unificata è stata aggiornata per renderla disponibile anche
 
 ## Aprile 2020
 
-* La pagina CX Enterprise [!UICONTROL Feed] è stata dichiarata obsoleta. (EXC-8505)
+* La pagina [!UICONTROL Feed] di CX Enterprise è stata dichiarata obsoleta. (EXC-8505)
 * La pagina di accesso di CX Enterprise è stata aggiornata per riflettere i nuovi elementi di branding. (EXC-10747)
 
 ## Febbraio 2020
