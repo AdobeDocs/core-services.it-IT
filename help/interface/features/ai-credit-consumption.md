@@ -7,9 +7,9 @@ feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
 last-update: '2026-05-21T00:00:00.000Z'
-source-git-commit: 5b2b81c029b81b9f0689a012cb2a9ca8714c0b40
+source-git-commit: e88ba99174bf84de9b58a61ae8c22c0bbd7ed9bf
 workflow-type: tm+mt
-source-wordcount: '935'
+source-wordcount: '993'
 ht-degree: 6%
 
 ---
@@ -17,6 +17,12 @@ ht-degree: 6%
 # Processi dell’agente Adobe Experience Platform e consumo di crediti AI
 
 Scopri i processi di intelligenza artificiale e il consumo di crediti di intelligenza artificiale nelle applicazioni aziendali CX. Per informazioni sull&#39;abilitazione delle funzionalità di IA per l&#39;agente nelle applicazioni CX Enterprise esistenti, vedere [IA per l&#39;agente in CX Enterprise](agentic-ai.md#existing-apps).
+
+## Novità
+
+| Funzione | Descrizione |
+| --- | --- |
+| [Catalogo delle funzionalità di IA Enterprise Agent di CX](https://agentic-capability-explorer.entapp.adproto.com/) | Scopri quali processi di IA per l’agente sono disponibili nelle app CX Enterprise con licenza. |
 
 ## Processi agente
 
@@ -35,6 +41,8 @@ L’utilizzo del credito di IA può variare a seconda della complessità e del v
 * Le attività semplici (spesso in un unico passaggio) richiedono meno crediti
 * Le attività complesse (spesso con più passaggi) richiedono più crediti
 * Le attività che comportano ragionamento avanzato, convalida, coordinamento di più agenti o integrazione richiedono più crediti
+
+**Nota:** è disponibile anche il [Catalogo delle funzionalità di IA per l&#39;agente aziendale CX](https://agentic-capability-explorer.entapp.adproto.com/) per aiutarti a individuare i processi di IA per l&#39;agente disponibili nelle app CX Enterprise con licenza.
 
 ### Tassi di consumo del credito di IA stimati
 
