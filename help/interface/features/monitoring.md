@@ -147,7 +147,7 @@ Il dashboard Crediti AI mostra come l&#39;utilizzo di [!DNL Experience Platform 
 
 ## Ulteriori informazioni su questo argomento
 
-* [Dashboard utilizzo licenze](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) in [!DNL Experience Platform]
+* [Dashboard utilizzo licenze](https://experienceleague.adobe.com/it/docs/experience-platform/dashboards/guides/license-usage) in [!DNL Experience Platform]
 * [IA agente in Adobe CX Enterprise](agentic-ai.md)
 * [Processi agente e consumo credito IA](ai-credit-consumption.md)
-* [Dashboard utilizzo licenze](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
+* [Dashboard utilizzo licenze](https://experienceleague.adobe.com/it/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
