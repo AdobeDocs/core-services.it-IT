@@ -27,10 +27,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e934d8cc7aab9e9e5529220a989ef176505b0397
+source-git-commit: 1c06d9c0e10cd0ac37329cd2c73a2adc493e53b6
 workflow-type: tm+mt
-source-wordcount: 1559
-ht-degree: 54%
+source-wordcount: 1553
+ht-degree: 55%
 
 ---
 
@@ -46,8 +46,8 @@ Per le note sulla versione relative a tutte le applicazioni, vedere [Note sulla 
 
 | Data | Aggiornamento | Descrizione |
 | ------- | ------- | ------- |
-| 11 giugno 2026 | Collaboratore aziendale CX (disponibilità generale) | CX Enterprise Coworker è un&#39;applicazione di intelligenza artificiale per l&#39;analisi dei clienti che automatizza i flussi di lavoro end-to-end. Rileva i segnali, crea tipi di pubblico e avvia campagne con governance integrata in poche ore. La documentazione sarà presto disponibile. |
-| 1 giugno 2026 | Monitoraggio dell’utilizzo di IA per l’agente | CX Enterprise fornisce ora dashboard per monitorare l’utilizzo dell’intelligenza artificiale agente nelle applicazioni esistenti. Tieni traccia dell’adozione, rivedi le conversazioni e i feedback, e gestisci il consumo di crediti AI per gli agenti Experience Platform a cui si accede tramite l’Assistente AI e altre superfici di conversazione. Le viste Panoramica, Utenti, Feedback e Crediti AI aiutano le parti interessate a guidare l’adozione della governance con i dati. Consulta [Monitoraggio di IA per l&#39;agente](../features/monitoring.md) per l&#39;accesso e le autorizzazioni del dashboard. |
+| 11 giugno 2026 | [!DNL CX Enterprise Coworker] (disponibilità generale) | CX Enterprise Coworker è un&#39;applicazione di intelligenza artificiale per l&#39;analisi dei clienti che automatizza i flussi di lavoro end-to-end. Coworker rileva i segnali, crea tipi di pubblico e avvia campagne con governance incorporata in poche ore. La documentazione sarà presto disponibile. |
+| 1 giugno 2026 | [!UICONTROL Monitoraggio] | CX Enterprise fornisce ora dashboard per monitorare l’utilizzo dell’intelligenza artificiale agente nelle applicazioni esistenti. Tieni traccia dell’adozione, rivedi le conversazioni e i feedback, e gestisci il consumo di crediti AI per gli agenti Experience Platform a cui si accede tramite l’Assistente AI e altre superfici di conversazione. Le viste Panoramica, Utenti, Feedback e Crediti AI aiutano le parti interessate a guidare l’adozione della governance con i dati. Consulta [Monitoraggio di IA per l&#39;agente](../features/monitoring.md) per l&#39;accesso e le autorizzazioni del dashboard. |
 
 ## Aprile 2026
 
