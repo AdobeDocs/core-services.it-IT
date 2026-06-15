@@ -22,8 +22,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 127
-ht-degree: 88%
+source-wordcount: 131
+ht-degree: 85%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 88%
 
 Exchange Marketplace è un&#39;unica destinazione in cui è possibile eseguire ricerche, sfogliare, selezionare, pagare e scaricare estensioni Digital Marketing tramite app. Le app includono connettori dati, configurazioni personalizzate per il prodotto di base di Adobe, applicazioni di terze parti e rapporti.
 
-**[!UICONTROL CX Enterprise]** > **[!UICONTROL Help]** > **[!UICONTROL Exchange]**
+**[!UICONTROL CX Enterprise]** > **[!UICONTROL Guida]** > **[!UICONTROL Exchange]**
 
 * Scarica gli SDK, leggi la documentazione e invia le applicazioni a Digital Marketing per una recensione.
 

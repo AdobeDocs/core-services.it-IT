@@ -25,8 +25,8 @@ topic_v2:
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 346
-ht-degree: 36%
+source-wordcount: 352
+ht-degree: 33%
 
 ---
 
@@ -36,7 +36,7 @@ Le funzionalità dell&#39;interfaccia di CX Enterprise sono talvolta denominate 
 
 Altre funzioni condivise includono l&#39;amministrazione (gestione di utenti e prodotti) per CX Enterprise, i cookie, le preferenze dell&#39;account, le notifiche e così via.
 
-Per accedere ai servizi e alle applicazioni condivisi in CX Enterprise, fare clic sul pulsante **[!UICONTROL Application Selector]**
+Per accedere ai servizi e alle applicazioni condivisi in CX Enterprise, fare clic sul **[!UICONTROL selettore applicazioni]**
 ![Selettore servizi](../assets/apps-icon.png).
 
 **Selettore applicazioni**
@@ -49,7 +49,7 @@ Le pagine Servizi in questa guida descrivono i prodotti e i servizi seguenti:
 | --- | --- |
 | [Componenti dell’interfaccia centrale](https://experienceleague.adobe.com/it/docs/core-services/interface/experience-cloud) | Accedi alle preferenze dell’account, alla guida del prodotto e ad applicazioni e servizi. |
 | [Libreria pubblico](https://experienceleague.adobe.com/it/docs/core-services/interface/services/audiences/overview) | I tipi di pubblico sono raccolte di visitatori (un elenco di ID visitatore). Con [!DNL Audience Library] di Adobe puoi gestire come tradurre i dati sui visitatori in segmentazione del pubblico. |
-| [Attributi del cliente](https://experienceleague.adobe.com/it/docs/core-services/interface/services/customer-attributes/attributes) | Crea casi di utilizzo di orchestrazione in tempo reale sulla base dei dati contestuali memorizzati negli eventi o nelle origini dati. [!UICONTROL Journey Orchestration] è un servizio applicativo integrato all’interno di Experience Platform. |
+| [Attributi del cliente](https://experienceleague.adobe.com/it/docs/core-services/interface/services/customer-attributes/attributes) | Crea casi di utilizzo di orchestrazione in tempo reale sulla base dei dati contestuali memorizzati negli eventi o nelle origini dati. [!UICONTROL Journey Orchestration] è un servizio applicativo integrato con Experience Platform. |
 | [Assets](https://experienceleague.adobe.com/it/docs/core-services/interface/services/assets/experience-cloud-assets) | CX Enterprise Assets fornisce un archivio unico e centralizzato di risorse pronte per le attività di marketing da condividere tra le diverse applicazioni. |
 | [Triggers](https://experienceleague.adobe.com/it/docs/core-services/interface/services/triggers) | Triggers in CX Enterprise consente di identificare, definire e monitorare i comportamenti chiave dei consumatori, per poi generare comunicazioni tra le diverse applicazioni in modo da coinvolgere nuovamente i visitatori. Puoi utilizzare i trigger nelle decisioni in tempo reale e nella personalizzazione. |
 | [Marketplace Adobe Exchange](https://experienceleague.adobe.com/it/docs/core-services/interface/services/exchange) | Exchange Marketplace è un&#39;unica destinazione in cui è possibile eseguire ricerche, sfogliare, selezionare, pagare e scaricare estensioni Digital Marketing tramite app. Le app includono connettori dati, configurazioni personalizzate per il prodotto di base di Adobe, applicazioni di terze parti e rapporti. |
@@ -58,5 +58,5 @@ Le pagine Servizi in questa guida descrivono i prodotti e i servizi seguenti:
 
 >[!NOTE]
 >
->È disponibile la documentazione del prodotto per [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=it). La documentazione tecnica per gli sviluppatori [!UICONTROL Experience Platform] si trova in [Adobe Developer](https://developer.adobe.com/apis).
+>È disponibile la documentazione del prodotto per [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=it). La documentazione tecnica per gli sviluppatori di [!UICONTROL Experience Platform] si trova in [Adobe Developer](https://developer.adobe.com/apis).
 

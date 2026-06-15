@@ -1,7 +1,7 @@
 ---
 description: Scopri gli strumenti amministrativi per la gestione degli utenti approvati di Creative Cloud in CX Enterprise.
 solution: Experience Cloud
-title: Gestire gli utenti di Creative Cloud in Experience Cloud
+title: Gestione degli utenti di Creative Cloud in Experience Cloud
 feature: Assets
 topic: Administration
 role: Admin
@@ -21,8 +21,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 111
-ht-degree: 53%
+source-wordcount: 124
+ht-degree: 46%
 
 ---
 
@@ -34,8 +34,8 @@ CX Enterprise fornisce strumenti amministrativi per la gestione degli utenti app
 >
 >Devi essere un amministratore per effettuare questa procedura.
 
-1. In CX Enterprise, fare clic su **[!UICONTROL Administration]** > **[!UICONTROL Manage Creative Cloud Collaborators]**.
-1. Fai clic su **[!UICONTROL Creative Cloud Asset Sharing]**.
-1. Fai clic su **[!UICONTROL Add New User]**.  ![aggiungi nuovo utente](../../assets/mac_add_icon.png)
+1. In CX Enterprise, fare clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Gestisci i collaboratori Creative Cloud]**.
+1. Fai clic su **[!UICONTROL Condivisione risorse Creative Cloud]**.
+1. Fare clic su **[!UICONTROL Aggiungi nuovo utente]**.  ![aggiungi nuovo utente](../../assets/mac_add_icon.png)
 1. Immetti indirizzo e-mail, nome visualizzato, titolo e facoltativamente aggiungi un avatar.
-1. Fai clic su **[!UICONTROL Create]**.
+1. Fai clic su **[!UICONTROL Crea]**.

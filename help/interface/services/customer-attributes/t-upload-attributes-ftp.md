@@ -21,8 +21,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 379
-ht-degree: 53%
+source-wordcount: 394
+ht-degree: 51%
 
 ---
 
@@ -47,7 +47,7 @@ Puoi caricare i dati dopo aver creato un&#39;origine attributo del cliente e un 
 
    Verifica di aver effettuato l’accesso al tuo sito FTP su `ftp.adobe.com/<sftpname>`.
 
-1. Fare clic su **[!UICONTROL Actions]** > **[!UICONTROL File Upload]**.
+1. Fai clic su **[!UICONTROL Azioni]** > **[!UICONTROL Caricamento file]**.
 
 1. Carica un file `.fin` in modo che possa essere recuperato.
 
@@ -61,7 +61,7 @@ Puoi caricare i dati dopo aver creato un&#39;origine attributo del cliente e un 
 
 Imposta un account FTP per origine attributo.
 
-Nella pagina [!UICONTROL File Upload and Schema Validation], fare clic su **[!UICONTROL FTP Setup]**.
+Nella pagina [!UICONTROL Caricamento file e convalida schema], fare clic su **[!UICONTROL Configurazione FTP]**.
 
 ![Modificare uno schema](assets/ftp-account.png)
 
@@ -69,9 +69,9 @@ I file caricati vengono memorizzati nella cartella root di tale account. I dati 
 
 I nomi applicati a stringhe, interi e numeri vengono utilizzati per creare metriche di [!DNL Analytics].
 
-* **[!UICONTROL attribute:]** dati attributo letti dal file `.csv` caricato.
+* **[!UICONTROL attributo:]** dati attributo letti dal file `.csv` caricato.
 
-* **[!UICONTROL Type:]** Il tipo di dati, ad esempio:
+* **[!UICONTROL Tipo:]** Il tipo di dati, ad esempio:
 
    * **Stringa:** una sequenza di caratteri.
 
@@ -79,7 +79,7 @@ I nomi applicati a stringhe, interi e numeri vengono utilizzati per creare metri
 
    * **Numeri:** possono contenere fino a due posizioni decimali.
 
-* **[!UICONTROL Display Name:]** Nome descrittivo per l&#39;attributo. Ad esempio, puoi rinominare l&#39;attributo *customer age* in *customer Since*.
+* **[!UICONTROL Nome visualizzato:]** Un nome descrittivo per l&#39;attributo. Ad esempio, puoi rinominare l&#39;attributo *customer age* in *customer Since*.
 
-* **[!UICONTROL Description:]** Una descrizione dell&#39;attributo.
+* **[!UICONTROL Descrizione:]** una descrizione dell&#39;attributo.
 

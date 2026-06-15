@@ -15,8 +15,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 54
-ht-degree: 42%
+source-wordcount: 60
+ht-degree: 38%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 42%
 
 Informazioni su come eliminare e sostituire gli attributi nello schema.
 
-1. Nella pagina [!UICONTROL Edit Customer Attribute Source] fare clic su Configura sottoscrizioni.
+1. Nella pagina [!UICONTROL Modifica attributo cliente Source] fare clic su Configura sottoscrizioni.
 
-1. Rimuovere i valori mappati per **[!UICONTROL Target]** o **[!UICONTROL Analytics]**.
+1. Rimuovi i valori mappati per **[!UICONTROL Target]** o **[!UICONTROL Analytics]**.
 
 1. [Carica un nuovo file di dati con campi aggiornati](t-crs-usecase.md).

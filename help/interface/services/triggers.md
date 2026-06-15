@@ -26,14 +26,14 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 697
-ht-degree: 71%
+source-wordcount: 726
+ht-degree: 69%
 
 ---
 
 # Trigger di CX Enterprise
 
-[!UICONTROL Triggers] in CX Enterprise consente di identificare, definire e monitorare i comportamenti chiave dei consumatori, per poi generare comunicazioni tra le diverse applicazioni in modo da coinvolgere nuovamente i visitatori. Puoi utilizzare i trigger nelle decisioni in tempo reale e nella personalizzazione.
+[!UICONTROL Triggers] in CX Enterprise consente di identificare, definire e monitorare i comportamenti chiave dei consumatori, per poi generare comunicazioni tra le diverse applicazioni per coinvolgere nuovamente i visitatori. Puoi utilizzare i trigger nelle decisioni in tempo reale e nella personalizzazione.
 
 Ad esempio:
 
@@ -63,9 +63,9 @@ Crea un trigger e configurane le condizioni. Ad esempio, puoi specificare i crit
 >
 >Esiste attualmente un limite tecnico di 100 trigger.
 
-1. In CX Enterprise, fare clic su ![menu](../assets/menu-icon.png), quindi su **[!UICONTROL Data Collection/Launch]**.
-1. Sulla scheda [!UICONTROL Triggers], fare clic su **[!UICONTROL Manage Triggers]**.
-1. Fare clic su **[!UICONTROL New Trigger]**, quindi specificare il tipo di trigger:
+1. In CX Enterprise, fai clic sul ![menu](../assets/menu-icon.png), quindi fai clic su **[!UICONTROL Raccolta dati/Launch]**.
+1. Nella scheda [!UICONTROL Triggers], fai clic su **[!UICONTROL Gestisci trigger]**.
+1. Fai clic su **[!UICONTROL Nuovo trigger]**, quindi specifica il tipo di trigger:
 
    ![Risultato passaggio](../assets/add-trigger.png)
 
@@ -73,16 +73,16 @@ Crea un trigger e configurane le condizioni. Ad esempio, puoi specificare i crit
 
    | Elemento | Descrizione |
    | --- | --- |
-   | [!UICONTROL Name] | Nome intuitivo per il trigger. |
-   | [!UICONTROL Description] | La descrizione di questo attivatore, come utilizzarlo e così via. |
-   | [!UICONTROL Report Suite] | La [suite di rapporti](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=it) di Analytics utilizzata per questo trigger. Questa impostazione identifica i dati di reporting da utilizzare. |
-   | La visita deve includere<br>La visita non deve includere<br>Trigger dopo nessuna azione<br>Includi metadati | Puoi definire i criteri o i comportamenti del visitatore desiderati e i comportamenti indesiderati. Ad esempio, le regole per un semplice attivatore di abbandono carrello potrebbero essere:<ul><li>La visita deve includere: [!UICONTROL Cart Addition] (metrica) e [!UICONTROL Exists]. (puoi definire ulteriormente la regola con una visualizzazione di prodotto specifica o con dimensioni come Tipi di browser).</li><li>La visita non deve includere: [!UICONTROL Checkout].</li><li>Trigger dopo nessuna azione per: 10 minuti.</li><li>[!UICONTROL Include Meta Data]: consente di aggiungere una dimensione [!DNL Campaign] particolare o variabili rilevanti per il comportamento di un visitatore. Questo campo può essere utile per Adobe Campaign per creare l&#39;e-mail di ricommercializzazione corretta.</li></ul><br>Puoi specificare la logica [!UICONTROL Any], [!UICONTROL And] o [!UICONTROL Or] all&#39;interno o tra contenitori, a seconda dei criteri che ritieni importanti per la regola. |
-   | [!UICONTROL Container] | [!UICONTROL Containers] sono le impostazioni e l&#39;archiviazione di regole, condizioni o filtri che definiscono un trigger. Se vuoi far verificare gli eventi contemporaneamente, inseriscili nello stesso contenitore. Ciò significa che ogni contenitore elabora indipendentemente a livello di risultato. Ad esempio, in caso di due contenitori uniti dall&#39;operatore AND, le regole saranno idonee quando due risultati soddisfano i requisiti. |
+   | [!UICONTROL Nome] | Nome intuitivo per il trigger. |
+   | [!UICONTROL Descrizione] | La descrizione di questo attivatore, come utilizzarlo e così via. |
+   | [!UICONTROL Suite di rapporti] | La [suite di rapporti](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=it) di Analytics utilizzata per questo trigger. Questa impostazione identifica i dati di reporting da utilizzare. |
+   | La visita deve includere<br>La visita non deve includere<br>Trigger dopo nessuna azione<br>Includi metadati | Puoi definire i criteri o i comportamenti del visitatore desiderati e i comportamenti indesiderati. Ad esempio, le regole per un semplice attivatore di abbandono carrello potrebbero essere:<ul><li>La visita deve includere: [!UICONTROL Aggiunta carrello] (metrica) e [!UICONTROL Esiste]. (puoi definire ulteriormente la regola con una visualizzazione di prodotto specifica o con dimensioni come Tipi di browser).</li><li>La visita non deve includere: [!UICONTROL Estrazione].</li><li>Trigger dopo nessuna azione per: 10 minuti.</li><li>[!UICONTROL Includi dati Meta]: consente di aggiungere una dimensione [!DNL Campaign] particolare o variabili rilevanti per il comportamento di un visitatore. Questo campo può essere utile per Adobe Campaign per creare l&#39;e-mail di ricommercializzazione corretta.</li></ul><br>È possibile specificare la logica [!UICONTROL Any], [!UICONTROL And] o [!UICONTROL Or] all&#39;interno o tra contenitori, a seconda dei criteri che ritieni importanti per la regola. |
+   | [!UICONTROL Contenitore] | [!UICONTROL Nei contenitori] vengono impostati e archiviati regole, condizioni o filtri che definiscono un trigger. Se vuoi far verificare gli eventi contemporaneamente, inseriscili nello stesso contenitore. Ciò significa che ogni contenitore elabora indipendentemente a livello di risultato. Ad esempio, in caso di due contenitori uniti dall&#39;operatore AND, le regole saranno idonee quando due risultati soddisfano i requisiti. |
    | Start new session after (Avvia nuova sessione dopo) | Crea un trigger per gli eventi di inizio e fine sessione. |
 
    {style="table-layout:auto"}
 
-1. Fai clic su **[!UICONTROL Save]**.
+1. Fai clic su **[!UICONTROL Salva]**.
 1. Usa i trigger per la [commercializzazione in tempo reale](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html?lang=it) in [!DNL Adobe Campaign].
 
 ## Esempio di trigger
@@ -91,7 +91,7 @@ Esempi di CX Enterprise Triggers:
 
 ### Trigger di abbandono del carrello
 
-Ad esempio, nella pagina seguente sono illustrate le regole che è possibile utilizzare per un trigger [!UICONTROL Cart Abandonment], in base ai prodotti visualizzati durante una visita.
+Ad esempio, nella pagina seguente sono illustrate le regole che è possibile utilizzare per un trigger [!UICONTROL Abbandono carrello], in base ai prodotti visualizzati durante una visita.
 
 ![Trigger di abbandono del carrello](../assets/abandonment-trigger.png)
 

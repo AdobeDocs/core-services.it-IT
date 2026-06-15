@@ -34,7 +34,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 1243
+source-wordcount: 1248
 ht-degree: 1%
 
 ---
@@ -114,7 +114,7 @@ Aliases: data.example.com
 
 Dopo aver verificato il corretto funzionamento del certificato, puoi aggiornare l’implementazione di Adobe per utilizzare il nuovo nome host CNAME.
 
-* **Estensione tag Web SDK**: aggiorna il campo [[!UICONTROL Edge domain]](https://experienceleague.adobe.com/it/docs/experience-platform/tags/extensions/client/web-sdk/configure/general) durante la configurazione dell&#39;estensione.
+* **Estensione tag per Web SDK**: aggiorna il campo [[!UICONTROL Dominio Edge]](https://experienceleague.adobe.com/it/docs/experience-platform/tags/extensions/client/web-sdk/configure/general) durante la configurazione dell&#39;estensione.
 * **Web SDK (lega)**: aggiornare la proprietà [`edgeDomain`](https://experienceleague.adobe.com/it/docs/experience-platform/collection/js/commands/configure/edgedomain) nel comando `configure`.
 * **Estensione Adobe Analytics**: aggiorna il campo [[!UICONTROL SSL Tracking Server]](https://experienceleague.adobe.com/it/docs/experience-platform/tags/extensions/client/analytics/overview) durante la configurazione dell&#39;estensione. Assicurati inoltre di aver installato l&#39;estensione tag [Visitor ID Service](https://experienceleague.adobe.com/it/docs/experience-platform/tags/extensions/client/id-service/overview). Per ulteriori informazioni, consulta [Identificazione del visitatore tramite l&#39;estensione tag Analytics](https://experienceleague.adobe.com/it/docs/analytics/implementation/id/analytics-extension).
 * **AppMeasurement**: aggiorna la variabile di configurazione [`trackingServerSecure`](https://experienceleague.adobe.com/it/docs/analytics/implementation/vars/config-vars/trackingserversecure). Assicurati inoltre di avere implementato il [Servizio ID visitatori](https://experienceleague.adobe.com/it/docs/id-service/using/home) tramite `VisitorAPI.js`. Per ulteriori informazioni, consulta [Identificazione del visitatore tramite AppMeasurement](https://experienceleague.adobe.com/it/docs/analytics/implementation/id/appmeasurement).

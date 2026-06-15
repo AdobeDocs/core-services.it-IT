@@ -32,7 +32,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 1111
+source-wordcount: 1116
 ht-degree: 30%
 
 ---
@@ -48,7 +48,7 @@ Descrive come:
 * Eseguire il provisioning della società in CX Enterprise.
 * Diventare un amministratore.
 * [Implementare il servizio CX Enterprise ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it).
-* Modernizzare le implementazioni di [!DNL Analytics] e [!DNL Target] tramite [!UICONTROL Platform Data Collection].
+* Modernizza le tue implementazioni di [!DNL Analytics] e [!DNL Target] tramite [!UICONTROL Raccolta dati di Platform].
 * Inizia a utilizzare i servizi CX Enterprise come [Attributi del cliente](../services/customer-attributes/attributes.md) e [Libreria tipi di pubblico](../services/audiences/overview.md).
 
 Soluzioni o servizi:
@@ -73,7 +73,7 @@ Consulta [Servizio CX Enterprise ID](https://experienceleague.adobe.com/docs/id-
 
 Aiuto: [Tipi di pubblico](/help/interface/services/audiences/overview.md)
 
-Creazione e gestione di tipi di pubblico in CX Enterprise [!UICONTROL Audience Library]. Puoi creare o derivare tipi di pubblico da diverse fonti, come ad esempio:
+Crea e gestisci tipi di pubblico in CX Enterprise [!UICONTROL Libreria tipi di pubblico]. Puoi creare o derivare tipi di pubblico da diverse fonti, come ad esempio:
 
 * Fonti nuove create in [!DNL CX Enterprise].
 * Da [!DNL Analytics] segmenti pubblicati in [!DNL CX Enterprise].
@@ -121,7 +121,7 @@ Consente ad Analytics di raccogliere impression e clic sulle risorse da AEM Asse
 
 ## Integrazioni di Audience Manager
 
-[Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implementation-and-integration.html?lang=it)
+[Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implementation-and-integration.html)
 
 Lavora con i dati provenienti dalle applicazioni CX Enterprise o da altri sistemi esterni in Audience Manager.
 
@@ -129,7 +129,7 @@ Lavora con i dati provenienti dalle applicazioni CX Enterprise o da altri sistem
 
 * [Inoltro lato server di Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=it)
 * [Inviare segmenti di Audience Manager ad Analytics](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=it)
-* [Integrazione dei dati di Adobe Target](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-applications/aam-target-integration.html?lang=it)
+* [Integrazione dei dati di Adobe Target](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-applications/aam-target-integration.html)
 
 ## Adobe Target
 

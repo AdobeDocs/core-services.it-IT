@@ -24,8 +24,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 1118
-ht-degree: 43%
+source-wordcount: 1188
+ht-degree: 41%
 
 ---
 
@@ -41,7 +41,7 @@ Creare l&#39;origine attributo del cliente (`.csv` e `.fin` file) e caricare i d
 
 * **Appartenenza al gruppo:** Per caricare i dati, gli utenti devono essere membri del gruppo [!DNL Customer Attributes]. Devi anche appartenere a un gruppo Adobe Analytics o Adobe Target.
 
-  Per sapere se la società ha accesso a Attributi del cliente, l&#39;amministratore di [!DNL CX Enterprise] deve effettuare l&#39;accesso a [CX Enterprise](https://experience.adobe.com). Passa a **[!UICONTROL Admin Console]** > **[!UICONTROL Products]**. Se *[!DNL Customer Attributes]* viene visualizzato come uno dei [!UICONTROL product profiles], è possibile iniziare.
+  Per sapere se la società ha accesso a Attributi del cliente, l&#39;amministratore di [!DNL CX Enterprise] deve effettuare l&#39;accesso a [CX Enterprise](https://experience.adobe.com). Passa a **[!UICONTROL Admin Console]** > **[!UICONTROL Prodotti]**. Se *[!DNL Customer Attributes]* viene visualizzato come uno dei [!UICONTROL profili di prodotto], puoi iniziare.
 
   Gli utenti aggiunti a [!DNL Customer Attributes] visualizzano la voce di menu [!DNL Customer Attributes] sul lato sinistro dell&#39;interfaccia CX Enterprise.
 
@@ -68,27 +68,27 @@ Questi dati sono dati aziendali dei clienti provenienti dal tuo sistema CRM. Pos
 
 ## Creare un’origine di attributi e caricare il file di dati
 
-Eseguire la procedura seguente sulla pagina _[!UICONTROL Create Customer Attribute Source]_&#x200B;di CX Enterprise.
+Eseguire la procedura seguente nella pagina _[!UICONTROL Crea attributo cliente Source]_ in CX Enterprise.
 
 >[!IMPORTANT]
 >
 >Quando crei, modifichi o elimini origini attributo del cliente, si verifica un ritardo di circa un&#39;ora prima della effettiva sincronizzazione degli ID con la nuova origine dati. Devi disporre di diritti di amministratore in Audience Manager per creare o modificare origini degli attributi del cliente. Per ottenere i diritti di amministratore, contatta l’Assistenza clienti o la consulenza di Audience Manager.
 
-1. Per aprire [!UICONTROL Customer Attributes], fare clic su **[!UICONTROL Apps]** ![menu](assets/menu-icon.png) > **[!DNL Customer Attributes]**.
+1. Per aprire [!UICONTROL Attributi del cliente], fai clic su **[!UICONTROL App]** ![menu](assets/menu-icon.png) > **[!DNL Customer Attributes]**.
 
    ![Pagina attributi cliente](assets/cust-attr.png)
 
-1. Fai clic su **[!UICONTROL New]**.
+1. Fai clic su **[!UICONTROL Nuovo]**.
 
    ![Risultato del passaggio](assets/new-customer-attribute-source.png)
 
-1. Nella pagina [!UICONTROL Create Customer Attribute Source] configurare i campi seguenti:
+1. Nella pagina [!UICONTROL Crea attributo cliente Source] configurare i campi seguenti:
 
-   * **[!UICONTROL Name:]** Nome descrittivo per l&#39;origine attributo dati. In [!DNL Adobe Target], i nomi degli attributi non possono includere spazi. Se viene passato un attributo con uno spazio, [!DNL Target] lo ignora. Altri caratteri non supportati sono: `< , >, ', "`.
+   * **[!UICONTROL Nome:]** Un nome descrittivo per l&#39;origine attributo dei dati. In [!DNL Adobe Target], i nomi degli attributi non possono includere spazi. Se viene passato un attributo con uno spazio, [!DNL Target] lo ignora. Altri caratteri non supportati sono: `< , >, ', "`.
 
-   * **[!UICONTROL Description:]** (facoltativo) descrizione dell&#39;origine attributo dei dati.
+   * **[!UICONTROL Descrizione:]** (facoltativo) una descrizione dell&#39;origine attributo dei dati.
 
-   * **[!UICONTROL Alias ID:]** Rappresenta un&#39;origine dei dati attributo del cliente, ad esempio un sistema CRM specifico. [!UICONTROL Alias ID] è un ID univoco utilizzato nel codice [!UICONTROL customer attribute Source]. L&#39;ID deve essere univoco, in lettere minuscole e non deve comprendere spazi. Il valore immesso nel campo [!UICONTROL Alias ID] per un&#39;origine attributo del cliente in CX Enterprise deve corrispondere ai valori ricevuti dall&#39;implementazione (tramite Raccolta dati di Platform o JavaScript del SDK mobile).
+   * **[!UICONTROL ID alias:]** rappresenta un&#39;origine dei dati attributo del cliente, ad esempio un sistema CRM specifico. [!UICONTROL ID alias] è un ID univoco utilizzato nel codice [!UICONTROL Source] dell&#39;attributo del cliente. L&#39;ID deve essere univoco, in lettere minuscole e non deve comprendere spazi. Il valore immesso nel campo [!UICONTROL ID alias] per un&#39;origine attributo del cliente in CX Enterprise deve corrispondere ai valori ricevuti dall&#39;implementazione (tramite Raccolta dati di Platform o JavaScript del SDK mobile).
 
      >[!IMPORTANT]
      >
@@ -96,7 +96,7 @@ Eseguire la procedura seguente sulla pagina _[!UICONTROL Create Customer Attribu
 
      L’ID alias corrisponde ad alcune aree in cui puoi impostare valori ID cliente aggiuntivi. Ad esempio:
 
-      * **Tag:** L&#39;ID alias corrisponde al valore *Integration Code* in [!UICONTROL customer Settings], nello strumento [CX Enterprise ID Service](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=it).
+      * **Tag:** L&#39;ID alias corrisponde al valore *Integration Code* in [!UICONTROL Impostazioni cliente], nello strumento [Servizio CX Enterprise ID](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=it).
 
       * **API visitatore:** l&#39;ID alias corrisponde agli ulteriori [ID cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=it) che è possibile associare a ogni visitatore.
 
@@ -120,9 +120,9 @@ Eseguire la procedura seguente sulla pagina _[!UICONTROL Create Customer Attribu
 
         Consulta [Utilizzo di più origini dati](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB) per ulteriori informazioni sull&#39;elaborazione dei dati relativi al campo ID alias e agli ID cliente.
 
-   * **[!UICONTROL Namespace Code:]** Utilizzare questo valore per identificare l&#39;origine attributo del cliente quando si utilizza [IdentityMap](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/identity/overview) come parte di un&#39;implementazione di AEP WebSDK.
+   * **[!UICONTROL Codice spazio dei nomi:]** Utilizzare questo valore per identificare l&#39;origine attributo del cliente quando si utilizza [IdentityMap](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/identity/overview) come parte di un&#39;implementazione di AEP WebSDK.
 
-1. Fai clic su **[!UICONTROL Save]**.
+1. Fai clic su **[!UICONTROL Salva]**.
 
 ## Carica il file {#upload-customer-attributes}
 
@@ -130,7 +130,7 @@ Viene creato il record di attributi cliente, che puoi caricare modificando l’a
 
 1. Nella pagina [!DNL Customer Attributes] fare clic sull&#39;origine attributo.
 
-1. Nella pagina [!UICONTROL Edit Customer Data Source], fare clic su **[!UICONTROL File Upload]**.
+1. Nella pagina [!UICONTROL Modifica Source dati cliente], fai clic su **[!UICONTROL Caricamento file]**.
 
    ![Caricamento file e convalida schema](assets/file-upload-schema-validation.png)
 
@@ -140,15 +140,15 @@ Viene creato il record di attributi cliente, che puoi caricare modificando l’a
 >
 >Esistono dei requisiti del file di dati specifici. Consulta [Requisiti dei file di dati](crs-data-file.md) per ulteriori informazioni.
 
-Dopo aver caricato il file, i dati della tabella vengono visualizzati nell&#39;intestazione [!UICONTROL File Upload] di questa pagina. È possibile convalidare lo schema, configurare sottoscrizioni o impostare l&#39;FTP.
+Dopo aver caricato il file, i dati della tabella vengono visualizzati nell&#39;intestazione [!UICONTROL Caricamento file] di questa pagina. È possibile convalidare lo schema, configurare sottoscrizioni o impostare l&#39;FTP.
 
 ![attributi](assets/file_upload_attributes.png)
 
-* **[!UICONTROL Unique customer ID:]** mostra quanti ID univoci hai caricato in questa origine attributo.
+* **[!UICONTROL ID cliente univoco:]** mostra quanti ID univoci hai caricato in questa origine attributo.
 
-* **[!UICONTROL Customer-Provided IDs Aliased to CX Enterprise Visitor IDs:]** mostra quanti ID sono stati impostati come alias degli ID visitatore aziendali CX.
+* **[!UICONTROL ID forniti dal cliente come alias degli ID visitatore Enterprise CX:]** mostra quanti ID sono impostati come alias degli ID visitatore Enterprise CX.
 
-* **[!UICONTROL Customer-Provided IDs with High Alias Counts:]** Visualizza il numero di ID forniti dal cliente con 500 o più ID visitatore CX Enterprise con alias. Questi ID forniti dal cliente non rappresentano individui ma accessi condivisi. Il sistema distribuisce gli attributi associati a questi ID ai 500 ID visitatore aziendale CX con alias più recenti, fino a raggiungere la soglia di 10.000. Quindi, il sistema invalida l’ID fornito dal cliente e non distribuisce più gli attributi associati.
+* **[!UICONTROL ID forniti dal cliente con soglia degli alias elevata:]** visualizza il numero di ID forniti dal cliente con 500 o più ID visitatore aziendale CX con alias. Questi ID forniti dal cliente non rappresentano individui ma accessi condivisi. Il sistema distribuisce gli attributi associati a questi ID ai 500 ID visitatore aziendale CX con alias più recenti, fino a raggiungere la soglia di 10.000. Quindi, il sistema invalida l’ID fornito dal cliente e non distribuisce più gli attributi associati.
 
 ## Convalida dello schema {#validate-schema}
 
@@ -162,7 +162,7 @@ Per eliminare gli attributi, consulta [(Facoltativo) Aggiornare lo schema (elimi
 
 Informazioni su come eliminare e sostituire gli attributi nello schema.
 
-1. Nella pagina [!UICONTROL Edit Customer Attribute Source], rimuovere la sottoscrizione **[!UICONTROL Target]** o **[!UICONTROL Analytics]** (in **[!UICONTROL Configure Subscriptions]**).
+1. Nella pagina [!UICONTROL Modifica attributo del cliente: Source], rimuovi la sottoscrizione **[!UICONTROL Target]** o **[!UICONTROL Analytics]** (in **[!UICONTROL Configura sottoscrizioni]**).
 
 1. [Carica un nuovo file di dati con campi aggiornati](t-crs-usecase.md).
 
@@ -184,7 +184,7 @@ Quando si pubblica un segmento in CX Enterprise, questo diventa disponibile in C
 
 ## Usa i dati di [!DNL Customer Attributes] in Adobe Target
 
-In [!DNL Target] è possibile selezionare un attributo del cliente dalla sezione [!UICONTROL Visitor Profile] durante la creazione di un pubblico. Tutti gli attributi del cliente hanno il prefisso `crs.` nell&#39;elenco. Per creare dei tipi di pubblico, combina questi attributi con altri attributi di dati.
+In [!DNL Target] puoi selezionare un attributo del cliente dalla sezione [!UICONTROL Profilo visitatore] al momento della creazione di un pubblico. Tutti gli attributi del cliente hanno il prefisso `crs.` nell&#39;elenco. Per creare dei tipi di pubblico, combina questi attributi con altri attributi di dati.
 
 ![Utilizzo degli Attributi del cliente in Adobe Target](assets/crs-add-attribute-target.png)
 

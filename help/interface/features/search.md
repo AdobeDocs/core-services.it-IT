@@ -1,7 +1,7 @@
 ---
 description: Scopri la funzione di ricerca unificata per alcune applicazioni di CX Enterprise.
 solution: Experience Cloud
-title: Ricerca unificata Experience Cloud
+title: Ricerca unificata di Experience Cloud
 index: true
 feature: Central Interface Components
 topic: Administration
@@ -24,20 +24,20 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 639
-ht-degree: 18%
+source-wordcount: 660
+ht-degree: 17%
 
 ---
 
-# [!UICONTROL Unified Search] in CX Enterprise
+# [!UICONTROL Ricerca unificata] in CX Enterprise
 
-La ricerca di [!UICONTROL Unified Search] consente di trovare oggetti o entità business ricercabili in modalità semplice, coerente e immediata. Questa ricerca fa emergere anche gli oggetti utilizzati di recente.
+La ricerca [!UICONTROL Unified Search] consente di trovare oggetti o entità business ricercabili in modo semplice, coerente e immediato. Questa ricerca fa emergere anche gli oggetti utilizzati di recente.
 
 ![Ricerca globale di oggetti ed entità](../assets/platform-search.png)
 
-## Accesso al [!UICONTROL Unified Search]
+## Accesso a [!UICONTROL Ricerca unificata]
 
-[!UICONTROL Unified Search] è disponibile in ogni pagina dell&#39;intestazione CX Enterprise nella parte superiore della pagina. È inoltre possibile utilizzare la scelta rapida da tastiera `command /` o `ctrl /` per accedere alla ricerca.
+[!UICONTROL Ricerca unificata] è disponibile in ogni pagina dell&#39;intestazione CX Enterprise nella parte superiore della pagina. È inoltre possibile utilizzare la scelta rapida da tastiera `command /` o `ctrl /` per accedere alla ricerca.
 
 Questa funzione è disponibile solo per i prodotti supportati che al momento sono:
 
@@ -56,7 +56,7 @@ Autorizzazioni relative a funzionalità e oggetti
 Percentuale corrispondente
 Se esiste una corrispondenza esatta
 
-![[!UICONTROL Unified Search] in CX Enterprise](../assets/unified-search-results.png)
+![[!UICONTROL Ricerca unificata] in CX Enterprise](../assets/unified-search-results.png)
 
 Gli oggetti business ricercabili includono:
 
@@ -75,23 +75,23 @@ Se una parola chiave corrisponde a una pagina di navigazione, puoi ottenere un c
 
 Sono inoltre disponibili gli articoli della guida di Experience League e le community. Sono supportate le query per lingue naturali.
 
-Ad esempio, _Come creare uno schema_ produce i risultati di Experience League in _[!UICONTROL Learning]_:
+Ad esempio, _Come creare uno schema_ produce i risultati di Experience League in _[!UICONTROL Apprendimento]_:
 
-![[!UICONTROL Unified Search] nella Guida di CX Enterprise](../assets/unified-search-learning.png)
+![[!UICONTROL Ricerca unificata] nella Guida di CX Enterprise](../assets/unified-search-learning.png)
 
 Gli algoritmi di ricerca visualizzano per primi i record più rilevanti. L’ordine dei risultati dipende da diversi fattori, quali:
 
 * Autorizzazioni utente per accedere agli oggetti
 * Percentuale corrispondente
 * Corrispondenze esatte
-* La sezione _[!UICONTROL Top Results]_&#x200B;mostra i primi 30 risultati.
+* La sezione _[!UICONTROL Risultati principali]_ mostra i primi 30 risultati.
 
 Per perfezionare la ricerca, fai clic su una delle seguenti opzioni:
 
-* **[!UICONTROL All Learning]**: apre la ricerca in Experience League.
-* **[!UICONTROL Show all...]**: consente di perfezionare e filtrare ulteriormente i risultati.
+* **[!UICONTROL Tutto l&#39;apprendimento]**: apre la ricerca in Experience League.
+* **[!UICONTROL Mostra tutto...]**: consente di perfezionare e filtrare ulteriormente i risultati.
 
-## Caratteristiche di [!UICONTROL Unified Search]
+## Funzionalità di [!UICONTROL Ricerca unificata]
 
 In Ricerca unificata sono disponibili le seguenti funzioni.
 
