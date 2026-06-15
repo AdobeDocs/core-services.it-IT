@@ -8,15 +8,10 @@ role: Admin, User
 level: Intermediate
 autotag-review: '2026-05-27T16:30:16.764Z'
 TQID: 'https://experienceleague.adobe.com/J74yr0gGkFu1bzTmMvhrQ8TNaRX6nRjWY9WAwd3uydk'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-feature_v2:
-  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
-subfeature_v2:
-  - id: cda95149-19e1-4cfa-a57e-751283a32378
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: e1971122-7081-4556-9222-8a31bd71800c
+feature_v2: id: f84b2906-3ce9-4ef0-86f6-cda249273937
+subfeature_v2: id: cda95149-19e1-4cfa-a57e-751283a32378
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
 source-git-commit: 0c5f2ec6554118a19e4cfc82901eb76468fdceff
 workflow-type: tm+mt
 source-wordcount: 917
@@ -44,7 +39,7 @@ Il dashboard [!UICONTROL Monitoraggio] include le visualizzazioni seguenti:
 
 Gli agenti nell&#39;ambito del monitoraggio dell&#39;utilizzo sono elencati in [Agenti di IA nelle app CX Enterprise esistenti](agentic-ai.md#existing-apps-table) nella [Agentic AI nella documentazione di Adobe CX Enterprise](agentic-ai.md).
 
->[!VIDEO](https://video.tv.adobe.com/v/3491874?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491864?learn=on)
 
 ## Abilita autorizzazioni dashboard {#permissions}
 
@@ -91,7 +86,7 @@ La dashboard Panoramica è il punto centrale per le metriche di adozione e coinv
 * **Numero medio di richieste per conversazione:** Profondità di coinvolgimento per conversazione.
 * **Feedback:** Distribuzione dei commenti degli utenti (solo per [!DNL AI Assistant] interazioni).
 
->[!VIDEO](https://video.tv.adobe.com/v/3491884?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491865?learn=on)
 
 ### Ripetizione conversazione
 
@@ -100,7 +95,7 @@ La ripetizione della conversazione mostra singole interazioni, non solo aggregat
 * **Cronologia richieste e risposte:** La richiesta dell&#39;utente e le risposte inviate.
 * **Segnali di feedback:** Interazioni contrassegnate da pollici in alto o in basso per identificare attriti, blocchi o esigenze di attivazione. Queste informazioni aiutano la tua organizzazione a migliorare la rilevanza dei messaggi immediati e consentono ad Adobe di migliorare la qualità della risposta nel tempo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491893?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491866?learn=on)
 
 ## Dashboard utenti
 
@@ -117,7 +112,7 @@ Il dashboard Utenti mostra come l’adozione e il coinvolgimento degli agenti va
 * **Attività conversazione:** Numero di conversazioni e prompt per utente.
 * **Utenti attivi principali:** Utenti e team altamente coinvolti che hanno adottato l&#39;agente motore.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491926?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491868?learn=on)
 
 ## Dashboard feedback
 
@@ -131,7 +126,7 @@ Il dashboard Feedback mostra il feedback degli utenti inviato per le interazioni
 * **Cronologia richieste e risposte:** i prompt utente e le risposte associate ai feedback inviati.
 * **Dettagli e note del feedback:** Contesto e commenti aggiuntivi degli utenti durante l&#39;invio del feedback.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491917?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491878?learn=on)
 
 ## Dashboard crediti IA
 
@@ -143,11 +138,11 @@ Il dashboard Crediti AI mostra come l&#39;utilizzo di [!DNL Experience Platform 
 * **Tendenze giornaliere e mensili:** picchi, cali e cambiamenti nei modelli di consumo.
 * **Crediti AI rimanenti:** Saldo rimanente per consentire una pianificazione proattiva ed evitare interruzioni.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491908?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491867?learn=on)
 
 ## Ulteriori informazioni su questo argomento
 
-* [Dashboard utilizzo licenze](https://experienceleague.adobe.com/it/docs/experience-platform/dashboards/guides/license-usage) in [!DNL Experience Platform]
+* [Dashboard utilizzo licenze](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) in [!DNL Experience Platform]
 * [IA agente in Adobe CX Enterprise](agentic-ai.md)
 * [Processi agente e consumo credito IA](ai-credit-consumption.md)
-* [Dashboard utilizzo licenze](https://experienceleague.adobe.com/it/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
+* [Dashboard utilizzo licenze](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)

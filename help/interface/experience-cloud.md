@@ -8,16 +8,13 @@ role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 TQID: https://experienceleague.adobe.com/7vFfu0DyoTnsrlrWVApm0LLW4jsC0LoXb55jJ3jdxeY
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 25446910430bf15dcfa0fc70e25e0681f9faeb95
 workflow-type: tm+mt
-source-wordcount: 548
-ht-degree: 45%
+source-wordcount: 563
+ht-degree: 44%
 
 ---
 
@@ -39,7 +36,7 @@ Dall&#39;intestazione CX Enterprise è possibile effettuare le operazioni riport
 Accedi e verifica di essere nell&#39;[organizzazione](administration/organizations.md) corretta.
 
 1. Passare a [Adobe CX Enterprise](https://experience.adobe.com).
-1. Digita il tuo indirizzo e-mail Adobe, quindi fai clic su **[!UICONTROL Continue]**.
+1. Digita il tuo indirizzo e-mail Adobe, quindi fai clic su **[!UICONTROL Continua]**.
 1. Fai clic su un account.
 1. Digita la tua password.
 1. Verifica di essere nell’organizzazione giusta.
@@ -54,7 +51,7 @@ Accedi e verifica di essere nell&#39;[organizzazione](administration/organizatio
 
    Ad esempio, per un’organizzazione con Federated ID e il dominio `example.com`, imposta il link dell’URL su `https://experience.adobe.com/#/sso:@example.com`. Puoi anche passare direttamente a una specifica applicazione salvando come segnalibro o preferito l’URL seguito dal percorso dell’applicazione. Ad esempio, per Adobe Analytics: `https://experience.adobe.com/#/sso:@example.com/analytics`.
 
-   **Nota:** l&#39;amministratore dell&#39;organizzazione può limitare l&#39;accesso ai prodotti Adobe per indirizzo IP. In tal caso, è possibile che venga visualizzato un messaggio di errore dopo aver effettuato l&#39;accesso a CX Enterprise o il passaggio a un&#39;organizzazione con questa opzione abilitata. Ulteriori informazioni sono disponibili in [Limitare l&#39;accesso ai prodotti per indirizzi IP](https://helpx.adobe.com/it/enterprise/using/ip-based-access.html).
+   **Nota:** l&#39;amministratore dell&#39;organizzazione può limitare l&#39;accesso ai prodotti Adobe per indirizzo IP. In tal caso, è possibile che venga visualizzato un messaggio di errore dopo aver effettuato l&#39;accesso a CX Enterprise o il passaggio a un&#39;organizzazione con questa opzione abilitata. Ulteriori informazioni sono disponibili in [Limitare l&#39;accesso ai prodotti per indirizzi IP](https://helpx.adobe.com/enterprise/using/ip-based-access.html).
 
 
 ## Accesso alle applicazioni aziendali CX
@@ -67,25 +64,25 @@ Per accedere alle applicazioni e ai servizi CX Enterprise per i quali disponi de
 
 ## Ottenere assistenza e supporto
 
-Accedi all&#39;apprendimento e alla guida utilizzando la **[!UICONTROL Help center]** (![risorsa](assets/help-icon.png)) nell&#39;intestazione, incluso il contenuto della guida (documentazione, tutorial e corsi) in [Experience League](https://experienceleague.adobe.com/it?lang=it#home), nonché risorse aggiuntive per le singole applicazioni. Puoi anche inviare feedback aperti e creare ticket di supporto con priorità.
+Accedi all&#39;apprendimento e alla guida utilizzando il **[!UICONTROL Centro assistenza]** (![risorsa](assets/help-icon.png)) nell&#39;intestazione, incluso il contenuto della guida (documentazione, tutorial e corsi) in [Experience League](https://experienceleague.adobe.com/?lang=it#home), nonché risorse aggiuntive per le singole applicazioni. Puoi anche inviare feedback aperti e creare ticket di supporto con priorità.
 
 ![Ottenere assistenza e supporto](assets/search-menu.png)
 
-Il menu [!UICONTROL Help] consente inoltre di accedere a:
+Il menu [!UICONTROL Guida] consente inoltre di accedere a:
 
-* **[!UICONTROL Support]:** Crea un ticket di supporto o contatta [!UICONTROL Support] tramite Twitter.
+* **[!UICONTROL Supporto]:** Crea un ticket di supporto o contatta il [!UICONTROL Supporto] tramite Twitter.
 * **[!UICONTROL Feedback]:** Condividi feedback sulla tua esperienza CX Enterprise. Il tuo feedback viene utilizzato per migliorare i prodotti e i servizi di Adobe.
-* **[!UICONTROL Status]:** Passare a `https://status.adobe.com/it-it/experience_cloud` e verificare lo stato operativo del prodotto e [!UICONTROL Manage Subscriptions].
-* **[!UICONTROL Developer Connection]:** Navigazione a `adobe.io` e ricerca documentazione per sviluppatori.
+* **[!UICONTROL Stato]:** Passa a `https://status.adobe.com/experience_cloud`, verifica lo stato operativo del prodotto e [!UICONTROL Gestisci abbonamenti].
+* **[!UICONTROL Developer Connection]:** Navigazione a `adobe.io` e ricerca la documentazione per gli sviluppatori.
 
 ## Gestione del profilo utente
 
-Nel menu [!UICONTROL Profile] è possibile:
+Nel menu [!UICONTROL Profilo] puoi:
 
 * Specificare un tema scuro (non tutte le applicazioni supportano questo tema)
 * Gestisci [Preferenze](features/account-preferences.md) di CX Enterprise
 * Selezionare o cercare un’[Organizzazione](administration/organizations.md)
-* Visualizza [!UICONTROL Legal Notices]
+* Visualizza [!UICONTROL Note legali]
 * Uscire
 * Configurare preferenze, notifiche e abbonamenti dell’account
 

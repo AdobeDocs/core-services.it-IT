@@ -9,22 +9,15 @@ role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
 TQID: https://experienceleague.adobe.com/XJqrWBg6tscTfgoA02FlqgxaziNOb0fL1LvEdUv0Ot0
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 320
-ht-degree: 69%
+source-wordcount: 330
+ht-degree: 67%
 
 ---
 
@@ -50,7 +43,7 @@ L’utilizzo di Assets migliora la coerenza e la conformità al marchio, velociz
 
 ## Accedere alla barra degli strumenti
 
-Passare a una risorsa (o una directory di risorse), quindi fare clic su **[!UICONTROL Select]**.
+Passa a una risorsa (o una directory di risorse), quindi fai clic su **[!UICONTROL Seleziona]**.
 
 La barra degli strumenti consente di accedere rapidamente a funzioni quali: Cerca, Timeline, Rappresentazioni, Modifica, Annota e Scarica.
 
@@ -78,13 +71,13 @@ Puoi cercare per parola chiave, tipo di file, dimensione, ultima modifica, stato
 
 ## Annotare le risorse
 
-Fare clic su **[!UICONTROL Annotate]** disegnando dei cerchi o delle frecce su un&#39;immagine e annotare la risorsa per la revisione da parte di colleghi.
+Fai clic su **[!UICONTROL Annota]** disegnando dei cerchi o delle frecce su un&#39;immagine e annota la risorsa per la revisione da parte di colleghi.
 
 ![Annotare le risorse](../../assets/assets-annotate.png)
 
 ## Visualizzare risorse a tutto schermo e usare lo zoom
 
-Fai clic su **[!UICONTROL Views]** > **[!UICONTROL Image]** per visualizzare l&#39;immagine della risorsa completa e abilitare lo zoom.
+Fai clic su **[!UICONTROL Visualizzazioni]** > **[!UICONTROL Immagine]** per visualizzare l&#39;immagine della risorsa completa e abilitare lo zoom.
 
 ![Visualizzare le risorse a schermo intero](../../assets/asset-zoom.png)
 
@@ -92,7 +85,7 @@ Fai clic su **[!UICONTROL Views]** > **[!UICONTROL Image]** per visualizzare l&#
 
 Scegli tra la vista della scheda con proprietà, la vista dell&#39;elenco e la vista della colonna per trovare più facilmente le risorse.
 
-Fai clic su **[!UICONTROL Views]** > **[!UICONTROL Properties]** per visualizzare le proprietà di una risorsa:
+Fai clic su **[!UICONTROL Viste]** > **[!UICONTROL Proprietà]** per visualizzare le proprietà di una risorsa:
 
 ![Visualizzare le proprietà della risorsa](../../assets/asset-properties.png)
 
@@ -100,6 +93,6 @@ Fai clic su **[!UICONTROL Views]** > **[!UICONTROL Properties]** per visualizzar
 
 Visualizza il numero di utenti, l&#39;archiviazione usata e le risorse totali.
 
-Fai clic su **[!UICONTROL Tools]** > **[!UICONTROL Reports]** > **[!UICONTROL Usage Report]**
+Fai clic su **[!UICONTROL Strumenti]** > **[!UICONTROL Report]** > **[!UICONTROL Report utilizzo]**
 
 ![Eseguire rapporti sull’utilizzo](../../assets/assets-usage-report.png)

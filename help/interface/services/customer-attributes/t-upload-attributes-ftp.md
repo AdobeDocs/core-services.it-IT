@@ -8,21 +8,15 @@ role: Admin
 level: Experienced
 exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
 TQID: https://experienceleague.adobe.com/jI2dWXMmrrWxceVi-sZtzF5cTF11iy4d7QKkx71vF-I
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 379
-ht-degree: 53%
+source-wordcount: 394
+ht-degree: 51%
 
 ---
 
@@ -39,7 +33,7 @@ Puoi caricare i dati dopo aver creato un&#39;origine attributo del cliente e un 
 È possibile caricare i file sul sito FTP degli attributi del cliente tramite FTP o SFTP:
 
 * È necessario un client che supporti le connessioni SFTP.
-* Puoi connetterti con SFTP utilizzando nome utente/password o senza utilizzare alcuna password, come descritto [qui](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html?lang=it).
+* Puoi connetterti con SFTP utilizzando nome utente/password o senza utilizzare alcuna password, come descritto [qui](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html).
 
 **Per caricare il file di dati tramite FTP**
 
@@ -47,7 +41,7 @@ Puoi caricare i dati dopo aver creato un&#39;origine attributo del cliente e un 
 
    Verifica di aver effettuato l’accesso al tuo sito FTP su `ftp.adobe.com/<sftpname>`.
 
-1. Fare clic su **[!UICONTROL Actions]** > **[!UICONTROL File Upload]**.
+1. Fai clic su **[!UICONTROL Azioni]** > **[!UICONTROL Caricamento file]**.
 
 1. Carica un file `.fin` in modo che possa essere recuperato.
 
@@ -61,7 +55,7 @@ Puoi caricare i dati dopo aver creato un&#39;origine attributo del cliente e un 
 
 Imposta un account FTP per origine attributo.
 
-Nella pagina [!UICONTROL File Upload and Schema Validation], fare clic su **[!UICONTROL FTP Setup]**.
+Nella pagina [!UICONTROL Caricamento file e convalida schema], fare clic su **[!UICONTROL Configurazione FTP]**.
 
 ![Modificare uno schema](assets/ftp-account.png)
 
@@ -69,9 +63,9 @@ I file caricati vengono memorizzati nella cartella root di tale account. I dati 
 
 I nomi applicati a stringhe, interi e numeri vengono utilizzati per creare metriche di [!DNL Analytics].
 
-* **[!UICONTROL attribute:]** dati attributo letti dal file `.csv` caricato.
+* **[!UICONTROL attributo:]** dati attributo letti dal file `.csv` caricato.
 
-* **[!UICONTROL Type:]** Il tipo di dati, ad esempio:
+* **[!UICONTROL Tipo:]** Il tipo di dati, ad esempio:
 
    * **Stringa:** una sequenza di caratteri.
 
@@ -79,7 +73,7 @@ I nomi applicati a stringhe, interi e numeri vengono utilizzati per creare metri
 
    * **Numeri:** possono contenere fino a due posizioni decimali.
 
-* **[!UICONTROL Display Name:]** Nome descrittivo per l&#39;attributo. Ad esempio, puoi rinominare l&#39;attributo *customer age* in *customer Since*.
+* **[!UICONTROL Nome visualizzato:]** Un nome descrittivo per l&#39;attributo. Ad esempio, puoi rinominare l&#39;attributo *customer age* in *customer Since*.
 
-* **[!UICONTROL Description:]** Una descrizione dell&#39;attributo.
+* **[!UICONTROL Descrizione:]** una descrizione dell&#39;attributo.
 

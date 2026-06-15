@@ -8,8 +8,8 @@ role: Admin, User
 level: Beginner, Intermediate, Experienced
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: '706'
-ht-degree: 42%
+source-wordcount: '733'
+ht-degree: 41%
 
 ---
 
@@ -59,12 +59,12 @@ Tutti i team delle applicazioni sono orientati al supporto globale delle lingue;
 Accedi e verifica di essere nell’organizzazione corretta.
 
 1. Passare a [Adobe CX Enterprise](https://experience.adobe.com).
-1. Fai clic su **[!UICONTROL Sign in with an Adobe ID]**.
+1. Fai clic su **[!UICONTROL Accedi con un Adobe ID]**.
 1. Verifica di essere nell’organizzazione giusta.
 
    ![Verifica l’organizzazione](assets/organizations-menu.png)
 
-   Per verificare di aver effettuato l&#39;accesso all&#39;organizzazione corretta, fare clic su **[!UICONTROL Profile]** per visualizzare il nome dell&#39;organizzazione. Se si dispone dell&#39;accesso a più organizzazioni, è inoltre possibile visualizzare e passare a un&#39;altra organizzazione utilizzando il selettore **[!UICONTROL Organization]**.
+   Per verificare di aver effettuato l&#39;accesso all&#39;organizzazione corretta, fare clic su **[!UICONTROL Profilo]** per visualizzare il nome dell&#39;organizzazione. Se hai accesso a più organizzazioni, puoi anche visualizzare e passare a un&#39;altra organizzazione utilizzando il selettore **[!UICONTROL Organizzazione]**.
 
    Se la tua organizzazione utilizza Federated ID, CX Enterprise ti consente di accedere con il Single Sign-On della tua organizzazione senza dover immettere l’indirizzo e-mail e la password. Aggiungere `#/sso:@domain` all&#39;URL aziendale CX (`https://experience.adobe.com`) per eseguire questa attività.
 
@@ -80,16 +80,16 @@ Per accedere ai servizi CX Enterprise di tua proprietà, fai clic sul selettore 
 
 ## Ricerca e supporto in CX Enterprise
 
-La funzione di ricerca di CX Enterprise consente di cercare informazioni (documentazione, tutorial e corsi) in [Experience League](https://experienceleague.adobe.com/it?lang=it#home).
+La funzione di ricerca di CX Enterprise consente di cercare informazioni (documentazione, tutorial e corsi) in [Experience League](https://experienceleague.adobe.com/?lang=it#home).
 
 ![Ricerca e supporto in CX Enterprise](assets/search-menu.png)
 
-Il menu [!UICONTROL Help] consente inoltre di accedere a:
+Il menu [!UICONTROL Guida] consente inoltre di accedere a:
 
-* **[!UICONTROL Support]:** Crea un ticket di supporto o contatta [!UICONTROL Support] tramite Twitter.
+* **[!UICONTROL Supporto]:** Crea un ticket di supporto o contatta il [!UICONTROL Supporto] tramite Twitter.
 * **[!UICONTROL Feedback]:** Contatta Adobe tramite Feedback e inviaci i tuoi commenti.
-* **[!UICONTROL Status]:** Passare a `https://status.adobe.com/it-it/experience_cloud` e verificare lo stato operativo del prodotto e [!UICONTROL Manage Subscriptions].
-* **[!UICONTROL Developer Connection]:** Navigazione a `adobe.io` e ricerca documentazione per sviluppatori.
+* **[!UICONTROL Stato]:** Passa a `https://status.adobe.com/experience_cloud`, verifica lo stato operativo del prodotto e [!UICONTROL Gestisci abbonamenti].
+* **[!UICONTROL Developer Connection]:** Navigazione a `adobe.io` e ricerca la documentazione per gli sviluppatori.
 
 ## Preferenze dell’account
 
@@ -100,29 +100,29 @@ Nel menu delle preferenze dell’account puoi effettuare le seguenti operazioni:
 * Uscire
 * Configurare [preferenze, notifiche e abbonamenti](#preferences) dell’account
 
-### Gestisci CX Enterprise [!UICONTROL Preferences]
+### Gestisci [!UICONTROL Preferenze] di CX Enterprise
 
 Le preferenze di CX Enterprise includono notifiche, abbonamenti e avvisi.
 
-* Fai clic su **[!UICONTROL Preferences]** dal menu dell&#39;account ![preferenze](assets/preferences-icon-sm.png) per gestire le preferenze.
+* Fai clic su **[!UICONTROL Preferenze]** nel menu dell&#39;account ![preferenze](assets/preferences-icon-sm.png) per gestire le preferenze.
 
 ![Gestione di CX Enterprise](assets/preferences-page.png)
 
-In [!UICONTROL CX Enterprise preferences] è possibile configurare le seguenti funzionalità:
+In [!UICONTROL Preferenze aziendali CX] è possibile configurare le seguenti funzionalità:
 
 | Funzione | Descrizione |
 | --- | --- |
 | Organizzazione predefinita | Selezionare l&#39;organizzazione da visualizzare all&#39;avvio di CX Enterprise. |
-| [!UICONTROL Subscriptions] | Seleziona i prodotti e le categorie a cui desideri abbonarti. Notifiche nel riquadro a comparsa [!UICONTROL Notifications] e nell&#39;e-mail. |
-| [!UICONTROL Priority] | Seleziona le categorie a cui vuoi assegnare la priorità alta. Queste categorie sono contrassegnate con il tag Alta e possono essere configurate per la distribuzione come avvisi. |
-| [!UICONTROL Alerts] | Seleziona le notifiche per le quali desideri visualizzare gli avvisi nel browser. Gli avvisi vengono visualizzati per alcuni secondi nell’angolo in alto a destra della finestra. |
+| [!UICONTROL Abbonamenti] | Seleziona i prodotti e le categorie a cui desideri abbonarti. Notifiche nel riquadro a comparsa [!UICONTROL Notifiche] e nell&#39;e-mail. |
+| [!UICONTROL Priorità] | Seleziona le categorie a cui vuoi assegnare la priorità alta. Queste categorie sono contrassegnate con il tag Alta e possono essere configurate per la distribuzione come avvisi. |
+| [!UICONTROL Avvisi] | Seleziona le notifiche per le quali desideri visualizzare gli avvisi nel browser. Gli avvisi vengono visualizzati per alcuni secondi nell’angolo in alto a destra della finestra. |
 | E-mail | Specifica la frequenza con cui desideri ricevere le e-mail di notifica: Non inviata, Immediata, Giornaliera o Settimanale. |
 
 {style="table-layout:auto"}
 
 ## Notifiche e annunci
 
-Fai clic su **[!UICONTROL Notifications]** per visualizzare le notifiche che ti interessano e gli annunci di Adobe.
+Fai clic su **[!UICONTROL Notifiche]** per visualizzare le notifiche che ti interessano e gli annunci di Adobe.
 
 ![Notifiche e annunci](assets/notifications-menu-small.png)
 
