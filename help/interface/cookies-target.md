@@ -25,7 +25,7 @@ ht-degree: 17%
 >
 >Per informazioni sui cookie utilizzati in un&#39;implementazione di [!DNL Target] utilizzando [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=it){target=_blank}, vedere &quot;[!DNL Adobe Experience Platform Web SDK] utilizza i cookie? In caso affermativo, quali cookie utilizza?&quot; in [[!DNL Domande frequenti nella guida panoramica di Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html){target=_blank}.
 >
->Se necessario, puoi modificare le impostazioni descritte in questo articolo, fatta eccezione per la durata del cookie. [Consulta il rappresentante del tuo account](https://experienceleague.adobe.com/docs/target/using/cmp-resources-and-contact-information.html){target=_blank} quando modifichi le impostazioni dei cookie.
+>Se necessario, puoi modificare le impostazioni descritte in questo articolo, fatta eccezione per la durata del cookie. [Consulta il rappresentante del tuo account](https://experienceleague.adobe.com/docs/target/using/cmp-resources-and-contact-information.html?lang=it){target=_blank} quando modifichi le impostazioni dei cookie.
 >
 >[!DNL Target] utenti possono anche creare cookie di terze parti personalizzati.
 
