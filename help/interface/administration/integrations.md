@@ -121,7 +121,7 @@ Consente ad Analytics di raccogliere impression e clic sulle risorse da AEM Asse
 
 ## Integrazioni di Audience Manager
 
-[Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implementation-and-integration.html)
+[Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implementation-and-integration.html?lang=it)
 
 Lavora con i dati provenienti dalle applicazioni CX Enterprise o da altri sistemi esterni in Audience Manager.
 
@@ -129,7 +129,7 @@ Lavora con i dati provenienti dalle applicazioni CX Enterprise o da altri sistem
 
 * [Inoltro lato server di Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=it)
 * [Inviare segmenti di Audience Manager ad Analytics](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=it)
-* [Integrazione dei dati di Adobe Target](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-applications/aam-target-integration.html)
+* [Integrazione dei dati di Adobe Target](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-applications/aam-target-integration.html?lang=it)
 
 ## Adobe Target
 
