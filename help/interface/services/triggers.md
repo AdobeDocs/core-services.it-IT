@@ -24,16 +24,16 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: e56a5463246fe74bd7393de446687b6464760db1
 workflow-type: tm+mt
-source-wordcount: 726
-ht-degree: 69%
+source-wordcount: 817
+ht-degree: 61%
 
 ---
 
 # Trigger di CX Enterprise
 
-[!UICONTROL Triggers] in CX Enterprise consente di identificare, definire e monitorare i comportamenti chiave dei consumatori, per poi generare comunicazioni tra le diverse applicazioni per coinvolgere nuovamente i visitatori. Puoi utilizzare i trigger nelle decisioni in tempo reale e nella personalizzazione.
+[!UICONTROL Triggers] in CX Enterprise consente di identificare, definire e monitorare i comportamenti chiave dei consumatori, per poi generare comunicazioni tra le diverse applicazioni per coinvolgere nuovamente i visitatori. Puoi utilizzare i trigger nelle decisioni in tempo reale e nella personalizzazione. Per ulteriori informazioni sull&#39;utilizzo di [!UICONTROL Triggers] con Adobe Campaign, vedere [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=it).
 
 Ad esempio:
 
@@ -45,7 +45,7 @@ Ad esempio:
 
 >[!NOTE]
 >
->Ulteriori informazioni sull&#39;utilizzo di [!UICONTROL Triggers] sono disponibili in [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=it).
+>Gli attivatori non sono di natura deterministica. Quando più utenti condividono un browser o un dispositivo, ad esempio un dispositivo condiviso o pubblico, potrebbe non essere possibile mappare un trigger sull’ID visitatore corretto.
 
 ## Tipi di trigger
 
@@ -101,3 +101,6 @@ Il trigger seguente si attiva quando viene visualizzato un risultato con il prod
 
 ![Trigger referrer](../assets/fb-boots-promo.png)
 
+## Verifica dell&#39;attività del trigger
+
+Per verificare che un trigger sia stato attivato, utilizzare l&#39;interfaccia [!UICONTROL Triggers] per esaminare le attività recenti relative al trigger. L’interfaccia visualizza un numero limitato di eventi di trigger recenti, pertanto per le implementazioni con volumi di dati elevati potrebbe non mostrare tutta l’attività di trigger. La verifica programmatica tramite un’API non è attualmente supportata.
