@@ -1,6 +1,6 @@
 ---
 title: Monitoraggio dell’utilizzo di IA per l’agente
-description: Scopri le dashboard per il monitoraggio dell’utilizzo dell’intelligenza artificiale in CX Enterprise. Tieni traccia dell’adozione, rivedi le conversazioni e i feedback, e gestisci i crediti IA per l’utilizzo, la qualità e la visibilità dei costi.
+description: Scopri le dashboard per il monitoraggio dell’utilizzo dell’IA in CX Enterprise. Tieni traccia dell’adozione, rivedi le conversazioni e i feedback, e gestisci i crediti IA per l’utilizzo, la qualità e la visibilità dei costi.
 solution: Experience Cloud, Experience Platform
 topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
@@ -17,9 +17,9 @@ subfeature_v2:
   - id: cda95149-19e1-4cfa-a57e-751283a32378
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 5c3f20052f8c0a847cd0c56f02697c1d749c040c
+source-git-commit: 79c2a309c7df2d6afd36b38134609a144a40a482
 workflow-type: tm+mt
-source-wordcount: 917
+source-wordcount: 1009
 ht-degree: 2%
 
 ---
@@ -49,6 +49,14 @@ Gli agenti nell&#39;ambito del monitoraggio dell&#39;utilizzo sono elencati in [
 ## Abilita autorizzazioni dashboard {#permissions}
 
 Concedi l&#39;accesso al dashboard in [!DNL Adobe Experience Platform] aggiornando il profilo o il ruolo di prodotto per ogni utente autorizzato. La funzionalità [!UICONTROL Monitoraggio] viene visualizzata agli utenti della home page di CX Enterprise dopo l&#39;abilitazione delle autorizzazioni.
+
+>[!IMPORTANT]
+>
+>I dati di monitoraggio sono disponibili solo nella sandbox di produzione predefinita. Le sandbox di sviluppo non sono supportate per la visualizzazione dei dati di monitoraggio. Gli utenti devono disporre delle autorizzazioni di monitoraggio richieste per la sandbox di produzione predefinita e passare a tale sandbox per visualizzare i dati di monitoraggio.
+>
+>Per evitare confusione, Adobe consiglia di concedere le autorizzazioni di monitoraggio in tutte le sandbox, inclusa la sandbox di produzione predefinita. In questo modo gli utenti possono accedere al dashboard di monitoraggio indipendentemente dalla sandbox attualmente selezionata e riduce la probabilità che una sandbox non supportata venga scambiata per una dashboard vuota o non funzionale.
+
+**Per abilitare le autorizzazioni del dashboard**
 
 1. Vai a [!DNL Experience Platform] **Amministrazione** > **Autorizzazioni**.
 
