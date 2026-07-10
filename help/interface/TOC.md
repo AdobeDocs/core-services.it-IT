@@ -20,7 +20,7 @@ ht-degree: 57%
    + [IA agentica](features/agentic-ai.md)
    + [Monitoraggio dell’IA agente](/help/interface/features/monitoring.md)
    + [Processi agente e consumo credito IA](/help/interface/features/ai-credit-consumption.md)
-   + [Strumenti agenti](https://experienceleague.adobe.com/en/docs/cx-enterprise-agentic-tools/using/overview)
+   + [Strumenti agenti](https://experienceleague.adobe.com/it/docs/cx-enterprise-agentic-tools/using/overview)
 + Amministrazione {#administration}
    + [Preferenze e notifiche dell’account](/help/interface/features/account-preferences.md)
    + [Supporto di browser e lingue](/help/interface/browser-language.md)
