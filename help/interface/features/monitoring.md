@@ -17,21 +17,21 @@ subfeature_v2:
   - id: cda95149-19e1-4cfa-a57e-751283a32378
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 79c2a309c7df2d6afd36b38134609a144a40a482
+source-git-commit: 85c9350ea17e02e72354db5abbbf898829e338ae
 workflow-type: tm+mt
-source-wordcount: 1009
+source-wordcount: 994
 ht-degree: 2%
 
 ---
 
 # Dashboard di monitoraggio di IA agente
 
-Il dashboard di monitoraggio di IA per l’analisi dell’agente offre ai membri del Centro di eccellenza (COE) e ad altre parti interessate alla governance visibilità sull’utilizzo e l’adozione di IA per l’analisi dell’agente. È possibile visualizzare le tendenze per periodi di 7 o 30 giorni per vedere chi utilizza [!DNL AI Assistant] o altre superfici di conversazione (ad esempio [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/ama-ms)) per interagire con [!DNL Experience Platform Agents], le operazioni eseguite in tali interazioni e il valore ricevuto. Insieme, queste visualizzazioni ti aiutano a guidare l’adozione degli agenti con dati anziché presupposti.
+Il dashboard di monitoraggio di IA per l’analisi dell’agente offre ai membri del Centro di eccellenza (COE) e ad altre parti interessate alla governance visibilità sull’utilizzo e l’adozione di IA per l’analisi dell’agente. Visualizzare le tendenze di 7 o 30 giorni per vedere chi utilizza [!DNL AI Assistant] o altre superfici (ad esempio [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/ama-ms)) per interagire con [!DNL Experience Platform Agents] e il valore ricevuto. Insieme, queste visualizzazioni ti aiutano a guidare l’adozione degli agenti con dati anziché presupposti.
 
 **Disponibilità**
 
 * Attualmente, qualsiasi account con una licenza per almeno un’applicazione nativa di Experience Platform (Customer Journey Analytics, Journey Optimizer o Real-Time CDP) può accedere a questa dashboard
-* Le metriche di utilizzo e adozione per [applicazioni AI-first](agentic-ai.md#ai-first-cx-enterprise-applications) come Experimentation Accelerator, LLM Optimizer, Sites Optimizer e così via non rientrano nell&#39;ambito di questo dashboard
+* Le metriche di utilizzo e adozione per [applicazioni AI-first](agentic-ai.md#ai-first-cx-enterprise-applications) come Experimentation Accelerator, LLM Optimizer e Sites Optimizer non rientrano nell&#39;ambito di questa dashboard.
 
 Il dashboard [!UICONTROL Monitoraggio] include le visualizzazioni seguenti:
 
@@ -42,7 +42,7 @@ Il dashboard [!UICONTROL Monitoraggio] include le visualizzazioni seguenti:
 | **Feedback** | Segnali sulla qualità della risposta e sulla soddisfazione degli utenti |
 | **Crediti IA** | Andamenti dei consumi di credito e saldo residuo |
 
-Gli agenti nell&#39;ambito del monitoraggio dell&#39;utilizzo sono elencati in [Agenti di IA nelle app CX Enterprise esistenti](agentic-ai.md#existing-apps-table) nella [Agentic AI nella documentazione di Adobe CX Enterprise](agentic-ai.md).
+Nella documentazione di [Agentic AI in Adobe CX Enterprise](agentic-ai.md) sono elencati gli agenti inclusi nell&#39;ambito del monitoraggio dell&#39;utilizzo in [agenti AI nelle app CX Enterprise esistenti](agentic-ai.md#existing-apps-table).
 
 >[!VIDEO](https://video.tv.adobe.com/v/3491874?captions=ita&learn=on)
 
@@ -90,7 +90,7 @@ Concedi l&#39;accesso al dashboard in [!DNL Adobe Experience Platform] aggiornan
 
 ## Dashboard panoramica
 
-La dashboard Panoramica è il punto centrale per le metriche di adozione e coinvolgimento in tutta l’organizzazione. Collega le tendenze di alto livello ad analisi più approfondite. Da qualsiasi metrica, puoi approfondire singole conversazioni per vedere cosa guida i numeri.
+La dashboard Panoramica è il punto centrale per le metriche di adozione e coinvolgimento in tutta l’organizzazione. Collega le tendenze di alto livello ad analisi più approfondite. Per vedere cosa guida i numeri, approfondisci le singole conversazioni da qualsiasi metrica.
 
 ### Metriche nel dashboard Panoramica
 
@@ -129,7 +129,7 @@ Il dashboard Utenti mostra come l’adozione e il coinvolgimento degli agenti va
 
 ## Dashboard feedback
 
-Il dashboard Feedback mostra il feedback degli utenti inviato per le interazioni degli agenti. Puoi vedere quali conversazioni gli utenti hanno contrassegnato in modo positivo o negativo e indagare le interazioni dietro il feedback. Dai riepiloghi dei feedback, approfondisci le singole conversazioni per rivedere prompt, risposte, dettagli dei motivi e note di feedback.
+Il dashboard Feedback mostra il feedback degli utenti inviato per le interazioni degli agenti. Puoi vedere quali conversazioni gli utenti hanno contrassegnato in modo positivo o negativo e indagare le interazioni dietro il feedback. Per esaminare i prompt, le risposte, i dettagli del ragionamento e le note di feedback, approfondisci le singole conversazioni dai riepiloghi dei feedback.
 
 ### Metriche nel dashboard Feedback
 
