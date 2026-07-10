@@ -44,7 +44,7 @@ Il dashboard [!UICONTROL Monitoraggio] include le visualizzazioni seguenti:
 
 Nella documentazione di [Agentic AI in Adobe CX Enterprise](agentic-ai.md) sono elencati gli agenti inclusi nell&#39;ambito del monitoraggio dell&#39;utilizzo in [agenti AI nelle app CX Enterprise esistenti](agentic-ai.md#existing-apps-table).
 
->[!VIDEO](https://video.tv.adobe.com/v/3491864?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491874?captions=ita&learn=on)
 
 ## Abilita autorizzazioni dashboard {#permissions}
 
@@ -99,7 +99,7 @@ La dashboard Panoramica è il punto centrale per le metriche di adozione e coinv
 * **Numero medio di richieste per conversazione:** Profondità di coinvolgimento per conversazione.
 * **Feedback:** Distribuzione dei commenti degli utenti (solo per [!DNL AI Assistant] interazioni).
 
->[!VIDEO](https://video.tv.adobe.com/v/3491865?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491884?captions=ita&learn=on)
 
 ### Ripetizione conversazione
 
@@ -108,7 +108,7 @@ La ripetizione della conversazione mostra singole interazioni, non solo aggregat
 * **Cronologia richieste e risposte:** La richiesta dell&#39;utente e le risposte inviate.
 * **Segnali di feedback:** Interazioni contrassegnate da pollici in alto o in basso per identificare attriti, blocchi o esigenze di attivazione. Queste informazioni aiutano la tua organizzazione a migliorare la rilevanza dei messaggi immediati e consentono ad Adobe di migliorare la qualità della risposta nel tempo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491866?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491893?captions=ita&learn=on)
 
 ## Dashboard utenti
 
@@ -125,7 +125,7 @@ Il dashboard Utenti mostra come l’adozione e il coinvolgimento degli agenti va
 * **Attività conversazione:** Numero di conversazioni e prompt per utente.
 * **Utenti attivi principali:** Utenti e team altamente coinvolti che hanno adottato l&#39;agente motore.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491868?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491926?captions=ita&learn=on)
 
 ## Dashboard feedback
 
@@ -139,7 +139,7 @@ Il dashboard Feedback mostra il feedback degli utenti inviato per le interazioni
 * **Cronologia richieste e risposte:** i prompt utente e le risposte associate ai feedback inviati.
 * **Dettagli e note del feedback:** Contesto e commenti aggiuntivi degli utenti durante l&#39;invio del feedback.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491878?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491917?captions=ita&learn=on)
 
 ## Dashboard crediti IA
 
@@ -151,7 +151,7 @@ Il dashboard Crediti AI mostra come l&#39;utilizzo di [!DNL Experience Platform 
 * **Tendenze giornaliere e mensili:** picchi, cali e cambiamenti nei modelli di consumo.
 * **Crediti AI rimanenti:** Saldo rimanente per consentire una pianificazione proattiva ed evitare interruzioni.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491867?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491908?captions=ita&learn=on)
 
 ## Ulteriori informazioni su questo argomento
 
