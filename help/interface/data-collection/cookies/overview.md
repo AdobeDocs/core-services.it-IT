@@ -15,9 +15,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
 workflow-type: tm+mt
-source-wordcount: 624
+source-wordcount: 622
 ht-degree: 8%
 
 ---
@@ -32,9 +32,9 @@ Le leggi richiedono spesso di ottenere l’autorizzazione prima di memorizzare o
 
 Adobe CX Enterprise utilizza i cookie per tenere traccia delle informazioni che non durano tra le visualizzazioni di pagina o le sessioni del browser. Quando possibile, Adobe utilizza cookie di prime parti (associati al tuo sito web). Per monitorare l’attività su più siti o domini di tua proprietà, sono necessari cookie di terze parti.
 
-Alcuni browser e strumenti antispyware bloccano i cookie di terze parti. Adobe dispone di modi per garantire che i cookie continuino a funzionare anche se i cookie sono bloccati. Il funzionamento dipende dall&#39;utilizzo del servizio Experience Platform Identity (ECID) o dei cookie Analytics precedenti (come il cookie `s_vi`):
+Alcuni browser e strumenti antispyware bloccano i cookie di terze parti. Adobe dispone di modi per garantire che i cookie continuino a funzionare anche se i cookie sono bloccati. Il funzionamento dipende dal fatto che si utilizzi il servizio ID visitatore (`VisitorAPI.js`) o cookie Analytics precedenti (come il cookie `s_vi`):
 
-* [Servizio CX Enterprise Identity](https://experienceleague.adobe.com/it/docs/id-service/using/intro/overview): il servizio ECID imposta sempre i cookie di prime parti, indipendentemente dal fatto che il dominio di raccolta corrisponda al dominio del sito. Utilizza JavaScript per inserire il cookie nel dominio del sito.
+* [Servizio ID visitatore](https://experienceleague.adobe.com/it/docs/id-service/using/intro/overview): il servizio ID visitatore imposta sempre i cookie di prime parti, indipendentemente dal fatto che il dominio di raccolta corrisponda al dominio del sito. Utilizza JavaScript per inserire il cookie nel dominio del sito.
 
 * [Identificatori legacy di Analytics](analytics.md) (ad esempio il cookie `s_vi`): se i cookie sono di prima parte o di terze parti dipende dalla configurazione:
 

@@ -19,9 +19,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
 workflow-type: tm+mt
-source-wordcount: 1182
+source-wordcount: 1176
 ht-degree: 57%
 
 ---
@@ -70,7 +70,7 @@ Lo stesso file visualizzato in un editor di testo:
   </tr> 
   <tr> 
    <td colname="col1"> <p>colonna ID cliente </p> </td> 
-   <td colname="col2"> <p> La prima colonna deve essere un ID cliente univoco. L'ID utilizzato deve corrispondere all'ID che viene passato al servizio CX Enterprise ID. </p> <p>Per Analytics, l'ID archiviato in una prop o eVar. </p> <p>Per Target, il valore setcustomerID. </p> <p> Questo ID cliente è l’identificatore univoco che il sistema CRM utilizza per ogni persona nel database. Le colonne rimanenti sono attributi provenienti dai dati del sistema CRM. Puoi scegliere quanti attributi caricare. </p> <p>Per le intestazioni delle colonne sono consigliati nomi descrittivi e leggibili, ma non sono obbligatori. Quando convalidi lo schema dopo il caricamento, puoi mappare i nomi descrittivi alle righe e alle colonne caricate. </p> <p> <b>Informazioni sugli ID cliente</b> </p> <p>In genere, un'azienda utilizza un ID cliente proveniente da un sistema di gestione delle relazioni con i clienti (CRM). Questo ID viene impostato utilizzando la chiamata <span class="codeph"> setcustomerIDs </span> quando una persona effettua l'accesso. Questo ID viene utilizzato anche come chiave nel file CRM che viene caricato in CX Enterprise. Un ID alias </a> di <a href="t-crs-usecase.md" format="dita" scope="local"> è un nome descrittivo per un archivio dati in Audience Manager, dove vengono memorizzati i dati alias. Il sistema invia alias a questo archivio dati (tramite setcustomerID). Il file di gestione delle relazioni con i clienti viene applicato ai dati in tale archivio di dati. </p> <p>Per <span class="codeph"> informazioni setcustomerID </span>, vedi <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=it" format="https" scope="external"> ID cliente e stati di autenticazione </a>. </p> </td> 
+   <td colname="col2"> <p> La prima colonna deve essere un ID cliente univoco. L’ID utilizzato deve corrispondere all’ID che viene passato al servizio ID visitatore. </p> <p>Per Analytics, l'ID archiviato in una prop o eVar. </p> <p>Per Target, il valore setcustomerID. </p> <p> Questo ID cliente è l’identificatore univoco che il sistema CRM utilizza per ogni persona nel database. Le colonne rimanenti sono attributi provenienti dai dati del sistema CRM. Puoi scegliere quanti attributi caricare. </p> <p>Per le intestazioni delle colonne sono consigliati nomi descrittivi e leggibili, ma non sono obbligatori. Quando convalidi lo schema dopo il caricamento, puoi mappare i nomi descrittivi alle righe e alle colonne caricate. </p> <p> <b>Informazioni sugli ID cliente</b> </p> <p>In genere, un'azienda utilizza un ID cliente proveniente da un sistema di gestione delle relazioni con i clienti (CRM). Questo ID viene impostato utilizzando la chiamata <span class="codeph"> setcustomerIDs </span> quando una persona effettua l'accesso. Questo ID viene utilizzato anche come chiave nel file CRM che viene caricato in CX Enterprise. Un ID alias </a> di <a href="t-crs-usecase.md" format="dita" scope="local"> è un nome descrittivo per un archivio dati in Audience Manager, dove vengono memorizzati i dati alias. Il sistema invia alias a questo archivio dati (tramite setcustomerID). Il file di gestione delle relazioni con i clienti viene applicato ai dati in tale archivio di dati. </p> <p>Per <span class="codeph"> informazioni setcustomerID </span>, vedi <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=it" format="https" scope="external"> ID cliente e stati di autenticazione </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Intestazioni e colonne successive </p> </td> 
@@ -122,7 +122,7 @@ Lo stesso file visualizzato in un editor di testo:
   </tr> 
    <tr> 
    <td colname="col1"> <p>Dati storici </p> </td> 
-   <td colname="col2"> <p> Attributi del cliente associati al profilo del visitatore sottostante in [!DNL Analytics]. Di conseguenza, [!DNL Customer Attributes] sono associati al visitatore per l'intera durata del profilo del visitatore in [!DNL Analytics]. Questo profilo include il comportamento precedente al primo accesso del cliente. </p> <p> Se utilizzi il metodo di recupero dati Data Warehouse, i dati vengono associati a un valore post_visid_high/low basato sull’ID di Analytics (AID). Se utilizzi il servizio CX Enterprise ID, i dati sono legati a un post_visid_high/low basato su CX Enterprise ID (MID). </p> <p> Il metodo di backfill Data Warehouse non sarà più disponibile a partire da ottobre 2022. </td> 
+   <td colname="col2"> <p> Attributi del cliente associati al profilo del visitatore sottostante in [!DNL Analytics]. Di conseguenza, [!DNL Customer Attributes] sono associati al visitatore per l'intera durata del profilo del visitatore in [!DNL Analytics]. Questo profilo include il comportamento precedente al primo accesso del cliente. </p> <p> Se utilizzi il metodo di recupero dati Data Warehouse, i dati vengono associati a un valore post_visid_high/low basato sull’ID di Analytics (AID). Se utilizzi il servizio ID visitatore, i dati sono legati a un post_visid_high/low basato sull’ECID (MID). </p> <p> Il metodo di backfill Data Warehouse non sarà più disponibile a partire da ottobre 2022. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Feed di dati </p> </td> 
@@ -137,7 +137,7 @@ Quando crei, modifichi o elimini sorgenti di attributi del cliente, si verifica 
 
 L&#39;ID alias per ogni origine di attributi del cliente deve essere univoco. Se hai più sorgenti di dati che utilizzano lo stesso ID, puoi impostarle come segue:
 
-**In VisitorAPI.js o nello strumento CX Enterprise ID in Dynamic Tag Management:**
+**In `VisitorAPI.js` o nell&#39;estensione tag [!UICONTROL Servizio Experience Cloud ID]:**
 
 Imposta due ID cliente corrispondenti alle origini dati appropriate:
 

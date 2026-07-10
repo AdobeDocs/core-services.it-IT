@@ -22,9 +22,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
 workflow-type: tm+mt
-source-wordcount: 692
+source-wordcount: 687
 ht-degree: 5%
 
 ---
@@ -47,7 +47,7 @@ Usa questa tabella quando la stessa parola viene visualizzata in diverse esperie
 | **Admin Console** | Piano di controllo Enterprise in `adminconsole.adobe.com` per utenti, profili di prodotto e identità; collegato dagli argomenti di amministrazione **di CX Enterprise.** Consulta [Gestione di utenti e prodotti](../administration/admin-console.md). | Diverso da **amministratore interno al prodotto** all&#39;interno di ogni app (ad esempio, strumenti di amministrazione di Analytics o schermate delle autorizzazioni di Journey Optimizer). |
 | **Profilo di prodotto** | Pacchetto di licenze in Admin Console che consente l’accesso a un prodotto o a una funzionalità. Per avere diritto, gli utenti devono appartenere a un profilo. Consulta [Gestione di prodotti e profili](https://helpx.adobe.com/it/enterprise/using/manage-products.html). | Non intercambiabile con ogni nome di &quot;area di lavoro&quot;, &quot;contenitore&quot; o &quot;proprietà&quot; interno al prodotto; questi variano a seconda della soluzione. |
 | **Collegamento account** | Collegare l’accesso a un’applicazione (ad esempio, le credenziali di Analytics o Target) all’Adobe ID per l’organizzazione in modo che i servizi riconoscano un utente. Consulta [Organizzazioni e collegamento account](../administration/organizations.md). | Diverso dall&#39;installazione di **sincronizzazione directory**, **SSO** o **federazione** (decisioni di identità a livello di organizzazione in Admin Console). |
-| **Servizio Experience Cloud ID / ECID** | L’identificatore visitatore persistente utilizzato nelle soluzioni; spesso distribuito con tag o Web SDK. Ancora comunemente indicato come **ID Experience Cloud** o **MID** nelle discussioni precedenti di Analytics. Consulta la [panoramica del servizio ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it). | Distinto dal nome di cookie legacy di una singola app o dai concetti del grafo delle identità di **Experience Platform**, anche se può essere correlato in un&#39;implementazione. |
+| **Servizio ID visitatore / ECID** | L’identificatore visitatore persistente utilizzato nelle soluzioni; spesso distribuito con tag o Web SDK. Viene comunemente fatto riferimento come **MID** nelle discussioni precedenti di Analytics. Consulta la [Panoramica del servizio ID visitatori](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it). | Distinto dal nome di cookie legacy di una singola app o dai concetti di **Experience Platform Identity Service**, anche se può essere correlato in un&#39;implementazione. |
 | **Attributi del cliente** | Attributi CRM o Enterprise caricati e mappati per l’utilizzo in Analytics, Target e flussi di lavoro correlati tramite il servizio People. Consulta gli argomenti [Attributi del cliente](../services/customer-attributes/attributes.md). | Non eseguire l&#39;equazione con **caratteristiche Audience Manager** da sole o con ogni campo di profilo **Real-Time CDP** senza controllare il limite del prodotto. |
 | **Libreria pubblico** | Interfaccia utente di CX Enterprise per comporre e condividere tipi di pubblico tra applicazioni integrate. | Anche **Audience Manager** e **Target** utilizzano &quot;tipi di pubblico&quot;, ma le regole di segmentazione e le destinazioni differiscono in base al prodotto. |
 | **Segmento** (Analytics) | Una definizione di pubblico basata su regole che puoi creare in Adobe Analytics e, se supportata, pubblicare per tipi di pubblico condivisi. | In **Audience Manager**, i segmenti combinano **caratteristiche**; la denominazione si sovrappone, ma l&#39;implementazione non è identica. In **Target**, &quot;audiences&quot; ha sostituito le vecchie etichette &quot;segmento&quot; in molte posizioni. |

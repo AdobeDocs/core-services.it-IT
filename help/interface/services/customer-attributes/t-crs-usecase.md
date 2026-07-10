@@ -22,9 +22,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
 workflow-type: tm+mt
-source-wordcount: 1188
+source-wordcount: 1181
 ht-degree: 41%
 
 ---
@@ -96,9 +96,9 @@ Eseguire la procedura seguente nella pagina _[!UICONTROL Crea attributo cliente 
 
      L’ID alias corrisponde ad alcune aree in cui puoi impostare valori ID cliente aggiuntivi. Ad esempio:
 
-      * **Tag:** L&#39;ID alias corrisponde al valore *Integration Code* in [!UICONTROL Impostazioni cliente], nello strumento [Servizio CX Enterprise ID](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=it).
+      * **Tag:** l&#39;ID alias corrisponde al valore *Integration Code* in [!UICONTROL Impostazioni cliente], nell&#39;estensione tag [[!UICONTROL Servizio Experience Cloud ID]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=it).
 
-      * **API visitatore:** l&#39;ID alias corrisponde agli ulteriori [ID cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=it) che è possibile associare a ogni visitatore.
+      * **Servizio ID visitatore:** l&#39;ID alias corrisponde agli ulteriori [ID cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=it) che puoi associare a ogni visitatore.
 
         Ad esempio, *“crm_ id”* in:
 
@@ -146,9 +146,9 @@ Dopo aver caricato il file, i dati della tabella vengono visualizzati nell&#39;i
 
 * **[!UICONTROL ID cliente univoco:]** mostra quanti ID univoci hai caricato in questa origine attributo.
 
-* **[!UICONTROL ID forniti dal cliente come alias degli ID visitatore Enterprise CX:]** mostra quanti ID sono impostati come alias degli ID visitatore Enterprise CX.
+* **[!UICONTROL ID forniti dal cliente come alias degli ID visitatore di Experience Cloud:]** mostra quanti ID sono impostati come alias degli ECID.
 
-* **[!UICONTROL ID forniti dal cliente con soglia degli alias elevata:]** visualizza il numero di ID forniti dal cliente con 500 o più ID visitatore aziendale CX con alias. Questi ID forniti dal cliente non rappresentano individui ma accessi condivisi. Il sistema distribuisce gli attributi associati a questi ID ai 500 ID visitatore aziendale CX con alias più recenti, fino a raggiungere la soglia di 10.000. Quindi, il sistema invalida l’ID fornito dal cliente e non distribuisce più gli attributi associati.
+* **[!UICONTROL ID forniti dal cliente con soglia degli alias elevata:]** visualizza il numero di ID forniti dal cliente con 500 o più ECID con alias. Questi ID forniti dal cliente non rappresentano individui ma accessi condivisi. Il sistema distribuisce gli attributi associati a questi ID ai 500 ECID con alias più recenti, fino a raggiungere la soglia di 10.000. Quindi, il sistema invalida l’ID fornito dal cliente e non distribuisce più gli attributi associati.
 
 ## Convalida dello schema {#validate-schema}
 

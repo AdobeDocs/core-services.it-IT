@@ -21,9 +21,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
 workflow-type: tm+mt
-source-wordcount: 345
+source-wordcount: 341
 ht-degree: 39%
 
 ---
@@ -62,7 +62,7 @@ Uno schema viene creato in base a queste impostazioni. Lo schema viene utilizzat
 
 * **[!UICONTROL Ricerca ID:]** Immettere un ID cliente (CID) da `.csv` per cercare le informazioni di CX Enterprise per l&#39;ID. Questa funzionalità è utile per risolvere i problemi relativi alla mancata visualizzazione dei dati attributo di un visitatore:
 
-   * **[!UICONTROL ECID (CX Enterprise ID):]** indica se si sta utilizzando il servizio CX Enterprise ID più recente. Se si utilizza il servizio MCID ma non sono elencati ID, CX Enterprise non ha ricevuto un alias per quel CID. Ciò significa che il visitatore non ha effettuato l&#39;accesso o la tua implementazione non trasmette quell&#39;ID.
+   * **[!UICONTROL ECID:]** mostra se stai utilizzando il servizio ID visitatori. Se ti trovi nel servizio ID visitatore ma non è elencato alcun ID, CX Enterprise non ha ricevuto un alias per quel CID. Ciò significa che il visitatore non ha effettuato l&#39;accesso o la tua implementazione non trasmette quell&#39;ID.
 
    * **[!UICONTROL CID (ID cliente):]** gli attributi associati a questo CID. Se stai usando una prop o un&#39;eVar per caricare CID (AVID) e sono visualizzati degli attributi ma nessun AVID, significa che il visitatore non ha effettuato l&#39;accesso al tuo sito.
 
