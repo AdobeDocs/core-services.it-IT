@@ -36,7 +36,7 @@ Scopri dove si verificano gli aggiornamenti della documentazione per l’interfa
 
 ## Luglio 2026
 
-* Sono state aggiunte le [note sulla versione di luglio 2026](release-notes.md) per il supporto CX Enterprise di [Federated Guest Access](https://helpx.adobe.com/business/enterprise/using/federated-guest-access.html), incluso il cambio di account per gli utenti guest dal commutatore Organizzazione.
+* Sono state aggiunte le [note sulla versione di luglio 2026](release-notes.md) per il supporto CX Enterprise di [Federated Guest Access](https://helpx.adobe.com/it/business/enterprise/using/federated-guest-access.html), incluso il cambio di account per gli utenti guest dal commutatore Organizzazione.
 
 ## Giugno 2026
 
