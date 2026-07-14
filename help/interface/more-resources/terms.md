@@ -8,21 +8,12 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 3799f806-2794-43ab-9e70-06ee693871e7
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 929f3df66ce2ff819248671dfc560f0a2a468836
 workflow-type: tm+mt
 source-wordcount: 687
 ht-degree: 5%
@@ -32,16 +23,16 @@ ht-degree: 5%
 # Terminologia
 
 <!--
-TQID: https://experienceleague.adobe.com/6wm7HcuAbaV1iV3AgN55dY5WR---BnMM7lJgN0HZDsk
+TQID: https://experienceleague.adobe.com/6wm7HcuAbaV1iV3AgN55dY5WR%2D%2D%2DBnMM7lJgN0HZDsk
 -->
 
-Usa questa tabella quando la stessa parola viene visualizzata in diverse esperienze Adobe (CX Enterprise, app di marketing, app di progettazione o siti di supporto). Non è un glossario completo. Per informazioni approfondite, vedere la guida specifica del prodotto in [Experience League](https://experienceleague.adobe.com/it).
+Usa questa tabella quando la stessa parola viene visualizzata in diverse esperienze Adobe (CX Enterprise, app di marketing, app di progettazione o siti di supporto). Non è un glossario completo. Per informazioni approfondite, vedere la guida specifica del prodotto in [Experience League](https://experienceleague.adobe.com).
 
 | Termine | In CX Enterprise e questa guida | Altro utilizzo comune di Adobe |
 | --- | --- | --- |
 | **Adobe CX Enterprise** | Esperienza Web unificata in `experience.adobe.com`, in cui si aprono applicazioni di marketing, si impostano preferenze e notifiche e si raggiungono i servizi di interfaccia condivisa, ad esempio Attributi del cliente e [Libreria tipi di pubblico](../services/audiences/overview.md). Precedentemente *Adobe Experience Cloud*. | Non lo stesso prodotto di **Adobe Experience Platform** (infrastruttura dati del cliente, sandbox, set di dati). Non **Adobe Creative Cloud** (applicazioni di progettazione e multimediali). |
 | **Adobe Experience Platform** | Viene visualizzato quando si collegano gli agenti di raccolta dati, identità o piattaforma alle soluzioni; alcune funzioni di ricerca navigazione e AI sono supportate da Platform. | Una piattaforma di dati e orchestrazione. Non utilizzare &quot;Experience Platform&quot; quando si intende la shell o la home page di CX Enterprise. |
-| **Experience League** | Dove la Guida e i collegamenti interni al prodotto ti inviano per **documentazione**, **tutorial**, playlist di apprendimento, note sulla versione e contesto della community per le soluzioni Adobe. Inizia dalla [Experience League home](https://experienceleague.adobe.com/it). | Completa il **[Centro assistenza Adobe](https://helpx.adobe.com/it/support.html)**, che mette in evidenza **account**, **piano**, **fatturazione**, download e risoluzione dei problemi tra prodotti diversi per singoli utenti e team. Utilizza l&#39;Help Center per reimpostare le password, pianificare le modifiche e attività simili; utilizza Experience League per i contenuti dimostrativi dei prodotti. |
+| **Experience League** | Dove la Guida e i collegamenti interni al prodotto ti inviano per **documentazione**, **tutorial**, playlist di apprendimento, note sulla versione e contesto della community per le soluzioni Adobe. Inizia dalla [Experience League home](https://experienceleague.adobe.com). | Completa il **[Centro assistenza Adobe](https://helpx.adobe.com/support.html)**, che mette in evidenza **account**, **piano**, **fatturazione**, download e risoluzione dei problemi tra prodotti diversi per singoli utenti e team. Utilizza l&#39;Help Center per reimpostare le password, pianificare le modifiche e attività simili; utilizza Experience League per i contenuti dimostrativi dei prodotti. |
 | **Assistente AI/IA agente** | Assistenti interni al prodotto e agenti orchestrati descritti negli argomenti AI di questa guida; l’accesso e i crediti dipendono dalle adesioni del prodotto. | Altre superfici di Adobe (ad esempio, **Firefly** o **Express**) utilizzano funzioni &quot;AI&quot; con ambiti e criteri diversi. |
 | **Organizzazione** | La tua **organizzazione IMS**: il limite per le licenze Enterprise, le directory utente, l&#39;SSO e l&#39;amministrazione di Admin Console in CX Enterprise. Consulta [Organizzazioni e collegamento account](../administration/organizations.md). | Non è una *suite di rapporti* di Analytics, una *proprietà* di Target o una *sandbox* di Experience Platform (si tratta di contenitori specifici del prodotto). |
 | **Admin Console** | Piano di controllo Enterprise in `adminconsole.adobe.com` per utenti, profili di prodotto e identità; collegato dagli argomenti di amministrazione **di CX Enterprise.** Consulta [Gestione di utenti e prodotti](../administration/admin-console.md). | Diverso da **amministratore interno al prodotto** all&#39;interno di ogni app (ad esempio, strumenti di amministrazione di Analytics o schermate delle autorizzazioni di Journey Optimizer). |
