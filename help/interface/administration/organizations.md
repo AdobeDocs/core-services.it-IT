@@ -52,7 +52,7 @@ Ad esempio, per un’organizzazione con Federated ID e il dominio `example.com`,
 
 ## Account guest federati
 
-Puoi abilitare [l&#39;accesso come ospite federato](https://helpx.adobe.com/business/enterprise/using/federated-guest-access.html) per autenticare in modo sicuro gli utenti guest nel tuo dominio. Se attivato, il menu Organizzazione viene modificato per consentire agli utenti di passare da un account all&#39;altro all&#39;interno dell&#39;organizzazione esistente in qualsiasi pagina di CX Enterprise.
+Puoi abilitare [l&#39;accesso come ospite federato](https://helpx.adobe.com/it/business/enterprise/using/federated-guest-access.html) per autenticare in modo sicuro gli utenti guest nel tuo dominio. Se attivato, il menu Organizzazione viene modificato per consentire agli utenti di passare da un account all&#39;altro all&#39;interno dell&#39;organizzazione esistente in qualsiasi pagina di CX Enterprise.
 
 Per passare a un account guest federato, individuare **[!UICONTROL Altri account]** nel menu **[!UICONTROL Organizzazione]** in qualsiasi pagina di [CX Enterprise](https://experience.adobe.com).
 
@@ -125,6 +125,6 @@ Assistenza per problemi derivanti dal collegamento dell’account.
 
 In genere, il collegamento dell’account ha esito negativo perché l’Adobe ID è collegato a un utente precedente. Quando non è possibile eseguire il collegamento, prova le seguenti operazioni:
 
-* [Contatta l’Assistenza Adobe](https://experienceleague.adobe.com/?support-solution=General&lang=it#support).
+* [Contatta l’Assistenza Adobe](https://experienceleague.adobe.com/it?support-solution=General&lang=it#support).
 * Durante la risoluzione del problema, accedi all’applicazione con la procedura standard.
 
