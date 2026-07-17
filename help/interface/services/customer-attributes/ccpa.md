@@ -6,15 +6,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 320defc7-2cd5-4481-955d-77cf6fbfef6d
-TQID: https://experienceleague.adobe.com/YPl1rlZRciwN6GM7mtkqMKjPsW-H1ueMG4zqbH8auho
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+TQID: 'https://experienceleague.adobe.com/YPl1rlZRciwN6GM7mtkqMKjPsW-H1ueMG4zqbH8auho'
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 9c2010694b8bb32c3922dd65f846375e43b2caac
 workflow-type: tm+mt
 source-wordcount: 404
 ht-degree: 52%
@@ -65,9 +60,9 @@ Per richiedere l’accesso e l’eliminazione dei dati per [!DNL Customer Attrib
 * &quot;key&quot;: &lt;*in genere il nome del cliente*>
 * &quot;action&quot;: **accesso** (access) o **eliminazione** (delete)
 * &quot;user IDs&quot; (ID utente):
-   * &quot;namespace&quot;: &lt;*ID alias dell&#39;origine dati CRS*>
-   * &quot;type&quot;: **integrationCode**
-   * &quot;value&quot;: &lt;*ID CRM*>
+  * &quot;namespace&quot;: &lt;*ID alias dell&#39;origine dati CRS*>
+  * &quot;type&quot;: **integrationCode**
+  * &quot;value&quot;: &lt;*ID CRM*>
 * &quot;include&quot;: **CRS** (prodotto Adobe che si applica alla richiesta)
 * &quot;regulation&quot;: **ccpa** (il regolamento sulla privacy applicabile alla richiesta)
 

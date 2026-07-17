@@ -9,22 +9,15 @@ role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
 TQID: https://experienceleague.adobe.com/DCb0MQWwB0MOGALSDbLD-d4ik4B0C249xncB9eZbZMU
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d86266af93c64ffcb18ab0c74138ff2410a69f24
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9c2010694b8bb32c3922dd65f846375e43b2caac
 workflow-type: tm+mt
-source-wordcount: 677
-ht-degree: 28%
+source-wordcount: 506
+ht-degree: 17%
 
 ---
 
@@ -52,7 +45,7 @@ Ad esempio, per un’organizzazione con Federated ID e il dominio `example.com`,
 
 ## Account guest federati
 
-Puoi abilitare [l&#39;accesso come ospite federato](https://helpx.adobe.com/it/business/enterprise/using/federated-guest-access.html) per autenticare in modo sicuro gli utenti guest nel tuo dominio. Se attivato, il menu Organizzazione viene modificato per consentire agli utenti di passare da un account all&#39;altro all&#39;interno dell&#39;organizzazione esistente in qualsiasi pagina di CX Enterprise.
+Puoi abilitare [l&#39;accesso come ospite federato](https://helpx.adobe.com/business/enterprise/using/federated-guest-access.html) per autenticare in modo sicuro gli utenti guest nel tuo dominio. Se attivato, il menu Organizzazione viene modificato per consentire agli utenti di passare da un account all&#39;altro all&#39;interno dell&#39;organizzazione esistente in qualsiasi pagina di CX Enterprise.
 
 Per passare a un account guest federato, individuare **[!UICONTROL Altri account]** nel menu **[!UICONTROL Organizzazione]** in qualsiasi pagina di [CX Enterprise](https://experience.adobe.com).
 
@@ -86,28 +79,6 @@ Per visualizzare l&#39;ID organizzazione e altre informazioni sull&#39;account, 
 
    `C538193582390300A495CC9@AdobeOrg`
 
-## Collegamento di un account applicazione a un Adobe ID
-
-In genere, gli amministratori di CX Enterprise concedono l&#39;accesso ad applicazioni e servizi. In rare circostanze, è possibile collegare le credenziali dell’applicazione a un Adobe ID.
-
-1. Segui i passaggi contenuti nell&#39;e-mail di invito a CX Enterprise.
-
-1. Accedi utilizzando il tuo Adobe ID o Enterprise ID.
-
-1. Fare clic sul **[!UICONTROL selettore applicazioni]**. ( ![menu](../assets/apps-icon.png)).
-
-   ![Collegare un account applicazione a un Adobe ID](../assets/solutions-active.png)
-
-   Le applicazioni a cui hai accesso sono colorate.
-
-1. Fai clic sull’applicazione desiderata.
-
-   ![Fai clic sull&#39;applicazione](../assets/analytics-link-accounts.png)
-
-   Questo tipo di messaggio mostra se fai parte del gruppo appropriato (e disponi dell’autorizzazione per l’applicazione) ma non hai ancora collegato le credenziali del tuo account al tuo Adobe ID.
-
-1. Fai clic su **[!UICONTROL Collega account]**, quindi immetti le tue credenziali.
-
 ## Specificare un&#39;organizzazione predefinita
 
 È possibile specificare un&#39;organizzazione predefinita da utilizzare al momento dell&#39;accesso.
@@ -118,13 +89,3 @@ In genere, gli amministratori di CX Enterprise concedono l&#39;accesso ad applic
 
 
 ![Modifica profilo](../assets/edit-profile.png)
-
-## Risoluzione dei problemi di collegamento dell&#39;account
-
-Assistenza per problemi derivanti dal collegamento dell’account.
-
-In genere, il collegamento dell’account ha esito negativo perché l’Adobe ID è collegato a un utente precedente. Quando non è possibile eseguire il collegamento, prova le seguenti operazioni:
-
-* [Contatta l’Assistenza Adobe](https://experienceleague.adobe.com/it?support-solution=General&lang=it#support).
-* Durante la risoluzione del problema, accedi all’applicazione con la procedura standard.
-
