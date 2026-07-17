@@ -21,10 +21,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d86266af93c64ffcb18ab0c74138ff2410a69f24
+source-git-commit: 9c2010694b8bb32c3922dd65f846375e43b2caac
 workflow-type: tm+mt
-source-wordcount: 677
-ht-degree: 28%
+source-wordcount: 506
+ht-degree: 17%
 
 ---
 
@@ -86,28 +86,6 @@ Per visualizzare l&#39;ID organizzazione e altre informazioni sull&#39;account, 
 
    `C538193582390300A495CC9@AdobeOrg`
 
-## Collegamento di un account applicazione a un Adobe ID
-
-In genere, gli amministratori di CX Enterprise concedono l&#39;accesso ad applicazioni e servizi. In rare circostanze, è possibile collegare le credenziali dell’applicazione a un Adobe ID.
-
-1. Segui i passaggi contenuti nell&#39;e-mail di invito a CX Enterprise.
-
-1. Accedi utilizzando il tuo Adobe ID o Enterprise ID.
-
-1. Fare clic sul **[!UICONTROL selettore applicazioni]**. ( ![menu](../assets/apps-icon.png)).
-
-   ![Collegare un account applicazione a un Adobe ID](../assets/solutions-active.png)
-
-   Le applicazioni a cui hai accesso sono colorate.
-
-1. Fai clic sull’applicazione desiderata.
-
-   ![Fai clic sull&#39;applicazione](../assets/analytics-link-accounts.png)
-
-   Questo tipo di messaggio mostra se fai parte del gruppo appropriato (e disponi dell’autorizzazione per l’applicazione) ma non hai ancora collegato le credenziali del tuo account al tuo Adobe ID.
-
-1. Fai clic su **[!UICONTROL Collega account]**, quindi immetti le tue credenziali.
-
 ## Specificare un&#39;organizzazione predefinita
 
 È possibile specificare un&#39;organizzazione predefinita da utilizzare al momento dell&#39;accesso.
@@ -118,13 +96,3 @@ In genere, gli amministratori di CX Enterprise concedono l&#39;accesso ad applic
 
 
 ![Modifica profilo](../assets/edit-profile.png)
-
-## Risoluzione dei problemi di collegamento dell&#39;account
-
-Assistenza per problemi derivanti dal collegamento dell’account.
-
-In genere, il collegamento dell’account ha esito negativo perché l’Adobe ID è collegato a un utente precedente. Quando non è possibile eseguire il collegamento, prova le seguenti operazioni:
-
-* [Contatta l’Assistenza Adobe](https://experienceleague.adobe.com/it?support-solution=General&lang=it#support).
-* Durante la risoluzione del problema, accedi all’applicazione con la procedura standard.
-
