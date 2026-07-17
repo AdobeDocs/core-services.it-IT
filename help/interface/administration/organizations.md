@@ -52,7 +52,7 @@ Ad esempio, per un’organizzazione con Federated ID e il dominio `example.com`,
 
 ## Account guest federati
 
-Puoi abilitare [l&#39;accesso come ospite federato](https://helpx.adobe.com/business/enterprise/using/federated-guest-access.html) per autenticare in modo sicuro gli utenti guest nel tuo dominio. Se attivato, il menu Organizzazione viene modificato per consentire agli utenti di passare da un account all&#39;altro all&#39;interno dell&#39;organizzazione esistente in qualsiasi pagina di CX Enterprise.
+Puoi abilitare [l&#39;accesso come ospite federato](https://helpx.adobe.com/it/business/enterprise/using/federated-guest-access.html) per autenticare in modo sicuro gli utenti guest nel tuo dominio. Se attivato, il menu Organizzazione viene modificato per consentire agli utenti di passare da un account all&#39;altro all&#39;interno dell&#39;organizzazione esistente in qualsiasi pagina di CX Enterprise.
 
 Per passare a un account guest federato, individuare **[!UICONTROL Altri account]** nel menu **[!UICONTROL Organizzazione]** in qualsiasi pagina di [CX Enterprise](https://experience.adobe.com).
 
