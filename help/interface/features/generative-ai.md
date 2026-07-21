@@ -41,10 +41,10 @@ topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: eb23813e6456ec3ec3c3014d2d699875c98012b7
+source-git-commit: 92f02b84d8321ccc4fe52a2f46f09d837da5a324
 workflow-type: tm+mt
 source-wordcount: 3308
-ht-degree: 8%
+ht-degree: 13%
 
 ---
 
@@ -89,7 +89,7 @@ Di seguito è riportata una raccolta di [!DNL CX Enterprise] applicazioni che ut
 ### IA generativa
 
 | **Nome prodotto** | **Funzioni chiave GenAI** | **Compatibilità Firefly** |
-| ------------------| -------------------------| -------------------|
+| ------------------ | ------------------------- | ------------------- |
 | [Collaboratore aziendale CX](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home) | GenAI è disponibile in: <ul><li>**[Chat](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/overview)**: un&#39;interfaccia di conversazione in cui si descrive un obiettivo in linguaggio naturale e genAI pianifica il lavoro, lo esegue nel tuo Adobe e nei sistemi connessi, convalida i risultati e restituisce il lavoro finito per la tua approvazione.</li><li>**[Campagne](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/campaigns/overview)**: applicazione nativa per l&#39;intelligenza artificiale che consolida il briefing della campagna, la creazione di tipi di pubblico, la generazione di contenuti, la progettazione del percorso e la verifica in un&#39;unica esperienza di conversazione. GenAI genera un piano di campagna, crea un percorso e crea bozze di contenuti personalizzati che è possibile perfezionare iterativamente.</li></ul> | No |
 | [Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/home) | Crea contenuti personalizzati e on-brand con genAI. | Sì |
 | [Adobe Experience Manager as a Cloud Service (AEM CS)](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/ai-in-aem/overview) | GenAI è disponibile in: <ul><li>Genera varianti in **AEM Sites** ([Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor))</li><li>GenAI in **Sites Optimizer** ([Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-manager-sites-optimizer/content/opportunity-types/overview))</li><li>[Content Hub](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview?lang=en) e [Tag avanzati](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/manage/smart-tags?lang=en#ai-smart-tags) in **AEM Assets**</li></ul> Assistente AI per: <ul><li>Pagina panoramica di Experience Hub</li><li>Edge Delivery Services</li><li>Siti</li><li>Risorse</li><li>Moduli</li><li>Contenuti multimediali dinamici</li><li>Cloud Manager</li></ul> | Sì |
