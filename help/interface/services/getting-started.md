@@ -94,9 +94,9 @@ Per accedere a CX Enterprise, gli utenti devono:
 
 Il Servizio ID visitatore fornisce un ID comune per l’integrazione tra diverse applicazioni. Fornisce l&#39;identificazione dei visitatori tra domini, oltre a un percorso per il targeting e la personalizzazione tra dispositivi e browser basati sui dati CRM caricati tramite [!DNL Customer Attributes].
 
-Il metodo più semplice per abilitare i servizi di base CX Enterprise è quello di attivarli automaticamente per Analytics e Adobe Target tramite l&#39;estensione tag [[!UICONTROL Servizio Experience Cloud ID]](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html), che implementa il Servizio ID visitatore.
+Il metodo più semplice per abilitare i servizi di base CX Enterprise è quello di attivarli automaticamente per Analytics e Adobe Target tramite l&#39;estensione tag [[!UICONTROL Servizio Experience Cloud ID]](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=it), che implementa il Servizio ID visitatore.
 
-Per ricevere assistenza completa sul Servizio ID visitatore, consulta [Panoramica sul Servizio ID visitatore](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html#intro).
+Per ricevere assistenza completa sul Servizio ID visitatore, consulta [Panoramica sul Servizio ID visitatore](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=it#intro).
 
 
 **Non Utilizzo Di [!UICONTROL Tag Di Experience Platform]?**
@@ -105,12 +105,12 @@ Se non utilizzi [!UICONTROL tag Experience Platform], implementa manualmente il 
 
 | Attività | Descrizione |
 | --- | --- |
-| [Implementa il servizio ID visitatori (`VisitorAPI.js`) per Analytics](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/overview) | Adobe consiglia inoltre di impostare [ID cliente](https://experienceleague.adobe.com/en/docs/id-service/using/reference/authenticated-state) aggiuntivi. Questi ID sono associati a ciascun visitatore e abilitano le funzionalità attuali e future di CX Enterprise. |
-| Aggiorna il file `s_code` esistente alla versione H.27.3 o successiva oppure il file `AppMeasurement.js` esistente alla versione 1.4 o successiva. | Tali file sono disponibili per il download in [Gestore codice](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html) in Strumenti amministratore di Analytics. Puoi consultare la [Guida all&#39;implementazione JavaScript](https://experienceleague.adobe.com/en/docs/analytics/implementation/js/overview#js) per ulteriori informazioni su `AppMeasurement.js`. |
+| [Implementa il servizio ID visitatori (`VisitorAPI.js`) per Analytics](https://experienceleague.adobe.com/it/docs/analytics/implementation/id/overview) | Adobe consiglia inoltre di impostare [ID cliente](https://experienceleague.adobe.com/it/docs/id-service/using/reference/authenticated-state) aggiuntivi. Questi ID sono associati a ciascun visitatore e abilitano le funzionalità attuali e future di CX Enterprise. |
+| Aggiorna il file `s_code` esistente alla versione H.27.3 o successiva oppure il file `AppMeasurement.js` esistente alla versione 1.4 o successiva. | Tali file sono disponibili per il download in [Gestore codice](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=it) in Strumenti amministratore di Analytics. Puoi consultare la [Guida all&#39;implementazione JavaScript](https://experienceleague.adobe.com/it/docs/analytics/implementation/js/overview#js) per ulteriori informazioni su `AppMeasurement.js`. |
 
 ### Analytics &amp; Adobe Target: sincronizzazione degli ID cliente {#sync-ids}
 
-In qualità di parte dell&#39;impostazione del servizio ID visitatori, Adobe consiglia per Analytics e [!DNL Target] di sincronizzare i [ID cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) con CX Enterprise.
+In qualità di parte dell&#39;impostazione del servizio ID visitatori, Adobe consiglia per Analytics e [!DNL Target] di sincronizzare i [ID cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=it) con CX Enterprise.
 
 In Adobe Target, `mbox3rdpartyid` deve ottenere l’ID cliente e inviarlo a [!DNL Target]. Consulta [Uso degli attributi del cliente](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html?lang=it) in [!DNL Target].
 
@@ -141,13 +141,13 @@ Contatta il supporto tecnico per abilitare i dati storici.
 
 Se utilizzi cookie di prime parti, consulta il [programma di certificazione gestito da Adobe](/help/interface/data-collection/adobe-managed-cert.md) per informazioni sui CNAME per la raccolta dati e sul tracciamento tra domini.
 
-Si consiglia di modernizzare l&#39;implementazione di Analytics aggiornando le librerie JavaScript, incluso l&#39;API visitatore. Un modo semplice per eseguire questa operazione è aggiungere un’[estensione Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html) nella funzionalità di Raccolta dati di Experience Platform.
+Si consiglia di modernizzare l&#39;implementazione di Analytics aggiornando le librerie JavaScript, incluso l&#39;API visitatore. Un modo semplice per eseguire questa operazione è aggiungere un’[estensione Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=it) nella funzionalità di Raccolta dati di Experience Platform.
 
 ## Aggiornamento dell’implementazione di Adobe Target
 
-* È consigliabile aggiungere un&#39;estensione [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html) nei tag [!UICONTROL Experience Platform], in modo che il recupero della libreria sia automatico. Puoi anche impostare l&#39;estensione tag [[!UICONTROL Experience Cloud ID Service]](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html), che implementa il servizio ID visitatori per Adobe Target (e altre applicazioni) utilizzando i tag. Questa estensione tag è **obbligatoria** perché Adobe Target possa utilizzare i servizi People.
-* Se non utilizzi i tag [!UICONTROL Experience Platform], [aggiorna manualmente la libreria mbox](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html).
-* Richiedi l’accesso per utilizzare Adobe Analytics come origine di reporting per [!DNL Adobe Target]. I dati di [!DNL Target] e [!DNL Analytics] sono combinati nella stessa chiamata al server durante l’elaborazione affinché i visitatori siano collegati tra le due applicazioni. Consulta [Implementazione di Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html).
+* È consigliabile aggiungere un&#39;estensione [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html?lang=it) nei tag [!UICONTROL Experience Platform], in modo che il recupero della libreria sia automatico. Puoi anche impostare l&#39;estensione tag [[!UICONTROL Experience Cloud ID Service]](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=it), che implementa il servizio ID visitatori per Adobe Target (e altre applicazioni) utilizzando i tag. Questa estensione tag è **obbligatoria** perché Adobe Target possa utilizzare i servizi People.
+* Se non utilizzi i tag [!UICONTROL Experience Platform], [aggiorna manualmente la libreria mbox](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html?lang=it).
+* Richiedi l’accesso per utilizzare Adobe Analytics come origine di reporting per [!DNL Adobe Target]. I dati di [!DNL Target] e [!DNL Analytics] sono combinati nella stessa chiamata al server durante l’elaborazione affinché i visitatori siano collegati tra le due applicazioni. Consulta [Implementazione di Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=it).
 
   >[!IMPORTANT]
   >
