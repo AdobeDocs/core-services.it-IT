@@ -3,7 +3,7 @@ title: Interfaccia utente e amministrazione di CX Enterprise Central
 description: Scopri i componenti dell’interfaccia utente, l’amministrazione di utenti e prodotti in Adobe Admin Console, Libreria tipi di pubblico, Attributi del cliente, CX Enterprise Assets e altro ancora.
 cloud: Experience Cloud
 product: experience cloud
-solution: Experience Cloud Services
+solution: CX Enterprise
 feature-set: Experience Cloud Services,Experience Cloud
 solution-title: Experience Platform
 solution-hub-url: https://helpx.adobe.com/it/support/experience-cloud/core-services.html
@@ -16,10 +16,10 @@ git-repo: https://github.com/AdobeDocs/core-services.it-IT
 usetq: true
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 9c2010694b8bb32c3922dd65f846375e43b2caac
+source-git-commit: 593321fb53538f88b28e20e76cb27cd0fc7cc2b9
 workflow-type: tm+mt
-source-wordcount: 195
-ht-degree: 65%
+source-wordcount: 200
+ht-degree: 66%
 
 ---
 
