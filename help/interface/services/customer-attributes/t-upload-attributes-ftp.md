@@ -7,25 +7,32 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
-TQID: https://experienceleague.adobe.com/jI2dWXMmrrWxceVi-sZtzF5cTF11iy4d7QKkx71vF-I
+TQID: 'https://experienceleague.adobe.com/jI2dWXMmrrWxceVi-sZtzF5cTF11iy4d7QKkx71vF-I'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 subfeature_v2:
   - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+    internal-label: Support
   - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+    internal-label: Getting started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+    internal-label: Administration
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
-source-wordcount: 394
+source-wordcount: '394'
 ht-degree: 51%
-
 ---
-
 # Caricare il file di dati tramite FTP (opzionale)
 
 Se non effettui il caricamento trascinando la selezione, puoi caricare i dati degli attributi del cliente su CX Enterprise tramite FTP.
@@ -39,7 +46,7 @@ Puoi caricare i dati dopo aver creato un&#39;origine attributo del cliente e un 
 È possibile caricare i file sul sito FTP degli attributi del cliente tramite FTP o SFTP:
 
 * È necessario un client che supporti le connessioni SFTP.
-* Puoi connetterti con SFTP utilizzando nome utente/password o senza utilizzare alcuna password, come descritto [qui](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html?lang=it).
+* Puoi connetterti con SFTP utilizzando nome utente/password o senza utilizzare alcuna password, come descritto [qui](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html).
 
 **Per caricare il file di dati tramite FTP**
 
@@ -73,11 +80,11 @@ I nomi applicati a stringhe, interi e numeri vengono utilizzati per creare metri
 
 * **[!UICONTROL Tipo:]** Il tipo di dati, ad esempio:
 
-   * **Stringa:** una sequenza di caratteri.
+  * **Stringa:** una sequenza di caratteri.
 
-   * **Interi:** numeri interi.
+  * **Interi:** numeri interi.
 
-   * **Numeri:** possono contenere fino a due posizioni decimali.
+  * **Numeri:** possono contenere fino a due posizioni decimali.
 
 * **[!UICONTROL Nome visualizzato:]** Un nome descrittivo per l&#39;attributo. Ad esempio, puoi rinominare l&#39;attributo *customer age* in *customer Since*.
 

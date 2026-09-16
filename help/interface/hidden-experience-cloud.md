@@ -2,18 +2,22 @@
 description: Informazioni sui componenti dell'interfaccia centrale per CX Enterprise. Ottieni aiuto per l'amministrazione di utenti e prodotti in Admin Console e abilita le applicazioni per i servizi aziendali di CX. Ottieni aiuto per Libreria tipi di pubblico, Attributi del cliente, CX Enterprise Assets e altro ancora.
 title: Interfaccia e amministrazione di Experience Cloud
 hide: true
-hidefromtoc: true
+hidefromtoc: 'yes'
 feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 48%
-
 ---
-
 # Interfaccia e amministrazione di CX Enterprise
 
 [CX Enterprise](https://experience.adobe.com) è una famiglia integrata di applicazioni, prodotti e servizi Adobe per il marketing digitale. L’interfaccia intuitiva consente di accedere rapidamente alle applicazioni cloud, alle funzionalità dei prodotto e ai servizi.
@@ -59,7 +63,7 @@ Per accedere alle applicazioni e ai servizi CX Enterprise per i quali disponi de
 
 ## Ottenere assistenza e supporto {#support}
 
-Accedi all&#39;apprendimento e alla guida utilizzando il **[!UICONTROL Centro assistenza]** (![risorsa](assets/help-icon.png)) nell&#39;intestazione, incluso il contenuto della guida (documentazione, tutorial e corsi) in [Experience League](https://experienceleague.adobe.com/it?lang=it#home), nonché risorse aggiuntive per le singole applicazioni. Puoi anche inviare feedback aperti e creare ticket di supporto con priorità.
+Accedi all&#39;apprendimento e alla guida utilizzando il **[!UICONTROL Centro assistenza]** (![risorsa](assets/help-icon.png)) nell&#39;intestazione, incluso il contenuto della guida (documentazione, tutorial e corsi) in [Experience League](https://experienceleague.adobe.com/?lang=it#home), nonché risorse aggiuntive per le singole applicazioni. Puoi anche inviare feedback aperti e creare ticket di supporto con priorità.
 
 ![Ottenere assistenza e supporto](assets/search-menu.png)
 
@@ -67,7 +71,7 @@ Il menu [!UICONTROL Guida] consente inoltre di accedere a:
 
 * **[!UICONTROL Supporto]:** Crea un ticket di supporto o contatta il [!UICONTROL Supporto] tramite Twitter.
 * **[!UICONTROL Feedback]:** Condividi feedback sulla tua esperienza CX Enterprise. Il tuo feedback viene utilizzato per migliorare i prodotti e i servizi di Adobe.
-* **[!UICONTROL Stato]:** Passa a `https://status.adobe.com/it-it/experience_cloud`, verifica lo stato operativo del prodotto e [!UICONTROL Gestisci abbonamenti].
+* **[!UICONTROL Stato]:** Passa a `https://status.adobe.com/experience_cloud`, verifica lo stato operativo del prodotto e [!UICONTROL Gestisci abbonamenti].
 * **[!UICONTROL Developer Connection]:** Navigazione a `adobe.io` e ricerca la documentazione per gli sviluppatori.
 
 ## Gestione del profilo utente

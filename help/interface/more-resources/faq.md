@@ -8,27 +8,36 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-TQID: https://experienceleague.adobe.com/-uw6vdjg2n7wEREmEzir2-2WSL8slWi8vBRg4oXYJlo
+TQID: 'https://experienceleague.adobe.com/-uw6vdjg2n7wEREmEzir2-2WSL8slWi8vBRg4oXYJlo'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 subfeature_v2:
   - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+    internal-label: Support
   - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
+    internal-label: Organizations
   - id: eb7e29b9-c5e9-4ed0-8e4b-6465dabb3cb1
+    internal-label: Admin tools
   - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+    internal-label: Getting started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+    internal-label: Administration
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
-source-wordcount: 730
+source-wordcount: '730'
 ht-degree: 47%
-
 ---
-
 # Domande frequenti su CX Enterprise
 
 Scopri il supporto del browser e le domande e risposte più frequenti per gli amministratori di CX Enterprise.
@@ -113,7 +122,7 @@ Il provisioning in CX Enterprise significa:
 
 * La gestione di prodotti e adesioni utente viene eseguita in [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (collegamento prodotto).
 
-* **Importante:** gli amministratori di Analytics devono consultare [Gestire gli utenti di Analytics in Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=it) per informazioni sulla migrazione degli ID utente dagli strumenti di amministrazione di Analytics ad Admin Console.
+* **Importante:** gli amministratori di Analytics devono consultare [Gestire gli utenti di Analytics in Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html) per informazioni sulla migrazione degli ID utente dagli strumenti di amministrazione di Analytics ad Admin Console.
 
 +++
 
@@ -121,7 +130,7 @@ Il provisioning in CX Enterprise significa:
 
 Gli amministratori di Admin Console possono concedere l&#39;accesso agli utenti. Gli utenti ricevono un’e-mail con le istruzioni di accesso.
 
-Potresti aver bisogno di [contattare il supporto Adobe](https://experienceleague.adobe.com/it?support-solution=General&lang=it#support) per verificare che sia stato eseguito il provisioning completo per la tua azienda.
+Potresti aver bisogno di [contattare il supporto Adobe](https://experienceleague.adobe.com/?support-solution=General&lang=it#support) per verificare che sia stato eseguito il provisioning completo per la tua azienda.
 
 +++
 

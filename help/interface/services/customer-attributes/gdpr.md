@@ -6,21 +6,26 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
-TQID: https://experienceleague.adobe.com/wU6Y5XK5Fs9-w7Jl7THXjturzTVrsB7eh7GdExsS2TQ
+TQID: 'https://experienceleague.adobe.com/wU6Y5XK5Fs9-w7Jl7THXjturzTVrsB7eh7GdExsS2TQ'
 product_v2:
   - id: e1971122-7081-4556-9222-8a31bd71800c
+    internal-label: Experience Cloud Services
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+    internal-label: Privacy
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
-source-wordcount: 409
+source-wordcount: '409'
 ht-degree: 81%
-
 ---
-
 # Supporto di [!DNL Customer Attributes] per il regolamento generale sulla protezione dei dati
 
 Questa pagina descrive come [!DNL Customer Attributes] supportino il regolamento generale sulla protezione dei dati (GDPR).
@@ -29,7 +34,7 @@ Questa pagina descrive come [!DNL Customer Attributes] supportino il regolamento
 >
 >Il contenuto di questo documento non rappresenta o non intende sostituirsi a una consulenza legale. Consulta l’assistenza legale per ricevere consigli in merito al GDPR.
 
-Il [regolamento generale sulla protezione dei dati](https://business.adobe.com/it/privacy/general-data-protection-regulation.html), una legge in vigore dal 25 maggio 2018, conferisce a tutte le persone (soggetti dei dati) all&#39;interno dei confini dell&#39;Unione europea (Ue) il controllo dei loro dati personali. Semplifica inoltre il contesto normativo per le aziende internazionali. La presente legge si applica a tutte le aziende (titolari del trattamento dei dati) che offrono beni o servizi, che controllano il comportamento o raccolgono dati personali da soggetti all’interno dei confini dell’Ue nel momento in cui i loro dati personali vengono trattati, indipendentemente dalla sede del titolare del trattamento.
+Il [regolamento generale sulla protezione dei dati](https://business.adobe.com/it/privacy/general-data-protection-regulation.html), una legge in vigore dal 25 maggio 2018, conferisce a tutte le persone (soggetti interessati) all&#39;interno dei confini dell&#39;Unione europea (Ue) il controllo dei loro dati personali. Semplifica inoltre il contesto normativo per le aziende internazionali. La presente legge si applica a tutte le aziende (titolari del trattamento dei dati) che offrono beni o servizi, che monitorano il comportamento o raccolgono dati personali da soggetti all’interno dei confini dell’UE nel momento in cui i loro dati personali vengono trattati, indipendentemente dalla sede del titolare del trattamento.
 
 Adobe CX Enterprise agisce come responsabile del trattamento per tutti i dati personali che riceve e archivia per conto dei propri clienti. In qualità di titolare del trattamento dei dati, l&#39;utente determina i dati personali che Adobe CX Enterprise elabora e archivia per suo conto.
 
@@ -63,9 +68,9 @@ Per richiedere l’accesso e l’eliminazione dei dati per [!DNL Customer Attrib
 * &quot;key&quot;: &lt;*in genere il nome del cliente*>
 * &quot;action&quot;: **accesso** (access) o **eliminazione** (delete)
 * &quot;user IDs&quot; (ID utente):
-   * &quot;namespace&quot;: &lt;*ID alias dell&#39;origine dati CRS*>
-   * &quot;type&quot;: **integrationCode**
-   * &quot;value&quot;: &lt;*ID CRM*>
+  * &quot;namespace&quot;: &lt;*ID alias dell&#39;origine dati CRS*>
+  * &quot;type&quot;: **integrationCode**
+  * &quot;value&quot;: &lt;*ID CRM*>
 * &quot;include&quot;: **CRS** (prodotto Adobe che si applica alla richiesta)
 * &quot;regulation&quot;: **gdpr** (regolamento sulla privacy applicabile alla richiesta)
 

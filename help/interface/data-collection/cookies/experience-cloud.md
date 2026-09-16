@@ -8,27 +8,36 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: bd9bea58-9987-40d6-84e0-da185388bbbb
-TQID: https://experienceleague.adobe.com/2i8AyRTW37TGYTpcLBh-ZMTyET0NvpRweTnUuk8Nnis
+TQID: 'https://experienceleague.adobe.com/2i8AyRTW37TGYTpcLBh-ZMTyET0NvpRweTnUuk8Nnis'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 subfeature_v2:
   - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+    internal-label: Support
   - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+    internal-label: Getting started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
+    internal-label: Administration
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
-source-wordcount: 371
+source-wordcount: '371'
 ht-degree: 67%
-
 ---
-
 # Cookie di CX Enterprise
 
 Adobe CX Enterprise utilizza i cookie per memorizzare un ID visitatore utilizzato nelle applicazioni CX Enterprise. Questi cookie sono specifici per l&#39;accesso alle applicazioni Adobe CX Enterprise in [experience.adobe.com](https://experience.adobe.com).
@@ -74,7 +83,7 @@ Adobe CX Enterprise utilizza i cookie per memorizzare un ID visitatore utilizzat
 
 Il servizio ID [visitatore](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it) utilizza JavaScript per memorizzare un ID visitatore univoco in un cookie `AMCV_###@AdobeOrg` sul dominio del sito Web corrente, dove `###` rappresenta una stringa casuale di caratteri, ad esempio `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
 
-Consulta anche [Cookie e il servizio ID visitatori](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=it).
+Consulta anche [Cookie e il servizio ID visitatori](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html).
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 

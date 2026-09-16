@@ -7,40 +7,51 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-TQID: https://experienceleague.adobe.com/xGxvSSHR43wPti8xyaS96BZDrXtA4CcQ8EoE0V7MLEU
+TQID: 'https://experienceleague.adobe.com/xGxvSSHR43wPti8xyaS96BZDrXtA4CcQ8EoE0V7MLEU'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 subfeature_v2:
   - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+    internal-label: Support
   - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
+    internal-label: Organizations
   - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+    internal-label: Getting started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 26697b9999f9b467cfc59b9ac918565d6a5d932b
+    internal-label: Privacy
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
-source-wordcount: 872
+source-wordcount: '872'
 ht-degree: 34%
-
 ---
-
 # Aggiornamenti alla documentazione
 
 Scopri dove si verificano gli aggiornamenti della documentazione per l’interfaccia centrale e l’amministrazione di CX Enterprise.
 
-## Luglio 2026
+## luglio 2026
 
-* Sono state aggiunte le [note sulla versione di luglio 2026](release-notes.md) per il supporto CX Enterprise di [Federated Guest Access](https://helpx.adobe.com/it/business/enterprise/using/federated-guest-access.html), incluso il cambio di account per gli utenti guest dal commutatore Organizzazione.
+* Sono state aggiunte le [note sulla versione di luglio 2026](release-notes.md) per il supporto CX Enterprise di [Federated Guest Access](https://helpx.adobe.com/business/enterprise/using/federated-guest-access.html), incluso il cambio di account per gli utenti guest dal commutatore Organizzazione.
 
 ## Giugno 2026
 
-* È stato pubblicato [Monitoraggio di IA per l&#39;analisi dell&#39;agente](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/overview/monitoring) con informazioni sulle dashboard di monitoraggio dell&#39;utilizzo delle licenze e di IA per l&#39;analisi dell&#39;agente, incluse le visualizzazioni Panoramica, Utenti, Feedback e Crediti di IA, Ripetizione conversazione e autorizzazioni per gli utenti di governance.
+* È stato pubblicato [Monitoraggio di IA per l&#39;analisi dell&#39;agente](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/monitoring) con informazioni sulle dashboard di monitoraggio dell&#39;utilizzo delle licenze e di IA per l&#39;analisi dell&#39;agente, incluse le visualizzazioni Panoramica, Utenti, Feedback e Crediti di IA, Ripetizione conversazione e autorizzazioni per gli utenti di governance.
 * Sono state aggiunte le [note sulla versione di giugno 2026](release-notes.md) per il monitoraggio dell’utilizzo di IA per l’agente.
 
 ## Maggio 2026
@@ -49,16 +60,16 @@ Aggiornamenti di aprile e maggio per la guida all&#39;interfaccia centrale di CX
 
 * La documentazione è stata rinominata da Experience Cloud a **CX Enterprise** nella guida, incluse descrizioni, testo di collegamento e metadati di tag automatici.
 * Sono state aggiunte le [note sulla versione di aprile 2026](release-notes.md) per la home page aggiornata in `https://experience.adobe.com/home` (aggiornamento dell&#39;interfaccia utente, modalità scura e miglioramenti a livello di accessibilità).
-* Aggiornamento di [Agentic AI in CX Enterprise](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai): Adobe Marketing Agent for Microsoft 365 Copilot, funzionalità dell&#39;agente riviste e una colonna **Health Data/HIPAA-ready** nella tabella dell&#39;agente existing-apps.
+* Aggiornamento di [Agentic AI in CX Enterprise](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai): Adobe Marketing Agent for Microsoft 365 Copilot, funzionalità dell&#39;agente riviste e una colonna **Health Data/HIPAA-ready** nella tabella dell&#39;agente existing-apps.
 * Aggiornamenti minori alla [raccolta dati regionali](../data-collection/rdc.md), [Convalida inoltro nome host](../data-collection/adobe-managed-cert.md) e [Terminologia](terms.md).
 
 ## Marzo 2026
 
-Aggiunto [Processi di IA e consumo crediti](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/overview/ai-credit-consumption)
+Aggiunto [Processi di IA e consumo crediti](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/ai-credit-consumption)
 
 ## Novembre 2025
 
-Aggiornamenti di [Agentic AI in CX Enterprise](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai)
+Aggiornamenti di [Agentic AI in CX Enterprise](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai)
 
 ## Ottobre 2025
 
