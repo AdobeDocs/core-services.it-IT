@@ -1,5 +1,5 @@
 ---
-description: Informazioni su CX Enterprise (già Experience Cloud). Include accesso, navigazione, ricerca, preferenze, amministrazione e servizi condivisi come Libreria tipi di pubblico, Attributi del cliente e Assets.
+description: Scopri CX Enterprise (precedentemente Experience Cloud). Include accesso, navigazione, ricerca, preferenze, amministrazione e servizi condivisi come Libreria tipi di pubblico, Attributi del cliente e Assets.
 title: Guida all'amministrazione e all'interfaccia di CX Enterprise
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 feature: Central Interface Components
@@ -7,20 +7,24 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-TQID: https://experienceleague.adobe.com/7vFfu0DyoTnsrlrWVApm0LLW4jsC0LoXb55jJ3jdxeY
+TQID: 'https://experienceleague.adobe.com/7vFfu0DyoTnsrlrWVApm0LLW4jsC0LoXb55jJ3jdxeY'
 product_v2:
   - id: e1971122-7081-4556-9222-8a31bd71800c
+    internal-label: Experience Cloud Services
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 25446910430bf15dcfa0fc70e25e0681f9faeb95
+    internal-label: Administration
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
-source-wordcount: 563
+source-wordcount: '563'
 ht-degree: 44%
-
 ---
-
 # Guida all&#39;amministrazione e all&#39;interfaccia di Adobe CX Enterprise
 
 [Adobe CX Enterprise](https://experience.adobe.com) (Customer Experience Enterprise) è un insieme integrato di applicazioni, prodotti e servizi Adobe per il marketing digitale. L’interfaccia intuitiva consente di accedere rapidamente alle applicazioni cloud, alle funzionalità dei prodotto e ai servizi.
