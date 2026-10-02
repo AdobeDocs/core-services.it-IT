@@ -14,7 +14,7 @@ product_v2:
     internal-label: CX Enterprise
 feature_v2:
   - id: dab36b01-8bfa-48f3-8392-626455a058e6
-    internal-label: Experience Cloud services
+    internal-label: Experience Cloud Services
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
     internal-label: Administration
 subfeature_v2:
@@ -51,14 +51,14 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: d7e25c1350ad8d57470b268d97bdfe7207fa35e7
 workflow-type: tm+mt
 source-wordcount: '2082'
 ht-degree: 41%
 ---
 # Introduzione a CX Enterprise
 
-Se CX Enterprise è stato implementato di recente utilizzando [tag Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/tags/home), è già stata eseguita la configurazione per [Attributi cliente](../services/overview.md) e CX Enterprise [Tipi di pubblico](../services/audiences/overview.md). Puoi anche gestire utenti e prodotti in [Admin Console](../administration/admin-console.md).
+Se di recente hai implementato CX Enterprise utilizzando [tag Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/tags/home), sei già configurato per [Attributi del cliente](../services/overview.md) e CX Enterprise [Tipi di pubblico](../services/audiences/overview.md). Puoi anche gestire utenti e prodotti in [Admin Console](../administration/admin-console.md).
 
 I clienti esistenti possono modernizzare le implementazioni delle applicazioni e implementare CX Enterprise. In questo modo puoi utilizzare le funzioni Attributi del cliente e Tipi di pubblico in Adobe Analytics, Audience Manager e Adobe Target.
 
@@ -72,7 +72,7 @@ Il collegamento **[!UICONTROL Admin Console]** è disponibile nel menu di naviga
 
 Probabilmente alcuni dei tuoi utenti sono già membri di gruppi di applicazioni, ad esempio di un gruppo Analytics che hai precedentemente gestito in [!UICONTROL Analytics] > [!UICONTROL Strumenti di amministrazione].
 
-Quando si mappano questi gruppi ai gruppi aziendali CX Enterprise, gli utenti devono collegare manualmente le credenziali dell&#39;account dell&#39;applicazione al proprio Adobe ID.
+Quando mappi questi gruppi ai gruppi aziendali CX Enterprise, gli utenti devono collegare manualmente le credenziali del loro account dell’applicazione al rispettivo Adobe ID.
 
 Visualizza [Collega account in CX Enterprise](https://experienceleague.adobe.com/it/docs/core-services/interface/administration/organizations)
 
@@ -80,7 +80,7 @@ Visualizza [Collega account in CX Enterprise](https://experienceleague.adobe.com
 >
 >Dopo aver mappato gruppi aziendali e di applicazioni, i nuovi utenti sono automaticamente collegati. Le credenziali della soluzione vengono create e collegate automaticamente al relativo Adobe ID.
 
-Le sezioni seguenti descrivono come poter modernizzare l&#39;implementazione. La modernizzazione dell&#39;implementazione abilita i servizi principali in CX Enterprise.
+Le sezioni seguenti descrivono come poter modernizzare l&#39;implementazione. La modernizzazione dell’implementazione abilita i servizi core in CX Enterprise.
 
 ## Accedi come utente {#user-sign-in}
 
@@ -91,7 +91,7 @@ Per accedere a CX Enterprise, gli utenti devono:
 * Appartenere a un gruppo di applicazioni mappato su un gruppo aziendale.
 * Se necessario, collega gli account applicazione al rispettivo Adobe ID (procedura descritta di seguito).
 
-## Requisiti Adobe Analytics e Adobe Target per CX Enterprise {#experience-cloud-requirements}
+## Requisiti di Adobe Analytics e Adobe Target per CX Enterprise {#experience-cloud-requirements}
 
 [!DNL Analytics] e [!DNL Adobe Target] requisiti per l&#39;utilizzo di CX Enterprise:
 
@@ -112,7 +112,7 @@ Per accedere a CX Enterprise, gli utenti devono:
 
 Il Servizio ID visitatore fornisce un ID comune per l’integrazione tra diverse applicazioni. Fornisce l&#39;identificazione dei visitatori tra domini, oltre a un percorso per il targeting e la personalizzazione tra dispositivi e browser basati sui dati CRM caricati tramite [!DNL Customer Attributes].
 
-Il metodo più semplice per abilitare i servizi di base CX Enterprise è quello di attivarli automaticamente per Analytics e Adobe Target tramite l&#39;estensione tag [[!UICONTROL Servizio Experience Cloud ID]](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=it), che implementa il Servizio ID visitatore.
+Il metodo più semplice per abilitare i servizi core di CX Enterprise è quello di attivarli automaticamente per Analytics e Adobe Target tramite l&#39;estensione tag [[!UICONTROL Servizio Experience Cloud ID]](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=it), che implementa il Servizio ID visitatore.
 
 Per ricevere assistenza completa sul Servizio ID visitatore, consulta [Panoramica sul Servizio ID visitatore](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=it#intro).
 
@@ -128,11 +128,11 @@ Se non utilizzi [!UICONTROL tag Experience Platform], implementa manualmente il 
 
 ### Analytics &amp; Adobe Target: sincronizzazione degli ID cliente {#sync-ids}
 
-In qualità di parte dell&#39;impostazione del servizio ID visitatori, Adobe consiglia per Analytics e [!DNL Target] di sincronizzare i [ID cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=it) con CX Enterprise.
+In qualità di parte dell&#39;impostazione del servizio ID visitatori, Adobe consiglia per Analytics e [!DNL Target] la sincronizzazione dei [ID cliente](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=it) con CX Enterprise.
 
 In Adobe Target, `mbox3rdpartyid` deve ottenere l’ID cliente e inviarlo a [!DNL Target]. Consulta [Uso degli attributi del cliente](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html?lang=it) in [!DNL Target].
 
-Quando un visitatore si autentica sul tuo sito web, o in generale si identifica, l’implementazione deve esporne l’ID cliente del sistema CRM nella pagina o nell’applicazione. È quindi possibile utilizzare la funzione appropriata per sincronizzare l&#39;ID cliente a CX Enterprise. Questa sincronizzazione memorizza l&#39;ID cliente CRM del visitatore in CX Enterprise e attiva gli attributi del cliente per l&#39;utilizzo in CX Enterprise.
+Quando un visitatore si autentica sul tuo sito web, o in generale si identifica, l’implementazione deve esporne l’ID cliente del sistema CRM nella pagina o nell’applicazione. Puoi quindi utilizzare la funzione appropriata per sincronizzare l&#39;ID cliente a CX Enterprise. Questa sincronizzazione memorizza l&#39;ID cliente CRM del visitatore in CX Enterprise e attiva gli attributi del cliente per l&#39;utilizzo in CX Enterprise.
 
 Ad esempio, si supponga che Bob sia associato all&#39;ID cliente `52mc210tr42` nel sistema CRM in uso. Quando Bob si autentica sul sito Web, devi esporre tale ID sulla pagina e utilizzarlo per sincronizzarlo in uno dei due modi:
 
@@ -216,7 +216,7 @@ Utilizza le seguenti funzionalità.
 
 ### [!UICONTROL Attributi del cliente]
 
-Se si acquisiscono dati di clienti aziendali in un database CRM (Customer Relationship Management), è possibile caricarli in un&#39;origine dati di attributi cliente in CX Enterprise. Una volta caricati, puoi usare i dati in [!DNL Adobe Analytics] e [!DNL Adobe Target].
+Se acquisisci dati del cliente di livello Enterprise in un database CRM (Customer Relationship Management), puoi caricare tali dati in un&#39;origine dati di attributi cliente in CX Enterprise. Una volta caricati, puoi usare i dati in [!DNL Adobe Analytics] e [!DNL Adobe Target].
 
 Per ulteriori informazioni, consulta [Attributi del cliente](https://experienceleague.adobe.com/it/docs/core-services/interface/services/customer-attributes/attributes).
 

@@ -1,5 +1,5 @@
 ---
-description: Scopri le funzioni più recenti, le note sulla versione e i problemi noti per i servizi CX Enterprise come Attributi del cliente, Tipi di pubblico e gestione degli utenti.
+description: Scopri le funzioni più recenti, le note sulla versione e i problemi noti per i servizi CX Enterprise come Attributi del cliente, Tipi di pubblico e Gestione utente.
 solution: Experience Cloud
 title: Note sulla versione cumulativa per l’interfaccia Experience Cloud
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
@@ -15,7 +15,7 @@ product_v2:
     internal-label: CX Enterprise
 feature_v2:
   - id: dab36b01-8bfa-48f3-8392-626455a058e6
-    internal-label: Experience Cloud services
+    internal-label: Experience Cloud Services
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
     internal-label: Administration
 subfeature_v2:
@@ -42,24 +42,24 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: d7e25c1350ad8d57470b268d97bdfe7207fa35e7
 workflow-type: tm+mt
 source-wordcount: '1629'
 ht-degree: 56%
 ---
 # Note sulla versione cumulative
 
-Funzionalità, note sulla versione e problemi noti per i componenti dell&#39;interfaccia centrale di CX.
+Funzionalità, note sulla versione e problemi noti per CX Enterprise Central Interface Components.
 
 Per un elenco degli aggiornamenti della documentazione, consulta [Aggiornamenti della documentazione](doc-updates.md).
 
-Per le note sulla versione relative a tutte le applicazioni, vedere [Note sulla versione di CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it).
+Per le note sulla versione riguardanti tutte le applicazioni, consulta [Note sulla versione di CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it).
 
 ## luglio 2026
 
 | Data | Aggiornamento | Descrizione |
 | ------- | ------- | ------- |
-| 10 luglio 2026 | Supporto di CX Enterprise per Federated Guest Access | Se hai abilitato [Federated Guest Access](https://helpx.adobe.com/it/business/enterprise/using/federated-guest-access.html) per l&#39;autenticazione sicura degli utenti guest nel tuo dominio, CX Enterprise consente a tali utenti di passare da un account all&#39;altro. Il cambio di account è disponibile dal commutatore organizzazione in qualsiasi pagina di [CX Enterprise](https://experience.adobe.com). |
+| 10 luglio 2026 | Supporto di CX Enterprise per Federated Guest Access | Se hai abilitato [Federated Guest Access](https://helpx.adobe.com/it/business/enterprise/using/federated-guest-access.html) per l&#39;autenticazione sicura degli utenti guest nel tuo dominio, CX Enterprise consente a tali utenti di passare da un account all&#39;altro. Il cambio di account è disponibile dal commutatore Organizzazione su qualsiasi pagina di [CX Enterprise](https://experience.adobe.com). |
 
 ## Giugno 2026
 
@@ -72,13 +72,13 @@ Per le note sulla versione relative a tutte le applicazioni, vedere [Note sulla 
 
 | Data | Aggiornamento | Descrizione |
 | ------- | ------- | ------- |
-| 20 aprile 2026 | Aggiornamento dell&#39;interfaccia di Adobe CX Enterprise | Aspetto aggiornato della home page in `https://experience.adobe.com/home`. Con questa versione di rebranding, tutte le funzionalità rimangono invariate, con interfaccia utente aggiornata, supporto per la _modalità scura_ completa e accessibilità migliorata. |
+| 20 aprile 2026 | Aggiornamento dell’interfaccia di Adobe CX Enterprise | Aspetto aggiornato della home page in `https://experience.adobe.com/home`. Con questa versione di rebranding, tutte le funzionalità rimangono invariate, con interfaccia utente aggiornata, supporto per la _modalità scura_ completa e accessibilità migliorata. |
 
 ## Gennaio 2026
 
 | Data | Aggiornamento | Descrizione | Prodotti interessati |
 | -----------| -----------| ---------- | ---------- |
-| 14 gennaio 2026 | Menu di navigazione a sinistra personalizzabile | È ora possibile personalizzare il menu di navigazione sinistro di un&#39;applicazione in CX Enterprise. Riordina gli elementi di navigazione e controllane la visibilità per accedere rapidamente alle funzionalità più importanti. Questo aggiornamento consente di semplificare i flussi di lavoro, riduce il carico cognitivo e supporta la piena accessibilità da tastiera. | <ul><li>Experience Platform</li><li>Journey Optimizer</li><li>Journey Optimizer B2B Edition</li><li>Dynamic Chat</li></ul> |
+| 14 gennaio 2026 | Menu di navigazione a sinistra personalizzabile | È ora possibile personalizzare il menu di navigazione sinistro di un’applicazione in CX Enterprise. Riordina gli elementi di navigazione e controllane la visibilità per accedere rapidamente alle funzionalità più importanti. Questo aggiornamento consente di semplificare i flussi di lavoro, riduce il carico cognitivo e supporta la piena accessibilità da tastiera. | <ul><li>Experience Platform</li><li>Journey Optimizer</li><li>Journey Optimizer B2B Edition</li><li>Dynamic Chat</li></ul> |
 
 ## Settembre 2025
 
@@ -96,25 +96,25 @@ Per le note sulla versione relative a tutte le applicazioni, vedere [Note sulla 
 
 | Data | Funzione | Descrizione |
 | -----------| -----------| ---------- |
-| Febbraio 13 | Spectrum 2 | Il frame dell&#39;applicazione CX Enterprise, che include la barra dell&#39;intestazione e i componenti a cui si accede dalla barra dell&#39;intestazione, nonché la barra di navigazione sinistra per alcune applicazioni, verrà aggiornato a Spectrum 2, il più recente sistema di progettazione di Adobe. Questo design aggiornato include un&#39;iconografia aggiornata, ma le stesse funzionalità. Tuttavia, diversi elementi nell’intestazione vengono riposizionati per allinearli ad altri siti e applicazioni di Adobe. |
+| Febbraio 13 | Spectrum 2 | Il frame dell’applicazione CX Enterprise, che include la barra di intestazione e i componenti a cui si accede dalla barra di intestazione, nonché la barra di navigazione a sinistra per alcune applicazioni, verrà aggiornato a Spectrum 2, il più recente sistema di progettazione di Adobe. Questo design aggiornato include un&#39;iconografia aggiornata, ma le stesse funzionalità. Tuttavia, diversi elementi nell’intestazione vengono riposizionati per allinearli ad altri siti e applicazioni di Adobe. |
 
 ## Gennaio 2025
 
 | Data | Funzione | Descrizione |
 | -----------| -----------| ---------- |
-| Gennaio 9 | Dati di utilizzo del prodotto | Per semplificare il controllo delle preferenze di utilizzo dei prodotti CX Enterprise, è stata semplificata la pagina [Preferenze](../features/account-preferences.md#product-usage-data) di CX Enterprise per rimuovere le opzioni duplicate. Con questa semplificazione, le preferenze utente correnti sono state mantenute e puoi aggiornare le preferenze in qualsiasi momento in [CX Enterprise Preferences](https://experience.adobe.com/preferences). |
+| Gennaio 9 | Dati di utilizzo del prodotto | Per semplificare il controllo delle preferenze di utilizzo dei prodotti CX Enterprise, è stata semplificata la pagina [Preferenze](../features/account-preferences.md#product-usage-data) di CX Enterprise per rimuovere le opzioni duplicate. Con questa semplificazione, le preferenze utente correnti sono state mantenute e puoi aggiornare le tue preferenze in qualsiasi momento nelle [preferenze CX Enterprise](https://experience.adobe.com/preferences). |
 
 ## giovedì 2 ottobre 2024
 
 | Funzione | Descrizione |
 | -----------| ---------- |
-| Pagina Home personalizzabile | Nella pagina di destinazione di CX Enterprise, fare clic su **[!UICONTROL Modifica]**. La modalità [!UICONTROL Modifica] consente di personalizzare la home page di CX Enterprise con l&#39;accesso a una libreria di widget e sfondi personalizzati. La modalità [!UICONTROL Modifica] offre controlli semplici e intuitivi per spostare, ridimensionare e gestire i widget, incluse azioni in blocco e regolazioni del layout, offrendo un&#39;esperienza più estetica e personalizzata. |
+| Pagina Home personalizzabile | Nella pagina di destinazione di CX Enterprise, fai clic su **[!UICONTROL Modifica]**. La modalità [!UICONTROL Modifica] consente di personalizzare la home page di CX Enterprise con l&#39;accesso a una libreria di widget e sfondi personalizzati. La modalità [!UICONTROL Modifica] offre controlli semplici e intuitivi per spostare, ridimensionare e gestire i widget, incluse azioni in blocco e regolazioni del layout, offrendo un&#39;esperienza più estetica e personalizzata. |
 
 ## mercoledì 10 settembre 2024
 
 | Funzione | Descrizione |
 | -----------| ---------- |
-| Notifiche Slack | È possibile configurare le preferenze dell&#39;account per inviare le notifiche CX Enterprise a Slack. Per informazioni dettagliate, consulta _Notifiche Slack_ nella guida [Preferenze](../features/account-preferences.md). |
+| Notifiche Slack | Puoi configurare le preferenze del tuo account per inviare notifiche CX Enterprise a Slack. Per informazioni dettagliate, consulta _Notifiche Slack_ nella guida [Preferenze](../features/account-preferences.md). |
 
 <!--
 ## July - August 2023
@@ -168,7 +168,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | Funzione | Descrizione |
 | ------- | -------|
-| Collegamenti (**[!UICONTROL Recenti]**) aggiunti alla home di [CX Enterprise](https://experience.adobe.com/home) | Puoi accedere alle scelte rapide per il lavoro più recente su Journey Optimizer ed Experience Platform nella nuova intestazione _Recenti_ nella pagina di destinazione. Questo aggiornamento include anche miglioramenti generali del layout e della reattività. |
+| Collegamenti (**[!UICONTROL Recenti]**) aggiunti alla [home di CX Enterprise](https://experience.adobe.com/home) | Puoi accedere alle scelte rapide per il lavoro più recente su Journey Optimizer ed Experience Platform nella nuova intestazione _Recenti_ nella pagina di destinazione. Questo aggiornamento include anche miglioramenti generali del layout e della reattività. |
 | **[!UICONTROL Sandbox]** spostati nella barra dell’intestazione | L’indicatore Sandbox è ora integrato nell’intestazione di tutte le applicazioni dell’interfaccia di Experience Platform. Per ulteriori informazioni, consulta [Sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=it) in Experience Platform. |
 
 {style="table-layout:auto"}
@@ -177,7 +177,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | Funzione | Descrizione |
 | ------- | ------- |
-| Pagina Home | Le informazioni relative al piè di pagina della home page di CX Enterprise sono state spostate nella scheda del profilo utente, incluse le Note legali e la selezione della lingua in Preferenze. |
+| Pagina Home | Le informazioni sul piè di pagina della home page di CX Enterprise sono state spostate nella scheda del profilo utente, incluse le Note legali e la selezione della lingua in Preferenze. |
 | Dashboard AEP | [!DNL Helios Lite] fornisce consigli sui grafici all’interno del flusso di lavoro di creazione dei widget di Experience Platform. Dato un dato selezionato (attualmente selezione di dati a singola variabile), [!DNL Helios] consiglia una visualizzazione appropriata per accompagnare la selezione dei dati. |
 | Dashboard AEP | [!DNL Instory] fornisce narrazioni scritte basate su apprendimento automatico e didascalie per i grafici. Decora grafici nella pagina AEP Dashboards con punti elenco pertinenti che richiamano importanti modifiche e incidenti nei dati grafici. |
 
@@ -188,7 +188,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 | Funzione | Descrizione |
 | ------- | ------- |
 | Ricerca unificata | La ricerca unificata continua ad aggiungere tipi di oggetti all’indice di ricerca. In questo aggiornamento, la ricerca globale ora cerca tra il contenuto di Experience League e i seguenti tipi di oggetti Journey Optimizer: <ul><li>Set di dati</li><li>Destinazioni</li><li>Query</li><li>Schemi</li><li>Segmenti</li><li>Origini</li><li>Offerte</li><li>Componenti</li><li>Messaggi</li><li>Percorsi</li></ul> |
-| Consenso dei dati di utilizzo del prodotto | Dopo l&#39;accesso iniziale, viene richiesto di inviare le preferenze relative al modo in cui Adobe può fornire contenuti utili e personalizzati, come tutorial, guide, suggerimenti rapidi, consigli, video di apprendimento e altro ancora, in base ai dati di utilizzo del prodotto CX Enterprise. Questa richiesta include anche un aggiornamento delle tue preferenze per la raccolta e l’utilizzo di questi dati in <https://experience.adobe.com/preferences>. |
+| Consenso dei dati di utilizzo del prodotto | Dopo l’accesso iniziale, ti viene chiesto di inviare preferenze su come Adobe può fornire contenuti utili e personalizzati, come tutorial, guide, suggerimenti rapidi, consigli, video di apprendimento e altro ancora, in base ai dati di utilizzo del prodotto CX Enterprise. Questa richiesta include anche un aggiornamento delle tue preferenze per la raccolta e l’utilizzo di questi dati in <https://experience.adobe.com/preferences>. |
 
 {style="table-layout:auto"}
 
@@ -208,7 +208,7 @@ La funzione Ricerca unificata è stata aggiornata per renderla disponibile anche
 
 | Funzione | Data | Descrizione |
 | ------- | ------- | ------- |
-| Supporto di single sign-on per Adobe Federated ID | 17 giugno 2021 | Se si utilizzano Federated ID, è possibile accedere a CX Enterprise senza dover immettere un indirizzo e-mail o una password. Per utilizzare questa funzione, aggiungere `#/sso:@domain` all&#39;URL di CX Enterprise. <br>Ad esempio, se sei il proprietario del dominio `example.com` e vuoi accedere ad Adobe Analytics, l’URL sarà: `https://experience.adobe.com/#/sso:@example.com/analytics`. |
+| Supporto di single sign-on per Adobe Federated ID | 17 giugno 2021 | Se utilizzi Federated ID, puoi accedere a CX Enterprise senza dover immettere un indirizzo e-mail o una password. Per utilizzare questa funzione, aggiungere `#/sso:@domain` all&#39;URL di CX Enterprise. <br>Ad esempio, se sei il proprietario del dominio `example.com` e vuoi accedere ad Adobe Analytics, l’URL sarà: `https://experience.adobe.com/#/sso:@example.com/analytics`. |
 | Ricerca in Experience League | 1 giugno 2021 | La ricerca nella documentazione in Experience League è stata migliorata. Passa a [Experience League](https://experienceleague.adobe.com/docs/?lang=it) e utilizza il campo **[!UICONTROL Ricerca]** per individuare tutorial, documentazione, corsi e altro ancora. |
 
 {style="table-layout:auto"}
@@ -217,9 +217,9 @@ La funzione Ricerca unificata è stata aggiornata per renderla disponibile anche
 
 | Funzione | Descrizione |
 | ------- | ------- |
-| Intestazione e navigazione CX Enterprise | Gli aggiornamenti di Adobe CX Enterprise includono una modifica al tema chiaro per l’intestazione, con la possibilità di tornare facilmente al tema scuro e un collegamento per controllare le preferenze aggiuntive dal proprio avatar utente nell’intestazione CX Enterprise. Anche se non tutte le applicazioni di CX Enterprise supportano i temi, questa funzione ne consente il supporto futuro. |
-| Ricerca globale di CX Enterprise | Con questa versione, la funzione di ricerca globale di CX Enterprise consente di eseguire ricerche in qualsiasi [documentazione, corsi e tutorial di Experience League](https://experienceleague.adobe.com/it?lang=it#home). Attualmente, la ricerca globale è disponibile solo per gli utenti di Experience Platform. La ricerca globale di [!UICONTROL Platform] consente di cercare qualsiasi oggetto aziendale in CX Enterprise, ad esempio segmenti, set di dati, schemi e altro ancora.) |
-| Preferenze linguistiche di CX Enterprise | Questo aggiornamento include la possibilità di impostare le lingue preferite in CX Enterprise [Preferenze](https://experience.adobe.com/preferences). |
+| Intestazione e navigazione CX Enterprise | Gli aggiornamenti di Adobe CX Enterprise includono una modifica al tema chiaro per l’intestazione, con la possibilità di tornare facilmente al tema scuro e un collegamento per controllare ulteriori preferenze dal proprio avatar utente nell’intestazione di CX Enterprise. Anche se non tutte le applicazioni di CX Enterprise supportano i temi, questa funzione ne abilita il supporto futuro. |
+| Ricerca globale in CX Enterprise | Con questa versione, la ricerca globale in CX Enterprise ti consente di eseguire ricerche in qualsiasi [documentazione, corsi e tutorial di Experience League](https://experienceleague.adobe.com/it?lang=it#home). Attualmente, la ricerca globale è disponibile solo per gli utenti di Experience Platform. La ricerca globale di [!UICONTROL Platform] consente di cercare qualsiasi oggetto aziendale in CX Enterprise, ad esempio segmenti, set di dati, schemi e altro ancora. |
+| Preferenze lingua di CX Enterprise | Questo aggiornamento include la possibilità di impostare le lingue preferite in CX Enterprise [Preferenze](https://experience.adobe.com/preferences). |
 
 {style="table-layout:auto"}
 
@@ -227,20 +227,20 @@ La funzione Ricerca unificata è stata aggiornata per renderla disponibile anche
 
 | Funzione | Descrizione |
 | -----------| ---------- |
-| Admin Tool - Criteri | In questa pagina viene visualizzato l&#39;elenco completo dei criteri aziendali CX dell&#39;organizzazione. Fornisce informazioni su prodotti, istanze, utenti e sviluppatori. È inoltre possibile eseguire ricerche nonché ordinare e filtrare viste personalizzate dell’elenco dei criteri. Per ulteriori informazioni, vedere la Guida di [CX Enterprise Admin Tool](../administration/admin-tool-experience-cloud.md). |
+| Admin Tool - Criteri | In questa pagina viene visualizzato l’elenco completo dei criteri di CX Enterprise dell’organizzazione. Fornisce informazioni su prodotti, istanze, utenti e sviluppatori. È inoltre possibile eseguire ricerche nonché ordinare e filtrare viste personalizzate dell’elenco dei criteri. Per informazioni dettagliate, consulta la Guida di [CX Enterprise Admin Tool](../administration/admin-tool-experience-cloud.md). |
 
 {style="table-layout:auto"}
 
 ## Aprile 2020
 
-* La pagina [!UICONTROL Feed] di CX Enterprise è stata dichiarata obsoleta. (EXC-8505)
+* La pagina del [!UICONTROL Feed] di CX Enterprise è stata dichiarata obsoleta. (EXC-8505)
 * La pagina di accesso di CX Enterprise è stata aggiornata per riflettere i nuovi elementi di branding. (EXC-10747)
 
 ## Febbraio 2020
 
 | Funzione | Descrizione |
 | -----------| ---------- |
-| Admin Tool - visualizza dettagli utente | Gli amministratori possono visualizzare un elenco ordinabile e filtrabile di tutti gli utenti di CX Enterprise e dei relativi dettagli nel nuovo Admin Tool. I dettagli utente includono l’accesso ai prodotti, i ruoli e le informazioni sull’ultimo accesso. Per ulteriori informazioni, vedere la Guida di [CX Enterprise Admin Tool](../administration/admin-tool-experience-cloud.md). |
+| Admin Tool - visualizza dettagli utente | Gli amministratori possono visualizzare un elenco ordinabile e filtrabile di tutti gli utenti di CX Enterprise e dei relativi dettagli nel nuovo Admin Tool. I dettagli utente includono l’accesso ai prodotti, i ruoli e le informazioni sull’ultimo accesso. Per informazioni dettagliate, consulta la Guida di [CX Enterprise Admin Tool](../administration/admin-tool-experience-cloud.md). |
 
 {style="table-layout:auto"}
 
