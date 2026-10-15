@@ -6,22 +6,28 @@ exl-id: 60f1a89e-d989-461b-a6a3-c1df022cd30b
 TQID: https://experienceleague.adobe.com/GH5WHcI9440NKYpUzizHlhOMlBSf-Y0WQ5GDBaSvqNI
 product_v2:
   - id: e1971122-7081-4556-9222-8a31bd71800c
+    internal-label: Experience Cloud Services
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
+    internal-label: Privacy
+source-git-commit: 18fd590d6f0fd1800e3d5c62851453aa91d9db5f
 workflow-type: tm+mt
-source-wordcount: 622
+source-wordcount: '644'
 ht-degree: 8%
-
 ---
-
 # Utilizzo dei cookie in CX Enterprise
 
 Adobe CX Enterprise utilizza i cookie. Un cookie è una piccola parte di dati che un sito Web invia al browser, che lo memorizza per un uso successivo. I cookie aiutano il sito a ricordare le cose quando visiti di nuovo o passi da una pagina all’altra. I cookie aiutano a tenere traccia delle visite e a distinguere un dispositivo dall’altro.
@@ -32,16 +38,16 @@ Le leggi richiedono spesso di ottenere l’autorizzazione prima di memorizzare o
 
 Adobe CX Enterprise utilizza i cookie per tenere traccia delle informazioni che non durano tra le visualizzazioni di pagina o le sessioni del browser. Quando possibile, Adobe utilizza cookie di prime parti (associati al tuo sito web). Per monitorare l’attività su più siti o domini di tua proprietà, sono necessari cookie di terze parti.
 
-Alcuni browser e strumenti antispyware bloccano i cookie di terze parti. Adobe dispone di modi per garantire che i cookie continuino a funzionare anche se i cookie sono bloccati. Il funzionamento dipende dal fatto che si utilizzi il servizio ID visitatore (`VisitorAPI.js`) o cookie Analytics precedenti (come il cookie `s_vi`):
+Alcuni browser bloccano i cookie di terze parti. Adobe dispone di modi per garantire che i cookie continuino a funzionare anche se i cookie sono bloccati. Il funzionamento di questo processo dipende dall&#39;utilizzo del servizio ID visitatore (`VisitorAPI.js`) o dei cookie Analytics precedenti (come il cookie `s_vi`):
 
-* [Servizio ID visitatore](https://experienceleague.adobe.com/it/docs/id-service/using/intro/overview): il servizio ID visitatore imposta sempre i cookie di prime parti, indipendentemente dal fatto che il dominio di raccolta corrisponda al dominio del sito. Utilizza JavaScript per inserire il cookie nel dominio del sito.
+* [Servizio ID visitatore](https://experienceleague.adobe.com/en/docs/id-service/using/intro/overview): il servizio ID visitatore imposta sempre i cookie di prime parti, indipendentemente dal fatto che il dominio di raccolta corrisponda al dominio del sito. Utilizza JavaScript per inserire il cookie nel dominio del sito.
 
 * [Identificatori legacy di Analytics](analytics.md) (ad esempio il cookie `s_vi`): se i cookie sono di prima parte o di terze parti dipende dalla configurazione:
 
-   * Se il server di raccolta dati corrisponde al dominio del sito, i cookie sono di prime parti.
-   * Se non corrisponde, i cookie sono di terze parti. Se i cookie di terze parti sono bloccati, Adobe imposta un cookie di fallback (`s_fid`) invece del solito.
+  * Se il server di raccolta dati corrisponde al dominio del sito, i cookie sono di prime parti.
+  * Se non corrisponde, i cookie sono di terze parti. Se i cookie di terze parti sono bloccati, Adobe imposta un cookie di fallback (`s_fid`) invece del solito.
 
-Per assicurarsi che il server di raccolta corrisponda al dominio del sito, puoi utilizzare una **configurazione CNAME**. Ciò comporta l’aggiornamento delle impostazioni DNS in modo che un dominio personalizzato (di tua proprietà) punti ai server di Adobe. In questo modo il cookie di tracciamento viene visualizzato come di prime parti. Anche se un CNAME può funzionare tra più domini, qualsiasi dominio che non corrisponde al CNAME imposterà comunque i cookie di terze parti.
+Per assicurarsi che il server di raccolta corrisponda al dominio del sito, puoi utilizzare una **configurazione CNAME**. Questa configurazione comporta l’aggiornamento delle impostazioni DNS in modo che un dominio personalizzato (di tua proprietà) punti ai server di Adobe. Questa configurazione fa apparire il cookie di tracciamento come di prime parti. Anche se un CNAME può funzionare tra più domini, qualsiasi dominio che non corrisponde al CNAME imposterà comunque i cookie di terze parti. Puoi anche [indirizzare la raccolta dati tramite una rete CDN](../cdn.md) che utilizza il tuo dominio. Vedere [Scegliere un dominio di raccolta dati](../collection-domain.md) per tutte le opzioni.
 
 >[!NOTE]
 >
@@ -53,7 +59,7 @@ Ecco una versione semplificata del testo:
 
 Adobe prende sul serio la privacy e la sicurezza dei dati. Funziona con organizzazioni che si occupano di privacy, enti normativi e programmi come AdChoices per dare alle persone il controllo su come vengono utilizzati i loro dati.
 
-La maggior parte dei cookie di Adobe CX Enterprise non archivia dati personali. Sono sicure e utilizzate solo dalla tua azienda, per reportistica, contenuti e pubblicità. Adobe non condivide questi dati con altri clienti o terze parti, ad eccezione dei rapporti anonimi a livello di settore (come i rapporti di Digital Marketing Insight).
+La maggior parte dei cookie di Adobe CX Enterprise non memorizza informazioni personali. Sono sicure e utilizzate solo dalla tua azienda, per reportistica, contenuti e pubblicità. Adobe non condivide questi dati con altri clienti o terze parti, ad eccezione dei rapporti anonimi a livello di settore (come i rapporti di Digital Marketing Insight).
 
 Adobe non combina i dati del browser tra diverse aziende. Per proteggere la privacy, alcuni strumenti di Adobe consentono a ogni sito web di utilizzare il proprio set di cookie. Alcuni consentono anche di utilizzare il tuo dominio per i cookie, rendendoli di prima parte e più sicuri.
 
