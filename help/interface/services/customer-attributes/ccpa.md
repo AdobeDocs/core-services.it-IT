@@ -39,7 +39,7 @@ In qualità di fornitore di servizi, Adobe CX Enterprise fornisce supporto alla 
 
 In questo documento viene descritto come [!DNL Customer Attributes] supporta i diritti di accesso e di eliminazione dei dati degli interessati ai sensi del CCPA tramite l&#39;API Adobe Experience Platform Privacy Service e l&#39;interfaccia utente di Privacy Service.
 
-Per ulteriori informazioni sui servizi di privacy Adobe per il CCPA, visita il [Centro per la privacy di Adobe](https://www.adobe.com/privacy/ccpa.html).
+Per ulteriori informazioni sui servizi di privacy Adobe per il CCPA, visita il [Centro per la privacy di Adobe](https://www.adobe.com/it/privacy/ccpa.html).
 
 ## Configurazione necessaria per inviare richieste per [!DNL Customer Attributes]
 
