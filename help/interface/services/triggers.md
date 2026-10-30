@@ -37,14 +37,14 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 765c82ba802cb1fd7a16a5dc2433a9199669a331
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 61%
+source-wordcount: '877'
+ht-degree: 57%
 ---
-# Trigger di CX Enterprise
+# CX Enterprise Triggers
 
-[!UICONTROL Triggers] in CX Enterprise consente di identificare, definire e monitorare i comportamenti chiave dei consumatori, per poi generare comunicazioni tra le diverse applicazioni per coinvolgere nuovamente i visitatori. Puoi utilizzare i trigger nelle decisioni in tempo reale e nella personalizzazione. Per ulteriori informazioni sull&#39;utilizzo di [!UICONTROL Triggers] con Adobe Campaign, vedere [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=it).
+[!UICONTROL Triggers] in CX Enterprise consente di identificare, definire e monitorare i comportamenti chiave dei consumatori, per poi generare comunicazioni tra le diverse applicazioni in modo da coinvolgere nuovamente i visitatori. Puoi utilizzare i trigger nelle decisioni in tempo reale e nella personalizzazione. Per ulteriori informazioni sull&#39;utilizzo di [!UICONTROL Triggers] con Adobe Campaign, vedere [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=it).
 
 Ad esempio:
 
@@ -66,6 +66,10 @@ In genere, un trigger può richiedere dai 15 ai 90 minuti per avviare una campag
 * **Azione:** puoi creare trigger, ad esempio, che si attivano dopo che un utente ha effettuato un&#39;iscrizione a una newsletter, un&#39;iscrizione e-mail o ha usato applicazioni per le carte di credito (conferme). Se sei un rivenditore, puoi creare un trigger per un visitatore che si iscrive a un programma fedeltà. Nei contenuti multimediali e di intrattenimento, crea trigger per i visitatori che guardano un determinato show e che vorresti rispondessero a un sondaggio.
 * **Avvio e fine sessione:** crea un trigger per gli eventi di inizio e fine sessione.
 
+## Periodo di sospensione per i trigger di abbandono
+
+I trigger di abbandono hanno un periodo di blocco fisso di un’ora dopo il termine di una sessione di attivazione, indipendentemente dal fatto che il trigger venga attivato o meno. Durante questo periodo, non si avvia una nuova sessione per lo stesso trigger di abbandono, anche se il visitatore ritorna e soddisfa nuovamente le condizioni del trigger. Periodo di sospensione non configurabile.
+
 ## Creare un trigger CX Enterprise
 
 Crea un trigger e configurane le condizioni. Ad esempio, puoi specificare i criteri per le regole di un attivatore durante una visita, come metriche quali abbandono del carrello o dimensioni quali il nome del prodotto. Quando le regole sono soddisfatte, il trigger viene eseguito.
@@ -74,7 +78,7 @@ Crea un trigger e configurane le condizioni. Ad esempio, puoi specificare i crit
 >
 >Esiste attualmente un limite tecnico di 100 trigger.
 
-1. In CX Enterprise, fai clic sul ![menu](../assets/menu-icon.png), quindi fai clic su **[!UICONTROL Raccolta dati/Launch]**.
+1. In CX Enterprise, fai clic su ![menu](../assets/menu-icon.png), quindi fai clic su **[!UICONTROL Raccolta dati/Launch]**.
 1. Nella scheda [!UICONTROL Triggers], fai clic su **[!UICONTROL Gestisci trigger]**.
 1. Fai clic su **[!UICONTROL Nuovo trigger]**, quindi specifica il tipo di trigger:
 
