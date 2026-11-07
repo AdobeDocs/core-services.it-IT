@@ -1,6 +1,6 @@
 ---
 description: Scopri come le soluzioni e i servizi di Adobe CX Enterprise utilizzano i cookie.
-title: Utilizzo dei cookie in Experience Cloud
+title: Utilizzo dei cookie in CX Enterprise
 uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
 exl-id: 60f1a89e-d989-461b-a6a3-c1df022cd30b
 TQID: https://experienceleague.adobe.com/GH5WHcI9440NKYpUzizHlhOMlBSf-Y0WQ5GDBaSvqNI
@@ -23,7 +23,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 18fd590d6f0fd1800e3d5c62851453aa91d9db5f
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 8%
@@ -40,7 +40,7 @@ Adobe CX Enterprise utilizza i cookie per tenere traccia delle informazioni che 
 
 Alcuni browser bloccano i cookie di terze parti. Adobe dispone di modi per garantire che i cookie continuino a funzionare anche se i cookie sono bloccati. Il funzionamento di questo processo dipende dall&#39;utilizzo del servizio ID visitatore (`VisitorAPI.js`) o dei cookie Analytics precedenti (come il cookie `s_vi`):
 
-* [Servizio ID visitatore](https://experienceleague.adobe.com/it/docs/id-service/using/intro/overview): il servizio ID visitatore imposta sempre i cookie di prime parti, indipendentemente dal fatto che il dominio di raccolta corrisponda al dominio del sito. Utilizza JavaScript per inserire il cookie nel dominio del sito.
+* [Servizio ID visitatore](https://experienceleague.adobe.com/en/docs/id-service/using/intro/overview): il servizio ID visitatore imposta sempre i cookie di prime parti, indipendentemente dal fatto che il dominio di raccolta corrisponda al dominio del sito. Utilizza JavaScript per inserire il cookie nel dominio del sito.
 
 * [Identificatori legacy di Analytics](analytics.md) (ad esempio il cookie `s_vi`): se i cookie sono di prima parte o di terze parti dipende dalla configurazione:
 
