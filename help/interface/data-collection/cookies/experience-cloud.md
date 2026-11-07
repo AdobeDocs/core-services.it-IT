@@ -1,7 +1,7 @@
 ---
 description: Scopri come il Servizio ID visitatore viene memorizzato e utilizzato nelle applicazioni CX Enterprise.
 solution: Experience Cloud,Analytics,Target
-title: Cookie di Experience Cloud
+title: Cookie di CX Enterprise
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
 feature: Cookies
 topic: Administration
@@ -33,9 +33,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '366'
 ht-degree: 67%
 ---
 # Cookie di CX Enterprise
@@ -54,7 +54,7 @@ Adobe CX Enterprise utilizza i cookie per memorizzare un ID visitatore utilizzat
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Informazioni memorizzate </p> </td> 
-   <td colname="col2"> <p> Contiene una copia di CX Enterprise ID (ECID) o MID. Il MID viene memorizzato in una coppia chiave/valore con sintassi s_ecid=MCMID|&lt;ECID&gt; </p> </td> 
+   <td colname="col2"> <p> Contiene una copia dell’ECID o del MID. Il MID viene memorizzato in una coppia chiave/valore con sintassi s_ecid=MCMID|&lt;ECID&gt; </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> Scadenza </p> </td> 
@@ -81,7 +81,7 @@ Adobe CX Enterprise utilizza i cookie per memorizzare un ID visitatore utilizzat
 
 **Nome cookie: AMCV_###@AdobeOrg**
 
-Il servizio ID [visitatore](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it) utilizza JavaScript per memorizzare un ID visitatore univoco in un cookie `AMCV_###@AdobeOrg` sul dominio del sito Web corrente, dove `###` rappresenta una stringa casuale di caratteri, ad esempio `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
+Il servizio ID [visitatore](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it) utilizza JavaScript per memorizzare un ECID in un cookie `AMCV_###@AdobeOrg` sul dominio del sito Web corrente, dove `###` rappresenta una stringa casuale di caratteri, ad esempio `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
 
 Consulta anche [Cookie e il servizio ID visitatori](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=it).
 
@@ -95,7 +95,7 @@ Consulta anche [Cookie e il servizio ID visitatori](https://experienceleague.ado
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Informazioni memorizzate </p> </td> 
-   <td colname="col2"> <p> ID visitatore univoci utilizzati dalle soluzioni aziendali CX. </p> </td> 
+   <td colname="col2"> <p> ID visitatore univoci utilizzati dalle soluzioni CX Enterprise. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Scadenza </p> </td> 

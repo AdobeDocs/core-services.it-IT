@@ -1,5 +1,5 @@
 ---
-title: Indirizzi IP utilizzati da Experience Cloud
+title: Indirizzi IP utilizzati da CX Enterprise
 description: Se il firewall dell’organizzazione blocca gli indirizzi IP provenienti da Adobe, utilizza questo elenco per aggiornare le impostazioni del firewall.
 exl-id: 1fca8d3b-ae8b-4095-96ef-d165f912b4c6
 TQID: https://experienceleague.adobe.com/EPoerIJdL9FVBFB32WRB9zBMdXJarSu90hJIsn7Vpps
@@ -16,13 +16,11 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
-source-wordcount: 426
+source-wordcount: '426'
 ht-degree: 8%
-
 ---
-
 # Indirizzi IP utilizzati da CX Enterprise
 
 Alcune configurazioni del firewall bloccano gli indirizzi IP provenienti dai server di raccolta dati o dai server responsabili dell’accesso ai dati di Adobe. Puoi utilizzare questo elenco di intervalli per modificare le impostazioni del firewall dell’organizzazione per consentire l’accesso e l’invio di dati dall’interno dell’organizzazione. Questa pagina include sia i sistemi in entrata (come la raccolta dati) che i sistemi in uscita (come i feed di dati in Adobe Analytics) utilizzati da Adobe.
@@ -58,8 +56,8 @@ La tabella seguente descrive tutti gli indirizzi IP di proprietà di Adobe. Ques
 
 Se la tua organizzazione preferisce consentire intervalli di indirizzi IP specifici, puoi fare riferimento alla tabella seguente. Include:
 
-* Server di raccolta dati per tutti i prodotti aziendali CX
-* Server FTP per tutti i prodotti aziendali CX
+* Server di raccolta dati per tutti i prodotti CX Enterprise
+* Server FTP per tutti i prodotti CX Enterprise
 
 Tutti gli intervalli IP in questa sezione sono inclusi nella tabella precedente.
 

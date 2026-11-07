@@ -1,7 +1,7 @@
 ---
 description: Scopri gli strumenti amministrativi per la gestione degli utenti approvati di Creative Cloud in CX Enterprise.
 solution: Experience Cloud
-title: Gestione degli utenti di Creative Cloud in Experience Cloud
+title: Gestione degli utenti di Creative Cloud in CX Enterprise
 feature: Assets
 topic: Administration
 role: Admin
@@ -28,20 +28,20 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 46%
 ---
 # Gestione degli utenti di Creative Cloud
 
-CX Enterprise fornisce strumenti amministrativi per la gestione degli utenti approvati di Creative Cloud. Questi utenti possono essere invitati su base ad hoc per la cartella di una campagna. Solo gli utenti che sono stati aggiunti all’elenco da un amministratore possono essere invitati a una campagna. Gli utenti aggiunti vengono visualizzati nell&#39;elenco di utenti compilato automaticamente in CX Enterprise.
+CX Enterprise fornisce strumenti amministrativi per la gestione degli utenti Creative Cloud approvati. Questi utenti possono essere invitati su base ad hoc per la cartella di una campagna. Solo gli utenti che sono stati aggiunti all’elenco da un amministratore possono essere invitati a una campagna. Gli utenti aggiunti vengono visualizzati nell’elenco di utenti compilato automaticamente in CX Enterprise.
 
 >[!NOTE]
 >
 >Devi essere un amministratore per effettuare questa procedura.
 
-1. In CX Enterprise, fare clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Gestisci i collaboratori Creative Cloud]**.
+1. In CX Enterprise, fare clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Gestisci collaboratori Creative Cloud]**.
 1. Fai clic su **[!UICONTROL Condivisione risorse Creative Cloud]**.
 1. Fare clic su **[!UICONTROL Aggiungi nuovo utente]**.  ![aggiungi nuovo utente](../../assets/mac_add_icon.png)
 1. Immetti indirizzo e-mail, nome visualizzato, titolo e facoltativamente aggiungi un avatar.

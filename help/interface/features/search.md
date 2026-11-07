@@ -1,7 +1,7 @@
 ---
 description: Scopri la funzione di ricerca unificata per alcune applicazioni in CX Enterprise.
 solution: Experience Cloud
-title: Ricerca unificata di Experience Cloud
+title: Ricerca unificata CX Enterprise
 index: true
 feature: Central Interface Components
 topic: Administration
@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7e25c1350ad8d57470b268d97bdfe7207fa35e7
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 17%

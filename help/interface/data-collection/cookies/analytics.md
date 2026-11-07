@@ -1,5 +1,5 @@
 ---
-description: Informazioni sui cookie di Adobe Analytics in Adobe CX Enterprise.
+description: Scopri come funzionano i cookie di Adobe Analytics in Adobe CX Enterprise.
 solution: Analytics
 title: Cookie di Adobe Analytics
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '579'
 ht-degree: 10%
 ---
 # Cookie di Adobe Analytics
@@ -43,7 +43,7 @@ Analytics utilizza i cookie per definire nuovi visitatori in modo anonimo, aiuta
 
 | Nome cookie | Scadenza | Dimensione | Posizione | Descrizione |
 | --- | --- | --- | --- | --- |
-| **`s_ecid`** | 13 mesi | 45 byte | Prime parti | Memorizza CX Enterprise ID (ECID) o MID. Impostato dalla risposta HTTP. Il MID è archiviato nel formato `s_ecid=MCMID`. Impostato dopo che il client ha impostato il cookie AMCV. Consente il tracciamento ID persistente di prime parti e viene utilizzato come ID di riferimento se il cookie AMCV scade. `SameSite` è impostato su &quot;Lax&quot;. Se utilizzi il Web SDK per implementare Adobe Analytics, la scadenza dei cookie è impostata su 2 anni; tuttavia, la maggior parte dei browser moderni tronca la scadenza a 13 mesi. |
+| **`s_ecid`** | 13 mesi | 45 byte | Prime parti | Memorizza l’ECID o il MID. Impostato dalla risposta HTTP. Il MID è archiviato nel formato `s_ecid=MCMID`. Impostato dopo che il client ha impostato il cookie AMCV. Consente il tracciamento ID persistente di prime parti e viene utilizzato come ID di riferimento se il cookie AMCV scade. `SameSite` è impostato su &quot;Lax&quot;. Se utilizzi il Web SDK per implementare Adobe Analytics, la scadenza dei cookie è impostata su 2 anni; tuttavia, la maggior parte dei browser moderni tronca la scadenza a 13 mesi. |
 | **`s_cc`** | Session | 4 byte | Prime parti | Determina se i cookie sono abilitati. Impostato da JavaScript. |
 | **`s_sq`** | Session | 100-200 byte | Prime parti | Utilizzato da Activity Map. Contiene informazioni sul collegamento precedente su cui il visitatore ha fatto clic. Impostato da JavaScript. |
 | **`s_vi`** | 2 anni | 44 byte | Prime parti o `*.omtrdc.net` (terze parti) | Memorizza un ID visitatore univoco e una marca temporale. Impostato dalla risposta HTTP. Ogni ID visitatore è associato a un profilo visitatore sui server Adobe. I profili dei visitatori vengono eliminati dopo 1 anno di inattività, indipendentemente dalla scadenza del cookie ID visitatore. Il flag `Secure` è impostato quando `SameSite` è &quot;None&quot; e la connessione è HTTPS. `SameSite` è &quot;Lax&quot; per impostazione predefinita per i cookie di prime parti. `SameSite` è &quot;None&quot; quando si utilizzano cookie di terze parti, ad esempio in `omtrdc.net` o `2o7.net`. Impostare `SameSite` su &quot;None&quot; quando si utilizza un singolo CNAME per tenere traccia di più domini o proprietà. |
