@@ -1,6 +1,6 @@
 ---
 description: Scopri come [!DNL Adobe Target] utilizza i cookie per consentire agli operatori dei siti Web di verificare quali contenuti e offerte online sono più rilevanti per i visitatori.
-solution: Experience Cloud,Analytics,Target
+solution: CX Enterprise,Analytics,Target
 title: Cookie di Adobe Target
 uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
 feature: Cookies
@@ -19,7 +19,7 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 17%
@@ -32,9 +32,9 @@ ht-degree: 17%
 >
 >Le informazioni contenute in questo articolo si applicano solo alla [[!DNL Target] libreria JavaScript at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=it){target=_blank}.
 >
->Per informazioni sui cookie utilizzati in un&#39;implementazione di [!DNL Target] utilizzando [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=it){target=_blank}, vedere &quot;[!DNL Adobe Experience Platform Web SDK] utilizza i cookie? In caso affermativo, quali cookie utilizza?&quot; in [[!DNL Domande frequenti nella guida panoramica di Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html?lang=it){target=_blank}.
+>Per informazioni sui cookie utilizzati in un&#39;implementazione di [!DNL Target] utilizzando [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=it){target=_blank}, vedere &quot;[!DNL Adobe Experience Platform Web SDK] utilizza i cookie? In caso affermativo, quali cookie utilizza?&quot; in [Domande frequenti nella guida panoramica di DNL Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html){target=_blank}.
 >
->Se necessario, puoi modificare le impostazioni descritte in questo articolo, fatta eccezione per la durata del cookie. [Consulta il rappresentante del tuo account](https://experienceleague.adobe.com/docs/target/using/cmp-resources-and-contact-information.html?lang=it){target=_blank} quando modifichi le impostazioni dei cookie.
+>Se necessario, puoi modificare le impostazioni descritte in questo articolo, fatta eccezione per la durata del cookie. [Consulta il rappresentante del tuo account](https://experienceleague.adobe.com/docs/target/using/cmp-resources-and-contact-information.html){target=_blank} quando modifichi le impostazioni dei cookie.
 >
 >[!DNL Target] utenti possono anche creare cookie di terze parti personalizzati.
 

@@ -1,6 +1,6 @@
 ---
 description: Scopri le risorse CX Enterprise per la condivisione tra le diverse applicazioni.
-solution: Experience Cloud
+solution: CX Enterprise
 title: Panoramica di Assets
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 feature: Assets
@@ -31,7 +31,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 70%
@@ -43,7 +43,7 @@ CX Enterprise Assets fornisce un archivio unico e centralizzato di risorse pront
 I servizi Assets includono:
 
 * Archivio delle risorse, interfaccia di gestione, interfaccia di selezione incorporata (accessibile dall’interno di altre applicazioni).
-* Integrazioni con Creative Cloud, collaborazione con CX Enterprise e applicazioni CX Enterprise.
+* Integrazioni con applicazioni Creative Cloud, CX Enterprise e CX Enterprise.
 
 L’utilizzo di Assets migliora la coerenza e la conformità al marchio, velocizzando il time-to-market. Puoi semplificare i flussi di lavoro nelle applicazioni:
 
@@ -52,9 +52,9 @@ L’utilizzo di Assets migliora la coerenza e la conformità al marchio, velociz
 * **[!DNL Adobe Campaign]**: posizionamento di risorse nelle newsletter e campagne via e-mail.
 
 
-## Passare a CX Enterprise Assets
+## Passa a CX Enterprise Assets
 
-![Passare a CX Enterprise Assets](../../assets/asset-nav.png)
+![Passa a CX Enterprise Assets](../../assets/asset-nav.png)
 
 ## Accedere alla barra degli strumenti
 

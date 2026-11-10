@@ -1,6 +1,6 @@
 ---
 description: Scopri come configurare CX Enterprise Triggers.
-solution: Experience Cloud
+solution: CX Enterprise
 title: Panoramica di Triggers
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
 feature: Admin Console
@@ -37,14 +37,14 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 765c82ba802cb1fd7a16a5dc2433a9199669a331
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '877'
 ht-degree: 57%
 ---
 # CX Enterprise Triggers
 
-[!UICONTROL Triggers] in CX Enterprise consente di identificare, definire e monitorare i comportamenti chiave dei consumatori, per poi generare comunicazioni tra le diverse applicazioni in modo da coinvolgere nuovamente i visitatori. Puoi utilizzare i trigger nelle decisioni in tempo reale e nella personalizzazione. Per ulteriori informazioni sull&#39;utilizzo di [!UICONTROL Triggers] con Adobe Campaign, vedere [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=it).
+[!UICONTROL Triggers] in CX Enterprise consente di identificare, definire e monitorare i comportamenti chiave dei consumatori, per poi generare comunicazioni tra le diverse applicazioni in modo da coinvolgere nuovamente i visitatori. Puoi utilizzare i trigger nelle decisioni in tempo reale e nella personalizzazione. Per ulteriori informazioni sull&#39;utilizzo di [!UICONTROL Triggers] con Adobe Campaign, vedere [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html).
 
 Ad esempio:
 

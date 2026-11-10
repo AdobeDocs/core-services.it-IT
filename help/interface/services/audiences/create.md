@@ -1,7 +1,7 @@
 ---
 title: Creare un pubblico nella libreria Pubblico
 description: Scopri come utilizzare le regole per attributi per creare un pubblico condivisibile in Libreria tipi di pubblico. Scopri come configurare una regola e definire un pubblico composito.
-solution: Experience Cloud
+solution: CX Enterprise
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
 feature: Audience Library
 topic: Administration
@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 56%
@@ -120,4 +120,4 @@ La regola risultante è un pubblico definito composto dagli utenti di Chrome e S
 
 Al termine della raccolta dei dati per il periodo specificato, i cerchi si combinano per mostrare un pubblico definito.
 
-Dopo il salvataggio, il pubblico è disponibile per altre applicazioni CX Enterprise. Ad esempio, puoi includere un pubblico condiviso in una [attività](https://experienceleague.adobe.com/it/docs/target/using/activities/activities) di Adobe Target.
+Una volta salvato, il pubblico è disponibile per altre applicazioni CX Enterprise. Ad esempio, puoi includere un pubblico condiviso in una [attività](https://experienceleague.adobe.com/en/docs/target/using/activities/activities) di Adobe Target.

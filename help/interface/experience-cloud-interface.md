@@ -1,6 +1,6 @@
 ---
 description: Scopri come accedere a CX Enterprise e i componenti dell’interfaccia centrale. Scopri la ricerca globale, le preferenze del tuo account, come navigare nell’interfaccia e come ottenere aiuto.
-solution: Experience Cloud
+solution: CX Enterprise
 title: Componenti dell’interfaccia utente centrale di CX Enterprise
 feature: Central Interface Components
 topic: Administration
@@ -18,7 +18,7 @@ level_v2:
     internal-label: Intermediate
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 40%
@@ -90,7 +90,7 @@ Fai clic sul selettore delle applicazioni ![menu](assets/menu-icon.png) per acce
 
 ## Ricerca e supporto in CX Enterprise
 
-CX Enterprise search consente di cercare informazioni (documentazione, tutorial e corsi) in [Experience League](https://experienceleague.adobe.com/it?lang=it#home).
+CX Enterprise search consente di cercare informazioni (documentazione, tutorial e corsi) in [Experience League](https://experienceleague.adobe.com/?lang=it#home).
 
 ![Ricerca e supporto in CX Enterprise](assets/search-menu.png)
 
@@ -98,7 +98,7 @@ Il menu [!UICONTROL Guida] consente inoltre di accedere a:
 
 * **[!UICONTROL Supporto]:** Crea un ticket di supporto o contatta il [!UICONTROL Supporto] tramite Twitter.
 * **[!UICONTROL Feedback]:** Contatta Adobe tramite Feedback e inviaci i tuoi commenti.
-* **[!UICONTROL Stato]:** Passa a `https://status.adobe.com/it-it/experience_cloud`, verifica lo stato operativo del prodotto e [!UICONTROL Gestisci abbonamenti].
+* **[!UICONTROL Stato]:** Passa a `https://status.adobe.com/experience_cloud`, verifica lo stato operativo del prodotto e [!UICONTROL Gestisci abbonamenti].
 * **[!UICONTROL Developer Connection]:** Navigazione a `adobe.io` e ricerca la documentazione per gli sviluppatori.
 
 ## Preferenze dell’account

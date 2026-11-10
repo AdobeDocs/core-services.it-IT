@@ -1,6 +1,6 @@
 ---
 description: Scopri le differenze tra i termini di interfaccia e prodotto di Adobe e CX Enterprise, le sue soluzioni, Creative Cloud, Experience League e altre esperienze di supporto.
-solution: Experience Cloud
+solution: CX Enterprise
 title: Terminologia
 feature-set: Experience Cloud Services
 feature: Central Interface Components
@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 5%
@@ -45,13 +45,13 @@ ht-degree: 5%
 TQID: https://experienceleague.adobe.com/6wm7HcuAbaV1iV3AgN55dY5WR%2D%2D%2DBnMM7lJgN0HZDsk
 -->
 
-Usa questa tabella quando la stessa parola viene visualizzata in diverse esperienze Adobe (CX Enterprise, app di marketing, app di progettazione o siti di supporto). Non è un glossario completo. Per informazioni approfondite, vedere la guida specifica del prodotto in [Experience League](https://experienceleague.adobe.com/it).
+Usa questa tabella quando la stessa parola viene visualizzata in diverse esperienze Adobe (CX Enterprise, app di marketing, app di progettazione o siti di supporto). Non è un glossario completo. Per informazioni approfondite, vedere la guida specifica del prodotto in [Experience League](https://experienceleague.adobe.com).
 
 | Termine | In CX Enterprise e questa guida | Altro utilizzo comune di Adobe |
 | --- | --- | --- |
 | **Adobe CX Enterprise** | Esperienza Web unificata in `experience.adobe.com`, in cui si aprono applicazioni di marketing, si impostano preferenze e notifiche e si raggiungono i servizi di interfaccia condivisa, ad esempio Attributi del cliente e [Libreria tipi di pubblico](../services/audiences/overview.md). Precedentemente *Adobe Experience Cloud*. | Non lo stesso prodotto di **Adobe Experience Platform** (infrastruttura dati del cliente, sandbox, set di dati). Non **Adobe Creative Cloud** (applicazioni di progettazione e multimediali). |
 | **Adobe Experience Platform** | Viene visualizzato quando si collegano gli agenti di raccolta dati, identità o piattaforma alle soluzioni; alcune funzioni di ricerca navigazione e AI sono supportate da Platform. | Una piattaforma di dati e orchestrazione. Non utilizzare &quot;Experience Platform&quot; quando si intende la shell CX Enterprise o la pagina Home. |
-| **Experience League** | Dove la Guida e i collegamenti interni al prodotto ti inviano per **documentazione**, **tutorial**, playlist di apprendimento, note sulla versione e contesto della community per le soluzioni Adobe. Inizia dalla [Experience League home](https://experienceleague.adobe.com/it). | Completa il **[Centro assistenza Adobe](https://helpx.adobe.com/it/support.html)**, che mette in evidenza **account**, **piano**, **fatturazione**, download e risoluzione dei problemi tra prodotti diversi per singoli utenti e team. Utilizza l&#39;Help Center per reimpostare le password, pianificare le modifiche e attività simili; utilizza Experience League per i contenuti dimostrativi dei prodotti. |
+| **Experience League** | Dove la Guida e i collegamenti interni al prodotto ti inviano per **documentazione**, **tutorial**, playlist di apprendimento, note sulla versione e contesto della community per le soluzioni Adobe. Inizia dalla [Experience League home](https://experienceleague.adobe.com). | Completa il **[Centro assistenza Adobe](https://helpx.adobe.com/support.html)**, che mette in evidenza **account**, **piano**, **fatturazione**, download e risoluzione dei problemi tra prodotti diversi per singoli utenti e team. Utilizza l&#39;Help Center per reimpostare le password, pianificare le modifiche e attività simili; utilizza Experience League per i contenuti dimostrativi dei prodotti. |
 | **Assistente AI/IA agente** | Assistenti interni al prodotto e agenti orchestrati descritti negli argomenti AI di questa guida; l’accesso e i crediti dipendono dalle adesioni del prodotto. | Altre superfici di Adobe (ad esempio, **Firefly** o **Express**) utilizzano funzioni &quot;AI&quot; con ambiti e criteri diversi. |
 | **Organizzazione** | La tua **organizzazione IMS**: limite per le licenze Enterprise, le directory utente, l&#39;SSO e l&#39;amministrazione di Admin Console in CX Enterprise. Consulta [Organizzazioni e collegamento account](../administration/organizations.md). | Non è una *suite di rapporti* di Analytics, una *proprietà* di Target o una *sandbox* di Experience Platform (si tratta di contenitori specifici del prodotto). |
 | **Admin Console** | Piano di controllo Enterprise in `adminconsole.adobe.com` per utenti, profili di prodotto e identità; collegato dagli argomenti di **Amministrazione** di CX Enterprise. Consulta [Gestione di utenti e prodotti](../administration/admin-console.md). | Diverso da **amministratore interno al prodotto** all&#39;interno di ogni app (ad esempio, strumenti di amministrazione di Analytics o schermate delle autorizzazioni di Journey Optimizer). |

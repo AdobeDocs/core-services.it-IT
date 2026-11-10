@@ -1,6 +1,6 @@
 ---
 description: Scopri come configurare le sottoscrizioni in [!DNL Customer Attributes] per Analytics e Target e attivare un'origine dati.
-solution: Experience Cloud
+solution: CX Enterprise
 title: Come configurare le sottoscrizioni in [!DNL Customer Attributes]
 feature: Customer Attributes
 topic: Administration
@@ -28,7 +28,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 45%
@@ -49,7 +49,7 @@ Ad esempio, una sottoscrizione Adobe Analytics abilita i dati degli attributi ne
 
 1. Fare clic su **[!UICONTROL Configura sottoscrizioni]**.
 
-   ![Configurazione delle sottoscrizioni in CX Enterprise](assets/configure-subscriptions.png)
+   ![Configurare le sottoscrizioni in CX Enterprise](assets/configure-subscriptions.png)
 
 1. Per attivare l&#39;origine attributo del cliente, fare clic su **[!UICONTROL Attivo]**, quindi su **[!UICONTROL Salva]**.
 

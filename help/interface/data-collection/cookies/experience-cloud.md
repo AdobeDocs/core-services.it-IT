@@ -1,6 +1,6 @@
 ---
 description: Scopri come il Servizio ID visitatore viene memorizzato e utilizzato nelle applicazioni CX Enterprise.
-solution: Experience Cloud,Analytics,Target
+solution: CX Enterprise,Analytics,Target
 title: Cookie di CX Enterprise
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
 feature: Cookies
@@ -33,7 +33,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 67%
@@ -83,7 +83,7 @@ Adobe CX Enterprise utilizza i cookie per memorizzare un ID visitatore utilizzat
 
 Il servizio ID [visitatore](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it) utilizza JavaScript per memorizzare un ECID in un cookie `AMCV_###@AdobeOrg` sul dominio del sito Web corrente, dove `###` rappresenta una stringa casuale di caratteri, ad esempio `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
 
-Consulta anche [Cookie e il servizio ID visitatori](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=it).
+Consulta anche [Cookie e il servizio ID visitatori](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html).
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 

@@ -1,7 +1,7 @@
 ---
 description: Scopri le regole sul comportamento delle cartelle condivise quando vengono spostate, eliminate e ripristinate in CX Enterprise.
 keywords: condivisione di risorse;Creative Cloud;servizi principali
-solution: Experience Cloud
+solution: CX Enterprise
 title: Comportamento delle cartelle condivise
 uuid: 86348401-f4b1-4efe-acd1-7e73a7030edf
 feature: Assets
@@ -30,7 +30,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 90%
@@ -41,7 +41,7 @@ Regole per il comportamento delle cartelle condivise in caso di spostamento, eli
 
 >[!NOTE]
 >
->Le cartelle e le risorse condivise di CX Enterprise si riflettono sul desktop Creative Cloud in una relazione 1:1. Se un utente di CX Enterprise modifica una cartella (elimina, aggiunge o rimuove condivisioni), l&#39;azione si riflette sul desktop e sul Web di Creative Cloud. Di conseguenza, se una cartella non è più condivisa, la cartella e le relative risorse vengono eliminate dal computer locale. Una volta rimossa la condivisione, la cartella e il suo contenuto vengono spostati nel cestino del computer locale, dal quale è possibile ripristinarli manualmente in locale.
+>Le cartelle e le risorse condivise di CX Enterprise si riflettono sul desktop di Creative Cloud in una relazione 1:1. Se un utente di CX Enterprise modifica una cartella (elimina, aggiunge o rimuove condivisioni), l’azione si riflette sul desktop e sul Web di Creative Cloud. Di conseguenza, se una cartella non è più condivisa, la cartella e le relative risorse vengono eliminate dal computer locale. Una volta rimossa la condivisione, la cartella e il suo contenuto vengono spostati nel cestino del computer locale, dal quale è possibile ripristinarli manualmente in locale.
 
 ## Cartella non condivisa in una cartella condivisa
 

@@ -1,6 +1,6 @@
 ---
 description: Scopri come sono supportati i browser e le risposte alle domande più frequenti per gli amministratori di Adobe CX Enterprise.
-solution: Experience Cloud
+solution: CX Enterprise
 title: Domande frequenti su CX Enterprise
 index: true
 feature: Admin Console
@@ -33,7 +33,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 46%
@@ -122,7 +122,7 @@ Provisioning in CX Enterprise significa:
 
 * La gestione di prodotti e adesioni utente viene eseguita in [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (collegamento prodotto).
 
-* **Importante:** gli amministratori di Analytics devono consultare [Gestire gli utenti di Analytics in Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=it) per informazioni sulla migrazione degli ID utente dagli strumenti di amministrazione di Analytics ad Admin Console.
+* **Importante:** gli amministratori di Analytics devono consultare [Gestire gli utenti di Analytics in Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html) per informazioni sulla migrazione degli ID utente dagli strumenti di amministrazione di Analytics ad Admin Console.
 
 +++
 
@@ -130,7 +130,7 @@ Provisioning in CX Enterprise significa:
 
 Gli amministratori di Admin Console possono concedere l&#39;accesso agli utenti. Gli utenti ricevono un’e-mail con le istruzioni di accesso.
 
-Potresti aver bisogno di [contattare il supporto Adobe](https://experienceleague.adobe.com/it?support-solution=General&lang=it#support) per verificare che sia stato eseguito il provisioning completo per la tua azienda.
+Potresti aver bisogno di [contattare il supporto Adobe](https://experienceleague.adobe.com/?support-solution=General&lang=it#support) per verificare che sia stato eseguito il provisioning completo per la tua azienda.
 
 +++
 

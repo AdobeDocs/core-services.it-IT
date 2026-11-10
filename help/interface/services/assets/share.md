@@ -1,6 +1,6 @@
 ---
 description: Scopri come condividere una cartella di risorse CX Enterprise con gli utenti di Creative Cloud.
-solution: Experience Cloud
+solution: CX Enterprise
 title: Condividere una cartella di risorse CX Enterprise
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
 feature: Assets
@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 36%
@@ -85,7 +85,7 @@ Prima che gli utenti di Creative Cloud possano accedere alle risorse, devono ess
 
    Quando hai rimosso tutti gli utenti di Creative Cloud, la cartella non è più condivisa e gli utenti di Creative Cloud non possono più accedervi.
 
-Altri modi per utilizzare una risorsa condivisa includono il caricamento o lo scambio di risorse nella [Libreria offerte](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=it) in Adobe Target per le immagini nelle attività.
+Altri modi per utilizzare una risorsa condivisa includono il caricamento o lo scambio di risorse nella [Libreria offerte](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) in Adobe Target per le immagini nelle attività.
 
 Dopo aver condiviso una cartella su Creative Cloud, il logo Creative Cloud viene visualizzato sulla cartella.
 
@@ -101,5 +101,5 @@ Argomenti correlati:
 
 Quando crei attività in [!DNL Adobe Target], puoi utilizzare una risorsa di immagine condivisa quando scambi immagini nella [!UICONTROL Libreria offerte].
 
-Consulta [Libreria offerte](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=it) nella Guida di [!DNL Target].
+Consulta [Libreria offerte](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) nella Guida di [!DNL Target].
 

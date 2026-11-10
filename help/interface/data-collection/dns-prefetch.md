@@ -1,6 +1,6 @@
 ---
 description: Scopri come implementare il recupero preventivo del DNS per ridurre i tempi di caricamento delle pagine con diversi servizi e applicazioni in CX Enterprise.
-solution: Experience Cloud
+solution: CX Enterprise
 title: Usa prelettura DNS
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
 topic: Administration
@@ -28,7 +28,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 77%
@@ -48,7 +48,7 @@ Il recupero preventivo del DNS funziona automaticamente con i collegamenti stati
 * Ogni applicazione o servizio CX Enterprise genera le chiamate DNS in modo dinamico durante il caricamento della pagina.
 * Il browser non può risolvere i nomi di dominio con indirizzi IP prima che vengano effettuate tali chiamate.
 
-Tuttavia, è possibile implementare manualmente il recupero preventivo del DNS con le applicazioni CX Enterprise. Per farlo, aggiungi il tag HTML `<dns-prefetch>` alla sezione `<head>` del codice della pagina come mostrato di seguito. Se implementato correttamente, il recupero preventivo del DNS può contribuire a risparmiare alcuni millisecondi sul tempo di caricamento della pagina.
+Tuttavia, puoi implementare manualmente il recupero preventivo del DNS con le applicazioni CX Enterprise. Per farlo, aggiungi il tag HTML `<dns-prefetch>` alla sezione `<head>` del codice della pagina come mostrato di seguito. Se implementato correttamente, il recupero preventivo del DNS può contribuire a risparmiare alcuni millisecondi sul tempo di caricamento della pagina.
 
 ## Esempi di codici di recupero preventivo del DNS
 
