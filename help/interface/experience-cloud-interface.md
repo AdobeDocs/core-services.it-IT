@@ -90,7 +90,7 @@ Fai clic sul selettore delle applicazioni ![menu](assets/menu-icon.png) per acce
 
 ## Ricerca e supporto in CX Enterprise
 
-CX Enterprise search consente di cercare informazioni (documentazione, tutorial e corsi) in [Experience League](https://experienceleague.adobe.com/?lang=it#home).
+CX Enterprise search consente di cercare informazioni (documentazione, tutorial e corsi) in [Experience League](https://experienceleague.adobe.com/it?lang=it#home).
 
 ![Ricerca e supporto in CX Enterprise](assets/search-menu.png)
 
@@ -98,7 +98,7 @@ Il menu [!UICONTROL Guida] consente inoltre di accedere a:
 
 * **[!UICONTROL Supporto]:** Crea un ticket di supporto o contatta il [!UICONTROL Supporto] tramite Twitter.
 * **[!UICONTROL Feedback]:** Contatta Adobe tramite Feedback e inviaci i tuoi commenti.
-* **[!UICONTROL Stato]:** Passa a `https://status.adobe.com/experience_cloud`, verifica lo stato operativo del prodotto e [!UICONTROL Gestisci abbonamenti].
+* **[!UICONTROL Stato]:** Passa a `https://status.adobe.com/it-it/experience_cloud`, verifica lo stato operativo del prodotto e [!UICONTROL Gestisci abbonamenti].
 * **[!UICONTROL Developer Connection]:** Navigazione a `adobe.io` e ricerca la documentazione per gli sviluppatori.
 
 ## Preferenze dell’account
