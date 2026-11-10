@@ -1,6 +1,6 @@
 ---
 description: Scopri come accedere a CX Enterprise e i componenti dell’interfaccia centrale. Scopri la ricerca globale, le preferenze del tuo account, come navigare nell’interfaccia e come ottenere aiuto.
-solution: Experience Cloud
+solution: CX Enterprise
 title: Componenti dell’interfaccia utente centrale di CX Enterprise
 feature: Central Interface Components
 topic: Administration
@@ -18,7 +18,7 @@ level_v2:
     internal-label: Intermediate
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 40%

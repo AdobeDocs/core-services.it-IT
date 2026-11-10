@@ -1,6 +1,6 @@
 ---
 description: Scopri le funzioni più recenti, le note sulla versione e i problemi noti per i servizi CX Enterprise come Attributi del cliente, Tipi di pubblico e Gestione utente.
-solution: Experience Cloud
+solution: CX Enterprise
 title: Note cumulative sulla versione per l’interfaccia di CX Enterprise
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 feature-set: Experience Cloud
@@ -42,7 +42,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '1629'
 ht-degree: 56%

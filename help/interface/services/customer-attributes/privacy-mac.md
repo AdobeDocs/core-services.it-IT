@@ -1,6 +1,6 @@
 ---
-description: Scopri le considerazioni e le best practice sui dati personali (PII, personally identifiable information) caricati e utilizzati in CX Enterprise.
-solution: Experience Cloud
+description: Scopri le considerazioni e le best practice sui dati di identificazione personale (PII, personally identifiable information) caricati e utilizzati in CX Enterprise.
+solution: CX Enterprise
 title: Considerazioni sulla privacy per [!DNL Customer Attributes]
 feature: Customer Attributes
 topic: Administration
@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 92%

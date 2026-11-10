@@ -1,7 +1,7 @@
 ---
-description: Informazioni sui cookie di Audience Manager in Adobe CX Enterprise.
+description: Scopri come funzionano i cookie di Audience Manager in Adobe CX Enterprise.
 keywords: cookie
-solution: Experience Cloud, Audience Manager
+solution: CX Enterprise, Audience Manager
 title: Cookie di Audience Manager
 uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
 feature: Cookies
@@ -44,7 +44,7 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 94%

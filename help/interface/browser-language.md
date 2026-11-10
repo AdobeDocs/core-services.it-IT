@@ -1,7 +1,7 @@
 ---
 title: Browser e lingue supportati
-description: Informazioni sul supporto di browser e lingue per le applicazioni CX Enterprise. Seleziona una lingua primaria e secondaria nel profilo dell’account.
-solution: Experience Cloud
+description: Scopri il supporto del browser e della lingua per le applicazioni CX Enterprise. Seleziona una lingua primaria e secondaria nel profilo dell’account.
+solution: CX Enterprise
 feature: Account Preferences
 topic: Administration
 role: Admin
@@ -30,14 +30,14 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 39%
 ---
 # Supporto di browser e lingue in CX Enterprise
 
-Per ottenere prestazioni ottimali, CX Enterprise è ottimizzato per i browser più diffusi, inclusa l&#39;ultima versione e le due versioni precedenti.
+Per prestazioni ottimali, CX Enterprise è ottimizzato per i browser più diffusi, inclusa l’ultima versione e le due versioni precedenti.
 
 * Chrome
 * Edge
@@ -53,7 +53,7 @@ Se il tuo browser non è elencato, potrebbe comunque essere supportato, ma si co
 
 ## Supporto delle lingue in CX Enterprise
 
-L&#39;interfaccia utente di CX Enterprise è disponibile nelle seguenti lingue:
+L’interfaccia utente di CX Enterprise è disponibile nelle seguenti lingue:
 
 * Inglese (Stati Uniti)
 * Francese (Francia)
@@ -76,7 +76,7 @@ Inoltre, la formattazione specifica della lingua (ad esempio date, ore, calendar
 
 **Per specificare una lingua predefinita**
 
-1. In CX Enterprise, fare clic su **[!UICONTROL Profilo]** > [Preferenze](https://experience.adobe.com/preferences).
+1. In CX Enterprise, fai clic su **[!UICONTROL Profilo]** > [Preferenze](https://experience.adobe.com/preferences).
 
 1. In **[!UICONTROL Profilo]**, fare clic sul collegamento della lingua.
 

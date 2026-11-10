@@ -1,6 +1,6 @@
 ---
 description: Scopri le organizzazioni (ID organizzazione IMS), gli account di passaggio e gli account delle soluzioni di collegamento.
-solution: Experience Cloud
+solution: CX Enterprise
 title: Organizzazioni e account
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
 feature: Organizations
@@ -33,20 +33,20 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 17%
 ---
 # Organizzazioni e account
 
-Una *organizzazione* (ID organizzazione) è l&#39;entità che consente all&#39;amministratore di configurare gruppi e utenti e di controllare il single sign-on in CX Enterprise.
+Un *organizzazione* (ID organizzazione) è l&#39;entità che consente all&#39;amministratore di configurare gruppi e utenti e di controllare il single sign-on in CX Enterprise.
 
-L&#39;organizzazione funziona come una società di accesso che abbraccia tutti i prodotti e le applicazioni aziendali CX. Nella maggior parte dei casi, un’organizzazione è il nome dell’azienda. Tuttavia, un’azienda può avere più organizzazioni.
+L&#39;organizzazione funziona come un&#39;azienda di accesso per tutti i prodotti e le applicazioni CX Enterprise. Nella maggior parte dei casi, un’organizzazione è il nome dell’azienda. Tuttavia, un’azienda può avere più organizzazioni.
 
 **Menu Organizzazione**
 
-![Organizzazioni aziendali CX](../assets/organizations-menu.png)
+![Organizzazioni CX Enterprise](../assets/organizations-menu.png)
 
 Per verificare di aver effettuato l&#39;accesso all&#39;organizzazione corretta, fare clic su **[!UICONTROL Profilo]** per visualizzare il nome dell&#39;organizzazione predefinita. Se hai accesso a più organizzazioni, puoi anche visualizzare e passare a un’altra organizzazione nella barra dell’intestazione.
 
@@ -56,13 +56,13 @@ Per verificare di aver effettuato l&#39;accesso all&#39;organizzazione corretta,
 
 ## Federated ID
 
-Se la tua organizzazione utilizza Federated ID, CX Enterprise ti consente di accedere con il Single Sign-On della tua organizzazione senza dover immettere l’indirizzo e-mail e la password. Aggiungere `#/sso:@domain` all&#39;URL aziendale CX (`https://experience.adobe.com`) per eseguire questa attività.
+Se la tua organizzazione utilizza Federated ID, CX Enterprise ti consente di accedere con il Single Sign-On della tua organizzazione senza dover immettere l’indirizzo e-mail e la password. Aggiungi `#/sso:@domain` all&#39;URL di CX Enterprise (`https://experience.adobe.com`) per eseguire questa attività.
 
 Ad esempio, per un’organizzazione con Federated ID e il dominio `example.com`, imposta il link dell’URL su `https://experience.adobe.com/#/sso:@example.com`. Puoi anche passare direttamente a una specifica applicazione salvando come segnalibro o preferito l’URL seguito dal percorso dell’applicazione. Ad esempio, per Adobe Analytics: `https://experience.adobe.com/#/sso:@example.com/analytics`.
 
 ## Account guest federati
 
-Puoi abilitare [l&#39;accesso come ospite federato](https://helpx.adobe.com/it/business/enterprise/using/federated-guest-access.html) per autenticare in modo sicuro gli utenti guest nel tuo dominio. Se attivato, il menu Organizzazione viene modificato per consentire agli utenti di passare da un account all&#39;altro all&#39;interno dell&#39;organizzazione esistente in qualsiasi pagina di CX Enterprise.
+Puoi abilitare [l&#39;accesso come ospite federato](https://helpx.adobe.com/it/business/enterprise/using/federated-guest-access.html) per autenticare in modo sicuro gli utenti guest nel tuo dominio. Se attivato, il menu Organizzazione cambia per consentire a tali utenti di passare da un account all’altro all’interno dell’organizzazione esistente su qualsiasi pagina di CX Enterprise.
 
 Per passare a un account guest federato, individuare **[!UICONTROL Altri account]** nel menu **[!UICONTROL Organizzazione]** in qualsiasi pagina di [CX Enterprise](https://experience.adobe.com).
 
@@ -74,13 +74,13 @@ Per passare a un account guest federato, individuare **[!UICONTROL Altri account
 
 Puoi individuare l’ID organizzazione assegnato a scopo di supporto. Puoi verificare di essere nell&#39;organizzazione corretta o cambiare organizzazione utilizzando il selettore **[!UICONTROL Organizzazione]** nell&#39;intestazione.
 
-L&#39;ID organizzazione è l&#39;ID associato all&#39;azienda con provisioning CX Enterprise. Questo ID è una stringa alfanumerica composta da 24 caratteri, seguita da (deve includere) `@AdobeOrg`.
+L’ID organizzazione è l’ID associato all’azienda con provisioning di CX Enterprise. Questo ID è una stringa alfanumerica composta da 24 caratteri, seguita da (deve includere) `@AdobeOrg`.
 
 Per visualizzare l&#39;ID organizzazione e altre informazioni sull&#39;account, utilizzare la scelta rapida da tastiera **Ctrl+i** da qualsiasi pagina in `https://experience.adobe.com`.
 
 **Per visualizzare l&#39;ID organizzazione**
 
-1. In [CX Enterprise](https://experience.adobe.com), premere **Ctrl+i** sulla tastiera.
+1. In [CX Enterprise](https://experience.adobe.com), premi **Ctrl+i** sulla tastiera.
 
    ![ID delle organizzazioni assegnate](../assets/assigned-organization.png)
 

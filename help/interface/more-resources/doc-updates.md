@@ -1,6 +1,6 @@
 ---
-description: Scopri dove si verificano gli aggiornamenti della documentazione per i componenti di interfaccia comuni di CX Enterprise.
-solution: Experience Cloud
+description: Scopri dove si verificano gli aggiornamenti della documentazione per i componenti dell’interfaccia comune di CX Enterprise.
+solution: CX Enterprise
 title: Aggiornamenti alla documentazione
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
 topic: Administration
@@ -36,18 +36,18 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 34%
 ---
 # Aggiornamenti alla documentazione
 
-Scopri dove si verificano gli aggiornamenti della documentazione per l’interfaccia centrale e l’amministrazione di CX Enterprise.
+Scopri dove si verificano gli aggiornamenti alla documentazione per l’interfaccia centrale e l’amministrazione di CX Enterprise.
 
 ## luglio 2026
 
-* Sono state aggiunte le [note sulla versione di luglio 2026](release-notes.md) per il supporto CX Enterprise di [Federated Guest Access](https://helpx.adobe.com/it/business/enterprise/using/federated-guest-access.html), incluso il cambio di account per gli utenti guest dal commutatore Organizzazione.
+* Sono state aggiunte le [note sulla versione di luglio 2026](release-notes.md) per il supporto CX Enterprise di [Federated Guest Access](https://helpx.adobe.com/it/business/enterprise/using/federated-guest-access.html), incluso il passaggio di account per gli utenti guest dal commutatore Organizzazione.
 
 ## Giugno 2026
 
@@ -56,9 +56,9 @@ Scopri dove si verificano gli aggiornamenti della documentazione per l’interfa
 
 ## Maggio 2026
 
-Aggiornamenti di aprile e maggio per la guida all&#39;interfaccia centrale di CX Enterprise:
+Aggiornamenti di aprile e maggio per la guida all’interfaccia centrale di CX Enterprise:
 
-* La documentazione è stata rinominata da Experience Cloud a **CX Enterprise** nella guida, incluse descrizioni, testo di collegamento e metadati di tag automatici.
+* La documentazione di Experience Cloud è stata rinominata in **CX Enterprise** nella guida, incluse descrizioni, testo di collegamento e metadati di tag automatici.
 * Sono state aggiunte le [note sulla versione di aprile 2026](release-notes.md) per la home page aggiornata in `https://experience.adobe.com/home` (aggiornamento dell&#39;interfaccia utente, modalità scura e miglioramenti a livello di accessibilità).
 * Aggiornamento di [Agentic AI in CX Enterprise](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai): Adobe Marketing Agent for Microsoft 365 Copilot, funzionalità dell&#39;agente riviste e una colonna **Health Data/HIPAA-ready** nella tabella dell&#39;agente existing-apps.
 * Aggiornamenti minori alla [raccolta dati regionali](../data-collection/rdc.md), [Convalida inoltro nome host](../data-collection/adobe-managed-cert.md) e [Terminologia](terms.md).
@@ -69,7 +69,7 @@ Aggiunto [Processi di IA e consumo crediti](https://experienceleague.adobe.com/i
 
 ## Novembre 2025
 
-Aggiornamenti di [Agentic AI in CX Enterprise](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai)
+Aggiornamenti di [IA per l&#39;agente in CX Enterprise](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai)
 
 ## Ottobre 2025
 
@@ -95,7 +95,7 @@ Aggiornamenti a [Dati sull&#39;utilizzo del prodotto](../features/account-prefer
 
 ## 26 aprile 2024
 
-Aggiornamento completo dell’architettura della documentazione. Sono stati aggiunti anche [indirizzi IP aziendali di Adobe CX](../data-collection/ip-addresses.md) e [Raccolta dati regionali](../data-collection/rdc.md).
+Aggiornamento completo dell’architettura della documentazione. Sono stati aggiunti anche [indirizzi IP Adobe CX Enterprise](../data-collection/ip-addresses.md) e [Raccolta dati regionali](../data-collection/rdc.md).
 
 ## 9 aprile 2024
 
@@ -117,7 +117,7 @@ Sono state aggiornate le [domande frequenti sull’amministrazione](faq.md) con 
 
 | Funzione | Descrizione |
 | ------- | ------- |
-| Pagina Home | Le informazioni relative al piè di pagina della home page di CX Enterprise sono state spostate nella scheda del profilo utente, incluse le Note legali e la selezione della lingua in Preferenze. |
+| Pagina Home | Le informazioni sul piè di pagina della home page di CX Enterprise sono state spostate nella scheda del profilo utente, incluse le Note legali e la selezione della lingua in Preferenze. |
 | Dashboard AEP | [!DNL Helios Lite] fornisce consigli sui grafici all’interno del flusso di lavoro di creazione dei widget di Experience Platform. Data una selezione dei dati (attualmente selezione di dati con una singola variabile), Helios consiglia una visualizzazione appropriata per accompagnarla. |
 | Dashboard AEP | [!DNL Instory] fornisce narrazioni scritte basate su apprendimento automatico e didascalie per i grafici. Decora grafici nella pagina AEP Dashboards con punti elenco pertinenti che richiamano importanti modifiche e incidenti nei dati grafici. |
 
@@ -126,7 +126,7 @@ Sono state aggiornate le [domande frequenti sull’amministrazione](faq.md) con 
 | Funzione | Descrizione |
 | ------- | ------- |
 | Ricerca unificata | La ricerca unificata continua ad aggiungere tipi di oggetti all’indice di ricerca. In questo aggiornamento, la ricerca globale ora cerca tra il contenuto di Experience League e i seguenti tipi di oggetti Journey Optimizer: <ul><li>Set di dati</li><li>Destinazioni</li><li>Query</li><li>Schemi</li><li>Segmenti</li><li>Origini</li><li>Offerte</li><li>Componenti</li><li>Messaggi</li><li>Percorsi</li></ul> |
-| Consenso dei dati di utilizzo del prodotto | Dopo l&#39;accesso iniziale, viene richiesto di inviare le preferenze relative al modo in cui Adobe può fornire contenuti utili e personalizzati, come tutorial, guide, suggerimenti rapidi, consigli, video di apprendimento e altro ancora, in base ai dati di utilizzo del prodotto CX Enterprise. Questa richiesta include anche un aggiornamento delle tue preferenze per la raccolta e l’utilizzo di questi dati in <https://experience.adobe.com/preferences>. |
+| Consenso dei dati di utilizzo del prodotto | Dopo l’accesso iniziale, ti viene chiesto di inviare preferenze su come Adobe può fornire contenuti utili e personalizzati, come tutorial, guide, suggerimenti rapidi, consigli, video di apprendimento e altro ancora, in base ai dati di utilizzo del prodotto CX Enterprise. Questa richiesta include anche un aggiornamento delle tue preferenze per la raccolta e l’utilizzo di questi dati in <https://experience.adobe.com/preferences>. |
 
 ## 24 agosto 2021
 
@@ -146,7 +146,7 @@ Struttura della guida riorganizzata, sommario.
 
 ## 19 agosto 2020
 
-Aggiornamento di [Visualizza i dettagli utente di CX Enterprise (Admin Tool)](../administration/admin-tool-experience-cloud.md) con informazioni sui criteri.
+Aggiornamento di [Visualizza dettagli utente di CX Enterprise (Admin Tool)](../administration/admin-tool-experience-cloud.md) con informazioni sui criteri.
 
 ## 19 maggio 2020
 
@@ -165,7 +165,7 @@ Aggiornamento di [Convalida dell&#39;inoltro nome host](../data-collection/adobe
 
 ## 20 febbraio 2020
 
-Aggiunto [Visualizza i dettagli utente di CX Enterprise (Admin Tool)](../administration/admin-tool-experience-cloud.md).
+Aggiunto [Visualizza dettagli utente di CX Enterprise (Admin Tool)](../administration/admin-tool-experience-cloud.md).
 
 ## Aggiornato: 9/5/2018
 
@@ -193,7 +193,7 @@ Aggiornata la definizione dei dati grezzi di Analytics in [Creazione di un pubbl
 
 ## 9 maggio 2016
 
-Aggiunta [Integrazioni aziendali CX](../administration/integrations.md), una raccolta di documenti dedicati all&#39;integrazione.
+Aggiunta [Integrazioni CX Enterprise](../administration/integrations.md), una raccolta di documenti dedicati all&#39;integrazione.
 
 ## 11 febbraio 2016
 
@@ -205,7 +205,7 @@ Aggiunto [CX Enterprise Assets](../services/assets/experience-cloud-assets.md).
 
 ## 17 luglio 2014
 
-Aggiunta [Domande frequenti su CX Enterprise](faq.md) per gli amministratori.
+Aggiunta [Domande frequenti su CX Enterprise](faq.md) per amministratori.
 
 ## 22 maggio 2014
 
