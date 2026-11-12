@@ -33,20 +33,16 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
+source-git-commit: 3292f78ff6778df2ca1aecb752cf1aa24c043ef3
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 56%
+source-wordcount: '548'
+ht-degree: 52%
 ---
-# Creazione di un pubblico
+# Creazione di un pubblico {#create-audience}
 
-In [!UICONTROL Libreria tipi di pubblico] è possibile utilizzare le regole degli attributi per creare un pubblico e definire un pubblico composito per la condivisione nelle applicazioni CX Enterprise.
+In [!UICONTROL Libreria tipi di pubblico] è possibile utilizzare le regole degli attributi per creare un pubblico, creare singole regole e combinare le regole in un pubblico composito per la condivisione tra le applicazioni CX Enterprise.
 
-Questo articolo ti aiuta a capire come:
-
-* Creazione di un pubblico
-* Creare una regola
-* Utilizzare le regole per definire un pubblico composito
+## Pubblico composito {#composite-audiences}
 
 L’immagine seguente rappresenta due regole in un pubblico composito.
 
@@ -58,14 +54,9 @@ Ogni cerchio rappresenta una regola che definisce l’iscrizione al pubblico. I 
 >
 >Il pubblico è completamente definito al termine della raccolta dei dati per il periodo specificato.
 
-L’esempio seguente mostra come creare le regole per un pubblico composito. Questo pubblico è composto da:
+## Creare le regole per il pubblico {#build-audience-rules}
 
-* Sezione Home &amp; Garden (Casa e giardino) derivata dai dati di pagina o dai dati di analisi non elaborati.
-* Utenti Chrome e Safari derivati da un segmento [!DNL Adobe Analytics] [pubblicato](overview.md) in [!DNL CX Enterprise].
-
-  ![Creare le regole per un pubblico composito](assets/audience_create.png)
-
-**Creare un pubblico**
+Utilizza i seguenti passaggi per creare un pubblico e definirne le regole in [!UICONTROL Libreria pubblico].
 
 1. Fai clic su [!DNL CX Enterprise] app (![Icona app](assets/apps-icon.png)), quindi fai clic su **[!UICONTROL Persone]** > **[!UICONTROL Libreria pubblico].**
 
@@ -86,7 +77,14 @@ L’esempio seguente mostra come creare le regole per un pubblico composito. Que
 
 1. Definisci le regole del pubblico, quindi fai clic su **[!UICONTROL Salva].**
 
-**Esempio: definire le regole per il pubblico composito**
+## Esempio di pubblico composito {#example-composite-audience}
+
+L’esempio seguente mostra come creare le regole per un pubblico composito. Questo pubblico è composto da:
+
+* Sezione Home &amp; Garden (Casa e giardino) derivata dai dati di pagina o dai dati di analisi non elaborati.
+* Utenti Chrome e Safari derivati da un segmento [!DNL Adobe Analytics] [pubblicato](overview.md) in [!DNL CX Enterprise].
+
+  ![Creare le regole per un pubblico composito](assets/audience_create.png)
 
 >[!NOTE]
 >
@@ -120,4 +118,4 @@ La regola risultante è un pubblico definito composto dagli utenti di Chrome e S
 
 Al termine della raccolta dei dati per il periodo specificato, i cerchi si combinano per mostrare un pubblico definito.
 
-Una volta salvato, il pubblico è disponibile per altre applicazioni CX Enterprise. Ad esempio, puoi includere un pubblico condiviso in una [attività](https://experienceleague.adobe.com/it/docs/target/using/activities/activities) di Adobe Target.
+Una volta salvato, il pubblico è disponibile per altre applicazioni CX Enterprise. Ad esempio, puoi includere un pubblico condiviso in una [attività](https://experienceleague.adobe.com/en/docs/target/using/activities/activities) di Adobe Target.
