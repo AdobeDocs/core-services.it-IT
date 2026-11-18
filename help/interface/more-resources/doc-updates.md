@@ -47,11 +47,11 @@ Scopri dove si verificano gli aggiornamenti alla documentazione per l’interfac
 
 ## luglio 2026
 
-* Sono state aggiunte le [note sulla versione di luglio 2026](release-notes.md) per il supporto CX Enterprise di [Federated Guest Access](https://helpx.adobe.com/business/enterprise/using/federated-guest-access.html), incluso il passaggio di account per gli utenti guest dal commutatore Organizzazione.
+* Sono state aggiunte le [note sulla versione di luglio 2026](release-notes.md) per il supporto CX Enterprise di [Federated Guest Access](https://helpx.adobe.com/it/business/enterprise/using/federated-guest-access.html), incluso il passaggio di account per gli utenti guest dal commutatore Organizzazione.
 
 ## Giugno 2026
 
-* È stato pubblicato [Monitoraggio di IA per l&#39;analisi dell&#39;agente](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/monitoring) con informazioni sulle dashboard di monitoraggio dell&#39;utilizzo delle licenze e di IA per l&#39;analisi dell&#39;agente, incluse le visualizzazioni Panoramica, Utenti, Feedback e Crediti di IA, Ripetizione conversazione e autorizzazioni per gli utenti di governance.
+* È stato pubblicato [Monitoraggio di IA per l&#39;analisi dell&#39;agente](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/overview/monitoring) con informazioni sulle dashboard di monitoraggio dell&#39;utilizzo delle licenze e di IA per l&#39;analisi dell&#39;agente, incluse le visualizzazioni Panoramica, Utenti, Feedback e Crediti di IA, Ripetizione conversazione e autorizzazioni per gli utenti di governance.
 * Sono state aggiunte le [note sulla versione di giugno 2026](release-notes.md) per il monitoraggio dell’utilizzo di IA per l’agente.
 
 ## Maggio 2026
@@ -60,16 +60,16 @@ Aggiornamenti di aprile e maggio per la guida all’interfaccia centrale di CX E
 
 * La documentazione di Experience Cloud è stata rinominata in **CX Enterprise** nella guida, incluse descrizioni, testo di collegamento e metadati di tag automatici.
 * Sono state aggiunte le [note sulla versione di aprile 2026](release-notes.md) per la home page aggiornata in `https://experience.adobe.com/home` (aggiornamento dell&#39;interfaccia utente, modalità scura e miglioramenti a livello di accessibilità).
-* Aggiornamento di [Agentic AI in CX Enterprise](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai): Adobe Marketing Agent for Microsoft 365 Copilot, funzionalità dell&#39;agente riviste e una colonna **Health Data/HIPAA-ready** nella tabella dell&#39;agente existing-apps.
+* Aggiornamento di [Agentic AI in CX Enterprise](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai): Adobe Marketing Agent for Microsoft 365 Copilot, funzionalità dell&#39;agente riviste e una colonna **Health Data/HIPAA-ready** nella tabella dell&#39;agente existing-apps.
 * Aggiornamenti minori alla [raccolta dati regionali](../data-collection/rdc.md), [Convalida inoltro nome host](../data-collection/adobe-managed-cert.md) e [Terminologia](terms.md).
 
 ## Marzo 2026
 
-Aggiunto [Processi di IA e consumo crediti](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/ai-credit-consumption)
+Aggiunto [Processi di IA e consumo crediti](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/overview/ai-credit-consumption)
 
 ## Novembre 2025
 
-Aggiornamenti di [IA per l&#39;agente in CX Enterprise](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai)
+Aggiornamenti di [IA per l&#39;agente in CX Enterprise](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai)
 
 ## Ottobre 2025
 
