@@ -36,36 +36,29 @@ topic_v2:
     internal-label: Administration
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
     internal-label: Audience segmentation
-source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
+source-git-commit: ecde38a8abc308acc666c6a0cb321c716921d2da
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 41%
+source-wordcount: '261'
+ht-degree: 24%
 ---
-# Panoramica dell’interfaccia di CX Enterprise
+# Informazioni su funzioni e servizi condivisi
 
-Le funzionalità dell&#39;interfaccia di CX Enterprise sono talvolta denominate _servizi principali_. Si tratta delle funzionalità di intestazione unificata, incluso il servizio [!DNL People] ([!DNL Audience Library] e [!DNL Customer Attributes]).
+Alcune funzionalità condivise in CX Enterprise sono anche denominate _servizi principali_. Queste funzionalità includono il servizio [!DNL People] ([!DNL Audience Library] e [!DNL Customer Attributes]) e [!DNL Assets].
 
-Altre funzioni condivise includono l’amministrazione (gestione di utenti e prodotti) per CX Enterprise, cookie, preferenze dell’account, notifiche e così via.
+>[!NOTE]
+>
+>L&#39;utilizzo dei servizi Persone può richiedere l&#39;esecuzione di specifici passaggi di implementazione. Per ulteriori informazioni, vedere [Iniziare a utilizzare il servizio People](getting-started.md).
 
 Per accedere ai servizi e alle applicazioni condivisi in CX Enterprise, fare clic sul **[!UICONTROL selettore applicazioni]**
 ![Selettore servizi](../assets/apps-icon.png).
 
-**Selettore applicazioni**
-
-![Servizi CX Enterprise](../assets/platform-core-services.png)
-
-Le pagine Servizi in questa guida descrivono i prodotti e i servizi seguenti:
-
-| Servizi core | Descrizione |
+| Servizio core | Descrizione |
 | --- | --- |
-| [Componenti dell’interfaccia centrale](https://experienceleague.adobe.com/it/docs/core-services/interface/experience-cloud) | Accedi alle preferenze dell’account, alla guida del prodotto e ad applicazioni e servizi. |
-| [Libreria pubblico](https://experienceleague.adobe.com/it/docs/core-services/interface/services/audiences/overview) | I tipi di pubblico sono raccolte di visitatori (un elenco di ID visitatore). Con [!DNL Audience Library] di Adobe puoi gestire come tradurre i dati sui visitatori in segmentazione del pubblico. |
-| [Attributi del cliente](https://experienceleague.adobe.com/it/docs/core-services/interface/services/customer-attributes/attributes) | Crea casi di utilizzo di orchestrazione in tempo reale sulla base dei dati contestuali memorizzati negli eventi o nelle origini dati. [!UICONTROL Journey Orchestration] è un servizio applicativo integrato con Experience Platform. |
-| [Assets](https://experienceleague.adobe.com/it/docs/core-services/interface/services/assets/experience-cloud-assets) | CX Enterprise Assets fornisce un archivio unico e centralizzato di risorse pronte per le attività di marketing da condividere tra le diverse applicazioni. |
-| [Triggers](https://experienceleague.adobe.com/it/docs/core-services/interface/services/triggers) | Triggers in CX Enterprise consente di identificare, definire e monitorare i comportamenti chiave dei consumatori, per poi generare comunicazioni tra le diverse applicazioni in modo da coinvolgere nuovamente i visitatori. Puoi utilizzare i trigger nelle decisioni in tempo reale e nella personalizzazione. |
-| [Marketplace Adobe Exchange](https://experienceleague.adobe.com/it/docs/core-services/interface/services/exchange) | Exchange Marketplace è un&#39;unica destinazione in cui è possibile eseguire ricerche, sfogliare, selezionare, pagare e scaricare estensioni Digital Marketing tramite app. Le app includono connettori dati, configurazioni personalizzate per il prodotto di base di Adobe, applicazioni di terze parti e rapporti. |
-
-{style="table-layout:auto"}
+| [Persone > Libreria pubblico](audiences/overview.md) | I tipi di pubblico sono raccolte di visitatori (un elenco di ID visitatore). Con [!DNL Audience Library] di Adobe puoi gestire come tradurre i dati sui visitatori in segmentazione del pubblico. |
+| [Persone > Attributi del cliente](customer-attributes/attributes.md) | Crea casi di utilizzo di orchestrazione in tempo reale sulla base dei dati contestuali memorizzati negli eventi o nelle origini dati. [!UICONTROL Journey Orchestration] è un servizio applicativo integrato con Experience Platform. |
+| [Assets](assets/overview-assets.md) | CX Enterprise Assets fornisce un archivio unico e centralizzato di risorse pronte per le attività di marketing da condividere tra le diverse applicazioni. |
+| [Triggers](triggers.md) | Triggers in CX Enterprise consente di identificare, definire e monitorare i comportamenti chiave dei consumatori, per poi generare comunicazioni tra le diverse applicazioni in modo da coinvolgere nuovamente i visitatori. Puoi utilizzare i trigger nelle decisioni in tempo reale e nella personalizzazione. |
+| [Adobe Exchange](exchange.md) | Adobe Exchange è un&#39;unica destinazione in cui è possibile eseguire ricerche, sfogliare, selezionare, pagare e scaricare estensioni Digital Marketing tramite app. Le app includono connettori dati, configurazioni personalizzate per il prodotto di base di Adobe, applicazioni di terze parti e rapporti. |
 
 >[!NOTE]
 >
