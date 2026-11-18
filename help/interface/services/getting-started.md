@@ -1,5 +1,5 @@
 ---
-description: Abilita le applicazioni Adobe Analytics e Adobe Target per i servizi tra più applicazioni. Scopri come iniziare a utilizzare i servizi CX Enterprise.
+description: Abilita le applicazioni Adobe Analytics e Adobe Target per i servizi tra più applicazioni. Scopri come iniziare a utilizzare il servizio CX Enterprise People.
 solution: CX Enterprise
 title: Introduzione a CX Enterprise
 index: true
@@ -22,14 +22,16 @@ subfeature_v2:
     internal-label: Support
   - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
     internal-label: Organizations
-  - id: d27b1945-f442-4607-91bd-537a0b16e687
-    internal-label: Assets
   - id: eb7e29b9-c5e9-4ed0-8e4b-6465dabb3cb1
     internal-label: Admin tools
   - id: ecb4a972-6786-444c-a014-abc528b9407a
     internal-label: Customer attributes
   - id: fef08361-6ac5-460c-93fe-d063e40b6a49
     internal-label: Getting started
+  - id: e8b6b7ca-4f3c-4275-9b65-e43912bf78bf
+    internal-label: People Audience Library
+  - id: fe560ac6-1b84-42b7-9eee-bb033a8850d6
+    internal-label: People Customer Attributes
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -51,16 +53,16 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
+source-git-commit: ecde38a8abc308acc666c6a0cb321c716921d2da
 workflow-type: tm+mt
-source-wordcount: '2082'
-ht-degree: 41%
+source-wordcount: '2055'
+ht-degree: 39%
 ---
-# Introduzione a CX Enterprise
+# Introduzione all’utilizzo del servizio People
 
-Se di recente hai implementato CX Enterprise utilizzando [tag Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/tags/home), sei già configurato per [Attributi del cliente](../services/overview.md) e CX Enterprise [Tipi di pubblico](../services/audiences/overview.md). Puoi anche gestire utenti e prodotti in [Admin Console](../administration/admin-console.md).
+Se di recente hai implementato CX Enterprise utilizzando [tag Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/tags/home), sei già configurato per [Attributi del cliente](../services/customer-attributes/attributes.md) e CX Enterprise [Tipi di pubblico](../services/audiences/overview.md). Puoi anche gestire utenti e prodotti in [Admin Console](../administration/admin-console.md).
 
-I clienti esistenti possono modernizzare le implementazioni delle applicazioni e implementare CX Enterprise. In questo modo puoi utilizzare le funzioni Attributi del cliente e Tipi di pubblico in Adobe Analytics, Audience Manager e Adobe Target.
+I clienti esistenti possono modernizzare le implementazioni delle applicazioni e implementare CX Enterprise. In questo modo puoi utilizzare le funzionalità [!UICONTROL Attributi del cliente] e [!UICONTROL Pubblico] in Adobe Analytics, Audience Manager e Adobe Target.
 
 ## Accedi come amministratore {#admin-sign-in}
 
@@ -74,7 +76,7 @@ Probabilmente alcuni dei tuoi utenti sono già membri di gruppi di applicazioni,
 
 Quando mappi questi gruppi ai gruppi aziendali CX Enterprise, gli utenti devono collegare manualmente le credenziali del loro account dell’applicazione al rispettivo Adobe ID.
 
-Visualizza [Collega account in CX Enterprise](https://experienceleague.adobe.com/it/docs/core-services/interface/administration/organizations)
+Visualizza [Collega account in CX Enterprise](../administration/organizations.md)
 
 >[!NOTE]
 >
@@ -141,7 +143,7 @@ Ad esempio, si supponga che Bob sia associato all&#39;ID cliente `52mc210tr42` n
 
 L&#39;ID cliente deve essere impostato su ciascuna chiamata al server di [!DNL Analytics] in cui è noto l&#39;ID cliente.
 
-#### Analytics: sincronizzazione dell’ID cliente con il metodo di retrocompilazione di Data Warehouse
+#### [!DNL Analytics]: sincronizzazione dell&#39;ID cliente con il metodo di backfill di Data Warehouse
 
 Quando gli Attributi del cliente sono diventati disponibili per la prima volta, alcuni clienti non avevano ancora implementato il servizio ID visitatore e non potevano utilizzare facilmente gli Attributi del cliente. Per contribuire a ovviare a questo problema, Adobe ha creato un mezzo per eseguire una retrocompilazione delle sincronizzazioni ID utilizzando il Data Warehouse di Adobe Analytics. Questa funzione è nota come retrocompilazione di Data Warehouse. Generalmente, la retrocompilazione di Data Warehouse non è necessaria e di conseguenza non sarà più disponibile a partire da ottobre 2022.
 
@@ -192,7 +194,7 @@ ECID nella richiesta mbox:
 
 ![ECID nella richiesta mbox](../assets/mbox_request.png)
 
-### Cos&#39;è il periodo di prova?
+### Qual è il periodo di tolleranza?
 
 Dopo la distribuzione del servizio ID visitatori, i nuovi visitatori non ricevono più un ID di Analytics (`aid`). Se il Servizio ID visitatore non è stato ancora implementato nelle sezioni del sito, quando i visitatori accedono a tali sezioni, l&#39;ECID (`mid`) non viene riconosciuto e ai visitatori viene assegnato un ID Analytics legacy (`aid`). Questa configurazione può causare potenziali problemi, incluse visite duplicate e attribuzioni non corrette.
 
@@ -206,7 +208,7 @@ Quando è tutto pronto, passa a [Admin Console](https://adminconsole.adobe.com/)
 
 ![Accedere ad Admin Console](../assets/menu-administration-shell.png)
 
-### Attributi cliente
+### Gruppo Attributi del cliente
 
 Gli utenti aggiunti al gruppo [!DNL Customer Attributes] possono visualizzare la voce di menu [!DNL Customer Attributes] sul lato sinistro di CX Enterprise.
 
@@ -214,17 +216,17 @@ Gli utenti aggiunti al gruppo [!DNL Customer Attributes] possono visualizzare la
 
 Utilizza le seguenti funzionalità.
 
-### [!UICONTROL Attributi del cliente]
+### [!UICONTROL Persone] > [!UICONTROL Attributi del cliente]
 
 Se acquisisci dati del cliente di livello Enterprise in un database CRM (Customer Relationship Management), puoi caricare tali dati in un&#39;origine dati di attributi cliente in CX Enterprise. Una volta caricati, puoi usare i dati in [!DNL Adobe Analytics] e [!DNL Adobe Target].
 
-Per ulteriori informazioni, consulta [Attributi del cliente](https://experienceleague.adobe.com/it/docs/core-services/interface/services/customer-attributes/attributes).
+Per ulteriori informazioni, consulta [Attributi del cliente](../services/customer-attributes/attributes.md).
 
 ### [!UICONTROL Persone] > [!UICONTROL Libreria Pubblico]
 
 CX Enterprise [!UICONTROL Audiences] è l&#39;interfaccia che consente di creare tipi di pubblico, o audience, combinare quelli esistenti per creare un pubblico composito e visualizzare quelli condivisi.
 
-Per ulteriori informazioni, consulta [Tipi di pubblico](https://experienceleague.adobe.com/it/docs/core-services/interface/services/audiences/overview).
+Per ulteriori informazioni, consulta [Tipi di pubblico](../services/audiences/overview.md).
 
 ## Archivio dei dati e informativa sulla privacy
 

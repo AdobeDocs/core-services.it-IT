@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Administration
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
     internal-label: Audience segmentation
-source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
+source-git-commit: ecde38a8abc308acc666c6a0cb321c716921d2da
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 41%
+source-wordcount: '741'
+ht-degree: 42%
 ---
 # Pubblico CX Enterprise
 
@@ -87,10 +87,10 @@ La tabella seguente descrive come i tipi di pubblico vengono utilizzati nelle ap
 
 | Elemento | Descrizione |
 | --- | --- |
-| Nuovo | [Creazione di un pubblico](https://experienceleague.adobe.com/it/docs/core-services/interface/services/audiences/create). |
+| Nuovo | [Creazione di un pubblico](create.md). |
 | Titolo e descrizione | Intestazione della colonna per identificare e descrivere il pubblico. |
 | Autore | La persona che ha creato il segmento di pubblico. |
-| Origine | Identifica la posizione in cui è stato creato il pubblico.<ul><li>**Analytics:** segmento creato in Adobe Analytics e quindi pubblicato in CX Enterprise.</li><li>**CX Enterprise:** Un nuovo pubblico [è stato creato in CX Enterprise Audiences](https://experienceleague.adobe.com/it/docs/core-services/interface/services/audiences/create).</li><li>**Audience Manager:** i tipi di pubblico creati da Audience Manager vengono visualizzati automaticamente in CX Enterprise Audiences.</li></ul> |
+| Origine | Identifica la posizione in cui è stato creato il pubblico.<ul><li>**Analytics:** segmento creato in Adobe Analytics e quindi pubblicato in CX Enterprise.</li><li>**CX Enterprise:** Un nuovo pubblico [è stato creato in CX Enterprise Audiences](create.md).</li><li>**Audience Manager:** i tipi di pubblico creati da Audience Manager vengono visualizzati automaticamente in CX Enterprise Audiences.</li></ul> |
 | Dimensione attuali | Dimensione attuale del pubblico. |
 | Attivo | Lo stato attivo del segmento. |
 

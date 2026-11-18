@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
+source-git-commit: ecde38a8abc308acc666c6a0cb321c716921d2da
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 5%
@@ -61,7 +61,7 @@ Usa questa tabella quando la stessa parola viene visualizzata in diverse esperie
 | **Attributi del cliente** | Attributi CRM o Enterprise caricati e mappati per l’utilizzo in Analytics, Target e flussi di lavoro correlati tramite il servizio People. Consulta gli argomenti [Attributi del cliente](../services/customer-attributes/attributes.md). | Non eseguire l&#39;equazione con **caratteristiche Audience Manager** da sole o con ogni campo di profilo **Real-Time CDP** senza controllare il limite del prodotto. |
 | **Libreria pubblico** | Interfaccia utente di CX Enterprise per comporre e condividere tipi di pubblico tra applicazioni integrate. | Anche **Audience Manager** e **Target** utilizzano &quot;tipi di pubblico&quot;, ma le regole di segmentazione e le destinazioni differiscono in base al prodotto. |
 | **Segmento** (Analytics) | Una definizione di pubblico basata su regole che puoi creare in Adobe Analytics e, se supportata, pubblicare per tipi di pubblico condivisi. | In **Audience Manager**, i segmenti combinano **caratteristiche**; la denominazione si sovrappone, ma l&#39;implementazione non è identica. In **Target**, &quot;audiences&quot; ha sostituito le vecchie etichette &quot;segmento&quot; in molte posizioni. |
-| **Assets (Experience Cloud Assets)** | Cartelle e file condivisi per la collaborazione tra flussi di lavoro di marketing CX Enterprise e utenti approvati di **Creative Cloud**. Vedi [Panoramica di Assets](../services/assets/experience-cloud-assets.md). | In **Creative Cloud**, &quot;risorse&quot; in genere significa file di progettazione (PSD, AI, INDD). Stessa parola, modello di condivisione e governance diverso. |
+| **Assets (Experience Cloud Assets)** | Cartelle e file condivisi per la collaborazione tra flussi di lavoro di marketing CX Enterprise e utenti approvati di **Creative Cloud**. Vedi [Panoramica di Assets](../services/assets/overview-assets.md). | In **Creative Cloud**, &quot;risorse&quot; in genere significa file di progettazione (PSD, AI, INDD). Stessa parola, modello di condivisione e governance diverso. |
 
 {style="table-layout:auto"}
 

@@ -36,7 +36,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
+source-git-commit: ecde38a8abc308acc666c6a0cb321c716921d2da
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 34%
@@ -73,7 +73,7 @@ Aggiornamenti di [IA per l&#39;agente in CX Enterprise](https://experienceleague
 
 ## Ottobre 2025
 
-[Verifica l&#39;organizzazione](../experience-cloud.md) con una nota sul messaggio di errore se un amministratore limita l&#39;accesso ai prodotti Adobe in base agli indirizzi IP.
+[Verifica l&#39;organizzazione](../home.md) con una nota sul messaggio di errore se un amministratore limita l&#39;accesso ai prodotti Adobe in base agli indirizzi IP.
 
 ## Agosto 2025
 
@@ -130,7 +130,7 @@ Sono state aggiornate le [domande frequenti sull’amministrazione](faq.md) con 
 
 ## 24 agosto 2021
 
-È stata aggiornata la pagina [Componenti centrali](../experience-cloud.md) (pagina di destinazione di questa guida). È stato aggiunto il supporto per browser e lingue, aggiornamenti alle organizzazioni, accesso e ulteriori informazioni sui domini.
+È stata aggiornata la pagina [Componenti centrali](../home.md) (pagina di destinazione di questa guida). È stato aggiunto il supporto per browser e lingue, aggiornamenti alle organizzazioni, accesso e ulteriori informazioni sui domini.
 
 ## 6 agosto 2021
 
@@ -142,7 +142,7 @@ Struttura della guida riorganizzata, sommario.
 
 ## 1° giugno 2021
 
-È stata aggiornata la [pagina di destinazione](../experience-cloud.md) con la nuova guida su accesso a CX Enterprise, ricerca globale, preferenze e notifiche.
+È stata aggiornata la [pagina di destinazione](../home.md) con la nuova guida su accesso a CX Enterprise, ricerca globale, preferenze e notifiche.
 
 ## 19 agosto 2020
 
@@ -197,7 +197,7 @@ Aggiunta [Integrazioni CX Enterprise](../administration/integrations.md), una ra
 
 ## 11 febbraio 2016
 
-Aggiunto [CX Enterprise Assets](../services/assets/experience-cloud-assets.md).
+Aggiunto [CX Enterprise Assets](../services/assets/overview-assets.md).
 
 ## 15 gennaio 2015
 
