@@ -5,14 +5,16 @@ breadcrumb-title: Interfaccia e amministrazione di CX Enterprise
 title: Guida all'amministrazione e all'interfaccia di CX Enterprise
 description: Scopri l’interfaccia e l’amministrazione di CX Enterprise. Sfoglia gli argomenti relativi ad AI, amministrazione, servizi condivisi, raccolta dati, cookie, note sulla versione e domande frequenti.
 index: true
-source-git-commit: a714343bc3e17145e51fd99f64690e7d69ab4d9d
+source-git-commit: 8a12be4ae959319068585c1593d2ddfe24ffc0c3
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '214'
 ht-degree: 57%
 ---
 # Interfaccia e amministrazione di CX Enterprise {#interface}
 
-+ [Interfaccia e amministrazione di CX Enterprise](/help/interface/experience-cloud.md)
++ [Interfaccia e amministrazione di CX Enterprise](/help/interface/home.md)
++ Introduzione {#get-started}
+  + [Introduzione all’utilizzo di CX Enterprise](/help/interface/get-started-using-cxe.md)
 + Amministrazione {#administration}
   + [Preferenze e notifiche dell’account](/help/interface/features/account-preferences.md)
   + [Supporto di browser e lingue](/help/interface/browser-language.md)
@@ -22,16 +24,16 @@ ht-degree: 57%
   + [Integrazioni](/help/interface/administration/integrations.md)
   + [Ricerca unificata](/help/interface/features/search.md)
   + [Preferenze di apprendimento personalizzate](/help/interface/features/personalized-learning.md)
-+ Servizi di interfaccia {#services}
-  + [Panoramica dell’interfaccia](/help/interface/services/overview.md)
++ Risorse {#assets}
+  + [Panoramica di Assets](/help/interface/services/assets/overview-assets.md)
+  + [Gestione degli utenti di Creative Cloud](/help/interface/services/assets/manage-cc-users.md)
+  + [Condividere cartelle di risorse](/help/interface/services/assets/share.md)
+  + [Caricare una risorsa in una cartella condivisa](/help/interface/services/assets/upload.md)
+  + [Requisiti del file risorsa per la condivisione](/help/interface/services/assets/file-reqs.md)
+  + [Comportamento delle cartelle condivise](/help/interface/services/assets/behavior.md)
++ Persone {#services}
+  + [Informazioni sulle funzioni condivise](/help/interface/services/overview.md)
   + [Introduzione](/help/interface/services/getting-started.md)
-  + Risorse {#assets}
-    + [Panoramica di Assets](/help/interface/services/assets/experience-cloud-assets.md)
-    + [Gestione degli utenti di Creative Cloud](/help/interface/services/assets/manage-cc-users.md)
-    + [Condividere cartelle di risorse](/help/interface/services/assets/share.md)
-    + [Caricare una risorsa in una cartella condivisa](/help/interface/services/assets/upload.md)
-    + [Requisiti del file risorsa per la condivisione](/help/interface/services/assets/file-reqs.md)
-    + [Comportamento delle cartelle condivise](/help/interface/services/assets/behavior.md)
   + Libreria pubblico {#audiences}
     + [Panoramica sui tipi di pubblico](/help/interface/services/audiences/overview.md)
     + [Creazione di un pubblico](/help/interface/services/audiences/create.md)
